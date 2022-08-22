@@ -3,7 +3,7 @@
 	group: "31EE4422B6F1456C"
 	order_index: 2
 	filename: "solar_redux"
-	title: "Solar Redux"
+	title: "日光通量：重置"
 	icon: "solarflux:sp_8"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
