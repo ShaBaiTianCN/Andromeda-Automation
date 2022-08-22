@@ -1,7 +1,7 @@
 {
 	id: "1E1F90C7526083ED"
 	order_index: 34
-	title: "下界合金"
+	title: "下界合金锭"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:netherite_ingot" }]

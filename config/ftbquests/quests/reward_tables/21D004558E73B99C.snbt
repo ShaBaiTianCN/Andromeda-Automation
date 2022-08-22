@@ -176,7 +176,7 @@
 						LootTable: "chests/underwater_ruin_big"
 					}
 					display: {
-						Name: "{\"text\":\"海底废墟\"}"
+						Name: "{\"text\":\"大型海底遗迹\"}"
 					}
 				}
 			}
@@ -417,7 +417,7 @@
 						LootTable: "chests/buried_treasure"
 					}
 					display: {
-						Name: "{\"text\":\"宝藏\"}"
+						Name: "{\"text\":\"地下宝藏\"}"
 					}
 				}
 			}
@@ -462,7 +462,7 @@
 						LootTable: "chests/underwater_ruin_small"
 					}
 					display: {
-						Name: "{\"text\":\"海底遗迹\"}"
+						Name: "{\"text\":\"小型海底遗迹\"}"
 					}
 				}
 			}
