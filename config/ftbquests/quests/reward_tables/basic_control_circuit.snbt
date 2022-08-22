@@ -1,7 +1,7 @@
 {
 	id: "5A135E5B7D2B2318"
 	order_index: 121
-	title: "basic control circuit"
+	title: "基础控制电路"
 	loot_size: 1
 	rewards: [{ item: "mekanism:basic_control_circuit", count: 16 }]
 }

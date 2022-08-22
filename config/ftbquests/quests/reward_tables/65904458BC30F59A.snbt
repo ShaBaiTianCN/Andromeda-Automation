@@ -1,7 +1,7 @@
 {
 	id: "65904458BC30F59A"
 	order_index: 78
-	title: "dward"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_ward" }]

@@ -1,7 +1,7 @@
 {
 	id: "4775E72DB939DEFF"
 	order_index: 22
-	title: "Paraglider"
+	title: "滑翔伞"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

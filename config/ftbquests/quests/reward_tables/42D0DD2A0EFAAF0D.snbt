@@ -1,7 +1,7 @@
 {
 	id: "42D0DD2A0EFAAF0D"
 	order_index: 32
-	title: "Early_Game_Pipes"
+	title: "游戏早期管道"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

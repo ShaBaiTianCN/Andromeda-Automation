@@ -1,7 +1,7 @@
 {
 	id: "30C209CB3E410870"
 	order_index: 103
-	title: "BigBookofBees"
+	title: "蜜蜂巨作"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

@@ -1,7 +1,7 @@
 {
 	id: "51E1094E8C06E495"
 	order_index: 26
-	title: "Bookshelves"
+	title: "书架"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

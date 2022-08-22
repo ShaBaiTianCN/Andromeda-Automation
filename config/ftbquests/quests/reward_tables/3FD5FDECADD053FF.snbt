@@ -1,7 +1,7 @@
 {
 	id: "3FD5FDECADD053FF"
 	order_index: 104
-	title: "DeepMobLearning"
+	title: "深度怪物学习"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

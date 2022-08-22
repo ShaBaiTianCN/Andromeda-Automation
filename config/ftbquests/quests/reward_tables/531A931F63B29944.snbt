@@ -1,7 +1,7 @@
 {
 	id: "531A931F63B29944"
 	order_index: 4
-	title: "Useful_Plants"
+	title: "有用的植物"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

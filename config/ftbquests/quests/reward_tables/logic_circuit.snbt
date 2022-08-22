@@ -1,7 +1,7 @@
 {
 	id: "4F7E39E5FD3DBEB1"
 	order_index: 125
-	title: "logic circuit"
+	title: "逻辑处理器"
 	loot_size: 1
 	rewards: [{ item: "ae2:logic_processor", count: 8 }]
 }

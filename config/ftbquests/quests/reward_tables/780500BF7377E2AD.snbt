@@ -1,7 +1,7 @@
 {
 	id: "780500BF7377E2AD"
 	order_index: 17
-	title: "End_Game"
+	title: "游戏末期"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

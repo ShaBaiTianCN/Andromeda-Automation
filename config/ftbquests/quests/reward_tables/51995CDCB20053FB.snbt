@@ -1,7 +1,7 @@
 {
 	id: "51995CDCB20053FB"
 	order_index: 37
-	title: "Iron"
+	title: "铁锭"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:iron_ingot", count: 16 }]

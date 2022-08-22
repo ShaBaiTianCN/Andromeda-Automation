@@ -1,7 +1,7 @@
 {
 	id: "16FBD4E0D828324A"
 	order_index: 120
-	title: "enderium"
+	title: "末影锭"
 	loot_size: 1
 	rewards: [{ item: "thermal:enderium_ingot", count: 8 }]
 }

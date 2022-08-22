@@ -1,7 +1,7 @@
 {
 	id: "11D67B084FE47808"
 	order_index: 92
-	title: "Creativeability"
+	title: "创造能力槽"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

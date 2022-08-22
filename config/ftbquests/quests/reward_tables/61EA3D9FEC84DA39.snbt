@@ -1,7 +1,7 @@
 {
 	id: "61EA3D9FEC84DA39"
 	order_index: 9
-	title: "Swords"
+	title: "剑"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

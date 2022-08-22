@@ -1,7 +1,7 @@
 {
 	id: "0B995E81FB96EEAF"
 	order_index: 95
-	title: "Pedestal"
+	title: "展示架"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "statues:display_stand" }]

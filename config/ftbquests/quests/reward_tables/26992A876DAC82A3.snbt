@@ -1,7 +1,7 @@
 {
 	id: "26992A876DAC82A3"
 	order_index: 111
-	title: "Cyclic_Guidebook"
+	title: "循环指南"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

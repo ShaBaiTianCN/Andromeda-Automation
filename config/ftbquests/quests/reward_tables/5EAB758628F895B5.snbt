@@ -1,7 +1,7 @@
 {
 	id: "5EAB758628F895B5"
 	order_index: 7
-	title: "Armor_Tools"
+	title: "盔甲与工具"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

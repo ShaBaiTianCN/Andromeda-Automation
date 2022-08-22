@@ -1,7 +1,7 @@
 {
 	id: "746534808541AD94"
 	order_index: 1
-	title: "furniture"
+	title: "家具"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

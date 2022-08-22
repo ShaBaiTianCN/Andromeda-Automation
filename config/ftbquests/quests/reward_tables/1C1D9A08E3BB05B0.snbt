@@ -1,7 +1,7 @@
 {
 	id: "1C1D9A08E3BB05B0"
 	order_index: 114
-	title: "Unlucky_Potions"
+	title: "幸运药水（幸运：-80）"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

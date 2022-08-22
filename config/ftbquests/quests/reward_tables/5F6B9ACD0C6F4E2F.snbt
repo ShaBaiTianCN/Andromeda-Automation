@@ -1,7 +1,7 @@
 {
 	id: "5F6B9ACD0C6F4E2F"
 	order_index: 91
-	title: "Creativesoul"
+	title: "创造灵魂槽"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

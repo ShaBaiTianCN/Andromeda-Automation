@@ -1,7 +1,7 @@
 {
 	id: "115CE0A0E363D4C5"
 	order_index: 38
-	title: "Copper"
+	title: "铜"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:copper_block", count: 64 }]

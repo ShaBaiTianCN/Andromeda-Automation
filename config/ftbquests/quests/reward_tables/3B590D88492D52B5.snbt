@@ -1,7 +1,7 @@
 {
 	id: "3B590D88492D52B5"
 	order_index: 44
-	title: "Cobbled_Deepslate"
+	title: "深板岩圆石"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:cobbled_deepslate", count: 64 }]

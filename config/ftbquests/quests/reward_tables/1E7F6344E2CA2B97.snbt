@@ -1,7 +1,7 @@
 {
 	id: "1E7F6344E2CA2B97"
 	order_index: 40
-	title: "Large_Steak"
+	title: "牛排"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:cooked_beef", count: 64 }]

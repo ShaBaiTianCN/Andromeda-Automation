@@ -1,7 +1,7 @@
 {
 	id: "26E5492D15848277"
 	order_index: 113
-	title: "Very_Lucky_Potions"
+	title: "幸运药水（幸运：+80）"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

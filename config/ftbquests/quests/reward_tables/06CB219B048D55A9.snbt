@@ -1,7 +1,7 @@
 {
 	id: "06CB219B048D55A9"
 	order_index: 16
-	title: "Super_Food"
+	title: "超级食物"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

@@ -1,7 +1,7 @@
 {
 	id: "7F218E2A57ABBD64"
 	order_index: 77
-	title: "dstrad"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_strad" }]

@@ -1,7 +1,7 @@
 {
 	id: "01ABE1C5A66E4C34"
 	order_index: 73
-	title: "dfar"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_far" }]

@@ -1,7 +1,7 @@
 {
 	id: "125C77548A7BA5F9"
 	order_index: 52
-	title: "Chocolate"
+	title: "巧克力板"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

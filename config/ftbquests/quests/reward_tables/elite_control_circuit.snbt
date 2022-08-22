@@ -1,7 +1,7 @@
 {
 	id: "617CACB0BA9148CF"
 	order_index: 123
-	title: "elite control circuit"
+	title: "精英控制电路"
 	loot_size: 1
 	rewards: [{ item: "mekanism:elite_control_circuit", count: 16 }]
 }

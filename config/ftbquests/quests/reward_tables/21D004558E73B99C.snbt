@@ -1,7 +1,7 @@
 {
 	id: "21D004558E73B99C"
 	order_index: 96
-	title: "Dungeon_Chest"
+	title: "地牢宝箱"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [
@@ -15,7 +15,7 @@
 						LootTable: "chests/village/village_taiga_house"
 					}
 					display: {
-						Name: "{\"text\":\"Village Taiga House\"}"
+						Name: "{\"text\":\"针叶林村庄房屋\"}"
 					}
 				}
 			}
@@ -30,7 +30,7 @@
 						LootTable: "chests/village/village_snowy_house"
 					}
 					display: {
-						Name: "{\"text\":\"Village Snowy House\"}"
+						Name: "{\"text\":\"积雪的平原村庄房屋\"}"
 					}
 				}
 			}
@@ -45,7 +45,7 @@
 						LootTable: "chests/desert_pyramid"
 					}
 					display: {
-						Name: "{\"text\":\"End City Treasure\"}"
+						Name: "{\"text\":\"沙漠神殿\"}"
 					}
 				}
 			}
@@ -60,7 +60,7 @@
 						LootTable: "chests/abandoned_mineshaft"
 					}
 					display: {
-						Name: "{\"text\":\"Abandoned Mineshaft\"}"
+						Name: "{\"text\":\"废弃矿井\"}"
 					}
 				}
 			}
@@ -75,7 +75,7 @@
 						LootTable: "chests/village/village_plains_house"
 					}
 					display: {
-						Name: "{\"text\":\"Village Plains House\"}"
+						Name: "{\"text\":\"平原村庄房屋\"}"
 					}
 				}
 			}
@@ -90,7 +90,7 @@
 						LootTable: "chests/village/village_mason"
 					}
 					display: {
-						Name: "{\"text\":\"Village Mason\"}"
+						Name: "{\"text\":\"石匠房屋\"}"
 					}
 				}
 			}
@@ -105,7 +105,7 @@
 						LootTable: "chests/village/village_fletcher"
 					}
 					display: {
-						Name: "{\"text\":\"Village_Fletcher\"}"
+						Name: "{\"text\":\"制箭师房屋\"}"
 					}
 				}
 			}
@@ -120,7 +120,7 @@
 						LootTable: "chests/village/village_fisher"
 					}
 					display: {
-						Name: "{\"text\":\"Village Fisher\"}"
+						Name: "{\"text\":\"渔民房屋\"}"
 					}
 				}
 			}
@@ -146,7 +146,7 @@
 						LootTable: "chests/shipwreck_supply"
 					}
 					display: {
-						Name: "{\"text\":\"Shipwreck Supply\"}"
+						Name: "{\"text\":\"沉船补给\"}"
 					}
 				}
 			}
@@ -161,7 +161,7 @@
 						LootTable: "chests/stronghold_corridor"
 					}
 					display: {
-						Name: "{\"text\":\"Stronghold Corridor\"}"
+						Name: "{\"text\":\"要塞走廊\"}"
 					}
 				}
 			}
@@ -176,7 +176,7 @@
 						LootTable: "chests/underwater_ruin_big"
 					}
 					display: {
-						Name: "{\"text\":\"Underwater ruin big\"}"
+						Name: "{\"text\":\"海底废墟\"}"
 					}
 				}
 			}
@@ -191,7 +191,7 @@
 						LootTable: "chests/village/village_armorer"
 					}
 					display: {
-						Name: "{\"text\":\"Village Armorer\"}"
+						Name: "{\"text\":\"盔甲商房屋\"}"
 					}
 				}
 			}
@@ -206,7 +206,7 @@
 						LootTable: "chests/woodland_mansion"
 					}
 					display: {
-						Name: "{\"text\":\"Woodland Mansion\"}"
+						Name: "{\"text\":\"林地府邸\"}"
 					}
 				}
 			}
@@ -221,7 +221,7 @@
 						LootTable: "chests/jungle_temple"
 					}
 					display: {
-						Name: "{\"text\":\"Jungle Temple Dispenser\"}"
+						Name: "{\"text\":\"丛林神庙\"}"
 					}
 				}
 			}
@@ -236,7 +236,7 @@
 						LootTable: "chests/jungle_temple_dispenser"
 					}
 					display: {
-						Name: "{\"text\":\"Nether Bridge\"}"
+						Name: "{\"text\":\"丛林神庙发射器\"}"
 					}
 				}
 			}
@@ -251,7 +251,7 @@
 						LootTable: "chests/nether_bridge"
 					}
 					display: {
-						Name: "{\"text\":\"Pillager Outpost\"}"
+						Name: "{\"text\":\"下界桥梁\"}"
 					}
 				}
 			}
@@ -266,7 +266,7 @@
 						LootTable: "chests/village/village_weaponsmith"
 					}
 					display: {
-						Name: "{\"text\":\"Village Weaponsmith\"}"
+						Name: "{\"text\":\"村庄铁匠铺\"}"
 					}
 				}
 			}
@@ -281,7 +281,7 @@
 						LootTable: "chests/village/village_toolsmith"
 					}
 					display: {
-						Name: "{\"text\":\"Village Toolsmith\"}"
+						Name: "{\"text\":\"村庄工具铺\"}"
 					}
 				}
 			}
@@ -296,7 +296,7 @@
 						LootTable: "chests/village/village_butcher"
 					}
 					display: {
-						Name: "{\"text\":\"Village Butcher\"}"
+						Name: "{\"text\":\"村庄肉铺\"}"
 					}
 				}
 			}
@@ -311,7 +311,7 @@
 						LootTable: "chests/stronghold_crossing"
 					}
 					display: {
-						Name: "{\"text\":\"Stronghold Crossing\"}"
+						Name: "{\"text\":\"要塞交叉口\"}"
 					}
 				}
 			}
@@ -326,7 +326,7 @@
 						LootTable: "chests/village/village_temple"
 					}
 					display: {
-						Name: "{\"text\":\"Village Temple\"}"
+						Name: "{\"text\":\"村庄教堂\"}"
 					}
 				}
 			}
@@ -341,7 +341,7 @@
 						LootTable: "chests/pillager_outpost"
 					}
 					display: {
-						Name: "{\"text\":\"Shipwreck Map\"}"
+						Name: "{\"text\":\"沉船藏宝图\"}"
 					}
 				}
 			}
@@ -356,7 +356,7 @@
 						LootTable: "chests/village/village_desert_house"
 					}
 					display: {
-						Name: "{\"text\":\"Desert House\"}"
+						Name: "{\"text\":\"沙漠村庄房屋\"}"
 					}
 				}
 			}
@@ -372,7 +372,7 @@
 						LootTable: "chests/village/village_shepherd"
 					}
 					display: {
-						Name: "{\"text\":\"Village shepherd\"}"
+						Name: "{\"text\":\"村庄牧羊人房屋\"}"
 					}
 				}
 			}
@@ -387,7 +387,7 @@
 						LootTable: "chests/end_city_treasure"
 					}
 					display: {
-						Name: "{\"text\":\"Igloo chest\"}"
+						Name: "{\"text\":\"末地城宝藏\"}"
 					}
 				}
 			}
@@ -402,7 +402,7 @@
 						LootTable: "chests/igloo_chest"
 					}
 					display: {
-						Name: "{\"text\":\"Jungle Temple\"}"
+						Name: "{\"text\":\"雪屋\"}"
 					}
 				}
 			}
@@ -417,7 +417,7 @@
 						LootTable: "chests/buried_treasure"
 					}
 					display: {
-						Name: "{\"text\":\"Buried Treasure\"}"
+						Name: "{\"text\":\"宝藏\"}"
 					}
 				}
 			}
@@ -432,7 +432,7 @@
 						LootTable: "chests/shipwreck_treasure"
 					}
 					display: {
-						Name: "{\"text\":\"Shipwreck Treasure\"}"
+						Name: "{\"text\":\"沉船宝藏\"}"
 					}
 				}
 			}
@@ -447,7 +447,7 @@
 						LootTable: "chests/simple_dungeon"
 					}
 					display: {
-						Name: "{\"text\":\"Simple Dungeon\"}"
+						Name: "{\"text\":\"普通地牢\"}"
 					}
 				}
 			}
@@ -462,7 +462,7 @@
 						LootTable: "chests/underwater_ruin_small"
 					}
 					display: {
-						Name: "{\"text\":\"Underwater Ruin Small\"}"
+						Name: "{\"text\":\"海底遗迹\"}"
 					}
 				}
 			}
@@ -477,7 +477,7 @@
 						LootTable: "chests/village/village_cartographer"
 					}
 					display: {
-						Name: "{\"text\":\"Village Cartographer\"}"
+						Name: "{\"text\":\"村庄制图师房屋\"}"
 					}
 				}
 			}
@@ -492,7 +492,7 @@
 						LootTable: "chests/village/village_tannery"
 					}
 					display: {
-						Name: "{\"text\":\"Village Tannery\"}"
+						Name: "{\"text\":\"村庄皮革厂\"}"
 					}
 				}
 			}
@@ -507,7 +507,7 @@
 						LootTable: "chests/village/village_savanna_house"
 					}
 					display: {
-						Name: "{\"text\":\"Village Savanna housee\"}"
+						Name: "{\"text\":\"热带草原房屋\"}"
 					}
 				}
 			}

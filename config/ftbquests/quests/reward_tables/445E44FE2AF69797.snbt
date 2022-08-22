@@ -1,7 +1,7 @@
 {
 	id: "445E44FE2AF69797"
 	order_index: 45
-	title: "Calcite"
+	title: "方解石"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:calcite", count: 64 }]

@@ -1,7 +1,7 @@
 {
 	id: "1E1B25B27FCD2FAC"
 	order_index: 122
-	title: "advanced control circuit"
+	title: "高级控制电路"
 	loot_size: 1
 	rewards: [{ item: "mekanism:advanced_control_circuit", count: 16 }]
 }

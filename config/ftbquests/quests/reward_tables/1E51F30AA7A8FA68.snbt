@@ -1,7 +1,7 @@
 {
 	id: "1E51F30AA7A8FA68"
 	order_index: 76
-	title: "dstall"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_stal" }]
