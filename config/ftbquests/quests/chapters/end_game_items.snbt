@@ -3,7 +3,7 @@
 	group: "060FC1801833F14E"
 	order_index: 3
 	filename: "end_game_items"
-	title: "End Game Items"
+	title: "终极物品"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -309,10 +309,10 @@
 			}]
 		}
 		{
-			title: "The Ultimate Challenge"
+			title: "终极挑战"
 			x: 4.0d
 			y: 16.0d
-			description: ["You clearly are insane"]
+			description: ["你显然是疯了"]
 			hide_dependency_lines: true
 			dependencies: ["08F63CF67C3CD75F"]
 			hide: true
