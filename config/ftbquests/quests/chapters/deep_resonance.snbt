@@ -3,7 +3,7 @@
 	group: "31EE4422B6F1456C"
 	order_index: 1
 	filename: "deep_resonance"
-	title: "Deep Resonance"
+	title: "深度共振"
 	icon: {
 		id: "deepresonance:resonating_crystal_generated"
 		Count: 1b
@@ -117,7 +117,7 @@
 			y: 2.5d
 			description: [
 				""
-				"Put an energy collector on top of a generator part with a controller connected! The controller allows for redstone powering your generator! You need ressonance crystals nearby [hand crafted or from structures] nearby in order to generate power from them!"
+				"在发电机上面放置能源收集器并将发电机控制器放在其侧面！控制器可以检测红石信号以控制发电机！设备周围需要有共振水晶（人工制造或自然生成）才能发电！"
 			]
 			dependencies: ["2233BE7CD62BCD00"]
 			id: "75A5CD017B42504C"
@@ -153,7 +153,7 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			description: ["This allows you to filter based off of purity, efficiency, or"]
+			description: ["你可以用阀门筛选特定属性的水晶。"]
 			dependencies: ["2233BE7CD62BCD00"]
 			id: "19EE3783F448BBBA"
 			tasks: [{
@@ -176,7 +176,7 @@
 		{
 			x: 7.0d
 			y: 2.5d
-			description: ["This can smelt down deep ressonance ore! Lower heat improves the quality of smelted crystal! So take it slow!"]
+			description: ["用其冶炼共振矿石！适量的岩浆（下方储罐的40%~60%）可以冶炼出高质量的液态共振水晶。心急吃不了热豆腐！"]
 			dependencies: ["2233BE7CD62BCD00"]
 			id: "367A1440229B258F"
 			tasks: [{
@@ -200,14 +200,14 @@
 			icon: "minecraft:barrier"
 			x: 3.5d
 			y: 0.0d
-			description: ["Be careful! If your reactor is not insulated properly [ 5 blocks of dense obsidian surrounding all crystals as well as the generator] it will leak radiation! Which will destroy the land, trees, create poisoned dirt, and have very negative effects on any living entities!"]
+			description: ["当心！这套发电装置会产生辐射！它会将泥土和草方块变成毒泥土，并给生物很强的负面效果！（致密黑曜石是抵御辐射的神器）"]
 			dependencies: ["24E1A130B23DFA3F"]
 			hide: true
 			id: "2233BE7CD62BCD00"
 			tasks: [{
 				id: "32DD010E74975918"
 				type: "checkmark"
-				title: "Radiation"
+				title: "辐射"
 			}]
 			rewards: [{
 				id: "47FB5BA79C26088D"
@@ -224,7 +224,7 @@
 		{
 			x: 4.0d
 			y: 2.5d
-			description: ["When provided with filters will increase the stats of nearby fluid in a tank!"]
+			description: ["有过滤材料的净化器可以提高附近储罐中液态共振水晶的纯度。"]
 			dependencies: ["2233BE7CD62BCD00"]
 			id: "1A68326AA1F71DB8"
 			tasks: [{
@@ -247,7 +247,7 @@
 		{
 			x: 5.5d
 			y: 2.5d
-			description: ["Increases the stats of a crystal when you zap a tank! Make sure to place the lense on the tank!"]
+			description: ["激光攻击储罐可以改变里面液态共振水晶的属性！请确保透镜有在储罐上！"]
 			dependencies: ["2233BE7CD62BCD00"]
 			id: "634870254A1EF5D9"
 			tasks: [
@@ -278,7 +278,7 @@
 			x: 5.5d
 			y: 4.0d
 			shape: "gear"
-			description: ["The crystalizer can turn your smelted cryal fluid [that has been purified and altared] back into a crystal you can use!"]
+			description: ["结晶器可以将液态共振水晶变回你可以使用的晶体"]
 			dependencies: ["634870254A1EF5D9"]
 			id: "198939B1CF56DF65"
 			tasks: [{
@@ -308,7 +308,7 @@
 		{
 			x: 8.5d
 			y: 2.5d
-			description: ["This protects you from radiation damage!"]
+			description: ["这几乎可以保护你免受辐射伤害！"]
 			dependencies: ["2233BE7CD62BCD00"]
 			id: "320A61CC53E78DF0"
 			tasks: [

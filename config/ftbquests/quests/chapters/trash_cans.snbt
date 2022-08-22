@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 6
 	filename: "trash_cans"
-	title: "Trash Cans"
+	title: "垃圾桶"
 	icon: "trashcans:ultimate_trash_can"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
