@@ -1,0 +1,16 @@
+{
+	id: "391B949093449581"
+	order_index: 107
+	title: "Network_Guide_Book"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "storagenetwork:network_book"
+			}
+		}
+	}]
+}

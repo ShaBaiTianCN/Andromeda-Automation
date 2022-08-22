@@ -1,0 +1,8 @@
+{
+	id: "1B9B0779FFF9F154"
+	order_index: 118
+	title: "spawners"
+	icon: "minecraft:spawner"
+	loot_size: 1
+	rewards: [{ item: "minecraft:spawner" }]
+}

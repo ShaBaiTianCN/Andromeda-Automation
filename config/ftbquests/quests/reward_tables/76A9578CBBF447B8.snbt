@@ -1,0 +1,27 @@
+{
+	id: "76A9578CBBF447B8"
+	order_index: 6
+	title: "Lucky_Block"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "chancecubes:chance_cube", count: 16 }
+		{ item: "chancecubes:chance_cube", count: 8 }
+		{ item: "chancecubes:chance_cube", count: 4 }
+		{ item: "chancecubes:chance_cube" }
+		{ item: "lucky:lucky_block", count: 16 }
+		{ item: "lucky:lucky_block", count: 8 }
+		{ item: "lucky:lucky_block", count: 4 }
+		{ item: "lucky:lucky_block" }
+		{ item: "lucky:lucky_potion", count: 5 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 500
+			monster: 500
+		}
+		color: 15204206
+		string_id: "lucky_block"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Andesite",
+  "colors": [
+    "403e3d",
+    "6b6968"
+  ],
+  "ingredient": {
+    "item": "minecraft:andesite"
+  },
+"inUltimateSingularity": false
+
+}

@@ -1,0 +1,16 @@
+{
+	id: "06972854B0BA5B39"
+	order_index: 59
+	title: "Elytra"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "minecraft:elytra"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

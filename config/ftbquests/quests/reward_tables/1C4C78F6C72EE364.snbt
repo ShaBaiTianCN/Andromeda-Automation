@@ -1,0 +1,16 @@
+{
+	id: "1C4C78F6C72EE364"
+	order_index: 55
+	title: "RedChocolate"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "create_confectionery:full_ruby_chocolate_bar"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Iron Sword",
+  "colors": [
+    "d4d4d4",
+    "adaaaa"
+  ],
+  "ingredient": {
+    "item": "minecraft:iron_sword"
+  },
+"inUltimateSingularity": false
+
+}

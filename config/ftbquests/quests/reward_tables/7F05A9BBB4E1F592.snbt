@@ -1,0 +1,114 @@
+{
+	id: "7F05A9BBB4E1F592"
+	order_index: 23
+	title: "Bee_Eggs"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:ghostly"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:ender"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:draconic"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:crystalline"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:glowing"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:magmatic"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:slimy"
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "productivebees:spawn_egg_configurable_bee"
+				Count: 1b
+				tag: {
+					EntityTag: {
+						type: "productivebees:sugarbag"
+					}
+				}
+			}
+			count: 6
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 250
+			monster: 250
+		}
+		color: 16776960
+		string_id: "bee_eggs"
+	}
+}

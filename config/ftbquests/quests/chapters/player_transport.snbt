@@ -1,0 +1,327 @@
+{
+	id: "4B8A515670061DC9"
+	group: "47CF1A3B0D7BE39F"
+	order_index: 0
+	filename: "player_transport"
+	title: "Base Transport"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "45C7C34FAA959183"
+			tasks: [{
+				id: "4A35A16DD7D3C689"
+				type: "item"
+				title: "Any #elevatorid:elevators"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "elevatorid:elevators"
+					}
+				}
+			}]
+			rewards: [{
+				id: "36C2C4543EF00B36"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["33FA3111A9F764AA"]
+			id: "0D6B029781621FC8"
+			tasks: [{
+				id: "568E48AA5D1C90E5"
+				type: "item"
+				item: "movingelevators:button_block"
+			}]
+			rewards: [{
+				id: "464DADEDFFBD1D8C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "33FA3111A9F764AA"
+			tasks: [{
+				id: "4F99FFEA22698921"
+				type: "item"
+				item: "movingelevators:elevator_block"
+			}]
+			rewards: [{
+				id: "5FFD96E9F0FE029B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			shape: "gear"
+			dependencies: ["33FA3111A9F764AA"]
+			id: "6981F1976A465F45"
+			tasks: [{
+				id: "36238464D7429BE6"
+				type: "item"
+				item: "movingelevators:display_block"
+			}]
+			rewards: [
+				{
+					id: "08DE436A8F49AECA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "lights"
+						}
+					}
+				}
+				{
+					id: "5AF361F40D154C4A"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["33FA3111A9F764AA"]
+			id: "3116A6E7D59F4F6A"
+			tasks: [{
+				id: "5BE8604CCE049FCF"
+				type: "item"
+				item: "elevatorid:elevator_black"
+			}]
+			rewards: [{
+				id: "32A55CF4FB5A15C2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "437AFEE16D30FB3A"
+			tasks: [{
+				id: "63E4B4BA2C84C85D"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [{
+				id: "6BBFDB6950272BED"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "1B678F3475AE90C0"
+			tasks: [{
+				id: "7E7A3729A750486E"
+				type: "item"
+				item: "waystones:warp_plate"
+			}]
+			rewards: [{
+				id: "447200E8B1E0B216"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "08D7317F634FAAFD"
+			tasks: [{
+				id: "5A4C1DBA1DE7BAB8"
+				type: "item"
+				title: "Any #waystones:dyed_sharestone"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "waystones:dyed_sharestone"
+					}
+				}
+			}]
+			rewards: [{
+				id: "73289CAE76082D08"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "4D2DC047C6B6C648"
+			tasks: [{
+				id: "325A7E0ECF4F81D2"
+				type: "item"
+				item: {
+					id: "waystones:warp_stone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5341748D47719D39"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "0D2A433451BF5807"
+			tasks: [{
+				id: "24F360B05FDEB1F3"
+				type: "item"
+				item: "waystones:return_scroll"
+			}]
+			rewards: [{
+				id: "179654676E8BBB0C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "4885415D93B204A5"
+			tasks: [{
+				id: "1DAD48D6E2E1EAF4"
+				type: "item"
+				item: "waystones:bound_scroll"
+			}]
+			rewards: [{
+				id: "488C9ACDFD780BCE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["6A303DC10AC3EDC0"]
+			id: "25298AAD9780904F"
+			tasks: [{
+				id: "42EC9858FBA832EB"
+				type: "item"
+				item: "waystones:warp_scroll"
+			}]
+			rewards: [{
+				id: "2AA578876DF0F3AF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			title: "Player Transport"
+			icon: "waystones:white_sharestone"
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["6189D3D9978FA73E"]
+			hide: true
+			id: "6A303DC10AC3EDC0"
+			tasks: [{
+				id: "6C172CE8808AEAB3"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3EFF920754122C46"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Candle",
+  "colors": [
+    "fcf9d7",
+    "c9c6a1"
+  ],
+  "ingredient": {
+    "item": "minecraft:candle"
+  },
+"inUltimateSingularity": false
+
+}

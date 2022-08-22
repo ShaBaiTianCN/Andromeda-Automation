@@ -1,0 +1,7 @@
+{
+	id: "44952ADE29AD1F0E"
+	order_index: 127
+	title: "calculation circuit"
+	loot_size: 1
+	rewards: [{ item: "ae2:calculation_processor", count: 8 }]
+}

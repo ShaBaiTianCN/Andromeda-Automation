@@ -1,0 +1,3819 @@
+{
+	id: "22A171107E03108C"
+	group: "1D115F3DF1092C06"
+	order_index: 5
+	filename: "botania"
+	title: "Botania"
+	icon: {
+		id: "botania:lexicon"
+		Count: 1b
+		tag: {
+			"botania:elven_unlock": 1b
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["7FEE7D31F7DFA6C2"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "1731AF61E4924492"
+			tasks: [{
+				id: "35EAB729C3198CF4"
+				type: "item"
+				item: "botania:lexicon"
+			}]
+			rewards: [{
+				id: "2BA1677ADD38612C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			hide_dependency_lines: false
+			dependencies: ["1731AF61E4924492"]
+			id: "1A17A843F286CCF9"
+			tasks: [{
+				id: "711F05AC62DB3047"
+				type: "item"
+				item: "botania:white_mystical_flower"
+			}]
+			rewards: [{
+				id: "065C8E3B9B966095"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["1731AF61E4924492"]
+			id: "58094ACDCDD9F45A"
+			tasks: [
+				{
+					id: "753C6132AE6FEECE"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+				}
+				{
+					id: "297BDCCCCFFA11DF"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+				}
+				{
+					id: "157AD21674CBC655"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+				}
+				{
+					id: "2565CA75B48140CA"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+				}
+				{
+					id: "46AA9F56CA84368E"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+				}
+				{
+					id: "0D0AE1ED17D6417F"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+				}
+				{
+					id: "5918AF20B2B28AF9"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+				}
+				{
+					id: "27DB0162BAB3B15D"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+				}
+			]
+			rewards: [{
+				id: "7D64215E7B293C05"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["1731AF61E4924492"]
+			id: "20AC5E195B1B42C7"
+			tasks: [
+				{
+					id: "290FE6736BD09E65"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+				}
+				{
+					id: "186EAEEA6381AA72"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+				}
+				{
+					id: "1FB77448FFE1DA30"
+					type: "item"
+					item: "botania:green_mystical_flower"
+				}
+				{
+					id: "530CC474890FFA36"
+					type: "item"
+					item: "botania:red_mystical_flower"
+				}
+				{
+					id: "3AB41D9A2B81E14C"
+					type: "item"
+					item: "botania:black_mystical_flower"
+				}
+				{
+					id: "132845A20EE0AE7C"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+				}
+				{
+					id: "1F29CF741E650E08"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+				}
+			]
+			rewards: [{
+				id: "75B38613331B37EA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["The petal apothecary is used to craft functional and generating flowers. You fill it with water, add all the required ingredients for a recipe, and add seeds at the end to finish the flower."]
+			dependencies: ["1A17A843F286CCF9"]
+			id: "0337E41E7686383B"
+			tasks: [{
+				id: "52F3C670147E0168"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "325B72F3AA381C2E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["The pure daisy is used to convert wood and stone into living wood and living rock. Simply place the blocks on any of the 8 sides around the flower, and after a set time they'll transform."]
+			dependencies: ["0337E41E7686383B"]
+			id: "0F701C0840BA1E0C"
+			tasks: [{
+				id: "477E594CA99C9890"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [{
+				id: "281F1C7FB9F77BB3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			shape: "square"
+			dependencies: ["0F701C0840BA1E0C"]
+			id: "1C8CDF79FDB49101"
+			tasks: [
+				{
+					id: "625D9EA5C46E4E34"
+					type: "item"
+					item: "botania:livingrock"
+				}
+				{
+					id: "5FE0B3441B423E41"
+					type: "item"
+					item: "botania:livingwood_log"
+				}
+			]
+			rewards: [{
+				id: "52A5DF77387CE6EA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			shape: "pentagon"
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "6B9304C2462688A5"
+			tasks: [{
+				id: "6E68DF673E33AB3B"
+				type: "item"
+				item: {
+					id: "botania:twig_wand"
+					Count: 1b
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CA98C5E14761D08"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			description: ["The battery of botania! Mana pools are used to store and fill objects with mana. Not only that many items can be transformed in a mana pool. Be warned, you can't pick up a mana pool with mana in it. If you destroy a mana pool to pick it up, all mana will be deleted that was in it."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "367E6A5D48C34305"
+			tasks: [{
+				id: "0536A193B81D5A9B"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [{
+				id: "0084756ECDFE234F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			shape: "square"
+			description: ["The runic alter is used to craft runes in Botania. You place all the items you need for a craft on the alter. After which the recipe will need to be charged with the adequate amount of mana with a spreader or spark. Once it's charged you simply place a block of living stone on the alter and right click it with your wand of the forest and the runes will be crafted. When a rune is used to craft another rune on this alter you'll keep the rune used in the craft, but not in other crafting recipes elsewhere."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "12F9FCB680BBE46D"
+			tasks: [{
+				id: "478DDFC9CB6A8242"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [{
+				id: "1432BC8731DA6500"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			description: ["The pulse mana spreader is your method of transporting mana early on. Simply right click it with the wand of the forest, and the shift right click where you want the mana go to like a runic alter or mana pool. It only really gets mana from generating flowers or other mana spreaders. You can silence it's noisy whoosh sound by right clicking it with any color of wool."]
+			dependencies: ["0102A58A587B9C1C"]
+			id: "7C01FD23A7777D5C"
+			tasks: [{
+				id: "5950007B650AEA59"
+				type: "item"
+				item: "botania:mana_spreader"
+			}]
+			rewards: [{
+				id: "3AB156DE790F5E5E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			description: ["The endoflame is a useful early flower for generating mana. Simply place any burnable fuel near it and it will consume it to produce mana."]
+			dependencies: ["6B9304C2462688A5"]
+			id: "0102A58A587B9C1C"
+			tasks: [{
+				id: "1C2D9C10BDCAA1A0"
+				type: "item"
+				item: "botania:endoflame"
+			}]
+			rewards: [{
+				id: "6F1A78163CFF620E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 9.5d
+			description: ["Place 5 livingrock and 5 lapis blocks in a square grid pattern. Place the agglomeration plate on top in the center. With a spark over it for mana, place a manasteel ingot, a manadiamond, and a manapearl on the plate and you'll end up with a terrasteel ingot!"]
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "0000A1622CCCA962"
+			tasks: [
+				{
+					id: "08B4764C2DADD11A"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "4B764525C1460B5D"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+				{
+					id: "6B40F60C707795A7"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "2BC72962FBEDB2B5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 10.5d
+			dependencies: ["0000A1622CCCA962"]
+			id: "4C77B3818795DFD9"
+			tasks: [{
+				id: "488D7755B2ADA499"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [{
+				id: "395AA05FC92306B2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "10EA86A123334818"
+			tasks: [{
+				id: "34AACCA6D57C9E51"
+				type: "item"
+				item: "botania:entropinnyum"
+			}]
+			rewards: [{
+				id: "12276C199A96DB15"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "049D4FAD256D7D15"
+			tasks: [{
+				id: "106190449C441DD6"
+				type: "item"
+				item: "botania:dandelifeon"
+			}]
+			rewards: [{
+				id: "3E851D8342CC43FA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "256EE689E4E193FD"
+			tasks: [{
+				id: "493881844AD4B7B0"
+				type: "item"
+				item: "botania:thermalily"
+			}]
+			rewards: [{
+				id: "7C99960C4DA607FE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "4CFAAC0B5B416D98"
+			tasks: [{
+				id: "62F9D876CF280320"
+				type: "item"
+				item: "botania:rafflowsia"
+			}]
+			rewards: [{
+				id: "7E8C9A1EF4C5ADA7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			description: ["A useful device that will split mana bursts shot into it into any adjacent mana pools evenly."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "3BF35AA19C4F39F1"
+			tasks: [{
+				id: "32D2B5214290D4E0"
+				type: "item"
+				item: "botania:mana_distributor"
+			}]
+			rewards: [{
+				id: "74B4822098DBB1FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			description: ["Sparks are very useful advanced mana transfer items. They can be used to move mana from pools unlike mana spreaders. They have multiple craftable augments to enable different modes."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "148565CA1966E0B8"
+			tasks: [{
+				id: "6E2ECA91B9A0C55D"
+				type: "item"
+				item: "botania:spark"
+			}]
+			rewards: [{
+				id: "4190A9EC7BA6932C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			description: ["You can't pick up a mana pool without destroying the mana in it. You can put it in a minecart though to transport large amounts of mana in one go. Simply pump to and from stationary mana pools using the pump, and cart your mana around for all you're needs!"]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "0AAAC614976D0C30"
+			tasks: [
+				{
+					id: "77286CC38C183F07"
+					type: "item"
+					item: "botania:pool_minecart"
+				}
+				{
+					id: "1DD5BEC2641D76C8"
+					type: "item"
+					item: "botania:pump"
+				}
+			]
+			rewards: [{
+				id: "24ADEA042E4DF8FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			title: "Advanced Mana spreaders"
+			x: 1.0d
+			y: 8.5d
+			description: ["When you want a mana spreader with more umph. The elven mana spreaders bursts carry allot more mana, and the gaia mana spreader pulses contain allot of mana. Typically sparks are more useful for spreading allot of mana quickly, but when you need powerful bursts for automation, these are you're go to!"]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "6A7CBC671172E851"
+			tasks: [
+				{
+					id: "45C0BD97914241D2"
+					type: "item"
+					item: "botania:elven_spreader"
+				}
+				{
+					id: "34D6AF4A7E284680"
+					type: "item"
+					item: "botania:gaia_spreader"
+				}
+			]
+			rewards: [{
+				id: "77B4152B09845E3D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			description: ["Lenses are very useful. You can use them to alter a pulse in many different ways. With a slimeball you can also combine any two lenses together in a crafting grid."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "237601C2C96EA4C3"
+			tasks: [{
+				id: "22B336DEB160900D"
+				type: "item"
+				item: "botania:lens_normal"
+			}]
+			rewards: [{
+				id: "664D532AF1C5E6C4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 8.5d
+			description: ["Botanical Brewery. Botania alchemy centerpiece. Potions made on this have multiple uses. Each brew or craft requires a certain amount of mana."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "514A7D264DF9E13F"
+			tasks: [{
+				id: "72F3BDE7096963FC"
+				type: "item"
+				item: "botania:brewery"
+			}]
+			rewards: [{
+				id: "0A04741761710D6F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 10.0d
+			description: ["The most basic potion vail. Still rather effective early game as one potion has 4 uses."]
+			dependencies: ["514A7D264DF9E13F"]
+			id: "1F4AFF00753E829E"
+			tasks: [{
+				id: "2EFC48A65A875E93"
+				type: "item"
+				item: "botania:vial"
+			}]
+			rewards: [{
+				id: "0B7A09B1E718E708"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 10.0d
+			description: ["Made using alfglass. Potions made using this container have 6 uses!"]
+			dependencies: ["514A7D264DF9E13F"]
+			id: "5F6EED44974BC731"
+			tasks: [{
+				id: "2CFA855C03A49E65"
+				type: "item"
+				item: "botania:flask"
+			}]
+			rewards: [{
+				id: "443AD257D5833E2D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 10.0d
+			description: ["An incense stick is very handy when you want an ambient long lasting potion effect. Once imbued, you'll have to place them on an incense plate and then light them to gain their effect."]
+			dependencies: ["514A7D264DF9E13F"]
+			dependency_requirement: "all_started"
+			id: "7E19461805935F06"
+			tasks: [
+				{
+					id: "3847CF0B1070B74A"
+					type: "item"
+					item: "botania:incense_stick"
+				}
+				{
+					id: "70304DA9AFD49751"
+					type: "item"
+					item: "botania:incense_plate"
+				}
+			]
+			rewards: [{
+				id: "4E84CE76B6D574FC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			description: ["Why drink a potion when you could wear one! These take allot more mana to craft, but can give you a nice but more limited selection of potion effects. They will come at the cost of mana though, but unlike all the other items made with the botanical brewery they are continuously usable so long as you have mana."]
+			dependencies: ["514A7D264DF9E13F"]
+			id: "1D874D8927FEDC81"
+			tasks: [{
+				id: "6B7C1E3BA8FEDEC4"
+				type: "item"
+				item: "botania:blood_pendant"
+			}]
+			rewards: [{
+				id: "4A74E5E4F366BF88"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			description: [
+				""
+				"This block when placed under a mana pool will change the mana pools properties. Certain items can be transformed into other items using the mana in the pool."
+			]
+			dependencies: ["367E6A5D48C34305"]
+			id: "2592D92B6F77D785"
+			tasks: [{
+				id: "0B0C14E97D5AFA43"
+				type: "item"
+				item: "botania:alchemy_catalyst"
+			}]
+			rewards: [{
+				id: "240CD0F126949793"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			description: ["With this block under a mana pool, you can duplicate some items and blocks at the cost of mana."]
+			dependencies: ["367E6A5D48C34305"]
+			id: "5E6431524C619357"
+			tasks: [{
+				id: "077550FAD59EE5D0"
+				type: "item"
+				item: "botania:conjuration_catalyst"
+			}]
+			rewards: [{
+				id: "5270BD68150757BA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			description: ["This block can be placed under a mana pool. It allows a mana pool to accept mana even when it's full, it'll just void it. Useful for automation situations where you don't want to have to worry about setting up overflow buffers."]
+			dependencies: ["367E6A5D48C34305"]
+			id: "4A603028295427EA"
+			tasks: [{
+				id: "0B270467E29C9718"
+				type: "item"
+				item: "botania:mana_void"
+			}]
+			rewards: [{
+				id: "76CBB17D0D890D87"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			title: "Basic Element Runes"
+			x: 1.5d
+			y: 9.5d
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "40E2BE16DFECEC69"
+			tasks: [
+				{
+					id: "1061680873D911AE"
+					type: "item"
+					item: "botania:rune_water"
+				}
+				{
+					id: "7252DF0C965071A1"
+					type: "item"
+					item: "botania:rune_fire"
+				}
+				{
+					id: "3AA617BF461B25D6"
+					type: "item"
+					item: "botania:rune_earth"
+				}
+				{
+					id: "73DC122DE8CF208E"
+					type: "item"
+					item: "botania:rune_air"
+				}
+				{
+					id: "40EE62C35A95976C"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			rewards: [{
+				id: "5613EEB309665D73"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			title: "Seasonal Runes"
+			x: 3.5d
+			y: 9.5d
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "240BC6029EABB294"
+			tasks: [
+				{
+					id: "66A3441DDE3068F7"
+					type: "item"
+					item: "botania:rune_spring"
+				}
+				{
+					id: "3CD9BC92254D5F50"
+					type: "item"
+					item: "botania:rune_summer"
+				}
+				{
+					id: "3567C438F5CA1172"
+					type: "item"
+					item: "botania:rune_autumn"
+				}
+				{
+					id: "6E485480E4B95656"
+					type: "item"
+					item: "botania:rune_winter"
+				}
+			]
+			rewards: [{
+				id: "5D6050F8DC42FC14"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			title: "Seven Sins Runes"
+			x: 4.5d
+			y: 9.5d
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "505114DCCA994C92"
+			tasks: [
+				{
+					id: "0BF741ACB390AFB4"
+					type: "item"
+					item: "botania:rune_lust"
+				}
+				{
+					id: "14FD00C9ADD57DFA"
+					type: "item"
+					item: "botania:rune_gluttony"
+				}
+				{
+					id: "0E375707499075DF"
+					type: "item"
+					item: "botania:rune_greed"
+				}
+				{
+					id: "1B5E6DAEBFF6D3CC"
+					type: "item"
+					item: "botania:rune_sloth"
+				}
+				{
+					id: "06C298A418EC0A6A"
+					type: "item"
+					item: "botania:rune_wrath"
+				}
+				{
+					id: "159AFF3B7709FBE3"
+					type: "item"
+					item: "botania:rune_envy"
+				}
+				{
+					id: "6F4675BBB1B98FF1"
+					type: "item"
+					item: "botania:rune_pride"
+				}
+			]
+			rewards: [{
+				id: "6E7198345524DC3D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.5d
+			shape: "square"
+			description: ["The Elven portal. It's made similar to a nether portal except in a 3x3 pattern. You have the elven gateway core at the center base, the three glimmerwood will be at the focal center of each wall, and the rest is made of living wood. It'll need two mana pools with pylons over them. To activate the portal, make sure the pools have a good amount of mana in them and right click the portal gateway with a wand of the forest. The portal can be used to obtain advanced items in exchange for others. It does require mana to maintain, so make sure the mana in the pools near it with the pylons over them don't completely deplete."]
+			dependencies: ["4C77B3818795DFD9"]
+			id: "709BB553FDC5CD64"
+			tasks: [
+				{
+					id: "25D3FEB49B81317A"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "2DD2D489F756FD50"
+					type: "item"
+					item: "botania:glimmering_livingwood_log"
+					count: 3L
+				}
+				{
+					id: "0E1332A40541F0A4"
+					type: "item"
+					item: "botania:livingwood_log"
+					count: 8L
+				}
+				{
+					id: "72F153E0B4118A51"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "5CC4700E34827F0D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			title: "Gaia Guardian Boss"
+			x: 2.5d
+			y: 12.5d
+			description: ["Make sure you don't place this near your base! When you summon the gaia boss it will clear the surface level of any tile entities. The first boss is summoned by right clicking the beacon with a terrasteel ingot, and the second boss is summoned using a gaia ingot."]
+			dependencies: ["709BB553FDC5CD64"]
+			id: "456EB7B80C9639F5"
+			tasks: [
+				{
+					id: "245FCE5E26AFB000"
+					type: "item"
+					item: "botania:gaia_pylon"
+					count: 4L
+				}
+				{
+					id: "1CFE760722968121"
+					type: "item"
+					item: "minecraft:iron_block"
+					count: 9L
+				}
+				{
+					id: "05055625ECE1C2E7"
+					type: "item"
+					item: "minecraft:beacon"
+				}
+			]
+			rewards: [{
+				id: "71B7EFDB3E7063DE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.5d
+			shape: "square"
+			dependencies: ["456EB7B80C9639F5"]
+			id: "08ECFAE41385958A"
+			tasks: [
+				{
+					id: "24FFB8A5C93CB52B"
+					type: "item"
+					item: "botania:dice"
+				}
+				{
+					id: "394F5B32DAE309C0"
+					type: "item"
+					item: "botania:life_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "5BD8F46BF02FFDF3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "7A5E661D2E56A708"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+					count: 3
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "7274708CE77C94A5"
+			tasks: [{
+				id: "4AE3628D5005D2B9"
+				type: "advancement"
+				icon: "botania:enchanter"
+				advancement: "botania:main/enchanter_make"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "479D21DEEB9F4162"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			description: ["Will detect a mana burst going through it and emit a redstone signal."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "1CD0E95B1A1D80FD"
+			tasks: [{
+				id: "6AEC507EEDFCA0A9"
+				type: "item"
+				item: "botania:mana_detector"
+			}]
+			rewards: [{
+				id: "3172EDE18851A3B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			description: ["Teleports a mana burst to a specified location. Configured using a wand of the forest."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "4B76069E97FD45C7"
+			tasks: [{
+				id: "42BC68F132F33A1A"
+				type: "item"
+				item: "botania:piston_relay"
+			}]
+			rewards: [{
+				id: "3332B73D5F6344C3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			description: ["Rotates a mana spreader on top of it. Can be configured using a wand of the forest."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "570DB3C1DFF14960"
+			tasks: [{
+				id: "2615D151D4EA56EE"
+				type: "item"
+				item: "botania:turntable"
+			}]
+			rewards: [{
+				id: "45D97EAF7A774687"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			description: ["Has a gravitational pull on mana bursts. Can even cause them to enter orbits around it."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "1DC65FAD8F0BFE4A"
+			tasks: [{
+				id: "207BDEB141D1F16C"
+				type: "item"
+				item: "botania:tiny_planet_block"
+			}]
+			rewards: [{
+				id: "12EB2B63E045012F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			description: ["When combined with a comparator, it emits a redstone signal based on the amount of animals in a 6 block radius"]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "5B89D66D2731C9CD"
+			tasks: [{
+				id: "4B0C944396F9A1A5"
+				type: "item"
+				item: "botania:forest_eye"
+			}]
+			rewards: [{
+				id: "501B211C0D8EF2FC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			description: ["Increases the speed mana drains from a pool into an item. Can also be used to increase the speed of a furnace. Right click to use."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "46DA55B2A7494B92"
+			tasks: [{
+				id: "3CCB0E517ED2FD9A"
+				type: "item"
+				item: "botania:bellows"
+			}]
+			rewards: [{
+				id: "459971793DA6908D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			description: ["Useful item in botania. Drops any items directly below it that are inserted. When a redstone signal is applied to it, anything it drops now has a delay on it before any flowers can interact with it."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "3284517CC433E6EC"
+			tasks: [{
+				id: "694FC78ED6022A65"
+				type: "item"
+				item: "botania:open_crate"
+			}]
+			rewards: [{
+				id: "741222CC0CB766DC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["used to autocraft items. using placeholders for empty spaces the craft works in rows from left to right from top to bottom."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "6597C9C86BDC2DED"
+			tasks: [{
+				id: "530BFCDF47BB71D1"
+				type: "item"
+				item: "botania:crafty_crate"
+			}]
+			rewards: [{
+				id: "75BA41A426A8FF8E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.0d
+			description: ["Like scaffolding, but you can add facades to it, and can only pass through it when sneaking."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "167EC32602C8964D"
+			tasks: [{
+				id: "61F2017DDCFABBD7"
+				type: "item"
+				item: "botania:abstruse_platform"
+			}]
+			rewards: [{
+				id: "5A51E42F4A4E67DA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.0d
+			description: ["Good for secret passages. You can facade it with any block by right clicking. Any entity will pass right through it."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "588453AE33A72F79"
+			tasks: [{
+				id: "48414497F66A449F"
+				type: "item"
+				item: "botania:spectral_platform"
+			}]
+			rewards: [{
+				id: "428597F19B9F7A2A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.0d
+			description: ["A small potato prop that can hold items."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "6247770B4968D9A3"
+			tasks: [{
+				id: "4CB7D0CCF656E8E3"
+				type: "item"
+				item: "botania:tiny_potato"
+			}]
+			rewards: [{
+				id: "04084E5625B07199"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			description: ["It's like an Enderman, except instead of attacking you it just emits a redstone signal when you look at it."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "4CB9145131ABE735"
+			tasks: [{
+				id: "4F2CC36E396E80FD"
+				type: "item"
+				item: "botania:ender_eye_block"
+			}]
+			rewards: [{
+				id: "1F0F5C5A774736D9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 13.5d
+			description: ["Advanced form of magical redstone crafting component."]
+			dependencies: ["709BB553FDC5CD64"]
+			id: "7A82158AEA95A177"
+			tasks: [{
+				id: "64F78FA55C05F6BF"
+				type: "item"
+				item: "botania:red_string"
+			}]
+			rewards: [{
+				id: "68D7234E8B06938B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 15.0d
+			description: ["Magically binds to a container it's facing. Can be hoppered into and any item will be magically teleported to the block it's bound to. Sides matter, so can be used to automate a furnace from a remote nearby location."]
+			dependencies: ["7A82158AEA95A177"]
+			id: "5188A3488D58273C"
+			tasks: [{
+				id: "5FAE93DE114D65A2"
+				type: "item"
+				item: "botania:red_string_container"
+			}]
+			rewards: [{
+				id: "154A6124B65659EA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 15.0d
+			description: ["Binds to a dispenser or dropper. Acts like the red string container, but can be activated with redstone to activate a dropper or dispenser remotely. Can also be chain linked with red string containers for advanced automation."]
+			dependencies: ["7A82158AEA95A177"]
+			id: "5444C2FFD0E67097"
+			tasks: [{
+				id: "508016277CC2DB17"
+				type: "item"
+				item: "botania:red_string_dispenser"
+			}]
+			rewards: [{
+				id: "69781CB9D2B3AB61"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 15.0d
+			description: ["When bone mealed this block will apply that bonemeal effect to the first bone mealable block in it's line of sight."]
+			dependencies: ["7A82158AEA95A177"]
+			id: "727707F13A407019"
+			tasks: [{
+				id: "2FE3498948312A7C"
+				type: "item"
+				item: "botania:red_string_fertilizer"
+			}]
+			rewards: [{
+				id: "5D16EECB00D73EDF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 15.0d
+			description: ["remote comparator, but you still need a comparator facing it to get the redstone signal from it."]
+			dependencies: ["7A82158AEA95A177"]
+			id: "68F7C364CA6D5B07"
+			tasks: [{
+				id: "2E3DAAD14EC730C5"
+				type: "item"
+				item: "botania:red_string_comparator"
+			}]
+			rewards: [{
+				id: "75354F93E8941DF5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 15.0d
+			description: ["Can add functional or generating effects of a flower to any flower or mushroom. Useful if you don't like the look of a flower and want to use something else. Simply place the flower you want emulated on top of the spoofer, and it will be applied to the first valid plant in it's line of sight."]
+			dependencies: ["7A82158AEA95A177"]
+			id: "2AD9921739EC34B3"
+			tasks: [{
+				id: "3CD1000E2E004474"
+				type: "item"
+				item: "botania:red_string_relay"
+			}]
+			rewards: [{
+				id: "6B65984971322366"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 15.0d
+			description: ["Emits a redstone signal when a player interacts with a block that it's bound to. This can be any sufficiently complex block."]
+			dependencies: ["7A82158AEA95A177"]
+			id: "336CA44A2D8883DB"
+			tasks: [{
+				id: "18BEF1FD1B92314C"
+				type: "item"
+				item: "botania:red_string_interceptor"
+			}]
+			rewards: [{
+				id: "5EA0DE48CD3D3C82"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 13.0d
+			shape: "gear"
+			description: ["This spark is needed for any corporia network. It can be placed over a corporia block or an inventory. It won't register the inventory though like a regular corporia spark. One of these is needed for any corporia network, but only one."]
+			dependencies: ["148565CA1966E0B8"]
+			id: "2F75E9926E4075CD"
+			tasks: [{
+				id: "3F770CFDF4725898"
+				type: "item"
+				item: "botania:corporea_spark_master"
+			}]
+			rewards: [
+				{
+					id: "43FA0D402855303D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "gems"
+						}
+					}
+				}
+				{
+					id: "6D585A085CDA4E4D"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 15.0d
+			description: ["Placing this over any inventory will then register that inventory into the corporia network. You can dye these different colers and have multiple adjacent corporia networks. They can interface with an occultism storage allowing for nice automation with that."]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "1DA73DC613246889"
+			tasks: [{
+				id: "5867B2A016FAA1A3"
+				type: "item"
+				item: "botania:corporea_spark"
+			}]
+			rewards: [{
+				id: "7A488DE62F9A5D1D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 15.0d
+			description: ["The interface of the corporia network. It doesn't have a gui, and instead works using the chat bar in Minecraft. Simply tell it what you want and it'll spit it out. You can use this for what's in your hand, you can use wildcard selectors like \"and\" \"*\" to get multiple things. It's rather unorthadox, but fun once you get the hang of it."]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "04044C9554935A81"
+			tasks: [{
+				id: "1071A7847AD05DBA"
+				type: "item"
+				item: "botania:corporea_index"
+			}]
+			rewards: [{
+				id: "6392DFF91FB0837D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 15.0d
+			description: ["Works like a hopper from the corporia network. Using an item frame you can specify what item is to come out of it. Rotate the item in the frame to specify the amount. It's binary so 2, 4, 8, 16, 32, 64. The items will either pop out above it, or in an inventory if there is one under it."]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "3F3653C3A3BCD6FA"
+			tasks: [{
+				id: "5CFC54722D2324AD"
+				type: "item"
+				item: "botania:corporea_funnel"
+			}]
+			rewards: [{
+				id: "3D6D8BC07E67D29E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 15.0d
+			description: ["With an item frame you can put an item frame with an item for this block to focus on. When a request for that item is processed and there is none of that item in the network it will emit a redstone. Great for auto crafting setups that are interdependent."]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "1876F5A476A3A33A"
+			tasks: [{
+				id: "7755A3AA52A9BDBF"
+				type: "item"
+				item: "botania:corporea_interceptor"
+			}]
+			rewards: [{
+				id: "1B2F29307582F92F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 15.0d
+			description: ["This is a nifty block. Right click it with any item or block and it'll tell you how many of that item are in the network. Then like with storage drawers you can punch it to get one out, and even shift punch to get a stack of said item. You can lock this item in it's memory with a wand of the forest."]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "278D88AE4139BFFE"
+			tasks: [{
+				id: "1525388E3DB68947"
+				type: "item"
+				item: "botania:corporea_crystal_cube"
+			}]
+			rewards: [{
+				id: "15B898F560070812"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			description: ["An addon to the interceptor. This block can hold a request of an item that's empty so that once it's fulfilled it'll still go to where it's being requested at."]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "2DB52C9828E172ED"
+			tasks: [{
+				id: "08A1487A09D90B38"
+				type: "item"
+				item: "botania:corporea_retainer"
+			}]
+			rewards: [{
+				id: "77B36BDE475A0870"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 15.0d
+			description: ["Not just for decoration. You can use these to laglessly pipe corporia sparks to different locations as their range is only 8 blocks. "]
+			dependencies: ["2F75E9926E4075CD"]
+			id: "760001FA8D1C15B2"
+			tasks: [{
+				id: "57C9D7D8A43263C1"
+				type: "item"
+				item: "botania:corporea_block"
+			}]
+			rewards: [{
+				id: "74B3D50907973AB5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			description: ["The hourglass is a neat configurable redstone clock or a mana pulse counter. The hourglass can only hold one type of sand, and the sand can only be inserted by however much you have in your hand when you right click it. Regular sand is one second per unit of sand. Red sand is 10 seconds. Soul sand is a minute per. Mana dust will drop one unit per mana pulse that passes through it. So it can easily count an ammount of pulses repeatedly."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "3F71A84706D56F46"
+			tasks: [{
+				id: "62F5D591984CACBC"
+				type: "item"
+				item: "botania:hourglass"
+			}]
+			rewards: [{
+				id: "10EB054F7BA6718E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["The spectral rail allows a minecart to pass through walls. For a moment after the cart goes over this it'll become ethereal and continue in it's current trajectory. Once it hits another rail it'll rematerialize."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "309DD84E7EE3FD5B"
+			tasks: [{
+				id: "1B58AEE58964A3CC"
+				type: "item"
+				item: "botania:ghost_rail"
+			}]
+			rewards: [{
+				id: "282EED22509B172B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			description: ["It's like an omnidirectional telepad. Right click it to teleport to another luminizer bound to it with 20 blocks. If it's bound to multiple luminizers, it'll randomly select one."]
+			dependencies: ["7C01FD23A7777D5C"]
+			id: "6E8A2087338F9E1B"
+			tasks: [{
+				id: "508884D72135756B"
+				type: "item"
+				item: "botania:light_relay"
+			}]
+			rewards: [{
+				id: "02D68ED65F4A6EEF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			description: [
+				""
+				"Like a normal luminizer, but will emit a redstone signal evertime something passes through it."
+			]
+			dependencies: ["6E8A2087338F9E1B"]
+			id: "24481B9098D263C7"
+			tasks: [{
+				id: "26D7B6630149E019"
+				type: "item"
+				item: "botania:detector_light_relay"
+			}]
+			rewards: [{
+				id: "1B97FE6E0179BCC4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 10.0d
+			description: ["Sends whatever is being teleported to a luminizer in the direction the animated torch is pointing."]
+			dependencies: ["6E8A2087338F9E1B"]
+			id: "074DEB526BB7D49D"
+			tasks: [
+				{
+					id: "45DCA90B1F2FFCDE"
+					type: "item"
+					item: "botania:fork_light_relay"
+				}
+				{
+					id: "64E3FEA6D558A027"
+					type: "item"
+					item: "botania:animated_torch"
+				}
+			]
+			rewards: [{
+				id: "077B49DD431F955A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 10.0d
+			description: ["If in a chain of luminizers, this one will drop whatever is being transported if a redstone signal is passed into it."]
+			dependencies: ["6E8A2087338F9E1B"]
+			id: "744C6822838F0219"
+			tasks: [{
+				id: "6182CF5A65E2724A"
+				type: "item"
+				item: "botania:toggle_light_relay"
+			}]
+			rewards: [{
+				id: "0B5DEE0FEEDF6B73"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 10.0d
+			description: ["When you want to send items or even other entities through the luminizers you need one of these. Simply place what you want to teleport on the plate, activate a redstone signal into it and whoosh."]
+			dependencies: ["6E8A2087338F9E1B"]
+			id: "096EAB02F4647400"
+			tasks: [{
+				id: "3AA594229883A5C4"
+				type: "item"
+				item: "botania:light_launcher"
+			}]
+			rewards: [{
+				id: "05FD389716381A00"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Place it and feed it a sunflower and it'll make stormy weather turn to clear weather."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "34A264F09D346D5D"
+			tasks: [{
+				id: "6A39F4A704244FE2"
+				type: "item"
+				item: "botania:teru_teru_bozu"
+			}]
+			rewards: [{
+				id: "0BE8C1E5293934B6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			description: ["Place it supply it with mana and hand it one of a few specific rods and it'll cast the magic of the rod on it's own. Apply a redstone signal to disable it."]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "10D08D2B435B85D9"
+			tasks: [{
+				id: "385FE5D1A598FE5B"
+				type: "item"
+				item: "botania:avatar"
+			}]
+			rewards: [{
+				id: "30582B04841251C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			description: ["Used to craft some things, but also if you place it on two iron rods it'll spawn a blaze that's hostile!"]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "4978D93D7B124510"
+			tasks: [{
+				id: "6E94BEAC61195FE5"
+				type: "item"
+				item: "botania:fel_pumpkin"
+			}]
+			rewards: [{
+				id: "04A1415F2E79AB54"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 4.0d
+			description: ["This little cocoon when placed will spawn a random animal over time. If you feed it 20 emeralds it'll spawn a villager. If you feed it 20 chorus fruit it'll spawn a shulker. You can feed it less and still get the same result. Each item increases the chance of the specific mob by 5%"]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "58219E305F650FF7"
+			tasks: [{
+				id: "1B90E2B398AA6196"
+				type: "item"
+				item: "botania:cocoon"
+			}]
+			rewards: [{
+				id: "1363111A591183D4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			title: "Grass seeds"
+			x: -10.0d
+			y: 4.0d
+			subtitle: "These little seeds will transform the grass in a specific area. Great to change up the landscape with!"
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "7DC7E4EF76E555DF"
+			tasks: [
+				{
+					id: "76A29680BAF93411"
+					type: "item"
+					item: "botania:grass_seeds"
+				}
+				{
+					id: "6597B78E0A4EEFD3"
+					type: "item"
+					item: "botania:podzol_seeds"
+				}
+				{
+					id: "1760FE8133209632"
+					type: "item"
+					item: "botania:mycelium_seeds"
+				}
+				{
+					id: "07411EB4034B5E3A"
+					type: "item"
+					item: "botania:dry_seeds"
+				}
+				{
+					id: "68C43689D17F4ED3"
+					type: "item"
+					item: "botania:golden_seeds"
+				}
+				{
+					id: "77C54C267B30B5CE"
+					type: "item"
+					item: "botania:vivid_seeds"
+				}
+				{
+					id: "13073DC7EB9EE3C1"
+					type: "item"
+					item: "botania:scorched_seeds"
+				}
+				{
+					id: "1B6235DD60A10FEB"
+					type: "item"
+					item: "botania:infused_seeds"
+				}
+				{
+					id: "6DE7AECF75C72180"
+					type: "item"
+					item: "botania:mutated_seeds"
+				}
+			]
+			rewards: [{
+				id: "359F2A2A85F7B8A5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 13.5d
+			description: ["Conjures a dirt block using mana"]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "1FF4D06C2FDB078B"
+			tasks: [{
+				id: "5F7085F9A9322C63"
+				type: "item"
+				item: "botania:dirt_rod"
+			}]
+			rewards: [{
+				id: "33F550FE55EA53C9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 13.5d
+			description: ["Same as the rod of lands, but it allows you to place dirt in mid air."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "0CDAF8507CE2C9AA"
+			tasks: [{
+				id: "6794EEAB7A16730D"
+				type: "item"
+				item: "botania:skydirt_rod"
+			}]
+			rewards: [{
+				id: "3ACE806466A78D3C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 13.5d
+			description: ["WARNING! This block can break up huge areas of terrain. It flattens the earth for easy teraforming for building."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "4DC7B321AF7F075B"
+			tasks: [{
+				id: "317F57D28E5A82E3"
+				type: "item"
+				item: "botania:terraform_rod"
+			}]
+			rewards: [{
+				id: "71729A3603C9EE9E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 13.5d
+			description: ["Spawns a block of cobblestone at the cost of mana"]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "7EDE40F3528CB568"
+			tasks: [{
+				id: "2C02C75E2F98FFB5"
+				type: "item"
+				item: "botania:cobble_rod"
+			}]
+			rewards: [{
+				id: "1F95413A84019E39"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 13.5d
+			description: ["Places a block of water wherever you right click at the cost of mana."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "556F98D8A64C70AB"
+			tasks: [{
+				id: "39AA66635C75FA0D"
+				type: "item"
+				item: "botania:water_rod"
+			}]
+			rewards: [{
+				id: "27420F2B8F9488A2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 14.5d
+			description: ["This rod will shoot you high up into the air at the cost of mana. You won't take any fall damage in the event you fall all the way back down after using it."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "107D027DCFB24F41"
+			tasks: [{
+				id: "0B0F60FFA20BDBB4"
+				type: "item"
+				item: {
+					id: "botania:tornado_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "6D54D68F5F05A9C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 14.5d
+			description: ["Burns everything including you in a 5 block radius at the cost of mana."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "44F48E1A400A330C"
+			tasks: [{
+				id: "7AFBB57B0A0C7EA5"
+				type: "item"
+				item: "botania:fire_rod"
+			}]
+			rewards: [{
+				id: "7E22E6BED01F5B13"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 14.5d
+			description: ["This rod will temporarily highlight nearby ores at the cost of mana. Each ore has a different colored light bead that changes each time you use the rod."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "4FCEE35D85B9B8C9"
+			tasks: [{
+				id: "2F4B7100F727CCDC"
+				type: "item"
+				item: "botania:divining_rod"
+			}]
+			rewards: [{
+				id: "4F0665BCF1A17A45"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 14.5d
+			description: ["Can autosmelt any cookable block by simply right clicking."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "7AFF656D7BB67BA0"
+			tasks: [{
+				id: "6D9BB7C1B95BEE5D"
+				type: "item"
+				item: "botania:smelt_rod"
+			}]
+			rewards: [{
+				id: "08154FCAF9D389A4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 14.5d
+			description: ["Can swap a large amount of blocks in your environment with another. Provided you have the other block in your inventory, and sufficient mana."]
+			hide_dependency_lines: true
+			dependencies: ["12F9FCB680BBE46D"]
+			id: "143A7BFD35398182"
+			tasks: [{
+				id: "66CBC825733F4B68"
+				type: "item"
+				item: "botania:exchange_rod"
+			}]
+			rewards: [{
+				id: "341B13F70966C87C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 19.0d
+			description: ["Creates a temporary rainbow bridge using mana. Can also be used to create cosmetic blocks in a crafting grid."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "704E8196C780D760"
+			tasks: [{
+				id: "1EAE4E844B0C1B88"
+				type: "item"
+				item: "botania:rainbow_rod"
+			}]
+			rewards: [{
+				id: "39947CC44730D5E5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 20.0d
+			description: ["Using this rod you can pick up mobs and throw them using mana."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "5840D6C12237E2F2"
+			tasks: [{
+				id: "6532B8AA208A595C"
+				type: "item"
+				item: "botania:gravity_rod"
+			}]
+			rewards: [{
+				id: "3DC13B0064555A3E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 20.0d
+			description: ["This rod will shoot a barrage of magic missiles. It consumes a good ammount of mana, but is an effective offensive artifact."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "0AFFED63E0E0DDE8"
+			tasks: [{
+				id: "4A913AF2D1DE58DD"
+				type: "item"
+				item: "botania:missile_rod"
+			}]
+			rewards: [{
+				id: "61F0315C5939EB17"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			subtitle: "grants temporary flight to the wearer using mana. Requires a recharge between flights."
+			description: [""]
+			hide_dependency_lines: true
+			dependencies: ["1C8CDF79FDB49101"]
+			id: "13B849CABAE9700A"
+			tasks: [{
+				id: "1F3E09BB01517466"
+				type: "item"
+				item: {
+					id: "botania:flight_tiara"
+					Count: 1b
+					tag: {
+						variant: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "153A27DD33604F1F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			shape: "gear"
+			description: ["Welcome to functional flowers! each flower here can be shrank to decrease their range, placed on podzol to delay their interaction with items, and made into a floating flower by combining them with a regular floating flower. All flowers require mana to function."]
+			dependencies: ["7FEE7D31F7DFA6C2"]
+			hide: true
+			id: "59739D3619091623"
+			tasks: [{
+				id: "7000C5335F9CE809"
+				type: "advancement"
+				advancement: "botania:main/generating_flower"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "4E0C4A0E46E7324A"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.0d
+			description: ["This flower can be used to speed up the growth of any crops, trees, or any other growable thing nearby."]
+			dependencies: ["59739D3619091623"]
+			id: "09A921153FF56578"
+			tasks: [{
+				id: "1AAA296232E6E5AE"
+				type: "item"
+				item: "botania:agricarnation"
+			}]
+			rewards: [{
+				id: "21F884BEE1FADAB2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.5d
+			description: ["Harms any nearby entities except for players."]
+			dependencies: ["59739D3619091623"]
+			id: "03163836CD636CF6"
+			tasks: [{
+				id: "7F22073B4D772A18"
+				type: "item"
+				item: "botania:bellethorn"
+			}]
+			rewards: [{
+				id: "36BF6264E6249D4D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 8.0d
+			description: ["Silences any nearby mobs. Also nullifies horns and drums in it's radius."]
+			dependencies: ["59739D3619091623"]
+			id: "27941E4094AB7374"
+			tasks: [{
+				id: "54FE0B4A31C9D870"
+				type: "item"
+				item: "botania:bergamute"
+			}]
+			rewards: [{
+				id: "260ABFFFB4E590CE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 8.0d
+			description: ["Creates a bubble of air around the flower when placed in water."]
+			dependencies: ["59739D3619091623"]
+			id: "759105C6D75EC1E1"
+			tasks: [{
+				id: "489A251370B90287"
+				type: "item"
+				item: "botania:bubbell"
+			}]
+			rewards: [{
+				id: "6B5900834025E506"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.5d
+			description: ["Converts sand blocks into clay."]
+			dependencies: ["59739D3619091623"]
+			id: "0D910A6CBE94988B"
+			tasks: [{
+				id: "185A549014FC271C"
+				type: "item"
+				item: "botania:clayconia"
+			}]
+			rewards: [{
+				id: "048B6124BF867D73"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 7.0d
+			description: ["Pushes any items in front of it away. Can be configured with the wand of the forest."]
+			dependencies: ["59739D3619091623"]
+			id: "5DDA2A932349CA0A"
+			tasks: [{
+				id: "14A25F47E7CD3E3A"
+				type: "item"
+				item: "botania:daffomill"
+			}]
+			rewards: [{
+				id: "20CD2E1BE695CD82"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 6.0d
+			description: ["Harms any nearby adult animals."]
+			dependencies: ["59739D3619091623"]
+			id: "0618E7CE968C73BF"
+			tasks: [{
+				id: "588749284EDDB03F"
+				type: "item"
+				item: "botania:dreadthorn"
+			}]
+			rewards: [{
+				id: "697A5F301D50E431"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 5.0d
+			description: ["Migically fuels any furnaces adjacent to it and speeds up the smelts as well."]
+			dependencies: ["59739D3619091623"]
+			id: "2B21E6C21042A909"
+			tasks: [{
+				id: "1986C5C467A32AA8"
+				type: "item"
+				item: "botania:exoflame"
+			}]
+			rewards: [{
+				id: "1C4FE8C43423F045"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 4.0d
+			description: ["Adds a regeneration effect to any nearby player and their pets."]
+			dependencies: ["59739D3619091623"]
+			id: "07F316F6D1F1EAD0"
+			tasks: [{
+				id: "2D5C474CE738C7A1"
+				type: "item"
+				item: "botania:fallen_kanade"
+			}]
+			rewards: [{
+				id: "611ECC812FA6FAB6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 7.0d
+			description: ["Causes nearby hostile mobs to fight each other."]
+			dependencies: ["59739D3619091623"]
+			id: "7381F0A67C676886"
+			tasks: [{
+				id: "20E11F75DD7D3551"
+				type: "item"
+				item: "botania:heisei_dream"
+			}]
+			rewards: [{
+				id: "46B9C99194316E13"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 3.0d
+			description: ["This flower will pick up any items in a fairly large radius and place them into an adjacent inventory. You can filter what items get placed in the inventory with item frames containing the item you want to filter placed on it."]
+			dependencies: ["59739D3619091623"]
+			id: "6095FA2A4D2FA87A"
+			tasks: [{
+				id: "469F14E6275FD24C"
+				type: "item"
+				item: "botania:hopperhock"
+			}]
+			rewards: [{
+				id: "2DFF7804FC51C1C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 5.0d
+			description: ["Poisons nearby entities"]
+			dependencies: ["59739D3619091623"]
+			id: "13CACFA75AAE60F9"
+			tasks: [{
+				id: "24A536EE90954E02"
+				type: "item"
+				item: "botania:hyacidus"
+			}]
+			rewards: [{
+				id: "25E5653201308E56"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: -1.0d
+			description: ["This flower spawns mystical flowers of all colors around it."]
+			dependencies: ["59739D3619091623"]
+			id: "032D58F36DEE4DCE"
+			tasks: [{
+				id: "0928848C6351A584"
+				type: "item"
+				item: "botania:jaded_amaranthus"
+			}]
+			rewards: [{
+				id: "16E910D071EB8BC0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: -2.0d
+			description: ["Pushes any entities other then a player away from it. Pushes them away if they try to get too close."]
+			dependencies: ["59739D3619091623"]
+			id: "186A713D9AA68C00"
+			tasks: [{
+				id: "241F0C895186EFCF"
+				type: "item"
+				item: "botania:jiyuulia"
+			}]
+			rewards: [{
+				id: "5726B9E308AAE3BC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.5d
+			description: ["Will automatically apply labels nearby on the ground to any mobs in a 5 block radius."]
+			dependencies: ["59739D3619091623"]
+			id: "08530D140EEA09B2"
+			tasks: [{
+				id: "67BD9B655B31B6B1"
+				type: "item"
+				item: "botania:labellia"
+			}]
+			rewards: [{
+				id: "31ACC75F79637EA1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: -3.0d
+			description: ["Spawns dungeon loot! in the form of buffed mobs that each drop one item on death."]
+			dependencies: ["59739D3619091623"]
+			id: "56DCAE13B1308CE4"
+			tasks: [{
+				id: "59F21517D0DB80C9"
+				type: "item"
+				item: "botania:loonium"
+			}]
+			rewards: [{
+				id: "72A3D6C462266B91"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: -3.0d
+			description: ["This flower will convert any stone nearby into colorful varients at a rapid rate. The types that generate most depends on the biome you're in, but it will always generate some of each."]
+			dependencies: ["59739D3619091623"]
+			id: "33322B939DF3F3A2"
+			tasks: [{
+				id: "031E44CFE0B0FBEA"
+				type: "item"
+				item: "botania:marimorphosis"
+			}]
+			rewards: [{
+				id: "66CC1FB2AC36781D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			description: ["Halts non player entities in their tracks. Making it so they can't move."]
+			dependencies: ["59739D3619091623"]
+			id: "40F09F3C67905654"
+			tasks: [{
+				id: "6D2E7022A2C78129"
+				type: "item"
+				item: "botania:medumone"
+			}]
+			rewards: [{
+				id: "5A5686008AFEA729"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: -1.0d
+			description: ["Will turn stone into any ore that generates in regular stone. It also works with deepslate."]
+			dependencies: ["59739D3619091623"]
+			id: "141C1498816F8412"
+			tasks: [{
+				id: "29AD8BDC85BAD4A0"
+				type: "item"
+				item: "botania:orechid"
+			}]
+			rewards: [{
+				id: "58899B1FA556BECE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			description: ["Will turn regular netherack into any ore that spawns in netherrack."]
+			dependencies: ["59739D3619091623"]
+			id: "174B7424F68E4BEC"
+			tasks: [{
+				id: "7A07FD98A0CDBEF4"
+				type: "item"
+				item: "botania:orechid_ignem"
+			}]
+			rewards: [{
+				id: "617D5BE9E66756BC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.0d
+			description: ["Will automatically feed any food items on the ground to animals for easy automated breeding."]
+			dependencies: ["59739D3619091623"]
+			id: "5CE85385D91C8293"
+			tasks: [{
+				id: "71604726BE5A6533"
+				type: "item"
+				item: "botania:pollidisiac"
+			}]
+			rewards: [{
+				id: "7673511A90BDA409"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			description: ["This flower acts as a block placer. It'll pickup blocks as item entities and place them on other blocks identical to the one under it. Directly under it if it's floating, or under the block it's planted on otherwize."]
+			dependencies: ["59739D3619091623"]
+			id: "5607C01084264638"
+			tasks: [{
+				id: "070E75F04D598130"
+				type: "item"
+				item: "botania:rannuncarpus"
+			}]
+			rewards: [{
+				id: "38E3A9F607E43951"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			description: ["Prevents magnitization from the player from working while they're in it's range. Helpful if it would otherwize disrupt an automation setup."]
+			dependencies: ["59739D3619091623"]
+			id: "4758BEC029062FBB"
+			tasks: [{
+				id: "0929C33245951786"
+				type: "item"
+				item: "botania:solegnolia"
+			}]
+			rewards: [{
+				id: "03DE4B9570059CA3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.0d
+			description: ["Teleports items to a specified location within 12 blocks. Configure the point of interest with the wand of the forest."]
+			dependencies: ["59739D3619091623"]
+			id: "47600EBE62A97C7B"
+			tasks: [{
+				id: "25FCE88BE622474C"
+				type: "item"
+				item: "botania:spectranthemum"
+			}]
+			rewards: [{
+				id: "633DE714E73D1DCD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 0.0d
+			description: ["This flower holds mobs close to it that get in it's radius preventing them from walking away."]
+			dependencies: ["59739D3619091623"]
+			id: "04FB86761FFC920B"
+			tasks: [{
+				id: "5E027300CC6CF2C6"
+				type: "item"
+				item: "botania:tangleberrie"
+			}]
+			rewards: [{
+				id: "1131957CB3D0A327"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 1.0d
+			description: ["This flower prevents nearby creepers from exploding. It also makes them flee players like a cat would."]
+			dependencies: ["59739D3619091623"]
+			id: "5221E96CD1CAD12F"
+			tasks: [{
+				id: "04C4BFA525486101"
+				type: "item"
+				item: "botania:tigerseye"
+			}]
+			rewards: [{
+				id: "0486A28E2FF20775"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.0d
+			description: ["If an Enderman attempts to teleport when near this flower, they'll be forced to teleport to the flower instead."]
+			dependencies: ["59739D3619091623"]
+			id: "0FFE258075A1BA65"
+			tasks: [{
+				id: "63C51190EBF64C55"
+				type: "item"
+				item: "botania:vinculotus"
+			}]
+			rewards: [{
+				id: "53BC096CDC309106"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: -2.0d
+			description: ["You can make these with any of the regular mystical flowers. Combining one of these with a functional or generating flower in a crafting grid will make a floating variant of that flower."]
+			dependencies: ["59739D3619091623"]
+			id: "105CFEAE981A6454"
+			tasks: [{
+				id: "0EAED6B44295734C"
+				type: "item"
+				item: "botania:white_floating_flower"
+			}]
+			rewards: [{
+				id: "0A77BDD7B5B70CF6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "botania_flowers"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 11.5d
+			dependencies: ["4C77B3818795DFD9"]
+			id: "4ABD0BE2CD5C5C25"
+			tasks: [
+				{
+					id: "20783158A4D1B6FA"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6F1BCC21E1B1B465"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "18CBAE356CB37E03"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 11.5d
+			dependencies: ["4C77B3818795DFD9"]
+			id: "23ADFABEAEC4D37E"
+			tasks: [
+				{
+					id: "4B791848D56D9E7A"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "18E4A34A4CB1D7A3"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "307A6C1F5D868694"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.5d
+			dependencies: ["4C77B3818795DFD9"]
+			id: "3AF88D8F69A3A7DD"
+			tasks: [{
+				id: "74949B727A3E8552"
+				type: "item"
+				item: {
+					id: "botania:terra_pick"
+					Count: 1b
+					tag: {
+						mana: 9999
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "60A2FFF172E67A62"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.5d
+			dependencies: ["4C77B3818795DFD9"]
+			id: "6CAEB780462BBD18"
+			tasks: [{
+				id: "5747B642DD697B67"
+				type: "item"
+				item: {
+					id: "botania:terra_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "43204240630E47B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 19.0d
+			description: ["Elementium armor has a chance to spawn a defensive pixie every time you're attacked. The chance increases with each piece of armor worn."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "10DD8D358726C026"
+			tasks: [
+				{
+					id: "4523B8A414CCEAAB"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "446E0604E701E43A"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "400A2F5C300C197B"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "05F33C98785B0F55"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2D4CDF95AD6F5594"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 18.0d
+			description: ["The elementium pickaxe will void regular stone blocks when you mine them, but not ores. This can be combined with the Terrasteel pickaxe giving it that trait, but it's irreversable."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "401831C6F344BD41"
+			tasks: [{
+				id: "3C808C1E813707E5"
+				type: "item"
+				item: {
+					id: "botania:elementium_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33F88BE4F3A8F817"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 18.0d
+			description: ["Destroys all gravity effected blocks when digging one. Prevents falling gravel and sand in pillars."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "32FFFF310D02835B"
+			tasks: [{
+				id: "58E463597CE6CD57"
+				type: "item"
+				item: {
+					id: "botania:elementium_shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "42C9FB5D2EC06FE2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 20.0d
+			description: ["Automatically makes soil you're tilling moist regardless of whether or not water is nearby."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "45057A7ED3F48C28"
+			tasks: [{
+				id: "769D79A3F4A2C4D2"
+				type: "item"
+				item: {
+					id: "botania:elementium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "14D333A9880435F1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 19.0d
+			description: ["Has a chance to decapitate some mobs and players. Chance increases with looting."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "626C5E8E214F4100"
+			tasks: [{
+				id: "48F2B80DD9DB42FA"
+				type: "item"
+				item: {
+					id: "botania:elementium_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0C29D4BF708D4288"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 18.0d
+			description: ["Increases the chance of pixies spawning with armor, and gives them a buff."]
+			hide_dependency_lines: true
+			dependencies: ["709BB553FDC5CD64"]
+			id: "6530D11AC9D6F4E5"
+			tasks: [{
+				id: "0D8977EE25F9C8F0"
+				type: "item"
+				item: {
+					id: "botania:elementium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F8A168CD139E982"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 20.5d
+			description: ["Manaweave clothing will greatly increase your efficiency when using any mana consuming item."]
+			hide_dependency_lines: true
+			dependencies: ["08ECFAE41385958A"]
+			id: "2E9F4683C5569386"
+			tasks: [
+				{
+					id: "166540104879180E"
+					type: "item"
+					item: {
+						id: "botania:manaweave_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0A3B1DE9488A5705"
+					type: "item"
+					item: {
+						id: "botania:manaweave_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "093B80ECED8B2A77"
+					type: "item"
+					item: {
+						id: "botania:manaweave_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088CD03DA07C1F95"
+					type: "item"
+					item: {
+						id: "botania:manaweave_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "774F195482DBE683"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 20.5d
+			description: ["This nullifies an attack from an enemy when worn, then has a 10 second cool down."]
+			hide_dependency_lines: true
+			dependencies: ["08ECFAE41385958A"]
+			id: "5989418302AA79C2"
+			tasks: [{
+				id: "7DA6E84FD1C9AF53"
+				type: "item"
+				item: "botania:holy_cloak"
+			}]
+			rewards: [{
+				id: "2B25D05F69E2BFF0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 20.5d
+			description: [
+				""
+				"Damages mobs around wearer for the same ammount of damage the wearer took."
+			]
+			hide_dependency_lines: true
+			dependencies: ["08ECFAE41385958A"]
+			id: "46090C8C77C7769A"
+			tasks: [{
+				id: "6AAE6116B21392E5"
+				type: "item"
+				item: "botania:unholy_cloak"
+			}]
+			rewards: [{
+				id: "08BB384DF6DE31BA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 20.5d
+			description: ["Equally distributes damage preventing death if that's what would've happened."]
+			hide_dependency_lines: true
+			dependencies: ["08ECFAE41385958A"]
+			id: "76218711C6563B0C"
+			tasks: [{
+				id: "2ADA9543961C19C5"
+				type: "item"
+				item: "botania:balance_cloak"
+			}]
+			rewards: [{
+				id: "64BC03E1439D2B85"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 20.5d
+			description: ["It makes you invisible when you wear it."]
+			hide_dependency_lines: true
+			dependencies: ["08ECFAE41385958A"]
+			id: "31A0644CCFE1B2BC"
+			tasks: [{
+				id: "5D98730F53FD1812"
+				type: "item"
+				item: "botania:invisibility_cloak"
+			}]
+			rewards: [{
+				id: "39BE7A2F9D6ABC93"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "5F0735595DC681CE"
+			tasks: [{
+				id: "7F9E65A145438B75"
+				type: "item"
+				item: "botania:gourmaryllis"
+			}]
+			rewards: [{
+				id: "28DCC207C6B39C4D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			dependency_requirement: "one_started"
+			id: "0A67DC5FF75499DB"
+			tasks: [{
+				id: "0C1E17DCEF4E9EA3"
+				type: "item"
+				item: "botania:hydroangeas_motif"
+			}]
+			rewards: [{
+				id: "278B9F9BBA32FEBE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "429F990E714F3505"
+			tasks: [{
+				id: "693C4F36E58F5A07"
+				type: "item"
+				item: "botania:spectrolus"
+			}]
+			rewards: [{
+				id: "26D616CADDBB6149"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "7200FF97BDE0AB56"
+			tasks: [{
+				id: "01F9E011D4E3F4C3"
+				type: "item"
+				item: "botania:kekimurus"
+			}]
+			rewards: [{
+				id: "123DFC263BE53C65"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "362E7DF80E55FEF0"
+			tasks: [{
+				id: "24FFC4FCDD88E823"
+				type: "item"
+				item: "botania:munchdew"
+			}]
+			rewards: [{
+				id: "34F1974C6726907F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "3343EDDBAA6D5A9A"
+			tasks: [{
+				id: "66D7EFD616574741"
+				type: "item"
+				item: "botania:narslimmus"
+			}]
+			rewards: [{
+				id: "07ED8D64647D3725"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "4D645635016B2E3E"
+			tasks: [{
+				id: "1CF5C86A885A02DE"
+				type: "item"
+				item: "botania:rosa_arcana"
+			}]
+			rewards: [{
+				id: "37E6DA18B6A84D30"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			dependencies: ["0102A58A587B9C1C"]
+			id: "50391DAA74EFD43B"
+			tasks: [{
+				id: "4F8A8E9C83ACE98B"
+				type: "item"
+				item: "botania:shulk_me_not"
+			}]
+			rewards: [{
+				id: "08AC4B1D6B8F7C20"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,2421 @@
+{
+	id: "2C686E501B73F74A"
+	group: ""
+	order_index: 2
+	filename: "shop"
+	title: "Shop"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Enchanted Book Lootbox"
+			icon: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:thorns"
+					}]
+				}
+			}
+			x: 15.5d
+			y: -5.5d
+			subtitle: "1 Diamond"
+			id: "758BABA4C1F43F0F"
+			tasks: [{
+				id: "5138DBC11310A429"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6DAA804788673950"
+				type: "questsadditions:repeat_random"
+				table_id: 7336623271693263259L
+			}]
+		}
+		{
+			title: "Raw Materials Lootbox"
+			icon: "minecraft:raw_copper"
+			x: 10.5d
+			y: -5.5d
+			subtitle: "2 Iron"
+			id: "3EFB047B66FBDF14"
+			tasks: [{
+				id: "2534325A947B10DB"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "496E285E4A64606D"
+				type: "questsadditions:repeat_random"
+				table_id: 1597583022232499053L
+			}]
+		}
+		{
+			title: "Bees Items Lootbox"
+			icon: {
+				id: "thermal:beekeeper_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -2.5d
+			subtitle: "5 Iron"
+			id: "767DED7E51825A83"
+			tasks: [{
+				id: "40868A09020C02C2"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3AFEEB09E5752ED2"
+				type: "questsadditions:repeat_random"
+				table_id: 2339997844993093485L
+			}]
+		}
+		{
+			title: "Paraglider Lootbox"
+			icon: "paraglider:paraglider"
+			x: 18.5d
+			y: -5.5d
+			subtitle: "1 Netherite"
+			id: "3440821F1F692DF3"
+			tasks: [{
+				id: "36C434BE0F29331A"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23054E4EB5F45F1E"
+				type: "questsadditions:repeat_random"
+				table_id: 5149275932535152383L
+			}]
+		}
+		{
+			title: "Early Game Lootbox"
+			icon: "minecraft:coarse_dirt"
+			x: 9.5d
+			y: -5.5d
+			subtitle: "5 Copper"
+			id: "79CB1B45023B7398"
+			tasks: [{
+				id: "32FAD6B184C952C2"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1901FD43D6850B8F"
+				type: "questsadditions:repeat_random"
+				table_id: 3198256570797168615L
+			}]
+		}
+		{
+			title: "Netherite Ingot"
+			icon: "minecraft:netherite_ingot"
+			x: 7.5d
+			y: -7.0d
+			subtitle: "1 Netherite"
+			id: "39429CFF06E4A7E5"
+			tasks: [{
+				id: "6107E2BC99D33577"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7E82523CBA648BC7"
+				type: "questsadditions:repeat_random"
+				table_id: 2170612731170817005L
+			}]
+		}
+		{
+			title: "Statues Lootbox"
+			icon: "statues:tropibee"
+			x: 20.5d
+			y: -5.5d
+			subtitle: "1 Gold"
+			id: "0C8E7A7CFEEFF4C5"
+			tasks: [{
+				id: "5E56579F6935A0C8"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5E5C93FA4F09590E"
+				type: "questsadditions:repeat_random"
+				table_id: 625898559186158304L
+			}]
+		}
+		{
+			title: "Dimensional Carver"
+			icon: {
+				id: "alexsmobs:dimensional_carver"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 5.0d
+			subtitle: "Diamond 3"
+			description: ["Used to fast travel to your spawn! Mine the air for what feels like ages :)"]
+			id: "67AB20AA93113B25"
+			tasks: [{
+				id: "382D2CC72711AC01"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1B536A279FF4C68D"
+				type: "questsadditions:repeat_random"
+				table_id: 4154929277098000420L
+			}]
+		}
+		{
+			title: "Dungeon Chest Lootbox"
+			icon: "lootr:trophy"
+			x: 19.5d
+			y: -5.5d
+			subtitle: "5 Gold"
+			id: "3752C767CFB95B70"
+			tasks: [{
+				id: "117211371EF200EF"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "09709568D7CEAD84"
+				type: "questsadditions:repeat_random"
+				table_id: 2436452163916118428L
+			}]
+		}
+		{
+			title: "Bee Spawnegg Lootbox"
+			icon: "minecraft:bee_spawn_egg"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "3 Gold"
+			id: "340D9B2EB1F6B7F9"
+			tasks: [{
+				id: "42E8FE41F3D80CA6"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1370A6068D5A88A9"
+				type: "questsadditions:repeat_random"
+				table_id: 9152908441359086994L
+			}]
+		}
+		{
+			title: "Lucky Block Lootbox"
+			icon: "chancecubes:chance_cube"
+			x: 8.5d
+			y: -5.5d
+			subtitle: "1 Gold"
+			id: "041B21CE38CB305F"
+			tasks: [{
+				id: "35BC96B35AAD7C1D"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "391F08991E8FCE40"
+				type: "questsadditions:repeat_random"
+				table_id: 8550461629499983800L
+			}]
+		}
+		{
+			title: "Useful Plants"
+			icon: "minecraft:sugar_cane"
+			x: 6.5d
+			y: -5.5d
+			subtitle: "5 Iron"
+			id: "2AE7A29DDE7F0403"
+			tasks: [{
+				id: "628C810A69D4FFEC"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "49AF6F8B6AC75DBA"
+				type: "questsadditions:repeat_random"
+				table_id: 5988260417568414020L
+			}]
+		}
+		{
+			title: "Full Dark Chocolate Bar"
+			icon: {
+				id: "create_confectionery:full_black_chocolate_bar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.5d
+			y: 0.5d
+			subtitle: "5 Iron"
+			id: "32258398C583EBF0"
+			tasks: [{
+				id: "6E6A12FFFB5D14E1"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1175AB6D3E31D234"
+				type: "questsadditions:repeat_random"
+				table_id: 6616968853158747440L
+			}]
+		}
+		{
+			title: "Black Lotus x16"
+			icon: "botania:black_lotus"
+			x: -4.0d
+			y: -11.5d
+			subtitle: "1 Gold"
+			dependencies: ["6B9304C2462688A5"]
+			id: "2280A54441FCFE01"
+			tasks: [{
+				id: "46289A6AEB9CE4CA"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "41F4E24F498001D3"
+				type: "questsadditions:repeat_random"
+				table_id: 4168863975284962271L
+			}]
+		}
+		{
+			title: "Blacker Lotus x8"
+			icon: "botania:blacker_lotus"
+			x: -3.0d
+			y: -11.5d
+			subtitle: "1 Diamond"
+			dependencies: ["6B9304C2462688A5"]
+			id: "21D448D7761D691D"
+			tasks: [{
+				id: "4C8251EF228A1F9B"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2766E512C583C603"
+				type: "questsadditions:repeat_random"
+				table_id: 8945389106124050119L
+			}]
+		}
+		{
+			title: "Superfoods Lootbox"
+			icon: "farmersdelight:roast_chicken_block"
+			x: 17.5d
+			y: -5.5d
+			subtitle: "3 Gold"
+			id: "7AA9D4163E5B9CB8"
+			tasks: [{
+				id: "67C37CEC04F75458"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C9A9FDF645917FB"
+				type: "questsadditions:repeat_random"
+				table_id: 489521934179849641L
+			}]
+		}
+		{
+			title: "Cobbled Deepslate"
+			icon: "minecraft:cobbled_deepslate"
+			x: 4.5d
+			y: -13.0d
+			subtitle: "5 Copper"
+			id: "46860C38BEDB35D9"
+			tasks: [{
+				id: "7DA598E8E3B628ED"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0E956E02B9677351"
+				type: "questsadditions:repeat_random"
+				table_id: 4276464200159417013L
+			}]
+		}
+		{
+			title: "Mob Drops Lootbox"
+			icon: "minecraft:rotten_flesh"
+			x: 14.5d
+			y: -5.5d
+			subtitle: "1 Iron"
+			id: "5C9A725A473752BB"
+			tasks: [{
+				id: "4357CF45F1BD65CC"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "77B69140DB2E1924"
+				type: "questsadditions:repeat_random"
+				table_id: 4250388979661946380L
+			}]
+		}
+		{
+			title: "Artifacts"
+			icon: "artifacts:crystal_heart"
+			x: 7.5d
+			y: -5.5d
+			subtitle: "2 Netherite"
+			id: "1633DEF7296C2495"
+			tasks: [{
+				id: "7620291FDD9AFC39"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "41316CE7FFAD0844"
+				type: "questsadditions:repeat_random"
+				table_id: 195589080842293827L
+			}]
+		}
+		{
+			title: "Calcite"
+			icon: "minecraft:calcite"
+			x: 6.5d
+			y: -13.0d
+			subtitle: "1 Iron"
+			id: "5EE1FC6BD774AA31"
+			tasks: [{
+				id: "2715F07D7D6E4C81"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4EC1803C344BFBBC"
+				type: "questsadditions:repeat_random"
+				table_id: 4926450900823086999L
+			}]
+		}
+		{
+			title: "Oak logs"
+			icon: "minecraft:oak_log"
+			x: 3.5d
+			y: -13.0d
+			subtitle: "5 Copper"
+			id: "17F7862D8ECF3332"
+			tasks: [{
+				id: "327189EA8E711123"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6A9738FB86BA0E53"
+				type: "questsadditions:repeat_random"
+				table_id: 5997734022831519242L
+			}]
+		}
+		{
+			title: "Dirt"
+			icon: "minecraft:dirt"
+			x: 3.5d
+			y: -11.5d
+			subtitle: "1 Gold"
+			id: "525FF09F988D6E6C"
+			tasks: [{
+				id: "1ED4B275DDD459CC"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "20DBDB98E6AA5BF8"
+				type: "questsadditions:repeat_random"
+				table_id: 2129330654620827779L
+			}]
+		}
+		{
+			title: "Potion of Slow Falling"
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:slow_falling"
+				}
+			}
+			x: 3.5d
+			y: -1.0d
+			subtitle: "5 Copper"
+			id: "6AC39CA6649CFD69"
+			tasks: [{
+				id: "1AC89E0E88BBD0ED"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "615F0F0615A52B61"
+				type: "questsadditions:repeat_random"
+				table_id: 1925357867510111828L
+			}]
+		}
+		{
+			title: "Steak x64"
+			icon: "minecraft:cooked_beef"
+			x: 4.5d
+			y: -8.5d
+			subtitle: "2 Gold"
+			id: "27171D47B57E95F5"
+			tasks: [{
+				id: "0912E3501138905E"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "11294558AE8DE912"
+				type: "questsadditions:repeat_random"
+				table_id: 2197584290693917591L
+			}]
+		}
+		{
+			title: "Steak x8"
+			icon: "minecraft:cooked_beef"
+			x: 3.5d
+			y: -8.5d
+			subtitle: "3 Iron"
+			id: "2DD68D4BA7299430"
+			tasks: [{
+				id: "55E459E8EC67E6E5"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3FB446C96BD98528"
+				type: "questsadditions:repeat_random"
+				table_id: 4485258086334202709L
+			}]
+		}
+		{
+			title: "Block of Copper"
+			icon: "minecraft:copper_block"
+			x: 3.5d
+			y: -7.0d
+			subtitle: "5 Copper"
+			id: "59C2A31107A542AA"
+			tasks: [{
+				id: "1D50AC5B27B570EC"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6DF99481BADB6DB0"
+				type: "questsadditions:repeat_random"
+				table_id: 1251121778116515013L
+			}]
+		}
+		{
+			title: "Dye Lootbox"
+			icon: "minecraft:red_dye"
+			x: 16.5d
+			y: -5.5d
+			subtitle: "5 Iron"
+			id: "1C85188BD3944621"
+			tasks: [{
+				id: "097C6DDB36733A8E"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2DFEE8AFB961E081"
+				type: "questsadditions:repeat_random"
+				table_id: 3070504301747188082L
+			}]
+		}
+		{
+			title: "Swords Lootbox"
+			icon: "andromedacrafts:pink_sword"
+			x: 13.5d
+			y: -5.5d
+			subtitle: "5 Diamond"
+			id: "40BD1B116DE69C9C"
+			tasks: [{
+				id: "76BC60EE0BB411E0"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1750B4E87B2AB04F"
+				type: "questsadditions:repeat_random"
+				table_id: 7055519523306527289L
+			}]
+		}
+		{
+			title: "Furniture Lootbox"
+			icon: "cfm:oak_chair"
+			x: 4.5d
+			y: -5.5d
+			subtitle: "2 Iron"
+			id: "799AD535BB01245D"
+			tasks: [{
+				id: "2C351FDBBAA88B76"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 2L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "309F7E7D1FF8FC08"
+				type: "questsadditions:repeat_random"
+				table_id: 8387167607643549076L
+			}]
+		}
+		{
+			title: "Spear Hook Launcher"
+			icon: {
+				id: "adhooks:spear_launcher"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -10.0d
+			subtitle: "1 Copper"
+			id: "4B7C28FFDA1A4CAD"
+			tasks: [{
+				id: "093040DF1F14CC6D"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1EDE912975915DED"
+				type: "questsadditions:repeat_random"
+				table_id: 338774933388151372L
+			}]
+		}
+		{
+			title: "Scathed Disc 1"
+			icon: "botania:record_gaia_2"
+			x: 3.5d
+			y: 15.0d
+			subtitle: "1 Gold"
+			id: "112C36A64E5CF6FF"
+			tasks: [{
+				id: "3289BFDC04C07271"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4B3D2D0467D270A4"
+				type: "questsadditions:repeat_random"
+				table_id: 1988364093392293332L
+			}]
+		}
+		{
+			title: "Full Chocolate Bar x1"
+			icon: {
+				id: "create_confectionery:full_chocolate_bar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: 0.5d
+			subtitle: "5 Iron"
+			id: "1C45AC7217C7FB40"
+			tasks: [{
+				id: "7DEA5F86992AD478"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "040C521122802A22"
+				type: "questsadditions:repeat_random"
+				table_id: 1323063595524400633L
+			}]
+		}
+		{
+			title: "Redstone Block x16"
+			icon: "minecraft:redstone_block"
+			x: 8.5d
+			y: -7.0d
+			subtitle: "3 Gold"
+			id: "60318E57DC88D58C"
+			tasks: [{
+				id: "1ED3B4B0DABA1B11"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "289A7B81889385E8"
+				type: "questsadditions:repeat_random"
+				table_id: 7515939004662837239L
+			}]
+		}
+		{
+			title: "Pancake x32"
+			icon: "supplementaries:pancake"
+			x: 7.5d
+			y: 0.5d
+			subtitle: "5 Iron"
+			id: "3E74E03FB74ADC1B"
+			tasks: [{
+				id: "2B79AA1290C4EA5B"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "398E9F67EE79A27F"
+				type: "questsadditions:repeat_random"
+				table_id: 2365546528416509378L
+			}]
+		}
+		{
+			title: "Elytra"
+			icon: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -10.0d
+			subtitle: "5 Diamond"
+			dependencies: ["6CFBF112E25E2EF9"]
+			id: "1FA6598D69CB7CBD"
+			tasks: [{
+				id: "662A7A3FD8EE083C"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2DCAA06F77A17E82"
+				type: "questsadditions:repeat_random"
+				table_id: 474892629918243641L
+			}]
+		}
+		{
+			title: "Full Ruby Chocolate bar"
+			icon: {
+				id: "create_confectionery:full_ruby_chocolate_bar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: 0.5d
+			subtitle: "5 Iron"
+			id: "2AD4C4ECB9600668"
+			tasks: [{
+				id: "2CA6D08B84A4B6E8"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2CB05ECBC5BCF1DF"
+				type: "questsadditions:repeat_random"
+				table_id: 2039137732591018852L
+			}]
+		}
+		{
+			title: "Creative Soul Slot"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "souls"
+				}
+			}
+			x: -2.0d
+			y: -8.5d
+			subtitle: "1 Netherite"
+			dependencies: ["2BF76A6DF8AB98A1"]
+			id: "486B38E74D0B21F6"
+			tasks: [{
+				id: "3C10F661512E466D"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5831D30461FB650E"
+				type: "questsadditions:repeat_random"
+				table_id: 6875759461578788399L
+			}]
+		}
+		{
+			title: "Full White Chocolate Bar"
+			icon: {
+				id: "create_confectionery:full_white_chocolate_bar"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: 0.5d
+			subtitle: "5 Iron"
+			id: "1E534C8B4CEE10F4"
+			tasks: [{
+				id: "1E365C5BA27A06C1"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F1E876A7FCA1911"
+				type: "questsadditions:repeat_random"
+				table_id: 9166810610306179640L
+			}]
+		}
+		{
+			title: "Creative Ability"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			x: -4.0d
+			y: -8.5d
+			subtitle: "1 Netherite"
+			dependencies: ["2BF76A6DF8AB98A1"]
+			id: "7964F21C19F69282"
+			tasks: [{
+				id: "2A30BC7C95249C40"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6120775DA5EF6E76"
+				type: "questsadditions:repeat_random"
+				table_id: 1285350019291183112L
+			}]
+		}
+		{
+			title: "Diamond x16"
+			icon: "minecraft:diamond"
+			x: 6.5d
+			y: -7.0d
+			subtitle: "5 Diamond"
+			id: "0137739F131C73EB"
+			tasks: [{
+				id: "16A2B19BFA08A5E7"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "26D1EE3849716F5A"
+				type: "questsadditions:repeat_random"
+				table_id: 1482551548270718351L
+			}]
+		}
+		{
+			title: "Iron Ingot x16"
+			icon: "minecraft:iron_ingot"
+			x: 4.5d
+			y: -7.0d
+			subtitle: "5 Iron"
+			id: "45F39A8C1B6CD145"
+			tasks: [{
+				id: "4BA5BF034C8BCB82"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50D4EF33C3682732"
+				type: "questsadditions:repeat_random"
+				table_id: 5879832891457819643L
+			}]
+		}
+		{
+			title: "Lighting Lootbox"
+			icon: "minecraft:lantern"
+			x: 3.5d
+			y: -5.5d
+			subtitle: "1 Iron"
+			id: "3EC7D86582A75D4C"
+			tasks: [{
+				id: "330DA470900F98F5"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2D22F8570CC7BC25"
+				type: "questsadditions:repeat_random"
+				table_id: 8917062809192159599L
+			}]
+		}
+		{
+			title: "Pretty Plants Lootbox"
+			icon: "minecraft:flowering_azalea"
+			x: 5.5d
+			y: -5.5d
+			subtitle: "3 Iron"
+			id: "1BFFA1E6B7EA96CC"
+			tasks: [{
+				id: "0D3926BF70807FEA"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "336D4575EE094903"
+				type: "questsadditions:repeat_random"
+				table_id: 638884743330004839L
+			}]
+		}
+		{
+			title: "Cobblestone"
+			icon: "minecraft:cobblestone"
+			x: 4.5d
+			y: -11.5d
+			subtitle: "5 Copper"
+			id: "5B0F4597D71044FB"
+			tasks: [{
+				id: "5542CE16A7BF4C75"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "270AEE7472F6B8A0"
+				type: "questsadditions:repeat_random"
+				table_id: 2383298569511676373L
+			}]
+		}
+		{
+			title: "Sand"
+			icon: "minecraft:sand"
+			x: 6.5d
+			y: -11.5d
+			subtitle: "7 Copper"
+			id: "6474CB552A4F4B3E"
+			tasks: [{
+				id: "61D208F9ABC6533B"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 7L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4704F082D5050601"
+				type: "questsadditions:repeat_random"
+				table_id: 4676480007682726933L
+			}]
+		}
+		{
+			title: "Gems Lootbox"
+			icon: "gemsnjewels:pale_diamond"
+			x: 11.5d
+			y: -5.5d
+			subtitle: "5 Gold"
+			id: "427FBAFF7D8E2E9B"
+			tasks: [{
+				id: "7F47E5CB1F442F89"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1D02FA64CB47BAD5"
+				type: "questsadditions:repeat_random"
+				table_id: 7053355435244696390L
+			}]
+		}
+		{
+			title: "Dust"
+			icon: "exnihilosequentia:dust"
+			x: 7.5d
+			y: -11.5d
+			subtitle: "8 Copper"
+			id: "360BA95BED2BA757"
+			tasks: [{
+				id: "63833E2CED35F3D6"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4FC084D3821197E0"
+				type: "questsadditions:repeat_random"
+				table_id: 2112060075821805758L
+			}]
+		}
+		{
+			title: "Gravel"
+			icon: "minecraft:gravel"
+			x: 5.5d
+			y: -11.5d
+			subtitle: "6 Copper"
+			id: "4B399FD001796127"
+			tasks: [{
+				id: "38300958EA250B21"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 6L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D0AB934096F606C"
+				type: "questsadditions:repeat_random"
+				table_id: 4833645065986659603L
+			}]
+		}
+		{
+			title: "Boneblock"
+			icon: "minecraft:bone_block"
+			x: 5.5d
+			y: -13.0d
+			subtitle: "1 Iron"
+			id: "2C44E49778E36658"
+			tasks: [{
+				id: "359BBF2D37780287"
+				type: "item"
+				item: "andromedacrafts:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "21B2E9625357A9F3"
+				type: "questsadditions:repeat_random"
+				table_id: 6615658797169442084L
+			}]
+		}
+		{
+			title: "Gold Ingot x16"
+			icon: "minecraft:gold_ingot"
+			x: 5.5d
+			y: -7.0d
+			subtitle: "5 Gold"
+			id: "7EA7A16FAF912826"
+			tasks: [{
+				id: "3518E498C1B630AB"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "65E25DD1764E874F"
+				type: "questsadditions:repeat_random"
+				table_id: 1272211195289209039L
+			}]
+		}
+		{
+			title: "Creative Upgrade"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "upgrades"
+				}
+			}
+			x: -3.0d
+			y: -8.5d
+			subtitle: "1 Netherite"
+			dependencies: ["2BF76A6DF8AB98A1"]
+			id: "01E8B3E806779E56"
+			tasks: [{
+				id: "319990229B4BBBD4"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "611A92DC214B8E59"
+				type: "questsadditions:repeat_random"
+				table_id: 2905043121663762387L
+			}]
+		}
+		{
+			title: "Epic Shader Grab-bag"
+			icon: "immersiveengineering:shader_bag_epic"
+			x: -1.0d
+			y: -13.0d
+			subtitle: "1 Netherite"
+			dependencies: ["22CF3C314198778D"]
+			id: "75B2EAAFAE1A67A8"
+			tasks: [{
+				id: "55C7A42C055F3036"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "23CF3D8079FA5C6D"
+				type: "questsadditions:repeat_random"
+				table_id: 7949030668903119199L
+			}]
+		}
+		{
+			title: "Uncommon Shader Grab-bag"
+			icon: "immersiveengineering:shader_bag_uncommon"
+			x: -3.0d
+			y: -13.0d
+			subtitle: "5 Gold"
+			dependencies: ["22CF3C314198778D"]
+			id: "4C7725BF7343F3F8"
+			tasks: [{
+				id: "554EDB9C9267EA09"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "35B03C57B2DD6E33"
+				type: "questsadditions:repeat_random"
+				table_id: 7117416903957586407L
+			}]
+		}
+		{
+			title: "Common Shaders Grab-bag"
+			icon: "immersiveengineering:shader_bag_common"
+			x: -4.0d
+			y: -13.0d
+			subtitle: "5 Copper"
+			dependencies: ["22CF3C314198778D"]
+			id: "6188229D6311D537"
+			tasks: [{
+				id: "71721A5DA1AE5756"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4EB7E86E91D4B44E"
+				type: "questsadditions:repeat_random"
+				table_id: 2355947579983203183L
+			}]
+		}
+		{
+			title: "Display Stand"
+			icon: "statues:display_stand"
+			x: 3.5d
+			y: 3.5d
+			subtitle: "3 Copper"
+			id: "5D8263037C8556B5"
+			tasks: [{
+				id: "37B776CC3DA89DA0"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03298E295C3DFC1E"
+				type: "questsadditions:repeat_random"
+				table_id: 835803118218702511L
+			}]
+		}
+		{
+			title: "Ender Dragon Head"
+			icon: "minecraft:dragon_head"
+			x: -4.0d
+			y: -10.0d
+			subtitle: "1 Diamond"
+			dependencies: ["6CFBF112E25E2EF9"]
+			id: "68BB8AC03927E418"
+			tasks: [{
+				id: "65F1152F9ABA88F3"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "09C917FEEEECBF1D"
+				type: "questsadditions:repeat_random"
+				table_id: 7495956164295216203L
+			}]
+		}
+		{
+			title: "Fireball x8"
+			icon: "cyclic:fireball"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "4 Copper"
+			id: "4B85A41D340ABE0F"
+			tasks: [{
+				id: "59CAFFF0856E4C95"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "63379B31FA09E01E"
+				type: "questsadditions:repeat_random"
+				table_id: 4033172858763743967L
+			}]
+		}
+		{
+			title: "Dark Fireball x8"
+			icon: "cyclic:fireball_dark"
+			x: 3.5d
+			y: 2.0d
+			subtitle: "4 Copper"
+			id: "633DE13F10F12B3E"
+			tasks: [{
+				id: "6B81738424A7429B"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 4L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "725C947F2CD91F79"
+				type: "questsadditions:repeat_random"
+				table_id: 6138391383763940225L
+			}]
+		}
+		{
+			title: "Rare Shader Grab-bag"
+			icon: "immersiveengineering:shader_bag_rare"
+			x: -2.0d
+			y: -13.0d
+			subtitle: "5 Diamond"
+			dependencies: ["22CF3C314198778D"]
+			id: "0981E685A782ACC3"
+			tasks: [{
+				id: "6F288F7D4FAD5E1E"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7EE3507261B281EF"
+				type: "questsadditions:repeat_random"
+				table_id: 3209649512152258308L
+			}]
+		}
+		{
+			title: "Tome of knowledge"
+			icon: "projecte:tome"
+			x: -4.0d
+			y: -5.5d
+			subtitle: "30 Netherite"
+			dependencies: ["6681ED02FDF32F02"]
+			id: "0D6712A75EE70D76"
+			tasks: [{
+				id: "7476BCBB9BBC67F9"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				count: 30L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "12FD84FE8715DAB8"
+				type: "questsadditions:repeat_random"
+				table_id: 1303630957780705236L
+			}]
+		}
+		{
+			title: "Masterwork Shader Grab-bag"
+			icon: "immersiveengineering:shader_bag_ie_masterwork"
+			x: 0.0d
+			y: -13.0d
+			subtitle: "3 Netherite"
+			dependencies: ["22CF3C314198778D"]
+			id: "684539DBFDAF7010"
+			tasks: [{
+				id: "4D24971D62962596"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5692CF8060A4F27B"
+				type: "questsadditions:repeat_random"
+				table_id: 1115589993409887338L
+			}]
+		}
+		{
+			title: "Dripstone x64"
+			icon: "minecraft:dripstone_block"
+			x: 8.5d
+			y: -11.5d
+			subtitle: "1 Gold"
+			id: "46B571E8CB602FB9"
+			tasks: [{
+				id: "72A6820F400E071C"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6F5CD96FE25CF7E3"
+				type: "questsadditions:repeat_random"
+				table_id: 3250815499212424160L
+			}]
+		}
+		{
+			title: "Creative Defense Slot"
+			icon: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "defense"
+				}
+			}
+			x: -1.0d
+			y: -8.5d
+			subtitle: "1 Netherite"
+			dependencies: ["2BF76A6DF8AB98A1"]
+			id: "2DE6595F1CDD3DDE"
+			tasks: [{
+				id: "74D1599472FECF8A"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2D7D5BF2557D1404"
+				type: "questsadditions:repeat_random"
+				auto: "disabled"
+				table_id: 8396884031044970213L
+			}]
+		}
+		{
+			title: "Scathed Disc 2"
+			icon: "botania:record_gaia_1"
+			x: 6.5d
+			y: 16.0d
+			subtitle: "1 Gold"
+			id: "7044C6724D2E0BA3"
+			tasks: [{
+				id: "17649B88FFE185F4"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2994D2B4E31ABB91"
+				type: "questsadditions:repeat_random"
+				table_id: 1227859908580696654L
+			}]
+		}
+		{
+			title: "Wanderer Disc"
+			icon: "biomesoplenty:music_disc_wanderer"
+			x: 4.5d
+			y: 15.0d
+			subtitle: "1 Gold"
+			id: "7B154904C4F10D5E"
+			tasks: [{
+				id: "035EE059D11A2076"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "58E1BAD6B60533EA"
+				type: "questsadditions:repeat_random"
+				table_id: 32041325901503276L
+			}]
+		}
+		{
+			title: "Wait Disc"
+			icon: "minecraft:music_disc_wait"
+			x: 5.5d
+			y: 16.0d
+			subtitle: "1 Gold"
+			id: "7A475BBB369B96B1"
+			tasks: [{
+				id: "110A6A16AEC478AF"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6FF502C4D754F3BB"
+				type: "questsadditions:repeat_random"
+				table_id: 9192974385079186858L
+			}]
+		}
+		{
+			title: "11 Disc"
+			icon: "minecraft:music_disc_11"
+			x: 4.5d
+			y: 16.0d
+			subtitle: "1 Gold"
+			id: "6695B28A925B2554"
+			tasks: [{
+				id: "4FC890D0E0C225CA"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "03C53C35B181B7DC"
+				type: "questsadditions:repeat_random"
+				table_id: 3936457301659678517L
+			}]
+		}
+		{
+			title: "Ward Disc"
+			icon: "minecraft:music_disc_ward"
+			x: 3.5d
+			y: 16.0d
+			subtitle: "1 Gold"
+			id: "4DF52C9B1C603386"
+			tasks: [{
+				id: "6A203CF7A11C2C3E"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "59A4E4C677C39963"
+				type: "questsadditions:repeat_random"
+				table_id: 7318424542382192026L
+			}]
+		}
+		{
+			title: "Stal Disc"
+			icon: "minecraft:music_disc_stal"
+			x: 6.5d
+			y: 15.0d
+			subtitle: "1 Gold"
+			id: "0598D807BB249C4F"
+			tasks: [{
+				id: "436033F4C52C0A1D"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "71B37D750D77AB2E"
+				type: "questsadditions:repeat_random"
+				table_id: 2184794521339492968L
+			}]
+		}
+		{
+			title: "Mellohi Disc"
+			icon: "minecraft:music_disc_mellohi"
+			x: 6.5d
+			y: 12.0d
+			subtitle: "1 Gold"
+			id: "6C9A5AB42C29F90F"
+			tasks: [{
+				id: "698ED2594FA1A2D2"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "541BFD5F200FCF64"
+				type: "questsadditions:repeat_random"
+				table_id: 103883772858864376L
+			}]
+		}
+		{
+			title: "Mall Disc"
+			icon: "minecraft:music_disc_mall"
+			x: 5.5d
+			y: 13.0d
+			subtitle: "1 Gold"
+			id: "6642B268DFECD5E1"
+			tasks: [{
+				id: "3C811A6CFDE65FA2"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4534BFE80A68CE1E"
+				type: "questsadditions:repeat_random"
+				table_id: 6472022845374067959L
+			}]
+		}
+		{
+			title: "Far Disc"
+			icon: "minecraft:music_disc_far"
+			x: 4.5d
+			y: 13.0d
+			subtitle: "1 Gold"
+			id: "72DB4DCA0783EAD0"
+			tasks: [{
+				id: "01D0F2A7B02AD8FA"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4FE28FF1E1700C7A"
+				type: "questsadditions:repeat_random"
+				table_id: 120438054072503348L
+			}]
+		}
+		{
+			title: "Chirp Disc"
+			icon: "minecraft:music_disc_chirp"
+			x: 5.5d
+			y: 12.0d
+			subtitle: "1 Gold"
+			id: "6BCE627FF170BA92"
+			tasks: [{
+				id: "7D0537E1476D8DEC"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6059110CFA5E5C77"
+				type: "questsadditions:repeat_random"
+				table_id: 1635535411663526040L
+			}]
+		}
+		{
+			title: "Cat Disc"
+			icon: "minecraft:music_disc_cat"
+			x: 3.5d
+			y: 13.0d
+			subtitle: "1 Gold"
+			id: "05B529DA56E9DAB3"
+			tasks: [{
+				id: "48F2BEB7BBD5A331"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "367B0548048B89B9"
+				type: "questsadditions:repeat_random"
+				table_id: 493940852845875061L
+			}]
+		}
+		{
+			title: "Otherside Disc"
+			icon: "minecraft:music_disc_otherside"
+			x: 3.5d
+			y: 14.0d
+			subtitle: "1 Gold"
+			id: "00D2DB77222FEFE5"
+			tasks: [{
+				id: "464528327EEBD8C7"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7C577FD5974A1C82"
+				type: "questsadditions:repeat_random"
+				table_id: 9049930848346792200L
+			}]
+		}
+		{
+			title: "Strad Disc"
+			icon: "minecraft:music_disc_strad"
+			x: 6.5d
+			y: 13.0d
+			subtitle: "1 Gold"
+			id: "5CFCF9ED31CD8063"
+			tasks: [{
+				id: "6B5F74CAA8A50553"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1438307E77A75776"
+				type: "questsadditions:repeat_random"
+				table_id: 9160759429558943076L
+			}]
+		}
+		{
+			title: "13 Disc"
+			icon: "minecraft:music_disc_13"
+			x: 3.5d
+			y: 12.0d
+			subtitle: "1 Gold"
+			id: "4ED43BFB1E39F36B"
+			tasks: [{
+				id: "6C1837F6FFC76BB5"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "494B2152621BBB9B"
+				type: "questsadditions:repeat_random"
+				table_id: 8914696699135770609L
+			}]
+		}
+		{
+			title: "TheBrightSide Disc"
+			icon: "create_confectionery:the_bright_side"
+			x: 6.5d
+			y: 14.0d
+			subtitle: "1 Gold"
+			id: "5B64BAD219571D92"
+			tasks: [{
+				id: "52C888F196E6BBED"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7510DE2205561EF5"
+				type: "questsadditions:repeat_random"
+				table_id: 5216857574158274812L
+			}]
+		}
+		{
+			title: "Daze Disc"
+			icon: "alexsmobs:music_disc_daze"
+			x: 5.5d
+			y: 15.0d
+			subtitle: "1 Gold"
+			id: "0E7EF503B3DD37E7"
+			tasks: [{
+				id: "56E1F0D396C4BED5"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "710B129668D425B1"
+				type: "questsadditions:repeat_random"
+				table_id: 6980479933814296720L
+			}]
+		}
+		{
+			title: "Thine Disc"
+			icon: "alexsmobs:music_disc_thime"
+			x: 4.5d
+			y: 14.0d
+			subtitle: "1 Gold"
+			id: "7588D37D43CEB696"
+			tasks: [{
+				id: "4388B781C9A5628D"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "10F79B9853FE4B8A"
+				type: "questsadditions:repeat_random"
+				table_id: 7051718121540495534L
+			}]
+		}
+		{
+			title: "Pigstep Disc"
+			icon: "minecraft:music_disc_pigstep"
+			x: 5.5d
+			y: 14.0d
+			subtitle: "1 Gold"
+			id: "5F0414DC62A52D9F"
+			tasks: [{
+				id: "177ADADD46E9065B"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7689E067DF55BD21"
+				type: "questsadditions:repeat_random"
+				table_id: 6618822402467093850L
+			}]
+		}
+		{
+			title: "Blocks Disc"
+			icon: "minecraft:music_disc_blocks"
+			x: 4.5d
+			y: 12.0d
+			subtitle: "1 Gold"
+			id: "161ED7534EAADE03"
+			tasks: [{
+				id: "420850CE4F5C34BE"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7BBD515B45905CF3"
+				type: "questsadditions:repeat_random"
+				table_id: 5544075214156009631L
+			}]
+		}
+		{
+			title: "Big Book of Bees"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "productivebees:guide"
+				}
+			}
+			x: 6.5d
+			y: 9.5d
+			subtitle: "1 Copper"
+			id: "306E6A4560599418"
+			tasks: [{
+				id: "3C620EEFE003360E"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "56D0EB739B9E0C4F"
+				type: "questsadditions:repeat_random"
+				table_id: 3513381427829868656L
+			}]
+		}
+		{
+			title: "Pnumaticraft Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "pneumaticcraft:book"
+				}
+			}
+			x: 5.5d
+			y: 9.5d
+			subtitle: "1 Copper"
+			id: "7D7A04CCD99ABF19"
+			tasks: [{
+				id: "5E8B2C1F45CED706"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "000769BA6B064389"
+				type: "questsadditions:repeat_random"
+				table_id: 1734852914022265118L
+			}]
+		}
+		{
+			title: "Network Guide Book"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "storagenetwork:network_book"
+				}
+			}
+			x: 6.5d
+			y: 10.5d
+			subtitle: "1 Copper"
+			id: "20A756CA9AA2EB12"
+			tasks: [{
+				id: "43953173BCFF60E3"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4F2FB34DE21F66A2"
+				type: "questsadditions:repeat_random"
+				table_id: 4115046033200027009L
+			}]
+		}
+		{
+			title: "Modular Routers"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "modularrouters:book"
+				}
+			}
+			x: 3.5d
+			y: 10.5d
+			subtitle: "1 Copper"
+			id: "59D5967A031C6BBF"
+			tasks: [{
+				id: "6A0D52DA2CBCA964"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "690E898D746B4570"
+				type: "questsadditions:repeat_random"
+				table_id: 2105803068178196602L
+			}]
+		}
+		{
+			title: "Deep Mob Learning Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "dmlreforged:book"
+				}
+			}
+			x: 7.5d
+			y: 9.5d
+			subtitle: "1 Copper"
+			id: "4E24A55B8BD1D178"
+			tasks: [{
+				id: "7C6839482828C3C2"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2190B0C7597EF732"
+				type: "questsadditions:repeat_random"
+				table_id: 4599861787399050239L
+			}]
+		}
+		{
+			title: "Engineer's Decor Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "engineersdecor:engineersdecor_manual"
+				}
+			}
+			x: 5.5d
+			y: 10.5d
+			subtitle: "1 Copper"
+			id: "5D8CCEE8F9312D25"
+			tasks: [{
+				id: "7B1F310F9A6F6F54"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1E195A64D0F99AB4"
+				type: "questsadditions:repeat_random"
+				table_id: 4694319981050629441L
+			}]
+		}
+		{
+			title: "Mystical Agriculture Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "mysticalagriculture:guide"
+				}
+			}
+			x: 8.5d
+			y: 9.5d
+			subtitle: "1 Copper"
+			id: "5F9E5E95E2E6CA96"
+			tasks: [{
+				id: "45097EA335DDBB03"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "0DD6F5F4DD4EBD37"
+				type: "questsadditions:repeat_random"
+				table_id: 3559932933637214696L
+			}]
+		}
+		{
+			title: "Thermalpedia"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "thermal:guidebook"
+				}
+			}
+			x: 4.5d
+			y: 10.5d
+			subtitle: "1 Copper"
+			id: "52848E17E58DA4E4"
+			tasks: [{
+				id: "5E1D6F7309CBDF49"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2D49BA49EDD5EDBA"
+				type: "questsadditions:repeat_random"
+				table_id: 6205667130871706133L
+			}]
+		}
+		{
+			title: "Cyclic Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "cyclic:cyclic_guide_book"
+				}
+			}
+			x: 8.5d
+			y: 10.5d
+			subtitle: "1 Copper"
+			id: "017550C8243BF2DA"
+			tasks: [{
+				id: "7DA0A77D4A387255"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "37F6DAC573C52264"
+				type: "questsadditions:repeat_random"
+				table_id: 2781301006026965667L
+			}]
+		}
+		{
+			title: "Extended Crafting Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "extendedcrafting:guide"
+				}
+			}
+			x: 7.5d
+			y: 10.5d
+			subtitle: "1 Copper"
+			id: "02707C35B27BC9DF"
+			tasks: [{
+				id: "5F6165D64664DD8D"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "78F08400BC9D238B"
+				type: "questsadditions:repeat_random"
+				table_id: 9217326422556468800L
+			}]
+		}
+		{
+			title: "Little Logistics Guidebook"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "littlelogistics:guide"
+				}
+			}
+			x: 4.5d
+			y: 9.5d
+			subtitle: "1 Copper"
+			id: "290922663F05A9D4"
+			tasks: [{
+				id: "101A74BC4B3CFCB0"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6E48B5716817925A"
+				type: "questsadditions:repeat_random"
+				table_id: 1066635017117958539L
+			}]
+		}
+		{
+			title: "Chronicle of Shadows"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "apotheosis:apoth_chronicle"
+				}
+			}
+			x: 3.5d
+			y: 9.5d
+			subtitle: "1 Copper"
+			id: "12C00A5749FC39A3"
+			tasks: [{
+				id: "4C53AD0A3B5E710D"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2782CC4289C77433"
+				type: "questsadditions:repeat_random"
+				table_id: 2385259146034012081L
+			}]
+		}
+		{
+			title: "Armor/Tools Lootbox"
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 12.5d
+			y: -5.5d
+			subtitle: "3 Diamond"
+			id: "50E4689BBE14D585"
+			tasks: [{
+				id: "43DFE96278BF9DF7"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "238B9745A689E122"
+				type: "questsadditions:repeat_random"
+				table_id: 6821675279656195509L
+			}]
+		}
+		{
+			title: "Very Lucky Block x16"
+			icon: "lucky:lucky_block"
+			x: 3.5d
+			y: 8.0d
+			subtitle: "3 Diamond"
+			id: "0DDD9612EEC3F88D"
+			tasks: [{
+				id: "0BC70768B4C3B7E5"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "1E427326056BD513"
+				type: "questsadditions:repeat_random"
+				table_id: 1098532300425656757L
+			}]
+		}
+		{
+			title: "Very lucky Potion x16"
+			icon: "lucky:lucky_potion"
+			x: 3.5d
+			y: 6.5d
+			subtitle: "1 Diamond"
+			id: "1F36C7D6CC3E1C68"
+			tasks: [{
+				id: "3ECE7EAA396848FC"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2AF685A61E94BBF4"
+				type: "questsadditions:repeat_random"
+				table_id: 2884499280313827386L
+			}]
+		}
+		{
+			title: "Unlucky_Blocks x16"
+			icon: "lucky:lucky_block"
+			x: 4.5d
+			y: 8.0d
+			subtitle: "3 Diamond"
+			id: "0C4C9DB3D17F8505"
+			tasks: [{
+				id: "5134B846485F3834"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "4BDEF00A6BC87930"
+				type: "questsadditions:repeat_random"
+				table_id: 9150363660872120717L
+			}]
+		}
+		{
+			title: "Lucky Potion x16"
+			icon: "lucky:lucky_potion"
+			x: 4.5d
+			y: 6.5d
+			subtitle: "3 Gold"
+			id: "22CFFC56D827C3B2"
+			tasks: [{
+				id: "7ACB122A1689A588"
+				type: "item"
+				item: "andromedacrafts:gold_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3600E3126A75FFE5"
+				type: "questsadditions:repeat_random"
+				table_id: 2884499280313827386L
+			}]
+		}
+		{
+			title: "Unlucky_Potion x16"
+			icon: "lucky:lucky_potion"
+			x: 5.5d
+			y: 6.5d
+			subtitle: "1 Diamond"
+			id: "328D5CAB1CF0EEA0"
+			tasks: [{
+				id: "4FF6223FC551240A"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "400E481E361B6A7D"
+				type: "questsadditions:repeat_random"
+				table_id: 2025944770357691824L
+			}]
+		}
+		{
+			title: "Menril Sapling"
+			icon: "integrateddynamics:menril_sapling"
+			x: -4.0d
+			y: -7.0d
+			subtitle: "1 Diamond"
+			dependencies: ["1AC5A3480770B4AE"]
+			id: "4DD18888DAEF98D9"
+			tasks: [{
+				id: "56B8C0A64F845A6A"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5496A9A31082C10D"
+				type: "questsadditions:repeat_random"
+				icon: "integrateddynamics:menril_sapling"
+				table_id: 3462046145396999967L
+			}]
+		}
+		{
+			title: "Spawner"
+			icon: "minecraft:spawner"
+			x: -4.0d
+			y: -4.0d
+			subtitle: "1 Diamond"
+			dependencies: ["14BBD80AC3CAC3F3"]
+			id: "52127D7B2DFD15C1"
+			tasks: [{
+				id: "0D135F32866EBD05"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "192BF7F7B6A9227E"
+				type: "questsadditions:repeat_random"
+				icon: "minecraft:spawner"
+				table_id: 1989191880981213524L
+			}]
+		}
+		{
+			title: "Chorus Flower"
+			icon: "minecraft:chorus_flower"
+			x: -2.0d
+			y: -10.0d
+			dependencies: ["6CFBF112E25E2EF9"]
+			id: "3C5DF3EAA5D7A7F1"
+			tasks: [{
+				id: "50B213A8849191AC"
+				type: "item"
+				item: "andromedacrafts:copper_coin"
+				count: 5L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6FA773DC35D73FD3"
+				type: "questsadditions:repeat_random"
+				icon: "minecraft:chorus_flower"
+				table_id: 6949761908094899094L
+			}]
+		}
+		{
+			title: "Enderium x8"
+			icon: "thermal:enderium_ingot"
+			x: -4.0d
+			y: -2.5d
+			subtitle: "1 Diamond"
+			dependencies: ["1A31542892DA3F27"]
+			id: "1148278FC1A6B71F"
+			tasks: [{
+				id: "0D90CED4AA8ABB96"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6D816C3217D691C4"
+				type: "questsadditions:repeat"
+				icon: "thermal:enderium_ingot"
+				table_id: 1656151350153065034L
+			}]
+		}
+		{
+			title: "Basic Circuit x16"
+			icon: "mekanism:basic_control_circuit"
+			x: -4.0d
+			y: -1.0d
+			subtitle: "9 Diamond"
+			dependencies: ["425C628D28B78967"]
+			id: "695A77A54B3893F2"
+			tasks: [{
+				id: "08AADE44944E52A9"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 9L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "7CD6C2A076C21441"
+				type: "questsadditions:repeat_random"
+				icon: "mekanism:basic_control_circuit"
+				table_id: 6490635235006030616L
+			}]
+		}
+		{
+			title: "Advanced Circuit x16"
+			icon: "mekanism:advanced_control_circuit"
+			x: -3.0d
+			y: -1.0d
+			subtitle: "1 Netherite 2 Diamond"
+			dependencies: ["425C628D28B78967"]
+			id: "12FCFC759C44D1EB"
+			tasks: [
+				{
+					id: "344960DEB3112786"
+					type: "item"
+					item: "andromedacrafts:netherite_coin"
+					consume_items: true
+				}
+				{
+					id: "0FA774B445A471A7"
+					type: "item"
+					item: "andromedacrafts:diamond_coin"
+					count: 2L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "4180C0BE7C3D7597"
+				type: "questsadditions:repeat_random"
+				icon: "mekanism:advanced_control_circuit"
+				table_id: 2169369094087585708L
+			}]
+		}
+		{
+			title: "Elite Circuit x16"
+			icon: "mekanism:elite_control_circuit"
+			x: -2.0d
+			y: -1.0d
+			subtitle: "1 Netherite 6 Diamond"
+			dependencies: ["425C628D28B78967"]
+			id: "3A2D0681F4F31D9C"
+			tasks: [
+				{
+					id: "0200094C1CED495F"
+					type: "item"
+					item: "andromedacrafts:netherite_coin"
+					consume_items: true
+				}
+				{
+					id: "13AE613A8D62233F"
+					type: "item"
+					item: "andromedacrafts:diamond_coin"
+					count: 6L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "62039392E83AF26C"
+				type: "questsadditions:repeat_random"
+				icon: "mekanism:elite_control_circuit"
+				table_id: 7024679393835436239L
+			}]
+		}
+		{
+			title: "Ultimate Circuit x16"
+			icon: "mekanism:ultimate_control_circuit"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "2 Netherite 3 Diamond"
+			dependencies: ["425C628D28B78967"]
+			id: "54C62BC191AFB7CD"
+			tasks: [
+				{
+					id: "4E4E0BF9DD69E18A"
+					type: "item"
+					item: "andromedacrafts:netherite_coin"
+					count: 2L
+					consume_items: true
+				}
+				{
+					id: "6066ED9FD02D241B"
+					type: "item"
+					item: "andromedacrafts:diamond_coin"
+					count: 3L
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "25804F699CBDBE40"
+				type: "questsadditions:repeat"
+				icon: "mekanism:ultimate_control_circuit"
+				table_id: 291300774771255436L
+			}]
+		}
+		{
+			title: "Engineering Processor x8"
+			icon: "ae2:engineering_processor"
+			x: -4.0d
+			y: 0.5d
+			subtitle: "3 Netherite"
+			dependencies: ["5A21337A0A7857C7"]
+			id: "13EE68F0786FF048"
+			tasks: [{
+				id: "5B174DFE0CA81862"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "3F7683CF43DBEFDA"
+				type: "questsadditions:repeat"
+				icon: "ae2:engineering_processor"
+				table_id: 1040061173442297416L
+			}]
+		}
+		{
+			title: "Calculation Processor x8"
+			icon: "ae2:calculation_processor"
+			x: -3.0d
+			y: 0.5d
+			subtitle: "3 Netherite"
+			dependencies: ["5A21337A0A7857C7"]
+			id: "2159B304BD9B8307"
+			tasks: [{
+				id: "5F2F97DA1FFFBE54"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "62BEA75B0F46B652"
+				type: "questsadditions:repeat_random"
+				icon: "ae2:calculation_processor"
+				table_id: 4941903299779305230L
+			}]
+		}
+		{
+			title: "Logic Processor x8"
+			icon: "ae2:logic_processor"
+			x: -2.0d
+			y: 0.5d
+			subtitle: "3 Netherite"
+			dependencies: ["5A21337A0A7857C7"]
+			id: "1E502488AB87F313"
+			tasks: [{
+				id: "63C883ECE10630C6"
+				type: "item"
+				item: "andromedacrafts:netherite_coin"
+				count: 3L
+				consume_items: true
+			}]
+			rewards: [{
+				id: "5173A2638FCED2FB"
+				type: "questsadditions:repeat"
+				icon: "ae2:logic_processor"
+				table_id: 5728079436020825777L
+			}]
+		}
+		{
+			title: "Paraglider"
+			icon: "paraglider:deku_leaf"
+			x: 3.5d
+			y: -4.0d
+			subtitle: "3 Diamond"
+			id: "67349389930A2308"
+			tasks: [{
+				id: "0C88972A4116E97C"
+				type: "item"
+				item: "andromedacrafts:diamond_coin"
+				count: 3L
+			}]
+			rewards: [{
+				id: "6EFC7E6C4AA3780B"
+				type: "questsadditions:repeat_random"
+				icon: "paraglider:deku_leaf"
+				table_id: 7081369947573014042L
+			}]
+		}
+	]
+}

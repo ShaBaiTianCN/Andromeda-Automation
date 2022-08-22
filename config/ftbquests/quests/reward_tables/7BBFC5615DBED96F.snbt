@@ -1,0 +1,55 @@
+{
+	id: "7BBFC5615DBED96F"
+	order_index: 0
+	title: "Lights"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "chipped:jack_o_lantern_end2", count: 32 }
+		{ item: "dustrial_decor:large_redstone_lantern", count: 12 }
+		{ item: "chipped:lantern_2", count: 32 }
+		{ item: "chipped:soul_lantern_1", count: 32 }
+		{ item: "chipped:soul_lantern_3", count: 32 }
+		{ item: "chipped:special_soul_lantern_3", count: 32 }
+		{ item: "chipped:soul_lantern_2", count: 32 }
+		{ item: "chipped:jack_o_lantern_end", count: 32 }
+		{ item: "dustrial_decor:large_lantern", count: 32 }
+		{ item: "chipped:sea_lantern_8", count: 64 }
+		{ item: "chipped:sea_lantern_13", count: 64 }
+		{ item: "chipped:soul_lantern_7", count: 32 }
+		{ item: "chipped:lantern_10", count: 32 }
+		{ item: "chipped:jack_o_lantern_nether", count: 32 }
+		{ item: "chipped:jack_o_lantern_end2", count: 32 }
+		{ item: "chipped:special_soul_lantern_4", count: 32 }
+		{ item: "cyclic:gold_soul_lantern", count: 64 }
+		{ item: "additionallanterns:orange_normal_lantern", count: 32 }
+		{ item: "supplementaries:copper_lantern", count: 64 }
+		{ item: "supplementaries:crimson_lantern" }
+		{ item: "chipped:lantern_4", count: 64 }
+		{ item: "additionallanterns:pink_andesite_lantern", count: 64 }
+		{ item: "chipped:soul_lantern_11", count: 64 }
+		{ item: "cyclic:copper_soul_lantern", count: 64 }
+		{ item: "dustrial_decor:large_soul_lantern", count: 32 }
+		{ item: "chipped:soul_lantern_5", count: 64 }
+		{ item: "mcwlights:soul_double_street_lamp", count: 64 }
+		{ item: "supplementaries:end_stone_lamp", count: 32 }
+		{ item: "supplementaries:deepslate_lamp", count: 64 }
+		{ item: "createdeco:red_andesite_lamp", count: 64 }
+		{ item: "supercircuitmaker:lamp", count: 32 }
+		{ item: "rsgauges:industrial_alarm_lamp", count: 32 }
+		{ item: "pneumaticcraft:wall_lamp_inverted_pink", count: 32 }
+		{ item: "pneumaticcraft:wall_lamp_inverted_white", count: 32 }
+		{ item: "minecraft:redstone_lamp", count: 32 }
+		{ item: "mcwlights:white_lamp", count: 32 }
+		{ item: "minecraft:end_rod", count: 64 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16770941
+		string_id: "lights"
+	}
+}

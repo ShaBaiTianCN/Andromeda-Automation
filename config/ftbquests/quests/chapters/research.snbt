@@ -1,0 +1,568 @@
+{
+	id: "3726D3E3FD1950A1"
+	group: ""
+	order_index: 1
+	filename: "research"
+	title: "Research"
+	icon: "andromedacrafts:science_juice"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Resourceful Bees"
+			icon: "statues:bee_statue"
+			x: 3.5d
+			y: -1.5d
+			subtitle: "Resource Generation Via Bees!"
+			description: [""]
+			dependencies: ["62F45B0CCBA63661"]
+			id: "40DD27E1C969CE4B"
+			tasks: [{
+				id: "412197A912858C94"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Rftools"
+			icon: "rftoolsdim:dimension_builder"
+			x: 3.0d
+			y: 2.0d
+			subtitle: "A large mod capable of storage, dimensional travel, forcefields, and so much more!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "02B6D605B34C9FDA"
+			tasks: [{
+				id: "32FA8E71A5B74BD3"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				count: 3L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Pneumatic Craft"
+			icon: "pneumaticcraft:assembly_drill"
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Use pressure to automate crafting and assmble a programable drone army!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "4A4A0873114B8141"
+			tasks: [{
+				id: "50C66E6CEDD3E54E"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Construction"
+			icon: {
+				id: "constructionwand:infinity_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+				}
+			}
+			x: 2.0d
+			y: -5.5d
+			subtitle: "Unlock ways to build massive structures in almost no time at all!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "47C3871D5F7C50D1"
+			tasks: [{
+				id: "16C6A36863D7586B"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Kitchen Building"
+			icon: "cookingforblockheads:oven"
+			x: 2.5d
+			y: -1.5d
+			subtitle: "Embrace your inner 1950's and get yourself a fancy kitchen to make food easier to craft!"
+			dependencies: ["62F45B0CCBA63661"]
+			id: "53F0CBAA8F78A0D2"
+			tasks: [{
+				id: "32E457695B1E9996"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Xnet"
+			icon: "xnet:antenna_dish"
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Wired/Wireless networking for all of your transportation needs!"
+			description: [""]
+			dependencies: ["510ACACF1AC8F618"]
+			id: "72E183E8D14F258C"
+			tasks: [{
+				id: "14976EA4A4C1A0BB"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Pretty Pipez"
+			icon: "prettypipes:pipe"
+			x: 4.0d
+			y: -5.5d
+			subtitle: "This allows you to use pipes for transfering items! Can also be used to make a storage network!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "1549B3BBF2C591E7"
+			tasks: [{
+				id: "26450054BAB7F134"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Mystical Agriculture"
+			icon: "mysticalagriculture:supremium_essence"
+			x: 1.0d
+			y: 2.0d
+			subtitle: "Allows you to produce insane quantities of resources via crops!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "106D4257379B2937"
+			tasks: [{
+				id: "5D1861B9C17DF0CC"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Tinkers Construct"
+			icon: {
+				id: "tinkers_reforged:frying_pan"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.7f
+						"tconstruct:durability": 1.2f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.68f
+						"tconstruct:mining_speed": 3.675f
+						"tconstruct:attack_damage": 6.0f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:durability": 1006.80005f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tinkers_reforged:blazing_fire"
+							level: 2s
+						}
+						{
+							name: "tconstruct:fiery"
+							level: 2s
+						}
+						{
+							name: "tconstruct:necrotic"
+							level: 2s
+						}
+					]
+					tic_materials: [
+						"tinkers_reforged:qivium"
+						"tinkers_reforged:qivium"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 2.0d
+			y: 2.0d
+			subtitle: "An easy way to make alloys and amazing tools!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "41C54E45615E2BCA"
+			tasks: [{
+				id: "131099FE40CAC869"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Player Transport"
+			icon: "waystones:sharestone"
+			x: 1.0d
+			y: -5.5d
+			subtitle: "Unlock new and amazing ways to move around your base and over long distances!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "6189D3D9978FA73E"
+			tasks: [{
+				id: "4065B6C1277EEF46"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Farmer's Delight"
+			icon: "farmersdelight:wild_carrots"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "For all your cooking ingredient needs!"
+			dependencies: ["62F45B0CCBA63661"]
+			id: "424B33092B9B4E78"
+			tasks: [{
+				id: "472ADC598C701938"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Computer Craft"
+			icon: "computercraft:computer_advanced"
+			x: 5.0d
+			y: 2.0d
+			subtitle: "Embrace your inner programmer and unlock your computer's secrets!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "0FDE3C4E93BC0D56"
+			tasks: [{
+				id: "3BAB270CAEBFE43C"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Integrated Dynamics"
+			icon: "integrateddynamics:variable"
+			x: 6.5d
+			y: -1.5d
+			shape: "pentagon"
+			subtitle: "A key to logical transportation of items based off of variables and other statistics!"
+			dependencies: ["62F45B0CCBA63661"]
+			id: "1AC5A3480770B4AE"
+			tasks: [{
+				id: "15B6D5AB11B2F1E1"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Apotheosis"
+			icon: "minecraft:spawner"
+			x: 5.0d
+			y: -5.5d
+			shape: "pentagon"
+			subtitle: "Fabrication of spawners and enchanting overhaul!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "14BBD80AC3CAC3F3"
+			tasks: [{
+				id: "72290A8FD39F4A86"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Deep Mob Learning"
+			icon: {
+				id: "dmlreforged:deep_learner"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 1
+						Items: [ ]
+					}
+				}
+			}
+			x: 6.0d
+			y: -5.5d
+			subtitle: "Fabricate mob loot from clay!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "5CB252E22922F108"
+			tasks: [{
+				id: "18B080E56F17C2FE"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Storage Drawers"
+			icon: "storagedrawers:controller"
+			x: 7.0d
+			y: -5.5d
+			subtitle: "Large volume of storage for a large volume of items!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "0B37AE47F308E035"
+			tasks: [{
+				id: "7DA8B960FA210451"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Simple Storage Network"
+			icon: "storagenetwork:request"
+			x: -0.5d
+			y: -1.5d
+			subtitle: "Early game digital storage!"
+			dependencies: ["62F45B0CCBA63661"]
+			id: "308513DA669FB7BF"
+			tasks: [{
+				id: "72E2909CD52012E5"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Botania"
+			icon: "botania:pure_daisy"
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Generate items, create pretty flowers/blocks, fancy tools and armor, and alchemy to your hearts content!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "7FEE7D31F7DFA6C2"
+			tasks: [{
+				id: "481913C5C7138E64"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Cyclic"
+			icon: "cyclic:apple_ender"
+			x: 0.5d
+			y: -1.5d
+			subtitle: "Cyclic adds a large volume of random tools/machines/accessories to help you out in your journey!"
+			description: [""]
+			dependencies: ["62F45B0CCBA63661"]
+			id: "4D6256C8BE38046F"
+			tasks: [{
+				id: "157D33F40D4DB732"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Super Circuit Maker"
+			icon: "supercircuitmaker:tiny_redstone"
+			x: 0.0d
+			y: -5.5d
+			subtitle: "The key to mini vanilla [ish] redstone circuits! Amazing for compact redstone!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "624D8D85E6C1F011"
+			tasks: [{
+				id: "35B9ACF91486D6B9"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Modular Routers"
+			icon: "modularrouters:modular_router"
+			x: 3.0d
+			y: -5.5d
+			subtitle: "This lets a block take on many different behaviors, from a vaccum hopper to breaking blocks!"
+			dependencies: ["1075139C5E6C498C"]
+			id: "530B33AD4A33F8F8"
+			tasks: [{
+				id: "53CE2C7E8582E806"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Advanced Generators"
+			icon: "advgenerators:turbine_tier5"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Have customaizable generators to your needs!"
+			dependencies: ["62F45B0CCBA63661"]
+			id: "003D91A2C8A7B89C"
+			tasks: [{
+				id: "062C28E0C7FBED2E"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Project E"
+			icon: "projecte:transmutation_table"
+			x: 3.0d
+			y: 6.0d
+			subtitle: "Transmute any item to another item!"
+			dependencies: ["45D950B4EB3B5620"]
+			id: "06C59ACF3FE5EDA7"
+			tasks: [{
+				id: "126D11BEBA5D2F3B"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				count: 5L
+				consume_items: true
+			}]
+		}
+		{
+			title: "Brass/Steel Age"
+			icon: "create:brass_ingot"
+			x: 3.5d
+			y: -4.0d
+			dependencies: [
+				"22002F72797E1678"
+				"15B0C1324F7D1C6C"
+			]
+			id: "62F45B0CCBA63661"
+			tasks: [{
+				id: "2E8D518F5EEA9AD9"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Enderium Age"
+			icon: "thermal:enderium_ingot"
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["75886C0C52F36EB3"]
+			id: "510ACACF1AC8F618"
+			tasks: [{
+				id: "67CA983561C9B543"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Ultimate Circuit Age"
+			icon: "mekanism:ultimate_control_circuit"
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["3F9538CB9BB45AD7"]
+			id: "45D950B4EB3B5620"
+			tasks: [{
+				id: "5B324872422FF5BC"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Stone Age"
+			icon: "minecraft:cobblestone"
+			x: 3.5d
+			y: -7.5d
+			dependencies: ["2E387D31F5AC2C82"]
+			id: "1075139C5E6C498C"
+			tasks: [{
+				id: "2C7DC4CDA1DDF4CF"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Deep Resonance"
+			icon: {
+				id: "deepresonance:resonating_crystal_natural"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						glowing: 0b
+						Info: {
+							owner: ""
+							efficiency: 1.0d
+							powered: 0b
+							strength: 1.0d
+							purity: 0.0d
+							power: 0.0d
+						}
+					}
+				}
+			}
+			x: 5.5d
+			y: -1.5d
+			subtitle: "Fabricate power by purifying crystals and generating radiation!"
+			dependencies: ["62F45B0CCBA63661"]
+			id: "24E1A130B23DFA3F"
+			tasks: [{
+				id: "65F94B6180458DE3"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Solar Panels"
+			icon: "solarflux:sp_8"
+			x: 7.0d
+			y: 2.0d
+			subtitle: "Free Renewable Power!"
+			dependencies: ["510ACACF1AC8F618"]
+			id: "1E800202F7DB0792"
+			tasks: [{
+				id: "43D7C95FFECC2F19"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Compressing Blocks!"
+			icon: "compressium:cobblestone_9"
+			x: 4.0d
+			y: 6.0d
+			subtitle: "Compress blocks for very good rewards!"
+			dependencies: ["45D950B4EB3B5620"]
+			id: "1FD033E62DDAB4B5"
+			tasks: [{
+				id: "27E88B9A4C022367"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Jetpacks!"
+			icon: {
+				id: "ironjetpacks:jetpack"
+				Count: 1b
+				tag: {
+					Id: "ironjetpacks:emerald"
+					Throttle: 1.0d
+				}
+			}
+			x: 7.5d
+			y: -1.5d
+			dependencies: ["62F45B0CCBA63661"]
+			id: "5DFAB073CDFBDC28"
+			tasks: [{
+				id: "796C2C9F2D02B69C"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+				consume_items: true
+			}]
+		}
+		{
+			title: "Refined Storage"
+			icon: "refinedstorage:creative_controller"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "A simpler and less difficult version of AE2"
+			description: ["The main differences being that you no longer need to deal with channels, and the item disks store a volume of items, rather then types of items! Think of a chest VS a storage drawer!"]
+			dependencies: ["4A4A0873114B8141"]
+			id: "7132874AEB96DB9D"
+			tasks: [{
+				id: "6D0321A2180076D9"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+	]
+}

@@ -1,0 +1,120 @@
+{
+	id: "2A5F9710FADD7661"
+	order_index: 14
+	title: "Kitchen"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "farmersdelight:flint_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:iron_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:golden_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:diamond_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "farmersdelight:netherite_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cookingforblockheads:counter", count: 16 }
+		{ item: "cookingforblockheads:sink", count: 8 }
+		{ item: "cfm:oak_kitchen_counter", count: 12 }
+		{ item: "cookingforblockheads:milk_jar", count: 5 }
+		{ item: "farmersdelight:cooking_pot" }
+		{
+			item: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "nethersdelight:blackstone_stove" }
+		{ item: "farmersdelight:stove" }
+		{ item: "cookingforblockheads:spice_rack", count: 8 }
+		{ item: "farmersdelight:cutting_board" }
+		{ item: "cookingforblockheads:cooking_table" }
+		{ item: "cookingforblockheads:toaster" }
+		{ item: "cookingforblockheads:tool_rack" }
+		{ item: "cookingforblockheads:fruit_basket" }
+		{ item: "cookingforblockheads:fridge", count: 2 }
+		{
+			item: {
+				id: "cfm:spatula"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cfm:white_grill" }
+		{ item: "cfm:pink_grill" }
+		{ item: "cfm:blue_grill" }
+		{ item: "cfm:red_grill" }
+		{ item: "cfm:stripped_oak_kitchen_counter", count: 8 }
+		{ item: "cfm:stripped_dark_oak_kitchen_counter", count: 8 }
+		{ item: "cfm:white_kitchen_counter", count: 8 }
+		{ item: "cfm:pink_kitchen_counter", count: 8 }
+		{ item: "cfm:purple_kitchen_counter", count: 8 }
+		{ item: "cfm:red_kitchen_counter", count: 8 }
+		{ item: "cfm:white_kitchen_drawer", count: 8 }
+		{ item: "cfm:pink_kitchen_drawer", count: 8 }
+		{ item: "cfm:purple_kitchen_drawer", count: 8 }
+		{ item: "cfm:red_kitchen_drawer", count: 8 }
+		{ item: "cfm:oak_kitchen_sink_light" }
+		{ item: "cfm:dark_oak_kitchen_sink_light" }
+		{ item: "cfm:oak_kitchen_sink_dark" }
+		{ item: "cfm:dark_oak_kitchen_sink_dark" }
+		{ item: "cfm:stripped_oak_kitchen_sink_dark" }
+		{ item: "cfm:stripped_dark_oak_kitchen_sink_dark" }
+		{ item: "cfm:white_kitchen_sink" }
+		{ item: "farmersdelight:milk_bottle", count: 15 }
+		{ item: "cfm:red_kitchen_sink" }
+		{ item: "cfm:fridge_light" }
+		{ item: "cfm:fridge_dark" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 500
+			monster: 500
+		}
+		color: 15925243
+		string_id: "kitchen"
+	}
+}

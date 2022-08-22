@@ -1,0 +1,12 @@
+{
+  "name": "Wheat",
+  "colors": [
+    "e8e35f",
+    "d1cd56"
+  ],
+  "ingredient": {
+    "item": "minecraft:wheat"
+  },
+"inUltimateSingularity": false
+
+}

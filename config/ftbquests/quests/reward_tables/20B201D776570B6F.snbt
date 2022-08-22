@@ -1,0 +1,8 @@
+{
+	id: "20B201D776570B6F"
+	order_index: 68
+	title: "CommonShaders"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "immersiveengineering:shader_bag_common" }]
+}

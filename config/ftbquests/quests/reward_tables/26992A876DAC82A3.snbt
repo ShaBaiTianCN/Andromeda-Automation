@@ -1,0 +1,16 @@
+{
+	id: "26992A876DAC82A3"
+	order_index: 111
+	title: "Cyclic_Guidebook"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "cyclic:cyclic_guide_book"
+			}
+		}
+	}]
+}

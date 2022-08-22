@@ -1,0 +1,8 @@
+{
+	id: "7D97D028718F6108"
+	order_index: 82
+	title: "dlerain2"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:music_disc_pigstep" }]
+}

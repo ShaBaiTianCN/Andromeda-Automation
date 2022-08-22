@@ -1,0 +1,336 @@
+{
+	id: "7963383E23FDDFD9"
+	group: "6427FC4035BCAD8A"
+	order_index: 3
+	filename: "simple_storage"
+	title: "Simple Storage"
+	icon: "storagenetwork:request"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["A basic network requires a storage root and an access table [the crafting access table is the only real table, the other one isn't worth it], from there you can attach cables and different interfaces that actually allow you to build your network."]
+			dependencies: ["308513DA669FB7BF"]
+			hide: true
+			id: "427CC64DE1B74B60"
+			tasks: [
+				{
+					id: "7102BC2CF242326E"
+					type: "item"
+					item: "storagenetwork:master"
+				}
+				{
+					id: "4505781B683C5F71"
+					type: "item"
+					item: "storagenetwork:request"
+				}
+				{
+					id: "516FCC02453E91F4"
+					type: "item"
+					item: "storagenetwork:kabel"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "2B2937B6100D04A0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: ["Allows the network to see the attached storage."]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "528E869A08D5BE84"
+			tasks: [{
+				id: "2242B8AF90DDD4FF"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [{
+				id: "304B8F75638F8AA0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			description: ["Takes anything from inside the conencted inventory and puts it in your network."]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "453FFA7551E1A9A8"
+			tasks: [{
+				id: "3E5E40B2976F5C01"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [{
+				id: "796A8F99B6EDEBB5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			subtitle: "Takes anything from inside the conencted inventory and puts it in your network, but with a filter!"
+			dependencies: ["427CC64DE1B74B60"]
+			id: "4182EA8E3B39DEDE"
+			tasks: [{
+				id: "615F61D63077E4CF"
+				type: "item"
+				item: "storagenetwork:import_filter_kabel"
+			}]
+			rewards: [{
+				id: "6DB6FF4E0A5734BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["Allows the network to see the attached storage, but with a filter!"]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "1CD6CFCAF17B9292"
+			tasks: [{
+				id: "6F1765E786C8BE39"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+			}]
+			rewards: [{
+				id: "7FEB1AAA045760F4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: ["Takes items from your storage and puts them into the connected inventory!"]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "5B83CAFE75C039CF"
+			tasks: [{
+				id: "1EB21F26F5B9619C"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [{
+				id: "18B78944A9E1860B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["Transfer larger volumes of items at a time."]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "04CF319122BC37E2"
+			tasks: [{
+				id: "027B6E62C013781E"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [{
+				id: "0EC45F81F79CF715"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.0d
+			description: ["Transfer items quicker!"]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "50B096E2006E7838"
+			tasks: [{
+				id: "20B227FCB3270258"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [{
+				id: "5814CADF7AB2B6E9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["Transfer items slower."]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "4C339F3240C3EFA8"
+			tasks: [{
+				id: "51660D6BEB5F66F9"
+				type: "item"
+				item: "storagenetwork:slow_upgrade"
+			}]
+			rewards: [{
+				id: "7E424EADA5A5118F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["Keep a specific amount of items in an inventory."]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "7B00C471D58F8F30"
+			tasks: [{
+				id: "7961702F54FF26C1"
+				type: "item"
+				item: "storagenetwork:stock_upgrade"
+			}]
+			rewards: [{
+				id: "5CB3CF6259FF8FE2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "portable_inventories"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			description: [
+				""
+				"Processes the specific amount of items in the filter."
+			]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "2635C5632AD1C661"
+			tasks: [{
+				id: "1CC684181297FEC1"
+				type: "item"
+				item: "storagenetwork:operation_upgrade"
+			}]
+			rewards: [{
+				id: "021CA7328AA530A2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "portable_inventories"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.0d
+			description: ["Set the stack size to one!"]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "5AF515190D7A58DA"
+			tasks: [{
+				id: "64A13B8F81C1A4DF"
+				type: "item"
+				item: "storagenetwork:single_upgrade"
+			}]
+			rewards: [{
+				id: "0AFF292CB0E34961"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "portable_inventories"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			shape: "gear"
+			description: ["Remote storage access anybody?"]
+			dependencies: ["427CC64DE1B74B60"]
+			id: "6CAA6D8C894C8195"
+			tasks: [{
+				id: "6C81E0CCF5D2780B"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [
+				{
+					id: "53DF3C6C6121AD3D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "storage"
+						}
+					}
+				}
+				{
+					id: "7B6248E3FC615FEE"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+	]
+}

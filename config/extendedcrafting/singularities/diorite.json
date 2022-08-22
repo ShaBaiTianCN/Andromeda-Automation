@@ -1,0 +1,12 @@
+{
+  "name": "Diorite",
+  "colors": [
+    "f2eded",
+    "9c9a9a"
+  ],
+  "ingredient": {
+    "item": "minecraft:diorite"
+  },
+"inUltimateSingularity": false
+
+}

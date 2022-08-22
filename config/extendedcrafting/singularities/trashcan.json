@@ -1,0 +1,12 @@
+{
+  "name": "Garbage Can",
+  "colors": [
+    "403e3d",
+    "6b6968"
+  ],
+  "ingredient": {
+    "item": "trashcans:ultimate_trash_can"
+  },
+"inUltimateSingularity": false
+
+}

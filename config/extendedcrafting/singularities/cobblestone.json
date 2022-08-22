@@ -1,0 +1,12 @@
+{
+  "name": "Cobblestone",
+  "colors": [
+    "858483",
+    "5c5a59"
+  ],
+  "ingredient": {
+    "item": "minecraft:cobblestone"
+  },
+"inUltimateSingularity": false
+
+}

@@ -1,0 +1,33 @@
+{
+	id: "1E76B2505953B28C"
+	order_index: 27
+	title: "Passive_Mobs"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:porkchop", count: 32 }
+		{ item: "minecraft:cod", count: 32 }
+		{ item: "minecraft:salmon", count: 32 }
+		{ item: "minecraft:beef", count: 32 }
+		{ item: "minecraft:chicken", count: 32 }
+		{ item: "minecraft:rabbit", count: 32 }
+		{ item: "minecraft:mutton", count: 32 }
+		{ item: "alexsmobs:moose_ribs", count: 32 }
+		{ item: "alexsmobs:raw_catfish", count: 32 }
+		{ item: "minecraft:feather", count: 32 }
+		{ item: "minecraft:leather", count: 32 }
+		{ item: "minecraft:white_wool", count: 64 }
+		{ item: "minecraft:feather", count: 16 }
+		{ item: "minecraft:leather", count: 16 }
+		{ item: "minecraft:white_wool", count: 32 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16741120
+		string_id: "passive_mobs"
+	}
+}

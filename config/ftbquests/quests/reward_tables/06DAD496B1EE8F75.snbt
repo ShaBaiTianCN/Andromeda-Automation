@@ -1,0 +1,8 @@
+{
+	id: "06DAD496B1EE8F75"
+	order_index: 70
+	title: "cat"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:music_disc_cat" }]
+}

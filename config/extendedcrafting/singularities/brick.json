@@ -1,0 +1,12 @@
+{
+  "name": "Brick",
+  "colors": [
+    "eb3838",
+    "cf2b2b"
+  ],
+  "ingredient": {
+    "item": "minecraft:bricks"
+  },
+"inUltimateSingularity": true
+
+}

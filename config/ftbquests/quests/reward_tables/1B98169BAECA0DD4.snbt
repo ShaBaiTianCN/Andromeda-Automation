@@ -1,0 +1,8 @@
+{
+	id: "1B98169BAECA0DD4"
+	order_index: 86
+	title: "dendure"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "botania:record_gaia_1" }]
+}

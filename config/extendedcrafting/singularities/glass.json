@@ -1,0 +1,12 @@
+{
+  "name": "Glass",
+  "colors": [
+    "fffcfa",
+    "f2f2f2"
+  ],
+  "ingredient": {
+    "tag": "forge:glass"
+  },
+"inUltimateSingularity": false
+
+}

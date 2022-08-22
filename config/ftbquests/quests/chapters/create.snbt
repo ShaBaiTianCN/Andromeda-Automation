@@ -1,0 +1,1043 @@
+{
+	id: "328670B2231836FE"
+	group: "1D115F3DF1092C06"
+	order_index: 0
+	filename: "create"
+	title: "Create"
+	icon: "create:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "4BE1715794C0B1C7"
+			tasks: [{
+				id: "4E62BCFCDBA929DA"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "547EEDE0FA03540B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "0B7D7B2B3CA93438"
+			tasks: [{
+				id: "39AE988EFF5CEE98"
+				type: "item"
+				item: "create:windmill_bearing"
+			}]
+			rewards: [{
+				id: "380394FA0F65A26B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "53F70643C87D315A"
+			tasks: [{
+				id: "317B998CA5BEC888"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "1FEC3B73E839B38D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "0710C01F8608274C"
+			tasks: [
+				{
+					id: "07AA62E1F91F50FD"
+					type: "item"
+					item: "create:wooden_bracket"
+					count: 4L
+				}
+				{
+					id: "61C721C96E90DF66"
+					type: "item"
+					item: "create:metal_bracket"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "17BC332F77988ADA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 11.5d
+			dependencies: ["39A21E5DF02911DF"]
+			id: "0CC777FA792E1140"
+			tasks: [{
+				id: "45D02FC2F4E7D44C"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "7B6E480D2B3CFCA8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 11.5d
+			dependencies: ["39A21E5DF02911DF"]
+			id: "182E0F9BF5B7DA33"
+			tasks: [{
+				id: "4FA8EFBF92084E41"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "445391BF8FB5DB13"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.5d
+			dependencies: ["0B3CD50728A09123"]
+			id: "39A21E5DF02911DF"
+			tasks: [{
+				id: "3606F904528686FC"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+			rewards: [{
+				id: "50029C57D3D8F65C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "1CC6632792C1E487"
+			tasks: [{
+				id: "147373274FDDFB19"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "0A19719FD840B00C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.0d
+			dependencies: ["45CF52B3A9E702BA"]
+			id: "0B3CD50728A09123"
+			tasks: [
+				{
+					id: "754BD08533141AC3"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "20162346ADD69D16"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [{
+				id: "3C679A69ADBB3B7E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.0d
+			description: ["Right click a blaze with this magical device to trap it!"]
+			dependencies: ["605888DEBF1AD86F"]
+			id: "7CF279DCFA21F67F"
+			tasks: [{
+				id: "0D6BC97E954F8B45"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "2594B11F32F20844"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.0d
+			dependencies: ["7CF279DCFA21F67F"]
+			id: "45CF52B3A9E702BA"
+			tasks: [{
+				id: "57A3EEDF0BA7646A"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "7310B0C629CE5481"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			description: ["Produce mycelium blocks by clicking spores on dirt!"]
+			dependencies: ["1CC6632792C1E487"]
+			id: "5868B0E04581232B"
+			tasks: [{
+				id: "06B2576CBCE6DC56"
+				type: "item"
+				item: "exnihilosequentia:mycelium_spores"
+			}]
+			rewards: [{
+				id: "24F96C2211C62A97"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Put a barrel of water nearby mycelium and over time it will produce witch water!"]
+			dependencies: ["5868B0E04581232B"]
+			id: "1F627A0AB92450D0"
+			tasks: [{
+				id: "2E51244670E84FA7"
+				type: "item"
+				title: "Any #exnihilosequentia:barrels"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "exnihilosequentia:barrels"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DE10D8B733AE19F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			description: ["Procure soul sand from putting sand into witch water! Then seive the soulsand for netherwart!"]
+			dependencies: ["0C5B84848277FBC5"]
+			id: "74A8DD1C50BAF14D"
+			tasks: [{
+				id: "359AF52763EA266A"
+				type: "item"
+				item: "minecraft:nether_wart"
+			}]
+			rewards: [{
+				id: "39CD183BE265B7E2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			description: ["Craft a blazing doll and toss it into witch water to spawn a blaze!"]
+			dependencies: ["74A8DD1C50BAF14D"]
+			id: "605888DEBF1AD86F"
+			tasks: [{
+				id: "7485BF7A77D3F310"
+				type: "item"
+				item: "exnihilosequentia:blaze_doll"
+			}]
+			rewards: [{
+				id: "12D7EA132262F524"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			title: "Boiler"
+			x: -6.0d
+			y: 2.0d
+			description: ["Assemble in a 2x2x2, pump in water and ensure a heat source is below the tank! Once created attach a steam engine to begine generating power!"]
+			dependencies: ["1CC6632792C1E487"]
+			id: "2C3902805699DBD7"
+			tasks: [
+				{
+					id: "12EA1185AA27A3AE"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 8L
+				}
+				{
+					id: "085A09CA975BC2F1"
+					type: "item"
+					item: "create:steam_engine"
+				}
+			]
+			rewards: [{
+				id: "3227B33E00F8D0BD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "4F8B37686D4F5085"
+			tasks: [{
+				id: "5DAA047681DCB8E6"
+				type: "item"
+				item: "create:chute"
+			}]
+			rewards: [{
+				id: "15619B6DE287295D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["4F8B37686D4F5085"]
+			id: "7CF0C8C109D09A06"
+			tasks: [{
+				id: "6C5EB8299D177491"
+				type: "item"
+				item: "create:smart_chute"
+			}]
+			rewards: [{
+				id: "033CAA66552F3019"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "27B1A28FF4590A0B"
+			tasks: [
+				{
+					id: "41871E4CC5879ADE"
+					type: "item"
+					item: "create:wrench"
+				}
+				{
+					id: "1FF93B2707A54F49"
+					type: "item"
+					item: "create:goggles"
+				}
+			]
+			rewards: [{
+				id: "18CD1AE4F539B484"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "3800B97C49266CAD"
+			tasks: [{
+				id: "2E42C1A4B3B6FC3E"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+			rewards: [{
+				id: "06DEB3181F85E76D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			dependencies: ["3800B97C49266CAD"]
+			id: "545F9AD860CD6A9B"
+			tasks: [{
+				id: "0BEE6E3AFD788E3D"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "746A8A692BEA0CA2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "52398FA20A14E5D0"
+			tasks: [{
+				id: "75BB72B4833F7AB1"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "67875F9AF3FA18A6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 11.5d
+			shape: "gear"
+			dependencies: ["657DC966F40468B2"]
+			id: "329C62FBCFC08E35"
+			tasks: [{
+				id: "4301A604C6FAD4E4"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "7FFFA604F72F431B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "7674D33104EEB0FF"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 10.5d
+			dependencies: ["0B3CD50728A09123"]
+			id: "657DC966F40468B2"
+			tasks: [{
+				id: "284445EBEF7A59EE"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 21L
+			}]
+			rewards: [{
+				id: "1681A146C721E9BF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 12.5d
+			dependencies: ["329C62FBCFC08E35"]
+			id: "3BAF8558D32F5D89"
+			tasks: [{
+				id: "41FA1B1E470DD289"
+				type: "item"
+				item: "minecraft:gravel"
+			}]
+			rewards: [{
+				id: "1894877FA9E6EAD3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 13.5d
+			dependencies: ["3BAF8558D32F5D89"]
+			id: "676361529229AC67"
+			tasks: [{
+				id: "392DCF8689F974E6"
+				type: "item"
+				item: "minecraft:sand"
+			}]
+			rewards: [{
+				id: "7FD80CBD890015BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 14.5d
+			dependencies: ["676361529229AC67"]
+			id: "09A3897AF417BFDA"
+			tasks: [{
+				id: "36788A1A8EE24655"
+				type: "item"
+				item: "exnihilosequentia:dust"
+			}]
+			rewards: [{
+				id: "61F33F01AA649D6D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 10.5d
+			shape: "diamond"
+			dependencies: ["0B3CD50728A09123"]
+			id: "22002F72797E1678"
+			tasks: [{
+				id: "6791E25F4AD698F5"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "0B18EABB50321900"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			icon: "create:wrench"
+			x: 1.5d
+			y: -2.5d
+			description: ["Create has a brief tutorial upon 'pondering' every object! Since they have built in tutorials that are easily accessible by hovering over and holding 'w'"]
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "37C6BBA9BE034132"
+			tasks: [{
+				id: "1F1407F809DF5E62"
+				type: "checkmark"
+				title: "Introduction to Create"
+			}]
+			rewards: [{
+				id: "5D691DB6B0578519"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["1F627A0AB92450D0"]
+			id: "0C5B84848277FBC5"
+			tasks: [{
+				id: "0B338240BE1881EF"
+				type: "item"
+				item: "exnihilosequentia:witch_water_bucket"
+			}]
+			rewards: [{
+				id: "660BCD01FC29ED9D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "509B11569DDAD5D3"
+			tasks: [{
+				id: "31A30DA7624FB062"
+				type: "item"
+				item: "create:shaft"
+			}]
+			rewards: [{
+				id: "6230F2D55D7F9373"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "5ACCA68AE1C229D9"
+			tasks: [{
+				id: "52D07B70B60B1DFA"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "03A7F533261CAEB0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "379718D251EC91C6"
+			tasks: [{
+				id: "2D8B78BDCC707849"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "09EF421434D9E362"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "42647EF34BA7778A"
+			tasks: [{
+				id: "7CA78A952631C620"
+				type: "item"
+				item: "create:cogwheel"
+			}]
+			rewards: [{
+				id: "1649E7639CE7371C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.0d
+			dependencies: ["37C6BBA9BE034132"]
+			id: "1D70019B88EF2060"
+			tasks: [{
+				id: "23FE43424678F21A"
+				type: "item"
+				item: "create:large_cogwheel"
+			}]
+			rewards: [{
+				id: "6876EEBB80BA4C6D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			dependencies: ["2C3902805699DBD7"]
+			id: "376ED4F3D854D273"
+			tasks: [{
+				id: "1E8C300142118705"
+				type: "item"
+				item: "create:steam_whistle"
+			}]
+			rewards: [{
+				id: "16831F2963A2E384"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "4C0FB490244BB292"
+			tasks: [{
+				id: "791F6A3FE16327B9"
+				type: "item"
+				item: "create:metal_girder"
+			}]
+			rewards: [{
+				id: "46CDDB0252F16162"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "1E34144A8FCF71B5"
+			tasks: [
+				{
+					id: "78D2EBD948FE6906"
+					type: "item"
+					item: "create:display_link"
+				}
+				{
+					id: "031B8E224343B0B0"
+					type: "item"
+					item: "create:display_board"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "13B629557BF234A6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			dependencies: ["376ED4F3D854D273"]
+			id: "52D721E3989FE279"
+			tasks: [{
+				id: "7051DD92CDC0D794"
+				type: "item"
+				item: "create:railway_casing"
+			}]
+			rewards: [{
+				id: "3BA9D7837A0A183E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			dependencies: ["52D721E3989FE279"]
+			id: "222D8E85DD22998A"
+			tasks: [
+				{
+					id: "2ECB046AB5D9D2DE"
+					type: "item"
+					item: "create:controls"
+				}
+				{
+					id: "77693E8183DF5FDF"
+					type: "item"
+					item: "create:train_door"
+				}
+				{
+					id: "68F3F628ADD22501"
+					type: "item"
+					item: "create:train_trapdoor"
+				}
+				{
+					id: "6D6DFDC47410204C"
+					type: "item"
+					item: "create:track_station"
+				}
+				{
+					id: "1E46E90542BC4A2B"
+					type: "item"
+					item: "create:track_signal"
+				}
+				{
+					id: "6C21C920B015B12F"
+					type: "item"
+					item: "create:track_observer"
+				}
+				{
+					id: "4A7F0E5A70ECAFFB"
+					type: "item"
+					item: "create:track"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "5AB30BF1990D6EC9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 6.0d
+			dependencies: ["222D8E85DD22998A"]
+			id: "43096E48D65C44C4"
+			tasks: [
+				{
+					id: "68DD2B174E4CB321"
+					type: "item"
+					item: "create:schedule"
+				}
+				{
+					id: "1C4E56EBBDAE9150"
+					type: "item"
+					item: "littlelogistics:car_dock_rail"
+				}
+			]
+			rewards: [{
+				id: "6EFE3FE26C8F27EA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.0d
+			dependencies: ["1CC6632792C1E487"]
+			id: "529306ADBCE55959"
+			tasks: [{
+				id: "70917FBE41F6AEAE"
+				type: "item"
+				item: {
+					id: "create:super_glue"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5414E4AE22BB5DE1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,16 @@
+{
+	id: "211A248E409BDFB1"
+	order_index: 99
+	title: "Chronicle_of_Shadows"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "apotheosis:apoth_chronicle"
+			}
+		}
+	}]
+}

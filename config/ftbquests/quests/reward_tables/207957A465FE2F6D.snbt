@@ -1,0 +1,82 @@
+{
+	id: "207957A465FE2F6D"
+	order_index: 24
+	title: "Bees"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "thermal:beekeeper_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:enchanted_book"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 6s
+						id: "cyclic:beekeeper"
+					}]
+				}
+			}
+		}
+		{ item: "productivebees:honey_treat", count: 32 }
+		{
+			item: {
+				id: "thermal:beekeeper_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:bee_nest", count: 3 }
+		{ item: "minecraft:beehive", count: 6 }
+		{
+			item: {
+				id: "thermal:beekeeper_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:honey_bottle", count: 16 }
+		{ item: "minecraft:honeycomb", count: 16 }
+		{ item: "productivebees:jar_oak", count: 5 }
+		{
+			item: {
+				id: "thermal:beekeeper_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "productivebees:upgrade_base", count: 2 }
+		{
+			item: {
+				id: "productivebees:bee_nest_diamond_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 250
+			monster: 250
+		}
+		color: 16776960
+		string_id: "bees"
+	}
+}

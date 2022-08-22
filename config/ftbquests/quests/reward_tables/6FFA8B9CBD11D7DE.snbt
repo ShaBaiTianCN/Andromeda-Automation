@@ -1,0 +1,80 @@
+{
+	id: "6FFA8B9CBD11D7DE"
+	order_index: 31
+	title: "Mid_Game_Pipes"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "pneumaticcraft:vacuum_module", count: 32 }
+		{ item: "pneumaticcraft:pressure_tube", count: 32 }
+		{ item: "pneumaticcraft:reinforced_pressure_tube", count: 32 }
+		{ item: "pneumaticcraft:advanced_pressure_tube", count: 32 }
+		{ item: "pneumaticcraft:pressure_gauge_module" }
+		{ item: "xnet:netcable_red", count: 64 }
+		{ item: "xnet:netcable_green", count: 64 }
+		{ item: "xnet:netcable_blue", count: 64 }
+		{ item: "xnet:netcable_yellow", count: 64 }
+		{ item: "xnet:netcable_routing", count: 64 }
+		{ item: "xnet:connector_red", count: 64 }
+		{ item: "xnet:connector_green", count: 64 }
+		{ item: "pneumaticcraft:vacuum_module", count: 16 }
+		{ item: "pneumaticcraft:pressure_tube", count: 16 }
+		{ item: "pneumaticcraft:reinforced_pressure_tube", count: 16 }
+		{ item: "pneumaticcraft:advanced_pressure_tube", count: 16 }
+		{ item: "integratedtunnels:part_importer_world_fluid", count: 5 }
+		{ item: "xnet:netcable_red", count: 32 }
+		{ item: "xnet:netcable_green", count: 32 }
+		{ item: "xnet:netcable_blue", count: 32 }
+		{ item: "xnet:netcable_yellow", count: 32 }
+		{ item: "xnet:netcable_routing", count: 32 }
+		{ item: "xnet:connector_red", count: 32 }
+		{ item: "xnet:connector_green", count: 32 }
+		{ item: "integratedtunnels:part_importer_world_block", count: 5 }
+		{ item: "pneumaticcraft:pressure_tube", count: 64 }
+		{ item: "integratedtunnels:part_exporter_world_fluid", count: 5 }
+		{ item: "integratedtunnels:part_exporter_fluid", count: 5 }
+		{ item: "integratedtunnels:part_importer_fluid", count: 5 }
+		{ item: "xnet:connector_blue", count: 64 }
+		{ item: "xnet:connector_yellow", count: 64 }
+		{ item: "xnet:connector_routing", count: 64 }
+		{ item: "xnet:advanced_connector_red", count: 64 }
+		{ item: "xnet:advanced_connector_green", count: 64 }
+		{ item: "xnet:advanced_connector_blue", count: 64 }
+		{ item: "xnet:advanced_connector_yellow", count: 64 }
+		{ item: "integrateddynamics:variable", count: 32 }
+		{ item: "integratedtunnels:part_interface_energy", count: 5 }
+		{ item: "integratedtunnels:part_interface_filter_energy", count: 5 }
+		{ item: "integratedtunnels:part_importer_energy", count: 5 }
+		{ item: "integratedtunnels:part_exporter_energy", count: 5 }
+		{ item: "xnet:connector_blue", count: 32 }
+		{ item: "xnet:connector_yellow", count: 32 }
+		{ item: "xnet:connector_routing", count: 32 }
+		{ item: "xnet:advanced_connector_red", count: 32 }
+		{ item: "xnet:advanced_connector_green", count: 32 }
+		{ item: "xnet:advanced_connector_blue", count: 32 }
+		{ item: "xnet:advanced_connector_yellow", count: 32 }
+		{ item: "integratedtunnels:part_importer_world_energy", count: 5 }
+		{ item: "integratedtunnels:part_exporter_world_energy", count: 5 }
+		{ item: "integratedtunnels:part_interface_item", count: 5 }
+		{ item: "integratedtunnels:part_interface_filter_item", count: 5 }
+		{ item: "integratedtunnels:part_importer_item", count: 5 }
+		{ item: "xnet:advanced_connector_routing", count: 64 }
+		{ item: "integratedtunnels:part_exporter_world_block", count: 5 }
+		{ item: "integratedtunnels:part_exporter_item", count: 5 }
+		{ item: "integratedtunnels:part_importer_world_item", count: 5 }
+		{ item: "integratedtunnels:part_exporter_world_item", count: 5 }
+		{ item: "integratedtunnels:part_interface_fluid", count: 5 }
+		{ item: "integratedtunnels:part_interface_filter_fluid", count: 5 }
+		{ item: "xnet:advanced_connector_routing", count: 32 }
+		{ item: "integratedtunnels:part_player_simulator", count: 5 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 9286358
+		string_id: "mid_game_pipes"
+	}
+}

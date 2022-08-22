@@ -1,0 +1,8 @@
+{
+	id: "7F218E2A57ABBD64"
+	order_index: 77
+	title: "dstrad"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:music_disc_strad" }]
+}

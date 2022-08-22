@@ -1,0 +1,81 @@
+{
+	id: "08AFA36C65B842E0"
+	order_index: 97
+	title: "Statues"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "statues:angry_bee_statue" }
+		{ item: "statues:baby_zombie_statue" }
+		{ item: "statues:bee_statue" }
+		{ item: "statues:trans_bee_statue" }
+		{ item: "statues:blaze_statue" }
+		{ item: "statues:brown_mooshroom_statue" }
+		{ item: "statues:campfire_statue" }
+		{ item: "statues:cat_black_statue" }
+		{ item: "statues:cat_british_shorthair_statue" }
+		{ item: "statues:cat_calico_statue" }
+		{ item: "statues:cat_jellie_statue" }
+		{ item: "statues:cat_persian_statue" }
+		{ item: "statues:cat_ragdoll_statue" }
+		{ item: "statues:cat_red_statue" }
+		{ item: "statues:cat_siamese_statue" }
+		{ item: "statues:cat_tabby_statue" }
+		{ item: "statues:cat_tuxedo_statue" }
+		{ item: "statues:cat_white_statue" }
+		{ item: "statues:chicken_jockey_statue" }
+		{ item: "statues:chicken_statue" }
+		{ item: "statues:cod_statue" }
+		{ item: "statues:cow_statue" }
+		{ item: "statues:creeper_statue" }
+		{ item: "statues:detective_platypus_statue" }
+		{ item: "statues:dolphin_statue" }
+		{ item: "statues:drowned_statue" }
+		{ item: "statues:elder_guardian_statue" }
+		{ item: "statues:enderman_statue" }
+		{ item: "statues:endermite_statue" }
+		{ item: "statues:evoker_statue" }
+		{ item: "statues:flood_statue" }
+		{ item: "statues:fox_snow_statue" }
+		{ item: "statues:fox_statue" }
+		{ item: "statues:ghast_statue" }
+		{ item: "statues:guardian_statue" }
+		{ item: "statues:pig_statue" }
+		{ item: "statues:husk_statue" }
+		{ item: "statues:info_statue" }
+		{ item: "statues:panda_angry_statue" }
+		{ item: "statues:magma_statue" }
+		{ item: "statues:mooshroom_statue" }
+		{ item: "statues:panda_brown_statue" }
+		{ item: "statues:panda_lazy_statue" }
+		{ item: "statues:panda_normal_statue" }
+		{ item: "statues:panda_angry_statue" }
+		{ item: "statues:panda_playful_statue" }
+		{ item: "statues:panda_weak_statue" }
+		{ item: "statues:panda_worried_statue" }
+		{ item: "statues:pillager_statue" }
+		{ item: "statues:player_statue" }
+		{ item: "statues:pufferfish_medium_statue" }
+		{ item: "statues:pufferfish_small_statue" }
+		{ item: "statues:pufferfish_statue" }
+		{ item: "statues:rabbit_br_statue" }
+		{ item: "statues:rabbit_bs_statue" }
+		{ item: "statues:rabbit_bw_statue" }
+		{ item: "statues:rabbit_go_statue" }
+		{ item: "statues:rabbit_wh_statue" }
+		{ item: "statues:rabbit_ws_statue" }
+		{ item: "statues:ravager_statue" }
+		{ item: "statues:salmon_statue" }
+		{ item: "statues:sheep_shaven_statue" }
+		{ item: "statues:sheep_statue_black" }
+		{ item: "statues:sheep_statue_blue" }
+		{ item: "statues:sheep_statue_brown" }
+		{ item: "statues:sheep_statue_cyan" }
+		{ item: "statues:sheep_statue_gray" }
+		{ item: "statues:sheep_statue_green" }
+		{ item: "statues:sheep_statue_light_blue" }
+		{ item: "statues:sheep_statue_light_gray" }
+		{ item: "statues:sheep_statue_lime" }
+		{ item: "statues:sheep_statue_magenta" }
+	]
+}

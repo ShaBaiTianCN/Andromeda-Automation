@@ -1,0 +1,126 @@
+{
+	id: "4058F9EE7CDC28CC"
+	order_index: 28
+	title: "Portable_Inventories"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:advanced_pickup_upgrade" }
+		{ item: "sophisticatedbackpacks:pickup_upgrade" }
+		{ item: "sophisticatedbackpacks:netherite_backpack" }
+		{ item: "sophisticatedbackpacks:diamond_backpack" }
+		{ item: "sophisticatedbackpacks:gold_backpack" }
+		{ item: "sophisticatedbackpacks:iron_backpack" }
+		{ item: "sophisticatedbackpacks:backpack" }
+		{ item: "sophisticatedbackpacks:filter_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_filter_upgrade" }
+		{ item: "sophisticatedbackpacks:magnet_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_magnet_upgrade" }
+		{ item: "sophisticatedbackpacks:feeding_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_feeding_upgrade" }
+		{ item: "sophisticatedbackpacks:compacting_upgrade" }
+		{ item: "sophisticatedbackpacks:void_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_void_upgrade" }
+		{ item: "sophisticatedbackpacks:restock_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_restock_upgrade" }
+		{ item: "sophisticatedbackpacks:deposit_upgrade" }
+		{ item: "sophisticatedbackpacks:refill_upgrade" }
+		{ item: "sophisticatedbackpacks:inception_upgrade" }
+		{ item: "sophisticatedbackpacks:everlasting_upgrade" }
+		{
+			item: {
+				id: "sophisticatedbackpacks:smelting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:auto_smelting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:smoking_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:auto_smoking_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:blasting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:auto_blasting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedbackpacks:crafting_upgrade"
+				Count: 1b
+				ForgeCaps: {
+					"polymorph:stack_recipe_data": { }
+				}
+			}
+		}
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade" }
+		{ item: "sophisticatedbackpacks:jukebox_upgrade" }
+		{ item: "sophisticatedbackpacks:tool_swapper_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade" }
+		{ item: "sophisticatedbackpacks:tank_upgrade" }
+		{ item: "sophisticatedbackpacks:battery_upgrade" }
+		{ item: "sophisticatedbackpacks:pump_upgrade" }
+		{ item: "sophisticatedbackpacks:advanced_pump_upgrade" }
+		{ item: "sophisticatedbackpacks:xp_pump_upgrade" }
+		{
+			item: {
+				id: "ae2:portable_item_cell_1k"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{
+			item: {
+				id: "ae2:portable_item_cell_4k"
+				Count: 1b
+				tag: { }
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 6171909
+		string_id: "portable_inventories"
+	}
+}

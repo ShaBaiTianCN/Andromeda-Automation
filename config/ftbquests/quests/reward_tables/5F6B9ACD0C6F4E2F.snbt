@@ -1,0 +1,16 @@
+{
+	id: "5F6B9ACD0C6F4E2F"
+	order_index: 91
+	title: "Creativesoul"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "tconstruct:creative_slot"
+			Count: 1b
+			tag: {
+				slot: "souls"
+			}
+		}
+	}]
+}

@@ -1,0 +1,49 @@
+{
+	id: "2AAC5DBA40E68D0E"
+	order_index: 25
+	title: "Botania_Flowers"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "botania:red_mystical_flower" }
+		{ item: "botania:green_mystical_flower" }
+		{ item: "botania:brown_mystical_flower" }
+		{ item: "botania:blue_mystical_flower" }
+		{ item: "botania:purple_mystical_flower" }
+		{ item: "botania:cyan_mystical_flower" }
+		{ item: "botania:lime_mystical_flower" }
+		{ item: "botania:pink_mystical_flower" }
+		{ item: "botania:lime_mushroom", count: 4 }
+		{ item: "botania:pink_mushroom", count: 4 }
+		{ item: "botania:gray_mushroom", count: 4 }
+		{ item: "botania:light_gray_mushroom", count: 4 }
+		{ item: "botania:cyan_mushroom", count: 4 }
+		{ item: "botania:purple_mushroom", count: 4 }
+		{ item: "botania:orange_mystical_flower" }
+		{ item: "botania:white_mystical_flower" }
+		{ item: "botania:red_mushroom", count: 4 }
+		{ item: "botania:green_mushroom", count: 4 }
+		{ item: "botania:magenta_mystical_flower" }
+		{ item: "botania:yellow_mystical_flower" }
+		{ item: "botania:light_blue_mystical_flower" }
+		{ item: "botania:light_gray_mystical_flower" }
+		{ item: "botania:gray_mystical_flower" }
+		{ item: "botania:yellow_mushroom", count: 4 }
+		{ item: "botania:blue_mushroom", count: 4 }
+		{ item: "botania:orange_mushroom", count: 4 }
+		{ item: "botania:magenta_mushroom", count: 4 }
+		{ item: "botania:light_blue_mushroom", count: 4 }
+		{ item: "botania:white_mushroom", count: 4 }
+		{ item: "botania:black_mystical_flower" }
+		{ item: "botania:brown_mushroom", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 11468544
+		string_id: "botania_flowers"
+	}
+}

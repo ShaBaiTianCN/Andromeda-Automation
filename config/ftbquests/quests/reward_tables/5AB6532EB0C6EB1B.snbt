@@ -1,0 +1,74 @@
+{
+	id: "5AB6532EB0C6EB1B"
+	order_index: 13
+	title: "Pretty_Blocks"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:red_sand", count: 128 }
+		{ item: "minecraft:waxed_oxidized_copper", count: 128 }
+		{ item: "minecraft:waxed_weathered_copper", count: 128 }
+		{ item: "minecraft:waxed_exposed_copper", count: 128 }
+		{ item: "minecraft:waxed_copper_block", count: 128 }
+		{ item: "minecraft:tinted_glass", count: 128 }
+		{ item: "minecraft:melon", count: 128 }
+		{ item: "minecraft:dried_kelp_block", count: 128 }
+		{ item: "minecraft:cobweb", count: 128 }
+		{ item: "minecraft:pink_glazed_terracotta", count: 128 }
+		{ item: "minecraft:purple_glazed_terracotta", count: 128 }
+		{ item: "create:asurine", count: 128 }
+		{ item: "alexsmobs:rainbow_glass", count: 128 }
+		{ item: "create:crimsite", count: 128 }
+		{ item: "minecraft:bricks", count: 128 }
+		{ item: "minecraft:mossy_stone_bricks", count: 128 }
+		{ item: "minecraft:red_nether_bricks", count: 128 }
+		{ item: "dustrial_decor:smooth_cardboard", count: 128 }
+		{ item: "dustrial_decor:cast_iron_block", count: 128 }
+		{ item: "dustrial_decor:sheet_metal_plating", count: 128 }
+		{ item: "thermal:polished_rich_slag", count: 128 }
+		{ item: "tconstruct:lavawood", count: 128 }
+		{ item: "tconstruct:sky_slime_crystal_block", count: 128 }
+		{ item: "tconstruct:earth_slime_crystal_block", count: 128 }
+		{ item: "domum_ornamentum:brown_stone_bricks", count: 128 }
+		{ item: "framedblocks:framed_stairs", count: 128 }
+		{ item: "framedblocks:framed_pane", count: 128 }
+		{ item: "framedblocks:framed_flower_pot", count: 128 }
+		{ item: "framedblocks:framed_post", count: 128 }
+		{ item: "botania:livingwood_planks", count: 128 }
+		{ item: "botania:dreamwood_planks", count: 128 }
+		{ item: "botania:shimmerwood_planks", count: 128 }
+		{ item: "biomesoplenty:rainbow_birch_leaves", count: 128 }
+		{ item: "minecraft:stone_bricks", count: 128 }
+		{ item: "createdeco:worn_bricks", count: 128 }
+		{ item: "gemsnjewels:pale_diamond_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:emerald_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:ruby_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:sapphire_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:amethyst_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:opal_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:garnet_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:topaz_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:peridot_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:aquamarine_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:zircon_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:alexandrite_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:tanzanite_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:tourmaline_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:spinel_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:black_opal_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:citrine_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:morganite_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:ametrine_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:kunzite_crystallized_stone_brick", count: 128 }
+		{ item: "gemsnjewels:iolite_crystallized_stone_brick", count: 128 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 500
+			monster: 500
+		}
+		color: 1376189
+		string_id: "pretty_blocks"
+	}
+}

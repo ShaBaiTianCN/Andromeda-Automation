@@ -1,0 +1,35 @@
+{
+	id: "06CB219B048D55A9"
+	order_index: 16
+	title: "Super_Food"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "alcocraft:spruce_mug_nether_star_lager", count: 16 }
+		{ item: "farmersdelight:pumpkin_soup", count: 16 }
+		{ item: "farmersdelight:baked_cod_stew", count: 16 }
+		{ item: "farmersdelight:noodle_soup", count: 16 }
+		{ item: "farmersdelight:grilled_salmon", count: 16 }
+		{ item: "farmersdelight:squid_ink_pasta", count: 16 }
+		{ item: "farmersdelight:vegetable_noodles", count: 16 }
+		{ item: "nethersdelight:plate_of_stuffed_hoglin_snout", count: 16 }
+		{ item: "alcocraft:spruce_mug_leprechaun_cider", count: 16 }
+		{ item: "alcocraft:spruce_mug_magnet_pilsner", count: 16 }
+		{ item: "alcocraft:spruce_mug_digger_bitter", count: 16 }
+		{ item: "alcocraft:spruce_mug_sun_pale_ale", count: 16 }
+		{ item: "minecraft:golden_carrot", count: 64 }
+		{ item: "minecraft:golden_apple", count: 16 }
+		{ item: "minecraft:enchanted_golden_apple" }
+		{ item: "minecolonies:golden_bread", count: 32 }
+		{ item: "minecolonies:golden_bread", count: 16 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 250
+			monster: 250
+		}
+		color: 16514816
+		string_id: "super_food"
+	}
+}

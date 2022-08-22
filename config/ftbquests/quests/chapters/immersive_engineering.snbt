@@ -1,0 +1,1882 @@
+{
+	id: "4167DFB479A7C1FC"
+	group: "1D115F3DF1092C06"
+	order_index: 1
+	filename: "immersive_engineering"
+	title: "Immersive Engineering"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["The start of any good engineer! With this mod expect multiblock buildings that you can find in the engineers manual, as well as numerous gorgeous structures!"]
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "1A732D8A69369212"
+			tasks: [{
+				id: "1164E023D6E29493"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7CB6E12157660FD0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["This allows you to create coal coke and creosote oil for use in crafting other things"]
+			dependencies: ["1A732D8A69369212"]
+			id: "3868B86EFE31C71D"
+			tasks: [{
+				id: "52B480C810CF5426"
+				type: "item"
+				item: "immersiveengineering:cokebrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "1CAA6D3527302B2D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 2.5d
+			description: ["A valuable resource used in steel processing!"]
+			dependencies: ["3868B86EFE31C71D"]
+			id: "7487FBFB1AC49F86"
+			tasks: [{
+				id: "7D6D5E42445CC3D9"
+				type: "item"
+				item: "immersiveengineering:coal_coke"
+				count: 16L
+			}]
+			rewards: [{
+				id: "109257A1834926A0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			dependencies: ["3868B86EFE31C71D"]
+			id: "6A4B60E21131F086"
+			tasks: [{
+				id: "7430E7A3441EB3AB"
+				type: "item"
+				item: "immersiveengineering:creosote_bucket"
+			}]
+			rewards: [{
+				id: "46A2DC2DEBBBE757"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["6A4B60E21131F086"]
+			id: "02CEE8ADAC18B7D6"
+			tasks: [{
+				id: "4267253EF21FB02E"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "1620D8F0AFF88976"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["Bonemeal some"]
+			dependencies: ["02CEE8ADAC18B7D6"]
+			id: "0253066C580419FD"
+			tasks: [{
+				id: "42BCB4CD4BF2B57C"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 16L
+			}]
+			rewards: [{
+				id: "148E0E30F0DACB03"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			description: ["Bonemeal some grass to get some industrial hemp seeds!"]
+			dependencies: ["0253066C580419FD"]
+			id: "02E13551590C47FA"
+			tasks: [{
+				id: "5CB319B1EDEEAB56"
+				type: "item"
+				item: "immersiveengineering:seed"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4A69B6F108AE90F7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			description: ["Make sure it has no obstructions!"]
+			dependencies: ["0742EFF2C10561E1"]
+			id: "0A75B426F4D8D38D"
+			tasks: [{
+				id: "1362344E6CE6808D"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [{
+				id: "00ED6D5CE50004CB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.5d
+			description: ["Your wires will no longer murderize you!"]
+			dependencies: ["02E13551590C47FA"]
+			id: "3F10CE9CA7EFE371"
+			tasks: [{
+				id: "4B63C53C1F6B2448"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}]
+			rewards: [{
+				id: "3F112091946CA686"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			description: ["Your wires will no longer murderize you!"]
+			dependencies: ["02E13551590C47FA"]
+			id: "5DC18D409C343DB4"
+			tasks: [{
+				id: "4654C488E01010F3"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+			}]
+			rewards: [{
+				id: "5B81BB6C28495C08"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			description: ["The skyhook allows the user to basically zip line from area to area using a steel connector! Be sure to be holding it in your hand and right click"]
+			dependencies: ["02E13551590C47FA"]
+			id: "3FBA97E24BC1ADDC"
+			tasks: [
+				{
+					id: "3BEAFB6448464A69"
+					type: "item"
+					item: {
+						id: "immersiveengineering:balloon"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "4555D3E9EF278549"
+					type: "item"
+					item: {
+						id: "immersiveengineering:skyhook"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "658A1CC89FD89D16"
+					type: "item"
+					item: "immersiveengineering:wirecoil_structure_steel"
+				}
+			]
+			rewards: [{
+				id: "4E47716D42CB15C3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 10.0d
+			dependencies: [
+				"514AE9590CB030E7"
+				"02E13551590C47FA"
+			]
+			id: "0742EFF2C10561E1"
+			tasks: [{
+				id: "100F1DC3D90C9197"
+				type: "item"
+				item: "immersiveengineering:windmill_blade"
+				count: 8L
+			}]
+			rewards: [{
+				id: "399839E1B7AB91CD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 12.0d
+			dependencies: ["0A75B426F4D8D38D"]
+			id: "59FCAE5A84A15364"
+			tasks: [{
+				id: "07D45EF387C6FEDC"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5A00B4A1EFE018F4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 11.0d
+			dependencies: ["4052377F909F5FDB"]
+			id: "2C9CEFEE05077802"
+			tasks: [{
+				id: "7A65A9EAA6B069A9"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.0d
+			dependencies: [
+				"514AE9590CB030E7"
+				"15B0C1324F7D1C6C"
+			]
+			id: "4052377F909F5FDB"
+			tasks: [{
+				id: "2EAD1E8E465D36EE"
+				type: "item"
+				item: "immersiveengineering:waterwheel_segment"
+				count: 4L
+			}]
+			rewards: [{
+				id: "1E962358DEB61C16"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			description: ["This machine allows the user to process coal coke and iron into steel and steel slag."]
+			dependencies: ["7487FBFB1AC49F86"]
+			id: "3EB3ABF9B8CF8264"
+			tasks: [{
+				id: "217E8F2F70D86790"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [{
+				id: "650F71221F18E9AC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 2.5d
+			description: ["A tool for cutting wires. Enough Said"]
+			dependencies: ["3868B86EFE31C71D"]
+			id: "3A9095BEF75EA26D"
+			tasks: [{
+				id: "05DFE25012A84689"
+				type: "item"
+				item: {
+					id: "immersiveengineering:wirecutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "5CE50E2B7E3FAEE3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			description: ["Transmits a low amount of power"]
+			dependencies: ["3A9095BEF75EA26D"]
+			id: "63B6ED4CAD801A48"
+			tasks: [{
+				id: "286B3C38948E9A16"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [{
+				id: "7D2DB27930CF3B28"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			description: ["Transmits a medium amount of power"]
+			dependencies: ["25DEE1722A538265"]
+			id: "28BC9FAFAC341073"
+			tasks: [{
+				id: "0A94B3C4625BD63C"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+			rewards: [{
+				id: "4A870E8570116141"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.5d
+			description: ["Allows for transfer of larges amounts of power"]
+			dependencies: ["3A9095BEF75EA26D"]
+			id: "257BDD0AA953F12E"
+			tasks: [{
+				id: "01CF3EBF2302D42B"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+			rewards: [{
+				id: "5E6C4B734A8FA3C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			description: ["Transmits redstone signals"]
+			dependencies: ["3A9095BEF75EA26D"]
+			id: "14972CE84BE99B25"
+			tasks: [{
+				id: "67B837988873F4EA"
+				type: "item"
+				item: "immersiveengineering:wirecoil_redstone"
+			}]
+			rewards: [{
+				id: "68C47BC7258A53ED"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			description: ["Used mostly in crafting."]
+			dependencies: ["63B6ED4CAD801A48"]
+			id: "529ECC2D95E76740"
+			tasks: [{
+				id: "0D597AE9F76F1902"
+				type: "item"
+				item: "immersiveengineering:coil_lv"
+			}]
+			rewards: [{
+				id: "7CA598B880065D6A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			description: ["Used mostly in crafting."]
+			dependencies: ["28BC9FAFAC341073"]
+			id: "502A06D7632FC783"
+			tasks: [{
+				id: "770D03CF121E316E"
+				type: "item"
+				item: "immersiveengineering:coil_mv"
+			}]
+			rewards: [{
+				id: "0325379AEBE9259E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.5d
+			description: ["Used mostly in crafting."]
+			dependencies: ["257BDD0AA953F12E"]
+			id: "574BF0625D79C5B9"
+			tasks: [{
+				id: "48458766E112EFD7"
+				type: "item"
+				item: "immersiveengineering:coil_hv"
+			}]
+			rewards: [{
+				id: "58858D1348C6B691"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			description: ["Allows you to harvest power from the windmill and the watermill"]
+			dependencies: ["529ECC2D95E76740"]
+			id: "514AE9590CB030E7"
+			tasks: [{
+				id: "2870CE3DAB2358D1"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [{
+				id: "61F5045461EDD5AE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			description: ["The connector connects to actual buildings! Not To relay!"]
+			dependencies: ["63B6ED4CAD801A48"]
+			id: "5B8E832E472A1B03"
+			tasks: [{
+				id: "6FE0215D6ECA4AF6"
+				type: "item"
+				item: "immersiveengineering:connector_lv"
+			}]
+			rewards: [{
+				id: "3BC43A95C5640B4E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			description: ["The connector connects to actual buildings! Not To relay!"]
+			dependencies: ["28BC9FAFAC341073"]
+			id: "7997C5E276ACBABE"
+			tasks: [{
+				id: "6D352E34BB57D8C1"
+				type: "item"
+				item: "immersiveengineering:connector_mv"
+			}]
+			rewards: [{
+				id: "4635F0D1389EF256"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.5d
+			description: ["The connector connects to actual buildings! Not To relay!"]
+			dependencies: ["257BDD0AA953F12E"]
+			id: "4588CEB2C97C6E76"
+			tasks: [{
+				id: "70F362CA0C0091CA"
+				type: "item"
+				item: "immersiveengineering:connector_hv"
+			}]
+			rewards: [{
+				id: "4CB7A6121B06ABCD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			description: ["This is used for long distance connections between conectors!"]
+			dependencies: ["5B8E832E472A1B03"]
+			id: "6893AB3A833EE9DD"
+			tasks: [{
+				id: "01212D0B2FF2862E"
+				type: "item"
+				item: "immersiveengineering:connector_lv_relay"
+			}]
+			rewards: [{
+				id: "00D1E49CCB1A366F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 6.5d
+			description: ["This is used for long distance connections between conectors!"]
+			dependencies: ["7997C5E276ACBABE"]
+			id: "4930ACE0EE27FBA9"
+			tasks: [{
+				id: "4F7C0FB643D9B330"
+				type: "item"
+				item: "immersiveengineering:connector_mv_relay"
+			}]
+			rewards: [{
+				id: "5F02D60A140F5825"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			description: ["This is used for long distance connections between conectors!"]
+			dependencies: ["4588CEB2C97C6E76"]
+			id: "52A90844502C2F47"
+			tasks: [{
+				id: "068FB5E334735FD4"
+				type: "item"
+				item: "immersiveengineering:connector_hv_relay"
+			}]
+			rewards: [{
+				id: "4406521A835B32AD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.0d
+			dependencies: ["514AE9590CB030E7"]
+			id: "63D0F3FE3BF67CA5"
+			tasks: [{
+				id: "5FEAE89CC7FA7DD8"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [{
+				id: "5E2E0D76995E2DCF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.0d
+			dependencies: ["514AE9590CB030E7"]
+			id: "5FF82218911961E6"
+			tasks: [{
+				id: "5B23409EFAA932E2"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [{
+				id: "11E9DEA5CC0F77BC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 10.0d
+			dependencies: ["514AE9590CB030E7"]
+			id: "67002FC64A5E3BE2"
+			tasks: [{
+				id: "5101E5D0980F44C8"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [{
+				id: "0985914BE007C160"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.5d
+			description: ["Used to make alloys!"]
+			dependencies: ["3A9095BEF75EA26D"]
+			id: "25DEE1722A538265"
+			tasks: [{
+				id: "4A8F89E098D47CF7"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [{
+				id: "5C0E6EA0CA0947EB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 13.0d
+			description: ["Allows you to generate power based off of the temperature difference between two nearby blocks."]
+			dependencies: ["514AE9590CB030E7"]
+			id: "16DD853CED9D3599"
+			tasks: [{
+				id: "70F76E4D1E882D09"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [{
+				id: "7DA4B2034EB3BEEF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 12.0d
+			dependencies: ["61E19EB7CB0C1B37"]
+			id: "602E44696235A3C0"
+			tasks: [{
+				id: "26E3FA6FE178C47F"
+				type: "item"
+				item: "immersiveengineering:biodiesel_bucket"
+			}]
+			rewards: [{
+				id: "44DF54517AFF5E12"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			title: "Biodiesel Generator"
+			x: -4.5d
+			y: 15.0d
+			shape: "gear"
+			dependencies: ["5D08AAB07FA46BCF"]
+			id: "6B47EBA5B1D29D2F"
+			tasks: [
+				{
+					id: "2A4B2573A2DC2767"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "25005EEE4AF36AC7"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "3C1054DFA63EDB1E"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "33DF5FF646463654"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "65E3302B4BEAC276"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "49BC459F99B2648D"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "782B1F3F6F4F6B1B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "artifacts"
+						}
+					}
+				}
+				{
+					id: "006F2E414C519A6D"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			title: "Lightning Powered"
+			x: -0.5d
+			y: 11.0d
+			dependencies: ["514AE9590CB030E7"]
+			id: "72C0A8506CF10AD9"
+			tasks: [{
+				id: "74D0E5F88024BDAA"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+				count: 4L
+			}]
+			rewards: [{
+				id: "683FBE4FD52CBD59"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 2.5d
+			description: ["Allows for seamless transfer of items! Careful because they are in entity form!"]
+			dependencies: ["3868B86EFE31C71D"]
+			id: "4D4A1CEA0D0C9327"
+			tasks: [{
+				id: "57458D0E681C2917"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [{
+				id: "0705C6F78037E098"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			description: ["extract items from chests and other inventories using this!"]
+			dependencies: ["4D4A1CEA0D0C9327"]
+			id: "17E53212BF89DBE5"
+			tasks: [{
+				id: "49523C8C41FF1305"
+				type: "item"
+				item: "immersiveengineering:conveyor_extract"
+			}]
+			rewards: [{
+				id: "41E72AA084261D0A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 3.5d
+			description: ["Drops items in the chest below it!"]
+			dependencies: ["4D4A1CEA0D0C9327"]
+			id: "651AA4ADBC154C86"
+			tasks: [{
+				id: "01AC2252DCEF7AA9"
+				type: "item"
+				item: "immersiveengineering:conveyor_dropper"
+			}]
+			rewards: [{
+				id: "3DD15851A0DB3444"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 3.5d
+			description: ["Allows for seperation of items depending on the color using the internal interface of the router"]
+			dependencies: ["4D4A1CEA0D0C9327"]
+			id: "418E7B93C7AF2B58"
+			tasks: [{
+				id: "74D006B1E3EE2DA8"
+				type: "item"
+				item: "immersiveengineering:sorter"
+			}]
+			rewards: [{
+				id: "2EF325E3DFD3CAA2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 14.0d
+			dependencies: ["1C4A0BF9CAE22B9D"]
+			id: "5D08AAB07FA46BCF"
+			tasks: [{
+				id: "4E7DDD0C2A9AB5ED"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+			}]
+			rewards: [{
+				id: "75EE93C7C631943A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 13.0d
+			dependencies: ["602E44696235A3C0"]
+			id: "1C4A0BF9CAE22B9D"
+			tasks: [{
+				id: "0A35C548945C2F44"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			rewards: [{
+				id: "3C231162F05025AE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 4.5d
+			shape: "pentagon"
+			dependencies: ["02CEE8ADAC18B7D6"]
+			id: "22CF3C314198778D"
+			tasks: [{
+				id: "0A667FB4F35AE100"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "2EC446C7D68D0F46"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.5d
+			dependencies: ["02CEE8ADAC18B7D6"]
+			id: "06AD72769F2AD0DD"
+			tasks: [{
+				id: "09C8EDC9878E3111"
+				type: "item"
+				item: "immersiveengineering:circuit_table"
+			}]
+			rewards: [{
+				id: "0BF5BD9B076EB2B8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 5.5d
+			dependencies: ["06AD72769F2AD0DD"]
+			id: "1629D498D892D304"
+			tasks: [{
+				id: "79267901E7777944"
+				type: "item"
+				item: "immersiveengineering:circuit_board"
+			}]
+			rewards: [{
+				id: "3E355A8DC0AEABA3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 5.5d
+			dependencies: ["22CF3C314198778D"]
+			id: "5E8D4D1F71B4BB14"
+			tasks: [{
+				id: "50E0420F187E6E10"
+				type: "item"
+				item: "immersiveengineering:electron_tube"
+			}]
+			rewards: [{
+				id: "4CD7C1329B46A636"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 6.5d
+			description: ["This allows you to grow various plants with electricity"]
+			dependencies: ["5E8D4D1F71B4BB14"]
+			id: "40D73C6EDA9528D3"
+			tasks: [{
+				id: "06EE672BCAE55311"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "1E0E7EA7E6F265D1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 6.5d
+			description: ["BANG BANG BABAY"]
+			dependencies: ["1CE0321BAD47D6A8"]
+			id: "366A5E7B4AEA4F1E"
+			tasks: [{
+				id: "168622AFDC1BE629"
+				type: "item"
+				item: {
+					id: "immersiveengineering:revolver"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 21
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "42025079BC762B71"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["22CF3C314198778D"]
+			id: "1CE0321BAD47D6A8"
+			tasks: [{
+				id: "7732716302D58D86"
+				type: "item"
+				item: "immersiveengineering:casull"
+			}]
+			rewards: [{
+				id: "1E6901439FE6C31B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			title: "Steel Production"
+			x: -7.0d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["3EB3ABF9B8CF8264"]
+			id: "15B0C1324F7D1C6C"
+			tasks: [{
+				id: "2DB7CE35C0A1C5E4"
+				type: "item"
+				title: "Any #forge:ingots/steel"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				count: 8L
+			}]
+			rewards: [{
+				id: "6BEC02B0FE8E84C3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["22CF3C314198778D"]
+			id: "17FE175BC731892B"
+			tasks: [{
+				id: "1D91C361D9BEC40D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BE5230B0414386F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 5.5d
+			description: ["Damages entities that move through it! Can also be electrified for increased damage"]
+			dependencies: ["15B0C1324F7D1C6C"]
+			id: "4A68F9B338544D86"
+			tasks: [{
+				id: "72623127FE87F517"
+				type: "item"
+				item: "immersiveengineering:razor_wire"
+			}]
+			rewards: [{
+				id: "5CF85A92637EA8BD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 12.0d
+			dependencies: ["514AE9590CB030E7"]
+			id: "7EDBA53862B96946"
+			tasks: [{
+				id: "1CD1BF05B689AC85"
+				type: "item"
+				item: "immersiveengineering:turret_gun"
+			}]
+			rewards: [{
+				id: "193527C70F71FC6C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 12.0d
+			dependencies: ["514AE9590CB030E7"]
+			id: "230291189429FC3D"
+			tasks: [{
+				id: "3625D0A9B0BBE353"
+				type: "item"
+				item: "immersiveengineering:turret_chem"
+			}]
+		}
+		{
+			title: "Metal Press"
+			x: -1.5d
+			y: 12.0d
+			description: ["Allows you to make iron sheets significantly easier."]
+			dependencies: ["514AE9590CB030E7"]
+			id: "3E12F97AFB4973BE"
+			tasks: [
+				{
+					id: "3D12F1C5CCEEB638"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "11D72D860F6464B2"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "482A4EAEE6D44645"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3962676C9B0E849A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "68D86C359C334B5C"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "795C64DD95F352C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 6.5d
+			description: ["Allows you to shock your enemies."]
+			dependencies: ["17FE175BC731892B"]
+			id: "2C802A6E54267AAC"
+			tasks: [{
+				id: "59B80924A3372D19"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_shield_shock"
+			}]
+			rewards: [{
+				id: "1D1EDABE7398CC55"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 6.5d
+			description: ["Allows you to blind your enemies."]
+			dependencies: ["17FE175BC731892B"]
+			id: "3833781897197459"
+			tasks: [{
+				id: "7FD28986C8BDC294"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_shield_flash"
+			}]
+			rewards: [{
+				id: "58E288C1048A4E3A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			title: "Crusher"
+			x: -1.5d
+			y: 11.0d
+			shape: "diamond"
+			dependencies: ["514AE9590CB030E7"]
+			id: "5FAF5391A90AB9FE"
+			tasks: [
+				{
+					id: "27954EFB1818AC6E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "32BA5ECC0E6EB26B"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "3594D8FC8D59FF92"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "5BB1930905AA0B1E"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "356C5F86B49BC33A"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "1F454971945C4AFC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			title: "Assembler"
+			x: -0.5d
+			y: 13.0d
+			description: ["Allows you to automatically craft things."]
+			dependencies: ["514AE9590CB030E7"]
+			id: "22DF7D9BD07EAFB3"
+			tasks: [
+				{
+					id: "7AD14B930A28C8E5"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "148404F6780C449B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "6E2326F7FFE6AA0C"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5DDB06213EAEE6F4"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 9L
+				}
+				{
+					id: "42023F3A99A3C0DF"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					count: 6L
+				}
+				{
+					id: "527FF9034573C438"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "64DEAFF9A357F0CF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			title: "Fermenter"
+			x: -5.0d
+			y: 10.0d
+			description: ["Allows you to ferment crops and create ethanol."]
+			dependencies: ["514AE9590CB030E7"]
+			id: "4563ECECFB576FF8"
+			tasks: [
+				{
+					id: "2E059F516F131E40"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "110E12998B801FAE"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "100BA122FDD45E95"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "09A83D58625EA91C"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "77CFA492FD38E1EE"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "576A6992E6CDEF6F"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "4C34DC3F4AF58BFD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			title: "Squeezer"
+			x: -4.0d
+			y: 10.0d
+			description: ["Allows you to create seed oil"]
+			dependencies: ["514AE9590CB030E7"]
+			id: "42D042B480F9AFDF"
+			tasks: [
+				{
+					id: "3370938F6CA8DA0E"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "7D7E743B1142ADB6"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "65C03CF430CD3BCE"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "1D7059C05CDE51F2"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3234C5AC6B6A0483"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "484CEA80F08AB654"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "265B70171764CDD9"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "59A01A58FC5D30BE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			title: "Refinery"
+			x: -4.5d
+			y: 11.0d
+			description: ["Generates biodiesel!"]
+			dependencies: [
+				"4563ECECFB576FF8"
+				"42D042B480F9AFDF"
+			]
+			id: "61E19EB7CB0C1B37"
+			tasks: [
+				{
+					id: "5BAE6A2DD4E317A9"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "423497685351EE08"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "1414C4EA4C3A758D"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "7B2AFE5A764142F6"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "63A0021A7DC27E4A"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "12E6E2625B40B5E5"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "4512E8957BFFDAE8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 6.5d
+			description: ["The MV transformer allows you to change MV and LV"]
+			dependencies: ["502A06D7632FC783"]
+			id: "6257DE38F07F40D0"
+			tasks: [{
+				id: "73A0FDF1E50FA75B"
+				type: "item"
+				item: "immersiveengineering:transformer"
+			}]
+			rewards: [{
+				id: "59E1CD6EEC0CC24A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			description: ["The HV transformer allows you to exchange HV and MV."]
+			dependencies: ["574BF0625D79C5B9"]
+			id: "2CB699A258B146D7"
+			tasks: [{
+				id: "573D8D71E315D9CB"
+				type: "item"
+				item: "immersiveengineering:transformer_hv"
+			}]
+			rewards: [{
+				id: "648DF3D2C127BA88"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 5.5d
+			description: ["For use in the garden cloche to increase the speed of growth!"]
+			dependencies: ["15B0C1324F7D1C6C"]
+			id: "6066EFAEB3512574"
+			tasks: [{
+				id: "0A3AE803EA096B4F"
+				type: "item"
+				item: "immersiveengineering:fertilizer"
+				count: 16L
+			}]
+			rewards: [{
+				id: "2FA8BE7485233CE6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.5d
+			description: ["Your wires will no longer murderize you!"]
+			dependencies: ["02E13551590C47FA"]
+			id: "748653B1297E3EF9"
+			tasks: [{
+				id: "53C720BD7CCD9FC1"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}]
+			rewards: [{
+				id: "400B131270FEDDF9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+	]
+}

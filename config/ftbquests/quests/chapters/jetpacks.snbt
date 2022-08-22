@@ -1,0 +1,515 @@
+{
+	id: "2812371950868A9D"
+	group: "47CF1A3B0D7BE39F"
+	order_index: 2
+	filename: "jetpacks"
+	title: "Player Movement"
+	icon: {
+		id: "ironjetpacks:jetpack"
+		Count: 1b
+		tag: {
+			Id: "ironjetpacks:emerald"
+			Throttle: 1.0d
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			optional: true
+			id: "676530C31A3BFA10"
+			tasks: [{
+				id: "7508E264C370CB6A"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:wood"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["676530C31A3BFA10"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "749B17ADAF7FB8B9"
+			tasks: [{
+				id: "65B72C91B03EF99C"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:stone"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["676530C31A3BFA10"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "554BBC265B7AB9BB"
+			tasks: [{
+				id: "313FFF1B66996D06"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:copper"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: [
+				"749B17ADAF7FB8B9"
+				"554BBC265B7AB9BB"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "30320C44F01F03E6"
+			tasks: [{
+				id: "15F63EDB947CBBAF"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:iron"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			dependencies: [
+				"749B17ADAF7FB8B9"
+				"554BBC265B7AB9BB"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "777C51D898F8B50C"
+			tasks: [{
+				id: "5949E3BC356E0717"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:bronze"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: [
+				"30320C44F01F03E6"
+				"777C51D898F8B50C"
+				"2015F681324296F6"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "06ACC1C507A22D07"
+			tasks: [{
+				id: "3FD378E9373F3950"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:steel"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			dependencies: [
+				"749B17ADAF7FB8B9"
+				"554BBC265B7AB9BB"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "2015F681324296F6"
+			tasks: [{
+				id: "739314D776C732DE"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:silver"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			dependencies: [
+				"30320C44F01F03E6"
+				"777C51D898F8B50C"
+				"2015F681324296F6"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "7E6F2447ED7E9D5B"
+			tasks: [{
+				id: "21608A970CA94AD2"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:electrum"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: [
+				"30320C44F01F03E6"
+				"777C51D898F8B50C"
+				"2015F681324296F6"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "49D037A2C05068BB"
+			tasks: [{
+				id: "521FDADE872E6575"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:gold"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: [
+				"30320C44F01F03E6"
+				"777C51D898F8B50C"
+				"2015F681324296F6"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "6D4A11DD17AB5A5A"
+			tasks: [{
+				id: "66D8D2849B06D714"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:invar"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: [
+				"7E6F2447ED7E9D5B"
+				"06ACC1C507A22D07"
+				"49D037A2C05068BB"
+				"6D4A11DD17AB5A5A"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1E4C265EA537C8B9"
+			tasks: [{
+				id: "04976B465D9BD871"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:diamond"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			dependencies: [
+				"7E6F2447ED7E9D5B"
+				"06ACC1C507A22D07"
+				"49D037A2C05068BB"
+				"6D4A11DD17AB5A5A"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "1883D5A4F32F095C"
+			tasks: [{
+				id: "7CE80D064D5002A0"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:platinum"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.0d
+			dependencies: [
+				"1E4C265EA537C8B9"
+				"1883D5A4F32F095C"
+			]
+			dependency_requirement: "one_completed"
+			id: "14205738DDE25CB1"
+			tasks: [{
+				id: "19E9FAF8C4519F14"
+				type: "item"
+				item: {
+					id: "ironjetpacks:jetpack"
+					Count: 1b
+					tag: {
+						Id: "ironjetpacks:emerald"
+						Throttle: 1.0d
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "6FA0AEFAAD0E1506"
+			tasks: [{
+				id: "3F3CA61759524A35"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:encased_jet_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "6DCE2EFC2A028641"
+			tasks: [{
+				id: "3B2B8DA3F548ADD7"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:brass_accelerator_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "7369C1836FBC2AB2"
+			tasks: [{
+				id: "4B0BAFF792A9CA37"
+				type: "item"
+				item: "create_stuff_additions:brass_moped_item"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["7369C1836FBC2AB2"]
+			id: "0EDA9305AAD7E0A0"
+			tasks: [{
+				id: "4E12A4D5D9861B57"
+				type: "item"
+				item: "create_stuff_additions:tuned_brass_moped_item"
+			}]
+		}
+		{
+			title: "Nerd"
+			x: 8.0d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "164C0B060737C1FC"
+			tasks: [{
+				id: "748301FDC569FC95"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: ["Gives you creative flight for 5 mins!"]
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "115D6D16A64C5155"
+			tasks: [{
+				id: "0D03DF6408ADEE3F"
+				type: "item"
+				item: "alcocraft:spruce_mug_nether_star_lager"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "525810AB5857D8CD"
+			tasks: [{
+				id: "2AD9D1AB6130FE1C"
+				type: "item"
+				item: {
+					id: "create:extendo_grip"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			dependencies: ["5DFAB073CDFBDC28"]
+			hide: true
+			id: "2B09C09AB4854C53"
+			tasks: [{
+				id: "61191441B1E19A6A"
+				type: "item"
+				item: {
+					id: "minecraft:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["2B09C09AB4854C53"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "3CAA76C3CE15F789"
+			tasks: [{
+				id: "5ECD4603BAD17AA2"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:durability": 672.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						HideFlags: 3
+						tic_modifiers: [{
+							name: "tconstruct:wings"
+							level: 1s
+						}]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:elyta": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			dependencies: ["2B09C09AB4854C53"]
+			dependency_requirement: "one_completed"
+			optional: true
+			id: "0E46C9C729B1A035"
+			tasks: [{
+				id: "38152788343663F1"
+				type: "item"
+				item: {
+					id: "alexsmobs:tarantula_hawk_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: [
+				"3CAA76C3CE15F789"
+				"0E46C9C729B1A035"
+			]
+			dependency_requirement: "one_completed"
+			id: "4B9601FEB9C7A615"
+			tasks: [{
+				id: "5C1839B645FDED6E"
+				type: "item"
+				item: {
+					id: "mekanism:hdpe_elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

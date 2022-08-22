@@ -1,0 +1,16 @@
+{
+	id: "561EF56061ECF215"
+	order_index: 108
+	title: "Thermalpedia"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "thermal:guidebook"
+			}
+		}
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Horn",
+  "colors": [
+    "ffff03",
+    "cfcf02"
+  ],
+  "ingredient": {
+    "item": "minecraft:horn_coral_block"
+  },
+  "inUltimateSingularity": false
+}

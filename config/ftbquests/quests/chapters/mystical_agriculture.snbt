@@ -1,0 +1,467 @@
+{
+	id: "292ACE37B7E286E4"
+	group: "3169F62C14ECDF17"
+	order_index: 2
+	filename: "mystical_agriculture"
+	title: "Mystical Agriculture"
+	icon: "mysticalagriculture:nature_seeds"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -0.5d
+			shape: "diamond"
+			description: ["This is the entire focus of the mod! These allow you to craft a variety of fancy seeds that you can plant to grow crops that give you various resources in the game!"]
+			dependencies: ["539B5BC99777FCCB"]
+			id: "72F518F7CA626DA5"
+			tasks: [{
+				id: "71EF4B1C3C87F019"
+				type: "item"
+				title: "Any #mysticalagriculture:seeds"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "mysticalagriculture:seeds"
+					}
+				}
+				count: 10L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			description: ["The altar will tell you where to put the pedestals when placed! Begin crafting by applying a redstone signal!"]
+			dependencies: ["2A694E7DCB9849D2"]
+			id: "539B5BC99777FCCB"
+			tasks: [
+				{
+					id: "204EE29800ED8782"
+					type: "item"
+					item: "mysticalagriculture:infusion_altar"
+				}
+				{
+					id: "048A9B88DBA2D364"
+					type: "item"
+					item: "mysticalagriculture:infusion_pedestal"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.0d
+			dependencies: ["106D4257379B2937"]
+			hide: true
+			id: "2A694E7DCB9849D2"
+			tasks: [{
+				id: "32A754DE60C99626"
+				type: "item"
+				item: "mysticalagriculture:inferium_essence"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["6D576A072ECA46FF"]
+			id: "48FBD7CA37A58783"
+			tasks: [{
+				id: "742C91C008428FD6"
+				type: "item"
+				item: "mysticalagriculture:prudentium_essence"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			dependencies: ["48FBD7CA37A58783"]
+			id: "7C7371E62B30F058"
+			tasks: [{
+				id: "72F9C95A2986112D"
+				type: "item"
+				item: "mysticalagriculture:tertium_essence"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["7C7371E62B30F058"]
+			id: "713229AD5680EA28"
+			tasks: [{
+				id: "5C6DB37FEF218555"
+				type: "item"
+				item: "mysticalagriculture:imperium_essence"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["713229AD5680EA28"]
+			id: "31DB07BB99F4334A"
+			tasks: [{
+				id: "2446E9A93A9CDDEC"
+				type: "item"
+				item: "mysticalagriculture:supremium_essence"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["Infusion crystals allow you to craft higher levels of essence!"]
+			dependencies: ["2A694E7DCB9849D2"]
+			id: "6D576A072ECA46FF"
+			tasks: [{
+				id: "30FA1A1DCD8F7A87"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:infusion_crystal"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			description: ["This is an infusion crystal that never breaks and doesn't cause issues with auto crafting!"]
+			dependencies: ["31DB07BB99F4334A"]
+			id: "7F0DFC23DBC90EF0"
+			tasks: [{
+				id: "0D56227DD19154F0"
+				type: "item"
+				item: "mysticalagriculture:master_infusion_crystal"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			description: ["This is a way to obtain souls from mob drops to craft essence crops!"]
+			dependencies: ["72F518F7CA626DA5"]
+			id: "093BF2A3DA529CD5"
+			tasks: [{
+				id: "3AD55240DCE87FB0"
+				type: "item"
+				item: "mysticalagriculture:soul_extractor"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			description: ["This will allow you to turn any additional seeds into essence [It destroys the seed!] Useful if you have extra seeds clogging your system!"]
+			dependencies: [
+				"2D0EC1AD1BA16010"
+				"69F50E83E2444453"
+			]
+			id: "620A878D41F469F9"
+			tasks: [{
+				id: "3230C247D6AFCC58"
+				type: "item"
+				item: "mysticalagriculture:basic_reprocessor"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["This increases the chance to drop seeds!"]
+			dependencies: ["72F518F7CA626DA5"]
+			id: "69F50E83E2444453"
+			tasks: [{
+				id: "172E1BC839B8A126"
+				type: "item"
+				item: "mysticalagriculture:inferium_farmland"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			description: ["This applies a random growth tick every so often to a plant within range! More of these the better!"]
+			dependencies: ["72F518F7CA626DA5"]
+			id: "2D0EC1AD1BA16010"
+			tasks: [{
+				id: "486D3C9A7358BA57"
+				type: "item"
+				item: "mysticalagriculture:inferium_growth_accelerator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			dependencies: ["2D0EC1AD1BA16010"]
+			id: "45F9A530D141188D"
+			tasks: [{
+				id: "751984D0C7835274"
+				type: "item"
+				item: "mysticalagriculture:prudentium_growth_accelerator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			dependencies: ["45F9A530D141188D"]
+			id: "0E2A12C6D2A768DF"
+			tasks: [{
+				id: "4BA6256E5B39902B"
+				type: "item"
+				item: "mysticalagriculture:tertium_growth_accelerator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			dependencies: ["0E2A12C6D2A768DF"]
+			id: "689B98B2CFD727FB"
+			tasks: [{
+				id: "0CA151CB3D3D16CE"
+				type: "item"
+				item: "mysticalagriculture:imperium_growth_accelerator"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.0d
+			dependencies: ["689B98B2CFD727FB"]
+			id: "36820963D5683663"
+			tasks: [{
+				id: "49F4ACC40F350DD8"
+				type: "item"
+				item: "mysticalagriculture:supremium_growth_accelerator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["69F50E83E2444453"]
+			id: "6A051911481B49D3"
+			tasks: [{
+				id: "2987E70855E65283"
+				type: "item"
+				item: "mysticalagriculture:prudentium_farmland"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["6A051911481B49D3"]
+			id: "16EDD5DD8A499895"
+			tasks: [{
+				id: "385E4680E4FA8053"
+				type: "item"
+				item: "mysticalagriculture:tertium_farmland"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["16EDD5DD8A499895"]
+			id: "12678FBBB55A991D"
+			tasks: [{
+				id: "135447E4E2C00769"
+				type: "item"
+				item: "mysticalagriculture:imperium_farmland"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			dependencies: ["12678FBBB55A991D"]
+			id: "1FAF0C3AD4C55687"
+			tasks: [{
+				id: "1353E63EDB2318E8"
+				type: "item"
+				item: "mysticalagriculture:supremium_farmland"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["Like a normal furnace except it is more efficient and powerful!"]
+			dependencies: ["2A694E7DCB9849D2"]
+			id: "5B9E31FBFC25A58F"
+			tasks: [{
+				id: "34FBDF7C34DBD828"
+				type: "item"
+				item: "mysticalagriculture:inferium_furnace"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["5B9E31FBFC25A58F"]
+			id: "409E3873364D75A0"
+			tasks: [{
+				id: "0FC14C7AD9DAEAD5"
+				type: "item"
+				item: "mysticalagriculture:prudentium_furnace"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			dependencies: ["409E3873364D75A0"]
+			id: "36D120772911DD07"
+			tasks: [{
+				id: "5CE83BF293F2C5FE"
+				type: "item"
+				item: "mysticalagriculture:tertium_furnace"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["36D120772911DD07"]
+			id: "3A51216215FEE659"
+			tasks: [{
+				id: "5DE5A2BDFF81583C"
+				type: "item"
+				item: "mysticalagriculture:imperium_furnace"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["3A51216215FEE659"]
+			id: "648CF6AEE7AEA513"
+			tasks: [{
+				id: "7E63A884FA70E46E"
+				type: "item"
+				item: "mysticalagriculture:supremium_furnace"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.5d
+			dependencies: ["7F0DFC23DBC90EF0"]
+			id: "5C49C14903E452C0"
+			tasks: [
+				{
+					id: "639CF16ADB49570B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F6CCA824274246B"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7698C7F28DC548D5"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "602431B4C4ABC30A"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:supremium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.5d
+			dependencies: ["7F0DFC23DBC90EF0"]
+			id: "07B8AE1272278D09"
+			tasks: [
+				{
+					id: "7F349BAA4F31BC73"
+					type: "item"
+					item: "mysticalagriculture:supremium_sword"
+				}
+				{
+					id: "6BE33FC68D0F2EE1"
+					type: "item"
+					item: "mysticalagriculture:supremium_axe"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["7F0DFC23DBC90EF0"]
+			id: "15F52D0F317B924F"
+			tasks: [
+				{
+					id: "5B4FA44872566F38"
+					type: "item"
+					item: "mysticalagriculture:supremium_pickaxe"
+				}
+				{
+					id: "57FA333D164232BD"
+					type: "item"
+					item: "mysticalagriculture:supremium_shovel"
+				}
+				{
+					id: "276DE6123C8A2944"
+					type: "item"
+					item: "mysticalagriculture:supremium_hoe"
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			dependencies: ["72F518F7CA626DA5"]
+			id: "7B1D2958B1534D45"
+			tasks: [{
+				id: "3D6D35D1D34C9774"
+				type: "item"
+				item: {
+					id: "mysticalagriculture:soulium_dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			shape: "gear"
+			description: ["The tinkers table allows you to modify armor/weapon types in this mod to unlock their true potential!"]
+			dependencies: [
+				"5C49C14903E452C0"
+				"07B8AE1272278D09"
+				"15F52D0F317B924F"
+			]
+			dependency_requirement: "one_started"
+			id: "6EBA732D458B8A83"
+			tasks: [{
+				id: "194C586FE42D00C7"
+				type: "item"
+				item: "mysticalagriculture:tinkering_table"
+			}]
+			rewards: [{
+				id: "34D3DEB56013357F"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+	]
+}

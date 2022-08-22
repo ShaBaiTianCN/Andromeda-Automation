@@ -1,0 +1,16 @@
+{
+	id: "18136F889DD9311E"
+	order_index: 102
+	title: "PNC_R_Manual"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "pneumaticcraft:book"
+			}
+		}
+	}]
+}

@@ -1,0 +1,56 @@
+{
+	id: "531A931F63B29944"
+	order_index: 4
+	title: "Useful_Plants"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:oak_sapling" }
+		{ item: "minecraft:spruce_sapling" }
+		{ item: "minecraft:birch_sapling" }
+		{ item: "minecraft:jungle_sapling" }
+		{ item: "minecraft:acacia_sapling" }
+		{ item: "minecraft:dark_oak_sapling", count: 4 }
+		{ item: "integrateddynamics:menril_sapling" }
+		{ item: "tconstruct:earth_slime_sapling" }
+		{ item: "tconstruct:sky_slime_sapling" }
+		{ item: "tconstruct:ender_slime_sapling" }
+		{ item: "biomesoplenty:origin_sapling" }
+		{ item: "biomesoplenty:flowering_oak_sapling" }
+		{ item: "biomesoplenty:orange_autumn_sapling" }
+		{ item: "biomesoplenty:yellow_autumn_sapling" }
+		{ item: "biomesoplenty:maple_sapling" }
+		{ item: "biomesoplenty:fir_sapling" }
+		{ item: "biomesoplenty:redwood_sapling" }
+		{ item: "biomesoplenty:white_cherry_sapling" }
+		{ item: "biomesoplenty:pink_cherry_sapling" }
+		{ item: "biomesoplenty:mahogany_sapling" }
+		{ item: "biomesoplenty:jacaranda_sapling" }
+		{ item: "biomesoplenty:palm_sapling" }
+		{ item: "biomesoplenty:willow_sapling" }
+		{ item: "biomesoplenty:dead_sapling" }
+		{ item: "biomesoplenty:magic_sapling" }
+		{ item: "biomesoplenty:umbran_sapling" }
+		{ item: "biomesoplenty:hellbark_sapling" }
+		{ item: "minecraft:sugar_cane", count: 3 }
+		{ item: "minecraft:beetroot_seeds" }
+		{ item: "minecraft:carrot" }
+		{ item: "minecraft:potato" }
+		{ item: "biomesoplenty:brimstone_fumarole", count: 16 }
+		{ item: "biomesoplenty:glowshroom_block", count: 64 }
+		{ item: "biomesoplenty:glowing_moss_block", count: 64 }
+		{ item: "biomesoplenty:glowing_moss_carpet", count: 64 }
+		{ item: "biomesoplenty:rose_quartz_block", count: 64 }
+		{ item: "minecraft:dark_oak_sapling", count: 3 }
+		{ item: "biomesoplenty:rainbow_birch_sapling" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 1000
+			monster: 1000
+		}
+		color: 1360936
+		string_id: "useful_plants"
+	}
+}

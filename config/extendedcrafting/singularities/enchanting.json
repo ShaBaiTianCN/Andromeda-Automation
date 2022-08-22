@@ -1,0 +1,12 @@
+{
+  "name": "Enchanting",
+  "colors": [
+    "e2f205",
+    "89ff45"
+  ],
+  "ingredient": {
+    "item": "minecraft:experience_bottle"
+  },
+"inUltimateSingularity": true
+
+}

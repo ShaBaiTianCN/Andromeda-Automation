@@ -1,0 +1,315 @@
+{
+	id: "5713BF43BC312A4F"
+	group: ""
+	order_index: 0
+	filename: "starting_out"
+	title: "Starting Out"
+	icon: {
+		id: "adhooks:spear_launcher"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tinkers Construct Basic Tools"
+			x: -0.5d
+			y: 0.0d
+			description: ["This is going to allow you to make some nice early game tools to help get you started out!"]
+			id: "2F1A00BCB81B5704"
+			tasks: [
+				{
+					id: "307013E65FECE6A7"
+					type: "item"
+					item: "tconstruct:pattern"
+				}
+				{
+					id: "08E0B9CAA7AF2436"
+					type: "item"
+					title: "Tinkers Construct Crafting Station"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tables"
+						}
+					}
+				}
+				{
+					id: "4E827375C8CDEA89"
+					type: "item"
+					title: "Part Builder"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tables"
+						}
+					}
+				}
+				{
+					id: "4903E29A7FEF201B"
+					type: "item"
+					title: "Tinkers Station"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:tables"
+						}
+					}
+				}
+				{
+					id: "7E0C1FB94039CF4C"
+					type: "item"
+					item: "tconstruct:part_chest"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Assemble with the reflectors one block away and pointing at the chest! This allows you to cook anything, albeit a little slower then normal, with solar power!"]
+			id: "2952C98DE45F0278"
+			tasks: [
+				{
+					id: "44CF266EA21A11F5"
+					type: "item"
+					item: "solarcooker:solar_cooker"
+				}
+				{
+					id: "362FAF3F0C4B8267"
+					type: "item"
+					item: "solarcooker:reflector"
+					count: 4L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			description: ["Who needs the sun... this lets you use the solar cooker underground!"]
+			dependencies: ["2952C98DE45F0278"]
+			id: "014D9543C0EADB46"
+			tasks: [{
+				id: "0BE93F06107F071D"
+				type: "item"
+				item: "solarcooker:shining_diamond_block"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			description: ["This is your default day to day quest shape!"]
+			id: "050A3840AB88E8FB"
+			tasks: [{
+				id: "666AA8F51D451B39"
+				type: "checkmark"
+				title: "Quest Shapes"
+			}]
+		}
+		{
+			title: "Diamond"
+			x: 5.5d
+			y: 4.5d
+			shape: "diamond"
+			description: ["A diamond is a very important quest that heavily augments gameplay! Think of these as your goals! They also typically have an unlock for a new tree!"]
+			hide_dependency_lines: true
+			dependencies: ["43F96D8F2B97D1F1"]
+			id: "080260492CCF9579"
+			tasks: [{
+				id: "3C157482D95EEE22"
+				type: "checkmark"
+				title: "diamond"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			shape: "square"
+			description: ["A square indicates that it unlocks a quest somewere else on the board! [does not physically draw a line to it like other quests!"]
+			dependencies: ["050A3840AB88E8FB"]
+			id: "43F96D8F2B97D1F1"
+			tasks: [{
+				id: "0A5BF49ED1A59FF3"
+				type: "checkmark"
+				title: "Square"
+			}]
+		}
+		{
+			title: "Your new best friend"
+			icon: {
+				id: "tiab:time_in_a_bottle"
+				Count: 1b
+				tag: { }
+			}
+			x: 2.5d
+			y: 0.0d
+			description: ["The time in the bottle allows you to speed up the block tick rate of a block using shift right click."]
+			id: "18E8BDDBBFE7FA39"
+			tasks: [{
+				id: "56082331EF8063AC"
+				type: "checkmark"
+				title: "The first hit is free..."
+			}]
+			rewards: [{
+				id: "45E9A5E80D971001"
+				type: "item"
+				item: {
+					id: "tiab:time_in_a_bottle"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			shape: "pentagon"
+			description: ["This is the quest shape that unlocks items within the shop, where you can buy integral items multiple times!"]
+			dependencies: ["080260492CCF9579"]
+			id: "2E387D31F5AC2C82"
+			tasks: [{
+				id: "24ADCF924D55E5DF"
+				type: "checkmark"
+				title: "Shopping"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.5d
+			shape: "diamond"
+			dependencies: ["74CDAD1FFE66295B"]
+			id: "74A918610C5E05D8"
+			tasks: [{
+				id: "6F2A5E63CE36F3DB"
+				type: "checkmark"
+				title: "I am ready to start some quests!"
+			}]
+		}
+		{
+			title: "Man's best friend"
+			icon: {
+				id: "luggage:luggage"
+				Count: 1b
+				tag: { }
+			}
+			x: 1.0d
+			y: 0.0d
+			description: ["or your worst nightmare..."]
+			id: "39AD040204EBD5AA"
+			tasks: [{
+				id: "74BD26F337E8B7EE"
+				type: "checkmark"
+				title: "Man's Best Friend"
+			}]
+			rewards: [{
+				id: "792DF5A525A3430C"
+				type: "item"
+				item: {
+					id: "luggage:luggage"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			icon: {
+				id: "adhooks:spear_launcher"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.0d
+			y: 0.0d
+			description: ["Hover over and press control for more information on how to control the darn thing!"]
+			id: "19A8879981A063E0"
+			tasks: [{
+				id: "5499EC0AF7794621"
+				type: "checkmark"
+				title: "This is your key to travel!"
+			}]
+			rewards: [{
+				id: "5B760265D14BBA4E"
+				type: "item"
+				item: {
+					id: "adhooks:spear_launcher"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 6.5d
+			shape: "gear"
+			description: ["These quests usually give you science juice to unlock new trees! Though not technically required for progression, it is really important because it allows you to recieve all of the fun rewards!"]
+			dependencies: ["2E387D31F5AC2C82"]
+			id: "74CDAD1FFE66295B"
+			tasks: [{
+				id: "4789BE2BDF0AFCCA"
+				type: "checkmark"
+				title: "Science Juice"
+			}]
+			rewards: [{
+				id: "6664C9485DC8FD40"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			icon: "alexsmobs:void_worm_eye"
+			x: -3.5d
+			y: 0.0d
+			description: ["The void doesn't kill you and take your items! In this pack, you loop to the top of the world, and when you land you will take 9.5 hearts of damage!"]
+			id: "309BCF88E9897C4E"
+			tasks: [{
+				id: "040F8E1288039E55"
+				type: "checkmark"
+				title: "The Void"
+			}]
+		}
+		{
+			icon: "minecolonies:blockminecoloniesgrave"
+			x: -5.0d
+			y: 0.0d
+			description: ["When you die, you leave a grave where you have perished! Mine it and it will automatically try and put items where they were in your inventory [except for curios, those will be left in your inventory]"]
+			id: "155B2E4B072DD8D4"
+			tasks: [{
+				id: "2EB1AF65A7D9A31B"
+				type: "checkmark"
+				title: "Death"
+			}]
+		}
+		{
+			title: "Slabbed"
+			x: -6.5d
+			y: 0.0d
+			description: ["Your basic minecraft machines can be slabbed to improve space!"]
+			id: "27681B4AFB69859B"
+			tasks: [
+				{
+					id: "5611F9F32EC6E55C"
+					type: "item"
+					item: "slabmachines:chest_slab"
+				}
+				{
+					id: "71D2CAFD3B345502"
+					type: "item"
+					item: "slabmachines:furnace_slab"
+				}
+				{
+					id: "24DA4FE2692312B9"
+					type: "item"
+					item: "slabmachines:crafting_table_slab"
+				}
+			]
+		}
+	]
+}

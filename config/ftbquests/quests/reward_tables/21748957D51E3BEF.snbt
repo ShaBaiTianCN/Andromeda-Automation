@@ -1,0 +1,31 @@
+{
+	id: "21748957D51E3BEF"
+	order_index: 100
+	title: "Coins"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "andromedacrafts:netherite_coin" }
+		{ item: "andromedacrafts:diamond_coin", count: 5 }
+		{ item: "andromedacrafts:gold_coin", count: 5 }
+		{ item: "andromedacrafts:iron_coin", count: 5 }
+		{ item: "andromedacrafts:copper_coin", count: 10 }
+		{ item: "andromedacrafts:diamond_coin", count: 3 }
+		{ item: "andromedacrafts:gold_coin", count: 3 }
+		{ item: "andromedacrafts:iron_coin", count: 3 }
+		{ item: "andromedacrafts:copper_coin", count: 5 }
+		{ item: "andromedacrafts:diamond_coin" }
+		{ item: "andromedacrafts:gold_coin" }
+		{ item: "andromedacrafts:iron_coin" }
+		{ item: "andromedacrafts:copper_coin" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 50
+			monster: 50
+		}
+		color: 10590237
+		string_id: "coins"
+	}
+}

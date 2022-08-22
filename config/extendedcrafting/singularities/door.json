@@ -1,0 +1,12 @@
+{
+  "name": "Door",
+  "colors": [
+    "8a603b",
+    "ad815a"
+  ],
+  "ingredient": {
+    "item": "minecraft:oak_door"
+  },
+"inUltimateSingularity": false
+
+}

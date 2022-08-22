@@ -1,0 +1,8 @@
+{
+	id: "110A3C14D4E5624E"
+	order_index: 87
+	title: "dfight"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "botania:record_gaia_2" }]
+}

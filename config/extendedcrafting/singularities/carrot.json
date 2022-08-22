@@ -1,0 +1,12 @@
+{
+  "name": "Carrot",
+  "colors": [
+    "e88413",
+    "0ba10b"
+  ],
+  "ingredient": {
+    "item": "minecraft:carrot"
+  },
+"inUltimateSingularity": false
+
+}

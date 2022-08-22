@@ -1,0 +1,8 @@
+{
+	id: "62C624F6E6C0A1E7"
+	order_index: 67
+	title: "UncommonShaders"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "immersiveengineering:shader_bag_uncommon" }]
+}

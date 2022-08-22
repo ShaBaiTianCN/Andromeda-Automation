@@ -1,0 +1,16 @@
+{
+	id: "1D3950BBC5B0687A"
+	order_index: 106
+	title: "Modular_Routers_Manual"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "modularrouters:book"
+			}
+		}
+	}]
+}

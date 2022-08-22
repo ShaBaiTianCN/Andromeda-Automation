@@ -1,0 +1,16 @@
+{
+	id: "7F370DAEA694E238"
+	order_index: 54
+	title: "WhiteChocolate"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "create_confectionery:full_white_chocolate_bar"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Gravel",
+  "colors": [
+    "d6d6d4",
+    "ababab"
+  ],
+  "ingredient": {
+    "item": "minecraft:gravel"
+  },
+"inUltimateSingularity": false
+
+}

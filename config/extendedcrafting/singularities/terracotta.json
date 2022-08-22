@@ -1,0 +1,12 @@
+{
+  "name": "Terracotta",
+  "colors": [
+    "8a4f46",
+    "8a4f46"
+  ],
+  "ingredient": {
+    "item": "minecraft:terracotta"
+  },
+"inUltimateSingularity": false
+
+}

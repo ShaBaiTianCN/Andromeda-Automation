@@ -1,0 +1,667 @@
+{
+	id: "0BF6B4A68FCEF2CF"
+	group: "1D115F3DF1092C06"
+	order_index: 2
+	filename: "tinkers_construct"
+	title: "Tinker's Construct"
+	icon: {
+		id: "tconstruct:sledge_hammer"
+		Count: 1b
+		tag: {
+			tic_multipliers: {
+				"tconstruct:mining_speed": 0.4f
+				"tconstruct:attack_damage": 1.35f
+				"tconstruct:durability": 4.0f
+			}
+			tic_stats: {
+				"tconstruct:attack_speed": 0.75f
+				"tconstruct:mining_speed": 2.0400002f
+				"tconstruct:attack_damage": 8.1675005f
+				"tconstruct:harvest_tier": "minecraft:diamond"
+				"tconstruct:durability": 2552.0f
+			}
+			tic_broken: 0b
+			HideFlags: 3
+			tic_modifiers: [
+				{
+					name: "tconstruct:smite"
+					level: 2s
+				}
+				{
+					name: "tconstruct:tasty"
+					level: 4s
+				}
+			]
+			tic_materials: [
+				"tconstruct:pig_iron"
+				"tconstruct:pig_iron"
+				"tconstruct:pig_iron"
+				"tconstruct:pig_iron"
+			]
+			Damage: 0
+			tic_persistent_data: {
+				abilities: 1
+				upgrades: 2
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Tinkering Progression!"
+			icon: {
+				id: "tconstruct:sledge_hammer"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:mining_speed": 0.4f
+						"tconstruct:attack_damage": 1.35f
+						"tconstruct:durability": 4.0f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 0.75f
+						"tconstruct:mining_speed": 2.0400002f
+						"tconstruct:attack_damage": 8.1675005f
+						"tconstruct:harvest_tier": "minecraft:diamond"
+						"tconstruct:durability": 2552.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [
+						{
+							name: "tconstruct:smite"
+							level: 2s
+						}
+						{
+							name: "tconstruct:tasty"
+							level: 4s
+						}
+					]
+					tic_materials: [
+						"tconstruct:pig_iron"
+						"tconstruct:pig_iron"
+						"tconstruct:pig_iron"
+						"tconstruct:pig_iron"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+			x: 0.0d
+			y: 2.5d
+			description: ["For this mod, reading is incredibly important because it let's you chose the best materials to build your tools out of! This is a highly customizable mod and this quest series is designed to gently guide your progression, but tool making is up to you!"]
+			dependencies: ["41C54E45615E2BCA"]
+			hide: true
+			id: "57AFD234B2EC10BA"
+			tasks: [{
+				id: "32D1AB6162BBA8DC"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "047CE26E99B678BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			title: "Slingshot Transport!"
+			x: 3.0d
+			y: 7.0d
+			description: ["Can launch you long distances! Beware of the fall damage without the boots though!"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "5A6908CBDBB4E4BF"
+			tasks: [
+				{
+					id: "44F2F9EE014FD537"
+					type: "item"
+					title: "Any #tconstruct:slimeslings"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:slimeslings"
+						}
+					}
+				}
+				{
+					id: "3DD9C3DEA7FFD41D"
+					type: "item"
+					item: {
+						id: "tconstruct:slime_boots"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:durability": 546.0f
+								"tconstruct:armor": 0.0f
+							}
+							tic_broken: 0b
+							HideFlags: 3
+							tic_modifiers: [
+								{
+									name: "tconstruct:bouncy"
+									level: 1s
+								}
+								{
+									name: "tconstruct:leaping"
+									level: 1s
+								}
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 5
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "3F478B23C9688464"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Place the melter on the heater for the tiniest smeltery on the face of the planet! Use a redstone signal on the faucet to automate the extraction of liquids!"]
+			dependencies: ["39765A4278EE2D0E"]
+			id: "7FCE90711D0201B0"
+			tasks: [
+				{
+					id: "713A9686D34080C0"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "16492A10936830A4"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "7D3D2A5A422051C0"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+				{
+					id: "536B5040E0B19C1B"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "6CADC188D05F88AE"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+			]
+			rewards: [{
+				id: "55E512F62F4CF79E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["57AFD234B2EC10BA"]
+			id: "39765A4278EE2D0E"
+			tasks: [{
+				id: "6F7EE8086E1FF820"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4710984C12D7252D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			title: "Temporary casts!"
+			x: -4.0d
+			y: 7.0d
+			dependencies: ["7FCE90711D0201B0"]
+			optional: true
+			id: "7736253CB9226926"
+			tasks: [{
+				id: "698763B884619DAD"
+				type: "item"
+				item: "tconstruct:blank_sand_cast"
+				count: 4L
+			}]
+			rewards: [{
+				id: "756C05DEBA0F6173"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			title: "Permanent Casts!"
+			x: -3.0d
+			y: 7.0d
+			dependencies: ["7FCE90711D0201B0"]
+			id: "3B6B6FD55C341ACD"
+			tasks: [{
+				id: "79686960EE6F7B57"
+				type: "item"
+				title: "Any #tconstruct:casts/gold"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "tconstruct:casts/gold"
+					}
+				}
+			}]
+			rewards: [{
+				id: "78A93F42A933830B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tinker's Anvil!"
+			icon: {
+				id: "tconstruct:tinkers_anvil"
+				Count: 1b
+				tag: {
+					texture: "immersiveengineering:storage_steel"
+				}
+			}
+			x: -2.0d
+			y: 7.0d
+			description: ["The Tinker's Anvil is an upgraded version of the tinker's station!"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "522373E5FE6AEF36"
+			tasks: [{
+				id: "05F153F372AB58DC"
+				type: "checkmark"
+				title: "Anvil!"
+			}]
+			rewards: [{
+				id: "2518D89BA293EF59"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			title: "The Basic Smeltery!"
+			x: 0.0d
+			y: 7.0d
+			shape: "pentagon"
+			description: ["Controller lets you insert items for melting, and the tank requires fuel for the smeltery! [in most cases just lava is great! The smeltery controller when placed can help you figure out what is wrong by hilighting bad blocks in red!]"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "2BF76A6DF8AB98A1"
+			tasks: [
+				{
+					id: "3BE389ECD4D9BFEB"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "5413437B36C48F91"
+					type: "item"
+					title: "Any #tconstruct:seared_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:seared_blocks"
+						}
+					}
+					count: 31L
+				}
+				{
+					id: "0514F64CBE287159"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [{
+				id: "577869B84BB4FEC7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 7.0d
+			description: ["Takes out any fluid with the piping of your choice!"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "1E7BB1DD8EE0A375"
+			tasks: [{
+				id: "0147107CB842822C"
+				type: "item"
+				item: "tconstruct:seared_drain"
+			}]
+			rewards: [{
+				id: "7A46A850A101E06D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			description: ["Filtered interface with the smeltery! Chose the fluid by inserting a copper bucket filled with the required fluid!"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "68B34D7AA3781514"
+			tasks: [{
+				id: "70DD9FCCC3EB2F31"
+				type: "item"
+				item: "tconstruct:seared_duct"
+			}]
+			rewards: [{
+				id: "1B1087848C8E06F2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["2BF76A6DF8AB98A1"]
+			id: "26F8FEFAA025DA27"
+			tasks: [{
+				id: "76B17F0DC885E660"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 32L
+			}]
+			rewards: [{
+				id: "6CA2154FBB0C2FA5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dye"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["Another interface that behaves like the controller! Lets you manage items within the smeltery!"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "4EDB09D1DB506F74"
+			tasks: [{
+				id: "20C3349608989140"
+				type: "item"
+				item: "tconstruct:seared_chute"
+			}]
+			rewards: [
+				{
+					id: "3830007AB738D389"
+					type: "random"
+				}
+				{
+					id: "49A2BD68CF04CBDD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_machines"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.0d
+			description: ["When building a tool the ingredients you chose effect the final tools statistics including modifiers! Modifiers allow you to change an element of the tool such as allowing it to have silk touch or mine faster for an example!"]
+			dependencies: ["57AFD234B2EC10BA"]
+			id: "35729A5666AD8DCE"
+			tasks: [{
+				id: "02B3883709CFC92A"
+				type: "checkmark"
+				title: "Modifiers!"
+			}]
+			rewards: [{
+				id: "092CB7482DDC9090"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tool Components!"
+			x: -1.0d
+			y: 4.0d
+			description: ["Different tool components effect the final tool! Like what it takes to repair, it's statistics, or what mining level it has!"]
+			dependencies: ["57AFD234B2EC10BA"]
+			id: "694F22DC6B838F44"
+			tasks: [{
+				id: "3F70248EBF69BB2E"
+				type: "checkmark"
+				title: "Tool Componants!"
+			}]
+			rewards: [{
+				id: "41577EA342A31856"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			shape: "gear"
+			dependencies: ["26F8FEFAA025DA27"]
+			id: "6DCC6E2EB18C9A36"
+			tasks: [
+				{
+					id: "2DFF48BEA2A685C1"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+				{
+					id: "45239462F83B904C"
+					type: "item"
+					title: "Any #tconstruct:scorched_blocks"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "tconstruct:scorched_blocks"
+						}
+					}
+					count: 31L
+				}
+				{
+					id: "57A7DF7109A823D8"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "411B1748E82E3D31"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+				{
+					id: "53B81CE14A3FB567"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 10.5d
+			description: ["Takes out any fluid with the piping of your choice!"]
+			dependencies: ["26F8FEFAA025DA27"]
+			id: "3467787AA816E149"
+			tasks: [{
+				id: "4F4F016CA27E9E65"
+				type: "item"
+				item: "tconstruct:scorched_drain"
+			}]
+			rewards: [{
+				id: "04251AF7F2A1D9DE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 10.5d
+			subtitle: "Filtered interface with the smeltery! Chose the fluid by inserting a copper bucket filled with the required fluid!"
+			dependencies: ["26F8FEFAA025DA27"]
+			id: "0AE9DDBED1D1F421"
+			tasks: [{
+				id: "3D1860A51328B1E7"
+				type: "item"
+				item: "tconstruct:scorched_duct"
+			}]
+			rewards: [{
+				id: "4C189047EA98E07D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 10.5d
+			dependencies: ["26F8FEFAA025DA27"]
+			id: "018DA1312E8AE955"
+			tasks: [{
+				id: "1A15D85C727BBEA1"
+				type: "item"
+				item: "tconstruct:scorched_chute"
+			}]
+			rewards: [{
+				id: "2012843DD2A7916B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			description: ["This fancy gizmo allows you to take one input and distribute it over multiple outputs! Or vice versa!"]
+			dependencies: ["7FCE90711D0201B0"]
+			id: "7CD0378FA0E62D83"
+			tasks: [{
+				id: "157008A0E8420D73"
+				type: "item"
+				item: "tconstruct:seared_channel"
+			}]
+			rewards: [{
+				id: "5D792AE45E97ED70"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+	]
+}

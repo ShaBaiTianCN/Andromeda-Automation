@@ -1,0 +1,114 @@
+{
+	id: "6C67F8B342D5A60E"
+	group: "1D115F3DF1092C06"
+	order_index: 6
+	filename: "trash_cans"
+	title: "Trash Cans"
+	icon: "trashcans:ultimate_trash_can"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: -2.5d
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "4C78C2E8769E8440"
+			tasks: [{
+				id: "5D8A81B001865C96"
+				type: "item"
+				item: "trashcans:item_trash_can"
+			}]
+			rewards: [{
+				id: "4E9AA9183CA77978"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "676A355C4DB211A9"
+			tasks: [{
+				id: "5D8ED8F51863F0C1"
+				type: "item"
+				item: "trashcans:liquid_trash_can"
+			}]
+			rewards: [{
+				id: "7B6FE716D66747C7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "074FF4BE41F8FB78"
+			tasks: [{
+				id: "3AEACCFE53F97D4F"
+				type: "item"
+				item: "trashcans:energy_trash_can"
+			}]
+			rewards: [{
+				id: "4B990FB7884AD923"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			dependencies: [
+				"074FF4BE41F8FB78"
+				"4C78C2E8769E8440"
+				"676A355C4DB211A9"
+			]
+			id: "570F70C9EC8B2124"
+			tasks: [{
+				id: "264BE1B169240647"
+				type: "item"
+				item: "trashcans:ultimate_trash_can"
+			}]
+			rewards: [
+				{
+					id: "2C6425BCF7FA7BBB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_junk"
+						}
+					}
+				}
+				{
+					id: "6C0323EC32098C9A"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+	]
+}

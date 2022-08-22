@@ -1,0 +1,12 @@
+{
+  "name": "Shroomlight",
+  "colors": [
+    "e6c35a",
+    "f79245"
+  ],
+  "ingredient": {
+    "item": "minecraft:shroomlight"
+  },
+"inUltimateSingularity": false
+
+}

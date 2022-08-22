@@ -1,0 +1,948 @@
+{
+	id: "0503E25836172449"
+	group: "060FC1801833F14E"
+	order_index: 2
+	filename: "compressed_time"
+	title: "Compressed Time!"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -0.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "77E0761693BD1271"
+			tasks: [{
+				id: "30D7D2FC53FF0734"
+				type: "item"
+				item: "compressium:cobblestone_8"
+			}]
+			rewards: [
+				{
+					id: "33273C954ACC5920"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "1F4AEA8ACDD28189"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "0150AE6299506A75"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "0609D7330DD84C6E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "4BF2BF6A7B277E0F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "25DE065B8D39D758"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "6E6D8FB8E7029008"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "2C6FD0195462F9BA"
+			tasks: [{
+				id: "643D737FD57B6FB4"
+				type: "item"
+				item: "compressium:stone_8"
+			}]
+			rewards: [
+				{
+					id: "356EC586DCBC518A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "71950801B53E4E31"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "3E3CFF73DAC1BA92"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "4E74A28C9924601D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "5066FDAA2575E6CD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "02A2D1312118D12C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "5891486AE02DBF4C"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "280A53468405C6A5"
+			tasks: [{
+				id: "4398FDA67D51A06E"
+				type: "item"
+				item: "compressium:sand_8"
+			}]
+			rewards: [
+				{
+					id: "4349685AC8BCD3B5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "0FE47820A66B6D6A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "4CDA5AD52DD3DE66"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "4C365D6689E0B8B1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "02EE04F404B208F0"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "72A1DEFEB7F6EBF9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "28C2501F95CF9005"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "43E80766A8BCD4BF"
+			tasks: [{
+				id: "426716B5B1BB8F38"
+				type: "item"
+				item: "compressium:gravel_8"
+			}]
+			rewards: [
+				{
+					id: "795EBD4833D66436"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "38D8A3BCF5E4EF00"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "7C28FE4A83FD9EF9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "76EA918C7893B83C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "57965210497FCD08"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "0AD295AA11866AA7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "04AE06124E05B039"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "478DFAAA2B74E241"
+			tasks: [{
+				id: "779717A86CACA145"
+				type: "item"
+				item: "compressium:netherrack_8"
+			}]
+			rewards: [
+				{
+					id: "00F9B8D3AA95A215"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "31BBEB450AAE96FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "1D0F0230D05F8DF2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "07F920ACB4E776F8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "1F3079015A224C5C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "6DFE558C2A516A36"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "48A2814ED286393B"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "341CF8A1936921F2"
+			tasks: [{
+				id: "7B8EA2715512F0AD"
+				type: "item"
+				item: "compressium:snow_8"
+			}]
+			rewards: [
+				{
+					id: "3C84A6FB084E68B3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "0CE908994B63A51F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "2121729E22504EE7"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "7D2660445F22CFC2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "3D2A8CF1D433A125"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "0B7C8FD8F0BDA2CC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "3C5BE67240A11948"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "417C69744BBDB392"
+			tasks: [{
+				id: "0E41327B11DC945B"
+				type: "item"
+				item: "compressium:soulsand_8"
+			}]
+			rewards: [
+				{
+					id: "1313C05479E7626D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "5389D900D105A781"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "517F498A255793CE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "610397FA78FD8E6E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "283909186F019473"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "2C71611457246054"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "37D13D927D72F8B1"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "6C33EB276C9E6AD2"
+			tasks: [{
+				id: "229DFC637C13CD11"
+				type: "item"
+				item: "compressium:emerald_8"
+			}]
+			rewards: [
+				{
+					id: "399016503BD42AAD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "7ED4268F1524EA3F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "5F94ABC0054FBBEB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "46582021345B3BAA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "20886E90A5E79BEB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "080EA645E0E4CB53"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "51C8E2937D591ED1"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "20D17D6374663415"
+			tasks: [{
+				id: "49D19BB95A09EB93"
+				type: "item"
+				item: "compressium:netherite_5"
+			}]
+			rewards: [
+				{
+					id: "5CC967B0DD500430"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "41362D02A624080B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "4DFA4DCF53FA8163"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "1E2AFD93DC1308D4"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "2E7F891461C3E3C8"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "7EA22592814FF16E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "0B87271951791404"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "13AF968303F9E282"
+			tasks: [{
+				id: "384E6D67C5F3F7CF"
+				type: "item"
+				item: "compressium:dirt_8"
+			}]
+			rewards: [
+				{
+					id: "6FE734D2EA767C31"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "1BB0F43905DC7E30"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "2F99450AD1FFED78"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "30B8BFAE3B0BAC40"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "69E51E47A1B05E5B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "29968BD457514D4A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "44DF071C9CDACCAC"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			dependencies: ["19EC849C57CD4026"]
+			id: "417B6B8E8BA81A77"
+			tasks: [{
+				id: "0EF81AB892E134B5"
+				type: "item"
+				item: "compressium:obsidian_8"
+			}]
+			rewards: [
+				{
+					id: "7DCA558407AE589A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "11F8B05A1D3C4530"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "435C7655566918BF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "2D44A1D7DE48768C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "5F904FA7DA86520E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "kitchen"
+						}
+					}
+				}
+				{
+					id: "05528178AA7C6FA2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "armor_tools"
+						}
+					}
+				}
+				{
+					id: "06291BAFF1384667"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			description: ["Compressed items are really annoying to get! Have determination and time to get these!"]
+			dependencies: ["1FD033E62DDAB4B5"]
+			hide: true
+			id: "19EC849C57CD4026"
+			tasks: [{
+				id: "02DE83D7757014E3"
+				type: "checkmark"
+				title: "A Long Process"
+			}]
+		}
+	]
+}

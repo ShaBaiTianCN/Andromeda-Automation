@@ -1,0 +1,161 @@
+{
+	id: "0EF20780C66B5E5E"
+	group: "31EE4422B6F1456C"
+	order_index: 3
+	filename: "teseract"
+	title: "Wireless Energy"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Powerful Upgrade"
+			x: 0.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["This allows you to transport infinite power, fluid, and items across dimensions at a massive rate!"]
+			dependencies: ["75886C0C52F36EB3"]
+			hide: true
+			id: "4919B653151C9C18"
+			tasks: [{
+				id: "09F8369AE5E4AF45"
+				type: "item"
+				item: "tesseract:tesseract"
+			}]
+			rewards: [
+				{
+					id: "1A1C65B1E44E68FA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "artifacts"
+						}
+					}
+				}
+				{
+					id: "77BFAA4F7AF3D9C6"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["In order to make this, you need bedrock/fluix block, a block of air with a redstone dust item dropped there, and then a block of obsidian. Then you left click the obsidian. You should hear an explosion and recieve flux dust!"]
+			id: "4993550F01FB2511"
+			tasks: [{
+				id: "7BD78F361008D942"
+				type: "item"
+				item: "fluxnetworks:flux_dust"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["04EF5F4E5B9F16E0"]
+			id: "081B76E6CFD4FCD0"
+			tasks: [{
+				id: "5A92298C9A2ADF95"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 3.0d
+			description: ["This functions as the heart of your network. No need to connect to anything, and it stores all of your data!"]
+			dependencies: ["081B76E6CFD4FCD0"]
+			id: "18C8EC5F2DB2B407"
+			tasks: [{
+				id: "5398FBE722E90C2E"
+				type: "item"
+				item: "fluxnetworks:flux_controller"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["Adds energy to your network. Be sure to add it to your network! It does not function without being connected to a network!"]
+			dependencies: ["18C8EC5F2DB2B407"]
+			id: "759906E93B3D3C31"
+			tasks: [{
+				id: "384C6402A7FFE848"
+				type: "item"
+				item: "fluxnetworks:flux_plug"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.5d
+			description: ["Takes energy to your network. Be sure to add it to your network! It does not function without being connected to a network!"]
+			dependencies: ["18C8EC5F2DB2B407"]
+			id: "2219B3A5045C569E"
+			tasks: [{
+				id: "5A14B32080623E5B"
+				type: "item"
+				item: "fluxnetworks:flux_point"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			description: ["Allows you to store energy for your network, without need for importers or exporters on all of your batteries!"]
+			dependencies: ["18C8EC5F2DB2B407"]
+			id: "5E3E6EFE06EA7105"
+			tasks: [{
+				id: "205E19976B8A65B2"
+				type: "item"
+				item: "fluxnetworks:basic_flux_storage"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["4993550F01FB2511"]
+			id: "04EF5F4E5B9F16E0"
+			tasks: [{
+				id: "1F1632110B4D952A"
+				type: "item"
+				item: "fluxnetworks:flux_core"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			description: ["Allows you to store energy for your network, without need for importers or exporters on all of your batteries!"]
+			dependencies: ["5E3E6EFE06EA7105"]
+			id: "025A68D0549541BC"
+			tasks: [{
+				id: "1E31C1B32B3D40F3"
+				type: "item"
+				item: "fluxnetworks:herculean_flux_storage"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.5d
+			description: ["Allows you to store energy for your network, without need for importers or exporters on all of your batteries!"]
+			dependencies: ["025A68D0549541BC"]
+			id: "46FBCFA424145381"
+			tasks: [{
+				id: "257F9FDC7A1A1483"
+				type: "item"
+				item: "fluxnetworks:gargantuan_flux_storage"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			description: ["This allows you to remotely manage your network without need to access the controller"]
+			dependencies: ["18C8EC5F2DB2B407"]
+			id: "01BEA2A58E4EF1F1"
+			tasks: [{
+				id: "751899286FA4CC48"
+				type: "item"
+				item: "fluxnetworks:flux_configurator"
+			}]
+		}
+	]
+}

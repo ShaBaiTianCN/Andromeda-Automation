@@ -1,0 +1,7 @@
+{
+	id: "040AE882E309688C"
+	order_index: 124
+	title: "ultimate control circuit"
+	loot_size: 1
+	rewards: [{ item: "mekanism:ultimate_control_circuit", count: 16 }]
+}

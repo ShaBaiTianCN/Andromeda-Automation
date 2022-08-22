@@ -1,0 +1,352 @@
+{
+	id: "3404CC7A2BDA0E05"
+	group: "47CF1A3B0D7BE39F"
+	order_index: 1
+	filename: "construction_wand"
+	title: "Construction"
+	icon: {
+		id: "constructionwand:infinity_wand"
+		Count: 1b
+		tag: {
+			wand_options: { }
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			description: ["Construction wands is the key to building massive buildings without spending your entire life building it! If you right click on a block it will try and place that block in the same direction on all similar blocks! [for example if you have a line of cobble and you right click it would place another line of cobble in your direction!]"]
+			dependencies: ["47C3871D5F7C50D1"]
+			hide: true
+			id: "4F515F01476CFEF3"
+			tasks: [{
+				id: "2183EB212FBF1D15"
+				type: "item"
+				item: {
+					id: "constructionwand:stone_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "72480823E1EBE0C2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["4F515F01476CFEF3"]
+			id: "4BBDE900FF15225D"
+			tasks: [{
+				id: "534210F291F52DB0"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "62F2360E7804686E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["4BBDE900FF15225D"]
+			id: "4464E312DD0907F4"
+			tasks: [{
+				id: "433F1C4E79EFEA2B"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2CDAB06251A4E8C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["4464E312DD0907F4"]
+			id: "32912EFCD5041EA3"
+			tasks: [{
+				id: "7DE95AB1558D754F"
+				type: "item"
+				item: {
+					id: "constructionwand:infinity_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "785560D67ADFD89C"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: ["Combine with your wand in a crafting grid and shift + left click to switch modes! "]
+			dependencies: ["4F515F01476CFEF3"]
+			id: "602495A912C0B06B"
+			tasks: [{
+				id: "42C8E85C06515E51"
+				type: "item"
+				item: "constructionwand:core_angel"
+			}]
+			rewards: [{
+				id: "1E5AAEAD3317123A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.5d
+			description: ["This is a tool of mass destruction! Beware! Combine with your wand in a crafting grid and shift + left click to switch modes! "]
+			dependencies: ["4F515F01476CFEF3"]
+			id: "30BB2A1C2021DF24"
+			tasks: [{
+				id: "26F7C2CE75B3ECBA"
+				type: "item"
+				item: "constructionwand:core_destruction"
+			}]
+			rewards: [{
+				id: "2A79EECADB1CAAB4"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			description: ["This allows you to build and add new structures to your world! They behave as prebuilt pieces of structures you can asseble yourself. Think legos but you get to chose the block types! There is a hotkey to change modes!"]
+			dependencies: ["47C3871D5F7C50D1"]
+			hide: true
+			id: "5EBA804841E83006"
+			tasks: [{
+				id: "1A29672F8C772740"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_building"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			description: ["This allows you to exchange exisiting blocks within the world! There is a hotkey to change modes!"]
+			dependencies: ["47C3871D5F7C50D1"]
+			hide: true
+			id: "310F131B45D21965"
+			tasks: [{
+				id: "1D3BD46ACDA517D1"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_exchanging"
+					Count: 1b
+					tag: {
+						state: {
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+							data: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.0d
+			description: ["This allows you to copy and paste structures that already exist within the world. Right click to store the first position, shift right click to store the second position. There is a hotkey to change modes!"]
+			dependencies: ["47C3871D5F7C50D1"]
+			hide: true
+			id: "32641FF9E6445705"
+			tasks: [{
+				id: "5CE7202A78BC3F46"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_copy_paste"
+					Count: 1b
+					tag: {
+						mode: 0b
+						template_id: [I;
+							-772804237
+							-1136704933
+							-1461887211
+							190749704
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			description: ["This allows you to clear large areas! Be aware though, it voids the blocks!"]
+			dependencies: ["47C3871D5F7C50D1"]
+			hide: true
+			id: "7E338A029FF53DD3"
+			tasks: [{
+				id: "17AC92AB562E9F05"
+				type: "item"
+				item: {
+					id: "buildinggadgets:gadget_destruction"
+					Count: 1b
+					tag: {
+						overlay: 1b
+						fuzzy: 1b
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: ["Construction paste is an incredible tool. It allows you to basically copy the texture of existing blocks within the world. You can finally make your diamond block house! Though you may not be as rich as you let on."]
+			dependencies: [
+				"5EBA804841E83006"
+				"310F131B45D21965"
+				"32641FF9E6445705"
+			]
+			id: "43691BC0133E9C4E"
+			tasks: [{
+				id: "590E4A8DAAA61965"
+				type: "item"
+				item: "buildinggadgets:construction_paste"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			description: ["This allows you to store construction paste! Right click the past to store it within the container. Picking it up will automatically go within your inventory. "]
+			dependencies: ["43691BC0133E9C4E"]
+			id: "4383ED91B922CFDD"
+			tasks: [{
+				id: "4C255FD73EAD35BA"
+				type: "item"
+				item: "buildinggadgets:construction_paste_container_t1"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["This allows you to store construction paste! Right click the past to store it within the container. Picking it up will automatically go within your inventory. "]
+			dependencies: ["4383ED91B922CFDD"]
+			id: "3CF5455F46965A80"
+			tasks: [{
+				id: "38C88C8DE020D3E7"
+				type: "item"
+				item: "buildinggadgets:construction_paste_container_t2"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			description: ["This allows you to store construction paste! Right click the past to store it within the container. Picking it up will automatically go within your inventory. "]
+			dependencies: ["3CF5455F46965A80"]
+			id: "6BCE32C6E7752740"
+			tasks: [{
+				id: "50CA9CD21FF62FAB"
+				type: "item"
+				item: "buildinggadgets:construction_paste_container_t3"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			description: ["This allows you to view your structure in a UI, Put a piece of paper in the right to save it and create a template"]
+			dependencies: ["32641FF9E6445705"]
+			id: "2E6389AD67224A87"
+			tasks: [{
+				id: "0DA80324D57B61D4"
+				type: "item"
+				item: "buildinggadgets:template_manager"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			description: ["Made by putting a piece of paper in the right hand side of the template manager!"]
+			dependencies: ["2E6389AD67224A87"]
+			id: "0E4C6FFEE33A20A6"
+			tasks: [{
+				id: "06D255C978E05396"
+				type: "item"
+				item: {
+					id: "buildinggadgets:template"
+					Count: 1b
+					tag: {
+						template_id: [I;
+							151221435
+							900613264
+							-2115374644
+							1426910226
+						]
+					}
+				}
+			}]
+		}
+	]
+}

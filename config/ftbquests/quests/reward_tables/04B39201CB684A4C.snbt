@@ -1,0 +1,16 @@
+{
+	id: "04B39201CB684A4C"
+	order_index: 42
+	title: "Hook"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "adhooks:spear_launcher"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

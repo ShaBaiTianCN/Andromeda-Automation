@@ -1,0 +1,1125 @@
+{
+	id: "411D7D27002FA76D"
+	group: "75940C6E9EF33EDC"
+	order_index: 4
+	filename: "modular_routers"
+	title: "Modular Routers"
+	icon: "modularrouters:modular_router"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -5.5d
+			y: -1.0d
+			description: ["This is the base crafting ingredient for almost everything in this mod! For any gravestone shaped cards you can right click and access a gui that lets you install augments and show further changes you can make to the functionality of the module!"]
+			dependencies: ["530B33AD4A33F8F8"]
+			hide: true
+			id: "1F0D26B09C0CC2AB"
+			tasks: [{
+				id: "0384FED4F79953B2"
+				type: "item"
+				item: "modularrouters:blank_module"
+			}]
+			rewards: [{
+				id: "2CC67779DE3978FD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["This is the block you install upgrades and modules on!"]
+			dependencies: ["1F0D26B09C0CC2AB"]
+			id: "49612A0B7B895154"
+			tasks: [{
+				id: "55A737E117C94051"
+				type: "item"
+				item: "modularrouters:modular_router"
+			}]
+			rewards: [{
+				id: "57E6828C696A8420"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			description: ["Breaks blocks in the selected direction!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "7AADE9D994480D98"
+			tasks: [{
+				id: "055E87F8790CCF27"
+				type: "item"
+				item: {
+					id: "modularrouters:breaker_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2B8B12B6BA437D70"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.5d
+			description: ["Places Blocks in the selected direction!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "067462FA0239C969"
+			tasks: [{
+				id: "0255016227A3ABE8"
+				type: "item"
+				item: {
+					id: "modularrouters:placer_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "5F27AD7EE079619A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["49612A0B7B895154"]
+			id: "31A0C01275679FCF"
+			tasks: [{
+				id: "58181984B2998E08"
+				type: "item"
+				item: "modularrouters:blank_upgrade"
+			}]
+			rewards: [
+				{
+					id: "639C47505261E52E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_pipes"
+						}
+					}
+				}
+				{
+					id: "725CC529B6A36892"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			shape: "circle"
+			description: ["Augments can change the functionality of existing blocks! "]
+			dependencies: ["1F0D26B09C0CC2AB"]
+			id: "612DDB7FC2F01300"
+			tasks: [{
+				id: "6F8D7892F1B8E191"
+				type: "item"
+				item: "modularrouters:augment_core"
+			}]
+			rewards: [{
+				id: "3E42D1CB1511F2AB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["49612A0B7B895154"]
+			id: "7A911582205E28BC"
+			tasks: [{
+				id: "6B2323A42B046517"
+				type: "item"
+				item: {
+					id: "modularrouters:detector_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							StrongSignal: 0b
+							SignalLevel: 15
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6AEC902C375ABF17"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			description: ["Dropper functionality!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "408762E39318D8C4"
+			tasks: [{
+				id: "265A874FB95819FD"
+				type: "item"
+				item: {
+					id: "modularrouters:dropper_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "34513D2FC3746311"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 2.5d
+			description: ["Basically acts like a drawbridge, it can place up to five blocks away and destroy up to five blocks away, however it only seems to be able to destroy blocks it places by default!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "79B415FEFB1FD8F5"
+			tasks: [{
+				id: "3D1B817863C91C48"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5DBC591CB3CC4084"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_junk"
+						}
+					}
+				}
+				{
+					id: "162A2D17313468F6"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "coins"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 2.5d
+			description: ["For all of your personal item cannon needs!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "49AC3ADAB2BA31B0"
+			tasks: [{
+				id: "0D0EBA93180AAD43"
+				type: "item"
+				item: {
+					id: "modularrouters:flinger_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							Pitch: 0.0f
+							Speed: 0.0f
+							ModuleFilter: { }
+							Direction: "NONE"
+							Yaw: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "67298C39EC0DE2F2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.5d
+			description: ["This allows you to interact with a player's inventory."]
+			dependencies: ["49612A0B7B895154"]
+			id: "227E694E874D1991"
+			tasks: [{
+				id: "3B73568F5AD699F2"
+				type: "item"
+				item: {
+					id: "modularrouters:player_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "64833D80E855D16F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			description: ["Extracts items from an adjacent inventory."]
+			dependencies: ["49612A0B7B895154"]
+			id: "131F35375EAA60C1"
+			tasks: [{
+				id: "0FDEC471258A4380"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "45EEFEC3F21F174E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 2.5d
+			description: ["Sends items to an adjacent inventory"]
+			dependencies: ["49612A0B7B895154"]
+			id: "3C9D936E24CEE348"
+			tasks: [{
+				id: "4BCEBBFBC3CCBB13"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_1"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "3C8254BA0457230C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.5d
+			shape: "gear"
+			description: ["God I love vacuum hoppers..."]
+			dependencies: ["49612A0B7B895154"]
+			id: "68F02392967AC66A"
+			tasks: [{
+				id: "1ADF46A20EDED969"
+				type: "item"
+				item: {
+					id: "modularrouters:vacuum_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "63C70916869BD27C"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "coins"
+						}
+					}
+				}
+				{
+					id: "27384F359E3230E0"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -13.0d
+			y: 3.5d
+			dependencies: ["79B415FEFB1FD8F5"]
+			id: "01D3DEB4C1BFF55B"
+			tasks: [{
+				id: "1ED52F66888ABE99"
+				type: "item"
+				item: {
+					id: "modularrouters:extruder_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1838230D42D26C50"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			dependencies: ["3C9D936E24CEE348"]
+			id: "79281548BC7F8EAE"
+			tasks: [{
+				id: "07C198C5E0BF4F91"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D77021EB93AF101"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.5d
+			dependencies: ["79281548BC7F8EAE"]
+			id: "25EFB0E7C52E2B4C"
+			tasks: [{
+				id: "0BD6BFE068326A32"
+				type: "item"
+				item: {
+					id: "modularrouters:sender_module_3"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "432350B3196F336C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.5d
+			dependencies: ["131F35375EAA60C1"]
+			id: "4FC3745BBC25AE4D"
+			tasks: [{
+				id: "540B120CAA2A13DE"
+				type: "item"
+				item: {
+					id: "modularrouters:puller_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "556EE814AE833DB0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.5d
+			dependencies: ["49612A0B7B895154"]
+			id: "6A1320E274DD0C31"
+			tasks: [{
+				id: "4BBA182D3DAFB94D"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "367E5B1F305396C0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.5d
+			dependencies: ["6A1320E274DD0C31"]
+			id: "381285A26D6D1784"
+			tasks: [{
+				id: "6C50107431EF37D6"
+				type: "item"
+				item: {
+					id: "modularrouters:fluid_module_2"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							FluidDir: 0b
+							MaxTransfer: 1000
+							ModuleFilter: { }
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "2528D4720BF7A26B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.5d
+			dependencies: ["49612A0B7B895154"]
+			id: "1061848C9A8CEC1D"
+			tasks: [{
+				id: "25BA66B40A72769B"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_distributor_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1AB61C105A740600"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			description: ["Outputs energy into adjacent blocks!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "28AA85901609D630"
+			tasks: [{
+				id: "0766F0EEFCBC98CB"
+				type: "item"
+				item: {
+					id: "modularrouters:energy_output_module"
+					Count: 1b
+					tag: {
+						modularrouters: {
+							ModuleFilter: { }
+							Direction: "NONE"
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "02281A2EEA161D7B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 4.5d
+			description: ["Make your modular routers not ugly!"]
+			dependencies: ["31A0C01275679FCF"]
+			id: "7299FFCD8F9C5C1D"
+			tasks: [{
+				id: "6436988E304CDE54"
+				type: "item"
+				item: "modularrouters:camouflage_upgrade"
+			}]
+			rewards: [{
+				id: "2407F0475F64DB61"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.5d
+			dependencies: ["31A0C01275679FCF"]
+			id: "2DA4749ABB2ED07B"
+			tasks: [{
+				id: "4476079D84B03203"
+				type: "item"
+				item: "modularrouters:energy_upgrade"
+			}]
+			rewards: [{
+				id: "2260C9D4954735A8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			dependencies: ["31A0C01275679FCF"]
+			id: "21B7D6B619E00840"
+			tasks: [{
+				id: "4F9AA5BA0A7B09A3"
+				type: "item"
+				item: "modularrouters:fluid_upgrade"
+			}]
+			rewards: [{
+				id: "55FE3C35DBFCF689"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["Thank god for quiet time!"]
+			dependencies: ["31A0C01275679FCF"]
+			id: "38C4E5506405BBA6"
+			tasks: [{
+				id: "507DFEC7F473041B"
+				type: "item"
+				item: "modularrouters:muffler_upgrade"
+			}]
+			rewards: [{
+				id: "0D0DDD7F8AA9DC4E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			dependencies: ["31A0C01275679FCF"]
+			id: "583F6C26440AC436"
+			tasks: [{
+				id: "159A955B62AA5606"
+				type: "item"
+				item: "modularrouters:speed_upgrade"
+			}]
+			rewards: [{
+				id: "7035A93593E529FA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: ["31A0C01275679FCF"]
+			id: "41D5FABAFEE4750E"
+			tasks: [{
+				id: "73A708A87DF3147D"
+				type: "item"
+				item: "modularrouters:stack_upgrade"
+			}]
+			rewards: [{
+				id: "35D7082517DDB27C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			description: ["Set a specific code, everything on that specific code will try to fire at the same time!"]
+			dependencies: ["31A0C01275679FCF"]
+			id: "1EDBE5289015360A"
+			tasks: [{
+				id: "0BF907249F42ACB8"
+				type: "item"
+				item: "modularrouters:sync_upgrade"
+			}]
+			rewards: [{
+				id: "6F9602716EEDFAEC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			dependencies: ["31A0C01275679FCF"]
+			id: "71D0C9DE01B9775A"
+			tasks: [{
+				id: "1A4D395B36ECC6FD"
+				type: "item"
+				item: "modularrouters:fast_pickup_augment"
+			}]
+			rewards: [{
+				id: "6ADEB74ACF35601E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: 3.5d
+			description: ["Pushes entities!"]
+			dependencies: ["79B415FEFB1FD8F5"]
+			id: "19EAD3890C2A679D"
+			tasks: [{
+				id: "08AD734517C0626E"
+				type: "item"
+				item: "modularrouters:pushing_augment"
+			}]
+			rewards: [{
+				id: "52C864F6BD30D54A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.5d
+			description: ["Decreased pickup time on existing blocks!"]
+			dependencies: ["68F02392967AC66A"]
+			id: "542557D3B98B9772"
+			tasks: [{
+				id: "7ABFC3F38D16E2DD"
+				type: "item"
+				item: "modularrouters:fast_pickup_augment"
+			}]
+			rewards: [{
+				id: "57C8294941EAFAEF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.5d
+			dependencies: ["49AC3ADAB2BA31B0"]
+			id: "6078842DAAA78131"
+			tasks: [{
+				id: "62B591705EE46907"
+				type: "item"
+				item: "modularrouters:pickup_delay_augment"
+			}]
+			rewards: [{
+				id: "7846EB7D01C86516"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			description: ["Vroom vroom for that experience baby! Make sure you have some way of dealing with the fluid!"]
+			dependencies: ["68F02392967AC66A"]
+			id: "690B06EFD6AE9858"
+			tasks: [{
+				id: "3E2AA064EF956C88"
+				type: "item"
+				item: "modularrouters:xp_vacuum_augment"
+			}]
+			rewards: [{
+				id: "1B492AFAB749FE17"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -15.0d
+			y: 3.5d
+			description: ["The fake blocks used by this router will actually mimic real blocks with this upgrade!"]
+			dependencies: ["79B415FEFB1FD8F5"]
+			id: "6581C9000DC31172"
+			tasks: [{
+				id: "497166921EBAA034"
+				type: "item"
+				item: "modularrouters:mimic_augment"
+			}]
+			rewards: [
+				{
+					id: "43EFB8DA11CDE6F9"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_junk"
+						}
+					}
+				}
+				{
+					id: "70777AB366B57726"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "coins"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: 2.5d
+			description: ["Allows the router to process more items a tick!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "4AD686BA3BA0FEFE"
+			tasks: [{
+				id: "0FEDAE90ECC00F93"
+				type: "item"
+				item: "modularrouters:stack_augment"
+			}]
+			rewards: [{
+				id: "3629484A55E4EC8A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -17.0d
+			y: 2.5d
+			dependencies: ["49612A0B7B895154"]
+			id: "44332D98078D5E92"
+			tasks: [{
+				id: "3E442D2ECD2E86DB"
+				type: "item"
+				item: "modularrouters:range_down_augment"
+			}]
+			rewards: [{
+				id: "5F004702BF8271DC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: 2.5d
+			dependencies: ["49612A0B7B895154"]
+			id: "424F43967F350BFF"
+			tasks: [{
+				id: "5BBB18BEA63F29D3"
+				type: "item"
+				item: "modularrouters:range_up_augment"
+			}]
+			rewards: [{
+				id: "527D9239D09038D7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: 2.5d
+			description: ["Allows the router to give out items in a round robin style!"]
+			dependencies: ["49612A0B7B895154"]
+			id: "4AF422C62A0B0A7F"
+			tasks: [{
+				id: "30DD7206B90E866B"
+				type: "item"
+				item: "modularrouters:filter_round_robin_augment"
+			}]
+			rewards: [{
+				id: "7B9FEEF3FCB60EEC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -20.0d
+			y: 2.5d
+			description: ["specify exactly how many items can be put into an inventory."]
+			dependencies: ["49612A0B7B895154"]
+			id: "674E9C2C96DC5A36"
+			tasks: [{
+				id: "08946BD9FB7ACCA8"
+				type: "item"
+				item: "modularrouters:regulator_augment"
+			}]
+			rewards: [{
+				id: "23B16E7E5860968A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+	]
+}

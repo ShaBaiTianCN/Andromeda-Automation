@@ -1,0 +1,16 @@
+{
+	id: "125C77548A7BA5F9"
+	order_index: 52
+	title: "Chocolate"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "create_confectionery:full_chocolate_bar"
+			Count: 1b
+			tag: {
+				Damage: 0
+			}
+		}
+	}]
+}

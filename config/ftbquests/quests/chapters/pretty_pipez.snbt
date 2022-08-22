@@ -1,0 +1,939 @@
+{
+	id: "48FB7111FB5469B1"
+	group: "75940C6E9EF33EDC"
+	order_index: 5
+	filename: "pretty_pipez"
+	title: "Pretty Pipez"
+	icon: "prettypipes:pipe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -1.5d
+			description: ["This allows you to dictate what is attached to your pipes!"]
+			dependencies: ["1549B3BBF2C591E7"]
+			hide: true
+			id: "5EF5C063E86220B5"
+			tasks: [{
+				id: "0F04F7EEA7BA4214"
+				type: "item"
+				item: "prettypipes:wrench"
+			}]
+			rewards: [{
+				id: "107BBB6DF4FBFFF7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 2.0d
+			dependencies: ["12C8B3A508DBC2F1"]
+			id: "2B3A66CAD6751875"
+			tasks: [{
+				id: "666C8C6D74077885"
+				type: "item"
+				item: "prettypipes:blank_module"
+			}]
+			rewards: [{
+				id: "40AD0919C1FABC13"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			description: ["For items!"]
+			dependencies: ["5EF5C063E86220B5"]
+			id: "12C8B3A508DBC2F1"
+			tasks: [{
+				id: "024EB6FC36AA7965"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
+			rewards: [{
+				id: "20B2C7C43219FBB1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.0d
+			description: ["This lets you view items of the connected network."]
+			dependencies: ["12C8B3A508DBC2F1"]
+			id: "6F3A8A12F2FAB88D"
+			tasks: [{
+				id: "2D2BA922202C06DA"
+				type: "item"
+				item: "prettypipes:item_terminal"
+			}]
+			rewards: [{
+				id: "031F625A79CC6830"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			description: ["This allows you to view items as well as craft anything in the connected network! Keep in mind this is really heavily reliant on the speed of the network! So keep your items close and running at high speeds!"]
+			dependencies: ["6F3A8A12F2FAB88D"]
+			id: "3075C45C93A9EC1F"
+			tasks: [{
+				id: "6572A4C4DCD50CD5"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			rewards: [{
+				id: "3EC956887681E6A8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			dependencies: ["12C8B3A508DBC2F1"]
+			id: "5AA379441E8BA513"
+			tasks: [{
+				id: "68F77BD1AC47E276"
+				type: "item"
+				item: "prettypipes:pipe_frame"
+			}]
+			rewards: [{
+				id: "04A6A65ABD3C6891"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			dependencies: ["12C8B3A508DBC2F1"]
+			id: "73B2E8CD2DEE8AB2"
+			tasks: [{
+				id: "65820F42DF586A69"
+				type: "item"
+				item: "prettypipes:pressurizer"
+			}]
+			rewards: [{
+				id: "1525CDEBAEDCF522"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 3.0d
+			description: ["These allow you to extract whatever is inside of the chest"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "63DA21ACBB1EE9FD"
+			tasks: [{
+				id: "6758BE71664E80C1"
+				type: "item"
+				item: "prettypipes:low_extraction_module"
+			}]
+			rewards: [{
+				id: "55C66A84C3909913"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 4.0d
+			dependencies: ["63DA21ACBB1EE9FD"]
+			id: "7340884F8B9A5444"
+			tasks: [{
+				id: "314702DB82A86073"
+				type: "item"
+				item: "prettypipes:medium_extraction_module"
+			}]
+			rewards: [{
+				id: "086E0B7F4BAA5F0E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["7340884F8B9A5444"]
+			id: "0FBF25F8BC32B2AF"
+			tasks: [{
+				id: "18EB64BF05A42985"
+				type: "item"
+				item: "prettypipes:high_extraction_module"
+			}]
+			rewards: [
+				{
+					id: "7240F3C342F3D79E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "1484360ACB7EC84A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+				{
+					id: "23230C4ED5477315"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 3.0d
+			description: ["This allows you to set up a basic item filter!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "3F458024BDF8B873"
+			tasks: [{
+				id: "542CB465DC1C95E1"
+				type: "item"
+				item: "prettypipes:low_filter_module"
+			}]
+			rewards: [{
+				id: "7F32E0506AE5318B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 4.0d
+			dependencies: ["3F458024BDF8B873"]
+			id: "5E7F6DF29EBD85F8"
+			tasks: [{
+				id: "4A3C47759E27C9ED"
+				type: "item"
+				item: "prettypipes:medium_filter_module"
+			}]
+			rewards: [{
+				id: "3AF93CB11A083996"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 5.0d
+			dependencies: ["5E7F6DF29EBD85F8"]
+			id: "3DE52100A3422C21"
+			tasks: [{
+				id: "7DB64253DC04F520"
+				type: "item"
+				item: "prettypipes:high_filter_module"
+			}]
+			rewards: [
+				{
+					id: "01742115AD7E5E2D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "50829119CE5EA864"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: 3.0d
+			description: ["Increases the speed of the pipe it was used on!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "4EE3968A2C8C393B"
+			tasks: [{
+				id: "490DFA12A40B0203"
+				type: "item"
+				item: "prettypipes:low_speed_module"
+			}]
+			rewards: [{
+				id: "57A5BFD7A1966FBB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 4.0d
+			dependencies: ["4EE3968A2C8C393B"]
+			id: "7C294B2F896886A1"
+			tasks: [{
+				id: "324DA67BF9F4A3FD"
+				type: "item"
+				item: "prettypipes:medium_speed_module"
+			}]
+			rewards: [{
+				id: "1758669123ED689A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 5.0d
+			dependencies: ["7C294B2F896886A1"]
+			id: "02F3C9346D99B83A"
+			tasks: [{
+				id: "5FFD6C08B23CCFC5"
+				type: "item"
+				item: "prettypipes:high_speed_module"
+			}]
+			rewards: [
+				{
+					id: "4115AE720954229D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "5E7E4F5840F29F88"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			description: ["Allows you to differentiate between pipes! For instance if you have two spots that can recieve cobblestone, the one with the higher priority will get cobblestone first!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "731711AF4B6BE320"
+			tasks: [{
+				id: "14345731E67B329A"
+				type: "item"
+				item: "prettypipes:low_low_priority_module"
+			}]
+			rewards: [{
+				id: "12EAE068F45CD995"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			dependencies: ["731711AF4B6BE320"]
+			id: "7BD4875FFB8C2453"
+			tasks: [{
+				id: "4F3651D2B24F16EC"
+				type: "item"
+				item: "prettypipes:medium_low_priority_module"
+			}]
+			rewards: [{
+				id: "5F7BD8D529DE03AF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.0d
+			dependencies: ["7BD4875FFB8C2453"]
+			id: "70B399AA694836DF"
+			tasks: [{
+				id: "713BD60C234C1511"
+				type: "item"
+				item: "prettypipes:high_low_priority_module"
+			}]
+			rewards: [
+				{
+					id: "57D35B64C0B287E3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "76F906BDFA17A24D"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			description: ["Allows you to differentiate between pipes! For instance if you have two spots that can recieve cobblestone, the one with the higher priority will get cobblestone first!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "29ED85F6A6E1C576"
+			tasks: [{
+				id: "7930FC42A9ECA2EC"
+				type: "item"
+				item: "prettypipes:low_high_priority_module"
+			}]
+			rewards: [{
+				id: "2270873EB4F845A4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			dependencies: ["29ED85F6A6E1C576"]
+			id: "7F408B5CA9D7384B"
+			tasks: [{
+				id: "089A5466F093ADEF"
+				type: "item"
+				item: "prettypipes:medium_high_priority_module"
+			}]
+			rewards: [{
+				id: "69448E33ABBF73B8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			dependencies: ["7F408B5CA9D7384B"]
+			id: "140DBED8382D5F84"
+			tasks: [{
+				id: "405911C84EFFC7FB"
+				type: "item"
+				item: "prettypipes:high_high_priority_module"
+			}]
+			rewards: [
+				{
+					id: "1E9A440960BD14EC"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "6163F170411548AF"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			description: ["Searches nearby chest for items inside!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "2434D01699AE1604"
+			tasks: [{
+				id: "1C00981F450CD74C"
+				type: "item"
+				item: "prettypipes:low_retrieval_module"
+			}]
+			rewards: [{
+				id: "7DF010A96505A726"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["2434D01699AE1604"]
+			id: "1594B8C752E087D9"
+			tasks: [{
+				id: "6094007C8D3FC749"
+				type: "item"
+				item: "prettypipes:medium_retrieval_module"
+			}]
+			rewards: [{
+				id: "23F1FC287BC29CAD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			dependencies: ["1594B8C752E087D9"]
+			id: "2A4FEE5997798C89"
+			tasks: [{
+				id: "3A25312335D2DBAC"
+				type: "item"
+				item: "prettypipes:high_retrieval_module"
+			}]
+			rewards: [
+				{
+					id: "0A33B7682F7F6CEA"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "565F0C2513620CBE"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 3.0d
+			description: ["Allows you to limit the number of items within!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "637369AD9C3FFF0A"
+			tasks: [{
+				id: "160BDF77DBFFD9AA"
+				type: "item"
+				item: "prettypipes:stack_size_module"
+			}]
+			rewards: [{
+				id: "2CF9091E82AB170D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			description: ["This allows you to read the durability on a tool."]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "0D17C7B553AAFB95"
+			tasks: [{
+				id: "3B07450227CD2DB9"
+				type: "item"
+				item: "prettypipes:damage_filter_modifier"
+			}]
+			rewards: [{
+				id: "2D94E75DDAD45276"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			description: ["Allows you to filter nbt data! Like enchantments."]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "2FE15056D9C5A6C0"
+			tasks: [{
+				id: "328A49511B2B83FF"
+				type: "item"
+				item: "prettypipes:nbt_filter_modifier"
+			}]
+			rewards: [{
+				id: "62D839024AF1AA6C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			description: ["Lets you filter by mod!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "37C0F86A57602E35"
+			tasks: [{
+				id: "324B67BB94540A3E"
+				type: "item"
+				item: "prettypipes:mod_filter_modifier"
+			}]
+			rewards: [{
+				id: "2B339B00F45B2EC9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["Lets you filter by tag, like ores, or wood."]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "78D8D30CD4CBEFC7"
+			tasks: [{
+				id: "043B2FD4DED7DACB"
+				type: "item"
+				item: "prettypipes:tag_filter_modifier"
+			}]
+			rewards: [{
+				id: "7DFE4C2300067207"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			description: ["Makes the pipes sensative to redstone."]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "0CEE32EF9DDEED5E"
+			tasks: [{
+				id: "1862AAB9E8B2D235"
+				type: "item"
+				item: "prettypipes:redstone_module"
+			}]
+			rewards: [{
+				id: "77492A70F9A66414"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 4.0d
+			description: ["Add an extra slot for a filter!"]
+			dependencies: ["3F458024BDF8B873"]
+			id: "2727B66A3AE2A539"
+			tasks: [{
+				id: "2E9F006928B6CC8B"
+				type: "item"
+				item: "prettypipes:filter_increase_modifier"
+			}]
+			rewards: [{
+				id: "261B3318F68EB98A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: ["These crafting modules allow you to set up automatic crafting recipes, it will insert the required items in the attached inventory and try to pull out the requested item."]
+			dependencies: ["3075C45C93A9EC1F"]
+			id: "152AFB586AE99CE6"
+			tasks: [{
+				id: "247FA3918EE1249D"
+				type: "item"
+				item: "prettypipes:low_crafting_module"
+			}]
+			rewards: [{
+				id: "56F3687D3AE53555"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.0d
+			dependencies: ["152AFB586AE99CE6"]
+			id: "36BC52B868F76250"
+			tasks: [{
+				id: "2AD5D8E61CF64896"
+				type: "item"
+				item: "prettypipes:medium_crafting_module"
+			}]
+			rewards: [{
+				id: "1781BB1849A8E9BE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			shape: "gear"
+			dependencies: ["36BC52B868F76250"]
+			id: "51531A48C13EC138"
+			tasks: [{
+				id: "1A8145705A778C81"
+				type: "item"
+				item: "prettypipes:high_crafting_module"
+			}]
+			rewards: [
+				{
+					id: "3D3DF051EE2BB5D5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_pipes"
+						}
+					}
+				}
+				{
+					id: "024482E5AF903FA9"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["One for you, and one for you, and one for you!"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "78EBBFB4A1173DCC"
+			tasks: [{
+				id: "2F5534683401934E"
+				type: "item"
+				item: "prettypipes:round_robin_sorting_modifier"
+			}]
+			rewards: [{
+				id: "63C6D0F6C311F40C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			description: ["Gives out items randomly"]
+			dependencies: ["2B3A66CAD6751875"]
+			id: "33D5391EFB6AD777"
+			tasks: [{
+				id: "102C169B233E6AB6"
+				type: "item"
+				item: "prettypipes:random_sorting_modifier"
+			}]
+			rewards: [{
+				id: "6D13251CEA812026"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+	]
+}

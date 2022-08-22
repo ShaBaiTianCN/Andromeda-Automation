@@ -1,0 +1,870 @@
+{
+	id: "1B94B3483DF86245"
+	group: "1D115F3DF1092C06"
+	order_index: 7
+	filename: "cyclic"
+	title: "Cyclic"
+	icon: {
+		id: "cyclic:charm_stone"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: 0.5d
+			shape: "diamond"
+			description: ["A *very* powerful piece of technology that can right click with any item! [Try with a exnihilo sieve ;)]"]
+			dependencies: ["78A18708E1695263"]
+			id: "0BAA325429A20A4F"
+			tasks: [{
+				id: "50A834F67750ECD0"
+				type: "item"
+				item: "cyclic:user"
+			}]
+			rewards: [{
+				id: "3933C4FB2BD0B75F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.5d
+			description: ["A slow, cheap, hopper!"]
+			dependencies: ["78A18708E1695263"]
+			id: "57A157A4DBB85D91"
+			tasks: [{
+				id: "2F44647487EA268A"
+				type: "item"
+				item: "cyclic:hopper"
+			}]
+			rewards: [{
+				id: "7ED0DBD5F11C585B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.5d
+			description: ["An expensive, fast, hopper!"]
+			dependencies: ["57A157A4DBB85D91"]
+			id: "21790133B25B8236"
+			tasks: [{
+				id: "3404E472151058D5"
+				type: "item"
+				item: "cyclic:hopper_gold"
+			}]
+			rewards: [{
+				id: "29339FB06BAC9761"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			description: ["Fall damage is for nerds!"]
+			dependencies: ["78A18708E1695263"]
+			id: "0C0254A17A33FFEA"
+			tasks: [{
+				id: "290E718A3AD7BF81"
+				type: "item"
+				item: {
+					id: "cyclic:charm_longfall"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6885FD298921E594"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.5d
+			description: ["Spikes that deal high damage and behaves like a player kill!"]
+			dependencies: ["78A18708E1695263"]
+			id: "1F281B2EDF9760F1"
+			tasks: [{
+				id: "6F3B39ACE7D8567A"
+				type: "item"
+				item: "cyclic:spikes_diamond"
+			}]
+			rewards: [{
+				id: "1B499A44F86CB0F4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: ["When powered it pushes entities up!"]
+			dependencies: ["78A18708E1695263"]
+			id: "0F08106372844240"
+			tasks: [{
+				id: "0FC42231AAE8A5C5"
+				type: "item"
+				item: "cyclic:fan_slab"
+			}]
+			rewards: [{
+				id: "0C55A9C03B93B6A3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.5d
+			description: ["This removes enchantments off of anything when an item is put inside!"]
+			dependencies: ["78A18708E1695263"]
+			id: "54688293C1B17A40"
+			tasks: [{
+				id: "1688DFB0657429FF"
+				type: "item"
+				item: "cyclic:anvil_void"
+			}]
+			rewards: [{
+				id: "5E7F43F199D5B050"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			description: ["This speeds up nearby crop growth when water is provided!"]
+			dependencies: ["78A18708E1695263"]
+			id: "73F17A5456D6AF52"
+			tasks: [{
+				id: "2A76038746D5484D"
+				type: "item"
+				item: "cyclic:sprinkler"
+			}]
+			rewards: [{
+				id: "72D7AB2625DB6486"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			description: ["Shears touched entities."]
+			dependencies: ["78A18708E1695263"]
+			id: "136BDA94F5030B7A"
+			tasks: [{
+				id: "1966E1446B9D8393"
+				type: "item"
+				item: "cyclic:shearing"
+			}]
+			rewards: [{
+				id: "6FE9DC267B186D66"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.5d
+			dependencies: ["78A18708E1695263"]
+			id: "54538E1EA721924A"
+			tasks: [{
+				id: "1F088EECDABB1718"
+				type: "item"
+				item: "cyclic:wireless_energy"
+			}]
+			rewards: [{
+				id: "2D6CC4508FAD9F03"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 1.5d
+			dependencies: ["54538E1EA721924A"]
+			id: "3B026E282E7F6690"
+			tasks: [{
+				id: "5B5B9D36FDFF4E6E"
+				type: "item"
+				item: "cyclic:wireless_item"
+			}]
+			rewards: [{
+				id: "10631642E083375D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["3B026E282E7F6690"]
+			id: "7726E370BFDD8B3F"
+			tasks: [{
+				id: "1EC8AE494C811AD4"
+				type: "item"
+				item: "cyclic:wireless_fluid"
+			}]
+			rewards: [
+				{
+					id: "1217C085E6A4D615"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "1C589DD2C8F540DE"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["Gives ya slow falling if you fall a certain distance!"]
+			dependencies: ["78A18708E1695263"]
+			id: "6E3DFD1F04C6471D"
+			tasks: [{
+				id: "60D67B4C4F4E911D"
+				type: "item"
+				item: {
+					id: "cyclic:charm_wing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "6DBC1E6B8A683698"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			description: ["Players don't fall through this block, but other entities do!"]
+			dependencies: ["78A18708E1695263"]
+			id: "6DFA9959F7C59732"
+			tasks: [{
+				id: "56A3EFA26428D4D1"
+				type: "item"
+				item: "cyclic:cloud_membrane"
+			}]
+			rewards: [{
+				id: "314471AFA59B1EDA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			shape: "gear"
+			description: ["This is used to create more powerful cyclic items!"]
+			dependencies: ["39F7ED04AB10AD12"]
+			id: "33FF0458AAD12414"
+			tasks: [{
+				id: "5F15B89416E9BF74"
+				type: "item"
+				item: "cyclic:gem_obsidian"
+			}]
+			rewards: [{
+				id: "17C50DA466C68516"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			description: ["This is used to create more powerful cyclic items!"]
+			dependencies: ["3E6641CA049A806F"]
+			id: "39F7ED04AB10AD12"
+			tasks: [{
+				id: "60F36510405BB17F"
+				type: "item"
+				item: "cyclic:gem_amber"
+			}]
+			rewards: [{
+				id: "013577EFA09FB440"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["This can use items and a fluid together to crystalize it into something new!"]
+			dependencies: ["1B8B8C0F5D1FA1D4"]
+			id: "3E6641CA049A806F"
+			tasks: [{
+				id: "14F002C7FE314E40"
+				type: "item"
+				item: "cyclic:solidifier"
+			}]
+			rewards: [{
+				id: "44B755E29CCD5ED7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: ["+1 Constitution"]
+			dependencies: ["78A18708E1695263"]
+			id: "4A1A9EC461B970C6"
+			tasks: [{
+				id: "568A1F1990B8EC95"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+			rewards: [{
+				id: "1B02147B3FFF6544"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			description: ["Harvests a large area upon using right click!"]
+			dependencies: ["78A18708E1695263"]
+			id: "0560D510F4AAD9B9"
+			tasks: [{
+				id: "166335D860655BB0"
+				type: "item"
+				item: {
+					id: "cyclic:scythe_harvest"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "520EBCF92F509EFA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 0.5d
+			description: ["Automatically lights up nearby areas!"]
+			dependencies: ["78A18708E1695263"]
+			id: "6B9755E0B14D4CF0"
+			tasks: [{
+				id: "0059DAA8E1F6913F"
+				type: "item"
+				item: {
+					id: "cyclic:charm_torch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3DA384DCD8C997D9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			description: [
+				""
+				"A very powerful tool that allows you to teleport on top of this block if you shift and look at it!"
+			]
+			dependencies: ["78A18708E1695263"]
+			id: "61F5EB28E4BABB37"
+			tasks: [{
+				id: "6B0C0F748F1573E6"
+				type: "item"
+				item: "cyclic:eye_teleport"
+			}]
+			rewards: [{
+				id: "19CB46ADCA455F05"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["This can melt down various items into fluid form!"]
+			dependencies: ["78A18708E1695263"]
+			id: "1B8B8C0F5D1FA1D4"
+			tasks: [{
+				id: "701C4E5FBF718BAB"
+				type: "item"
+				item: "cyclic:melter"
+			}]
+			rewards: [{
+				id: "2603AEC883361939"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 0.5d
+			description: ["Places the block in its inventory!"]
+			dependencies: ["78A18708E1695263"]
+			id: "1D4DB443A3EA7A6D"
+			tasks: [{
+				id: "03312E93ED0AF1BB"
+				type: "item"
+				item: "cyclic:placer"
+			}]
+			rewards: [{
+				id: "7127D834AB686A4D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			description: ["Breaks the block in front of it!"]
+			dependencies: ["78A18708E1695263"]
+			id: "7E124CDB0130D79C"
+			tasks: [{
+				id: "385C2DBBDDEABBD8"
+				type: "item"
+				item: "cyclic:breaker"
+			}]
+			rewards: [{
+				id: "5D9AB4073D489B48"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			description: ["Increases nearby mob spawns when lit!"]
+			dependencies: ["78A18708E1695263"]
+			id: "61B44D61B38F2CEF"
+			tasks: [{
+				id: "01EF688B13CF5A87"
+				type: "item"
+				item: "cyclic:water_candle"
+			}]
+			rewards: [{
+				id: "1F0DF9B72ABD43FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.5d
+			description: ["Gently harvests nearby crops [means the crops don't need replanting!]"]
+			dependencies: ["78A18708E1695263"]
+			id: "2C107A3CE8BC9B99"
+			tasks: [{
+				id: "700614E7B303F877"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+			rewards: [{
+				id: "7A0899BB12D23258"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 0.5d
+			description: ["A vacuum hoper!"]
+			dependencies: ["78A18708E1695263"]
+			id: "3EAF92B7DA534698"
+			tasks: [{
+				id: "3BE2C96C448CA116"
+				type: "item"
+				item: "cyclic:collector"
+			}]
+			rewards: [{
+				id: "766515870D9386B1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			description: ["Transmits a wireless redstone frequency!"]
+			dependencies: ["78A18708E1695263"]
+			id: "023CB6ED4E6C4603"
+			tasks: [{
+				id: "437110CFF74CDD75"
+				type: "item"
+				item: "cyclic:wireless_transmitter"
+			}]
+			rewards: [{
+				id: "59F259E3653B9353"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			description: ["Recieves a wireless redstone frequency!"]
+			dependencies: ["78A18708E1695263"]
+			id: "4E31149376B63626"
+			tasks: [{
+				id: "3A44A669124B1AF5"
+				type: "item"
+				item: "cyclic:wireless_receiver"
+			}]
+			rewards: [{
+				id: "1930049356914BDE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			description: ["An easy to use clock!"]
+			dependencies: ["78A18708E1695263"]
+			id: "1299EA7C7F51A28A"
+			tasks: [{
+				id: "67A6C8779BAE6414"
+				type: "item"
+				item: "cyclic:clock"
+			}]
+			rewards: [{
+				id: "00918E227D80D9BE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			description: ["A very powerful tool for mob farms! It allows you to push entities a long distance!"]
+			dependencies: ["78A18708E1695263"]
+			id: "0B494A80FA7076B8"
+			tasks: [{
+				id: "3E8EAA7862BE0F65"
+				type: "item"
+				item: "cyclic:fan"
+			}]
+			rewards: [{
+				id: "31C3136A105B9986"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			description: ["Prevents nearby sounds... good bye horrible loud noises!"]
+			dependencies: ["78A18708E1695263"]
+			id: "36E187EFF2ACFA20"
+			tasks: [{
+				id: "1B51C9058AB40DC4"
+				type: "item"
+				item: "cyclic:soundproofing"
+			}]
+			rewards: [{
+				id: "5799A19A8609E5F9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			description: ["This allows you to collect experience for later use!"]
+			dependencies: ["78A18708E1695263"]
+			id: "434EB843CE6BCF38"
+			tasks: [{
+				id: "20D9C09B83FB80EC"
+				type: "item"
+				item: "cyclic:experience_pylon"
+			}]
+			rewards: [{
+				id: "78FDCA408009F6A7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			dependencies: ["434EB843CE6BCF38"]
+			id: "71E6A52080977AD0"
+			tasks: [{
+				id: "577388789E433037"
+				type: "item"
+				item: "cyclic:experience_food"
+			}]
+			rewards: [{
+				id: "263DE0CA99DB49B7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			dependencies: ["434EB843CE6BCF38"]
+			id: "7E3B57D31B1A3173"
+			tasks: [{
+				id: "5D491880E0A744D0"
+				type: "item"
+				item: "minecraft:experience_bottle"
+			}]
+			rewards: [{
+				id: "527AB20B87B86B23"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			title: "Cyclic"
+			icon: {
+				id: "cyclic:soulstone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -1.0d
+			description: ["Cyclic is a great mod with lots of random bips and bops!"]
+			dependencies: ["4D6256C8BE38046F"]
+			hide: true
+			id: "78A18708E1695263"
+			tasks: [{
+				id: "03ECF4118ADE8B1F"
+				type: "checkmark"
+				title: "Cyclic"
+			}]
+		}
+	]
+}

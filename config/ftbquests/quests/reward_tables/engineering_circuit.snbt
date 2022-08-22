@@ -1,0 +1,7 @@
+{
+	id: "0E6F0A2073B43E48"
+	order_index: 126
+	title: "engineering circuit"
+	loot_size: 1
+	rewards: [{ item: "ae2:engineering_processor", count: 8 }]
+}

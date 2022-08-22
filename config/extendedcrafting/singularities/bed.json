@@ -1,0 +1,12 @@
+{
+  "name": "Bed",
+  "colors": [
+    "faf7f7",
+    "ff0505"
+  ],
+  "ingredient": {
+    "item": "minecraft:red_bed"
+  },
+"inUltimateSingularity": false
+
+}

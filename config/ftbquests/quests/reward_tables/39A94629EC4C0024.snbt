@@ -1,0 +1,20 @@
+{
+	id: "39A94629EC4C0024"
+	order_index: 93
+	title: "DimCarver"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "alexsmobs:dimensional_carver"
+			Count: 1b
+			tag: {
+				BLOCKX: 0.0d
+				HASBLOCK: 0b
+				Damage: 0
+				BLOCKZ: 0.0d
+				BLOCKY: 0.0d
+			}
+		}
+	}]
+}

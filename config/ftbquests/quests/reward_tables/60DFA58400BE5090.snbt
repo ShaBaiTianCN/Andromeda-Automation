@@ -1,0 +1,8 @@
+{
+	id: "60DFA58400BE5090"
+	order_index: 84
+	title: "daze"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "alexsmobs:music_disc_daze" }]
+}

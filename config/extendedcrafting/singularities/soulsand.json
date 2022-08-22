@@ -1,0 +1,12 @@
+{
+  "name": "Soul Sand",
+  "colors": [
+    "574b2b",
+    "423209"
+  ],
+  "ingredient": {
+    "item": "minecraft:soul_sand"
+  },
+"inUltimateSingularity": false
+
+}

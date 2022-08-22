@@ -1,0 +1,11 @@
+{
+  "name": "Brain",
+  "colors": [
+    "f222d0",
+    "bd26a4"
+  ],
+  "ingredient": {
+    "item": "minecraft:brain_coral_block"
+  },
+  "inUltimateSingularity": false
+}

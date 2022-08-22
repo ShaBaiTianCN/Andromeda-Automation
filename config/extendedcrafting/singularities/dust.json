@@ -1,0 +1,12 @@
+{
+  "name": "Dust",
+  "colors": [
+    "fffde8",
+    "edebd3"
+  ],
+  "ingredient": {
+    "item": "exnihilosequentia:dust"
+  },
+"inUltimateSingularity": true
+
+}

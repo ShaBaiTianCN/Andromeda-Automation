@@ -1,0 +1,16 @@
+{
+	id: "30C209CB3E410870"
+	order_index: 103
+	title: "BigBookofBees"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "productivebees:guide"
+			}
+		}
+	}]
+}

@@ -1,0 +1,1751 @@
+{
+	id: "227307E73FBEF438"
+	group: "1D115F3DF1092C06"
+	order_index: 3
+	filename: "rf_tools_storage"
+	title: "RF Tools"
+	icon: "rftoolsstorage:storage_scanner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.5d
+			y: 1.0d
+			description: [
+				""
+				"Storage modules stored inside allow you to store a variety of items with an interface!"
+			]
+			dependencies: ["7A45D84B40E0CFA0"]
+			id: "2E0656E58D396AEA"
+			tasks: [{
+				id: "2F82634CFE3B3D54"
+				type: "item"
+				item: "rftoolsstorage:modular_storage"
+			}]
+			rewards: [{
+				id: "33B99398213088F9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			dependencies: ["2E0656E58D396AEA"]
+			id: "0A95FCA54ABA3E31"
+			tasks: [{
+				id: "3CC40A7B040854D9"
+				type: "item"
+				item: "rftoolsstorage:storage_module0"
+			}]
+			rewards: [{
+				id: "1CDB9C10090A9788"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			dependencies: ["0A95FCA54ABA3E31"]
+			id: "4783A65C51D61B3B"
+			tasks: [{
+				id: "1CAFC2F7ED5003EA"
+				type: "item"
+				item: "rftoolsstorage:storage_module1"
+			}]
+			rewards: [{
+				id: "7173C9A773E49432"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			dependencies: ["4783A65C51D61B3B"]
+			id: "392FBEBE04B64727"
+			tasks: [{
+				id: "69332B3B3EDBD8F1"
+				type: "item"
+				item: "rftoolsstorage:storage_module2"
+			}]
+			rewards: [{
+				id: "6CF481902390ADD9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.0d
+			shape: "diamond"
+			dependencies: ["392FBEBE04B64727"]
+			id: "74D5BA7F523E09DB"
+			tasks: [{
+				id: "24A3CB0327B1B823"
+				type: "item"
+				item: "rftoolsstorage:storage_module3"
+			}]
+			rewards: [{
+				id: "04BE61497AD9B696"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["7A45D84B40E0CFA0"]
+			id: "6684264D266DA1B2"
+			tasks: [{
+				id: "038A477C32484CFA"
+				type: "item"
+				item: "rftoolsstorage:tablet_scanner"
+			}]
+			rewards: [{
+				id: "5E3A31509036A411"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			dependencies: ["6684264D266DA1B2"]
+			id: "6FD6321FE5CC9D22"
+			tasks: [{
+				id: "55E09B0A0DADD1FC"
+				type: "item"
+				item: {
+					id: "rftoolsstorage:storage_control_module"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "52355C6D628A75A5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			description: ["This allows for the scanning of any inventory block in a large radius! [Make sure to turn the radius up ;) ]"]
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "7A45D84B40E0CFA0"
+			tasks: [{
+				id: "1F19FFC736A5260A"
+				type: "item"
+				item: "rftoolsstorage:storage_scanner"
+			}]
+			rewards: [{
+				id: "0C3F598269314F53"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			description: ["Allows for the use of wireless access cards to access the machiens below! Keep in mind this is a requirement for many machines!"]
+			dependencies: ["3F19823094ADBB02"]
+			id: "27BE3D3C3A859E45"
+			tasks: [{
+				id: "463CA3D4C77468D1"
+				type: "item"
+				item: "rftoolscontrol:node"
+			}]
+			rewards: [{
+				id: "2B2D7BEDB40D4E45"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.5d
+			dependencies: ["27BE3D3C3A859E45"]
+			id: "2051CA81A520AA52"
+			tasks: [{
+				id: "1BF95643B3C12E46"
+				type: "item"
+				item: "rftoolscontrol:craftingstation"
+			}]
+			rewards: [{
+				id: "66DF56D2916AF6AC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "3F19823094ADBB02"
+			tasks: [{
+				id: "35388D1AF30290F6"
+				type: "item"
+				item: "rftoolscontrol:processor"
+			}]
+			rewards: [{
+				id: "5E1320CE14CA82A1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["3F19823094ADBB02"]
+			id: "2DBD36BEE9FE98E0"
+			tasks: [{
+				id: "2E4EFC6555DA5ECB"
+				type: "item"
+				item: "rftoolscontrol:program_card"
+			}]
+			rewards: [{
+				id: "62562CBDD4CDFDA9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["2DBD36BEE9FE98E0"]
+			id: "0BA00517820614E8"
+			tasks: [{
+				id: "10A5079D78C400EF"
+				type: "item"
+				item: "rftoolscontrol:programmer"
+			}]
+			rewards: [{
+				id: "2D1339B1704D8BE0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			dependencies: ["27BE3D3C3A859E45"]
+			id: "0AB0975283251293"
+			tasks: [{
+				id: "09F3B144CBC2A6FA"
+				type: "item"
+				item: "rftoolscontrol:workbench"
+			}]
+			rewards: [{
+				id: "1E71F25C1B177CA0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["3F19823094ADBB02"]
+			id: "52A795E2099E0066"
+			tasks: [{
+				id: "131DBCF5F264E842"
+				type: "item"
+				item: "rftoolscontrol:network_card"
+			}]
+			rewards: [{
+				id: "311077C45234D696"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["52A795E2099E0066"]
+			id: "0B7543A62FFF6B66"
+			tasks: [{
+				id: "551B49C3ACBD51F5"
+				type: "item"
+				item: "rftoolscontrol:advanced_network_card"
+			}]
+			rewards: [{
+				id: "07CD285BE7FC214C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["3F19823094ADBB02"]
+			id: "7B6AECAC32CF2D67"
+			tasks: [{
+				id: "3D674584E4C961B0"
+				type: "item"
+				item: "rftoolscontrol:graphics_card"
+			}]
+			rewards: [{
+				id: "77BDB95DF44E6F04"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["3F19823094ADBB02"]
+			id: "03CC7881E681D306"
+			tasks: [{
+				id: "265483A61E3C35B1"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_500"
+			}]
+			rewards: [{
+				id: "6B407B40E12EA23F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["03CC7881E681D306"]
+			id: "3021276AF877F090"
+			tasks: [{
+				id: "206EAD9DA13DB0C6"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_1000"
+			}]
+			rewards: [{
+				id: "7775F18C0534A0AC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["3021276AF877F090"]
+			id: "2D09816DC0DFBDCB"
+			tasks: [{
+				id: "63532DC1C0053EC9"
+				type: "item"
+				item: "rftoolscontrol:cpu_core_2000"
+			}]
+			rewards: [{
+				id: "46A973C2BD9A5FBA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["3F19823094ADBB02"]
+			id: "3C9717D42CB7D625"
+			tasks: [{
+				id: "392049E7AB73343E"
+				type: "item"
+				item: "rftoolscontrol:ram_chip"
+			}]
+			rewards: [{
+				id: "7A2B4ECBFC6245D6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["27BE3D3C3A859E45"]
+			id: "2F908F82DC4332B7"
+			tasks: [{
+				id: "2728C941E318A364"
+				type: "item"
+				item: "rftoolscontrol:tank"
+			}]
+			rewards: [{
+				id: "02C298168AC3707D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 1.0d
+			description: ["Right click with a simple wrench to activate it once you have set up the configuration to activate it for the first time."]
+			dependencies: ["6932E55C91B8F9E4"]
+			id: "37CC5A22452CF35A"
+			tasks: [{
+				id: "216F308AA2A06252"
+				type: "item"
+				item: "rftoolsbuilder:shield_block1"
+			}]
+			rewards: [{
+				id: "72194A38ABA8CA86"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["37CC5A22452CF35A"]
+			id: "6911CEE8A7972ADA"
+			tasks: [{
+				id: "2319B37FADFAC5C6"
+				type: "item"
+				item: "rftoolsbuilder:shield_block2"
+			}]
+			rewards: [{
+				id: "48D9A1AF790A124B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["6911CEE8A7972ADA"]
+			id: "595C4B0AF9AD3EEF"
+			tasks: [{
+				id: "7FB1E5054D0EAB2B"
+				type: "item"
+				item: "rftoolsbuilder:shield_block3"
+			}]
+			rewards: [{
+				id: "6A6F1AE9CE020F50"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.0d
+			shape: "gear"
+			dependencies: ["595C4B0AF9AD3EEF"]
+			id: "355D2510C7FDF7C3"
+			tasks: [{
+				id: "7A3159B42538CAE0"
+				type: "item"
+				item: "rftoolsbuilder:shield_block4"
+			}]
+			rewards: [{
+				id: "465547E5EFF26255"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "6316F49A9E285220"
+			tasks: [{
+				id: "7D40C49D9E7C4370"
+				type: "item"
+				item: "rftoolsbuilder:builder"
+			}]
+			rewards: [{
+				id: "4780BC996367767A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 1.0d
+			dependencies: [
+				"6932E55C91B8F9E4"
+				"6316F49A9E285220"
+			]
+			id: "0348897A14B48326"
+			tasks: [{
+				id: "6DAD3A7F9D6A96C7"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_def"
+			}]
+			rewards: [{
+				id: "3074A46C4B5051C0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "0AD2F05EFCCBD8C1"
+			tasks: [{
+				id: "0EF84E3C11928C37"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_liquid"
+			}]
+			rewards: [{
+				id: "64A35614ECD31B95"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 2.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "275FEBC8CABF2A38"
+			tasks: [{
+				id: "2B6E1FF8FB571061"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear"
+			}]
+			rewards: [{
+				id: "110B207E9687AE22"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 2.0d
+			description: ["Replaces dug blocks with dirt!"]
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "1D21AF9859659921"
+			tasks: [{
+				id: "55CEA3907BE10C8F"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry"
+			}]
+			rewards: [{
+				id: "34A6A97C66084C14"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 3.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "579E0FE032714387"
+			tasks: [{
+				id: "60A5D72E0B8F9DE5"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+			}]
+			rewards: [{
+				id: "5A100D00E08CCFEA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 4.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "7C2454341A3B34C9"
+			tasks: [{
+				id: "253F065208AC79F9"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			}]
+			rewards: [{
+				id: "336A8E34F0C49008"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 3.0d
+			description: ["Replaces dug blocks with dirt!"]
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "366155055AE4C71B"
+			tasks: [{
+				id: "2C600FB34A2BFFFB"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_fortune"
+			}]
+			rewards: [{
+				id: "15E135EBD1D99591"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "747BC4DD1E14CE44"
+			tasks: [{
+				id: "334AE17811FB8824"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_void"
+			}]
+			rewards: [{
+				id: "656868D0F45FBD05"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "4128D0428C1F2971"
+			tasks: [{
+				id: "67FEB8B7A7269144"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump"
+			}]
+			rewards: [{
+				id: "0EDC7514FFB892E6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 5.0d
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "5E1EFAF5C28FE9EB"
+			tasks: [{
+				id: "0FB6C7929A415789"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_pump_clear"
+			}]
+			rewards: [{
+				id: "3EBEC15997BC99DE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 4.0d
+			description: ["Replaces dug blocks with dirt!"]
+			hide_dependency_lines: true
+			dependencies: ["6316F49A9E285220"]
+			id: "791C3F16506F0A07"
+			tasks: [{
+				id: "3ABBC3898327BA4F"
+				type: "item"
+				item: "rftoolsbuilder:shape_card_quarry_silk"
+			}]
+			rewards: [{
+				id: "3F325A33D7B823BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "6932E55C91B8F9E4"
+			tasks: [{
+				id: "40F40A797069A115"
+				type: "item"
+				item: "rftoolsbase:smartwrench"
+			}]
+			rewards: [{
+				id: "3279E2B482239932"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 20.5d
+			y: 1.0d
+			dependencies: ["79B6FE01E919BD28"]
+			id: "51D2E41337E93460"
+			tasks: [{
+				id: "4F44D4A4BB1FB386"
+				type: "item"
+				item: "rftoolspower:blazing_generator"
+			}]
+			rewards: [{
+				id: "3C9092504F18B60C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 20.5d
+			y: 0.0d
+			description: ["Transforms blaze rods into blazing rods!"]
+			dependencies: ["02B6D605B34C9FDA"]
+			hide_text_until_complete: true
+			id: "79B6FE01E919BD28"
+			tasks: [{
+				id: "442BD4B41D1DAB7E"
+				type: "item"
+				item: "rftoolspower:blazing_agitator"
+			}]
+			rewards: [{
+				id: "1A39C952043C1FFB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 22.0d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "414982FD08A6255C"
+			tasks: [{
+				id: "1EE6E64ABD8C260F"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_simple"
+			}]
+			rewards: [{
+				id: "37C04545CCD2F5BE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 22.0d
+			y: 1.0d
+			dependencies: ["414982FD08A6255C"]
+			id: "66DD6B1989A2F00C"
+			tasks: [{
+				id: "054588DF8B0229E2"
+				type: "item"
+				item: "rftoolspower:dimensionalcell"
+			}]
+			rewards: [{
+				id: "125AAA47392DD64B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 22.0d
+			y: 2.0d
+			dependencies: ["66DD6B1989A2F00C"]
+			id: "193F211FE5646C5E"
+			tasks: [{
+				id: "5EE916EAF957123C"
+				type: "item"
+				item: "rftoolspower:dimensionalcell_advanced"
+			}]
+			rewards: [{
+				id: "603C3CA424AC6F59"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 23.5d
+			y: 0.0d
+			description: ["Generates power with coal!"]
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "394F8F15A7E7623D"
+			tasks: [{
+				id: "5963C887AFFF7276"
+				type: "item"
+				item: "rftoolspower:coalgenerator"
+			}]
+			rewards: [{
+				id: "31A379CFF887841C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "04EE5763F18166C7"
+			tasks: [{
+				id: "25509C529298EC5C"
+				type: "item"
+				item: "rftoolspower:cell1"
+			}]
+			rewards: [{
+				id: "22195B600BC85CBE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 1.0d
+			dependencies: ["04EE5763F18166C7"]
+			id: "18BC02B75F6D2FB7"
+			tasks: [{
+				id: "56118963B23D9D18"
+				type: "item"
+				item: "rftoolspower:cell2"
+			}]
+			rewards: [{
+				id: "19761861B8014EC9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 25.0d
+			y: 2.0d
+			dependencies: ["18BC02B75F6D2FB7"]
+			id: "56AE14A982F81F93"
+			tasks: [{
+				id: "669B6DF9A73B5AC7"
+				type: "item"
+				item: "rftoolspower:cell3"
+			}]
+			rewards: [{
+				id: "4712508D5FB1E107"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 26.5d
+			y: 1.0d
+			dependencies: ["1AE22C052D626EFF"]
+			id: "195C3B2FDE82BA0C"
+			tasks: [{
+				id: "0A6B61727BD08932"
+				type: "item"
+				item: "rftoolspower:endergenic"
+				count: 4L
+			}]
+			rewards: [{
+				id: "56898FE57C22D67C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 26.5d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "1AE22C052D626EFF"
+			tasks: [{
+				id: "471E5F218EEE445D"
+				type: "item"
+				item: "rftoolspower:pearl_injector"
+			}]
+			rewards: [{
+				id: "107880CC78A5E1B7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 26.5d
+			y: 2.0d
+			shape: "gear"
+			dependencies: ["195C3B2FDE82BA0C"]
+			id: "094A9DAAE6CB5358"
+			tasks: [{
+				id: "68E3126F9AD8E22B"
+				type: "item"
+				item: "rftoolspower:ender_monitor"
+			}]
+			rewards: [
+				{
+					id: "6848D04992078338"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "6045C4EBC508239C"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 1.0d
+			dependencies: ["16D1E0AE29BCE1CD"]
+			id: "6DBCD8962FA5E53B"
+			tasks: [{
+				id: "6F4B8C2A1D26E4B7"
+				type: "item"
+				item: "rftoolsdim:common_lost_knowledge"
+			}]
+			rewards: [{
+				id: "2A95409436B0AB61"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 2.0d
+			dependencies: ["6DBCD8962FA5E53B"]
+			id: "46DF9D9683D778AB"
+			tasks: [{
+				id: "70E4226B97DCB2ED"
+				type: "item"
+				item: "rftoolsdim:uncommon_lost_knowledge"
+			}]
+			rewards: [{
+				id: "5DC6DBB8B9EC78E5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 3.0d
+			dependencies: ["46DF9D9683D778AB"]
+			id: "4D7F91E717E3E3A3"
+			tasks: [{
+				id: "67F34AEA8E3DB878"
+				type: "item"
+				item: "rftoolsdim:rare_lost_knowledge"
+			}]
+			rewards: [{
+				id: "32C50F54D975DC81"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 4.0d
+			dependencies: ["4D7F91E717E3E3A3"]
+			id: "60DC3ED7A8444375"
+			tasks: [{
+				id: "5A2EC44C00D5A26F"
+				type: "item"
+				item: "rftoolsdim:legendary_lost_knowledge"
+			}]
+			rewards: [{
+				id: "75C2E5F229C1373D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 2.0d
+			description: ["Stores knowledge for all of your knowledge needs."]
+			dependencies: ["6DBCD8962FA5E53B"]
+			id: "77A162578F90E5F8"
+			tasks: [{
+				id: "7A71247BF372707A"
+				type: "item"
+				item: "rftoolsdim:knowledge_holder"
+			}]
+			rewards: [{
+				id: "0431FE4E030B90A1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -17.5d
+			y: 5.0d
+			shape: "gear"
+			description: ["This is used to create dimlets you have researched! Each requires a memory module, and energy module, as well as an EMPTY dimlet you can craft. Additionally this will require one of the absorbers to specify what exactly it is that you want!"]
+			dependencies: [
+				"314DCFA4C4938A1C"
+				"45334E55504FAF48"
+			]
+			id: "0E324A2A65557E91"
+			tasks: [{
+				id: "70E32AF2138496F6"
+				type: "item"
+				item: "rftoolsdim:dimlet_workbench"
+			}]
+			rewards: [{
+				id: "06E33D1E10F0B391"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: -20.5d
+			y: 0.0d
+			description: ["Enscribes a dimension tab with dimlets that modify the dimention! Be sure to name it in the very bottom left with LOWERCASE letters otherwise it will not work!"]
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "17803DF013B744F7"
+			tasks: [{
+				id: "156EAF38B212522D"
+				type: "item"
+				item: "rftoolsdim:enscriber"
+			}]
+			rewards: [{
+				id: "31E4875D824B8387"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -20.5d
+			y: 1.0d
+			description: ["This is were you can store dimensions and power them!"]
+			dependencies: ["17803DF013B744F7"]
+			id: "65C18B2602E57BBB"
+			tasks: [{
+				id: "67D2CDDE9298D536"
+				type: "item"
+				item: "rftoolsdim:dimension_builder"
+			}]
+			rewards: [{
+				id: "10C68B1366AC717C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -20.5d
+			y: 2.0d
+			shape: "gear"
+			description: ["You can use this to select the dimension that you generated and teleport there! BE SURE TO HAVE A WAY BACK!"]
+			dependencies: ["65C18B2602E57BBB"]
+			id: "5213FEAD93991471"
+			tasks: [
+				{
+					id: "4DEEA9A7503641E7"
+					type: "item"
+					item: "rftoolsutility:matter_transmitter"
+				}
+				{
+					id: "592D77B4434436EC"
+					type: "item"
+					item: "rftoolsutility:dialing_device"
+				}
+			]
+			rewards: [
+				{
+					id: "1A28C200F95CFDFB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "enchanted_books"
+						}
+					}
+				}
+				{
+					id: "0259900247EA10D1"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 0.0d
+			description: ["You can research dimlets in this table to unlock them in the dimlet workbench!"]
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "16D1E0AE29BCE1CD"
+			tasks: [{
+				id: "635B62E2E633BFB2"
+				type: "item"
+				item: "rftoolsdim:researcher"
+			}]
+			rewards: [{
+				id: "061C12985B91C6EF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: 6.0d
+			dependencies: ["0E324A2A65557E91"]
+			id: "373790471E5B72D7"
+			tasks: [{
+				id: "7EF6FCA7BFFFEABB"
+				type: "item"
+				item: "rftoolsdim:block_absorber"
+			}]
+			rewards: [{
+				id: "3DC9DC442C681AEC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -18.0d
+			y: 6.0d
+			dependencies: ["0E324A2A65557E91"]
+			id: "61F03A976ACE12C4"
+			tasks: [{
+				id: "23FAF5E502FE94B6"
+				type: "item"
+				item: "rftoolsdim:fluid_absorber"
+			}]
+			rewards: [{
+				id: "4027BCC927B3664E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: 6.0d
+			dependencies: ["0E324A2A65557E91"]
+			id: "6DEEE9F0AB8AF54E"
+			tasks: [{
+				id: "62BE5B3ACC4ECAF9"
+				type: "item"
+				item: "rftoolsdim:biome_absorber"
+			}]
+			rewards: [{
+				id: "6E8B3CBEC05CE14E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -17.0d
+			y: 6.0d
+			dependencies: ["0E324A2A65557E91"]
+			id: "5517ADEF7CE4D114"
+			tasks: [{
+				id: "4A1FD373AB07194E"
+				type: "item"
+				item: "rftoolsdim:structure_absorber"
+			}]
+			rewards: [{
+				id: "555F0EFAFE37478F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -18.5d
+			y: 1.0d
+			dependencies: ["16D1E0AE29BCE1CD"]
+			id: "45334E55504FAF48"
+			tasks: [{
+				id: "3929974507E7589E"
+				type: "item"
+				item: "rftoolsdim:part_memory_0"
+			}]
+			rewards: [{
+				id: "6BA52FE3F827099F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.5d
+			y: 1.0d
+			dependencies: ["16D1E0AE29BCE1CD"]
+			id: "314DCFA4C4938A1C"
+			tasks: [{
+				id: "4D846E4B4C95FF74"
+				type: "item"
+				item: "rftoolsdim:part_energy_0"
+			}]
+			rewards: [{
+				id: "70F7EE543EA725C1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: 2.0d
+			dependencies: ["314DCFA4C4938A1C"]
+			id: "24FCDA7F477D1A13"
+			tasks: [{
+				id: "58DE134B08177157"
+				type: "item"
+				item: "rftoolsdim:part_energy_1"
+			}]
+			rewards: [{
+				id: "544522A1582BCB0A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: 3.0d
+			dependencies: ["24FCDA7F477D1A13"]
+			id: "52972EC51382512D"
+			tasks: [{
+				id: "306402C336BCE75E"
+				type: "item"
+				item: "rftoolsdim:part_energy_2"
+			}]
+			rewards: [{
+				id: "42318B615003677F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -16.0d
+			y: 4.0d
+			dependencies: ["52972EC51382512D"]
+			id: "4814289FF06F88ED"
+			tasks: [{
+				id: "125E257D42B238F0"
+				type: "item"
+				item: "rftoolsdim:part_energy_3"
+			}]
+			rewards: [{
+				id: "69C39684B6916F1C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: 2.0d
+			dependencies: ["45334E55504FAF48"]
+			id: "7739FBF64C4D3101"
+			tasks: [{
+				id: "1E74FC18C321ECF7"
+				type: "item"
+				item: "rftoolsdim:part_memory_1"
+			}]
+			rewards: [{
+				id: "6044B6C8BC9AE4B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: 3.0d
+			dependencies: ["7739FBF64C4D3101"]
+			id: "6F6094C91B873D48"
+			tasks: [{
+				id: "1B895CA8E9EA4251"
+				type: "item"
+				item: "rftoolsdim:part_memory_2"
+			}]
+			rewards: [{
+				id: "21B14FA02B4DA977"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: 4.0d
+			dependencies: ["6F6094C91B873D48"]
+			id: "0ADE20FDDE4B2D3D"
+			tasks: [{
+				id: "62B9F5A0EDE01259"
+				type: "item"
+				item: "rftoolsdim:part_memory_3"
+			}]
+			rewards: [{
+				id: "3678E68D8B84684D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.0d
+			dependencies: ["02B6D605B34C9FDA"]
+			hide: true
+			id: "24E0CB4E782E0DCB"
+			tasks: [{
+				id: "7C243E721E475689"
+				type: "item"
+				item: "rftoolsutility:crafter1"
+			}]
+			rewards: [{
+				id: "33E008D337CBCD9F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.0d
+			dependencies: ["24E0CB4E782E0DCB"]
+			id: "797D4C3E0C83F55D"
+			tasks: [{
+				id: "2C97F5B10D7791D6"
+				type: "item"
+				item: "rftoolsutility:crafter2"
+			}]
+			rewards: [{
+				id: "0BAFA39ED33FFA56"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			dependencies: ["797D4C3E0C83F55D"]
+			id: "2B7EFC26FD211AEC"
+			tasks: [{
+				id: "675E711CDE2C1470"
+				type: "item"
+				item: "rftoolsutility:crafter3"
+			}]
+			rewards: [{
+				id: "22FA55AF2242F22A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+	]
+}

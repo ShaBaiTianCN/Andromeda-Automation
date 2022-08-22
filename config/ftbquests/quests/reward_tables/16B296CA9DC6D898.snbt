@@ -1,0 +1,8 @@
+{
+	id: "16B296CA9DC6D898"
+	order_index: 72
+	title: "dchirp"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:music_disc_chirp" }]
+}

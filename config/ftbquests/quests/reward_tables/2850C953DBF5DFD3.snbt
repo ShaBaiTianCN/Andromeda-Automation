@@ -1,0 +1,16 @@
+{
+	id: "2850C953DBF5DFD3"
+	order_index: 90
+	title: "Creativeupgrade"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "tconstruct:creative_slot"
+			Count: 1b
+			tag: {
+				slot: "upgrades"
+			}
+		}
+	}]
+}

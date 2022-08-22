@@ -1,0 +1,8 @@
+{
+	id: "2C8AF739D1575704"
+	order_index: 64
+	title: "RareShaders"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "immersiveengineering:shader_bag_rare" }]
+}

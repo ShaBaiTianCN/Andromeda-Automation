@@ -1,0 +1,20 @@
+{
+	id: "0F3EC54E9529F9B5"
+	order_index: 115
+	title: "Very_Lucky_Blocks"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "lucky:lucky_block"
+			Count: 1b
+			tag: {
+				Luck: 80
+				display: {
+					Name: "{\"translate\":\"block.lucky.lucky_block.veryLucky\"}"
+				}
+			}
+		}
+		count: 16
+	}]
+}

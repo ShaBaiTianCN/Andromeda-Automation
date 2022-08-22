@@ -1,0 +1,11 @@
+{
+  "name": "Fire Coral",
+  "colors": [
+    "ff0033",
+    "cf1f42"
+  ],
+  "ingredient": {
+    "item": "minecraft:fire_coral_block"
+  },
+  "inUltimateSingularity": false
+}

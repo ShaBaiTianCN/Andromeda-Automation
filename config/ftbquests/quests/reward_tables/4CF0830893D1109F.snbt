@@ -1,0 +1,8 @@
+{
+	id: "4CF0830893D1109F"
+	order_index: 71
+	title: "dblock"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:music_disc_blocks" }]
+}

@@ -1,0 +1,16 @@
+{
+	id: "31676C244DA911E8"
+	order_index: 110
+	title: "MysticalAgriculture"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "mysticalagriculture:guide"
+			}
+		}
+	}]
+}

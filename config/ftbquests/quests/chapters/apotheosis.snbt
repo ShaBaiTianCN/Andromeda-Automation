@@ -1,0 +1,951 @@
+{
+	id: "267BED234D1FBB8A"
+	group: "1BDE5602F1BE5CBF"
+	order_index: 2
+	filename: "apotheosis"
+	title: "Apotheosis"
+	icon: "minecraft:spawner"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Grab it! Grab it! [using silk touch]"
+			icon: "minecraft:spawner"
+			x: -0.5d
+			y: -1.5d
+			description: [
+				""
+				"that is right folks! Using this mod you can pick up spawners using silk touch. Beware! It uses a lot of duribility!"
+			]
+			dependencies: ["14BBD80AC3CAC3F3"]
+			hide: true
+			id: "5EC275B882D8B432"
+			tasks: [{
+				id: "2D90A8B0BDC25867"
+				type: "observation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:spawner"
+			}]
+			rewards: [{
+				id: "7A133BD3F59B580D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:quartz"
+			x: -3.5d
+			y: 0.5d
+			description: ["If you hold nether quartz in your off-hand wile applying any of your buffs you can reverse them! For instance if a buff makes the spawner spawn faster, hold nether quartz in your off-hand and using the item will make it slower!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "3C2B208627976E36"
+			tasks: [{
+				id: "02B391F115901B57"
+				type: "checkmark"
+				title: "Quartz"
+			}]
+			rewards: [{
+				id: "10835BF58F96C603"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["Players no longer have to be near for this to function. Be careful on servers!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "3BBD09043483242F"
+			tasks: [{
+				id: "70ADAB63668E7C56"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [{
+				id: "05782EF819AA5E17"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["Makes spawners ignore light requirement!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "6925A66D12BAA05E"
+			tasks: [{
+				id: "2A4730651DEFA2F2"
+				type: "item"
+				item: "minecraft:soul_lantern"
+			}]
+			rewards: [{
+				id: "3FB0BDFEDD6FC71C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["So spawners spawn things between two frequencies! The minimum spawn delay and the max spawn delay! This decreases the max spawn delay!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "78594412B0426EBB"
+			tasks: [{
+				id: "5AC6D84B772BBD6C"
+				type: "item"
+				item: "minecraft:clock"
+			}]
+			rewards: [{
+				id: "7F1F75AEC787CEBC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["Enables Spawners to be controlled by Redstone!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "61AB234385128F98"
+			tasks: [{
+				id: "4E5D6F63FD5F0174"
+				type: "item"
+				item: "minecraft:comparator"
+			}]
+			rewards: [{
+				id: "2AF29A9A5FE6184C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["So spawners spawn things between two frequencies! The minimum spawn delay and the max spawn delay! This decreased the min spawn delay!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "0714D2023DC53A27"
+			tasks: [{
+				id: "1E380DDF3259C23A"
+				type: "item"
+				item: "minecraft:sugar"
+			}]
+			rewards: [{
+				id: "4E74E5F655CFEFD9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:dragon_egg"
+			x: -2.5d
+			y: 1.0d
+			description: ["Just keep spawning spawning spawning.... ahem.... this makes spawners ignore any spawn requirements!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "7561911EDBB01558"
+			tasks: [{
+				id: "5F0C4CC1EF583AA5"
+				type: "item"
+				item: "minecraft:dragon_egg"
+			}]
+			rewards: [{
+				id: "29D5719A299BEF9B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			description: ["Increases the volume of mobs that are spawned!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "5A1A3CFC096A6A27"
+			tasks: [{
+				id: "7C22527936AF3431"
+				type: "item"
+				item: "minecraft:fermented_spider_eye"
+			}]
+			rewards: [{
+				id: "5F2D9F99CDCB36B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			description: ["Allows more entities to be near the spawner before it stops spawning!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "11E804265A531504"
+			tasks: [{
+				id: "30F0E241A443F435"
+				type: "item"
+				item: "minecraft:ghast_tear"
+			}]
+			rewards: [{
+				id: "2F6A486BE65BC9C4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["This increases the range the player can be at to start the spawning process!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "54E8DA9A886F4A43"
+			tasks: [{
+				id: "144706C7C9BA64EB"
+				type: "item"
+				item: "minecraft:prismarine_crystals"
+			}]
+			rewards: [{
+				id: "3EF7AE4DDD38C552"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.0d
+			description: [
+				""
+				"This increased the range at which the spawner can spawn entities!"
+			]
+			dependencies: ["5EC275B882D8B432"]
+			id: "4ED4F39BBC996260"
+			tasks: [{
+				id: "06391E363B15440E"
+				type: "item"
+				item: "minecraft:blaze_rod"
+			}]
+			rewards: [{
+				id: "7ED1D1B3CA96AC2A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			description: ["Ever want to automatically process the mental equivalent of a potato? Well this destroys those tiny little mob brains so they are factory ready!"]
+			dependencies: ["5EC275B882D8B432"]
+			id: "663D3F34EB9E1B92"
+			tasks: [{
+				id: "40BBA531FBB68E12"
+				type: "item"
+				item: "minecraft:chorus_fruit"
+			}]
+			rewards: [{
+				id: "6BA1EA3D8B5A52EF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 19.0d
+			y: 1.0d
+			description: ["Wanna move around specifically animals? No? oh..."]
+			dependencies: ["18EC9488BA563442"]
+			id: "0F886CDF0C39D6C3"
+			tasks: [{
+				id: "01FA9C2D4101573D"
+				type: "item"
+				item: {
+					id: "apotheosis:ender_lead"
+					Count: 1b
+					tag: {
+						Damage: 0
+						entity_data: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "50E7B99B0158172D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			title: "Crafting your own trident!"
+			x: 20.5d
+			y: 1.0d
+			description: ["Screw those drowned!"]
+			dependencies: ["18EC9488BA563442"]
+			id: "4F3883A7EB8A0FB7"
+			tasks: [{
+				id: "7F7B81C31F3D10B5"
+				type: "item"
+				item: "apotheosis:inert_trident"
+			}]
+			rewards: [{
+				id: "49EAB10C86AA6A1C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 20.5d
+			y: 2.0d
+			dependencies: ["4F3883A7EB8A0FB7"]
+			id: "10888A3A537EDC7C"
+			tasks: [{
+				id: "210E3ADEDF4407AD"
+				type: "item"
+				item: {
+					id: "minecraft:trident"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "4DD6CBEB35C48567"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			title: "Re-learning Enchanting!"
+			icon: "minecraft:enchanting_table"
+			x: 14.5d
+			y: -1.5d
+			description: ["Eterna controls the levels going into an enchantment! The higher the better! Quanta: Controlls the range and randomness of an enchantment! [Rectification: Lessens the negative effects of quanta!] Arcana: Increases volume of enchantments as well as makes rare enchantments like fortune or silk touch more common! Enchanting cues give you a hint of what will be on the enchanted item!"]
+			dependencies: ["14BBD80AC3CAC3F3"]
+			hide: true
+			id: "18EC9488BA563442"
+			tasks: [{
+				id: "698AA4582701BBC8"
+				type: "observation"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "07804D3D0F9F370A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "505AEB7CAF314892"
+			tasks: [{
+				id: "1398920FF4F078BD"
+				type: "item"
+				item: "apotheosis:hellshelf"
+			}]
+			rewards: [{
+				id: "16EFE89FD4F546A8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 3.0d
+			dependencies: ["5047864A1BFF4088"]
+			id: "413BDEA01AB31312"
+			tasks: [{
+				id: "6647E24B943D932E"
+				type: "item"
+				item: "apotheosis:blazing_hellshelf"
+			}]
+			rewards: [{
+				id: "767E31CE8A588534"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			dependencies: ["505AEB7CAF314892"]
+			id: "5047864A1BFF4088"
+			tasks: [{
+				id: "1CE7238B8ED729EF"
+				type: "item"
+				item: "apotheosis:infused_hellshelf"
+			}]
+			rewards: [{
+				id: "141B4DB8E8D9A8C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["5047864A1BFF4088"]
+			id: "0EC73EA42AFAB6C1"
+			tasks: [{
+				id: "2AB8D123C1DCFDF0"
+				type: "item"
+				item: "apotheosis:glowing_hellshelf"
+			}]
+			rewards: [{
+				id: "2508118BE975AE90"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "07C6F8A45F6904BA"
+			tasks: [{
+				id: "180F5084AC5250F6"
+				type: "item"
+				item: "apotheosis:seashelf"
+			}]
+			rewards: [{
+				id: "5E91FC9F34917F3C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			dependencies: ["07C6F8A45F6904BA"]
+			id: "1BA5978875252566"
+			tasks: [{
+				id: "0E07AD452549BAB0"
+				type: "item"
+				item: "apotheosis:infused_seashelf"
+			}]
+			rewards: [{
+				id: "6E51BD423EA46431"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			dependencies: ["1BA5978875252566"]
+			id: "55DC5842680B5B2F"
+			tasks: [{
+				id: "205E629FD386C2DB"
+				type: "item"
+				item: "apotheosis:crystal_seashelf"
+			}]
+			rewards: [{
+				id: "4B8144AD405B549F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			dependencies: ["1BA5978875252566"]
+			id: "53B717D4243BD040"
+			tasks: [{
+				id: "76FD1A0F48A72847"
+				type: "item"
+				item: "apotheosis:heart_seashelf"
+			}]
+			rewards: [{
+				id: "5629C23C190CF4D3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "1069ADC1E4723957"
+			tasks: [{
+				id: "3A5E6D844568CFEB"
+				type: "item"
+				item: "apotheosis:endshelf"
+			}]
+			rewards: [{
+				id: "670305F6B877F230"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.0d
+			dependencies: ["1069ADC1E4723957"]
+			id: "754B50A8E7B7639B"
+			tasks: [{
+				id: "64061CC6600C7C85"
+				type: "item"
+				item: "apotheosis:draconic_endshelf"
+			}]
+			rewards: [{
+				id: "4080678124D1D201"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 2.0d
+			dependencies: ["1069ADC1E4723957"]
+			id: "798583A53B238623"
+			tasks: [{
+				id: "0EF3EF54E5063EAB"
+				type: "item"
+				item: "apotheosis:pearl_endshelf"
+			}]
+			rewards: [{
+				id: "63677B7C16A08C8F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["1BA5978875252566"]
+			id: "0814B19F7E7FC0E1"
+			tasks: [{
+				id: "39CC6AC229CA9CCA"
+				type: "item"
+				item: "apotheosis:rectifier"
+			}]
+			rewards: [{
+				id: "767A45B633320321"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.5d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "1AF333CA8D4FE16C"
+			tasks: [{
+				id: "2CFEED9C6B812D5A"
+				type: "item"
+				item: "apotheosis:beeshelf"
+			}]
+			rewards: [{
+				id: "4D44EB3ED9AD23B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "5BDE0DB91F8F6F91"
+			tasks: [{
+				id: "759C142ECD3A021E"
+				type: "item"
+				item: "apotheosis:melonshelf"
+			}]
+			rewards: [{
+				id: "02C1DB994E846A04"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			title: "Enchantment Storage!"
+			x: 12.5d
+			y: 3.0d
+			shape: "diamond"
+			description: ["Allows you to store enchanted books! Shove a book in click once to pull out one level of that enchantment! Click multiple times to pull out multiple levels!"]
+			dependencies: ["5047864A1BFF4088"]
+			id: "1BE715754AE9E544"
+			tasks: [{
+				id: "5474780516B36D01"
+				type: "item"
+				item: "apotheosis:library"
+			}]
+			rewards: [{
+				id: "7033042EB5ACD32F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 4.0d
+			dependencies: ["0814B19F7E7FC0E1"]
+			id: "3B7B3E1DC249527B"
+			tasks: [{
+				id: "524CD0B4F1F69AC6"
+				type: "item"
+				item: "apotheosis:rectifier_t2"
+			}]
+			rewards: [{
+				id: "646C865E1A500C43"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.0d
+			shape: "gear"
+			dependencies: ["3B7B3E1DC249527B"]
+			id: "039F06B1112913F1"
+			tasks: [{
+				id: "5B97E460A6B5F5C1"
+				type: "item"
+				item: "apotheosis:rectifier_t3"
+			}]
+			rewards: [
+				{
+					id: "163A314D4F912713"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bookshelves"
+						}
+					}
+				}
+				{
+					id: "325A380D51E86171"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 3.0d
+			dependencies: ["5047864A1BFF4088"]
+			id: "18273A0FF466EB49"
+			tasks: [{
+				id: "00D1F3608D00484F"
+				type: "item"
+				item: "apotheosis:sightshelf"
+			}]
+			rewards: [{
+				id: "20DFA7E44022E941"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.0d
+			dependencies: ["18273A0FF466EB49"]
+			id: "27B77978094C6349"
+			tasks: [{
+				id: "55CF549FD06E543C"
+				type: "item"
+				item: "apotheosis:sightshelf_t2"
+			}]
+			rewards: [{
+				id: "4F3BC225BCA2D97A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.0d
+			dependencies: ["1BE715754AE9E544"]
+			id: "421095CE1A6F672A"
+			tasks: [{
+				id: "4DD56DEB4EBD82A9"
+				type: "item"
+				item: "apotheosis:ender_library"
+			}]
+			rewards: [{
+				id: "6B8B57D0AF5B8B67"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bookshelves"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.5d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "1FBDFE1BACA67573"
+			tasks: [{
+				id: "57D26760DAFFBF29"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+			rewards: [{
+				id: "629B11CA946314E2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.5d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "20FC40AC8E8791F9"
+			tasks: [{
+				id: "213D04F464DA7C2E"
+				type: "item"
+				item: "minecraft:candle"
+			}]
+			rewards: [{
+				id: "50952113B658DE07"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.5d
+			y: 1.0d
+			dependencies: ["18EC9488BA563442"]
+			id: "21868FCADFC1EF79"
+			tasks: [{
+				id: "6E512467B92A002F"
+				type: "item"
+				item: "minecraft:bookshelf"
+			}]
+			rewards: [{
+				id: "793ED24B52C15AB1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_machines"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,26 @@
+{
+	id: "4775E72DB939DEFF"
+	order_index: 22
+	title: "Paraglider"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "paraglider:paraglider" }
+		{ item: "paraglider:deku_leaf" }
+		{ item: "paraglider:anti_vessel" }
+		{ item: "paraglider:rito_goddess_statue" }
+		{ item: "paraglider:goron_goddess_statue" }
+		{ item: "paraglider:kakariko_goddess_statue" }
+		{ item: "paraglider:goddess_statue" }
+		{ item: "paraglider:spirit_orb", count: 4, weight: 7 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 10
+			monster: 10
+		}
+		color: 8978232
+		string_id: "paraglider"
+	}
+}

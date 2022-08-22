@@ -1,0 +1,608 @@
+{
+	id: "0EC95E3984BDF272"
+	group: "3169F62C14ECDF17"
+	order_index: 1
+	filename: "resourceful_bees"
+	title: "Resourceful Bees"
+	icon: "minecraft:honeycomb"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "313B94D4FC16E5CD"
+			tasks: [{
+				id: "1B0D6F21940DFB24"
+				type: "item"
+				item: "productivebees:bee_cage"
+			}]
+			rewards: [{
+				id: "52565E5BE20DCA47"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "54B0CBF303270612"
+			tasks: [{
+				id: "37EFAB327A3A542E"
+				type: "item"
+				item: "productivebees:upgrade_base"
+			}]
+			rewards: [{
+				id: "28768BAD2AF9E269"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 1.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "39AC922CDCAC0D7C"
+			tasks: [{
+				id: "20C6DB2A1B8A394E"
+				type: "item"
+				item: "productivebees:upgrade_productivity"
+			}]
+			rewards: [{
+				id: "0A7AF42C6DDBD3A4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 1.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "15813D0B8AC535B5"
+			tasks: [{
+				id: "31A0B2539E2A8FF8"
+				type: "item"
+				item: "productivebees:upgrade_time"
+			}]
+			rewards: [{
+				id: "2B994BF1C0679F22"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "6C67422CD12652E5"
+			tasks: [{
+				id: "3ECDF28B005EDCC7"
+				type: "item"
+				item: "productivebees:upgrade_breeding"
+			}]
+			rewards: [{
+				id: "6416716D44BC1874"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "092CA00AB498DDF9"
+			tasks: [{
+				id: "6AF7030D3D3174C8"
+				type: "item"
+				item: "productivebees:upgrade_comb_block"
+			}]
+			rewards: [{
+				id: "11C1710536F63922"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 2.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "7F7E99D102BF3046"
+			tasks: [{
+				id: "782E5ADD99FF3834"
+				type: "item"
+				item: "productivebees:upgrade_anti_teleport"
+			}]
+			rewards: [{
+				id: "4225BA02CC586E49"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 2.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "12EC229DE4E511FB"
+			tasks: [{
+				id: "109679AA6C00CD5D"
+				type: "item"
+				item: "productivebees:upgrade_range"
+			}]
+			rewards: [{
+				id: "3CC246ABE4AADEB6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 2.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "2415BECECE321046"
+			tasks: [{
+				id: "3426C540AB7A6E24"
+				type: "item"
+				item: "productivebees:upgrade_filter"
+			}]
+			rewards: [{
+				id: "2072CD66687FF60D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["54B0CBF303270612"]
+			id: "2D1FB1A0D878442B"
+			tasks: [{
+				id: "292CC4B9B7120366"
+				type: "item"
+				item: "productivebees:upgrade_bee_sampler"
+			}]
+			rewards: [{
+				id: "52E36F1215368392"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "07991EE49DD7CD6A"
+			tasks: [{
+				id: "3D1B7F0044E92ADB"
+				type: "item"
+				item: "productivebees:jar_oak"
+			}]
+			rewards: [{
+				id: "639146D1248D0B05"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["Try uh... smashing... a live bee with a piston..."]
+			dependencies: ["71F0597850A1BF8F"]
+			id: "75BA6BD624E5E64E"
+			tasks: [
+				{
+					id: "6FE81670636875F8"
+					type: "item"
+					item: "productivebees:bottler"
+				}
+				{
+					id: "2F89F515815C7F61"
+					type: "item"
+					item: "minecraft:piston"
+				}
+			]
+			rewards: [{
+				id: "08837942ECFFA0F5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			description: ["Seperate your squashed bee juice into its parts!"]
+			dependencies: ["3D6B343BBEC7965D"]
+			id: "13E36F0D680E3F7B"
+			tasks: [{
+				id: "7836BE806C6BD5FB"
+				type: "item"
+				item: "productivebees:centrifuge"
+			}]
+			rewards: [{
+				id: "7621E96255FB6D52"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["13E36F0D680E3F7B"]
+			id: "1EDE51F2A8CB1592"
+			tasks: [{
+				id: "57A8D8C21A41185C"
+				type: "item"
+				item: "productivebees:powered_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "4E660757A12E692A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "bees"
+						}
+					}
+				}
+				{
+					id: "0FCD45B35183B501"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "61B0021F3C26B9B1"
+			tasks: [{
+				id: "42A96A55F2D4C73A"
+				type: "item"
+				item: "productivebees:honey_generator"
+			}]
+			rewards: [{
+				id: "54A11940C911942A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Input cages and it will catch any existing bees that fly over it! Bribe the bees with a flower on top!"]
+			dependencies: ["71F0597850A1BF8F"]
+			id: "7B8EA3D8824AFF1C"
+			tasks: [{
+				id: "3B8BED5337A34C12"
+				type: "item"
+				item: "productivebees:catcher"
+			}]
+			rewards: [{
+				id: "3BF9DD1BC9E97B43"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["Combine a full 'type' gene with an egg to get a spawnegg of that bee type!"]
+			dependencies: ["13E36F0D680E3F7B"]
+			id: "45BB3DC81102F400"
+			tasks: [{
+				id: "276BAB95945AF0E0"
+				type: "item"
+				item: "productivebees:incubator"
+			}]
+			rewards: [{
+				id: "4566D5AA1B90A25A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			description: ["Works as a flower basically and allows you to feed bees honey treats to alter their DNA"]
+			dependencies: ["75BA6BD624E5E64E"]
+			id: "425EF45E9C95987A"
+			tasks: [{
+				id: "0F625BEDE31E8B3F"
+				type: "item"
+				item: "productivebees:feeder"
+			}]
+			rewards: [{
+				id: "59E1844244629CF1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			description: ["Stores existing genes, auto combines if it has a redstone signal!"]
+			dependencies: ["13E36F0D680E3F7B"]
+			id: "75149895856DA990"
+			tasks: [{
+				id: "25281932B435FEFC"
+				type: "item"
+				item: "productivebees:gene_indexer"
+			}]
+			rewards: [{
+				id: "47959576A1463BD5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.0d
+			dependencies: ["13A3621E2339856D"]
+			id: "38C58FD42A305ADA"
+			tasks: [{
+				id: "607381EA3219A044"
+				type: "item"
+				title: "Any #productivebees:advanced_beehives"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:advanced_beehives"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5D16544F6B0C0582"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "13A3621E2339856D"
+			tasks: [{
+				id: "06D02F865E398F06"
+				type: "item"
+				title: "Any #productivebees:expansion_boxes"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "productivebees:expansion_boxes"
+					}
+				}
+			}]
+			rewards: [{
+				id: "02FE57E899713BE9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["40DD27E1C969CE4B"]
+			hide: true
+			id: "71F0597850A1BF8F"
+			tasks: [{
+				id: "00652F46F53342E6"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+			rewards: [{
+				id: "10269393961483FF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bee_eggs"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "375A06BBC152CE8A"
+			tasks: [{
+				id: "7F3DACC5F7A40F91"
+				type: "item"
+				item: "productivebees:honey_treat"
+			}]
+			rewards: [{
+				id: "7ADFE2DCD314479A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			title: "You are a  HORRIBLE person"
+			x: -4.5d
+			y: 1.0d
+			description: ["Im sorry bee friend..."]
+			dependencies: ["75BA6BD624E5E64E"]
+			id: "3D6B343BBEC7965D"
+			tasks: [{
+				id: "00B918B447974533"
+				type: "item"
+				item: "productivebees:gene_bottle"
+				only_from_crafting: false
+			}]
+			rewards: [{
+				id: "37246991BD895702"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["71F0597850A1BF8F"]
+			id: "4F354E4EE632D071"
+			tasks: [{
+				id: "6ECB2F312010BCC0"
+				type: "item"
+				item: {
+					id: "productivebees:bee_nest_diamond_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "74832AC61C82D0C7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "bees"
+					}
+				}
+			}]
+		}
+	]
+}

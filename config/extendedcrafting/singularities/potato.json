@@ -1,0 +1,12 @@
+{
+  "name": "Potato",
+  "colors": [
+    "f7f48f",
+    "d1bd64"
+  ],
+  "ingredient": {
+    "item": "minecraft:potato"
+  },
+"inUltimateSingularity": false
+
+}

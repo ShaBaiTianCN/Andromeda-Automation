@@ -1,0 +1,598 @@
+{
+	id: "7304AB16DABF6B5A"
+	group: "6427FC4035BCAD8A"
+	order_index: 0
+	filename: "sophisticated_backpacks"
+	title: "Sophisticated Backpacks"
+	icon: {
+		id: "sophisticatedbackpacks:backpack"
+		Count: 1b
+		tag: {
+			borderColor: 13061821
+			clothColor: 13061821
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Sophisticated Backpacks"
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "26A8B076CB82A770"
+			tasks: [{
+				id: "5E77830F99DC98C7"
+				type: "checkmark"
+				title: "So You Think You Can Backpack"
+			}]
+			rewards: [{
+				id: "643AD7E5CDEEA1A5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "3A3E3EAC29BA4252"
+			tasks: [{
+				id: "2E39529DB8109CF7"
+				type: "item"
+				item: "sophisticatedbackpacks:backpack"
+			}]
+			rewards: [{
+				id: "23DAFD44F78EF967"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["3A3E3EAC29BA4252"]
+			id: "31B41829B8CE817A"
+			tasks: [{
+				id: "0E00326C87BB485B"
+				type: "item"
+				item: "sophisticatedbackpacks:iron_backpack"
+			}]
+			rewards: [{
+				id: "28B6E49A97BBF3D0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			dependencies: ["31B41829B8CE817A"]
+			id: "5F4C21D720076272"
+			tasks: [{
+				id: "03F3521DD86ED064"
+				type: "item"
+				item: "sophisticatedbackpacks:gold_backpack"
+			}]
+			rewards: [{
+				id: "0BF75B0C513E6E07"
+				type: "random"
+				table_id: 1323063595524400633L
+			}]
+		}
+		{
+			x: 5.0d
+			y: 4.5d
+			dependencies: ["5F4C21D720076272"]
+			id: "600902423618A5AB"
+			tasks: [{
+				id: "425132FCBDBCB0E3"
+				type: "item"
+				item: "sophisticatedbackpacks:diamond_backpack"
+			}]
+			rewards: [{
+				id: "0B60202CD4E3503C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			shape: "gear"
+			dependencies: ["600902423618A5AB"]
+			id: "7DA62FB7C0E41D1F"
+			tasks: [{
+				id: "05C1DD188634FA01"
+				type: "item"
+				item: "sophisticatedbackpacks:netherite_backpack"
+			}]
+			rewards: [{
+				id: "7CC9B87AE0FAFC05"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "14AB0D00AB6A3E05"
+			tasks: [{
+				id: "2B3C963646E6B94C"
+				type: "item"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+			}]
+			rewards: [{
+				id: "7D5B5AFC6C2C73C7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "297EF9ED962A6385"
+			tasks: [{
+				id: "1F88492D15CE692C"
+				type: "item"
+				item: "sophisticatedbackpacks:smelting_upgrade"
+			}]
+			rewards: [{
+				id: "09C03557F3356876"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			dependencies: ["297EF9ED962A6385"]
+			id: "6E8B45F0E35F4326"
+			tasks: [{
+				id: "593B7BAD52D04862"
+				type: "item"
+				item: "sophisticatedbackpacks:auto_smelting_upgrade"
+			}]
+			rewards: [{
+				id: "50B4A066D52504D2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "7C5430782CC6BBFB"
+			tasks: [{
+				id: "27810BFD65440B1B"
+				type: "item"
+				item: "sophisticatedbackpacks:crafting_upgrade"
+			}]
+			rewards: [
+				{
+					id: "5D2E01750042F3BE"
+					type: "random"
+					table_id: 2410702710880746479L
+				}
+				{
+					id: "73AACFA75C2E6755"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mob_drops"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "59EBECF1B4A81373"
+			tasks: [{
+				id: "6FE18E702AFF10B9"
+				type: "item"
+				item: "sophisticatedbackpacks:stonecutter_upgrade"
+			}]
+			rewards: [{
+				id: "56FF91D98CF80D6C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "12866ED01AF2C479"
+			tasks: [{
+				id: "485C7958CAF755A5"
+				type: "item"
+				item: "sophisticatedbackpacks:tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "51996F529D33A584"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			dependencies: ["12866ED01AF2C479"]
+			id: "43DB69F04216BF24"
+			tasks: [{
+				id: "32BC7888E9D0BE32"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_tool_swapper_upgrade"
+			}]
+			rewards: [{
+				id: "0BC79112E2E57F66"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "5BBDB8B3DBDBD0A8"
+			tasks: [{
+				id: "46708D037679D383"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+			}]
+			rewards: [{
+				id: "1CF91DD3A407DF65"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			dependencies: ["5BBDB8B3DBDBD0A8"]
+			id: "262D58B46943B13F"
+			tasks: [{
+				id: "285E467FF54C537B"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_2"
+			}]
+			rewards: [{
+				id: "6A8E0EC11A5565ED"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["262D58B46943B13F"]
+			dependency_requirement: "one_completed"
+			id: "0F26BADDF18A764C"
+			tasks: [{
+				id: "6F8F8126B7798AB6"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_3"
+			}]
+			rewards: [{
+				id: "3A763023854BE450"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			shape: "diamond"
+			dependencies: ["0F26BADDF18A764C"]
+			id: "3EC9D670BBE9AFA7"
+			tasks: [{
+				id: "0BFF45291F4E4873"
+				type: "item"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+			}]
+			rewards: [
+				{
+					id: "66F6D358F0D2CBB7"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+				{
+					id: "7D06C88FAD527315"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "artifacts"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "12DDAD122BF22C59"
+			tasks: [{
+				id: "2586387BCE71D3BA"
+				type: "item"
+				item: "sophisticatedbackpacks:pickup_upgrade"
+			}]
+			rewards: [{
+				id: "093F0F14126579E4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			dependencies: ["12DDAD122BF22C59"]
+			id: "0859DD6B457D7563"
+			tasks: [{
+				id: "5D8C3444673B0F88"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pickup_upgrade"
+			}]
+			rewards: [{
+				id: "3CB25300149287D1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "34D9780024F5469D"
+			tasks: [{
+				id: "18BE675B46FE8B9A"
+				type: "item"
+				item: "sophisticatedbackpacks:filter_upgrade"
+			}]
+			rewards: [{
+				id: "291A9A216D06A8C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["34D9780024F5469D"]
+			id: "06224E924C8531B8"
+			tasks: [{
+				id: "5DD7AAB510857E62"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_filter_upgrade"
+			}]
+			rewards: [{
+				id: "628036F775184AE4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "30BDDF03FEFDA557"
+			tasks: [{
+				id: "74B184EC8871B640"
+				type: "item"
+				item: "sophisticatedbackpacks:compacting_upgrade"
+			}]
+			rewards: [{
+				id: "5EB5EED7C25FA49D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["30BDDF03FEFDA557"]
+			id: "5386BDA9374BBD5D"
+			tasks: [{
+				id: "32FCFE65D13F86FD"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_compacting_upgrade"
+			}]
+			rewards: [{
+				id: "77A5DBA6A168AD82"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "049CD87C266E3D6D"
+			tasks: [{
+				id: "29D19C2B51584173"
+				type: "item"
+				item: "sophisticatedbackpacks:pump_upgrade"
+			}]
+			rewards: [{
+				id: "1460E858DF9D65A3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["049CD87C266E3D6D"]
+			id: "17726FC668E5169F"
+			tasks: [{
+				id: "1D13AC875A44F9FB"
+				type: "item"
+				item: "sophisticatedbackpacks:advanced_pump_upgrade"
+			}]
+			rewards: [{
+				id: "05697DD3488739DC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["26A8B076CB82A770"]
+			id: "64C388E43D6488AC"
+			tasks: [{
+				id: "6982BE9C96C03665"
+				type: "item"
+				item: "sophisticatedbackpacks:jukebox_upgrade"
+			}]
+			rewards: [{
+				id: "00D3B6B68F2E8CBC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+	]
+}

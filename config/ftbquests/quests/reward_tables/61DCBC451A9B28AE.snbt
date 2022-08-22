@@ -1,0 +1,8 @@
+{
+	id: "61DCBC451A9B28AE"
+	order_index: 83
+	title: "dthime"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "alexsmobs:music_disc_thime" }]
+}

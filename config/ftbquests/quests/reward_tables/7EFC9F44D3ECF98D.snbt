@@ -1,0 +1,20 @@
+{
+	id: "7EFC9F44D3ECF98D"
+	order_index: 116
+	title: "Unlucky_Blocks"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "lucky:lucky_block"
+			Count: 1b
+			tag: {
+				Luck: -80
+				display: {
+					Name: "{\"translate\":\"block.lucky.lucky_block.unlucky\"}"
+				}
+			}
+		}
+		count: 16
+	}]
+}

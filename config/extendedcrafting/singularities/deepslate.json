@@ -1,0 +1,12 @@
+{
+  "name": "Deepslate",
+  "colors": [
+    "3d3736",
+    "292727"
+  ],
+  "ingredient": {
+    "item": "minecraft:deepslate"
+  },
+"inUltimateSingularity": false
+
+}

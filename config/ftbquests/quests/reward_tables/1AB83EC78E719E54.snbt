@@ -1,0 +1,16 @@
+{
+	id: "1AB83EC78E719E54"
+	order_index: 41
+	title: "Slow_Falling"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "minecraft:potion"
+			Count: 1b
+			tag: {
+				Potion: "minecraft:long_slow_falling"
+			}
+		}
+	}]
+}

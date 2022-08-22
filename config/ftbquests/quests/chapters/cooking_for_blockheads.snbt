@@ -1,0 +1,746 @@
+{
+	id: "6AE98C1DB7A7DD3F"
+	group: "3B8B12427843DE95"
+	order_index: 1
+	filename: "cooking_for_blockheads"
+	title: "Kitchen Building"
+	icon: "cookingforblockheads:cooking_table"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Cooking With Ergo"
+			icon: "thermal:pbj_sandwich"
+			x: 0.0d
+			y: 0.0d
+			description: ["Life isn't complete until you can stab someone with a spatula! Cooking for blockheads is neat because the blocks for the kitchen connect and form a multi-block, in other words when accessing the crafting table it meets the requirements to craft something depending on what is connected!"]
+			dependencies: ["53F0CBAA8F78A0D2"]
+			id: "4671412C883C059E"
+			tasks: [{
+				id: "585A8FA39337FB5E"
+				type: "checkmark"
+				title: "Let's Cook!"
+			}]
+			rewards: [{
+				id: "2AEB854154DEC94B"
+				type: "item"
+				item: "thermal:pbj_sandwich"
+				count: 32
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			shape: "gear"
+			description: ["Uses all connecting kitchen items!"]
+			dependencies: ["3197A82BAB357327"]
+			id: "64353FC2FD72803A"
+			tasks: [{
+				id: "16F7A8004D7D7D48"
+				type: "item"
+				item: "cookingforblockheads:cooking_table"
+			}]
+			rewards: [
+				{
+					id: "28057D9C18E66A66"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "passive_mobs"
+						}
+					}
+				}
+				{
+					id: "607CEFC50C702CC5"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -3.0d
+			description: ["Just one would be illegal"]
+			dependencies: ["4671412C883C059E"]
+			id: "32E77CD0DE4315A3"
+			tasks: [{
+				id: "4F39D2353E987D2D"
+				type: "item"
+				item: "cookingforblockheads:fridge"
+				count: 2L
+			}]
+			rewards: [{
+				id: "18047110C828E1CD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			description: ["Provides water to the cooking table!"]
+			dependencies: ["4671412C883C059E"]
+			id: "4F1748EEB388A64B"
+			tasks: [{
+				id: "2F03379E6A2F08EC"
+				type: "item"
+				item: "cookingforblockheads:sink"
+			}]
+			rewards: [{
+				id: "1108D4A7C162FF9A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -2.0d
+			dependencies: ["4671412C883C059E"]
+			id: "0E16472B98331539"
+			tasks: [{
+				id: "101208F66E153DDB"
+				type: "item"
+				item: "cookingforblockheads:counter"
+			}]
+			rewards: [{
+				id: "4D67E315961A4ADF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			description: ["Stores goods for use at the cooking table."]
+			dependencies: ["4671412C883C059E"]
+			id: "316574F1BD1A01AF"
+			tasks: [{
+				id: "584568C8A0D54EE2"
+				type: "item"
+				item: "cookingforblockheads:cabinet"
+			}]
+			rewards: [{
+				id: "72A3DB8FB93FEA0C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			dependencies: ["4671412C883C059E"]
+			id: "0485ADCE15A4641D"
+			tasks: [{
+				id: "607DCA65256E4784"
+				type: "item"
+				item: "cookingforblockheads:corner"
+			}]
+			rewards: [{
+				id: "32DB98CBF9139E8D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["Can mass produce cooked foods!"]
+			dependencies: ["4671412C883C059E"]
+			id: "52D1D8F4E7C0F766"
+			tasks: [{
+				id: "5F8494E1F49D15AA"
+				type: "item"
+				item: "cookingforblockheads:oven"
+			}]
+			rewards: [{
+				id: "531203F56CAADBAD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			hide_dependency_lines: false
+			dependencies: ["4671412C883C059E"]
+			id: "0F361836EB2C1567"
+			tasks: [{
+				id: "1D083CFBB66E89AF"
+				type: "item"
+				item: "cookingforblockheads:hanging_corner"
+			}]
+			rewards: [{
+				id: "3D1F4F90B4144F6D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			description: ["Wanna hang up something and make it look pretty? This is the block for you!"]
+			dependencies: ["4671412C883C059E"]
+			id: "7A1709433D9E6A0A"
+			tasks: [{
+				id: "71597D63CAD88A44"
+				type: "item"
+				item: "cookingforblockheads:tool_rack"
+			}]
+			rewards: [{
+				id: "13F77797D84B96F9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["A somewhat meh toaster... At least it is pretty!"]
+			dependencies: ["4671412C883C059E"]
+			id: "42F2D854EAE3F33E"
+			tasks: [{
+				id: "7B23A17886FEE7BB"
+				type: "item"
+				item: "cookingforblockheads:toaster"
+			}]
+			rewards: [{
+				id: "1401B13D6893B610"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: ["Stores milk by default! Trap a cow on top and drop an anvil on its head [with at least one block of air between it and the anvil] to get automated milk production!"]
+			dependencies: ["4671412C883C059E"]
+			dependency_requirement: "one_completed"
+			id: "542B3B5B010D4232"
+			tasks: [{
+				id: "14A86366BB75571B"
+				type: "item"
+				item: "cookingforblockheads:milk_jar"
+			}]
+			rewards: [{
+				id: "2962EE9827F65F7E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["542B3B5B010D4232"]
+			id: "2612F0FF9CFC2807"
+			tasks: [{
+				id: "698948F24837AEEC"
+				type: "item"
+				item: "cookingforblockheads:cow_jar"
+			}]
+			rewards: [{
+				id: "76DC4D5D7FC7D590"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			description: ["The cutest little shelves! Don't forget they can be used for decoration too!"]
+			dependencies: ["4671412C883C059E"]
+			id: "0A5A541AB13E063A"
+			tasks: [{
+				id: "522120E054119A7D"
+				type: "item"
+				item: "cookingforblockheads:spice_rack"
+			}]
+			rewards: [{
+				id: "243129F4106B0A6D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 2.0d
+			description: ["Another adorable display item! Don't forget to use it in your house :D"]
+			dependencies: ["4671412C883C059E"]
+			id: "4D4311CF26F6606D"
+			tasks: [{
+				id: "07DBD7CF5F4B5A01"
+				type: "item"
+				item: "cookingforblockheads:fruit_basket"
+			}]
+			rewards: [{
+				id: "5D091452388BA8CF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			description: ["Great if you have figured out how to generate power with create!"]
+			dependencies: ["52D1D8F4E7C0F766"]
+			id: "7A4766B4F4491CDE"
+			tasks: [{
+				id: "7845275DE7244F41"
+				type: "item"
+				item: "cookingforblockheads:heating_unit"
+			}]
+			rewards: [{
+				id: "2AF240952522381F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.5d
+			description: ["Free ice anyone?"]
+			dependencies: ["32E77CD0DE4315A3"]
+			id: "0EBA35E5CE87B16A"
+			tasks: [{
+				id: "372EACF507C20EF4"
+				type: "item"
+				item: "cookingforblockheads:ice_unit"
+			}]
+			rewards: [{
+				id: "2FD4CA1EC79DCBDF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -2.5d
+			description: ["Have one particularly annoying ingredient? Use this!"]
+			dependencies: ["32E77CD0DE4315A3"]
+			id: "2B01C7C35BE4BC67"
+			tasks: [{
+				id: "059F36F379BD7FFF"
+				type: "item"
+				item: "cookingforblockheads:preservation_chamber"
+			}]
+			rewards: [{
+				id: "0182D8517B520625"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			dependencies: ["4671412C883C059E"]
+			id: "23CEC49F7B8E6347"
+			tasks: [{
+				id: "57C1E19073802FBE"
+				type: "item"
+				item: "cookingforblockheads:no_filter_edition"
+			}]
+			rewards: [{
+				id: "1CE0EBF3CBA26340"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["23CEC49F7B8E6347"]
+			id: "0FC047D181E4C213"
+			tasks: [{
+				id: "5C26CEB39D9706DF"
+				type: "item"
+				item: "cookingforblockheads:recipe_book"
+			}]
+			rewards: [{
+				id: "786290FAAFB4BA98"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			dependencies: ["0FC047D181E4C213"]
+			id: "3197A82BAB357327"
+			tasks: [{
+				id: "2084A80828FCE81E"
+				type: "item"
+				item: "cookingforblockheads:crafting_book"
+			}]
+			rewards: [{
+				id: "18272130E338915E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "passive_mobs"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			description: ["Easy Peasy! Just put in a recipe using 'U' on the pot and then add a bowl to the bowl slot! Delicous food in just a few steps! No need for fuel or anything!"]
+			dependencies: ["4671412C883C059E"]
+			id: "0FAE43E66811B2BA"
+			tasks: [{
+				id: "62C46AA8077CC786"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [{
+				id: "786F7EAB9972FE01"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			dependencies: ["0FAE43E66811B2BA"]
+			id: "7CDC8ED5353F6222"
+			tasks: [{
+				id: "1D23C3D11F9AED1F"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [{
+				id: "45B32E8FA3B6C3DE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["0FAE43E66811B2BA"]
+			id: "438372BB3C26EB84"
+			tasks: [{
+				id: "6713E5AFC647DDBC"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3E466605C6D05A47"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["The best way to use this is to hold the item you are chopping in one hand, and the knife in the other and hold down right click! For recipes use 'U' on the cutting board!"]
+			dependencies: ["00EC025664B11A1B"]
+			id: "54E8787EDFA44115"
+			tasks: [{
+				id: "244BDA88D2D4492B"
+				type: "item"
+				item: "farmersdelight:cutting_board"
+			}]
+			rewards: [{
+				id: "299E247A5EA2D319"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["For use with the cutting board!"]
+			dependencies: ["4671412C883C059E"]
+			id: "00EC025664B11A1B"
+			tasks: [{
+				id: "1479AB7AA17E02D6"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "79666053EAFB4C01"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.0d
+			description: ["Iron Chef"]
+			dependencies: ["00EC025664B11A1B"]
+			id: "583AEE4ECAE3F04D"
+			tasks: [{
+				id: "3DFE0A6E9B45A352"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "33DC308748343D9F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 7.0d
+			description: ["That doesn't seem like a good idea..."]
+			dependencies: ["583AEE4ECAE3F04D"]
+			id: "1D7DA71340D3554F"
+			tasks: [{
+				id: "4915B04F8644E239"
+				type: "item"
+				item: {
+					id: "farmersdelight:golden_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "22A905D22EC68AA7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			title: "Serious Dedication"
+			x: 1.0d
+			y: 8.0d
+			dependencies: ["1D7DA71340D3554F"]
+			id: "484A8472E181AC90"
+			tasks: [{
+				id: "5B91C309EFF32541"
+				type: "item"
+				item: {
+					id: "farmersdelight:diamond_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "277161EB143C604E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			title: "You Did WHAT Now?"
+			x: 1.0d
+			y: 9.0d
+			shape: "gear"
+			description: ["It isn't even that great for stabbing... what a shame"]
+			dependencies: ["484A8472E181AC90"]
+			id: "086D866F318C84E0"
+			tasks: [{
+				id: "76BDFC05169A0E3C"
+				type: "item"
+				item: {
+					id: "farmersdelight:netherite_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6F105BB065468588"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "18B76DFEE3584B48"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+	]
+}

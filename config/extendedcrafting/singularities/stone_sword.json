@@ -1,0 +1,12 @@
+{
+  "name": "Stone Sword",
+  "colors": [
+    "737370",
+    "454541"
+  ],
+  "ingredient": {
+    "item": "minecraft:stone_sword"
+  },
+"inUltimateSingularity": false
+
+}

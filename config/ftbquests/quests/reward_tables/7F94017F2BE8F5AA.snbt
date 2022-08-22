@@ -1,0 +1,8 @@
+{
+	id: "7F94017F2BE8F5AA"
+	order_index: 80
+	title: "dwait"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:music_disc_wait" }]
+}

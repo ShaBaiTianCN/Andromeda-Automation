@@ -1,0 +1,623 @@
+{
+	id: "225B812CC7E3139F"
+	group: "31EE4422B6F1456C"
+	order_index: 0
+	filename: "advanced_generators"
+	title: "Advanced Generators"
+	icon: "advgenerators:turbine_tier5"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: 3.5d
+			shape: "diamond"
+			description: ["This takes syngas, or numerous other fuels to produce energy!"]
+			dependencies: ["7E7E9269F79BA576"]
+			id: "401E9DAF329998B5"
+			tasks: [{
+				id: "253A7F8602BBB613"
+				type: "item"
+				item: "advgenerators:fuel_turbine_controller"
+			}]
+			rewards: [{
+				id: "7920119ACCCA41D3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			description: ["This takes steam to produce energy!"]
+			dependencies: ["5DB9BAACB3299107"]
+			id: "43D202B4682AB09A"
+			tasks: [{
+				id: "6B3B967A5173572F"
+				type: "item"
+				item: "advgenerators:steam_turbine_controller"
+			}]
+			rewards: [{
+				id: "2A166C438D975C8E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["Provide some form of carbon and water and this will generate syngas overtime!"]
+			dependencies: ["03DDB532B4216AAA"]
+			id: "7E7E9269F79BA576"
+			tasks: [
+				{
+					id: "3B5C0A20A8739976"
+					type: "item"
+					item: "advgenerators:syngas_controller"
+				}
+				{
+					id: "30A4F66108AFB1DA"
+					type: "item"
+					item: "advgenerators:mixing_chamber"
+				}
+			]
+			rewards: [{
+				id: "372304641F85FE95"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: ["This allows you to produce steam and obsidian with water and lava!"]
+			dependencies: ["03DDB532B4216AAA"]
+			id: "5DB9BAACB3299107"
+			tasks: [
+				{
+					id: "77D5448E84B1E244"
+					type: "item"
+					item: "advgenerators:exchanger_controller"
+				}
+				{
+					id: "6F92B2CF67B7026A"
+					type: "item"
+					item: "advgenerators:heat_exchanger"
+				}
+			]
+			rewards: [{
+				id: "3F53CAF456C8D79F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: [
+				"7E7E9269F79BA576"
+				"5DB9BAACB3299107"
+			]
+			dependency_requirement: "one_completed"
+			id: "0FEFD9E6ADFE9641"
+			tasks: [{
+				id: "6FAB96A0F5C48C86"
+				type: "item"
+				item: "advgenerators:fluid_input"
+			}]
+			rewards: [{
+				id: "1F886F8F173CE193"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			shape: "gear"
+			dependencies: ["216C8C42FAF447C9"]
+			id: "175A536B6442A4C4"
+			tasks: [{
+				id: "0D366C6525E2C3AD"
+				type: "item"
+				item: "advgenerators:fluid_output_select"
+			}]
+			rewards: [
+				{
+					id: "2E50E382B5546EF1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game_pipes"
+						}
+					}
+				}
+				{
+					id: "5387B128874FF45F"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["This allows you to recieve redstone controlls for the machine"]
+			dependencies: [
+				"7E7E9269F79BA576"
+				"5DB9BAACB3299107"
+			]
+			dependency_requirement: "one_completed"
+			id: "20433697FB981E6D"
+			tasks: [{
+				id: "1E9E15175AE6B748"
+				type: "item"
+				item: "advgenerators:control"
+			}]
+			rewards: [{
+				id: "04CEBB012E9926A5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["Provides additional space for heat, and therefore more rate of production!"]
+			dependencies: [
+				"7E7E9269F79BA576"
+				"5DB9BAACB3299107"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F15AD3C1A887CC6"
+			tasks: [{
+				id: "55C9EA5EDFE30092"
+				type: "item"
+				item: "advgenerators:heating_chamber"
+			}]
+			rewards: [{
+				id: "0A2708D6F3809768"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			description: ["Allows you to import items!"]
+			dependencies: [
+				"7E7E9269F79BA576"
+				"5DB9BAACB3299107"
+			]
+			dependency_requirement: "one_completed"
+			id: "468A3B63284F07C1"
+			tasks: [{
+				id: "51DA1A8E3254D665"
+				type: "item"
+				item: "advgenerators:item_input"
+			}]
+			rewards: [{
+				id: "6F8816D43756325F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			description: ["This allows you to detect specific criteria to power on or off your generator!"]
+			dependencies: [
+				"7E7E9269F79BA576"
+				"5DB9BAACB3299107"
+			]
+			dependency_requirement: "one_completed"
+			id: "5C72A28F818F3AE6"
+			tasks: [{
+				id: "4408C6454AB5AB93"
+				type: "item"
+				item: "advgenerators:sensor"
+			}]
+			rewards: [{
+				id: "4A43E4090F1A0B54"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 6.0d
+			dependencies: ["6F0442B8466EE166"]
+			id: "707E9BC300A6F739"
+			tasks: [{
+				id: "5D26F65A3A121ACA"
+				type: "item"
+				item: "advgenerators:turbine_tier1"
+			}]
+			rewards: [{
+				id: "2B0AD9F8ACEC4877"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["707E9BC300A6F739"]
+			id: "70B7E0DE4F760649"
+			tasks: [{
+				id: "3AF51A558F448A42"
+				type: "item"
+				item: "advgenerators:turbine_tier2"
+			}]
+			rewards: [{
+				id: "7605A440193D41C5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 9.0d
+			dependencies: ["4AB08CA0D91FF2A5"]
+			id: "67AB737B99573FB4"
+			tasks: [{
+				id: "279F315CE9CC6A18"
+				type: "item"
+				item: "advgenerators:turbine_tier4"
+			}]
+			rewards: [{
+				id: "0B4FF45B75B6A508"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			dependencies: ["707E9BC300A6F739"]
+			id: "4AB08CA0D91FF2A5"
+			tasks: [{
+				id: "7FB5E56A161AF1F2"
+				type: "item"
+				item: "advgenerators:turbine_tier3"
+			}]
+			rewards: [{
+				id: "09DB9E45A03180DC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 10.0d
+			shape: "gear"
+			dependencies: ["67AB737B99573FB4"]
+			id: "4B6E9E341133EACB"
+			tasks: [{
+				id: "2DC6817699846EAF"
+				type: "item"
+				item: "advgenerators:turbine_tier5"
+			}]
+			rewards: [
+				{
+					id: "0556D4FE7537DA3A"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "late_game_pipes"
+						}
+					}
+				}
+				{
+					id: "5BE3C6830B51C629"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 5.0d
+			description: ["These allow you to store extra power!"]
+			dependencies: [
+				"401E9DAF329998B5"
+				"43D202B4682AB09A"
+			]
+			dependency_requirement: "one_completed"
+			id: "29B46C5A2E9B3652"
+			tasks: [{
+				id: "5BAF2796E3FEF3F3"
+				type: "item"
+				item: "advgenerators:power_capacitor_tier1"
+			}]
+			rewards: [{
+				id: "46EB1AA4D79AA998"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			dependencies: ["29B46C5A2E9B3652"]
+			id: "0770FAB6A146DE53"
+			tasks: [{
+				id: "2BE9F6D1E80A44B9"
+				type: "item"
+				item: "advgenerators:power_capacitor_tier2"
+			}]
+			rewards: [{
+				id: "52D7A1D26DF95168"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 7.0d
+			dependencies: ["0770FAB6A146DE53"]
+			id: "67ED7251B8318D80"
+			tasks: [{
+				id: "2CA2ACC126CED026"
+				type: "item"
+				item: "advgenerators:power_capacitor_tier3"
+			}]
+			rewards: [{
+				id: "2129892499CA6E8B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.0d
+			description: ["This allows you to store extra fuel!"]
+			dependencies: [
+				"401E9DAF329998B5"
+				"43D202B4682AB09A"
+			]
+			dependency_requirement: "one_completed"
+			id: "56271DC3BF0DAF80"
+			tasks: [{
+				id: "30A6B3FFE05EF7AC"
+				type: "item"
+				item: "advgenerators:fuel_tank"
+			}]
+			rewards: [{
+				id: "1DB80D20549D560B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			description: ["This increases the efficiency of the generator!"]
+			dependencies: ["401E9DAF329998B5"]
+			id: "07F5A385143DAF86"
+			tasks: [{
+				id: "7C7E7E057B87DF8C"
+				type: "item"
+				item: "advgenerators:efficiency_upgrade_tier1"
+			}]
+			rewards: [{
+				id: "35EAE199247958AA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 5.0d
+			description: ["Increases the efficiency of the generator!"]
+			dependencies: ["401E9DAF329998B5"]
+			id: "6EA02356B3AEE43B"
+			tasks: [{
+				id: "2AE329DDDA15C847"
+				type: "item"
+				item: "advgenerators:efficiency_upgrade_tier2"
+			}]
+			rewards: [{
+				id: "2BABC4287093E625"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 5.0d
+			description: ["This allows you to extract power from your multiblock! Use a crecent hammer if it isn't outputting power properly!"]
+			dependencies: [
+				"401E9DAF329998B5"
+				"43D202B4682AB09A"
+			]
+			dependency_requirement: "one_completed"
+			id: "6F0442B8466EE166"
+			tasks: [{
+				id: "19D8F89EEE267F6E"
+				type: "item"
+				item: "advgenerators:fe_output"
+			}]
+			rewards: [{
+				id: "5EDBE5BA4C39E2E5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			description: ["You can right click a fluid extractor to turn it on and let all of your fluid pipes and whatnot interact with it!"]
+			dependencies: [
+				"7E7E9269F79BA576"
+				"5DB9BAACB3299107"
+			]
+			id: "216C8C42FAF447C9"
+			tasks: [{
+				id: "4D0C9F9C6ADFBBA4"
+				type: "item"
+				item: "thermal:wrench"
+			}]
+			rewards: [{
+				id: "59188039B2401CC8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			description: ["This mod allows you to build multiblock structures that generate power! They can get as complex as you want them to be! Each controller has a list of blocks that it can be connected to to increase productivity or change its attributes! It is NOT that scary once you break it down!"]
+			hide_dependency_lines: true
+			dependencies: ["003D91A2C8A7B89C"]
+			hide: true
+			id: "03DDB532B4216AAA"
+			tasks: [{
+				id: "06A86E4ADBBF4901"
+				type: "checkmark"
+				title: "Advanced Generators"
+			}]
+			rewards: [{
+				id: "0B7194F1F0BB9209"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+	]
+}

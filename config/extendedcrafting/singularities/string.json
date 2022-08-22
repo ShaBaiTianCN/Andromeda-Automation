@@ -1,0 +1,11 @@
+{
+  "name": "String",
+  "colors": [
+    "f7f2ed",
+    "e0dad3"
+  ],
+  "ingredient": {
+    "item": "minecraft:string"
+  },
+"inUltimateSingularity": false
+}

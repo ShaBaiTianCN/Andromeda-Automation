@@ -1,0 +1,16 @@
+{
+	id: "7FEA858BBB4CE640"
+	order_index: 109
+	title: "ExtendedCrafting"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "extendedcrafting:guide"
+			}
+		}
+	}]
+}

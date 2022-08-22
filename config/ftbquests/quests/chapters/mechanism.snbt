@@ -1,0 +1,2329 @@
+{
+	id: "7E3B9EDE466FBDDB"
+	group: "1D115F3DF1092C06"
+	order_index: 8
+	filename: "mechanism"
+	title: "Mekanism"
+	icon: "mekanism:metallurgic_infuser"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -0.5d
+			shape: "pentagon"
+			description: ["This is your main factory block! On the left you have what you are infusing into the second from the left item! Then you have the output and were the power goes!"]
+			dependencies: ["41F6E5AE5D8F7971"]
+			id: "425C628D28B78967"
+			tasks: [{
+				id: "2D9C232A8EE20652"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "4DA78218B388F363"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			description: ["This allows you to enrich the things that go into the metalurgic infuser, allowing for a lot more bang for your buck!"]
+			dependencies: ["425C628D28B78967"]
+			id: "33BA18A9823F6045"
+			tasks: [{
+				id: "7B642F80740D5116"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "36532FA547D5A0D9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.5d
+			dependencies: ["75886C0C52F36EB3"]
+			hide: true
+			id: "41F6E5AE5D8F7971"
+			tasks: [{
+				id: "3E495C70757B2E73"
+				type: "item"
+				item: "mekanism:ingot_osmium"
+			}]
+			rewards: [{
+				id: "152A8D5AFA32B90E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 3.0d
+			description: [
+				""
+				"Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"
+			]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "31685A0CE25FE1C1"
+			tasks: [{
+				id: "62806BBC955B93D9"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [{
+				id: "0FB2B0A4C2871ADD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			description: ["Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"]
+			dependencies: ["31685A0CE25FE1C1"]
+			id: "5EE53AECA01F2094"
+			tasks: [{
+				id: "725D8DF72E48C4AE"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+			rewards: [{
+				id: "70C0C0F5B10CC598"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 5.0d
+			description: ["Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"]
+			dependencies: ["5EE53AECA01F2094"]
+			id: "76B8EF056EE956D7"
+			tasks: [{
+				id: "0F06B4A2F3D1BF09"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+			rewards: [{
+				id: "48F489604EA1A714"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.0d
+			y: 6.0d
+			shape: "gear"
+			description: ["Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"]
+			dependencies: ["76B8EF056EE956D7"]
+			id: "6CF93B7D45F607BD"
+			tasks: [{
+				id: "405474897E50DC54"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+			rewards: [
+				{
+					id: "7ACF99F62DBAC2C3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "lucky_block"
+						}
+					}
+				}
+				{
+					id: "01B909CDAEE634E5"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 3.0d
+			description: ["Mainly produces saw dust!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "086CBAEB82067F03"
+			tasks: [{
+				id: "3A66AD90DD0E315B"
+				type: "item"
+				item: "mekanism:precision_sawmill"
+			}]
+			rewards: [{
+				id: "793241A98D043716"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 4.0d
+			description: ["This allows you to move tile entities like chests by placing it on the tile entitiy and breaking it!"]
+			dependencies: ["086CBAEB82067F03"]
+			id: "5AB6DE010621FE69"
+			tasks: [{
+				id: "1C46EBE294E38FD8"
+				type: "item"
+				item: "dustrial_decor:cardboard_box"
+			}]
+			rewards: [{
+				id: "1141A1BBFA610A7D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			description: ["This can transform into the smelting factory, that can smelt SO many items at a time"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "377951FA9F9756D7"
+			tasks: [{
+				id: "3BCC4E8829EBCD33"
+				type: "item"
+				item: "mekanism:energized_smelter"
+			}]
+			rewards: [{
+				id: "05D0813F6838365E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["A basic crusher for all of your crushing needs! Can be upgraded!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "75D4BCA67305ADFB"
+			tasks: [{
+				id: "3F3997247EC9DE53"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+			rewards: [{
+				id: "30F71C7A73F22D5E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			description: ["Injects items with fluids!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "6BDAA0B29363115F"
+			tasks: [{
+				id: "3B75630DDB9E8313"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+			rewards: [{
+				id: "04ECE3EE87A2EA45"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 3.0d
+			description: ["Turns various liquids into gasses!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "1AC8B2A2EC215363"
+			tasks: [{
+				id: "6EB70135D1B39FEF"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "40D8BAD0308D3C3F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["1AC8B2A2EC215363"]
+			id: "1338C323DB4E7FEA"
+			tasks: [{
+				id: "26D5A0B106392DF7"
+				type: "item"
+				item: "mekanism:electric_pump"
+			}]
+			rewards: [{
+				id: "6928EAFD463292E9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			description: ["This allows you to seperate fluids into their components. So water into hydrogen and oxygen."]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "32CE2FAB835B2F7C"
+			tasks: [{
+				id: "38069AC95510DA30"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "33D9CC6AF40D33B6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			description: ["You can fill your jetpack with hydrogen in the electrolytic seperator"]
+			dependencies: ["32CE2FAB835B2F7C"]
+			id: "1307ED0FE79F04B9"
+			tasks: [{
+				id: "68431FCD00CE3EB2"
+				type: "item"
+				item: "mekanism:jetpack"
+			}]
+			rewards: [{
+				id: "635A5C5FFB9F7770"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			description: ["This charges things in your inventory when you stand on it!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "5556F090B3B03E5A"
+			tasks: [{
+				id: "475857BEC50A06A9"
+				type: "item"
+				item: "mekanism:chargepad"
+			}]
+			rewards: [{
+				id: "14ACDE061E30B866"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			description: ["Stop fall damage!"]
+			dependencies: ["34BDEF4F4FE46B82"]
+			id: "55BE55A78E581840"
+			tasks: [{
+				id: "29741A6537C7D0EC"
+				type: "item"
+				item: "mekanism:free_runners"
+			}]
+			rewards: [{
+				id: "0B79B6CD764034A0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			description: ["This is the ultimate pickaxe! Has speed modes, vein mining modes, and everything in a pickaxe you can dream of!"]
+			dependencies: ["5556F090B3B03E5A"]
+			id: "39EA3339B94DB8E6"
+			tasks: [{
+				id: "1D31EBEEFDDF6529"
+				type: "item"
+				item: "mekanism:atomic_disassembler"
+			}]
+			rewards: [{
+				id: "384A6BC84D19AAC8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 6.5d
+			description: ["Transports power!"]
+			dependencies: ["307440FA153AE659"]
+			id: "040563A3B4380895"
+			tasks: [{
+				id: "52E4036158654E5F"
+				type: "item"
+				item: "mekanism:basic_universal_cable"
+			}]
+			rewards: [{
+				id: "58DE74AA58349E68"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.5d
+			description: ["Transports fluids!"]
+			dependencies: ["307440FA153AE659"]
+			id: "3FB140925948A74F"
+			tasks: [{
+				id: "57EDFB58DDE219A6"
+				type: "item"
+				item: "mekanism:basic_mechanical_pipe"
+			}]
+			rewards: [{
+				id: "48B5C988ADEBA028"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 6.5d
+			description: ["Transports gasses!"]
+			dependencies: ["307440FA153AE659"]
+			id: "0BDCB716AE3C72A7"
+			tasks: [{
+				id: "4BEA05464F63B5A0"
+				type: "item"
+				item: "mekanism:basic_pressurized_tube"
+			}]
+			rewards: [{
+				id: "31DEA1BE078624B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.5d
+			description: ["Transports items!"]
+			dependencies: ["307440FA153AE659"]
+			id: "05E3EF03EE6DB854"
+			tasks: [{
+				id: "64D59FB542A42B15"
+				type: "item"
+				item: "mekanism:basic_logistical_transporter"
+			}]
+			rewards: [{
+				id: "4F7168DCD53485B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 6.5d
+			description: ["Transmits heat!"]
+			dependencies: ["307440FA153AE659"]
+			id: "438867A0E6BD855C"
+			tasks: [{
+				id: "167489B94F969FF3"
+				type: "item"
+				item: "mekanism:basic_thermodynamic_conductor"
+			}]
+			rewards: [{
+				id: "744D5D305D715011"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 18.0d
+			dependencies: ["2196443C5B92CC9D"]
+			id: "43C595EF7076560D"
+			tasks: [
+				{
+					id: "2342FBCB194AA118"
+					type: "item"
+					item: "mekanism:mekasuit_helmet"
+				}
+				{
+					id: "418357479CD05BA6"
+					type: "item"
+					item: "mekanism:mekasuit_bodyarmor"
+				}
+				{
+					id: "176CAACBAB442721"
+					type: "item"
+					item: "mekanism:mekasuit_pants"
+				}
+				{
+					id: "1E7ECD98D180E345"
+					type: "item"
+					item: "mekanism:mekasuit_boots"
+				}
+			]
+			rewards: [{
+				id: "1018F35B825066A1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 17.0d
+			shape: "diamond"
+			description: ["Take a second to celebrate! [and ensure your reactor isn't going to explode ^_^']"]
+			dependencies: ["7C23764FC4BE68FB"]
+			id: "2196443C5B92CC9D"
+			tasks: [{
+				id: "6A389F11FE47326A"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "51A220A045554FDF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 15.0d
+			description: ["Place in the sun to turn your nuclear waste into something useful!"]
+			dependencies: ["7987F46F3B6BBDC5"]
+			id: "42CCF44114C6E333"
+			tasks: [{
+				id: "3665CB9209518753"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [{
+				id: "133FF63DC5192CBF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "755B47AEF9E3FB49"
+			tasks: [{
+				id: "24F947DA8DA784C6"
+				type: "item"
+				item: "mekanism:basic_fluid_tank"
+			}]
+			rewards: [{
+				id: "0DB0FCAACEC46535"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "181CA32B70EA76F6"
+			tasks: [{
+				id: "75E3B5FE30B3F943"
+				type: "item"
+				item: "mekanismgenerators:wind_generator"
+			}]
+			rewards: [{
+				id: "16EB5D0E3E852672"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "7E3B272F26ADA990"
+			tasks: [{
+				id: "5BCE7E9FF9E32A62"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+			rewards: [{
+				id: "34570A0131F542DC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["Generate energy from heat sources within one block of this!"]
+			dependencies: ["41F6E5AE5D8F7971"]
+			id: "10A0B7B4F7DB35AA"
+			tasks: [{
+				id: "314E5398FC7CF294"
+				type: "item"
+				item: "mekanismgenerators:heat_generator"
+			}]
+			rewards: [{
+				id: "15B7F681F7255DC8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			shape: "diamond"
+			dependencies: ["425C628D28B78967"]
+			id: "5DDFEC0187943DE1"
+			tasks: [{
+				id: "18E321A2744EF938"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "0E9434C1DE53620E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			title: "A Dangerous Game"
+			x: 4.5d
+			y: 14.0d
+			description: ["To assemble this multiblock you need a bottom made of reactor casings, as well as the corners! The sides however can be casings, or reactor glass! Fission reactor ports allow you to manage the fluids, and there are 4 main types of fluid going in and out: Cold Coolant [in], Hot Coolant [out], Fuel, and nuclear waste! For the inside of the reactor you need several checkerboarded fission fuel assemblies with a control rod assembly at the top of each pillar. Once completed properly you should get a red particle effect! [Note, the fission reactor logic adapter can allow you to control the reactor with redstone!]"]
+			dependencies: ["15CEE96379D79F9E"]
+			id: "1FAF3BD02218A974"
+			tasks: [
+				{
+					id: "753F942EDF7B00B6"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+					count: 128L
+				}
+				{
+					id: "501C611B7133427A"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+					count: 4L
+				}
+				{
+					id: "7FA190E6E62F8D36"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+				}
+				{
+					id: "3BE6B19313F7A721"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "1DB38A79CC267897"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 64L
+				}
+				{
+					id: "5392A20F596C9BB4"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+			rewards: [{
+				id: "0E8F89BB51E6A6B5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			description: ["The configurator is basically a mega wrench that allows you to configure different types of pipes to push or pull upon shift right clicking! Make sure that you are in the correct mode by using shift + scroll wheel!"]
+			dependencies: ["5556F090B3B03E5A"]
+			id: "307440FA153AE659"
+			tasks: [{
+				id: "441628DAAFB70001"
+				type: "item"
+				item: "mekanism:configurator"
+			}]
+			rewards: [{
+				id: "0AC98EE66D3A1B0C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			title: "Coolant"
+			x: 4.5d
+			y: 15.0d
+			description: ["Coolant could either be water or sodium for you!"]
+			dependencies: ["1FAF3BD02218A974"]
+			id: "7987F46F3B6BBDC5"
+			tasks: [{
+				id: "70DD2A65BD1E1AE9"
+				type: "checkmark"
+				title: "water"
+			}]
+			rewards: [{
+				id: "4423911AFEC197CC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 13.0d
+			description: ["Insert uranium hexafluoride to generate fissel fuel!"]
+			dependencies: ["24CC2B7010C1E4BC"]
+			id: "15CEE96379D79F9E"
+			tasks: [{
+				id: "6A23155D01997918"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "1AF9DC85AB24D5FD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 12.0d
+			description: ["Combine uranium oxide with hydrofluoric acid to generate uranium hexafluoride."]
+			dependencies: [
+				"2959144F56F24CB5"
+				"41744A891FA52B38"
+			]
+			id: "24CC2B7010C1E4BC"
+			tasks: [{
+				id: "3C2E992E5D2A3B07"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "6704724C9DFC6FD5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			description: ["Oxidize the uranium to produce uranium oxide!"]
+			dependencies: ["3E36122000C89033"]
+			id: "2959144F56F24CB5"
+			tasks: [{
+				id: "19A19F3D142631C1"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [{
+				id: "3F5C9AF2A6B464EB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			description: ["Mix the sulfuric acid with fluorite to generate hydrofluoric acid."]
+			dependencies: ["3E36122000C89033"]
+			id: "41744A891FA52B38"
+			tasks: [{
+				id: "3F0ADE1524207801"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+			rewards: [{
+				id: "08358F1A80EA8580"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			description: ["Combine sulfer trioxide and water vapor together to generate sulfuric acid!"]
+			dependencies: [
+				"712134EB89691321"
+				"15796AA7C99C5ED0"
+			]
+			id: "362B56E0B4EDB52D"
+			tasks: [{
+				id: "08509A51674E656C"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "630AB2C711110BC6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.0d
+			description: ["Further mix sulfer dioxide with oxygen gas to produce sulfer trioxide."]
+			dependencies: ["4B634780FC9CBFBF"]
+			id: "712134EB89691321"
+			tasks: [{
+				id: "3D87DC1E7C86BC5A"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "11799818E1E4847D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			description: ["Take sulfer and add it to this machine to produce sulfer dioxide!"]
+			dependencies: ["5A240C2C372A50D2"]
+			id: "4B634780FC9CBFBF"
+			tasks: [{
+				id: "2097FF8C6BBD979B"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+			rewards: [{
+				id: "4EF8352F537C31BE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.0d
+			description: ["Firsty you use water, some oxygen from the electrolitic separator and some coal to produce sulfer"]
+			dependencies: ["7353DC627376DEDF"]
+			id: "5B7F728C47F4E4E5"
+			tasks: [{
+				id: "782CA213286F19B4"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "2B015E2F34C9CBB6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			icon: "minecraft:barrier"
+			x: 4.5d
+			y: 4.0d
+			description: ["This section of the quest tree is directed twords fusion reaction, which generates radiation as well as has the potential to destroy your entire base if a reactor meltdown occurs. Beware!"]
+			dependencies: ["32CE2FAB835B2F7C"]
+			id: "7353DC627376DEDF"
+			tasks: [{
+				id: "4704793C2C13F07B"
+				type: "checkmark"
+				title: "A Troublesome Road"
+			}]
+			rewards: [{
+				id: "39F52C3258D40C64"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			title: "Sulfur"
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["5B7F728C47F4E4E5"]
+			id: "5A240C2C372A50D2"
+			tasks: [{
+				id: "1B6B068840F3052D"
+				type: "item"
+				title: "Any #forge:dusts/sulfur"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "forge:dusts/sulfur"
+					}
+				}
+			}]
+			rewards: [{
+				id: "210F4D06C0E57BA4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.0d
+			description: ["Use this to produce water vapor!"]
+			dependencies: ["4B634780FC9CBFBF"]
+			id: "15796AA7C99C5ED0"
+			tasks: [{
+				id: "5089BBC40D3B2216"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "194924529EB6FA97"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 10.0d
+			description: ["Use the enrichment chamber on a uranium ingot to produce yellow cake uranium!"]
+			dependencies: ["362B56E0B4EDB52D"]
+			id: "3E36122000C89033"
+			tasks: [{
+				id: "52F3027814353D59"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "22624887966AF688"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 16.0d
+			description: ["Mix water, polonium, and fluorite to produce a polonium pellet!"]
+			dependencies: ["42CCF44114C6E333"]
+			id: "7C23764FC4BE68FB"
+			tasks: [{
+				id: "54513856A9D5D9D5"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "616CE448272F0CD6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			title: "Harnessing your reactors steam!"
+			x: 1.5d
+			y: 15.0d
+			description: ["This is a complex multiblock structure so I have broken it down in steps! The first rule/step is that the bottom, top, and all corners of the structure must be made of turbine casings! [The structure can get rather large so keep that in mind!]"]
+			dependencies: ["1FAF3BD02218A974"]
+			id: "24CABD18C59065F9"
+			tasks: [{
+				id: "4B3675E656EF18A6"
+				type: "item"
+				item: "mekanismgenerators:turbine_casing"
+				count: 128L
+			}]
+			rewards: [{
+				id: "3965462E751A156F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 17.0d
+			description: ["Structural glass can take up any portion of the main turbine compartment"]
+			dependencies: ["3959861BDA727A75"]
+			id: "4C3B16B31CFFA518"
+			tasks: [{
+				id: "297F3A9ABD04D1A4"
+				type: "item"
+				item: "mekanism:structural_glass"
+				count: 18L
+			}]
+			rewards: [{
+				id: "4F1B23766F16B955"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 16.0d
+			description: ["The main section of the building is the turbine compartment, ensure that the turbine is centered and NOT touching any of the walls! If it touches the walls the blades are too large and will cause the multistructure to not function!"]
+			dependencies: ["24CABD18C59065F9"]
+			id: "3959861BDA727A75"
+			tasks: [
+				{
+					id: "48ED719FC47EBE84"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+					count: 5L
+				}
+				{
+					id: "186ECAC6CA530B77"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+					count: 10L
+				}
+			]
+			rewards: [{
+				id: "573419CB245685DE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 18.0d
+			description: ["Next, for the roof of the first compartment you will fill one layer with the pressure dispersers, except the block above where the rotor is, that sould be a rotational complex"]
+			dependencies: ["4C3B16B31CFFA518"]
+			id: "7D284A8A9677C355"
+			tasks: [
+				{
+					id: "6A28DA8657126F92"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+					count: 8L
+				}
+				{
+					id: "27E6A6269B72F5BD"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+			]
+			rewards: [{
+				id: "60C176E34832DBB9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 19.0d
+			description: ["Above the rotational complex you should include electromagnetic coils, as many as you really want [keep in mind that they only connect to blocks adjacent [not diagnal] to them."]
+			dependencies: ["7D284A8A9677C355"]
+			id: "3307F52F49034BF3"
+			tasks: [{
+				id: "59C04B999F5D9554"
+				type: "item"
+				item: "mekanismgenerators:electromagnetic_coil"
+				count: 8L
+			}]
+			rewards: [{
+				id: "472094AC3BEB1CB0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 21.0d
+			description: ["Next be sure to include a lot of vents on the level of the disperser/electro to ensure that water has a way to escape, speaking of which this is where you can pump out the condensed water! [keep in mind you still need this many vents to maintain efficiency"]
+			dependencies: ["1D5E9783EF0ABC60"]
+			id: "7AC9506555C890A0"
+			tasks: [{
+				id: "7F05343754B84AD1"
+				type: "item"
+				item: "mekanismgenerators:turbine_vent"
+				count: 24L
+			}]
+			rewards: [{
+				id: "6932E7A1C3489ED8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["5556F090B3B03E5A"]
+			id: "34BDEF4F4FE46B82"
+			tasks: [{
+				id: "614949050CFA9546"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+			rewards: [{
+				id: "20CF16D08F57B8D2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 3.0d
+			description: ["Teleporters allow you to seemlessly transport short distances [and long distances]! To assemble put the teleporter block in the center, and structure the rest like a nether portal [you can do many sizes!], be sure to select the correct channels n whatnot!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "1018C39EF010067E"
+			tasks: [
+				{
+					id: "043111FD03C76A0F"
+					type: "item"
+					item: "mekanism:teleporter_frame"
+					count: 18L
+				}
+				{
+					id: "5FF06E3C9B276622"
+					type: "item"
+					item: "mekanism:teleporter"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "6471C7EC6451BE94"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 4.0d
+			description: ["This is where you store drives to allow your network to access them!"]
+			dependencies: ["42249B0379D92126"]
+			id: "13D44996898A8114"
+			tasks: [{
+				id: "2CEF73E39B267B10"
+				type: "item"
+				item: "mekanism:qio_drive_array"
+			}]
+			rewards: [{
+				id: "62E9AD77C6E4CF30"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 5.0d
+			description: [
+				""
+				"This is the basic unit that allows you to store items! The further up the more items!"
+			]
+			dependencies: ["13D44996898A8114"]
+			id: "01FF9AAD4B09AF3B"
+			tasks: [{
+				id: "2402D86CE7BED3CF"
+				type: "item"
+				item: "mekanism:qio_drive_base"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 6.0d
+			dependencies: ["01FF9AAD4B09AF3B"]
+			id: "5C4DD629B3285058"
+			tasks: [{
+				id: "7FA4A99CF554AF97"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+			rewards: [{
+				id: "46E22E56ECE069B2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 7.0d
+			dependencies: ["5C4DD629B3285058"]
+			id: "7FADA01683FFFB2A"
+			tasks: [{
+				id: "738FD9ED045EF1F8"
+				type: "item"
+				item: "mekanism:qio_drive_time_dilating"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.0d
+			shape: "gear"
+			dependencies: ["7FADA01683FFFB2A"]
+			id: "48AA6C58B7C8F7B2"
+			tasks: [{
+				id: "69146CF4B6BAE57C"
+				type: "item"
+				item: "mekanism:qio_drive_supermassive"
+			}]
+			rewards: [{
+				id: "656C3A57188001B0"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 12.5d
+			y: 3.0d
+			description: ["This is basically mini applied energistics that is wireless! Everything can be set to a specific frequency, items can be stored and monitored on drives, as well as wirelessly transported!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "42249B0379D92126"
+			tasks: [{
+				id: "1F47B5633F093E97"
+				type: "item"
+				item: "mekanism:qio_dashboard"
+			}]
+			rewards: [{
+				id: "43FB6E7F7C757587"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 4.0d
+			dependencies: ["42249B0379D92126"]
+			id: "422C03E4FB456B75"
+			tasks: [{
+				id: "45569A7296731974"
+				type: "item"
+				item: "mekanism:qio_importer"
+			}]
+			rewards: [{
+				id: "3F97FCCDB6ABF8F1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 4.0d
+			dependencies: ["42249B0379D92126"]
+			id: "0F910DA94FA4CE15"
+			tasks: [{
+				id: "28EAC6D364027786"
+				type: "item"
+				item: "mekanism:qio_exporter"
+			}]
+			rewards: [{
+				id: "79AAA89C5637CD2F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 4.0d
+			dependencies: ["42249B0379D92126"]
+			id: "737B545EB0B6B83B"
+			tasks: [{
+				id: "29ADDD60BF0BFFA0"
+				type: "item"
+				item: "mekanism:qio_redstone_adapter"
+			}]
+			rewards: [{
+				id: "61AF02ECD1371886"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 19.0d
+			dependencies: ["43C595EF7076560D"]
+			id: "55EF779D1BF0FE07"
+			tasks: [{
+				id: "5F0AF19B8315578B"
+				type: "item"
+				item: "mekanism:modification_station"
+			}]
+			rewards: [{
+				id: "5CF750FC24F44289"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 20.0d
+			description: ["This allows you to extract large volumes of water when placed on the same level as the electromagnetic coil!"]
+			dependencies: ["3307F52F49034BF3"]
+			id: "1D5E9783EF0ABC60"
+			tasks: [{
+				id: "1337D45C2DC936EE"
+				type: "item"
+				item: "mekanismgenerators:saturating_condenser"
+			}]
+			rewards: [{
+				id: "15D36BF6AC3EE767"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			title: "Thermal Evaporation"
+			x: 9.0d
+			y: 10.5d
+			description: ["Now that you understand how to build these machines, you need another one to turn brine into lithium to further be used to make tritium!"]
+			dependencies: ["77EED457A40D74F6"]
+			id: "221C027FBDCC7D11"
+			tasks: [
+				{
+					id: "02A9D67E832573B6"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "2E3FFD6D795B8CCD"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+				{
+					id: "658A0015885BE420"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 213L
+				}
+				{
+					id: "3522500A06298966"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "0C842E36DFC9FC69"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 15.0d
+			description: ["Both fluids need to be changed back into their fluid forms to be used in the reactor!"]
+			dependencies: [
+				"38F3D9AF5E56F2F1"
+				"4B78D38002D83084"
+			]
+			id: "5346C0E630152117"
+			tasks: [{
+				id: "79C939951D575EC7"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "39E90CBE82B0D4B7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 13.5d
+			description: ["We can seperate heavy water into is components deuterium and oxygen! We are after the deuterium!"]
+			dependencies: ["28F0A63661714C83"]
+			id: "38F3D9AF5E56F2F1"
+			tasks: [{
+				id: "2D042BFA3CE0EF31"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+			rewards: [{
+				id: "635FB1A0521FB424"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			description: ["Applying this filter to a pump allows it to extract heavy water!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "28F0A63661714C83"
+			tasks: [
+				{
+					id: "3FED14E93CEAAAE0"
+					type: "item"
+					item: "mekanism:electric_pump"
+				}
+				{
+					id: "2DEEA6C0AAEAABDE"
+					type: "item"
+					item: "mekanism:upgrade_filter"
+				}
+			]
+			rewards: [{
+				id: "56622DA3EF0B1A8A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 13.5d
+			description: ["Once your lithium is in a gaseous state, it can be added to the solar nuetron activator to produce tritium in a gaseous state!"]
+			dependencies: ["29BB597B8AA9A172"]
+			id: "4B78D38002D83084"
+			tasks: [{
+				id: "4FD33121C05EE829"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+			rewards: [{
+				id: "1F3637A08D3B2BEE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 12.5d
+			description: ["From here you turn your liquid lithium into a gas using this machine!"]
+			dependencies: ["3781495B6786132C"]
+			id: "29BB597B8AA9A172"
+			tasks: [{
+				id: "7A48D215A17EA6ED"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+			rewards: [{
+				id: "0E5242BD70743CD1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 3.0d
+			description: ["This machine must contain 1 controller, 2 evaporation valves, must contain a 2x2 air space and be 18 blocks tall! On the top layer there are 4x solar pannels, one in each corner, but if this sounds too complicated to figure out the pack includes a schematic for it for the schematic cannon! Note! In order to get the brine for the next quest you need to provide this machine with a large amount of water!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			id: "40BCC229C3AF9DDA"
+			tasks: [
+				{
+					id: "4F7FDC3A7E83FC72"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "31D05D8BE9AD6133"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+				{
+					id: "553522B0A1BE2E6A"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 213L
+				}
+				{
+					id: "60D4A5ED13CA61C8"
+					type: "item"
+					item: "mekanismgenerators:advanced_solar_generator"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "4D40B95AD89ABBAE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 11.5d
+			description: ["You can obtain this by simply placing a bucket in the upper right slot of the thermal evaporator!"]
+			dependencies: ["221C027FBDCC7D11"]
+			id: "3781495B6786132C"
+			tasks: [{
+				id: "4DFB3A714374B8E2"
+				type: "item"
+				item: "mekanism:lithium_bucket"
+			}]
+			rewards: [{
+				id: "4A992563859A4B6A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: 9.5d
+			description: ["You can obtain this by simply placing a bucket in the upper right slot of the thermal evaporator!"]
+			dependencies: ["40BCC229C3AF9DDA"]
+			id: "77EED457A40D74F6"
+			tasks: [{
+				id: "091C2EB9EC7C3E01"
+				type: "item"
+				item: "mekanism:brine_bucket"
+			}]
+			rewards: [{
+				id: "3201AC2E120CC7B2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.0d
+			description: ["Lucky you! I have already built this machine and saved it! This allows you to use a schematic cannon, as well as the schematic table to build it for you if you so desire!"]
+			dependencies: ["40BCC229C3AF9DDA"]
+			id: "553D632FBD3BB73A"
+			tasks: [{
+				id: "7B1FE89B0AB08F34"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+			rewards: [{
+				id: "4ECBA8BCFFDE3571"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 16.0d
+			description: ["Next we use the tritium and deuterium together to fabricate D-T fuel in the chemical infuser!"]
+			dependencies: ["5346C0E630152117"]
+			id: "5C18768696D65042"
+			tasks: [{
+				id: "4BDF68AE1DEF35B5"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "4EEC5A02250C29DA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 17.0d
+			dependencies: ["5C18768696D65042"]
+			id: "2379418EA71135DF"
+			tasks: [{
+				id: "040C6BBB929ABCBA"
+				type: "item"
+				item: "mekanismgenerators:fusion_fuel_bucket"
+			}]
+			rewards: [{
+				id: "6CDE20C020032B35"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 20.0d
+			description: ["To fill up a hohlraum with a bit of the gas to kickstart the reaction you need to use a tank to fill it!"]
+			dependencies: ["1143BCE5276588EB"]
+			id: "03CE4D4A3B09731F"
+			tasks: [{
+				id: "74F56D17091753D8"
+				type: "item"
+				item: "mekanismgenerators:hohlraum"
+			}]
+			rewards: [{
+				id: "0F56ECAA41FBDBC6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			title: "Tank"
+			x: 8.5d
+			y: 19.0d
+			description: ["To fill up a hohlraum with a bit of the gas to kickstart the reaction you need to use a tank to fill it!"]
+			dependencies: ["77BAACC784701AD9"]
+			id: "1143BCE5276588EB"
+			tasks: [{
+				id: "4C85E5D362E7B70B"
+				type: "item"
+				title: "Any #appmek:mekanism_tanks"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "appmek:mekanism_tanks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "4FF155A9B892CAED"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 18.0d
+			description: ["This reactor is quite difficult to assemble, but the premise is, you make a 5x5x5 cube of reactor casing, remove the outermost 4 blocks of each corner, add a controller in the top center, a lense focus on the center of one of the 4 sides, and multiple reactor ports on the side, one for D-T fuel in, one for water in, one for steam out! To fullly harness the power of this generator you need to water cool it, and use the steam generated to power several turbines!"]
+			dependencies: [
+				"2379418EA71135DF"
+				"2196443C5B92CC9D"
+			]
+			id: "77BAACC784701AD9"
+			tasks: [
+				{
+					id: "14A6DCF657F7E4B9"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "3F4D254D215B7933"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 61L
+				}
+				{
+					id: "556CA7F50277CAA7"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 3L
+				}
+				{
+					id: "161016C28D11C787"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+			]
+			rewards: [{
+				id: "7C22375127963AE0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 19.0d
+			description: ["Lucky you! I have already built this machine and saved it! This allows you to use a schematic cannon, as well as the schematic table to build it for you if you so desire!"]
+			dependencies: ["77BAACC784701AD9"]
+			id: "22867767D82F51C3"
+			tasks: [{
+				id: "26EC334382DE52FA"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+			rewards: [{
+				id: "0B1B0BC0C8438B95"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			title: "Starting the Reactor"
+			x: 8.5d
+			y: 21.0d
+			description: ["The laser focuses are placed like pistons [the target facing twords you] and they can be focused into other laser amplifiers. The goal here is to have a huge daisy chain of laser ampliphiers accumulating laser energy to shoot into the center of the reactor to kick start it! To kick start it you need to make sure the hohlraum flask is filled with a tad of D-T fuel and placed into the controller. Then ensure the last laser pointing twords the reactor is set to be only active with redstone power. After 1.5 GJ or so is stored in the front laser, redstone activate it and it will fire into the center of the reactor! You know it worked if you see crazy red and blue cubes freaking out inside!"]
+			dependencies: ["03CE4D4A3B09731F"]
+			id: "20CECE4C65F420A8"
+			tasks: [
+				{
+					id: "2579515198AE141B"
+					type: "item"
+					item: "mekanism:laser_amplifier"
+					count: 32L
+				}
+				{
+					id: "57241F293ACE1E84"
+					type: "item"
+					item: "mekanism:laser"
+					count: 96L
+				}
+				{
+					id: "05A9D3C1C08DADFB"
+					type: "item"
+					item: {
+						id: "mekanismgenerators:hohlraum"
+						Count: 1b
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										gasName: "mekanismgenerators:fusion_fuel"
+										amount: 10L
+									}
+								}]
+							}
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "702611D1E735FFCA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 22.0d
+			shape: "diamond"
+			description: ["At this point your reactor should not explode and will self perpetuate provided it has enough D-T fuel at hand and the reactor does not cool down too much [from water cooling or otherwise]. If either of these fail you will need to jump start the reactor again!"]
+			dependencies: ["20CECE4C65F420A8"]
+			id: "4B55E3BE6619A3E8"
+			tasks: [{
+				id: "5FD19E7CDFB92BB3"
+				type: "checkmark"
+				title: "The reactor going forward"
+			}]
+			rewards: [{
+				id: "3C51B4140450F99B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 15.0d
+			description: ["This will produce plutonium fluid when provided with nuclear waste!"]
+			dependencies: ["7987F46F3B6BBDC5"]
+			id: "335676BE5F5F03EF"
+			tasks: [{
+				id: "0706EAB25E98D228"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "7A75102A69BF353E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 16.0d
+			description: ["Use plutonium fluid, fluorite dust, and some sort of coolant to fabricate plutonium pellets!"]
+			dependencies: ["335676BE5F5F03EF"]
+			id: "0B99D70509C44BD5"
+			tasks: [{
+				id: "39D75C99BA75A913"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+			rewards: [{
+				id: "4CDE3912C063BD09"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "enchanted_books"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 17.0d
+			dependencies: ["0B99D70509C44BD5"]
+			id: "18484CAC3A5ACB06"
+			tasks: [{
+				id: "09FEA92FEF519B49"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [{
+				id: "34ACCC4C33D14460"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			title: "SuperCritical Phase Shifter"
+			x: 3.5d
+			y: 18.0d
+			description: ["This complicated machine allows you to turn POLONIUM into antimater! Assemble by making a 7x7x7 cube with the 4 blocks closest to each corner removed. All blocks touching the edge of the shape must be SPS blocks, and to maximize resources the center of each face should be reactor glass! From there add a port on the center of each face, and on the inside add a supercharged coil to each interface. Once assembled you will need 2 additional ports, one for polonium in and one for antimater out! Be aware this process is extremely slow! [keep in mind EACH port connected to a super charged coil needs to be powered!]"]
+			dependencies: ["18484CAC3A5ACB06"]
+			id: "3D2DAECE26645902"
+			tasks: [
+				{
+					id: "6FA4E2FF5CBCB0C0"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 118L
+				}
+				{
+					id: "2FA3AB9C4972CDF9"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "136DE6CC807F0642"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 8L
+				}
+				{
+					id: "5A982B020BEE5F13"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+					count: 6L
+				}
+			]
+			rewards: [{
+				id: "5433BAF1A98053EA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 19.0d
+			description: ["Lucky you! I have already built this machine and saved it! This allows you to use a schematic cannon, as well as the schematic table to build it for you if you so desire!"]
+			dependencies: ["3D2DAECE26645902"]
+			id: "5DEF2336FEC6D82E"
+			tasks: [{
+				id: "467443A2EC851ECB"
+				type: "item"
+				item: "create:empty_schematic"
+			}]
+			rewards: [{
+				id: "3B6EFB1E395180BF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 19.0d
+			dependencies: ["3D2DAECE26645902"]
+			id: "437A1E23ECD9B407"
+			tasks: [{
+				id: "3D8EC5D4D44CF9E7"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+			rewards: [{
+				id: "736888385C0A2EAE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 20.0d
+			shape: "diamond"
+			description: ["Probably the hardest material to get in the game. Well done!"]
+			dependencies: ["437A1E23ECD9B407"]
+			id: "3F9538CB9BB45AD7"
+			tasks: [{
+				id: "0D98FF882A447CBF"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "30C0B8C34DE99B12"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+	]
+}

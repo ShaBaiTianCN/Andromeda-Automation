@@ -1,0 +1,493 @@
+{
+	id: "0F9E84E5AAE337F2"
+	group: "75940C6E9EF33EDC"
+	order_index: 1
+	filename: "super_circuit_maker"
+	title: "Super Circuit Maker"
+	icon: "supercircuitmaker:tiny_redstone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.5d
+			y: -1.0d
+			dependencies: ["624D8D85E6C1F011"]
+			hide: true
+			id: "3E2CB805A3B44CF4"
+			tasks: [{
+				id: "472657FE42CC2DF6"
+				type: "item"
+				item: "supercircuitmaker:circuit"
+			}]
+			rewards: [{
+				id: "3F086F34BD050E80"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: ["This fancy tool allows you to dictate exactly were signals can go! It also can be used on the edge of a board [that has redstone on it] to allow it to interact with the world!"]
+			dependencies: ["3E2CB805A3B44CF4"]
+			id: "1346105BE21B3725"
+			tasks: [{
+				id: "406842403578A0BE"
+				type: "item"
+				item: "supercircuitmaker:screwdriver"
+			}]
+			rewards: [{
+				id: "58B59A80A582F297"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			description: ["This allows you to dye circuits to stay on one channel! they will not automatically connect to those of a different color!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "6DAE12EE9AEC64D3"
+			tasks: [{
+				id: "2BBF8114DA60C88D"
+				type: "item"
+				item: "supercircuitmaker:palette"
+			}]
+			rewards: [{
+				id: "3BF99D3E31E50A66"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["Your basic redstone!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "631FCC537EEBC302"
+			tasks: [{
+				id: "5DF407CB863F6994"
+				type: "item"
+				item: "supercircuitmaker:tiny_redstone"
+			}]
+			rewards: [{
+				id: "01D6504B27A79B52"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["This takes your redstone up a level... Literally!"]
+			dependencies: ["631FCC537EEBC302"]
+			id: "1C264BB6D49ABF8B"
+			tasks: [{
+				id: "4BAE4FC0D9B9D409"
+				type: "item"
+				item: "supercircuitmaker:redstone_stick"
+			}]
+			rewards: [{
+				id: "080D915A66C3FA36"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["These allow you to transmit on multiple signals!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "21B09F112544E42A"
+			tasks: [{
+				id: "0F9F2485420BA364"
+				type: "item"
+				item: "supercircuitmaker:tiny_rgb_redstone"
+			}]
+			rewards: [{
+				id: "589E96D68773B396"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			subtitle: "This takes your redstone up a level... Literally!"
+			dependencies: ["21B09F112544E42A"]
+			id: "62370C4ACE133E9A"
+			tasks: [{
+				id: "3502DD7BD8276759"
+				type: "item"
+				item: "supercircuitmaker:rgb_redstone_stick"
+			}]
+			rewards: [{
+				id: "1DF9DA1E9335BCE6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.5d
+			description: ["A toggled glow! Use for some cool signs or something!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "461C6985E8560878"
+			tasks: [{
+				id: "2D51E1423357F290"
+				type: "item"
+				item: "supercircuitmaker:randomizer"
+			}]
+			rewards: [{
+				id: "1503A6C3B2049EE6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			description: ["Basically a repeater for the board, right click to configure!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "6A406673B5AE3471"
+			tasks: [{
+				id: "4606921F12000767"
+				type: "item"
+				item: "supercircuitmaker:delay"
+			}]
+			rewards: [{
+				id: "7FEE4D9BFECF869B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["A timer that can be right clicked to configure!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "5DC5945829BE42CB"
+			tasks: [{
+				id: "0CA727FD7154603A"
+				type: "item"
+				item: "supercircuitmaker:pulsar"
+			}]
+			rewards: [{
+				id: "0ABD50FF828FE776"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			description: [
+				""
+				"This makes the cutest little sounds!"
+			]
+			dependencies: ["1346105BE21B3725"]
+			id: "660A2D155D5D3D46"
+			tasks: [{
+				id: "0152D52E0726CA24"
+				type: "item"
+				item: "supercircuitmaker:note"
+			}]
+			rewards: [{
+				id: "609E79ACB2D0FACA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			description: ["Glows!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "3C45692A7BB66B10"
+			tasks: [{
+				id: "4DDB25AEBD9318F0"
+				type: "item"
+				item: "supercircuitmaker:lamp"
+			}]
+			rewards: [{
+				id: "4117578E31C7F4FC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["A tiny little button!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "183E814FF34CF59B"
+			tasks: [{
+				id: "79A594A48D08B515"
+				type: "item"
+				item: "supercircuitmaker:button"
+			}]
+			rewards: [{
+				id: "36D174D4A44E2333"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["1346105BE21B3725"]
+			id: "10DDFC69039F319F"
+			tasks: [{
+				id: "05C06930F23A8D4F"
+				type: "item"
+				item: "supercircuitmaker:adder"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			dependencies: ["1346105BE21B3725"]
+			id: "5014081179816DE0"
+			tasks: [{
+				id: "18D8073D00FAAE31"
+				type: "item"
+				item: "supercircuitmaker:subtractor"
+			}]
+			rewards: [{
+				id: "094813497EB92A45"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.5d
+			dependencies: ["1346105BE21B3725"]
+			id: "449DF8A7868A92B0"
+			tasks: [{
+				id: "4A55A0107B3F710E"
+				type: "item"
+				item: "supercircuitmaker:multiplier"
+			}]
+			rewards: [{
+				id: "6E1F7F8000976C43"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			dependencies: ["1346105BE21B3725"]
+			id: "0C45F29B92C7C729"
+			tasks: [{
+				id: "28BF6DEC0723DEFB"
+				type: "item"
+				item: "supercircuitmaker:divider"
+			}]
+			rewards: [{
+				id: "266BE994C6E5001E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["1346105BE21B3725"]
+			id: "02256CE92F14491B"
+			tasks: [{
+				id: "0613B94E385B2031"
+				type: "item"
+				item: "supercircuitmaker:constant"
+			}]
+			rewards: [{
+				id: "06106577918E3129"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			dependencies: ["1346105BE21B3725"]
+			id: "2C8F3B0217D11DE7"
+			tasks: [{
+				id: "1BB59F62B3F61A02"
+				type: "item"
+				item: "minecraft:redstone_torch"
+			}]
+			rewards: [{
+				id: "462CB2930CF732C6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 1.5d
+			description: ["These behave a bit different! on the shorter side it transmits power on whatever side the stick is on, and it can be toggled on the longer sides!"]
+			dependencies: ["1346105BE21B3725"]
+			id: "7A5C3CFE83106B35"
+			tasks: [{
+				id: "5BDA25D663FF0ECF"
+				type: "item"
+				item: "minecraft:lever"
+			}]
+			rewards: [{
+				id: "4C7087E8A5E14C19"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "vanilla_redstone"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			shape: "gear"
+			description: ["This allows you to place redstone on higher levels"]
+			dependencies: [
+				"1C264BB6D49ABF8B"
+				"62370C4ACE133E9A"
+			]
+			dependency_requirement: "one_completed"
+			id: "3DC6E54CB12E4B6F"
+			tasks: [{
+				id: "5E57838DD73D7062"
+				type: "item"
+				item: "supercircuitmaker:platform"
+			}]
+			rewards: [
+				{
+					id: "24B8B928D51B4E2B"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+				{
+					id: "3F4189BD262FAB68"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+	]
+}

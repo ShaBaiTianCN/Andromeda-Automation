@@ -1,0 +1,12 @@
+{
+  "name": "Golden Sword",
+  "colors": [
+    "d4d669",
+    "9a9c48"
+  ],
+  "ingredient": {
+    "item": "minecraft:golden_sword"
+  },
+"inUltimateSingularity": false
+
+}

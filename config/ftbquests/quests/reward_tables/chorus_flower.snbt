@@ -1,0 +1,7 @@
+{
+	id: "607283A24D899396"
+	order_index: 119
+	title: "Chorus Flower"
+	loot_size: 1
+	rewards: [{ item: "minecraft:chorus_flower", count: 16 }]
+}

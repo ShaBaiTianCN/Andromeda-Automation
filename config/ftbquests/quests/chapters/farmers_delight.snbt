@@ -1,0 +1,633 @@
+{
+	id: "7F8421C9F7F7E79D"
+	group: "3B8B12427843DE95"
+	order_index: 0
+	filename: "farmers_delight"
+	title: "Farmer's Delight"
+	icon: "farmersdelight:rice_panicle"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "farmersdelight:roast_chicken_block"
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["424B33092B9B4E78"]
+			hide: true
+			id: "3DCA2297425D745B"
+			tasks: [{
+				id: "6EFC1D8BC00E22F7"
+				type: "checkmark"
+				title: "Farmer's Delight Goodies!"
+			}]
+			rewards: [{
+				id: "6F5B8F2C0224D2BF"
+				type: "item"
+				item: "farmersdelight:roast_chicken_block"
+				count: 5
+			}]
+		}
+		{
+			x: 5.0d
+			y: 1.0d
+			dependencies: ["5FDF79F55A845A88"]
+			id: "7C2FA4B2B6C22BAF"
+			tasks: [{
+				id: "6944B4D8CF73A40A"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+			rewards: [{
+				id: "6DDEEAAF9409CA1A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			dependencies: ["7C2FA4B2B6C22BAF"]
+			id: "1BC82CE7689856BB"
+			tasks: [{
+				id: "395D3B954FE634C1"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [{
+				id: "3CF0DD147D0C1A26"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			description: ["It may be time to grow some rice and shove it into a cutting board! [quests located in kitchen building]"]
+			dependencies: ["3DCA2297425D745B"]
+			id: "5FDF79F55A845A88"
+			tasks: [{
+				id: "325131F22D9551C5"
+				type: "item"
+				item: "farmersdelight:straw"
+			}]
+			rewards: [{
+				id: "6F87DF01ABD4C952"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["69EEDC98A5FBA39B"]
+			id: "6C57B424A2746F1E"
+			tasks: [{
+				id: "28A67A68634FB214"
+				type: "item"
+				item: {
+					id: "minecraft:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "02668D4E3E04FABF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			shape: "gear"
+			description: ["Shoot an arrow and climb up. Floating islands here we go!"]
+			dependencies: ["6C57B424A2746F1E"]
+			id: "27A64DFD9EDAF89F"
+			tasks: [{
+				id: "4F5B58EFEF58E8E3"
+				type: "item"
+				item: {
+					id: "supplementaries:rope_arrow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1711CF28AEA3C7DB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "super_food"
+						}
+					}
+				}
+				{
+					id: "2E6913D6FE0BF189"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["2C54FF0CE93E95EA"]
+			id: "2FBF442E286F223E"
+			tasks: [{
+				id: "700E1D388BB3E1B1"
+				type: "item"
+				item: "farmersdelight:canvas_sign"
+			}]
+			rewards: [{
+				id: "582794E8CDD3E3EE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -1.5d
+			dependencies: ["5FDF79F55A845A88"]
+			id: "2C54FF0CE93E95EA"
+			tasks: [{
+				id: "452712BC3686CF7E"
+				type: "item"
+				item: "farmersdelight:canvas"
+			}]
+			rewards: [{
+				id: "75121A9756B86553"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -0.5d
+			dependencies: ["2C54FF0CE93E95EA"]
+			id: "600AC0AF670E855C"
+			tasks: [{
+				id: "633F875B330C99A1"
+				type: "item"
+				item: "farmersdelight:canvas_rug"
+			}]
+			rewards: [{
+				id: "35541F908E447B15"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.0d
+			dependencies: ["2C54FF0CE93E95EA"]
+			id: "0AA2B6212CBAA9E1"
+			tasks: [{
+				id: "5FE6211C59190592"
+				type: "item"
+				item: "farmersdelight:half_tatami_mat"
+			}]
+			rewards: [{
+				id: "5CA87105B72D68B8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["2C54FF0CE93E95EA"]
+			id: "0DFBB126BBC87ECB"
+			tasks: [{
+				id: "759E6D5C886A48F4"
+				type: "item"
+				item: "farmersdelight:full_tatami_mat"
+			}]
+			rewards: [{
+				id: "7524DE739F287188"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["2C54FF0CE93E95EA"]
+			id: "1F13AF7F869802F0"
+			tasks: [{
+				id: "067240994F60244C"
+				type: "item"
+				item: "farmersdelight:basket"
+			}]
+			rewards: [{
+				id: "5660B94F0C104E93"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			description: ["Silk touch anyone?"]
+			dependencies: ["3DCA2297425D745B"]
+			id: "2F8FC09EF41BA47C"
+			tasks: [
+				{
+					id: "122D97D6928EAA81"
+					type: "item"
+					item: "farmersdelight:red_mushroom_colony"
+				}
+				{
+					id: "2050BEFAD6AAE067"
+					type: "item"
+					item: "farmersdelight:brown_mushroom_colony"
+				}
+			]
+			rewards: [{
+				id: "60D0CB0121DADD2C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			dependencies: ["3DCA2297425D745B"]
+			id: "0619A580BCEFD660"
+			tasks: [{
+				id: "334D90F73BD77B06"
+				type: "item"
+				item: "farmersdelight:cabbage"
+			}]
+			rewards: [{
+				id: "092D43C99B5AB9EB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.5d
+			dependencies: ["3DCA2297425D745B"]
+			id: "2FDA50A441BBBBB7"
+			tasks: [{
+				id: "6A7BB2432096A8E4"
+				type: "item"
+				item: "farmersdelight:tomato"
+			}]
+			rewards: [{
+				id: "72B993BD44B0AE12"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			dependencies: ["3DCA2297425D745B"]
+			id: "568EB49D0FE0FB5D"
+			tasks: [{
+				id: "2F8F63D04376ED0E"
+				type: "item"
+				item: "farmersdelight:onion"
+			}]
+			rewards: [{
+				id: "7E037492AD0B99B8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			dependencies: ["3DCA2297425D745B"]
+			id: "7594AE92CF1F1BEA"
+			tasks: [{
+				id: "089FAF250C1A639D"
+				type: "item"
+				item: "farmersdelight:rice_panicle"
+			}]
+			rewards: [{
+				id: "1D99883F598AAACA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.5d
+			dependencies: ["69EEDC98A5FBA39B"]
+			id: "2AC817CB58F75886"
+			tasks: [{
+				id: "59B643DF807D6F1E"
+				type: "item"
+				item: "farmersdelight:safety_net"
+			}]
+			rewards: [{
+				id: "3B55FF494D054143"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["5FDF79F55A845A88"]
+			id: "69EEDC98A5FBA39B"
+			tasks: [{
+				id: "5FE7B819C44B23BF"
+				type: "item"
+				item: "farmersdelight:rope"
+			}]
+			rewards: [{
+				id: "7B6268A12261BCE2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "5F9A012FC6791D6B"
+			tasks: [{
+				id: "492C8B492B1E0932"
+				type: "item"
+				item: "farmersdelight:grilled_salmon"
+			}]
+			rewards: [{
+				id: "0D220396EEFBC020"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "2DEF883D78BAA61B"
+			tasks: [{
+				id: "12FB0065FB1CA532"
+				type: "item"
+				item: "farmersdelight:dog_food"
+			}]
+			rewards: [{
+				id: "5F5DF4C8ABC69197"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "002B9BD26778C112"
+			tasks: [{
+				id: "226ABD709E9CBB42"
+				type: "item"
+				item: "farmersdelight:horse_feed"
+			}]
+			rewards: [{
+				id: "42C4D05BDFD25BFA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "average_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "4BD29E225B163EE1"
+			tasks: [{
+				id: "6CABD56E07891D32"
+				type: "item"
+				item: "farmersdelight:shepherds_pie_block"
+			}]
+			rewards: [{
+				id: "38A0AC981FFE74F2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "062CAAF4385D1DB0"
+			tasks: [{
+				id: "735E94677FAF9325"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin_block"
+			}]
+			rewards: [{
+				id: "6C9BEABCFC4E049A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "363B93B5CF708CE9"
+			tasks: [{
+				id: "4DCB3F3B40DF90CE"
+				type: "item"
+				item: "farmersdelight:ratatouille"
+			}]
+			rewards: [{
+				id: "348523A76013AB1C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 2.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "34C1DD9E742BA818"
+			tasks: [{
+				id: "4CCBD0F3A91523F5"
+				type: "item"
+				item: "farmersdelight:stuffed_pumpkin"
+			}]
+			rewards: [{
+				id: "259C07416C157563"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			dependencies: ["3DCA2297425D745B"]
+			id: "07177F6D9E24004F"
+			tasks: [{
+				id: "075FCF0193E98496"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+			rewards: [{
+				id: "62D8A259AABDD030"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "super_food"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,910 @@
+{
+	id: "7315FFBEB71810DD"
+	group: "1D115F3DF1092C06"
+	order_index: 4
+	filename: "thermal_expansion"
+	title: "Thermal Expansion"
+	icon: "thermal:dynamo_disenchantment"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.5d
+			y: 0.0d
+			description: ["Cooks stuff! Nuff Said."]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "4A3168D70269BB76"
+			tasks: [{
+				id: "5B2874698A84CAA7"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "2F2D62C9133552A5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 0.0d
+			description: ["Efficiently makes planks and produces sawdust!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "563737C4F45C0C0B"
+			tasks: [{
+				id: "1C4730B82A7FC5C4"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "1C33500D990609E9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			description: ["Pulverises whatever is put inside!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "539AC04DF113229F"
+			tasks: [{
+				id: "3E18F01D8B9E9A79"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "21EA6D7B9F1B01E0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 1.5d
+			shape: "pentagon"
+			description: ["Alloy smelter compact all into one baby block!"]
+			dependencies: ["539AC04DF113229F"]
+			id: "1A31542892DA3F27"
+			tasks: [{
+				id: "22ED4D7EA03C2B8A"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "5196A0B91EC4389A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			description: ["Lets you grow stuff from seeds! Easy Peasy!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "4E07672D9888CCC2"
+			tasks: [{
+				id: "4CD8900FFE08662E"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "375FADBD779D6E5F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			description: ["Seperate your random stuff!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "7B6DC6E113B0E63C"
+			tasks: [{
+				id: "5787A5BB975B63E1"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [{
+				id: "5C1AE2017E53EE24"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 4.0d
+			description: ["Press different items into different shapes! Used to make coins for the numastic dynamo!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "509372AEE2CCA5A4"
+			tasks: [{
+				id: "08A42F66B73E8720"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			description: ["Used for processing various smeltable resources."]
+			dependencies: ["1A31542892DA3F27"]
+			id: "647499965E109F8C"
+			tasks: [{
+				id: "08C01AF74167BA14"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "53E07EA58B75477E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			description: ["Melt blocks into fluids!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "200881529B7CD074"
+			tasks: [{
+				id: "4EA5B3B35EA91AD0"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "2EF7653F2B1530A3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			description: ["The auto crafter of your dreams!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "1CF20417C85471D9"
+			tasks: [{
+				id: "00AE55D28F9C2F56"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [{
+				id: "56DDFC98ADF3551E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: ["Used for automating potions."]
+			dependencies: ["1A31542892DA3F27"]
+			id: "63A89431960E60DB"
+			tasks: [{
+				id: "3D25C77CB7C86ACF"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [{
+				id: "647B6F0470FBD197"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			description: ["Put fluid into stuff!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "05EEB452B122D5D1"
+			tasks: [{
+				id: "05EDC6E0F46D585E"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [{
+				id: "5A44B74B2D7F0AAA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 4.0d
+			description: ["Used to refine fluids."]
+			dependencies: ["1A31542892DA3F27"]
+			id: "0E4862A6AE44277C"
+			tasks: [{
+				id: "0B072BB6B5148BF8"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "3A762033B56CFB0F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["Does what it says on the tin."]
+			dependencies: ["1A31542892DA3F27"]
+			id: "573A0A3090467872"
+			tasks: [{
+				id: "58BB27958675229D"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "334F03CA0AF6B5C5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: ["Your cobblestone generator."]
+			dependencies: ["1A31542892DA3F27"]
+			id: "5B9725CBE7CBB52F"
+			tasks: [{
+				id: "1DEF7342A821D2F2"
+				type: "item"
+				item: "thermal:device_rock_gen"
+			}]
+			rewards: [{
+				id: "5C856BF233384702"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			description: ["Extracts items from trees!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "4316B6D0D3ADF7E9"
+			tasks: [{
+				id: "2BCE5DAA7608FBF5"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+			rewards: [{
+				id: "032610742DC834FD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			description: ["For your fish catching needs!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "5C9AD5DB1A4A39E6"
+			tasks: [{
+				id: "0DF57B5A0284B870"
+				type: "item"
+				item: "thermal:device_fisher"
+			}]
+			rewards: [{
+				id: "71C606363DBD2292"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			description: ["Infuses phytosoil with power, allowing plants to grow faster!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "3950944B96FB3121"
+			tasks: [{
+				id: "141AE6D188247902"
+				type: "item"
+				item: "thermal:device_soil_infuser"
+			}]
+			rewards: [{
+				id: "43C3020FBB50E32F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["Accumulates water like a boss."]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "08F61AF83EC1D4F2"
+			tasks: [{
+				id: "5A7E01DF88E9EB4E"
+				type: "item"
+				item: "thermal:device_water_gen"
+			}]
+			rewards: [{
+				id: "7EFE299A607728A2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 0.0d
+			description: ["I missed you vacuum hopper... How I have missed you..."]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "56D1C8C5F35BE6DB"
+			tasks: [{
+				id: "1F7DF1304A165DC4"
+				type: "item"
+				item: "thermal:device_collector"
+			}]
+			rewards: [{
+				id: "5035D9155120E9B9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: ["A difuser for your essential oils... I mean minecraft potions."]
+			dependencies: ["1A31542892DA3F27"]
+			id: "304B37DB46984EB0"
+			tasks: [{
+				id: "25318E0C9149443D"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			rewards: [{
+				id: "01C913019AF39936"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["Puts energy into your energy items!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "71A782BDD0A9CD09"
+			tasks: [{
+				id: "276C1586278B4A66"
+				type: "item"
+				item: "thermal:charge_bench"
+			}]
+			rewards: [{
+				id: "7A3462FCB0C2C887"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 0.0d
+			description: ["Works like a furnace except it generates power!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "1F06B658148426D1"
+			tasks: [{
+				id: "3881BF2C23CA1D1F"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "33E28D1B1B80D279"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 4.0d
+			description: ["Make fuel with combustable fluids!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "4CE37C7802EFBDE0"
+			tasks: [{
+				id: "6E02E8EE79A92BA0"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "2AD9C6BEB72F0E2C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 4.0d
+			description: ["Use hot fluids. You go gurl!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "2CEA27FB87A7CA3F"
+			tasks: [{
+				id: "406C4B40E7F72985"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "71B7B615AFEE8051"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			description: ["Generates coins based off of money! This is capitalism right?"]
+			dependencies: ["509372AEE2CCA5A4"]
+			id: "71E9C128C128BE69"
+			tasks: [{
+				id: "3534174CA91B5F63"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "130A854C92E00C8E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			description: ["Consumes gems to generate power"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "0EC97480C2491675"
+			tasks: [{
+				id: "50516031CC278CEC"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "16FE662BF517D01C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			description: ["consumes ANY enchanted item to generate power!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "2A040A6B2075012A"
+			tasks: [{
+				id: "51E19B0F6BFEA02A"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [
+				{
+					id: "0F51CE3F61D44EE2"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "54282ABCF6151061"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "lucky_block"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: 0.0d
+			description: ["Consumes food to generate power!"]
+			dependencies: ["6A4C40EB2CE1E9F4"]
+			id: "4FCCE83A95254C91"
+			tasks: [{
+				id: "0EB1DFAF35655119"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [
+				{
+					id: "27E12899E1D8311E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "dungeon_chest"
+						}
+					}
+				}
+				{
+					id: "46845FC4F1861518"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "lucky_block"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: 4.0d
+			description: ["This is the bread and butter of this thermal expansion! This allows you to upgrade machines into more efficient/better machines!"]
+			dependencies: ["1A31542892DA3F27"]
+			id: "00D560BA250C27BC"
+			tasks: [{
+				id: "407D824F4AE21B4C"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "171C5E3D247C3986"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 5.0d
+			dependencies: ["00D560BA250C27BC"]
+			id: "5E3A9CF1FC34D100"
+			tasks: [{
+				id: "27AC266686F3E2CA"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "034078DE54BAACF8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 6.0d
+			shape: "diamond"
+			dependencies: ["5E3A9CF1FC34D100"]
+			id: "75886C0C52F36EB3"
+			tasks: [{
+				id: "1E1F5D5FFCA81C08"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "0D11C4EADFF239AA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "artifacts"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			dependencies: ["1A31542892DA3F27"]
+			id: "2FD7839C43ABAD37"
+			tasks: [{
+				id: "01F91AA4CBDBBD1F"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "6F77227438D4862C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.5d
+			dependencies: ["16C6DBB7E383AE8A"]
+			id: "63295227A4A5109E"
+			tasks: [{
+				id: "6EEA3C6CEB050969"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+			rewards: [{
+				id: "39C990FF9BFB0455"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 5.5d
+			description: ["Press some plants!"]
+			dependencies: ["509372AEE2CCA5A4"]
+			id: "16C6DBB7E383AE8A"
+			tasks: [{
+				id: "63F255ADF54C02A1"
+				type: "item"
+				item: "thermal:latex_bucket"
+			}]
+			rewards: [{
+				id: "3B2B96451BD2C781"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "armor_tools"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 7.5d
+			shape: "gear"
+			description: ["Yellow means null, red is output, and blue is input!"]
+			dependencies: ["63295227A4A5109E"]
+			id: "594B1A2963BF347C"
+			tasks: [{
+				id: "00999D24168DC2B4"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06CC228E7C5CE29E"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "artifacts"
+						}
+					}
+				}
+				{
+					id: "49E2AEC6CE124ADC"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			title: "Thermal Expansion"
+			x: -7.0d
+			y: -3.0d
+			description: ["This is a mod that adds a bunch of complex and easy to use machinery! It is compact and generally pretty easy to use :)"]
+			dependencies: [
+				"22002F72797E1678"
+				"15B0C1324F7D1C6C"
+			]
+			hide: true
+			id: "6A4C40EB2CE1E9F4"
+			tasks: [{
+				id: "7762FFA314AFDD49"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "2584B162579D96B7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+	]
+}

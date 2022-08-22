@@ -1,0 +1,64 @@
+{
+	id: "2C627D67F2EC97E7"
+	order_index: 20
+	title: "Early_Game_Junk"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:gravel", count: 64 }
+		{ item: "minecraft:sand", count: 64 }
+		{ item: "minecraft:red_sand", count: 64 }
+		{ item: "minecraft:soul_sand", count: 32 }
+		{ item: "exnihilosequentia:dust", count: 64 }
+		{ item: "minecraft:oak_log", count: 64 }
+		{ item: "minecraft:spruce_log", count: 64 }
+		{ item: "minecraft:birch_log", count: 64 }
+		{ item: "minecraft:jungle_log", count: 64 }
+		{ item: "minecraft:acacia_log", count: 64 }
+		{ item: "minecraft:dark_oak_log", count: 64 }
+		{ item: "minecraft:dirt", count: 64 }
+		{ item: "minecraft:gravel", count: 32 }
+		{ item: "minecraft:sand", count: 32 }
+		{ item: "minecraft:red_sand", count: 32 }
+		{ item: "minecraft:soul_sand", count: 16 }
+		{ item: "exnihilosequentia:dust", count: 32 }
+		{ item: "minecraft:oak_log", count: 32 }
+		{ item: "minecraft:spruce_log", count: 32 }
+		{ item: "minecraft:birch_log", count: 32 }
+		{ item: "minecraft:jungle_log", count: 32 }
+		{ item: "minecraft:acacia_log", count: 32 }
+		{ item: "minecraft:dark_oak_log", count: 32 }
+		{ item: "minecraft:dirt", count: 32 }
+		{ item: "exnihilosequentia:flint_mesh" }
+		{ item: "exnihilosequentia:iron_mesh" }
+		{ item: "exnihilosequentia:diamond_mesh" }
+		{ item: "exnihilosequentia:oak_sieve" }
+		{ item: "exnihilosequentia:spruce_sieve" }
+		{ item: "exnihilosequentia:birch_sieve" }
+		{ item: "exnihilosequentia:silkworm", count: 32 }
+		{
+			item: {
+				id: "exnihilosequentia:andesite_crook"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "exnihilosequentia:blaze_doll" }
+		{ item: "exnihilosequentia:enderman_doll" }
+		{ item: "exnihilosequentia:shulker_doll" }
+		{ item: "exnihilosequentia:guardian_doll" }
+		{ item: "exnihilosequentia:bee_doll" }
+		{ item: "exnihilosequentia:end_cake" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 6378034
+		string_id: "early_game_junk"
+	}
+}

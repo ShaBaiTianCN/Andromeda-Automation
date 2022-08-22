@@ -1,0 +1,727 @@
+{
+	id: "5EAB758628F895B5"
+	order_index: 7
+	title: "Armor_Tools"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:wooden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:stone_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "immersiveengineering:pickaxe_steel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:jeweled_solid_black_opal_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:solid_kunzite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:solid_ametrine_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:solid_aquamarine_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:solid_morganite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chainmail_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:crocodile_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:rocky_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dustrial_decor:cardboard_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:black_opal_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:diving_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chainmail_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:emu_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						ForgeCaps: { }
+						Items: [
+							{
+								Slot: 0b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 1b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 2b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 3b
+								id: "minecraft:diamond_pickaxe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 4b
+								id: "minecraft:diamond_helmet"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 5b
+								id: "minecraft:diamond_axe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 6b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 7b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 8b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 9b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 10b
+								id: "minecraft:elytra"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 11b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 12b
+								id: "minecraft:diamond_leggings"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 13b
+								id: "minecraft:diamond_sword"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 14b
+								id: "minecraft:diamond_boots"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 15b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 16b
+								id: "minecraft:elytra"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 17b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 18b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 19b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 20b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 21b
+								id: "minecraft:diamond_shovel"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 22b
+								id: "minecraft:diamond_chestplate"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 23b
+								id: "minecraft:diamond_hoe"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Slot: 24b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+							{
+								Slot: 25b
+								id: "minecraft:cooked_beef"
+								Count: 16b
+							}
+							{
+								Slot: 26b
+								id: "minecraft:firework_rocket"
+								Count: 32b
+							}
+						]
+						id: "minecraft:chest"
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+						Name: "{\"text\":\"Did You Die Box\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "dustrial_decor:cardboard_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:black_opal_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:diving_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chainmail_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:roadrunner_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dustrial_decor:cardboard_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:black_opal_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:diving_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chainmail_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:iron_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:golden_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "alexsmobs:froststalker_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "cyclic:glowing_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "dustrial_decor:cardboard_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "gemsnjewels:black_opal_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "thermal:diving_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 250
+			monster: 250
+		}
+		color: 8289425
+		string_id: "armor_tools"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	id: "552FF270E1917381"
+	order_index: 63
+	title: "DarkFireball"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "cyclic:fireball_dark", count: 8 }]
+}

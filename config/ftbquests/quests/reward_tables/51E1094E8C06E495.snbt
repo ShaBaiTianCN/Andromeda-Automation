@@ -1,0 +1,59 @@
+{
+	id: "51E1094E8C06E495"
+	order_index: 26
+	title: "Bookshelves"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:bookshelf", count: 16 }
+		{ item: "mcwfurnitures:oak_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:oak_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:oak_bookshelf_drawer", count: 16 }
+		{ item: "mcwfurnitures:oak_lower_bookshelf_drawer", count: 16 }
+		{ item: "mcwfurnitures:birch_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:jungle_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:acacia_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:dark_oak_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:crimson_bookshelf", count: 16 }
+		{ item: "mcwfurnitures:warped_bookshelf", count: 16 }
+		{ item: "apotheosis:hellshelf", count: 3 }
+		{ item: "minecraft:bookshelf", count: 8 }
+		{ item: "mcwfurnitures:oak_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:oak_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:oak_bookshelf_drawer", count: 8 }
+		{ item: "mcwfurnitures:oak_lower_bookshelf_drawer", count: 8 }
+		{ item: "mcwfurnitures:birch_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:jungle_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:acacia_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:dark_oak_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:crimson_bookshelf", count: 8 }
+		{ item: "mcwfurnitures:warped_bookshelf", count: 8 }
+		{ item: "apotheosis:infused_hellshelf", count: 2 }
+		{ item: "apotheosis:glowing_hellshelf", count: 2 }
+		{ item: "apotheosis:seashelf", count: 3 }
+		{ item: "apotheosis:infused_seashelf", count: 2 }
+		{ item: "apotheosis:crystal_seashelf", count: 2 }
+		{ item: "apotheosis:heart_seashelf" }
+		{ item: "apotheosis:endshelf", count: 3 }
+		{ item: "apotheosis:draconic_endshelf", count: 2 }
+		{ item: "apotheosis:pearl_endshelf" }
+		{ item: "apotheosis:beeshelf", count: 3 }
+		{ item: "apotheosis:melonshelf", count: 3 }
+		{ item: "apotheosis:library" }
+		{ item: "apotheosis:rectifier", count: 5 }
+		{ item: "apotheosis:rectifier_t2", count: 3 }
+		{ item: "apotheosis:rectifier_t3" }
+		{ item: "apotheosis:sightshelf", count: 2 }
+		{ item: "apotheosis:sightshelf_t2", count: 2 }
+		{ item: "apotheosis:ender_library" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 5054225
+		string_id: "bookshelves"
+	}
+}

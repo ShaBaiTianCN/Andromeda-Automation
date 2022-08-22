@@ -1,0 +1,8 @@
+{
+	id: "3E3ED67731E60355"
+	order_index: 39
+	title: "Small_Steak"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:cooked_beef", count: 8 }]
+}

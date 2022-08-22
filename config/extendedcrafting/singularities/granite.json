@@ -1,0 +1,12 @@
+{
+  "name": "Granite",
+  "colors": [
+    "fa7c6e",
+    "c4655a"
+  ],
+  "ingredient": {
+    "item": "minecraft:granite"
+  },
+"inUltimateSingularity": true
+
+}

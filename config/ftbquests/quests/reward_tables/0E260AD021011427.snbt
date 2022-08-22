@@ -1,0 +1,509 @@
+{
+	id: "0E260AD021011427"
+	order_index: 18
+	title: "Mid_Game"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+		}
+		{ item: "andromedacrafts:science_juice" }
+		{
+			item: {
+				id: "minecraft:elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_helmet"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_helmet"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "advancednetherite:netherite_diamond_helmet"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "advancednetherite:netherite_diamond_pickaxe"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 7s
+							id: "minecraft:fortune"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 1s
+							id: "minecraft:mending"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_pickaxe"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 7s
+							id: "minecraft:fortune"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 1s
+							id: "minecraft:mending"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_sword"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 9s
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:fire_aspect"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "advancednetherite:netherite_diamond_sword"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 9s
+							id: "minecraft:sharpness"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+						{
+							lvl: 5s
+							id: "minecraft:fire_aspect"
+						}
+					]
+				}
+			}
+		}
+		{ item: "minecraft:nether_star" }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			count: 3
+		}
+		{ item: "andromedacrafts:science_juice", count: 2 }
+		{
+			item: {
+				id: "alexsmobs:tarantula_hawk_elytra"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_chestplate"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "advancednetherite:netherite_diamond_chestplate"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "solarflux:sp_3", count: 5 }
+		{ item: "solarflux:sp_4", count: 5 }
+		{ item: "minecraft:nether_star", count: 2 }
+		{
+			item: {
+				id: "tconstruct:creative_slot"
+				Count: 1b
+				tag: {
+					slot: "abilities"
+				}
+			}
+			count: 5
+		}
+		{ item: "andromedacrafts:science_juice", count: 3 }
+		{
+			item: {
+				id: "tconstruct:slime_chestplate"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					tic_stats: {
+						"tconstruct:durability": 672.0f
+						"tconstruct:armor": 0.0f
+					}
+					tic_broken: 0b
+					HideFlags: 3
+					tic_modifiers: [{
+						name: "tconstruct:wings"
+						level: 1s
+					}]
+					Damage: 0
+					tic_volatile_data: {
+						"tconstruct:elyta": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 5
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "botania:elementium_leggings"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_leggings"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_leggings"
+				Count: 1b
+				tag: {
+					RepairCost: 3
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "advancednetherite:netherite_diamond_leggings"
+				Count: 1b
+				tag: {
+					RepairCost: 1
+					Damage: 0
+					Enchantments: [{
+						lvl: 8s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{ item: "solarflux:sp_6", count: 5 }
+		{ item: "tesseract:tesseract", count: 10 }
+		{ item: "minecraft:netherite_block", count: 3 }
+		{ item: "compressium:coal_5" }
+		{ item: "extendedcrafting:nether_star_block" }
+		{ item: "minecraft:dragon_head" }
+		{ item: "compressium:cobblestone_4" }
+		{ item: "compressium:iron_4" }
+		{
+			item: {
+				id: "botania:elementium_boots"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:diamond_boots"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 10s
+							id: "minecraft:feather_falling"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:netherite_boots"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 10s
+							id: "minecraft:feather_falling"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				id: "advancednetherite:netherite_diamond_boots"
+				Count: 1b
+				tag: {
+					RepairCost: 7
+					Damage: 0
+					Enchantments: [
+						{
+							lvl: 8s
+							id: "minecraft:protection"
+						}
+						{
+							lvl: 10s
+							id: "minecraft:feather_falling"
+						}
+						{
+							lvl: 8s
+							id: "minecraft:unbreaking"
+						}
+					]
+				}
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "minecraft:diamond_block", count: 128 }
+		{ item: "compressium:endstone_4" }
+		{ item: "compressium:lapis_4" }
+		{ item: "compressium:redstone_4" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 38399
+		glow: 1b
+		string_id: "mid_game"
+	}
+}

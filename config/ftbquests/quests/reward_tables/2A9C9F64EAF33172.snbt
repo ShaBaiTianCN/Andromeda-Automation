@@ -1,0 +1,50 @@
+{
+	id: "2A9C9F64EAF33172"
+	order_index: 15
+	title: "Dye"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:white_dye", count: 64 }
+		{ item: "minecraft:orange_dye", count: 64 }
+		{ item: "minecraft:magenta_dye", count: 64 }
+		{ item: "minecraft:light_blue_dye", count: 64 }
+		{ item: "minecraft:yellow_dye", count: 64 }
+		{ item: "minecraft:lime_dye", count: 64 }
+		{ item: "minecraft:pink_dye", count: 64 }
+		{ item: "minecraft:gray_dye", count: 64 }
+		{ item: "minecraft:light_gray_dye", count: 64 }
+		{ item: "minecraft:cyan_dye", count: 64 }
+		{ item: "minecraft:purple_dye", count: 64 }
+		{ item: "minecraft:blue_dye", count: 64 }
+		{ item: "minecraft:white_dye", count: 32 }
+		{ item: "minecraft:orange_dye", count: 32 }
+		{ item: "minecraft:magenta_dye", count: 32 }
+		{ item: "minecraft:light_blue_dye", count: 32 }
+		{ item: "minecraft:yellow_dye", count: 32 }
+		{ item: "minecraft:lime_dye", count: 32 }
+		{ item: "minecraft:pink_dye", count: 32 }
+		{ item: "minecraft:gray_dye", count: 32 }
+		{ item: "minecraft:light_gray_dye", count: 32 }
+		{ item: "minecraft:cyan_dye", count: 32 }
+		{ item: "minecraft:purple_dye", count: 32 }
+		{ item: "minecraft:blue_dye", count: 32 }
+		{ item: "minecraft:brown_dye", count: 64 }
+		{ item: "minecraft:green_dye", count: 64 }
+		{ item: "minecraft:red_dye", count: 64 }
+		{ item: "minecraft:black_dye", count: 64 }
+		{ item: "minecraft:brown_dye", count: 32 }
+		{ item: "minecraft:green_dye", count: 32 }
+		{ item: "minecraft:red_dye", count: 32 }
+		{ item: "minecraft:black_dye", count: 32 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16721537
+		string_id: "dye"
+	}
+}

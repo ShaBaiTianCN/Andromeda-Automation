@@ -1,0 +1,12 @@
+{
+  "name": "Raw Beef",
+  "colors": [
+    "e01d54",
+    "a11d43"
+  ],
+  "ingredient": {
+    "item": "minecraft:beef"
+  },
+"inUltimateSingularity": false
+
+}

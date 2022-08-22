@@ -1,0 +1,16 @@
+{
+	id: "41259326B48A8D41"
+	order_index: 105
+	title: "Engineers_Decor"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "engineersdecor:engineersdecor_manual"
+			}
+		}
+	}]
+}

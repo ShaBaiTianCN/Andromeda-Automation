@@ -1,0 +1,55 @@
+{
+	id: "3AFC6A41E9FC3E0C"
+	order_index: 8
+	title: "Mob_Drops"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:rotten_flesh", count: 64 }
+		{ item: "minecraft:rotten_flesh", count: 32 }
+		{ item: "minecraft:rotten_flesh", count: 16 }
+		{ item: "minecraft:rotten_flesh", count: 8 }
+		{ item: "minecraft:bone", count: 64 }
+		{ item: "minecraft:bone", count: 32 }
+		{ item: "minecraft:bone", count: 16 }
+		{ item: "minecraft:bone", count: 8 }
+		{ item: "minecraft:ender_pearl", count: 8 }
+		{ item: "minecraft:ender_pearl", count: 4 }
+		{ item: "minecraft:ender_eye", count: 8 }
+		{ item: "minecraft:ender_eye", count: 4 }
+		{ item: "minecraft:blaze_powder", count: 16 }
+		{ item: "minecraft:blaze_powder", count: 8 }
+		{ item: "minecraft:gunpowder", count: 16 }
+		{ item: "minecraft:gunpowder", count: 8 }
+		{ item: "minecraft:gunpowder", count: 4 }
+		{ item: "minecraft:wither_skeleton_skull" }
+		{ item: "tconstruct:necrotic_bone", count: 2 }
+		{ item: "minecraft:creeper_head" }
+		{ item: "minecraft:zombie_head" }
+		{ item: "minecraft:skeleton_skull" }
+		{ item: "tconstruct:stray_head" }
+		{ item: "mysticalagriculture:inferium_essence", count: 32 }
+		{ item: "mysticalagriculture:inferium_essence", count: 16 }
+		{ item: "mysticalagriculture:inferium_essence", count: 8 }
+		{ item: "minecraft:string", count: 64 }
+		{ item: "minecraft:string", count: 32 }
+		{ item: "minecraft:string", count: 16 }
+		{ item: "minecraft:string", count: 8 }
+		{ item: "minecraft:ghast_tear", count: 8 }
+		{ item: "minecraft:ghast_tear" }
+		{ item: "tconstruct:piglin_head" }
+		{ item: "tconstruct:zombified_piglin_head" }
+		{ item: "tconstruct:enderman_head" }
+		{ item: "tconstruct:husk_head" }
+		{ item: "tconstruct:drowned_head" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 1000
+			monster: 1000
+		}
+		color: 11561732
+		string_id: "mob_drops"
+	}
+}

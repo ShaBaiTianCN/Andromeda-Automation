@@ -1,0 +1,527 @@
+{
+	id: "21D004558E73B99C"
+	order_index: 96
+	title: "Dungeon_Chest"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_taiga_house"
+					}
+					display: {
+						Name: "{\"text\":\"Village Taiga House\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_snowy_house"
+					}
+					display: {
+						Name: "{\"text\":\"Village Snowy House\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/desert_pyramid"
+					}
+					display: {
+						Name: "{\"text\":\"End City Treasure\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/abandoned_mineshaft"
+					}
+					display: {
+						Name: "{\"text\":\"Abandoned Mineshaft\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_plains_house"
+					}
+					display: {
+						Name: "{\"text\":\"Village Plains House\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_mason"
+					}
+					display: {
+						Name: "{\"text\":\"Village Mason\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_fletcher"
+					}
+					display: {
+						Name: "{\"text\":\"Village_Fletcher\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_fisher"
+					}
+					display: {
+						Name: "{\"text\":\"Village Fisher\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						LootTable: "chests/woodland_mansion"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/shipwreck_supply"
+					}
+					display: {
+						Name: "{\"text\":\"Shipwreck Supply\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/stronghold_corridor"
+					}
+					display: {
+						Name: "{\"text\":\"Stronghold Corridor\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/underwater_ruin_big"
+					}
+					display: {
+						Name: "{\"text\":\"Underwater ruin big\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_armorer"
+					}
+					display: {
+						Name: "{\"text\":\"Village Armorer\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/woodland_mansion"
+					}
+					display: {
+						Name: "{\"text\":\"Woodland Mansion\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/jungle_temple"
+					}
+					display: {
+						Name: "{\"text\":\"Jungle Temple Dispenser\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/jungle_temple_dispenser"
+					}
+					display: {
+						Name: "{\"text\":\"Nether Bridge\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/nether_bridge"
+					}
+					display: {
+						Name: "{\"text\":\"Pillager Outpost\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_weaponsmith"
+					}
+					display: {
+						Name: "{\"text\":\"Village Weaponsmith\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_toolsmith"
+					}
+					display: {
+						Name: "{\"text\":\"Village Toolsmith\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_butcher"
+					}
+					display: {
+						Name: "{\"text\":\"Village Butcher\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/stronghold_crossing"
+					}
+					display: {
+						Name: "{\"text\":\"Stronghold Crossing\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_temple"
+					}
+					display: {
+						Name: "{\"text\":\"Village Temple\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/pillager_outpost"
+					}
+					display: {
+						Name: "{\"text\":\"Shipwreck Map\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_desert_house"
+					}
+					display: {
+						Name: "{\"text\":\"Desert House\"}"
+					}
+				}
+			}
+		}
+		{ }
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_shepherd"
+					}
+					display: {
+						Name: "{\"text\":\"Village shepherd\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/end_city_treasure"
+					}
+					display: {
+						Name: "{\"text\":\"Igloo chest\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/igloo_chest"
+					}
+					display: {
+						Name: "{\"text\":\"Jungle Temple\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/buried_treasure"
+					}
+					display: {
+						Name: "{\"text\":\"Buried Treasure\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/shipwreck_treasure"
+					}
+					display: {
+						Name: "{\"text\":\"Shipwreck Treasure\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/simple_dungeon"
+					}
+					display: {
+						Name: "{\"text\":\"Simple Dungeon\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/underwater_ruin_small"
+					}
+					display: {
+						Name: "{\"text\":\"Underwater Ruin Small\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_cartographer"
+					}
+					display: {
+						Name: "{\"text\":\"Village Cartographer\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_tannery"
+					}
+					display: {
+						Name: "{\"text\":\"Village Tannery\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "minecraft:chest"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					BlockEntityTag: {
+						LootTable: "chests/village/village_savanna_house"
+					}
+					display: {
+						Name: "{\"text\":\"Village Savanna housee\"}"
+					}
+				}
+			}
+		}
+		{ item: "minecraft:enchanted_golden_apple" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 10
+			monster: 10
+		}
+		color: 5856858
+		glow: 1b
+		string_id: "dungeon_chest"
+	}
+}

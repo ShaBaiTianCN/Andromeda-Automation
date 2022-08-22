@@ -1,0 +1,147 @@
+{
+	id: "04398F40E0C22C39"
+	order_index: 10
+	title: "Early_Game_Machines"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "create:gearbox", count: 16 }
+		{ item: "create:clutch", count: 3 }
+		{ item: "create:encased_chain_drive", count: 3 }
+		{ item: "create:water_wheel", count: 5 }
+		{ item: "create:nozzle", count: 5 }
+		{ item: "create:cuckoo_clock" }
+		{ item: "create:crushing_wheel", count: 2 }
+		{ item: "create:mechanical_mixer" }
+		{ item: "create:empty_blaze_burner" }
+		{ item: "create:depot", count: 5 }
+		{ item: "create:chute", count: 8 }
+		{ item: "create:speedometer" }
+		{ item: "create:gearbox", count: 8 }
+		{ item: "create:gearshift", count: 3 }
+		{ item: "create:adjustable_chain_gearshift", count: 3 }
+		{ item: "create:encased_fan", count: 5 }
+		{ item: "create:hand_crank", count: 5 }
+		{ item: "create:millstone" }
+		{ item: "create:mechanical_press" }
+		{ item: "create:basin", count: 5 }
+		{ item: "create:blaze_burner" }
+		{ item: "create:weighted_ejector", count: 10 }
+		{ item: "create:smart_chute", count: 4 }
+		{ item: "create:stressometer" }
+		{ item: "create:wooden_bracket", count: 64 }
+		{ item: "create:metal_bracket", count: 64 }
+		{ item: "create:fluid_pipe", count: 64 }
+		{ item: "create:smart_fluid_pipe", count: 3 }
+		{ item: "create:fluid_valve", count: 4 }
+		{ item: "create:fluid_tank", count: 8 }
+		{ item: "create:spout" }
+		{ item: "create:sticky_mechanical_piston", count: 5 }
+		{ item: "create:gantry_carriage", count: 4 }
+		{ item: "create:windmill_bearing" }
+		{ item: "create:clockwork_bearing" }
+		{ item: "create:deployer", count: 4 }
+		{ item: "create:white_toolbox" }
+		{ item: "create:schematicannon" }
+		{ item: "create:fluid_pipe", count: 32 }
+		{ item: "create:mechanical_pump", count: 5 }
+		{ item: "create:cogwheel", count: 64 }
+		{ item: "create:fluid_tank", count: 4 }
+		{ item: "create:portable_fluid_interface", count: 2 }
+		{ item: "create:piston_extension_pole", count: 64 }
+		{ item: "create:gantry_shaft", count: 64 }
+		{ item: "create:mechanical_bearing" }
+		{ item: "create:large_cogwheel", count: 64 }
+		{ item: "create:mechanical_saw", count: 4 }
+		{ item: "immersiveengineering:watermill" }
+		{ item: "immersiveengineering:razor_wire", count: 64 }
+		{ item: "immersiveengineering:capacitor_lv", count: 4 }
+		{ item: "immersiveengineering:transformer" }
+		{ item: "immersiveengineering:transformer_hv" }
+		{ item: "immersiveengineering:blastbrick", count: 32 }
+		{ item: "immersiveengineering:blastbrick_reinforced", count: 32 }
+		{
+			item: {
+				id: "immersiveengineering:revolver"
+				Count: 1b
+				tag: {
+					bullets: {
+						Items: [ ]
+					}
+				}
+				ForgeCaps: {
+					Parent: {
+						Size: 21
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "immersiveengineering:wirecutter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersiveengineering:screwdriver" }
+		{
+			item: {
+				id: "immersiveengineering:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					Parent: {
+						Size: 2
+						Items: [ ]
+					}
+				}
+			}
+		}
+		{ item: "immersiveengineering:wirecoil_copper", count: 32 }
+		{ item: "immersiveengineering:conveyor_basic", count: 32 }
+		{ item: "immersiveengineering:conveyor_extract", count: 16 }
+		{ item: "immersiveengineering:shader_bag_uncommon" }
+		{ item: "immersiveengineering:shader_bag_epic" }
+		{ item: "immersiveengineering:shader_bag_common" }
+		{ item: "immersiveengineering:shader_bag_rare" }
+		{ item: "immersiveengineering:shader_bag_ie_masterwork" }
+		{ item: "immersiveengineering:rs_engineering", count: 5 }
+		{ item: "immersiveengineering:heavy_engineering", count: 16 }
+		{ item: "immersiveengineering:light_engineering", count: 32 }
+		{
+			item: {
+				id: "immersiveengineering:toolbox"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 23
+						Items: [ ]
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 6049078
+		string_id: "early_game_machines"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	id: "149314C73BE1AD8F"
+	order_index: 35
+	title: "Diamonds"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:diamond", count: 16 }]
+}

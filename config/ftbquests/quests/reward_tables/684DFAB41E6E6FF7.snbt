@@ -1,0 +1,8 @@
+{
+	id: "684DFAB41E6E6FF7"
+	order_index: 33
+	title: "Redstone"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "minecraft:redstone_block", count: 16 }]
+}

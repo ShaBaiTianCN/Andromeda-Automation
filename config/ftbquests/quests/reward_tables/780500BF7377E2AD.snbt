@@ -1,0 +1,59 @@
+{
+	id: "780500BF7377E2AD"
+	order_index: 17
+	title: "End_Game"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "compressium:iron_6" }
+		{ item: "compressium:soulsand_6" }
+		{ item: "compressium:gold_7" }
+		{ item: "compressium:clay_6" }
+		{ item: "compressium:clay_6" }
+		{ item: "compressium:netherite_3" }
+		{ item: "compressium:obsidian_6" }
+		{ item: "compressium:quartz_6" }
+		{ item: "compressium:redstone_6" }
+		{ item: "compressium:andesite_6" }
+		{ item: "compressium:diorite_6" }
+		{ item: "compressium:copper_6" }
+		{
+			item: {
+				id: "cyclic:soulstone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "projecte:transmutation_table" }
+		{ item: "thermal:enderium_ingot", count: 32 }
+		{ item: "mekanism:ingot_osmium", count: 16 }
+		{ item: "extendedcrafting:nether_star_block", count: 10 }
+		{ item: "andromedacrafts:dreamgot" }
+		{ item: "andromedacrafts:dreamgot", count: 2 }
+		{ item: "mekanism:pellet_antimatter" }
+		{
+			item: {
+				id: "compressium:dirt_9"
+				Count: 1b
+				tag: {
+					RepairCost: 0
+					display: {
+						Name: "{\"text\":\"Super Rubish\"}"
+					}
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 15597823
+		glow: 1b
+		string_id: "end_game"
+	}
+}

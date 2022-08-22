@@ -1,0 +1,33 @@
+{
+	id: "162BC14B5B5CF36D"
+	order_index: 21
+	title: "Raw_Materials"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:raw_iron", count: 32 }
+		{ item: "minecraft:raw_iron", count: 16 }
+		{ item: "minecraft:raw_copper", count: 64 }
+		{ item: "minecraft:raw_gold", count: 16 }
+		{ item: "minecraft:raw_gold", count: 8 }
+		{ item: "create:raw_zinc", count: 32 }
+		{ item: "create:raw_zinc", count: 16 }
+		{ item: "exnihilosequentia:raw_silver", count: 8 }
+		{ item: "exnihilosequentia:raw_platinum", count: 8 }
+		{ item: "exnihilosequentia:raw_lead", count: 8 }
+		{ item: "exnihilosequentia:raw_tin", count: 8 }
+		{ item: "exnihilosequentia:raw_uranium", count: 8 }
+		{ item: "exnihilosequentia:raw_nickel", count: 8 }
+		{ item: "exnihilosequentia:raw_aluminum", count: 8 }
+		{ item: "exnihilosequentia:raw_zinc", count: 8 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 500
+			monster: 500
+		}
+		color: 12563871
+		string_id: "raw_materials"
+	}
+}

@@ -1,0 +1,334 @@
+{
+	id: "43B26697BC0EE93C"
+	group: "060FC1801833F14E"
+	order_index: 3
+	filename: "end_game_items"
+	title: "End Game Items"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 4.0d
+			y: 1.0d
+			dependencies: ["230F1467400B8A9F"]
+			id: "16E568C6B4842320"
+			tasks: [{
+				id: "3441D1A545BDF54D"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			dependencies: ["16E568C6B4842320"]
+			id: "191BCC2173FF046D"
+			tasks: [{
+				id: "3E84FBF4C119EEF9"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["191BCC2173FF046D"]
+			id: "652F21A71CD9F302"
+			tasks: [{
+				id: "3E85E2B26CC21C69"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 4.0d
+			dependencies: ["652F21A71CD9F302"]
+			id: "731912970067091B"
+			tasks: [{
+				id: "1A5F4ED34AF10BE9"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "55BCB3F453A19A97"
+			tasks: [{
+				id: "56BF83319E9F82FB"
+				type: "item"
+				item: "extendedcrafting:ultimate_singularity"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "77BC4A9326BFCA25"
+			tasks: [{
+				id: "2BB076E4AF4AF49E"
+				type: "item"
+				item: "andromedacrafts:rainbow_ore"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "02781E75D2672F6F"
+			tasks: [{
+				id: "77EF811D8769F539"
+				type: "item"
+				item: "andromedacrafts:hard_earth_essence"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "5D39A7E8C5663403"
+			tasks: [{
+				id: "6250C476F2905440"
+				type: "item"
+				item: "andromedacrafts:soft_earth_essence"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "699EF25DA40ED306"
+			tasks: [{
+				id: "2AC9A35775D9F519"
+				type: "item"
+				item: "andromedacrafts:dreamgot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "5DC42EF71011D869"
+			tasks: [{
+				id: "287108C0CFF5019C"
+				type: "item"
+				item: "andromedacrafts:infinite_accessory"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "7B5BBEC5089909FC"
+			tasks: [{
+				id: "6BD62C397375732B"
+				type: "item"
+				item: "andromedacrafts:rainbow_armorpack"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "226D167F1F6C1BAF"
+			tasks: [{
+				id: "3D768F1F48CE28A4"
+				type: "item"
+				item: "andromedacrafts:distilled_knowledge"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "651A338A17056E42"
+			tasks: [{
+				id: "62FFA25E7B86F5A3"
+				type: "item"
+				item: "andromedacrafts:home_essence"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "7B201A72FEC16E85"
+			tasks: [{
+				id: "05A6850408A81AB1"
+				type: "item"
+				item: "andromedacrafts:evil_essence"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "2EF85B2A179EEE4C"
+			tasks: [{
+				id: "349F69DB4B1C6118"
+				type: "item"
+				item: "andromedacrafts:holy_fruit_bowl"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "7A95E8296E916741"
+			tasks: [{
+				id: "07DA8AC1F1FB7A18"
+				type: "item"
+				item: "andromedacrafts:golden_screw"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "195439FBA911ED13"
+			tasks: [{
+				id: "166299744895E768"
+				type: "item"
+				item: "andromedacrafts:holy_grail"
+			}]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "19E0848014BB188D"
+			tasks: [{
+				id: "41587053EA9BCDA5"
+				type: "item"
+				item: "andromedacrafts:fairy_dust"
+			}]
+		}
+		{
+			x: 9.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "12E7478AD9BD3364"
+			tasks: [{
+				id: "3A66132DDA61F3F1"
+				type: "item"
+				item: "andromedacrafts:stabilized_netherstar_core"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "6DE6A06CAE103619"
+			tasks: [{
+				id: "578658CB57645F2D"
+				type: "item"
+				item: "andromedacrafts:the_first_sappling"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "207AD29F624301A4"
+			tasks: [{
+				id: "715FBA3E92A98916"
+				type: "item"
+				item: "andromedacrafts:ocean_essence"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "30C8293707F72E0C"
+			tasks: [{
+				id: "3C15C29CE2BB14E0"
+				type: "item"
+				item: {
+					id: "andromedacrafts:rainbow_wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 8.5d
+			dependencies: ["5C4C88009DA37CE6"]
+			id: "3F7BDB4E069DBF9D"
+			tasks: [{
+				id: "080B3278DD75421D"
+				type: "item"
+				item: "andromedacrafts:pink_sword"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 12.5d
+			dependencies: [
+				"55BCB3F453A19A97"
+				"77BC4A9326BFCA25"
+				"02781E75D2672F6F"
+				"5D39A7E8C5663403"
+				"699EF25DA40ED306"
+				"5DC42EF71011D869"
+				"7B5BBEC5089909FC"
+				"226D167F1F6C1BAF"
+				"651A338A17056E42"
+				"7B201A72FEC16E85"
+				"2EF85B2A179EEE4C"
+				"7A95E8296E916741"
+				"195439FBA911ED13"
+				"19E0848014BB188D"
+				"12E7478AD9BD3364"
+				"6DE6A06CAE103619"
+				"3F7BDB4E069DBF9D"
+				"30C8293707F72E0C"
+				"207AD29F624301A4"
+			]
+			id: "08F63CF67C3CD75F"
+			tasks: [{
+				id: "2EDDEE442F9D81D8"
+				type: "item"
+				item: "andromedacrafts:infinite_garbage"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 5.0d
+			dependencies: ["731912970067091B"]
+			id: "5C4C88009DA37CE6"
+			tasks: [{
+				id: "1EEE06039545741D"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			title: "The Ultimate Challenge"
+			x: 4.0d
+			y: 16.0d
+			description: ["You clearly are insane"]
+			hide_dependency_lines: true
+			dependencies: ["08F63CF67C3CD75F"]
+			hide: true
+			size: 4.0d
+			id: "572ED76C0D2BDDF5"
+			tasks: [{
+				id: "3984F3B0FA1CCDEA"
+				type: "item"
+				item: {
+					id: "extendedcrafting:singularity"
+					Count: 1b
+					tag: {
+						Id: "extendedcrafting:infinite_garbage"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,348 @@
+{
+	id: "4B18DE7876F6A1E3"
+	group: "6427FC4035BCAD8A"
+	order_index: 2
+	filename: "storage_drawers"
+	title: "Storage Drawers"
+	icon: "storagedrawers:emerald_storage_upgrade"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Storage Drawers"
+			x: 3.0d
+			y: -4.0d
+			description: [
+				""
+				"Storage drawers adds an interface to a chest that can store a large amount of the same item that is displayed. However, the more displays per drawer the fewer items it can store! Right click to put in an item, punch to take out 1 item, shift punch to take out a stack of items!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["0B37AE47F308E035"]
+			hide: true
+			id: "3257E887A20759EE"
+			tasks: [{
+				id: "3CA3311C3B7F8FD1"
+				type: "checkmark"
+				title: "Let's Get Some Beautiful Early Game Storage"
+			}]
+			rewards: [{
+				id: "32886554E9F75831"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			description: ["stores double the amount of items"]
+			dependencies: ["2080D98AFE037F4C"]
+			id: "48D3A3F7084688CD"
+			tasks: [{
+				id: "14113E8BC206F896"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+			rewards: [{
+				id: "15A917E1DE5FAEEF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "useful_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: ["Stores 4x the amount of items"]
+			dependencies: ["48D3A3F7084688CD"]
+			id: "70845DDFBA9B87CD"
+			tasks: [{
+				id: "2612A15129D62EA8"
+				type: "item"
+				item: "storagedrawers:iron_storage_upgrade"
+			}]
+			rewards: [{
+				id: "0BD99C72A420EA23"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "useful_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["Stores 8x the amount of items"]
+			dependencies: ["70845DDFBA9B87CD"]
+			id: "394C60BAB6D35203"
+			tasks: [{
+				id: "4C5287DCD1F1578D"
+				type: "item"
+				item: "storagedrawers:gold_storage_upgrade"
+			}]
+			rewards: [{
+				id: "6CDFF5C5FA9369B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "useful_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["Stores 16x the amount of items"]
+			dependencies: ["394C60BAB6D35203"]
+			id: "3B182EA1D665E910"
+			tasks: [{
+				id: "1D0399CF4E3A809D"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+			rewards: [{
+				id: "005ACD909316DB25"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "useful_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			shape: "gear"
+			description: ["Stores 32x the amount of items"]
+			dependencies: ["3B182EA1D665E910"]
+			id: "18F01F17127B1E6B"
+			tasks: [{
+				id: "11B27AD798CA0289"
+				type: "item"
+				item: "storagedrawers:emerald_storage_upgrade"
+			}]
+			rewards: [{
+				id: "2BA69933393F6B76"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			description: [
+				"Right click with an item to use it on the drawer! Alternatively you can shift right click the interface [where you can pull out items] to acces a gui that can allow you to add or remove upgrades! Upgrades do NOT have to be in sequential order. Stores 1 item"
+				""
+			]
+			dependencies: ["3257E887A20759EE"]
+			id: "2080D98AFE037F4C"
+			tasks: [{
+				id: "5D1E5EF931ADBF02"
+				type: "item"
+				item: "storagedrawers:one_stack_upgrade"
+			}]
+			rewards: [{
+				id: "7493AD5AC071E0BC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			description: ["Locks a drawer, so that even if that item runs out the only thing that can go in there is that item"]
+			dependencies: ["3257E887A20759EE"]
+			id: "06A977AF6295EB22"
+			tasks: [{
+				id: "6453D79DCD877FAF"
+				type: "item"
+				item: "storagedrawers:drawer_key"
+			}]
+			rewards: [{
+				id: "2516E09E0711E435"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			description: ["Lets you see easily the exact amount of an item within a drawer"]
+			dependencies: ["3257E887A20759EE"]
+			id: "17ADE04C8F59DF02"
+			tasks: [{
+				id: "4852BBDD88AC1280"
+				type: "item"
+				item: "storagedrawers:quantify_key"
+			}]
+			rewards: [{
+				id: "598BA26A3A64E077"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			description: ["Allows you to show or hide item labels"]
+			dependencies: ["3257E887A20759EE"]
+			id: "6CB372CDCAA2B923"
+			tasks: [{
+				id: "1F328C1864C464E4"
+				type: "item"
+				item: "storagedrawers:shroud_key"
+			}]
+			rewards: [{
+				id: "759737B2020C0310"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["Compacting drawers are amazing because they allow for the compacted and uncompacted versions of specific items. A great example would be putting an iron bar in there because it would allow you to auto craft iron blocks, as well as iron nuggets from it!"]
+			dependencies: ["3257E887A20759EE"]
+			id: "7D464D989398EC23"
+			tasks: [{
+				id: "6FCEBB05CB931783"
+				type: "item"
+				item: "storagedrawers:compacting_drawers_3"
+			}]
+			rewards: [{
+				id: "1CB8D3CC59BEB9AA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			description: [
+				""
+				"This acts as an interface to interact with all drawers at once [Ie putting a hopper next to it and items will automatically sort out into the drawers]. By right clicking this block you auto sort your inventory into the drawers!"
+			]
+			dependencies: ["3257E887A20759EE"]
+			id: "7D931671C163E294"
+			tasks: [{
+				id: "22242E97A4293CC6"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			rewards: [{
+				id: "763558AE570CE5BD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.5d
+			description: ["A controller slave acts as a repeating interface for the drawer controller, however you can't access a wall of drawers with a slave alone. This also can help link drawers that you want to be around a corner!"]
+			dependencies: ["7D931671C163E294"]
+			id: "4565810AA3E37B2A"
+			tasks: [{
+				id: "4201BA5B1941B293"
+				type: "item"
+				item: "storagedrawers:controller_slave"
+			}]
+			rewards: [{
+				id: "27479EAEB227EB63"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			dependencies: ["3257E887A20759EE"]
+			id: "1A9AA3AC0BE4C3D8"
+			tasks: [{
+				id: "7654214D63C5863E"
+				type: "item"
+				title: "Any #storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+				count: 9L
+			}]
+			rewards: [{
+				id: "3AEB2C639F9F5741"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+	]
+}

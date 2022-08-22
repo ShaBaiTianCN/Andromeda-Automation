@@ -1,0 +1,8 @@
+{
+	id: "48660052D78290FC"
+	order_index: 85
+	title: "brightside"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "create_confectionery:the_bright_side" }]
+}

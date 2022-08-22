@@ -1,0 +1,12 @@
+{
+  "name": "Wooden Sword",
+  "colors": [
+    "bd7b5b",
+    "754731"
+  ],
+  "ingredient": {
+    "item": "minecraft:wooden_sword"
+  },
+"inUltimateSingularity": false
+
+}

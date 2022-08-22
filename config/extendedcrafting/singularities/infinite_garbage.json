@@ -1,0 +1,12 @@
+{
+  "name": "Omega",
+  "colors": [
+    "ff0090",
+    "00fff7"
+  ],
+  "ingredient": {
+    "item": "andromedacrafts:infinite_garbage"
+  },
+"inUltimateSingularity": false
+
+}

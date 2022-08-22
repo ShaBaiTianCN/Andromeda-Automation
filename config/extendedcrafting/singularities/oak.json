@@ -1,0 +1,12 @@
+{
+  "name": "Oak",
+  "colors": [
+    "d4bb9b",
+    "473c2c"
+  ],
+  "ingredient": {
+    "item": "minecraft:oak_log"
+  },
+"inUltimateSingularity": false
+
+}

@@ -1,0 +1,959 @@
+{
+	id: "692E280908232B5C"
+	group: "75940C6E9EF33EDC"
+	order_index: 7
+	filename: "refined_storage"
+	title: "Refined Storage"
+	icon: "refinedstorage:creative_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: -1.0d
+			dependencies: ["49C75975E41474FD"]
+			id: "024E65D7185048F6"
+			tasks: [{
+				id: "059B890C20D0F5BE"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "2B4F196060BBC04F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			description: ["This allows you to charge many items! Including making charged certus quartz!"]
+			dependencies: ["024E65D7185048F6"]
+			id: "4E8BC7BEE3514370"
+			tasks: [{
+				id: "2D8B809BB6DD1B91"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "7C5E10D85E9655B2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["4E8BC7BEE3514370"]
+			id: "0AE80D1589576C82"
+			tasks: [{
+				id: "50C96ACCBDC02981"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "3A2FB5A8815434A8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			description: ["Fabricate Fluix dust by allowing charged certus quartz, nether quartz, and redstone sit in water for a few seconds! Then same deal! Allow to grow in water for 20 or so miniutes!"]
+			dependencies: ["0AE80D1589576C82"]
+			id: "6154010C17A01900"
+			tasks: [{
+				id: "036803825F5F0960"
+				type: "item"
+				item: "ae2:fluix_crystal_seed"
+			}]
+			rewards: [{
+				id: "7DB0B22B0C88D925"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["6154010C17A01900"]
+			id: "094B8A6831230181"
+			tasks: [{
+				id: "64296A50A3D0AA32"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+			rewards: [{
+				id: "238BA1AC9FA6B5A6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["Basic processors allow you to craft the majority of things in the mod!"]
+			dependencies: ["79E9586512941D83"]
+			id: "0B90160280393C6D"
+			tasks: [
+				{
+					id: "0344B7CD57B5B7BA"
+					type: "item"
+					item: "refinedstorage:basic_processor"
+					count: 8L
+				}
+				{
+					id: "7AFC3A2D29225B26"
+					type: "item"
+					item: "refinedstorage:improved_processor"
+					count: 8L
+				}
+				{
+					id: "3A478CFAAAF94CC2"
+					type: "item"
+					item: "refinedstorage:advanced_processor"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "574639F64B4ED4D3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 7.0d
+			description: ["This is the heart of your storage network! It also allows for energy storage!"]
+			dependencies: ["0B90160280393C6D"]
+			id: "7C9D9EEBD4FF83D7"
+			tasks: [{
+				id: "637363383383AF27"
+				type: "item"
+				item: "refinedstorage:controller"
+			}]
+			rewards: [{
+				id: "118DC851F53FAD4E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.5d
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "3FCDC29B11CA698B"
+			tasks: [{
+				id: "117DEB946D83AB6A"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [{
+				id: "43C39E41B33E74C8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			dependencies: ["3FCDC29B11CA698B"]
+			id: "59F850A0A74905EA"
+			tasks: [{
+				id: "5A8C6F25BDDFB936"
+				type: "item"
+				item: "refinedstorage:4k_storage_part"
+			}]
+			rewards: [{
+				id: "44BF14E370639FD8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			dependencies: ["59F850A0A74905EA"]
+			id: "452058848CBEA0D7"
+			tasks: [{
+				id: "18BE8F657ED200D0"
+				type: "item"
+				item: "refinedstorage:16k_storage_part"
+			}]
+			rewards: [{
+				id: "47456AA42DC04C83"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 9.5d
+			dependencies: ["452058848CBEA0D7"]
+			id: "58E38BC2B300489F"
+			tasks: [{
+				id: "0C6EF8B60A8FE7F8"
+				type: "item"
+				item: "refinedstorage:64k_storage_part"
+			}]
+			rewards: [{
+				id: "3290F2C1642C0965"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 10.5d
+			shape: "square"
+			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			dependencies: ["3FCDC29B11CA698B"]
+			id: "71FD6ECE73904F36"
+			tasks: [{
+				id: "1972519BB744A60B"
+				type: "item"
+				item: "refinedstorage:1k_storage_disk"
+			}]
+			rewards: [{
+				id: "159A7012C7BA232C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 10.5d
+			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			dependencies: ["3FCDC29B11CA698B"]
+			id: "2635376DACE79298"
+			tasks: [{
+				id: "1A697A7572AC2BF1"
+				type: "item"
+				item: "refinedstorage:1k_storage_block"
+			}]
+			rewards: [{
+				id: "2119413AFC4DBD84"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 10.5d
+			shape: "square"
+			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			dependencies: ["59F850A0A74905EA"]
+			id: "7BF351C712B90841"
+			tasks: [{
+				id: "00E4293067AB7D63"
+				type: "item"
+				item: "refinedstorage:4k_storage_disk"
+			}]
+			rewards: [{
+				id: "5F5091DB9B44BF72"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 10.5d
+			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			dependencies: ["59F850A0A74905EA"]
+			id: "737D362B901458DB"
+			tasks: [{
+				id: "300B21DC7FB095D3"
+				type: "item"
+				item: "refinedstorage:4k_storage_block"
+			}]
+			rewards: [{
+				id: "203C010796F57A9C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 10.5d
+			shape: "square"
+			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			dependencies: ["452058848CBEA0D7"]
+			id: "5CE135159B9C6989"
+			tasks: [{
+				id: "037B8F63397A285E"
+				type: "item"
+				item: "refinedstorage:16k_storage_disk"
+			}]
+			rewards: [{
+				id: "37148069744F1276"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 10.5d
+			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			dependencies: ["452058848CBEA0D7"]
+			id: "48CEF208B93B86E9"
+			tasks: [{
+				id: "57A5B2ECCC96E72B"
+				type: "item"
+				item: "refinedstorage:16k_storage_block"
+			}]
+			rewards: [{
+				id: "2855B17C65273645"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 10.5d
+			shape: "square"
+			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			dependencies: ["58E38BC2B300489F"]
+			id: "6333C124A85F3132"
+			tasks: [{
+				id: "37772921A64BDE51"
+				type: "item"
+				item: "refinedstorage:64k_storage_disk"
+			}]
+			rewards: [{
+				id: "3FD4FBEFA207608E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 10.5d
+			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			dependencies: ["58E38BC2B300489F"]
+			id: "2F37A0A046C76992"
+			tasks: [{
+				id: "7A90EFA9EBB91E9E"
+				type: "item"
+				item: "refinedstorage:64k_storage_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 9.5d
+			description: ["This allows you to access all stored items!"]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "00AE4E99C5A994F0"
+			tasks: [{
+				id: "3AA3ED2BC31E2C5A"
+				type: "item"
+				item: "refinedstorage:crafting_grid"
+			}]
+			rewards: [{
+				id: "326280828917C247"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 9.5d
+			description: ["These allow you to connect your network together!"]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "1BAD93DF766559AB"
+			tasks: [{
+				id: "7CB0ABAE943A64BB"
+				type: "item"
+				item: "refinedstorage:cable"
+			}]
+			rewards: [{
+				id: "0CF92218F41AA36B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 11.0d
+			description: ["This allows for storage of other inventories! Like a system of drawers or a colossal chest!"]
+			dependencies: ["1BAD93DF766559AB"]
+			id: "53D58CDF50DAFC2D"
+			tasks: [{
+				id: "78D681063509D322"
+				type: "item"
+				item: "refinedstorage:external_storage"
+			}]
+			rewards: [{
+				id: "7C70117EA3F592A1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 11.0d
+			description: ["This takes items from the attached inventory and puts them within the system."]
+			dependencies: ["1BAD93DF766559AB"]
+			id: "1AF14DDA5CEFA13D"
+			tasks: [{
+				id: "2AEDFB4314BEA13D"
+				type: "item"
+				item: "refinedstorage:importer"
+			}]
+			rewards: [{
+				id: "01573D6E01516E12"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 11.0d
+			description: ["Will take items from within the network and place them within the world."]
+			dependencies: ["1BAD93DF766559AB"]
+			id: "2AF0693D042229DF"
+			tasks: [{
+				id: "4B2A7BCFD7282403"
+				type: "item"
+				item: "refinedstorage:constructor"
+			}]
+			rewards: [{
+				id: "39B29A31B3C1F71B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 11.0d
+			description: ["Will break items within the world and import them into the network."]
+			dependencies: ["1BAD93DF766559AB"]
+			id: "5B66EBB5FF44F7C1"
+			tasks: [{
+				id: "56DC60E47D4370C6"
+				type: "item"
+				item: "refinedstorage:destructor"
+			}]
+			rewards: [{
+				id: "17E7A50F80993F91"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 11.0d
+			description: ["This takes item from within the system and outputs them to the attached inventory."]
+			dependencies: ["1BAD93DF766559AB"]
+			id: "4BC623BFE0BE653C"
+			tasks: [{
+				id: "4A01D4E52C57A44B"
+				type: "item"
+				item: "refinedstorage:exporter"
+			}]
+			rewards: [{
+				id: "5C00DAF290FD7C1D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 9.5d
+			description: ["This allows you to encode patterns to be processed! Make sure to check the processing box to allow you to interface and use machines."]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "46F34652A6D2358B"
+			tasks: [{
+				id: "1CD55D0289A20B4A"
+				type: "item"
+				item: "refinedstorage:pattern_grid"
+			}]
+			rewards: [{
+				id: "3E2F0B4E7CA2915C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 12.5d
+			description: ["This machine allows you to manage crafters!"]
+			dependencies: ["5D7163B82224051A"]
+			id: "3D74BC75E8163836"
+			tasks: [{
+				id: "42DBE5DD74CF7ED2"
+				type: "item"
+				item: "refinedstorage:crafter_manager"
+			}]
+			rewards: [{
+				id: "2839F448F3DF15AB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 10.5d
+			description: ["This is your basic crafting storage device."]
+			dependencies: ["46F34652A6D2358B"]
+			id: "572DD0BDABA37B76"
+			tasks: [{
+				id: "045C0E577B9D400A"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+			rewards: [{
+				id: "506ADAA7575BDC48"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 11.5d
+			description: ["This allows you to do it all! It can craft, and interface with machines depending on the direction it is facing."]
+			dependencies: ["572DD0BDABA37B76"]
+			id: "5D7163B82224051A"
+			tasks: [{
+				id: "42949B50A9FDF11E"
+				type: "item"
+				item: "refinedstorage:crafter"
+			}]
+			rewards: [{
+				id: "1A746B198EC4D387"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 9.5d
+			description: ["These allow you to wirelessly connect your network! Connect them with a wireless card!"]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "2892D2FAE490ECB6"
+			tasks: [
+				{
+					id: "6914FE895CAEE29C"
+					type: "item"
+					item: "refinedstorage:network_receiver"
+				}
+				{
+					id: "0069B7ABAC9E3613"
+					type: "item"
+					item: "refinedstorage:network_transmitter"
+				}
+				{
+					id: "5F3701B8C13BD972"
+					type: "item"
+					item: "refinedstorage:network_card"
+				}
+			]
+			rewards: [{
+				id: "2D70197F5964A666"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 9.5d
+			description: ["The security manager allows you to manage your users and tell the system what exactly they are allowed to do!"]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "0021920FAF3A8D9E"
+			tasks: [
+				{
+					id: "145166621DE880DB"
+					type: "item"
+					item: "refinedstorage:security_manager"
+				}
+				{
+					id: "0800CE3CFDDA235B"
+					type: "item"
+					item: "refinedstorage:security_card"
+				}
+			]
+			rewards: [{
+				id: "2A8DC5DF4ABA2687"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 9.5d
+			description: ["These two items combined allow you to wirelessly access your system!"]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "60F77565E4A25B2D"
+			tasks: [
+				{
+					id: "5229FE7427EBB476"
+					type: "item"
+					item: "refinedstorage:wireless_crafting_monitor"
+				}
+				{
+					id: "4D1395502F8E2AB2"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			rewards: [{
+				id: "5BC5F2E51ECE87A7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 12.0d
+			description: ["This behaves as both an importer and an exporter! "]
+			dependencies: [
+				"1AF14DDA5CEFA13D"
+				"4BC623BFE0BE653C"
+			]
+			id: "738D3BC656263ECC"
+			tasks: [{
+				id: "2CA6F6E34E0B5627"
+				type: "item"
+				item: "refinedstorage:interface"
+			}]
+			rewards: [{
+				id: "1A4D10BA9FB96943"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 9.5d
+			description: ["This can tell you the volume of items held within the system."]
+			dependencies: ["7C9D9EEBD4FF83D7"]
+			id: "10EBD82A8B566DAE"
+			tasks: [{
+				id: "367C6A6D5B0C44C4"
+				type: "item"
+				item: "refinedstorage:storage_monitor"
+			}]
+			rewards: [{
+				id: "4CD650D637D42FE2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			title: "Pressure Chamber"
+			x: 2.0d
+			y: 5.0d
+			description: ["In order to form a pressure chamber you have to first form a cube frame with the wall blocks. This can be 3x3 up to 5x5. Then it needs 2 interfaces, one facing input side, and one facing output side, and a pressure valve. Keep the inside blocks air, and everything else can be any of the pressure chamber blocks on top of what's required."]
+			dependencies: ["22DCA89476339248"]
+			id: "79E9586512941D83"
+			tasks: [
+				{
+					id: "3304D4A98FEDD40D"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 16L
+				}
+				{
+					id: "52EFAE5298E22B3B"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 16L
+				}
+				{
+					id: "47486269D8ACB647"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "471C583A9997651A"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "5C37B13DB09C9612"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 13.0d
+			shape: "diamond"
+			dependencies: [
+				"6333C124A85F3132"
+				"5CE135159B9C6989"
+				"7BF351C712B90841"
+				"71FD6ECE73904F36"
+			]
+			dependency_requirement: "one_completed"
+			id: "3314C3BC2A94F301"
+			tasks: [{
+				id: "53BEA7F2A31297C2"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "7F80F4CBD6CC7CFD"
+				type: "item"
+				item: "andromedacrafts:science_juice"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			dependencies: ["094B8A6831230181"]
+			id: "22DCA89476339248"
+			tasks: [{
+				id: "5B122B68310A118C"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+			rewards: [{
+				id: "3DD5E45CEDD41C8E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			description: ["Allow to grow in water for 20 or so miniutes!"]
+			dependencies: ["7132874AEB96DB9D"]
+			id: "49C75975E41474FD"
+			tasks: [{
+				id: "53020EFDB38F1B02"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+			}]
+			rewards: [{
+				id: "0B32B5CCA68CC1C7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+	]
+}

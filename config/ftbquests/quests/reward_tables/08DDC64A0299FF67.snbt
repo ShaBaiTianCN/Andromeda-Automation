@@ -1,0 +1,130 @@
+{
+	id: "08DDC64A0299FF67"
+	order_index: 2
+	title: "Pretty_Plants"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:azure_bluet", count: 32 }
+		{ item: "minecraft:red_tulip", count: 32 }
+		{ item: "minecraft:orange_tulip", count: 32 }
+		{ item: "minecraft:white_tulip", count: 32 }
+		{ item: "minecraft:pink_tulip", count: 32 }
+		{ item: "minecraft:dandelion", count: 32 }
+		{ item: "minecraft:poppy", count: 32 }
+		{ item: "minecraft:blue_orchid", count: 32 }
+		{ item: "minecraft:allium", count: 32 }
+		{ item: "minecraft:oxeye_daisy", count: 32 }
+		{ item: "minecraft:cornflower", count: 32 }
+		{ item: "minecraft:lily_of_the_valley", count: 32 }
+		{ item: "minecraft:wither_rose", count: 32 }
+		{ item: "minecraft:spore_blossom", count: 8 }
+		{ item: "minecraft:brown_mushroom", count: 16 }
+		{ item: "minecraft:red_mushroom", count: 16 }
+		{ item: "minecraft:crimson_fungus", count: 16 }
+		{ item: "minecraft:warped_fungus", count: 16 }
+		{ item: "minecraft:crimson_roots", count: 64 }
+		{ item: "minecraft:warped_roots", count: 32 }
+		{ item: "minecraft:nether_sprouts", count: 32 }
+		{ item: "minecraft:weeping_vines", count: 32 }
+		{ item: "minecraft:twisting_vines", count: 64 }
+		{ item: "minecraft:red_mushroom_block", count: 64 }
+		{ item: "minecraft:bamboo", count: 32 }
+		{ item: "minecraft:big_dripleaf", count: 8 }
+		{ item: "minecraft:small_dripleaf", count: 16 }
+		{ item: "minecraft:lily_pad", count: 32 }
+		{ item: "minecraft:peony", count: 8 }
+		{ item: "minecraft:rose_bush", count: 8 }
+		{ item: "minecraft:sunflower", count: 8 }
+		{ item: "minecraft:lilac", count: 8 }
+		{ item: "minecraft:glow_lichen", count: 32 }
+		{ item: "minecraft:vine", count: 32 }
+		{ item: "minecraft:mushroom_stem", count: 64 }
+		{ item: "minecraft:brown_mushroom_block", count: 64 }
+		{ item: "biomesoplenty:rose", count: 8 }
+		{ item: "biomesoplenty:violet", count: 8 }
+		{ item: "biomesoplenty:lavender", count: 8 }
+		{ item: "biomesoplenty:wildflower", count: 8 }
+		{ item: "biomesoplenty:orange_cosmos", count: 8 }
+		{ item: "biomesoplenty:pink_daffodil", count: 8 }
+		{ item: "biomesoplenty:pink_hibiscus", count: 8 }
+		{ item: "biomesoplenty:glowflower", count: 8 }
+		{ item: "biomesoplenty:wilted_lily", count: 8 }
+		{ item: "biomesoplenty:burning_blossom", count: 8 }
+		{ item: "biomesoplenty:blue_hydrangea", count: 8 }
+		{ item: "biomesoplenty:spanish_moss", count: 4 }
+		{ item: "biomesoplenty:goldenrod", count: 8 }
+		{ item: "biomesoplenty:willow_vine", count: 4 }
+		{ item: "floralench:dandelion_vine", count: 4 }
+		{ item: "floralench:poppy_vine", count: 4 }
+		{ item: "floralench:blue_orchid_vine", count: 4 }
+		{ item: "floralench:allium_vine", count: 4 }
+		{ item: "floralench:azure_bluet_vine", count: 4 }
+		{ item: "floralench:red_tulip_vine", count: 4 }
+		{ item: "floralench:orange_tulip_vine", count: 4 }
+		{ item: "floralench:white_tulip_vine", count: 4 }
+		{ item: "floralench:pink_tulip_vine", count: 4 }
+		{ item: "floralench:oxeye_daisy_vine", count: 4 }
+		{ item: "floralench:cornflower_vine", count: 4 }
+		{ item: "floralench:lily_of_the_valley_vine", count: 4 }
+		{ item: "floralench:wither_rose_vine", count: 4 }
+		{ item: "floralench:sunflower_vine", count: 4 }
+		{ item: "floralench:lilac_vine", count: 4 }
+		{ item: "floralench:rose_bush_vine", count: 4 }
+		{ item: "floralench:peony_vine", count: 4 }
+		{
+			item: {
+				id: "floralench:red_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "floralench:yellow_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "floralench:blue_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "floralench:white_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "floralench:pink_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 500
+			monster: 500
+		}
+		color: 16210381
+		string_id: "pretty_plants"
+	}
+}

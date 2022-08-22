@@ -1,0 +1,8 @@
+{
+	id: "0071D56A887DDB2C"
+	order_index: 88
+	title: "dwander"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "biomesoplenty:music_disc_wanderer" }]
+}

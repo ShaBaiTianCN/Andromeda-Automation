@@ -1,0 +1,197 @@
+{
+	id: "418271B85A29C4CA"
+	group: "31EE4422B6F1456C"
+	order_index: 2
+	filename: "solar_redux"
+	title: "Solar Redux"
+	icon: "solarflux:sp_8"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["1E800202F7DB0792"]
+			hide: true
+			id: "482C9956A13EFD0B"
+			tasks: [{
+				id: "214365B56539F57E"
+				type: "item"
+				item: "solarflux:sp_1"
+			}]
+			rewards: [{
+				id: "52CB6CC31BE5BE8B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "gems"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["482C9956A13EFD0B"]
+			id: "0FB7DDD545637FA8"
+			tasks: [{
+				id: "5F2FC130C6056DAA"
+				type: "item"
+				item: "solarflux:sp_2"
+			}]
+			rewards: [{
+				id: "40944340F51572C4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			dependencies: ["0FB7DDD545637FA8"]
+			id: "67C128D8B5753CDB"
+			tasks: [{
+				id: "32B4E893D83D49F4"
+				type: "item"
+				item: "solarflux:sp_3"
+			}]
+			rewards: [{
+				id: "3F3611936A2A04E2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["67C128D8B5753CDB"]
+			id: "386E571A50F17584"
+			tasks: [{
+				id: "2E40AE040D5377C6"
+				type: "item"
+				item: "solarflux:sp_4"
+			}]
+			rewards: [{
+				id: "08FD0EDD77A8E2D8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			dependencies: ["386E571A50F17584"]
+			id: "369603388B1983DC"
+			tasks: [{
+				id: "57A74F794AA64418"
+				type: "item"
+				item: "solarflux:sp_5"
+			}]
+			rewards: [{
+				id: "7E8983220B24F48D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.0d
+			dependencies: ["369603388B1983DC"]
+			id: "340007C7B14AB76C"
+			tasks: [{
+				id: "54D717A03095A2E2"
+				type: "item"
+				item: "solarflux:sp_6"
+			}]
+			rewards: [{
+				id: "29B0970ACAAB3F75"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			dependencies: ["340007C7B14AB76C"]
+			id: "7484485D45BBD6A5"
+			tasks: [{
+				id: "76B70B4B7EB54B41"
+				type: "item"
+				item: "solarflux:sp_7"
+			}]
+			rewards: [{
+				id: "59A51A8B7D8D7BD6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "dungeon_chest"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 7.0d
+			shape: "gear"
+			dependencies: ["7484485D45BBD6A5"]
+			id: "019B249E2146F6CB"
+			tasks: [{
+				id: "59314DBFE0C230D9"
+				type: "item"
+				item: "solarflux:sp_8"
+			}]
+			rewards: [
+				{
+					id: "29B88E7011DF1740"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "artifacts"
+						}
+					}
+				}
+				{
+					id: "2BB0DD5A2EDF338E"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+	]
+}

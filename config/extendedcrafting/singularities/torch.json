@@ -1,0 +1,12 @@
+{
+  "name": "Torch",
+  "colors": [
+    "ffa047",
+    "634529"
+  ],
+  "ingredient": {
+    "item": "minecraft:torch"
+  },
+"inUltimateSingularity": false
+
+}

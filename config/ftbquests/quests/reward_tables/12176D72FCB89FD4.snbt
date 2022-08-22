@@ -1,0 +1,8 @@
+{
+	id: "12176D72FCB89FD4"
+	order_index: 60
+	title: "TomeOfKnowledge"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{ item: "projecte:tome" }]
+}

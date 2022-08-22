@@ -1,0 +1,400 @@
+{
+	id: "1298DBAC5E56182A"
+	group: "1BDE5602F1BE5CBF"
+	order_index: 1
+	filename: "dark_utilities"
+	title: "Dark Utilities"
+	icon: "darkutils:vector_plate_ultra"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.5d
+			y: 1.5d
+			description: ["Shift+Right click to refresh your enchanting table!"]
+			dependencies: ["32C4812EDE224DB1"]
+			id: "3727637C2EF66BBB"
+			tasks: [{
+				id: "6955ABF831CBE319"
+				type: "item"
+				item: "darkutils:tome_enchanting"
+			}]
+			rewards: [{
+				id: "5F49BE7EFAC4B194"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			description: ["Grants permanent invisibility to some mobs!"]
+			dependencies: ["32C4812EDE224DB1"]
+			id: "39D6C0E23D1FFFBE"
+			tasks: [{
+				id: "04F5DA1395D668C4"
+				type: "item"
+				item: "darkutils:tome_shadows"
+			}]
+			rewards: [{
+				id: "0DB05805367388B3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			description: ["Travel quickly through portals."]
+			dependencies: ["32C4812EDE224DB1"]
+			id: "2B31C5FEC5AEBB47"
+			tasks: [{
+				id: "6642FC16E9D1573F"
+				type: "item"
+				item: "darkutils:charm_portal"
+			}]
+			rewards: [{
+				id: "19E6554C2BC58EDD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "Sleep fast!"
+			dependencies: ["32C4812EDE224DB1"]
+			id: "33433CD038EAE99B"
+			tasks: [{
+				id: "66C8E17A90A3250B"
+				type: "item"
+				item: "darkutils:charm_sleep"
+			}]
+			rewards: [{
+				id: "53C8795A19A07592"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			description: ["Immunity to negative status effects!"]
+			dependencies: ["32C4812EDE224DB1"]
+			id: "219A805FCF0A251D"
+			tasks: [{
+				id: "17CFE969B47E9F38"
+				type: "item"
+				item: "darkutils:charm_warding"
+			}]
+			rewards: [{
+				id: "596B7EA468C8D0F6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "2C1D6CE7185F2D15"
+			tasks: [{
+				id: "131F17F9083322F7"
+				type: "item"
+				item: "darkutils:redstone_randomizer"
+			}]
+			rewards: [{
+				id: "52D53989CEF93095"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "16EE55BA4CA62375"
+			tasks: [{
+				id: "26BBEB73F9287EFF"
+				type: "item"
+				item: "darkutils:shielded_redstone"
+			}]
+			rewards: [{
+				id: "4937CCAE6A4B4CB3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "46D080CABA2E5200"
+			tasks: [{
+				id: "19D55A165A7D99BE"
+				type: "item"
+				item: "darkutils:filter_hostile"
+			}]
+			rewards: [{
+				id: "7C309DBD202D049E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "77434C2A95DF9D9C"
+			tasks: [{
+				id: "1EE7F70C679BB580"
+				type: "item"
+				item: "darkutils:filter_undead"
+			}]
+			rewards: [{
+				id: "3E36D4E996E6AB15"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "78AE7FDCC4A15906"
+			tasks: [{
+				id: "7FDFB70C5A90C81A"
+				type: "item"
+				item: "darkutils:filter_equipment"
+			}]
+			rewards: [{
+				id: "41940F62F133AC52"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "7AE9ED743384E6A6"
+			tasks: [{
+				id: "1D211297198874D5"
+				type: "item"
+				item: "darkutils:filter_child"
+			}]
+			rewards: [{
+				id: "477C20EBE50356FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "6BA92988862136A5"
+			tasks: [{
+				id: "214E20CC681C049C"
+				type: "item"
+				item: "darkutils:damage_plate_player"
+			}]
+			rewards: [{
+				id: "61F8C96D9E4A2CCB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "23604685D0FEBD92"
+			tasks: [{
+				id: "539E81B9313BC1B9"
+				type: "item"
+				item: "darkutils:damage_plate"
+			}]
+			rewards: [{
+				id: "0592D565D5ABBAF8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			dependencies: ["32C4812EDE224DB1"]
+			id: "79CE0465B084F9A5"
+			tasks: [{
+				id: "2D3CC3F0FC50280E"
+				type: "item"
+				item: "darkutils:vector_plate"
+			}]
+			rewards: [{
+				id: "5F1FC592AD163B8B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 2.5d
+			dependencies: ["79CE0465B084F9A5"]
+			id: "117C39CB498A9890"
+			tasks: [{
+				id: "77A267E796D4D34F"
+				type: "item"
+				item: "darkutils:vector_plate_fast"
+			}]
+			rewards: [{
+				id: "143486F29BD96EF6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mob_drops"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			shape: "gear"
+			dependencies: ["117C39CB498A9890"]
+			id: "13F27C7D97170179"
+			tasks: [{
+				id: "7E76181238350094"
+				type: "item"
+				item: "darkutils:vector_plate_extreme"
+			}]
+			rewards: [
+				{
+					id: "0045ADEAC63B3CBD"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mob_drops"
+						}
+					}
+				}
+				{
+					id: "11C7532F8381E071"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			dependencies: ["6F18145F076820FC"]
+			hide: true
+			id: "32C4812EDE224DB1"
+			tasks: [{
+				id: "4E3C620A99ADD30E"
+				type: "item"
+				item: "darkutils:blank_plate"
+			}]
+			rewards: [{
+				id: "71F01BCEF8F56A17"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_junk"
+					}
+				}
+			}]
+		}
+	]
+}

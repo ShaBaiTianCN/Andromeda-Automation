@@ -1,0 +1,95 @@
+{
+	id: "61E28D65E854B346"
+	order_index: 3
+	title: "Gems"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "gemsnjewels:pale_diamond", count: 4 }
+		{ item: "gemsnjewels:emerald", count: 4 }
+		{ item: "gemsnjewels:ruby", count: 4 }
+		{ item: "gemsnjewels:sapphire", count: 4 }
+		{ item: "gemsnjewels:amethyst", count: 4 }
+		{ item: "gemsnjewels:opal", count: 4 }
+		{ item: "gemsnjewels:kunzite", count: 4 }
+		{ item: "gemsnjewels:tourmaline", count: 4 }
+		{ item: "gemsnjewels:ametrine", count: 4 }
+		{ item: "gemsnjewels:zircon", count: 4 }
+		{ item: "gemsnjewels:spinel", count: 4 }
+		{ item: "gemsnjewels:citrine", count: 4 }
+		{ item: "gemsnjewels:topaz", count: 4 }
+		{ item: "gemsnjewels:garnet", count: 4 }
+		{ item: "gemsnjewels:peridot", count: 4 }
+		{ item: "gemsnjewels:morganite", count: 4 }
+		{ item: "gemsnjewels:alexandrite", count: 4 }
+		{ item: "minecraft:budding_amethyst", count: 32 }
+		{ item: "minecraft:budding_amethyst", count: 16 }
+		{ item: "minecraft:amethyst_cluster", count: 4 }
+		{ item: "minecraft:medium_amethyst_bud", count: 4 }
+		{ item: "minecraft:small_amethyst_bud", count: 4 }
+		{ item: "biomesoplenty:large_rose_quartz_bud", count: 4 }
+		{ item: "biomesoplenty:medium_rose_quartz_bud", count: 4 }
+		{ item: "biomesoplenty:small_rose_quartz_bud", count: 4 }
+		{ item: "gemsnjewels:diamond_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:pale_diamond_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:emerald_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:ruby_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:sapphire_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:amethyst_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:opal_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:garnet_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:topaz_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:peridot_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:aquamarine_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:zircon_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:alexandrite_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:tanzanite_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:tourmaline_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:spinel_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:black_opal_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:citrine_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:morganite_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:ametrine_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:kunzite_set_gold_ring", count: 5 }
+		{ item: "gemsnjewels:iolite_set_gold_ring", count: 5 }
+		{ item: "minecraft:diamond", count: 4 }
+		{ item: "minecraft:emerald", count: 4 }
+		{
+			item: {
+				id: "deepresonance:resonating_crystal_natural"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						glowing: 0b
+						Info: {
+							owner: ""
+							efficiency: 1.0d
+							powered: 0b
+							strength: 1.0d
+							purity: 0.0d
+							power: 0.0d
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "waystones:warp_stone"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 500
+			monster: 500
+		}
+		color: 262114
+		string_id: "gems"
+	}
+}

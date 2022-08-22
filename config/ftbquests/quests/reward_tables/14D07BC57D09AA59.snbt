@@ -1,0 +1,71 @@
+{
+	id: "14D07BC57D09AA59"
+	order_index: 11
+	title: "Vanilla_Redstone"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:hopper", count: 32 }
+		{ item: "minecraft:observer", count: 32 }
+		{ item: "minecraft:tnt", count: 32 }
+		{ item: "minecraft:slime_block", count: 32 }
+		{ item: "minecraft:sticky_piston", count: 32 }
+		{ item: "minecraft:piston", count: 32 }
+		{ item: "minecraft:dropper", count: 32 }
+		{ item: "minecraft:redstone_block", count: 32 }
+		{ item: "minecraft:redstone", count: 32 }
+		{ item: "minecraft:target", count: 32 }
+		{ item: "minecraft:lever", count: 32 }
+		{ item: "minecraft:lightning_rod", count: 32 }
+		{ item: "minecraft:hopper", count: 16 }
+		{ item: "minecraft:observer", count: 16 }
+		{ item: "minecraft:tnt", count: 16 }
+		{ item: "minecraft:slime_block", count: 16 }
+		{ item: "minecraft:sticky_piston", count: 16 }
+		{ item: "minecraft:piston", count: 16 }
+		{ item: "minecraft:dropper", count: 16 }
+		{ item: "minecraft:redstone_block", count: 16 }
+		{ item: "minecraft:redstone", count: 16 }
+		{ item: "minecraft:target", count: 16 }
+		{ item: "minecraft:lightning_rod", count: 16 }
+		{ item: "minecraft:hopper", count: 8 }
+		{ item: "minecraft:observer", count: 8 }
+		{ item: "minecraft:tnt", count: 8 }
+		{ item: "minecraft:slime_block", count: 8 }
+		{ item: "minecraft:sticky_piston", count: 8 }
+		{ item: "minecraft:piston", count: 8 }
+		{ item: "minecraft:dropper", count: 8 }
+		{ item: "minecraft:redstone_block", count: 8 }
+		{ item: "minecraft:redstone", count: 8 }
+		{ item: "minecraft:target", count: 8 }
+		{ item: "minecraft:lightning_rod", count: 8 }
+		{ item: "minecraft:dripstone_block", count: 64 }
+		{ item: "minecraft:cauldron", count: 32 }
+		{ item: "minecraft:daylight_detector", count: 8 }
+		{ item: "minecraft:repeater", count: 32 }
+		{ item: "minecraft:comparator", count: 16 }
+		{ item: "minecraft:honey_block", count: 8 }
+		{ item: "minecraft:dispenser", count: 16 }
+		{ item: "minecraft:dripstone_block", count: 32 }
+		{ item: "minecraft:cauldron", count: 16 }
+		{ item: "minecraft:daylight_detector", count: 4 }
+		{ item: "minecraft:repeater", count: 16 }
+		{ item: "minecraft:comparator", count: 8 }
+		{ item: "minecraft:honey_block", count: 4 }
+		{ item: "minecraft:dispenser", count: 8 }
+		{ item: "minecraft:pointed_dripstone", count: 32 }
+		{ item: "minecraft:repeater", count: 8 }
+		{ item: "minecraft:comparator", count: 4 }
+		{ item: "minecraft:honey_block" }
+		{ item: "minecraft:dispenser", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 8717069
+		string_id: "vanilla_redstone"
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Diamond Sword",
+  "colors": [
+    "7feef0",
+    "3cbabd"
+  ],
+  "ingredient": {
+    "item": "minecraft:diamond_sword"
+  },
+"inUltimateSingularity": false
+
+}

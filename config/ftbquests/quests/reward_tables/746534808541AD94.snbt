@@ -1,0 +1,90 @@
+{
+	id: "746534808541AD94"
+	order_index: 1
+	title: "furniture"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "cfm:oak_table", count: 8 }
+		{ item: "cfm:spruce_table", count: 8 }
+		{ item: "cfm:birch_table", count: 8 }
+		{ item: "cfm:jungle_table", count: 8 }
+		{ item: "cfm:acacia_table", count: 8 }
+		{ item: "cfm:dark_oak_table", count: 8 }
+		{ item: "cfm:crimson_table", count: 8 }
+		{ item: "cfm:warped_table", count: 8 }
+		{ item: "cfm:stone_table", count: 8 }
+		{ item: "cfm:granite_table", count: 8 }
+		{ item: "cfm:diorite_table", count: 8 }
+		{ item: "cfm:andesite_table", count: 9 }
+		{ item: "cfm:oak_chair", count: 8 }
+		{ item: "cfm:spruce_chair", count: 8 }
+		{ item: "cfm:birch_chair", count: 8 }
+		{ item: "cfm:jungle_chair", count: 8 }
+		{ item: "cfm:acacia_chair", count: 8 }
+		{ item: "cfm:dark_oak_chair", count: 8 }
+		{ item: "cfm:crimson_chair", count: 8 }
+		{ item: "cfm:warped_chair", count: 8 }
+		{ item: "cfm:stone_chair", count: 8 }
+		{ item: "cfm:granite_chair", count: 8 }
+		{ item: "cfm:diorite_chair", count: 8 }
+		{ item: "cfm:andesite_chair", count: 8 }
+		{ item: "cfm:stripped_oak_coffee_table", count: 8 }
+		{ item: "cfm:stripped_spruce_coffee_table", count: 8 }
+		{ item: "cfm:stripped_birch_coffee_table", count: 8 }
+		{ item: "cfm:stripped_jungle_coffee_table", count: 8 }
+		{ item: "cfm:stripped_acacia_coffee_table", count: 8 }
+		{ item: "cfm:stripped_dark_oak_coffee_table", count: 8 }
+		{ item: "cfm:stripped_crimson_coffee_table", count: 8 }
+		{ item: "cfm:stripped_warped_coffee_table", count: 8 }
+		{ item: "cfm:red_sofa", count: 8 }
+		{ item: "cfm:pink_sofa", count: 64 }
+		{ item: "cfm:light_blue_sofa", count: 8 }
+		{ item: "cfm:magenta_sofa", count: 8 }
+		{ item: "cfm:magenta_cooler" }
+		{ item: "cfm:blue_cooler" }
+		{ item: "cfm:red_cooler" }
+		{ item: "cfm:yellow_cooler" }
+		{ item: "cfm:pink_cooler" }
+		{ item: "cfm:white_grill" }
+		{ item: "cfm:magenta_grill" }
+		{ item: "cfm:purple_grill" }
+		{ item: "cfm:blue_grill" }
+		{ item: "cfm:door_mat" }
+		{ item: "mcwfurnitures:oak_chair", count: 8 }
+		{ item: "mcwfurnitures:oak_modern_chair", count: 8 }
+		{ item: "mcwfurnitures:oak_striped_chair", count: 8 }
+		{ item: "mcwfurnitures:spruce_chair", count: 8 }
+		{ item: "mcwfurnitures:spruce_modern_chair", count: 8 }
+		{ item: "mcwfurnitures:spruce_striped_chair", count: 8 }
+		{ item: "mcwfurnitures:jungle_chair", count: 8 }
+		{ item: "mcwfurnitures:jungle_modern_chair", count: 8 }
+		{ item: "mcwfurnitures:jungle_striped_chair", count: 8 }
+		{ item: "mcwfurnitures:dark_oak_chair", count: 8 }
+		{ item: "mcwfurnitures:dark_oak_modern_chair", count: 8 }
+		{ item: "mcwfurnitures:dark_oak_striped_chair", count: 8 }
+		{ item: "mcwfurnitures:crimson_chair", count: 8 }
+		{ item: "mcwfurnitures:crimson_modern_chair", count: 8 }
+		{ item: "mcwfurnitures:crimson_striped_chair", count: 8 }
+		{ item: "mcwlights:lava_lamp" }
+		{ item: "cfm:diving_board" }
+		{ item: "nethersdelight:hoglin_mount" }
+		{ item: "floralench:wither_rose_basket", count: 4 }
+		{ item: "floralench:floral_basket", count: 8 }
+		{ item: "floralench:blue_orchid_basket", count: 4 }
+		{ item: "floralench:allium_basket", count: 4 }
+		{ item: "floralench:red_tulip_basket", count: 4 }
+		{ item: "floralench:white_tulip_basket", count: 4 }
+		{ item: "floralench:pink_tulip_basket", count: 4 }
+		{ item: "floralench:oxeye_daisy_basket", count: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16756201
+		string_id: "furniture"
+	}
+}

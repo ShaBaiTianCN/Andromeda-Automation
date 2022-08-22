@@ -1,0 +1,16 @@
+{
+	id: "0ECD72E5944F018B"
+	order_index: 101
+	title: "LittleLogisticsGuide"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "patchouli:guide_book"
+			Count: 1b
+			tag: {
+				"patchouli:book": "littlelogistics:guide"
+			}
+		}
+	}]
+}

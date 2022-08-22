@@ -1,0 +1,2449 @@
+{
+	id: "6B0C62F27E883853"
+	group: "1D115F3DF1092C06"
+	order_index: 9
+	filename: "pneumaticcraft"
+	title: "Pneumaticcraft"
+	icon: "pneumaticcraft:reinforced_pressure_tube"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "square"
+			subtitle: "Get some TNT"
+			description: [
+				"To make compressed iron you'll need some TNT."
+				""
+				""
+				"In order to protect your island, you'll want to only use the TNT in an obsidian bowl structure, or submerged in water."
+				""
+				"Now simply explode some iron ingots or blocks! There will be a 20% loss in it's conversion to compressed iron."
+			]
+			dependencies: ["4A4A0873114B8141"]
+			id: "077A9D020BDCBB26"
+			tasks: [{
+				id: "4B0C3ECC6EC1E04D"
+				type: "item"
+				item: "pneumaticcraft:ingot_iron_compressed"
+			}]
+			rewards: [
+				{
+					id: "4BD5B2D922F579ED"
+					type: "item"
+					item: "pneumaticcraft:ingot_iron_compressed"
+					count: 12
+				}
+				{
+					id: "3423FDDC13189D44"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			subtitle: "The Wrench!"
+			description: [
+				"This wrench is very handy and difficult to go without."
+				""
+				"You can use it to close off open pressure pipes, quickly dismantle components, and generally configure many of the things in Pneumaticcraft."
+				""
+				"You will however need to add some pressure to this wrench. More on that later!"
+			]
+			dependencies: ["077A9D020BDCBB26"]
+			id: "19067E5880C8845A"
+			tasks: [{
+				id: "6C4C372ECB294705"
+				type: "item"
+				item: "pneumaticcraft:pneumatic_wrench"
+			}]
+			rewards: [
+				{
+					id: "283C8B13275AF735"
+					type: "random"
+				}
+				{
+					id: "45B2F2AE8F98BBC5"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			subtitle: "Strong Stone"
+			description: [
+				"This stone has a strong blast resistance!"
+				""
+				"It's also used in allot of Pneumaticcraft crafting recipes, so it's always good to have some handy!"
+			]
+			dependencies: ["077A9D020BDCBB26"]
+			id: "6E0DA219A564AF78"
+			tasks: [{
+				id: "31D7539B34B690B2"
+				type: "item"
+				item: "pneumaticcraft:reinforced_stone"
+			}]
+			rewards: [
+				{
+					id: "0CC63303C85FB4C2"
+					type: "item"
+					item: "pneumaticcraft:reinforced_brick_tile"
+					count: 12
+				}
+				{
+					id: "44DEC0DD7E8B68CB"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "Under Pressure!"
+			description: [
+				"These pipes are the lifeblood of Pneumaticcraft... Or more like life pressure heh."
+				""
+				"These pipes are used to transport pressurized air from one location to another."
+				""
+				"Pressurized air can be used for everything from powering drones, to pressurizing large chambers for crafting special components."
+			]
+			dependencies: ["077A9D020BDCBB26"]
+			id: "58360B2636C72F23"
+			tasks: [{
+				id: "79C50219D5ABD710"
+				type: "item"
+				item: "pneumaticcraft:pressure_tube"
+			}]
+			rewards: [
+				{
+					id: "6FFBB1D1B1D28ED7"
+					type: "random"
+				}
+				{
+					id: "107A4386691E069F"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "raw_materials"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 2.0d
+			subtitle: "Hnnnngg The Early Game Pressure Maker!"
+			description: [
+				"It's like a furnace, but it creates pressure rather then cooks things."
+				""
+				"You'll want to be careful. Pressure can be dangerous if it gets higher then the recommended limit. Things might just start exploding!"
+			]
+			dependencies: ["58360B2636C72F23"]
+			id: "093622097B9C8852"
+			tasks: [{
+				id: "2FD10F0FC0CF8843"
+				type: "item"
+				item: "pneumaticcraft:air_compressor"
+			}]
+			rewards: [
+				{
+					id: "21E7574AB180C66D"
+					type: "random"
+				}
+				{
+					id: "099365EA3CF6AFB1"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_pipes"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			subtitle: "An air motor!"
+			description: ["This is a air compressor that uses liquid fuels to generate pressure."]
+			dependencies: ["093622097B9C8852"]
+			id: "623DC1B523A61F17"
+			tasks: [{
+				id: "58F768A5C790DE05"
+				type: "item"
+				item: "pneumaticcraft:liquid_compressor"
+			}]
+			rewards: [{
+				id: "2081875AA75B0BDB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 4.0d
+			subtitle: "Convert Rotational Energy into Pressure!"
+			description: ["A nice compatibility item that allows you to convert Create rotational power into Pneumaticcraft pressure power!"]
+			dependencies: ["093622097B9C8852"]
+			id: "57F7C0C18AE6A472"
+			tasks: [{
+				id: "3DAD21B30462F003"
+				type: "item"
+				item: "compressedcreativity:rotational_compressor"
+			}]
+			rewards: [{
+				id: "6905157B064EB19D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.0d
+			subtitle: "Geothermal Pressure!"
+			description: ["This generator uses hot and cold difference to generate power. You can use heat pipes, or just straight up fluids and blocks that have temperature values. For example, placing lava on one side, and packed ice on the other. The two temperature emitters have to be on opposite sides of eachother. You can have two sets going into one Generator though!"]
+			dependencies: ["093622097B9C8852"]
+			id: "14556EDEF6FE1E59"
+			tasks: [{
+				id: "12D9CA56DF4B5EF9"
+				type: "item"
+				item: "pneumaticcraft:thermal_compressor"
+			}]
+			rewards: [{
+				id: "2BDB2A2B681F76A4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			title: "Pressure Chamber"
+			x: 2.5d
+			y: 4.0d
+			subtitle: "Compress Everything!"
+			description: [
+				"The Pressure Chamber allows you to pressurize different things. You can craft TNT crafts with 100% turnout and then some."
+				""
+				"In order to form a pressure chamber you have to first form a cube frame with the wall blocks. This can be 3x3 up to 5x5. Then it needs 2 interfaces, one facing input side, and one facing output side, and a pressure valve. Keep the inside blocks air, and everything else can be any of the pressure chamber blocks on top of what's required."
+				""
+				"Once it's a valid multiblock structure the textures will change and you will have a nice multiblock chamber now for pressure crafting!"
+			]
+			dependencies: ["093622097B9C8852"]
+			id: "1A18F0DC2EB47549"
+			tasks: [
+				{
+					id: "2D134EDC55155D35"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					count: 16L
+				}
+				{
+					id: "7A660F9B4987DCE7"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_valve"
+				}
+				{
+					id: "26B4155F497892A4"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_interface"
+					count: 2L
+				}
+				{
+					id: "6416A07DF18C6DB4"
+					type: "item"
+					item: "pneumaticcraft:pressure_chamber_glass"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "559ACB7276D93777"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			subtitle: "Useful tool"
+			description: ["A little handheld tool to tell you what the pressure level is anywhere in a pressure network."]
+			dependencies: ["077A9D020BDCBB26"]
+			id: "5F3F335AEA1AC5FB"
+			tasks: [{
+				id: "02701E49FCE23B9A"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge"
+			}]
+			rewards: [{
+				id: "4644A16BDF510090"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 7.0d
+			hide_dependency_lines: true
+			dependencies: ["077A9D020BDCBB26"]
+			id: "490D072BB19E34EC"
+			tasks: [{
+				id: "65DBF50F2844308F"
+				type: "item"
+				item: "pneumaticcraft:pressure_gauge_module"
+			}]
+			rewards: [{
+				id: "0BE062DD46481841"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "50268DEB2BADCB28"
+			tasks: [{
+				id: "3294BE9882116FF6"
+				type: "item"
+				item: "pneumaticcraft:safety_tube_module"
+			}]
+			rewards: [{
+				id: "196EC9BB9B23E5B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "04E0791074569CE4"
+			tasks: [{
+				id: "0E145BB64097A9CD"
+				type: "item"
+				item: "pneumaticcraft:flow_detector_module"
+			}]
+			rewards: [{
+				id: "67366800BD46D314"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "413A6BC057B130AE"
+			tasks: [{
+				id: "301E6EBFB089C084"
+				type: "item"
+				item: "pneumaticcraft:air_grate_module"
+			}]
+			rewards: [{
+				id: "45C62C6E2A4AF4A9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "764391BC7A6069E9"
+			tasks: [{
+				id: "40484B80BE4E97FA"
+				type: "item"
+				item: "pneumaticcraft:regulator_tube_module"
+			}]
+			rewards: [{
+				id: "22799C85901053F2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "7002E143C60BBCA2"
+			tasks: [{
+				id: "180DD3C9A8C2FC26"
+				type: "item"
+				item: "pneumaticcraft:charging_module"
+			}]
+			rewards: [{
+				id: "691835D9A9D52C25"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "348435320A590494"
+			tasks: [{
+				id: "397D01C172221221"
+				type: "item"
+				item: "pneumaticcraft:logistics_module"
+			}]
+			rewards: [{
+				id: "4F3A5C770BBFC852"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "71CE7286DBE00AD4"
+			tasks: [{
+				id: "09477646836AA84A"
+				type: "item"
+				item: "pneumaticcraft:redstone_module"
+			}]
+			rewards: [{
+				id: "46C791A23CCD6089"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.5d
+			dependencies: ["490D072BB19E34EC"]
+			id: "12EB096B5150051F"
+			tasks: [{
+				id: "3AA326644E738BEF"
+				type: "item"
+				item: "pneumaticcraft:vacuum_module"
+			}]
+			rewards: [{
+				id: "261DB4FEE74F36CB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "kitchen"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 8.5d
+			subtitle: "Crude Refining!"
+			description: ["This is a multiblock. You want to stack the outputs on top of the refiner. Everything in this setup requires heat. Heat does rise up, but will disperse out the sides. So either import heat all around, or just at the bottom and insulate the upper outputs."]
+			dependencies: ["19E3CC7FA57AE518"]
+			id: "400F1BE25D8BDE05"
+			tasks: [
+				{
+					id: "23E56F4A65A2F123"
+					type: "item"
+					item: "pneumaticcraft:refinery"
+				}
+				{
+					id: "514DDF1E79A3DAB3"
+					type: "item"
+					item: "pneumaticcraft:refinery_output"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "199A9ECB7C30FE52"
+					type: "item"
+					item: "pneumaticcraft:oil_bucket"
+				}
+				{
+					id: "596D1519DA4E0142"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "coins"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 11.0d
+			dependencies: ["400F1BE25D8BDE05"]
+			id: "7703E5BD14EAB8B5"
+			tasks: [{
+				id: "27996548CD2D1209"
+				type: "item"
+				item: "pneumaticcraft:diesel_bucket"
+			}]
+			rewards: [{
+				id: "16B4164428430DB3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 11.0d
+			dependencies: ["400F1BE25D8BDE05"]
+			id: "6D3ED2E72B7471DF"
+			tasks: [{
+				id: "4A47F2482267F85B"
+				type: "item"
+				item: "pneumaticcraft:kerosene_bucket"
+			}]
+			rewards: [{
+				id: "7108054D22DA40B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 11.0d
+			dependencies: ["400F1BE25D8BDE05"]
+			id: "6782C9E8009B1BC9"
+			tasks: [{
+				id: "3E46183D99C6E0FC"
+				type: "item"
+				item: "pneumaticcraft:gasoline_bucket"
+			}]
+			rewards: [{
+				id: "7274D657E2DD02C4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 11.0d
+			dependencies: ["400F1BE25D8BDE05"]
+			id: "2A6BEEBF0B868D1F"
+			tasks: [{
+				id: "4CB1A38DE63AA0A4"
+				type: "item"
+				item: "pneumaticcraft:lpg_bucket"
+			}]
+			rewards: [{
+				id: "68367C3FDB45396B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 13.0d
+			subtitle: "Bucket of plastic"
+			description: ["You can get solid plastic from this by simply placing it in the world. Or you could use it to make some etching acid in the pressurized chamber! D:"]
+			dependencies: ["669CEBF5A6EB3BB0"]
+			id: "4155D8300FA3A780"
+			tasks: [{
+				id: "1EAA609D77F98AA0"
+				type: "item"
+				item: "pneumaticcraft:plastic_bucket"
+			}]
+			rewards: [{
+				id: "0FC635315D86EBD5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 14.0d
+			dependencies: ["4155D8300FA3A780"]
+			id: "321E33FD7AEEE8F0"
+			tasks: [{
+				id: "6D565E6E090F9F40"
+				type: "item"
+				item: "pneumaticcraft:etching_acid_bucket"
+			}]
+			rewards: [{
+				id: "5FC86DDE5479EBFA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 15.0d
+			subtitle: "Buy Stuff!"
+			description: [
+				""
+				"Simply Right click an inventory block and start buying and selling stuff. Just place stuff in the inventory and make deals."
+			]
+			dependencies: ["321E33FD7AEEE8F0"]
+			id: "273550B5596CD871"
+			tasks: [{
+				id: "62697624057584D2"
+				type: "item"
+				item: "pneumaticcraft:amadron_tablet"
+			}]
+			rewards: [{
+				id: "572D767E29D9616C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 16.0d
+			description: ["A crafting component. You're not able to craft this though. You'll have to buy it from a villager, or from your nifty Amadron tablet."]
+			dependencies: ["273550B5596CD871"]
+			id: "3FC895E43EBF9721"
+			tasks: [{
+				id: "20FE5BE496273964"
+				type: "item"
+				item: "pneumaticcraft:pcb_blueprint"
+			}]
+			rewards: [{
+				id: "03D396EC194F8186"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 17.0d
+			dependencies: ["3FC895E43EBF9721"]
+			id: "5F1B4B50B2746115"
+			tasks: [{
+				id: "63D51929AEAD228B"
+				type: "item"
+				item: "pneumaticcraft:uv_light_box"
+			}]
+			rewards: [{
+				id: "0BF3F4C685C8CD9A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 18.0d
+			dependencies: ["5F1B4B50B2746115"]
+			id: "44E96E8A9C53E104"
+			tasks: [{
+				id: "16AB4DD739D92096"
+				type: "item"
+				item: "pneumaticcraft:etching_tank"
+			}]
+			rewards: [{
+				id: "1722823576B16E69"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 19.0d
+			description: ["Alright a chip! You can use this to craft all the fun stuff!"]
+			dependencies: ["44E96E8A9C53E104"]
+			id: "24178DA3A98058AF"
+			tasks: [{
+				id: "2CC4002BC8636FE4"
+				type: "item"
+				item: "pneumaticcraft:printed_circuit_board"
+			}]
+			rewards: [{
+				id: "7BBB1F488A19B05C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			subtitle: "Like an RF charger, but with air!"
+			description: ["This block can withstand up to 20 pressure, and is used to charge any portable pressure powered items."]
+			dependencies: ["093622097B9C8852"]
+			id: "42DFA19271A782E3"
+			tasks: [{
+				id: "7B23352E9E7097B9"
+				type: "item"
+				item: "pneumaticcraft:charging_station"
+			}]
+			rewards: [{
+				id: "0E979FB41324302E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.0d
+			y: 21.5d
+			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			dependencies: ["5702C1DE525CD9DD"]
+			id: "4300628C125E0BC4"
+			tasks: [{
+				id: "2077E3D8924F8C8A"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "457B4EE2FAED0A22"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 21.5d
+			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			dependencies: ["5702C1DE525CD9DD"]
+			id: "631C587D260A4484"
+			tasks: [{
+				id: "0048E0074861C56F"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3D975D2C8C1CB02C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.0d
+			y: 21.5d
+			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			dependencies: ["5702C1DE525CD9DD"]
+			id: "2CE56861A2F650D5"
+			tasks: [{
+				id: "639588F21A9EB4AE"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1A4A0D3839F64C94"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.0d
+			y: 21.5d
+			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			dependencies: ["5702C1DE525CD9DD"]
+			id: "116AC34BDC951097"
+			tasks: [{
+				id: "5F7FE320EF03EF95"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:pneumatic_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "03F6E1A0A7E71EBE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			title: "Compressed Iron Armor"
+			x: 6.5d
+			y: 20.5d
+			description: ["Basic compressed iron armor. Used to make the more advance upgradable pressure armor."]
+			dependencies: ["24178DA3A98058AF"]
+			id: "5702C1DE525CD9DD"
+			tasks: [
+				{
+					id: "481551337C7E327A"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:compressed_iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4384713BEF66F761"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:compressed_iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FF9BC904EF8593C"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:compressed_iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3F01B45BDAC32CB1"
+					type: "item"
+					item: {
+						id: "pneumaticcraft:compressed_iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0537F00CEF80E577"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_plants"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 20.5d
+			shape: "gear"
+			description: ["You don't directly craft with this. You add the components into an inventory nearby. You'll also need the programming specific to the recipe."]
+			dependencies: ["24178DA3A98058AF"]
+			id: "476CB22C4CCFFE36"
+			tasks: [{
+				id: "1BB265DD22B7BA0E"
+				type: "item"
+				item: "pneumaticcraft:assembly_controller"
+			}]
+			rewards: [
+				{
+					id: "1D99CE341C9B9435"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "late_game_pipes"
+						}
+					}
+				}
+				{
+					id: "1AD392323DC5E30D"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 21.5d
+			description: ["make sure that each crafting arm is on an adjacent side to this block. All blocks in the assembly need to be connected."]
+			dependencies: ["476CB22C4CCFFE36"]
+			id: "07B63071F9C91E30"
+			tasks: [{
+				id: "0C4D0ED418782990"
+				type: "item"
+				item: "pneumaticcraft:assembly_platform"
+			}]
+			rewards: [{
+				id: "2D63A5B7BF0A3610"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 21.5d
+			description: ["Input to the assembly line. This component will grab ingredients to a valid recipe and automatically place them on the crafting platform. Make sure it's adjacent to the platform."]
+			dependencies: ["476CB22C4CCFFE36"]
+			id: "45182603C1F06E37"
+			tasks: [{
+				id: "0BD8B7890BC27A8E"
+				type: "item"
+				item: "pneumaticcraft:assembly_io_unit_import"
+			}]
+			rewards: [{
+				id: "2507EE91765C3100"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 21.5d
+			description: ["This arm will take finished recipes and put them back in the inventory the input arm accuired them from."]
+			dependencies: ["476CB22C4CCFFE36"]
+			id: "7BFF2944B3CD094B"
+			tasks: [{
+				id: "0504C5A488A99735"
+				type: "item"
+				item: "pneumaticcraft:assembly_io_unit_export"
+			}]
+			rewards: [{
+				id: "44F3FE5CD623ECF0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 21.5d
+			description: ["Make sure this component is adjacent to the platform component."]
+			dependencies: ["476CB22C4CCFFE36"]
+			id: "63609D6E99FCDE0F"
+			tasks: [{
+				id: "121B597B4576BD7D"
+				type: "item"
+				item: "pneumaticcraft:assembly_drill"
+			}]
+			rewards: [{
+				id: "545986A33073B095"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 21.5d
+			description: ["Make sure this component is adjacent to the platform component."]
+			dependencies: ["476CB22C4CCFFE36"]
+			id: "7B807F092474F300"
+			tasks: [{
+				id: "690598491768BD37"
+				type: "item"
+				item: "pneumaticcraft:assembly_laser"
+			}]
+			rewards: [{
+				id: "2257EAC382A330B3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 20.5d
+			subtitle: "The Most Advanced Drone"
+			description: ["This drone can be programmed to do really complex tasks. You'll need puzzle pieces and a programming table for that."]
+			dependencies: ["24178DA3A98058AF"]
+			id: "4191EEBA254F9797"
+			tasks: [{
+				id: "22E9F9CAD7938925"
+				type: "item"
+				item: "pneumaticcraft:drone"
+			}]
+			rewards: [{
+				id: "2D71141F7AF3836C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.0d
+			dependencies: ["1A18F0DC2EB47549"]
+			id: "23B9F57A58BACD7A"
+			tasks: [{
+				id: "0637E06DD05F266F"
+				type: "item"
+				item: "pneumaticcraft:logistics_drone"
+			}]
+			rewards: [{
+				id: "0104E8ADA0664667"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 6.0d
+			dependencies: ["1A18F0DC2EB47549"]
+			id: "4A35A79F15AE3898"
+			tasks: [{
+				id: "7DCBC8E9760AB537"
+				type: "item"
+				item: "pneumaticcraft:harvesting_drone"
+			}]
+			rewards: [{
+				id: "14BD613D891CFC81"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.0d
+			dependencies: ["1A18F0DC2EB47549"]
+			id: "2F563F1ACF800483"
+			tasks: [{
+				id: "42261393474F473A"
+				type: "item"
+				item: "pneumaticcraft:collector_drone"
+			}]
+			rewards: [{
+				id: "51863D4148D8A9CA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 6.0d
+			dependencies: ["1A18F0DC2EB47549"]
+			id: "6E41776BCB83A2E0"
+			tasks: [{
+				id: "70C02247BC876206"
+				type: "item"
+				item: "pneumaticcraft:guard_drone"
+			}]
+			rewards: [{
+				id: "347956B59A9DB30D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 21.5d
+			dependencies: ["220620CB135368A3"]
+			id: "3F39EEC211BEDF8A"
+			tasks: [{
+				id: "6410C4B98938EB37"
+				type: "item"
+				item: "pneumaticcraft:volume_upgrade"
+			}]
+			rewards: [{
+				id: "2340026D4E98831D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 21.5d
+			dependencies: ["220620CB135368A3"]
+			id: "1E25B27CDFA50742"
+			tasks: [{
+				id: "4F0E43ED230A6FAB"
+				type: "item"
+				item: "pneumaticcraft:dispenser_upgrade"
+			}]
+			rewards: [{
+				id: "196B544826E055E9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 20.0d
+			shape: "circle"
+			hide_dependency_lines: true
+			dependencies: ["669CEBF5A6EB3BB0"]
+			id: "220620CB135368A3"
+			tasks: [{
+				id: "6A75DF35214B2B80"
+				type: "item"
+				item: "minecraft:lapis_lazuli"
+			}]
+			rewards: [{
+				id: "04229FE8BA6FAECB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 21.5d
+			dependencies: ["220620CB135368A3"]
+			id: "761338281DF25678"
+			tasks: [{
+				id: "2EF4A279644BD88E"
+				type: "item"
+				item: "pneumaticcraft:item_life_upgrade"
+			}]
+			rewards: [{
+				id: "1F280FC04000D6BC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 21.5d
+			dependencies: ["220620CB135368A3"]
+			id: "76FD6E8F5106A771"
+			tasks: [{
+				id: "2E92790FADDD7E28"
+				type: "item"
+				item: "pneumaticcraft:entity_tracker_upgrade"
+			}]
+			rewards: [{
+				id: "59C4960D9F0F3744"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 21.5d
+			dependencies: ["220620CB135368A3"]
+			id: "41F4F1759BF68E18"
+			tasks: [{
+				id: "245DEE47A1E2CE61"
+				type: "item"
+				item: "pneumaticcraft:block_tracker_upgrade"
+			}]
+			rewards: [{
+				id: "1AD7F1C2C5D37600"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 25.5d
+			dependencies: ["220620CB135368A3"]
+			id: "2FE7CECBB41A9678"
+			tasks: [{
+				id: "33D86C20919B793D"
+				type: "item"
+				item: "pneumaticcraft:speed_upgrade"
+			}]
+			rewards: [{
+				id: "7512548EE5591BE3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 25.5d
+			dependencies: ["220620CB135368A3"]
+			id: "0D70AF061C43EAB5"
+			tasks: [{
+				id: "43E3BF675949AA24"
+				type: "item"
+				item: "pneumaticcraft:search_upgrade"
+			}]
+			rewards: [{
+				id: "4140A108978A85DB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 24.5d
+			dependencies: ["220620CB135368A3"]
+			id: "37E811142AD578E5"
+			tasks: [{
+				id: "4549574988DB2165"
+				type: "item"
+				item: "pneumaticcraft:coordinate_tracker_upgrade"
+			}]
+			rewards: [{
+				id: "433F3E26E6CCB616"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 24.5d
+			dependencies: ["220620CB135368A3"]
+			id: "2AAD4715BF838081"
+			tasks: [{
+				id: "3FB3FFAE55FB2D16"
+				type: "item"
+				item: "pneumaticcraft:range_upgrade"
+			}]
+			rewards: [{
+				id: "42674FCEF8754D0F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 22.5d
+			dependencies: ["220620CB135368A3"]
+			id: "6E2D5F3BB6E96C64"
+			tasks: [{
+				id: "284BA2A9B4049AEC"
+				type: "item"
+				item: "pneumaticcraft:security_upgrade"
+			}]
+			rewards: [{
+				id: "68F048EACF5E1874"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 22.5d
+			dependencies: ["220620CB135368A3"]
+			id: "717942F01C60CFE0"
+			tasks: [{
+				id: "3845C7A43DD4C8D1"
+				type: "item"
+				item: "pneumaticcraft:magnet_upgrade"
+			}]
+			rewards: [{
+				id: "34740DEEA1AE5FC1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 22.5d
+			dependencies: ["220620CB135368A3"]
+			id: "29E71ABB2628FCA1"
+			tasks: [{
+				id: "6ECE69E31082D3F2"
+				type: "item"
+				item: "pneumaticcraft:charging_upgrade"
+			}]
+			rewards: [{
+				id: "4A465128B9246520"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 22.5d
+			dependencies: ["220620CB135368A3"]
+			id: "075CDCBF89F5FFEF"
+			tasks: [{
+				id: "11FD018C9FBEE9B1"
+				type: "item"
+				item: "pneumaticcraft:armor_upgrade"
+			}]
+			rewards: [{
+				id: "5CC7ED6C1AC5C8FC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 22.5d
+			dependencies: ["220620CB135368A3"]
+			id: "2ECC952593975F87"
+			tasks: [{
+				id: "04B66028B52F8FF2"
+				type: "item"
+				item: "pneumaticcraft:jet_boots_upgrade_1"
+			}]
+			rewards: [{
+				id: "2F198222DA559030"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 25.5d
+			dependencies: ["220620CB135368A3"]
+			id: "656C406B41BE4BBF"
+			tasks: [{
+				id: "017B48AA9FE569F7"
+				type: "item"
+				item: "pneumaticcraft:night_vision_upgrade"
+			}]
+			rewards: [{
+				id: "6CE6824572649C46"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 25.5d
+			dependencies: ["220620CB135368A3"]
+			id: "2E53632C43123DEC"
+			tasks: [{
+				id: "74AF9D031E4C0DBC"
+				type: "item"
+				item: "pneumaticcraft:scuba_upgrade"
+			}]
+			rewards: [{
+				id: "603BA5EF998AF595"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 24.5d
+			dependencies: ["220620CB135368A3"]
+			id: "3BC6B3EF57AD8ADE"
+			tasks: [{
+				id: "71AF71ED809533CC"
+				type: "item"
+				item: "pneumaticcraft:inventory_upgrade"
+			}]
+			rewards: [{
+				id: "6DA2EC0E512EDDE7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 24.5d
+			dependencies: ["220620CB135368A3"]
+			id: "7515F9494DBBC233"
+			tasks: [{
+				id: "33C2398BB16194EE"
+				type: "item"
+				item: "pneumaticcraft:jumping_upgrade_1"
+			}]
+			rewards: [{
+				id: "1278CCAE5CDEB8B0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 25.5d
+			dependencies: ["220620CB135368A3"]
+			id: "39AEE5484A255C27"
+			tasks: [{
+				id: "5687F425FFA987E6"
+				type: "item"
+				item: "pneumaticcraft:flippers_upgrade"
+			}]
+			rewards: [{
+				id: "4B9DDED8631A6D98"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 23.5d
+			dependencies: ["220620CB135368A3"]
+			id: "6F9443CADA829403"
+			tasks: [{
+				id: "181AECBFCFD3C2BA"
+				type: "item"
+				item: "pneumaticcraft:standby_upgrade"
+			}]
+			rewards: [{
+				id: "3E07C1230ADC11BC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 14.0d
+			y: 23.5d
+			dependencies: ["220620CB135368A3"]
+			id: "293448E5AA64104B"
+			tasks: [{
+				id: "7D817EBDBCCF91B2"
+				type: "item"
+				item: "pneumaticcraft:minigun_upgrade"
+			}]
+			rewards: [{
+				id: "5E83916C41DBCF94"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 15.0d
+			y: 23.5d
+			dependencies: ["220620CB135368A3"]
+			id: "29F34D583052BCC8"
+			tasks: [{
+				id: "502DC20B991B7827"
+				type: "item"
+				item: "pneumaticcraft:radiation_shielding_upgrade"
+			}]
+			rewards: [{
+				id: "1914A3F0CB87B424"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 24.5d
+			dependencies: ["220620CB135368A3"]
+			id: "1C4E9BDA1F7C8D75"
+			tasks: [{
+				id: "793C77532DB6BE85"
+				type: "item"
+				item: "pneumaticcraft:gilded_upgrade"
+			}]
+			rewards: [{
+				id: "296A9D417B0DD4BB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 17.0d
+			y: 23.5d
+			dependencies: ["220620CB135368A3"]
+			id: "609B3565F2CE9C31"
+			tasks: [{
+				id: "3C33C179F015FA5F"
+				type: "item"
+				item: "pneumaticcraft:ender_visor_upgrade"
+			}]
+			rewards: [{
+				id: "204DBA9A483FDD91"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: 23.5d
+			dependencies: ["220620CB135368A3"]
+			id: "73AD325B45C75A67"
+			tasks: [{
+				id: "0F6E992A74349F2A"
+				type: "item"
+				item: "pneumaticcraft:stomp_upgrade"
+			}]
+			rewards: [{
+				id: "781655991ABD6EE5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 13.0d
+			description: ["Pressure powered minigun! Fires very rapidly."]
+			hide_dependency_lines: true
+			dependencies: ["077A9D020BDCBB26"]
+			id: "1ED2893E537E1350"
+			tasks: [{
+				id: "63DD36E96E53ED3C"
+				type: "item"
+				item: "pneumaticcraft:minigun"
+			}]
+			rewards: [{
+				id: "233CFCF592E23460"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 15.0d
+			dependencies: ["1ED2893E537E1350"]
+			id: "0FD1EB6AD7516265"
+			tasks: [{
+				id: "3C84012A1EF4603A"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3583BE69E79E19F0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 15.0d
+			dependencies: ["1ED2893E537E1350"]
+			id: "4F7281F58A3F2803"
+			tasks: [{
+				id: "547EE17E0906EB9C"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo_incendiary"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "12C8D750BBE2CDD4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 15.0d
+			dependencies: ["1ED2893E537E1350"]
+			id: "2F58824E198CC48E"
+			tasks: [{
+				id: "2C90C04D39EF68A5"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo_weighted"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3BF5F968FED46D0F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 15.0d
+			dependencies: ["1ED2893E537E1350"]
+			id: "780A6FCC845AE46C"
+			tasks: [{
+				id: "2E3D7217BE617A00"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo_ap"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "3197F4E2267F88F0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 15.0d
+			dependencies: ["1ED2893E537E1350"]
+			id: "480A8C6C3A76B910"
+			tasks: [{
+				id: "4E384294E15D38B9"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo_explosive"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1C55CB46D59E45A9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 15.0d
+			dependencies: ["1ED2893E537E1350"]
+			id: "3FADFEFC9924C2CE"
+			tasks: [{
+				id: "7588BF95183B45C5"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:gun_ammo_freezing"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "206A37238EB28B94"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "swords"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			subtitle: "Another Wrench!!?"
+			description: ["This wrench is useful for removing frames on items like heat frames, and is used to configure logistical modules."]
+			dependencies: ["077A9D020BDCBB26"]
+			id: "5620E3DC4917381A"
+			tasks: [{
+				id: "714BDE8CC3ABB53C"
+				type: "item"
+				item: "pneumaticcraft:logistics_configurator"
+			}]
+			rewards: [{
+				id: "54A335501A245433"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "Wait a Third Wrench???"
+			description: ["This wrench allows you to apply cosmetic covers to all your pipes so you can hide all that pressure building up in the walls."]
+			dependencies: ["077A9D020BDCBB26"]
+			id: "6E2BF1A25549845D"
+			tasks: [{
+				id: "000F0A8C4360F668"
+				type: "item"
+				item: "pneumaticcraft:camo_applicator"
+			}]
+			rewards: [{
+				id: "5809D6F18517D494"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "raw_materials"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: 18.0d
+			description: ["Use this to craft your own spawner cores!"]
+			hide_dependency_lines: true
+			dependencies: ["077A9D020BDCBB26"]
+			id: "28CCF12092E33A29"
+			tasks: [{
+				id: "5696B30B4E31D395"
+				type: "item"
+				item: "pneumaticcraft:spawner_core_shell"
+			}]
+			rewards: [{
+				id: "7039EAE842473726"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 19.5d
+			dependencies: ["28CCF12092E33A29"]
+			id: "64E9FC9E4D55595D"
+			tasks: [{
+				id: "2C33EA44D851A7A4"
+				type: "item"
+				item: "pneumaticcraft:spawner_core"
+			}]
+			rewards: [{
+				id: "6B337D760293D68D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -11.5d
+			y: 19.5d
+			description: ["Put this on a vanilla spawner, and you can make it ignore the spawn proximity. Also the mobs spawned don't despawn when you're out and about."]
+			dependencies: ["28CCF12092E33A29"]
+			id: "15A017E2B56125CF"
+			tasks: [{
+				id: "319424AD47C305F0"
+				type: "item"
+				item: "pneumaticcraft:spawner_agitator"
+			}]
+			rewards: [{
+				id: "6112AF93BC482FA2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 19.5d
+			description: ["Use this to extract the spawner core from a live spawner. Warning it will cause allot of mobs to spawn from the spawner, be prepared to defend yourself."]
+			dependencies: ["28CCF12092E33A29"]
+			id: "1AF1B6C752C62C37"
+			tasks: [{
+				id: "08821274EDEA0447"
+				type: "item"
+				item: "pneumaticcraft:spawner_extractor"
+			}]
+			rewards: [{
+				id: "187C5C8660321B64"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 19.5d
+			dependencies: [
+				"1AF1B6C752C62C37"
+				"28CCF12092E33A29"
+			]
+			id: "03943569994B0037"
+			tasks: [{
+				id: "2B1EA17672369663"
+				type: "item"
+				item: "pneumaticcraft:empty_spawner"
+			}]
+			rewards: [{
+				id: "4E3DDBBCB4496BF3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 19.5d
+			description: ["A custom spawner that runs off of pressure!"]
+			dependencies: [
+				"03943569994B0037"
+				"28CCF12092E33A29"
+			]
+			id: "7150A182D94165FE"
+			tasks: [{
+				id: "4123F2C3283EA9FB"
+				type: "item"
+				item: "pneumaticcraft:pressurized_spawner"
+			}]
+			rewards: [{
+				id: "7A74F00E2495BE3D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 20.5d
+			description: ["Launch this totally safe cluster of rockets from your hands. You can configure them by shift right clicking."]
+			dependencies: ["24178DA3A98058AF"]
+			id: "487849CF52B01583"
+			tasks: [{
+				id: "1B161F366EA67D7A"
+				type: "item"
+				item: {
+					id: "pneumaticcraft:micromissiles"
+					Count: 1b
+					tag: {
+						damage: 0.0f
+						topSpeed: 0.0f
+						Damage: 0
+						turnSpeed: 0.0f
+					}
+				}
+			}]
+			rewards: [{
+				id: "0DE3E760EF751B2F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 14.0d
+			subtitle: "Stronger pressure tubes!"
+			description: ["Pressure pipes capable of holding 10 pressure units rather then just 5. Can connect to the other pipes, but be careful not to overload other networks."]
+			hide_dependency_lines: false
+			dependencies: ["4155D8300FA3A780"]
+			id: "2B94DEF570E41B59"
+			tasks: [{
+				id: "3C708620C791CDC4"
+				type: "item"
+				item: "pneumaticcraft:reinforced_pressure_tube"
+			}]
+			rewards: [{
+				id: "4E1DEDBA6FDF8095"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 20.5d
+			subtitle: "Strongest pressure pipes"
+			description: ["These tubes can hold up to 20 pressure!"]
+			dependencies: ["24178DA3A98058AF"]
+			id: "2B43F04E6E406126"
+			tasks: [{
+				id: "290CD9FDA909692B"
+				type: "item"
+				item: "pneumaticcraft:advanced_pressure_tube"
+			}]
+			rewards: [{
+				id: "36145476376A4C4C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 11.0d
+			shape: "square"
+			subtitle: "Time to get hot!"
+			description: ["With this nifty block you can craft different fluids and items using other fluids and items and heat. This is necessary to craft molten plastic which is essential in the pneumaticcraft progression."]
+			dependencies: ["400F1BE25D8BDE05"]
+			id: "669CEBF5A6EB3BB0"
+			tasks: [{
+				id: "60FCF04983544B86"
+				type: "item"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+			}]
+			rewards: [{
+				id: "325A11C5ED0DCB69"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.0d
+			subtitle: "Heat transport!"
+			description: ["An expensive piping used to transport heat. You can even put like a campfire under it if you wanted to generate some small amount of ambient heat. There's other more pneumatic ways of generating heat and cold though."]
+			dependencies: ["1A18F0DC2EB47549"]
+			id: "19E3CC7FA57AE518"
+			tasks: [{
+				id: "731CB514B6FC18CF"
+				type: "item"
+				item: "pneumaticcraft:heat_pipe"
+			}]
+			rewards: [{
+				id: "2F99CE8F04E44508"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 21.5d
+			description: ["Use this to program your drones. It's a very drag and drop form of programming. You'll need a start and an end to your logic sequence."]
+			dependencies: ["4191EEBA254F9797"]
+			id: "4B968AA71DEA212A"
+			tasks: [{
+				id: "52344B4A2B69257E"
+				type: "item"
+				item: "pneumaticcraft:programmer"
+			}]
+			rewards: [{
+				id: "464EAA55F440686B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 21.5d
+			description: ["A crafting component. Used to add pieces of logic to in a programmer for drones."]
+			dependencies: ["4191EEBA254F9797"]
+			id: "5AB216038CBA0888"
+			tasks: [{
+				id: "78B79A4395D6D75D"
+				type: "item"
+				item: "pneumaticcraft:programming_puzzle"
+			}]
+			rewards: [{
+				id: "09B2A6AC2E90AE45"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 19.5d
+			description: ["Use this to absorb mobs into a mob spawner core."]
+			dependencies: ["28CCF12092E33A29"]
+			id: "3C0BA4F44B8973C6"
+			tasks: [{
+				id: "60ECB4F8634E825C"
+				type: "item"
+				item: "pneumaticcraft:vacuum_trap"
+			}]
+			rewards: [{
+				id: "1E9904DEEDD8C5F0"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "pretty_blocks"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+{
+	id: "7B4CE6947F004070"
+	order_index: 19
+	title: "Average_Food"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "farmersdelight:fried_egg", count: 64 }
+		{ item: "farmersdelight:melon_juice", count: 16 }
+		{ item: "farmersdelight:apple_cider", count: 16 }
+		{ item: "farmersdelight:hot_cocoa", count: 16 }
+		{ item: "farmersdelight:melon_popsicle", count: 64 }
+		{ item: "farmersdelight:fruit_salad", count: 16 }
+		{ item: "farmersdelight:mixed_salad", count: 16 }
+		{ item: "farmersdelight:nether_salad", count: 16 }
+		{ item: "farmersdelight:barbecue_stick", count: 64 }
+		{ item: "farmersdelight:egg_sandwich", count: 64 }
+		{ item: "farmersdelight:chicken_sandwich", count: 64 }
+		{ item: "farmersdelight:hamburger", count: 64 }
+		{ item: "farmersdelight:bacon_sandwich", count: 64 }
+		{ item: "farmersdelight:mutton_wrap", count: 64 }
+		{ item: "farmersdelight:dumplings", count: 64 }
+		{ item: "farmersdelight:stuffed_potato", count: 64 }
+		{ item: "farmersdelight:cabbage_rolls", count: 64 }
+		{ item: "farmersdelight:beef_stew", count: 16 }
+		{ item: "farmersdelight:chicken_soup", count: 16 }
+		{ item: "farmersdelight:fish_stew", count: 16 }
+		{ item: "farmersdelight:fried_rice", count: 16 }
+		{ item: "farmersdelight:pumpkin_soup", count: 16 }
+		{ item: "farmersdelight:baked_cod_stew", count: 16 }
+		{ item: "farmersdelight:noodle_soup", count: 16 }
+		{ item: "farmersdelight:bacon_and_eggs", count: 16 }
+		{ item: "farmersdelight:pasta_with_meatballs", count: 16 }
+		{ item: "farmersdelight:pasta_with_mutton_chop", count: 16 }
+		{ item: "farmersdelight:roasted_mutton_chops", count: 16 }
+		{ item: "farmersdelight:vegetable_noodles", count: 16 }
+		{ item: "farmersdelight:steak_and_potatoes", count: 16 }
+		{ item: "farmersdelight:ratatouille", count: 16 }
+		{ item: "farmersdelight:squid_ink_pasta", count: 16 }
+		{ item: "farmersdelight:grilled_salmon", count: 16 }
+		{ item: "farmersdelight:roast_chicken_block" }
+		{ item: "farmersdelight:stuffed_pumpkin_block" }
+		{ item: "farmersdelight:shepherds_pie_block" }
+		{ item: "nethersdelight:stuffed_hoglin" }
+		{ item: "nethersdelight:warped_moldy_meat", count: 16 }
+		{ item: "nethersdelight:grilled_strider", count: 16 }
+		{ item: "nethersdelight:strider_moss_stew", count: 16 }
+		{ item: "nethersdelight:plate_of_stuffed_hoglin_snout", count: 16 }
+		{ item: "nethersdelight:plate_of_stuffed_hoglin_ham", count: 16 }
+		{ item: "nethersdelight:plate_of_stuffed_hoglin_roast", count: 16 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16754861
+		string_id: "average_food"
+	}
+}

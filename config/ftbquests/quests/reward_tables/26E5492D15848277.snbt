@@ -1,0 +1,20 @@
+{
+	id: "26E5492D15848277"
+	order_index: 113
+	title: "Very_Lucky_Potions"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "lucky:lucky_potion"
+			Count: 1b
+			tag: {
+				Luck: 80
+				display: {
+					Name: "{\"translate\":\"item.lucky.lucky_potion.veryLucky\"}"
+				}
+			}
+		}
+		count: 16
+	}]
+}

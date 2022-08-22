@@ -1,0 +1,619 @@
+{
+	id: "0C0FFDAF417DDEBB"
+	group: "6427FC4035BCAD8A"
+	order_index: 1
+	filename: "iron_chests"
+	title: "Large Chests"
+	icon: "colossalchests:uncolossal_chest"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -1.0d
+			dependencies: ["708F85F10ECEFD5C"]
+			id: "55C7747C7E6752A3"
+			tasks: [{
+				id: "550B75F1624EF963"
+				type: "item"
+				item: "ironchests:copper_chest"
+			}]
+			rewards: [{
+				id: "39D2993ACA46632D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			dependencies: ["55C7747C7E6752A3"]
+			id: "79352B12DEC93E90"
+			tasks: [{
+				id: "1E361FEFA9F3675B"
+				type: "item"
+				item: "ironchests:iron_chest"
+			}]
+			rewards: [{
+				id: "0EA4CA2DC5478380"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			dependencies: ["79352B12DEC93E90"]
+			id: "69EC18B7B3BD56CF"
+			tasks: [{
+				id: "108E362A64949D0A"
+				type: "item"
+				item: "ironchests:gold_chest"
+			}]
+			rewards: [{
+				id: "3D0118C0994C5468"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			dependencies: ["69EC18B7B3BD56CF"]
+			id: "7EE7C1E69C3CFCF4"
+			tasks: [{
+				id: "4D1421CC8D322D04"
+				type: "item"
+				item: "ironchests:diamond_chest"
+			}]
+			rewards: [{
+				id: "263E8A53148547CD"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["7EE7C1E69C3CFCF4"]
+			id: "5C60B0DF3F0D26D7"
+			tasks: [{
+				id: "58CE643B7D4BE7DA"
+				type: "item"
+				item: "ironchests:obsidian_chest"
+			}]
+			rewards: [{
+				id: "6425BFD43DF9337A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["7EE7C1E69C3CFCF4"]
+			id: "284DFB294D0D4B08"
+			tasks: [{
+				id: "08C312D77B786F85"
+				type: "item"
+				item: "ironchests:crystal_chest"
+			}]
+			rewards: [{
+				id: "3DEFFD0BED84E94E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			shape: "gear"
+			dependencies: ["7EE7C1E69C3CFCF4"]
+			id: "0E37BEE924CBC26C"
+			tasks: [{
+				id: "246BD77E4961A919"
+				type: "item"
+				item: "ironchests:netherite_chest"
+			}]
+			rewards: [
+				{
+					id: "2D6F200B4C877FE3"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "coins"
+						}
+					}
+				}
+				{
+					id: "180440322A8884DE"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			dependencies: ["708F85F10ECEFD5C"]
+			id: "3AFEB4E66968E3B0"
+			tasks: [{
+				id: "5743A98631C61329"
+				type: "item"
+				item: {
+					id: "ironchests:iron_dolly"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "04D5E77E7DBA8D34"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["708F85F10ECEFD5C"]
+			id: "4CAF373F2FC34C32"
+			tasks: [{
+				id: "1845FC96D5446D8A"
+				type: "item"
+				item: "ironchests:diamond_dolly"
+			}]
+			rewards: [{
+				id: "2954153756D2AACE"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			dependencies: ["708F85F10ECEFD5C"]
+			id: "71C5445B48F89826"
+			tasks: [
+				{
+					id: "43753F6C2C419727"
+					type: "item"
+					item: "ironchests:lock"
+				}
+				{
+					id: "0BBB52CC9E06480C"
+					type: "item"
+					item: "ironchests:key"
+				}
+			]
+			rewards: [{
+				id: "6183D44DA247647F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			dependencies: ["708F85F10ECEFD5C"]
+			id: "4EB97278F27DF477"
+			tasks: [{
+				id: "3AF2C4BD21EDC22B"
+				type: "item"
+				item: "ironchests:blank_chest_upgrade"
+			}]
+			rewards: [{
+				id: "4AE223B2E723106C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["4EB97278F27DF477"]
+			id: "48BB6744829FF8E0"
+			tasks: [{
+				id: "7B4E4C8EC4FD6383"
+				type: "item"
+				item: "ironchests:copper_chest_upgrade"
+			}]
+			rewards: [{
+				id: "68653D2C48B81B90"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			dependencies: ["48BB6744829FF8E0"]
+			id: "584B6FFAE4485686"
+			tasks: [{
+				id: "21365415F9A6C8D1"
+				type: "item"
+				item: "ironchests:iron_chest_upgrade"
+			}]
+			rewards: [{
+				id: "13BDBAC3A2E3B6E4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			dependencies: ["584B6FFAE4485686"]
+			id: "00E3E4433F76635C"
+			tasks: [{
+				id: "53CAD68B2814DC48"
+				type: "item"
+				item: "ironchests:gold_chest_upgrade"
+			}]
+			rewards: [{
+				id: "033EB205DC314E60"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			dependencies: ["00E3E4433F76635C"]
+			id: "0DA16F1A327AE0B7"
+			tasks: [{
+				id: "69FEB765FBA84819"
+				type: "item"
+				item: "ironchests:diamond_chest_upgrade"
+			}]
+			rewards: [{
+				id: "3F59F9CE219DF813"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			dependencies: ["0DA16F1A327AE0B7"]
+			id: "0CAC87A386DEEF54"
+			tasks: [{
+				id: "5DAF0F0A72A75222"
+				type: "item"
+				item: "ironchests:crystal_chest_upgrade"
+			}]
+			rewards: [{
+				id: "41773B3703A0B8EC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			dependencies: ["0DA16F1A327AE0B7"]
+			id: "043055A5790EBAB6"
+			tasks: [{
+				id: "549CDDF39DB72F96"
+				type: "item"
+				item: "ironchests:obsidian_chest_upgrade"
+			}]
+			rewards: [{
+				id: "6626D689F2759AF3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.0d
+			dependencies: ["0DA16F1A327AE0B7"]
+			id: "5E1CBF9A25939D1F"
+			tasks: [{
+				id: "6E6B24093BC1D07D"
+				type: "item"
+				item: "ironchests:netherite_chest_upgrade"
+			}]
+			rewards: [{
+				id: "41DBCC0108B4E54A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: ["708F85F10ECEFD5C"]
+			id: "7E44331FF9A15A2C"
+			tasks: [{
+				id: "7FEFF7F85FE6D66F"
+				type: "item"
+				item: "colossalchests:colossal_chest_wood"
+			}]
+			rewards: [{
+				id: "2CD1BBC602902F2A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: ["7E44331FF9A15A2C"]
+			id: "462CEB185CD7AE4F"
+			tasks: [{
+				id: "7077EEE7B6FE1653"
+				type: "item"
+				item: "colossalchests:colossal_chest_copper"
+			}]
+			rewards: [{
+				id: "7D6E269FA557F358"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lights"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: ["462CEB185CD7AE4F"]
+			id: "084071280BE36274"
+			tasks: [{
+				id: "54EFBE75D7F41E96"
+				type: "item"
+				item: "colossalchests:colossal_chest_iron"
+			}]
+			rewards: [{
+				id: "6463394CFE07547C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: ["462CEB185CD7AE4F"]
+			id: "501DD4917380447B"
+			tasks: [{
+				id: "4B375CF0164A82C4"
+				type: "item"
+				item: "colossalchests:colossal_chest_silver"
+			}]
+			rewards: [{
+				id: "008A0A10449F6783"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: [
+				"084071280BE36274"
+				"501DD4917380447B"
+			]
+			dependency_requirement: "one_completed"
+			id: "0133120B11EA07E8"
+			tasks: [{
+				id: "2262C7E47A2AA40E"
+				type: "item"
+				item: "colossalchests:colossal_chest_gold"
+			}]
+			rewards: [{
+				id: "12C3CB0FB0B3E8FB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: ["0133120B11EA07E8"]
+			id: "6A479D5E644B054D"
+			tasks: [{
+				id: "1F60235BCF413664"
+				type: "item"
+				item: "colossalchests:colossal_chest_diamond"
+			}]
+			rewards: [{
+				id: "7B9003EAE49CAE6E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			dependencies: ["6A479D5E644B054D"]
+			id: "259068BFDEB00478"
+			tasks: [{
+				id: "113FE96D44857705"
+				type: "item"
+				item: "colossalchests:colossal_chest_obsidian"
+			}]
+			rewards: [{
+				id: "743C7ABD12C7ACF9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			title: "Large Chests"
+			icon: "colossalchests:uncolossal_chest"
+			x: -1.0d
+			y: -3.5d
+			description: ["This mod allows you to make large chests!"]
+			dependencies: ["6F18145F076820FC"]
+			optional: true
+			id: "708F85F10ECEFD5C"
+			tasks: [{
+				id: "3803480C2101E672"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "191977C381EB8CEF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "furniture"
+					}
+				}
+			}]
+		}
+	]
+}

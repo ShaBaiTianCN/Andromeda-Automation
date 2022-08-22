@@ -1,0 +1,16 @@
+{
+	id: "11D67B084FE47808"
+	order_index: 92
+	title: "Creativeability"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "tconstruct:creative_slot"
+			Count: 1b
+			tag: {
+				slot: "abilities"
+			}
+		}
+	}]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Gunpowder",
+  "colors": [
+    "878684",
+    "595857"
+  ],
+  "ingredient": {
+    "item": "minecraft:gunpowder"
+  },
+"inUltimateSingularity": false
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Lantern",
+  "colors": [
+    "636363",
+    "ffdf9e"
+  ],
+  "ingredient": {
+    "item": "minecraft:lantern"
+  },
+"inUltimateSingularity": false
+
+}

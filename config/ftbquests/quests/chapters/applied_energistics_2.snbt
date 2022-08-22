@@ -1,0 +1,1620 @@
+{
+	id: "476537F8EA5B5947"
+	group: "75940C6E9EF33EDC"
+	order_index: 6
+	filename: "applied_energistics_2"
+	title: "Applied Energistics 2"
+	icon: "ae2:controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["The inscriber is a machine that allows you to craft many types of processors."]
+			dependencies: ["121C20E783B63AE7"]
+			id: "5735881C781EB67D"
+			tasks: [{
+				id: "58A49440950008C5"
+				type: "item"
+				item: "ae2:inscriber"
+			}]
+			rewards: [{
+				id: "45A38D63BFCCA169"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 5.5d
+			description: ["This allows you to have an access point for your portable terminals to reach and begin crafting!"]
+			dependencies: ["52473D1586A70B85"]
+			id: "670683AC5389603F"
+			tasks: [{
+				id: "734769C8F47CA716"
+				type: "item"
+				item: "ae2:wireless_access_point"
+			}]
+			rewards: [{
+				id: "26258377C7E610FA"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			description: ["This allows you to charge many items! Including making charged certus quartz!"]
+			dependencies: ["52E8F87A96FCBAC3"]
+			id: "6309E3122036C255"
+			tasks: [{
+				id: "1D3EE2BFBBDB232A"
+				type: "item"
+				item: "ae2:charger"
+			}]
+			rewards: [{
+				id: "7E61BBB29386A795"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			description: ["This allows you to dictate who can use your network as well as wirelessly access your network!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "52473D1586A70B85"
+			tasks: [{
+				id: "38BF923F9AD68FFF"
+				type: "item"
+				item: "ae2:security_station"
+			}]
+			rewards: [{
+				id: "27CCBBF2756D5F2F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 7.5d
+			shape: "gear"
+			description: ["Assemble in a 3x3 with the outer ring being quantum rings, and the center being a quantum link chamber!"]
+			dependencies: ["5FF8E32D269A2853"]
+			id: "0068595DDAC2AB23"
+			tasks: [
+				{
+					id: "0407206DE4E087DF"
+					type: "item"
+					item: "ae2:quantum_ring"
+					count: 8L
+				}
+				{
+					id: "6939C6A74FFDAEB8"
+					type: "item"
+					item: "ae2:quantum_link"
+				}
+			]
+			rewards: [
+				{
+					id: "52A46509DDBADD78"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "paraglider"
+						}
+					}
+				}
+				{
+					id: "5A1223B055A7E414"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["This is the heart of your network! Everything needs to be connected to this in one way or another! You can have multiple per network for more connections!"]
+			dependencies: ["5A21337A0A7857C7"]
+			id: "1FD20C9837BB4251"
+			tasks: [{
+				id: "4619831585CC4D54"
+				type: "item"
+				item: "ae2:controller"
+			}]
+			rewards: [{
+				id: "19A416703563BD1A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["This allows you to have up to 8 connections! Tracable back to the storage heart!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "4631844F748756C3"
+			tasks: [{
+				id: "53CEA1CD7C6AE6BF"
+				type: "item"
+				title: "Any #ae2:glass_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:glass_cable"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [{
+				id: "2E59B8093937023C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			description: ["Glass cable but prettier!"]
+			dependencies: ["4631844F748756C3"]
+			id: "1EEC8AB72B0A9807"
+			tasks: [{
+				id: "0A609ABF564A639F"
+				type: "item"
+				title: "Any #ae2:covered_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:covered_cable"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [{
+				id: "3090E6BA48615815"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 6.5d
+			description: ["The smart cable displays how many channels are being used!"]
+			dependencies: ["1EEC8AB72B0A9807"]
+			id: "69E52D8F7C52FB21"
+			tasks: [{
+				id: "00B2A1CEBEBA5F83"
+				type: "item"
+				title: "Any #ae2:smart_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:smart_cable"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [{
+				id: "77B54DF02683B13E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 5.5d
+			description: ["Though incredibly expensive dense cables are amazing because they allow for up to 32 seperate connections!"]
+			dependencies: ["4631844F748756C3"]
+			id: "2442E17B0F85F924"
+			tasks: [{
+				id: "77D1AB0E48E32A5E"
+				type: "item"
+				title: "Any #ae2:covered_dense_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:covered_dense_cable"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [{
+				id: "56F389CA4DFD741E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 6.5d
+			description: ["These are dense cables but allow you to see how many channels are being used!"]
+			dependencies: ["2442E17B0F85F924"]
+			id: "684BD72FC4440CF9"
+			tasks: [{
+				id: "5D17B29F37F7F053"
+				type: "item"
+				title: "Any #ae2:smart_dense_cable"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "ae2:smart_dense_cable"
+					}
+				}
+				count: 32L
+			}]
+			rewards: [{
+				id: "7A258A52D74985D5"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 11.5d
+			description: ["This is how you do crafting with applied energistics! Lay out molecular assemblers with pattern providers in a checkerboard pattern. Access the inerfaces with an ME access terminal!"]
+			dependencies: ["50C3A4F10EEC9077"]
+			id: "63BBC36D195007E1"
+			tasks: [
+				{
+					id: "5DFE4146128A76FE"
+					type: "item"
+					item: "ae2:molecular_assembler"
+					count: 16L
+				}
+				{
+					id: "0B54150BF8E6B075"
+					type: "item"
+					item: "ae2:pattern_provider"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "6A3121335E1D043B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			description: [
+				""
+				"Can store 200k Energy!"
+			]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "0EDC33FC071D8586"
+			tasks: [{
+				id: "3FDE58FFABD649AC"
+				type: "item"
+				item: {
+					id: "ae2:energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "02C7A965708DBF62"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 5.5d
+			description: ["Can store 1.6 million energy!"]
+			dependencies: ["0EDC33FC071D8586"]
+			id: "1E996AB3521432D1"
+			tasks: [{
+				id: "5A92B74E87028BFB"
+				type: "item"
+				item: {
+					id: "ae2:dense_energy_cell"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "616AE5D46F77181F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft!"]
+			dependencies: ["05CB794F4ADE6695"]
+			id: "1965E149BAAEC856"
+			tasks: [{
+				id: "228E162E53127A16"
+				type: "item"
+				item: "ae2:1k_crafting_storage"
+			}]
+			rewards: [{
+				id: "48C49B0CBC6EE624"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.0d
+			y: 8.5d
+			description: ["This lets you monitor what your crafting computer is doing at any giving second! Lets you know if it gets stuck!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1965E149BAAEC856"
+				"543645951B54C960"
+				"7DF577E44D94E7F5"
+				"5CD57742B12A4523"
+			]
+			dependency_requirement: "one_completed"
+			id: "3090AEECC5B258DA"
+			tasks: [{
+				id: "1F86A1A9E4AA17E2"
+				type: "item"
+				item: "ae2:crafting_monitor"
+			}]
+			rewards: [{
+				id: "0A66B06FDAF3A6F8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			dependencies: ["05CB794F4ADE6695"]
+			id: "34AB2A52B8FBD866"
+			tasks: [{
+				id: "4B7687189F1D0BAE"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "761EF4D498907B8E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "05CB794F4ADE6695"
+			tasks: [{
+				id: "43C41F91BB890631"
+				type: "item"
+				item: "ae2:cell_component_1k"
+			}]
+			rewards: [{
+				id: "168137CADDF4A0C1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			dependencies: ["05CB794F4ADE6695"]
+			id: "2557B38949EC826A"
+			tasks: [{
+				id: "7DD2F6CA4CC5AC54"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "200DAAF5466DC450"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			dependencies: ["05CB794F4ADE6695"]
+			id: "21674C66198FBE4B"
+			tasks: [{
+				id: "7DF90E6DFA3D2470"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_1k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "280F16941EF4944A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft!"]
+			dependencies: ["00FB3D86F86232DC"]
+			id: "543645951B54C960"
+			tasks: [{
+				id: "79F921C4C20A2277"
+				type: "item"
+				item: "ae2:16k_crafting_storage"
+			}]
+			rewards: [{
+				id: "2C4D671DF6AF73AC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.5d
+			dependencies: ["05CB794F4ADE6695"]
+			id: "00FB3D86F86232DC"
+			tasks: [{
+				id: "1D5D1362D8181CAA"
+				type: "item"
+				item: "ae2:cell_component_16k"
+			}]
+			rewards: [{
+				id: "260F615C45A635F2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			dependencies: ["00FB3D86F86232DC"]
+			id: "0210928199853BB0"
+			tasks: [{
+				id: "00333D7CC8818B95"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "244C86BAA7097013"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			dependencies: ["00FB3D86F86232DC"]
+			id: "739AD2B0D6D226C9"
+			tasks: [{
+				id: "1226FB650E71E748"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "1C109FF5E5A41105"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -3.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			dependencies: ["00FB3D86F86232DC"]
+			id: "0CB5FAC19FD4F651"
+			tasks: [{
+				id: "58309E74CEED6C97"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_16k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "4C6B3CD4D26B9BE2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -10.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft!"]
+			dependencies: ["5B82DF81787B9F36"]
+			id: "7DF577E44D94E7F5"
+			tasks: [{
+				id: "29066967E91F3008"
+				type: "item"
+				item: "ae2:64k_crafting_storage"
+			}]
+			rewards: [{
+				id: "20A0EB06FEF6E77B"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			dependencies: ["5B82DF81787B9F36"]
+			id: "7E36EECA4AB2BDC2"
+			tasks: [{
+				id: "590A7C0427CC2AEC"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "7BAC9DF9D46CC902"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: 4.5d
+			dependencies: ["00FB3D86F86232DC"]
+			id: "5B82DF81787B9F36"
+			tasks: [{
+				id: "31D153CF330CE399"
+				type: "item"
+				item: "ae2:cell_component_64k"
+			}]
+			rewards: [{
+				id: "1A786688229D1AE6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -8.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			dependencies: ["5B82DF81787B9F36"]
+			id: "59A8EC56A392DBA2"
+			tasks: [{
+				id: "3F0089F36B65663A"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2B9903CC592CAFF3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			dependencies: ["5B82DF81787B9F36"]
+			id: "4117A59E5CD2DD1D"
+			tasks: [{
+				id: "2DD31C8540801DA0"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_64k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "51209D79FC5DE90F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -14.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft! The multiblock has to be a rectangle of some sort!"]
+			dependencies: ["4440F4A2500E86E7"]
+			id: "5CD57742B12A4523"
+			tasks: [{
+				id: "0EEA46D8C5498E2C"
+				type: "item"
+				item: "ae2:256k_crafting_storage"
+			}]
+			rewards: [{
+				id: "6FE488B10DA14AAC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.0d
+			y: 4.5d
+			dependencies: ["5B82DF81787B9F36"]
+			id: "4440F4A2500E86E7"
+			tasks: [{
+				id: "1939DC9A0A625249"
+				type: "item"
+				item: "ae2:cell_component_256k"
+			}]
+			rewards: [{
+				id: "2A795DEF459D049A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -13.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			dependencies: ["4440F4A2500E86E7"]
+			id: "0EE32D7A87FC8B7D"
+			tasks: [{
+				id: "592CD096D067D431"
+				type: "item"
+				item: {
+					id: "ae2:item_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "2EBFDF51829BE67F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -12.5d
+			y: 5.5d
+			shape: "square"
+			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			dependencies: ["4440F4A2500E86E7"]
+			id: "4241C6E446888215"
+			tasks: [{
+				id: "58E92C6EE746934C"
+				type: "item"
+				item: {
+					id: "ae2:fluid_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3674B97AA531EE95"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			disable_toast: true
+			x: -11.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			dependencies: ["4440F4A2500E86E7"]
+			id: "5FEA9A6C2FB0C710"
+			tasks: [{
+				id: "72A4D2CC6D60C326"
+				type: "item"
+				item: {
+					id: "appmek:chemical_storage_cell_256k"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "49AF7AD55585069F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["This allows you to interface with other mods forms of power! "]
+			dependencies: ["1FD20C9837BB4251"]
+			id: "4AD3368D7D145DE8"
+			tasks: [{
+				id: "785E0C7373D3BDE9"
+				type: "item"
+				item: "ae2:energy_acceptor"
+			}]
+			rewards: [{
+				id: "20960FA41E9F5709"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			description: ["The ME Interface allows you to basically export a specified amount of items to the interface, allowing machines to acess items!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "4E0E7F585807D26A"
+			tasks: [{
+				id: "4EBBA718393C36C8"
+				type: "item"
+				item: "ae2:interface"
+			}]
+			rewards: [{
+				id: "318BA8209234C906"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.5d
+			description: ["This allows you to partision cells, allowing for you to dictate what can go into different drives!"]
+			dependencies: ["1F684A651F66EA95"]
+			id: "52B1321F810571C3"
+			tasks: [{
+				id: "26CEA78EEE8B1E3D"
+				type: "item"
+				item: "ae2:cell_workbench"
+			}]
+			rewards: [{
+				id: "270109907ADCDF04"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			description: ["The matter condenser allows you to fabricate matter balls for the matter gun, as well as singluarities that allow you to wirelessly connect networks across dimensions or over long distances!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "6B4815058098C3CA"
+			tasks: [{
+				id: "6E82CF35F5CCA17B"
+				type: "item"
+				item: "ae2:condenser"
+			}]
+			rewards: [{
+				id: "33184DC7A669B75F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 5.5d
+			description: ["Combine with 1 enderdust and blow it up to create an entangled singularity! Used to link networks!"]
+			dependencies: ["6B4815058098C3CA"]
+			id: "33EB4A7B28AE50C2"
+			tasks: [{
+				id: "61362410BDBB7139"
+				type: "item"
+				item: "ae2:singularity"
+			}]
+			rewards: [{
+				id: "4EA2E11E77F55A5F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 6.5d
+			dependencies: ["33EB4A7B28AE50C2"]
+			id: "5FF8E32D269A2853"
+			tasks: [{
+				id: "00932AD69199976A"
+				type: "item"
+				item: "ae2:quantum_entangled_singularity"
+			}]
+			rewards: [{
+				id: "661D3BEEE77C9B12"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "paraglider"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 4.5d
+			description: ["When adjacent to a water block that a crystal seed is in, it will drastically accelerate growth at the cost of power!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "39990EA3CC9E984C"
+			tasks: [{
+				id: "700C7CBA6108C8B4"
+				type: "item"
+				item: "ae2:quartz_growth_accelerator"
+			}]
+			rewards: [{
+				id: "398B2364E2C1D9D3"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 4.5d
+			description: ["This allows you to segment your network. This tool will toggle weather or not a section of cable is accessible to the network or not!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "4B921CAEC38BC6F1"
+			tasks: [{
+				id: "55CB1820019AD117"
+				type: "item"
+				item: "ae2:toggle_bus"
+			}]
+			rewards: [{
+				id: "5857431E28BEC43E"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.5d
+			dependencies: ["4B921CAEC38BC6F1"]
+			id: "455C3FB42129BBD7"
+			tasks: [{
+				id: "37D5016FBBE6BCD5"
+				type: "item"
+				item: "ae2:inverted_toggle_bus"
+			}]
+			rewards: [{
+				id: "002BA9F4892F0492"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 12.5d
+			y: 4.5d
+			description: ["Make a plus shape with the block you want to make a facade in the center, and cable anchors surrounding it! Facades are nice because they allow you to hide cables and make everything look so **Pretty**"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "673AF6BE5CCC1CEE"
+			tasks: [{
+				id: "1A878FCF171B50FC"
+				type: "item"
+				item: "ae2:cable_anchor"
+				count: 4L
+			}]
+			rewards: [{
+				id: "10752ED02784D119"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 9.5d
+			description: ["The encoding terminal allows you to encode blank patterns with two types of recipes! A standard crafting recipe for use with molecular assemblers, and a processing pattern [accessed by clicking the crafting table on the right and changing it to a furnace] which allows you to dictate an in and several outputs. It basically allows you to process things with machines!"]
+			dependencies: ["43A8AB63A63C3BE3"]
+			id: "4062C411801EC565"
+			tasks: [{
+				id: "1347E4B01DD05180"
+				type: "item"
+				item: "ae2:pattern_encoding_terminal"
+			}]
+			rewards: [{
+				id: "2654A55F633FB6E9"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 13.5d
+			y: 4.5d
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "746C37D9CBB1F887"
+			tasks: [{
+				id: "2DA3428ED8E4CD4D"
+				type: "item"
+				item: "ae2:crafting_terminal"
+			}]
+			rewards: [{
+				id: "2C825CD17BB240F6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 12.5d
+			shape: "diamond"
+			dependencies: [
+				"63BBC36D195007E1"
+				"252BC5F923E7B4A2"
+			]
+			dependency_requirement: "one_completed"
+			id: "230F1467400B8A9F"
+			tasks: [{
+				id: "4972C8CEADDB2536"
+				type: "item"
+				item: "ae2:pattern_access_terminal"
+			}]
+			rewards: [
+				{
+					id: "32D6EC04292AF308"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "end_game"
+						}
+					}
+				}
+				{
+					id: "55A5B421468056AC"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 8.5d
+			description: ["Co processing units work with crafting storage, allowing it to distribute your crafting power over multiple computers [think like cores for your cpu] allowing it to do multiple tasks at once!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1965E149BAAEC856"
+				"543645951B54C960"
+				"7DF577E44D94E7F5"
+				"5CD57742B12A4523"
+			]
+			dependency_requirement: "one_completed"
+			id: "43A8AB63A63C3BE3"
+			tasks: [{
+				id: "446FC178AF63F297"
+				type: "item"
+				item: "ae2:crafting_accelerator"
+				count: 15L
+			}]
+			rewards: [{
+				id: "65475F132D38763F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 10.5d
+			description: ["The encoding terminal allows you to encode blank patterns with two types of recipes! A standard crafting recipe for use with molecular assemblers, and a processing pattern [accessed by clicking the crafting table on the right and changing it to a furnace] which allows you to dictate an in and several outputs. It basically allows you to process things with machines!"]
+			dependencies: ["4062C411801EC565"]
+			id: "50C3A4F10EEC9077"
+			tasks: [{
+				id: "3B22A6C4EB5AD604"
+				type: "item"
+				item: "ae2:blank_pattern"
+				count: 16L
+			}]
+			rewards: [{
+				id: "65E78C4223C6E263"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: 11.5d
+			dependencies: ["50C3A4F10EEC9077"]
+			id: "252BC5F923E7B4A2"
+			tasks: [{
+				id: "155D994699E38C8B"
+				type: "item"
+				item: "ae2:pattern_provider"
+			}]
+			rewards: [{
+				id: "1A034A7213213FF7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			description: ["This is your key to starting with applied energistics! seeds need to be left in water for 20 or so mins till they change into crystals!"]
+			dependencies: ["5DDFEC0187943DE1"]
+			hide: false
+			id: "654D487F8B9E54C7"
+			tasks: [{
+				id: "3CBED2DA7EE6F204"
+				type: "item"
+				item: "ae2:certus_crystal_seed"
+			}]
+			rewards: [{
+				id: "2345E3360C61F9B4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.5d
+			description: ["Fabricate Fluix dust by allowing charged certus quartz, nether quartz, and redstone sit in water for a few seconds! Then same deal! Allow to grow in water for 20 or so miniutes!"]
+			dependencies: ["4A0A7286E92F455A"]
+			id: "7083829D1A08C1C0"
+			tasks: [{
+				id: "396D9F706F1F164F"
+				type: "item"
+				item: "ae2:fluix_crystal_seed"
+			}]
+			rewards: [{
+				id: "2D9D2AD713357458"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -5.5d
+			dependencies: ["654D487F8B9E54C7"]
+			id: "52E8F87A96FCBAC3"
+			tasks: [{
+				id: "0FDD3D902901EFF2"
+				type: "item"
+				item: "ae2:certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "412F89241F5FF996"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["7083829D1A08C1C0"]
+			id: "121C20E783B63AE7"
+			tasks: [{
+				id: "4AF39733378B65C0"
+				type: "item"
+				item: "ae2:fluix_crystal"
+			}]
+			rewards: [{
+				id: "2BF8C64AFD7065CF"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.5d
+			dependencies: ["6309E3122036C255"]
+			id: "4A0A7286E92F455A"
+			tasks: [{
+				id: "12E3F6977928897A"
+				type: "item"
+				item: "ae2:charged_certus_quartz_crystal"
+			}]
+			rewards: [{
+				id: "15F1179DA607FC54"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			shape: "pentagon"
+			description: ["A basic crafting component for all of your applied energistics needs"]
+			dependencies: ["5735881C781EB67D"]
+			id: "5A21337A0A7857C7"
+			tasks: [
+				{
+					id: "32B6FB4C0D41B64D"
+					type: "item"
+					item: "ae2:logic_processor"
+					count: 8L
+				}
+				{
+					id: "33FE789C3EC1C2A0"
+					type: "item"
+					item: "ae2:calculation_processor"
+					count: 8L
+				}
+				{
+					id: "56DA5B1839A40833"
+					type: "item"
+					item: "ae2:engineering_processor"
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "6AD14B4C6C661DEC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 6.5d
+			description: ["When charged it will allow you to wirelessly access your network, provided it is linked to a security terminal and an access point is within range."]
+			dependencies: ["670683AC5389603F"]
+			id: "3CC4DE5CCCDA430B"
+			tasks: [{
+				id: "035A9BB8D3EEDB23"
+				type: "item"
+				item: "ae2:wireless_crafting_terminal"
+			}]
+			rewards: [{
+				id: "730397FB820DB19D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "late_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 8.5d
+			description: ["This functions as your storage for different types of drives!"]
+			hide_dependency_lines: true
+			dependencies: [
+				"1965E149BAAEC856"
+				"543645951B54C960"
+				"7DF577E44D94E7F5"
+				"5CD57742B12A4523"
+			]
+			dependency_requirement: "one_completed"
+			id: "1F684A651F66EA95"
+			tasks: [{
+				id: "05102F8B5E531D57"
+				type: "item"
+				item: "ae2:drive"
+			}]
+			rewards: [{
+				id: "47DB2E8CD80C1CA4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "end_game"
+					}
+				}
+			}]
+		}
+		{
+			x: 8.5d
+			y: 4.5d
+			description: ["The storage bus is an incredibly powerful piece of technology that allows your network to access other forms of storage! All of your colossal chests and storage drawers are still safe to use!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "3BDF87C9E19E6ED7"
+			tasks: [{
+				id: "2E7F7B398FA8133F"
+				type: "item"
+				item: "ae2:storage_bus"
+			}]
+			rewards: [{
+				id: "75C70C99B0550AF4"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 4.5d
+			description: ["Imports matter from the attached inventory!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "00001888761EFDDA"
+			tasks: [{
+				id: "78378DADEAF7D68D"
+				type: "item"
+				item: "ae2:import_bus"
+			}]
+			rewards: [{
+				id: "297FD1A596F088ED"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+		{
+			x: 10.5d
+			y: 4.5d
+			description: ["Exports matter to the select inventory!"]
+			dependencies: ["4AD3368D7D145DE8"]
+			id: "777E1FBC28A0D909"
+			tasks: [{
+				id: "1615C7CFED2F36BE"
+				type: "item"
+				item: "ae2:export_bus"
+			}]
+			rewards: [{
+				id: "4AB5721BA8D0CB20"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "coins"
+					}
+				}
+			}]
+		}
+	]
+}

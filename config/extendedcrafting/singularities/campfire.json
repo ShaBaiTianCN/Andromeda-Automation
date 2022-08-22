@@ -1,0 +1,12 @@
+{
+  "name": "Campfire",
+  "colors": [
+    "fa3754",
+    "754527"
+  ],
+  "ingredient": {
+    "item": "minecraft:campfire"
+  },
+"inUltimateSingularity": false
+
+}

@@ -1,0 +1,47 @@
+{
+	id: "6A5D2DE1983DCB9E"
+	order_index: 98
+	title: "Statuesinbetween"
+	icon: "minecraft:chest"
+	loot_size: 1
+	rewards: [
+		{ item: "statues:sheep_statue_orange" }
+		{ item: "statues:sheep_statue_pink" }
+		{ item: "statues:sheep_statue_purple" }
+		{ item: "statues:sheep_statue_red" }
+		{ item: "statues:sheep_statue_white" }
+		{ item: "statues:sheep_statue_yellow" }
+		{ item: "statues:shulker_statue" }
+		{ item: "statues:slime_statue" }
+		{ item: "statues:snow_golem_statue" }
+		{ item: "statues:spider_statue" }
+		{ item: "statues:squid_statue" }
+		{ item: "statues:totem_of_undying_statue" }
+		{ item: "statues:tropical_fish_b" }
+		{ item: "statues:tropical_fish_bb" }
+		{ item: "statues:tropical_fish_be" }
+		{ item: "statues:tropical_fish_bm" }
+		{ item: "statues:tropical_fish_bmb" }
+		{ item: "statues:tropical_fish_bms" }
+		{ item: "statues:tropical_fish_e" }
+		{ item: "statues:tropical_fish_es" }
+		{ item: "statues:tropical_fish_hb" }
+		{ item: "statues:tropical_fish_sb" }
+		{ item: "statues:tropical_fish_ss" }
+		{ item: "statues:turtle_statue" }
+		{ item: "statues:villager_br_statue" }
+		{ item: "statues:villager_gr_statue" }
+		{ item: "statues:villager_pu_statue" }
+		{ item: "statues:villager_wh_statue" }
+		{ item: "statues:vindicator_statue" }
+		{ item: "statues:wasteland_statue" }
+		{ item: "statues:witch_statue" }
+		{ item: "statues:zombie_statue" }
+		{ item: "statues:bumbo_statue" }
+		{ item: "statues:sombrero" }
+		{ item: "statues:tropibee" }
+		{ item: "statues:eagle_ray" }
+		{ item: "statues:slabfish" }
+		{ item: "statues:player_statue_spawn_egg" }
+	]
+}

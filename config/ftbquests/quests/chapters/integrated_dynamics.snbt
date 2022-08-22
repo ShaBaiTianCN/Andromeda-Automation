@@ -1,0 +1,551 @@
+{
+	id: "757D475DD3969AF4"
+	group: "75940C6E9EF33EDC"
+	order_index: 3
+	filename: "integrated_dynamics"
+	title: "Integrated Dynamics"
+	icon: "integrateddynamics:variable"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			dependencies: ["1AC5A3480770B4AE"]
+			hide: true
+			id: "7B56901ED172E418"
+			tasks: [{
+				id: "44E7C89E6A6F81E1"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+			rewards: [{
+				id: "05F67785D5CD6CD8"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["7B56901ED172E418"]
+			id: "2D34F557AD7DD191"
+			tasks: [{
+				id: "793BD7B91C9F4B33"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_chunk"
+			}]
+			rewards: [{
+				id: "3CA743881C629E3F"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.5d
+			description: ["Auto tries to deposit fluid where the channels are pointing! Jump on it to squeeze objects and redstone power to reset it!"]
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "33A7071C3C9007D3"
+			tasks: [{
+				id: "2BDF25BA03DCAB09"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+			rewards: [{
+				id: "3BE6815869BC0757"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.5d
+			description: ["No more jumping needed!"]
+			dependencies: ["33A7071C3C9007D3"]
+			id: "371AA394EA8ECE6A"
+			tasks: [{
+				id: "206DAAC7FED1B125"
+				type: "item"
+				item: "integrateddynamics:mechanical_squeezer"
+			}]
+			rewards: [{
+				id: "26F5A6E67FD0A54D"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			description: ["Slowly crystalizes menril!"]
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "3950C0B62B85DCF1"
+			tasks: [{
+				id: "4E7B9EC95EBE555D"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+			rewards: [{
+				id: "0AE3ABF0E588434C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 4.5d
+			description: ["Dries stuff.. but faster!"]
+			dependencies: ["3950C0B62B85DCF1"]
+			id: "0FDBBC385B0304C8"
+			tasks: [{
+				id: "6BB7D7636B20ABB0"
+				type: "item"
+				item: "integrateddynamics:mechanical_drying_basin"
+			}]
+			rewards: [{
+				id: "204F1D251DA35694"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 9.5d
+			y: 3.5d
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "02E427DF6C164203"
+			tasks: [{
+				id: "2B2800775D22914A"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7029EDB0BFFEE945"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			description: ["This allows you to program logic into variable cards!"]
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "17B79600F58D67A4"
+			tasks: [{
+				id: "289DC23928E9115B"
+				type: "item"
+				item: "integrateddynamics:logic_programmer"
+			}]
+			rewards: [{
+				id: "463BD97AAF5D48D6"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			description: ["This allows you to store variables to reference and use in logic programming!"]
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "7B26D5B8143E24F3"
+			tasks: [{
+				id: "484132F5335E1556"
+				type: "item"
+				item: "integrateddynamics:variablestore"
+			}]
+			rewards: [{
+				id: "7F085683B91E2B71"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			description: ["These allow you to interact and connect to your network!"]
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "757C0D498C3DED51"
+			tasks: [{
+				id: "0618A4B7CBBF1524"
+				type: "item"
+				item: "integrateddynamics:cable"
+			}]
+			rewards: [{
+				id: "7CA0A117B8F01CB7"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			dependencies: ["1BAC19FCF8462B8A"]
+			id: "5B0B4CE8C207CC07"
+			tasks: [{
+				id: "2B272C163B0D15BC"
+				type: "item"
+				item: "integrateddynamics:labeller"
+			}]
+			rewards: [{
+				id: "243EAD10961FE316"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			shape: "gear"
+			description: ["With all the interfaces and importers, you can use this to basically select what you want it to do! For instance in the world item importer, you could put this in the slot next to 'pick up all items' and it will do that within its radius!"]
+			dependencies: ["757C0D498C3DED51"]
+			id: "5285DBA034872CCB"
+			tasks: [{
+				id: "24AD85A6AB37D320"
+				type: "item"
+				item: "integrateddynamics:variable"
+			}]
+			rewards: [
+				{
+					id: "450F15915FEEAE88"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "mid_game_pipes"
+						}
+					}
+				}
+				{
+					id: "1F3CCF3A248BA355"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			dependencies: ["2D34F557AD7DD191"]
+			id: "1BAC19FCF8462B8A"
+			tasks: [{
+				id: "3F89135BE8543724"
+				type: "item"
+				item: "integrateddynamics:wrench"
+			}]
+			rewards: [{
+				id: "4A24A8727B97FD39"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "storage"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.5d
+			y: 7.0d
+			description: [""]
+			dependencies: ["3DBF0CC1D1765DE2"]
+			id: "4B3B77CAE70980C2"
+			tasks: [{
+				id: "0FB4ACA8332985A1"
+				type: "item"
+				item: "integratedtunnels:part_importer_item"
+			}]
+			rewards: [{
+				id: "5878BA6572860DBB"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			description: ["This allows your network to see and interact with connected blocks of this category!"]
+			dependencies: ["5285DBA034872CCB"]
+			id: "3DBF0CC1D1765DE2"
+			tasks: [{
+				id: "7D3B92529017D782"
+				type: "item"
+				item: "integratedtunnels:part_interface_item"
+			}]
+			rewards: [{
+				id: "544D9C3BF231540C"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			description: ["This allows your network to see and interact with connected blocks of this category!"]
+			dependencies: ["5285DBA034872CCB"]
+			id: "14BBBC4E27156918"
+			tasks: [{
+				id: "70ED5BF7E5B602CF"
+				type: "item"
+				item: "integratedtunnels:part_interface_energy"
+			}]
+			rewards: [{
+				id: "37CD13C42667D940"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 7.0d
+			description: ["Allows you to filter stuff!"]
+			dependencies: ["3DBF0CC1D1765DE2"]
+			id: "353B18C9FE51A6DD"
+			tasks: [{
+				id: "3DC0270C4BCE414C"
+				type: "item"
+				item: "integratedtunnels:part_interface_filter_item"
+			}]
+			rewards: [{
+				id: "1B77177F5535C386"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			description: ["This allows your network to see and interact with connected blocks of this category!"]
+			dependencies: ["5285DBA034872CCB"]
+			id: "5C9609E5057BB650"
+			tasks: [{
+				id: "58B56B1828300D35"
+				type: "item"
+				item: "integratedtunnels:part_interface_filter_fluid"
+			}]
+			rewards: [{
+				id: "5AF6B1B95E8D6D05"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: 7.0d
+			description: ["Allows you to filter stuff!"]
+			dependencies: ["14BBBC4E27156918"]
+			id: "547B614B20460541"
+			tasks: [{
+				id: "479941F6EECE9E54"
+				type: "item"
+				item: "integratedtunnels:part_interface_filter_energy"
+			}]
+			rewards: [{
+				id: "40059EB0D8271E15"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 7.0d
+			description: ["Allows you to filter stuff!"]
+			dependencies: ["5C9609E5057BB650"]
+			id: "17A7E69DF936527E"
+			tasks: [{
+				id: "438BE2BD6736C6C5"
+				type: "item"
+				item: "integratedtunnels:part_importer_fluid"
+			}]
+			rewards: [{
+				id: "1A4DE6EDE0140C5A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 7.0d
+			dependencies: ["5C9609E5057BB650"]
+			id: "2570FA69C0F140F8"
+			tasks: [{
+				id: "6514E11B2D4670CB"
+				type: "item"
+				item: "integratedtunnels:part_importer_fluid"
+			}]
+			rewards: [{
+				id: "371925AD045BDA55"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 7.0d
+			dependencies: ["14BBBC4E27156918"]
+			id: "5B323B4A8D4117F5"
+			tasks: [{
+				id: "2CD65AEE955D6581"
+				type: "item"
+				item: "integratedtunnels:part_importer_energy"
+			}]
+			rewards: [{
+				id: "7FADA7ACDEB90B28"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "mid_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.5d
+			dependencies: [
+				"7B26D5B8143E24F3"
+				"17B79600F58D67A4"
+			]
+			id: "444D525EA22FCF82"
+			tasks: [{
+				id: "096A0FDD0B57CC35"
+				type: "item"
+				item: "integrateddynamics:variable"
+			}]
+			rewards: [{
+				id: "62473901AEB2E1EC"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "lucky_block"
+					}
+				}
+			}]
+		}
+	]
+}

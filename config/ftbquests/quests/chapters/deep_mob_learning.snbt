@@ -1,0 +1,178 @@
+{
+	id: "162EBD8C2354CEFD"
+	group: "1BDE5602F1BE5CBF"
+	order_index: 0
+	filename: "deep_mob_learning"
+	title: "Deep Mob Learning"
+	icon: {
+		id: "dmlreforged:deep_learner"
+		Count: 1b
+		ForgeCaps: {
+			Parent: {
+				Size: 1
+				Items: [ ]
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 1.0d
+			description: ["This allows you to craft data models, these allow you to store data that you can collect later."]
+			dependencies: ["77A72FFDCF8098CA"]
+			id: "0BB79D2E592348BF"
+			tasks: [{
+				id: "43EC6CA8B96DF40A"
+				type: "item"
+				item: "dmlreforged:data_model_blank"
+			}]
+			rewards: [{
+				id: "56774A2E4DE3CAA1"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.0d
+			description: ["Provided this block has power and polymer clay! It can generate types of matter as well as a perfect pearl! The matter types can be changed into different loot via crafting, whereas the perfect pearls can be changed into loot using the loot fabricator!"]
+			dependencies: ["208697AC741C3B43"]
+			id: "1D03DE07881FBEA3"
+			tasks: [{
+				id: "1C5C82E0B6994D5D"
+				type: "item"
+				item: "dmlreforged:simulation_chamber"
+			}]
+			rewards: [{
+				id: "7D8ACB79600C0DC2"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 5.0d
+			shape: "gear"
+			description: ["The loot fabricator allows you to turn the perfect pearls into a large quanity of loot from whatever mob gave it to you! Keep in mind you can choose the outcome!"]
+			dependencies: ["1D03DE07881FBEA3"]
+			id: "063A47964317E23F"
+			tasks: [{
+				id: "3BAF5803DF06C526"
+				type: "item"
+				item: "dmlreforged:extraction_chamber"
+			}]
+			rewards: [
+				{
+					id: "2F16EB781A533E42"
+					type: "item"
+					item: {
+						id: "ftbquests:lootcrate"
+						Count: 1b
+						tag: {
+							type: "early_game_pipes"
+						}
+					}
+				}
+				{
+					id: "5FAB7D6061FB1C55"
+					type: "item"
+					item: "andromedacrafts:science_juice"
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			description: ["Right click a block of coal with a hunk of redstone!"]
+			dependencies: ["5CB252E22922F108"]
+			hide: true
+			id: "77A72FFDCF8098CA"
+			tasks: [{
+				id: "41302170E50A9D5B"
+				type: "item"
+				item: "dmlreforged:soot_covered_redstone"
+			}]
+			rewards: [{
+				id: "236B6EC8BADCC27A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			description: ["The deep learner allows you to store data modules, when the mob on the face of the data module is killed it will increase the quality of the data module put inside, and therefore the loot obtained! Keep in mind you need data modules inside, and this in your inventory for this to do anything!"]
+			dependencies: ["0BB79D2E592348BF"]
+			id: "6387FA50D619BBC8"
+			tasks: [{
+				id: "4CC959C83BDB8C79"
+				type: "item"
+				item: {
+					id: "dmlreforged:deep_learner"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 1
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "32E542C7ABF8B31A"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			description: ["This is your basic item that allows the simulation chamber in the following quest to work!"]
+			dependencies: ["6387FA50D619BBC8"]
+			id: "208697AC741C3B43"
+			tasks: [{
+				id: "38E0818FE9F9A546"
+				type: "item"
+				item: "dmlreforged:polymer_clay"
+				count: 16L
+			}]
+			rewards: [{
+				id: "6750EA13851E1A23"
+				type: "item"
+				item: {
+					id: "ftbquests:lootcrate"
+					Count: 1b
+					tag: {
+						type: "early_game_pipes"
+					}
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Bubble",
+  "colors": [
+    "f207ee",
+    "bf0bbc"
+  ],
+  "ingredient": {
+    "item": "minecraft:bubble_coral_block"
+  },
+  "inUltimateSingularity": false
+}
