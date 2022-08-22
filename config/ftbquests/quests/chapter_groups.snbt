@@ -1,13 +1,13 @@
 {
 	chapter_groups: [
-		{ id: "3169F62C14ECDF17", title: "Resource Generation" }
-		{ id: "6427FC4035BCAD8A", title: "Storage" }
-		{ id: "1D115F3DF1092C06", title: "Automation" }
-		{ id: "47CF1A3B0D7BE39F", title: "Base Building" }
-		{ id: "3B8B12427843DE95", title: "Decoration" }
-		{ id: "75940C6E9EF33EDC", title: "Logistics" }
-		{ id: "1BDE5602F1BE5CBF", title: "Mob Grinding Utilities" }
-		{ id: "31EE4422B6F1456C", title: "Power" }
-		{ id: "060FC1801833F14E", title: "Endgame Goals" }
+		{ id: "3169F62C14ECDF17", title: "生产资源" }
+		{ id: "6427FC4035BCAD8A", title: "存储" }
+		{ id: "1D115F3DF1092C06", title: "自动化" }
+		{ id: "47CF1A3B0D7BE39F", title: "基地建设" }
+		{ id: "3B8B12427843DE95", title: "装饰" }
+		{ id: "75940C6E9EF33EDC", title: "后勤" }
+		{ id: "1BDE5602F1BE5CBF", title: "怪物磨床工具" }
+		{ id: "31EE4422B6F1456C", title: "能源" }
+		{ id: "060FC1801833F14E", title: "最终目标" }
 	]
 }
