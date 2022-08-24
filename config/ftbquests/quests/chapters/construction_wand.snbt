@@ -3,7 +3,7 @@
 	group: "47CF1A3B0D7BE39F"
 	order_index: 1
 	filename: "construction_wand"
-	title: "Construction"
+	title: "建造"
 	icon: {
 		id: "constructionwand:infinity_wand"
 		Count: 1b
@@ -17,7 +17,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
-			description: ["Construction wands is the key to building massive buildings without spending your entire life building it! If you right click on a block it will try and place that block in the same direction on all similar blocks! [for example if you have a line of cobble and you right click it would place another line of cobble in your direction!]"]
+			description: ["建筑手杖是你在不必消耗你的一生去建造的关键一点！如果你手持其右键一个方块时，它将会尝试摆放在此方向上摆放与此方块相同的方块！[举个例子，如果你面前有一行圆石，而此时你右键他们，将会在与你方向相同的位置上紧挨着放置另一行圆石！]"]
 			dependencies: ["47C3871D5F7C50D1"]
 			hide: true
 			id: "4F515F01476CFEF3"
@@ -129,7 +129,7 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["Combine with your wand in a crafting grid and shift + left click to switch modes! "]
+			description: ["在合成栏中与建筑手杖结合，并且Shift + 左键点击以切换模式！"]
 			dependencies: ["4F515F01476CFEF3"]
 			id: "602495A912C0B06B"
 			tasks: [{
@@ -152,7 +152,7 @@
 		{
 			x: -1.0d
 			y: 0.5d
-			description: ["This is a tool of mass destruction! Beware! Combine with your wand in a crafting grid and shift + left click to switch modes! "]
+			description: ["这个东西破坏性极大！小心！Shift + 左键点击以切换模式！"]
 			dependencies: ["4F515F01476CFEF3"]
 			id: "30BB2A1C2021DF24"
 			tasks: [{
@@ -169,7 +169,7 @@
 		{
 			x: 3.0d
 			y: 0.0d
-			description: ["This allows you to build and add new structures to your world! They behave as prebuilt pieces of structures you can asseble yourself. Think legos but you get to chose the block types! There is a hotkey to change modes!"]
+			description: ["这个建筑小帮手允许你往世界中建造或是添加一些新结构！它们表现为您可以自己组装的预建结构。想想乐高积木，但你可以选择积木类型！有一个热键来改变模式！"]
 			dependencies: ["47C3871D5F7C50D1"]
 			hide: true
 			id: "5EBA804841E83006"
@@ -194,7 +194,7 @@
 		{
 			x: 4.0d
 			y: 0.0d
-			description: ["This allows you to exchange exisiting blocks within the world! There is a hotkey to change modes!"]
+			description: ["这个工具允许你替换世界中现有的方块！有一个热键来改变模式！"]
 			dependencies: ["47C3871D5F7C50D1"]
 			hide: true
 			id: "310F131B45D21965"
@@ -219,7 +219,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["This allows you to copy and paste structures that already exist within the world. Right click to store the first position, shift right click to store the second position. There is a hotkey to change modes!"]
+			description: ["这个小工具允许你复制粘贴世界中现有的结构。右键以储存第一个点，Shif右键以储存第二个点。有一个热键来改变模式！"]
 			dependencies: ["47C3871D5F7C50D1"]
 			hide: true
 			id: "32641FF9E6445705"
@@ -244,7 +244,7 @@
 		{
 			x: 6.0d
 			y: 0.0d
-			description: ["This allows you to clear large areas! Be aware though, it voids the blocks!"]
+			description: ["这个工具允许你清空大面积区域！但请注意，它会让方块消失！"]
 			dependencies: ["47C3871D5F7C50D1"]
 			hide: true
 			id: "7E338A029FF53DD3"
@@ -264,7 +264,7 @@
 		{
 			x: 4.0d
 			y: 1.0d
-			description: ["Construction paste is an incredible tool. It allows you to basically copy the texture of existing blocks within the world. You can finally make your diamond block house! Though you may not be as rich as you let on."]
+			description: ["构建黏膏是一个令人难以置信的物品。它允许你复制世界中现有方块的纹理。这样，你终于可以做你的钻石块房子了！虽然你可能不会让你变得那样富有。"]
 			dependencies: [
 				"5EBA804841E83006"
 				"310F131B45D21965"
@@ -280,7 +280,7 @@
 		{
 			x: 4.0d
 			y: 2.0d
-			description: ["This allows you to store construction paste! Right click the past to store it within the container. Picking it up will automatically go within your inventory. "]
+			description: ["这个容器允许你储存构建黏膏！右键黏膏以储存，右键单击以将其储存在容器中。捡起它后将自动进入您的物品栏。"]
 			dependencies: ["43691BC0133E9C4E"]
 			id: "4383ED91B922CFDD"
 			tasks: [{
@@ -292,7 +292,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["This allows you to store construction paste! Right click the past to store it within the container. Picking it up will automatically go within your inventory. "]
+			description: ["这个容器允许你储存构建黏膏！右键黏膏以储存，右键单击以将其储存在容器中。捡起它后将自动进入您的物品栏。"]
 			dependencies: ["4383ED91B922CFDD"]
 			id: "3CF5455F46965A80"
 			tasks: [{
@@ -304,7 +304,7 @@
 		{
 			x: 4.0d
 			y: 4.0d
-			description: ["This allows you to store construction paste! Right click the past to store it within the container. Picking it up will automatically go within your inventory. "]
+			description: ["这个容器允许你储存构建黏膏！右键黏膏以储存，右键单击以将其储存在容器中。捡起它后将自动进入您的物品栏。"]
 			dependencies: ["3CF5455F46965A80"]
 			id: "6BCE32C6E7752740"
 			tasks: [{
@@ -316,7 +316,7 @@
 		{
 			x: 5.0d
 			y: 1.0d
-			description: ["This allows you to view your structure in a UI, Put a piece of paper in the right to save it and create a template"]
+			description: ["这个机器允许你在UI中预览结构，在右侧放置一张纸以存储它并创建一个新的模板"]
 			dependencies: ["32641FF9E6445705"]
 			id: "2E6389AD67224A87"
 			tasks: [{
@@ -328,7 +328,7 @@
 		{
 			x: 5.0d
 			y: 2.0d
-			description: ["Made by putting a piece of paper in the right hand side of the template manager!"]
+			description: ["通过在模板管理器的右侧放置一张纸来制作！"]
 			dependencies: ["2E6389AD67224A87"]
 			id: "0E4C6FFEE33A20A6"
 			tasks: [{
