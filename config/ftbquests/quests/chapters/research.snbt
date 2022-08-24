@@ -3,17 +3,17 @@
 	group: ""
 	order_index: 1
 	filename: "research"
-	title: "Research"
+	title: "研究"
 	icon: "andromedacrafts:science_juice"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Resourceful Bees"
+			title: "资源蜜蜂"
 			icon: "statues:bee_statue"
 			x: 3.5d
 			y: -1.5d
-			subtitle: "Resource Generation Via Bees!"
+			subtitle: "通过蜜蜂生产资源！"
 			description: [""]
 			dependencies: ["62F45B0CCBA63661"]
 			id: "40DD27E1C969CE4B"
@@ -25,11 +25,11 @@
 			}]
 		}
 		{
-			title: "Rftools"
+			title: "RF工具"
 			icon: "rftoolsdim:dimension_builder"
 			x: 3.0d
 			y: 2.0d
-			subtitle: "A large mod capable of storage, dimensional travel, forcefields, and so much more!"
+			subtitle: "一个大型模组，能够实现存储，维度旅行，力场等等！"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "02B6D605B34C9FDA"
 			tasks: [{
@@ -41,11 +41,11 @@
 			}]
 		}
 		{
-			title: "Pneumatic Craft"
+			title: "气动工艺"
 			icon: "pneumaticcraft:assembly_drill"
 			x: 0.0d
 			y: 2.0d
-			subtitle: "Use pressure to automate crafting and assmble a programable drone army!"
+			subtitle: "用压力自动合成、制作一个可编程的无人机军队！"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "4A4A0873114B8141"
 			tasks: [{
@@ -56,7 +56,7 @@
 			}]
 		}
 		{
-			title: "Construction"
+			title: "建造"
 			icon: {
 				id: "constructionwand:infinity_wand"
 				Count: 1b
@@ -66,7 +66,7 @@
 			}
 			x: 2.0d
 			y: -5.5d
-			subtitle: "Unlock ways to build massive structures in almost no time at all!"
+			subtitle: "解锁在任何时候都可以建造大型结构的方法！"
 			dependencies: ["1075139C5E6C498C"]
 			id: "47C3871D5F7C50D1"
 			tasks: [{
@@ -77,11 +77,11 @@
 			}]
 		}
 		{
-			title: "Kitchen Building"
+			title: "厨房建造"
 			icon: "cookingforblockheads:oven"
 			x: 2.5d
 			y: -1.5d
-			subtitle: "Embrace your inner 1950's and get yourself a fancy kitchen to make food easier to craft!"
+			subtitle: "拥抱你内心的20世纪50年代，给自己一个花哨的厨房，让食物更容易制作！"
 			dependencies: ["62F45B0CCBA63661"]
 			id: "53F0CBAA8F78A0D2"
 			tasks: [{
@@ -96,7 +96,7 @@
 			icon: "xnet:antenna_dish"
 			x: 6.0d
 			y: 2.0d
-			subtitle: "Wired/Wireless networking for all of your transportation needs!"
+			subtitle: "有线/无线网络都满足您所有的运输需求！"
 			description: [""]
 			dependencies: ["510ACACF1AC8F618"]
 			id: "72E183E8D14F258C"
@@ -108,11 +108,11 @@
 			}]
 		}
 		{
-			title: "Pretty Pipez"
+			title: "更好的管道"
 			icon: "prettypipes:pipe"
 			x: 4.0d
 			y: -5.5d
-			subtitle: "This allows you to use pipes for transfering items! Can also be used to make a storage network!"
+			subtitle: "这个模组允许你使用管道以运输物品！它同样能够用于制造一个存储网络！"
 			dependencies: ["1075139C5E6C498C"]
 			id: "1549B3BBF2C591E7"
 			tasks: [{
@@ -123,11 +123,11 @@
 			}]
 		}
 		{
-			title: "Mystical Agriculture"
+			title: "神秘农业"
 			icon: "mysticalagriculture:supremium_essence"
 			x: 1.0d
 			y: 2.0d
-			subtitle: "Allows you to produce insane quantities of resources via crops!"
+			subtitle: "允许你通过作物生产一些资源！"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "106D4257379B2937"
 			tasks: [{
@@ -138,7 +138,7 @@
 			}]
 		}
 		{
-			title: "Tinkers Construct"
+			title: "匠魂"
 			icon: {
 				id: "tinkers_reforged:frying_pan"
 				Count: 1b
@@ -183,7 +183,7 @@
 			}
 			x: 2.0d
 			y: 2.0d
-			subtitle: "An easy way to make alloys and amazing tools!"
+			subtitle: "一个可以制作合金和神奇工具的方式"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "41C54E45615E2BCA"
 			tasks: [{
@@ -194,11 +194,11 @@
 			}]
 		}
 		{
-			title: "Player Transport"
+			title: "玩家移动"
 			icon: "waystones:sharestone"
 			x: 1.0d
 			y: -5.5d
-			subtitle: "Unlock new and amazing ways to move around your base and over long distances!"
+			subtitle: "解锁新的和令人称奇的方式，在你的基地和长距离移动！"
 			dependencies: ["1075139C5E6C498C"]
 			id: "6189D3D9978FA73E"
 			tasks: [{
@@ -209,11 +209,11 @@
 			}]
 		}
 		{
-			title: "Farmer's Delight"
+			title: "农夫乐事"
 			icon: "farmersdelight:wild_carrots"
 			x: 1.5d
 			y: -1.5d
-			subtitle: "For all your cooking ingredient needs!"
+			subtitle: "满足您所有的烹饪食材需求！"
 			dependencies: ["62F45B0CCBA63661"]
 			id: "424B33092B9B4E78"
 			tasks: [{
@@ -224,11 +224,11 @@
 			}]
 		}
 		{
-			title: "Computer Craft"
+			title: "电脑"
 			icon: "computercraft:computer_advanced"
 			x: 5.0d
 			y: 2.0d
-			subtitle: "Embrace your inner programmer and unlock your computer's secrets!"
+			subtitle: "拥抱你内心的编程器，解开你电脑的秘密！"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "0FDE3C4E93BC0D56"
 			tasks: [{
@@ -239,12 +239,12 @@
 			}]
 		}
 		{
-			title: "Integrated Dynamics"
+			title: "集成动力"
 			icon: "integrateddynamics:variable"
 			x: 6.5d
 			y: -1.5d
 			shape: "pentagon"
-			subtitle: "A key to logical transportation of items based off of variables and other statistics!"
+			subtitle: "基于变量和其他统计数据的物品逻辑运输的关键！"
 			dependencies: ["62F45B0CCBA63661"]
 			id: "1AC5A3480770B4AE"
 			tasks: [{
@@ -255,12 +255,12 @@
 			}]
 		}
 		{
-			title: "Apotheosis"
+			title: "神化"
 			icon: "minecraft:spawner"
 			x: 5.0d
 			y: -5.5d
 			shape: "pentagon"
-			subtitle: "Fabrication of spawners and enchanting overhaul!"
+			subtitle: "制造刷怪笼和体验全面更改的附魔"
 			dependencies: ["1075139C5E6C498C"]
 			id: "14BBD80AC3CAC3F3"
 			tasks: [{
@@ -271,7 +271,7 @@
 			}]
 		}
 		{
-			title: "Deep Mob Learning"
+			title: "深度怪物学习"
 			icon: {
 				id: "dmlreforged:deep_learner"
 				Count: 1b
@@ -284,7 +284,7 @@
 			}
 			x: 6.0d
 			y: -5.5d
-			subtitle: "Fabricate mob loot from clay!"
+			subtitle: "用黏土制作怪物掉落物"
 			dependencies: ["1075139C5E6C498C"]
 			id: "5CB252E22922F108"
 			tasks: [{
@@ -295,11 +295,11 @@
 			}]
 		}
 		{
-			title: "Storage Drawers"
+			title: "抽屉"
 			icon: "storagedrawers:controller"
 			x: 7.0d
 			y: -5.5d
-			subtitle: "Large volume of storage for a large volume of items!"
+			subtitle: "大容量存储，适用于大量物品！"
 			dependencies: ["1075139C5E6C498C"]
 			id: "0B37AE47F308E035"
 			tasks: [{
@@ -310,11 +310,11 @@
 			}]
 		}
 		{
-			title: "Simple Storage Network"
+			title: "简单存储网络"
 			icon: "storagenetwork:request"
 			x: -0.5d
 			y: -1.5d
-			subtitle: "Early game digital storage!"
+			subtitle: "游戏早期的数字存储方式"
 			dependencies: ["62F45B0CCBA63661"]
 			id: "308513DA669FB7BF"
 			tasks: [{
@@ -325,11 +325,11 @@
 			}]
 		}
 		{
-			title: "Botania"
+			title: "植物魔法"
 			icon: "botania:pure_daisy"
 			x: 4.0d
 			y: 2.0d
-			subtitle: "Generate items, create pretty flowers/blocks, fancy tools and armor, and alchemy to your hearts content!"
+			subtitle: "生产物品，制作实用且好看的花和方块，精致的工具和盔甲以及足以让你心满意足的炼金！"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "7FEE7D31F7DFA6C2"
 			tasks: [{
@@ -340,11 +340,11 @@
 			}]
 		}
 		{
-			title: "Cyclic"
+			title: "循环"
 			icon: "cyclic:apple_ender"
 			x: 0.5d
 			y: -1.5d
-			subtitle: "Cyclic adds a large volume of random tools/machines/accessories to help you out in your journey!"
+			subtitle: "循环模组增加了大量的自定义工具、机器、饰品来辅助你的旅途！"
 			description: [""]
 			dependencies: ["62F45B0CCBA63661"]
 			id: "4D6256C8BE38046F"
@@ -360,7 +360,7 @@
 			icon: "supercircuitmaker:tiny_redstone"
 			x: 0.0d
 			y: -5.5d
-			subtitle: "The key to mini vanilla [ish] redstone circuits! Amazing for compact redstone!"
+			subtitle: "迷你原版红石电路的关键！惊人的压缩红石！"
 			dependencies: ["1075139C5E6C498C"]
 			id: "624D8D85E6C1F011"
 			tasks: [{
@@ -375,7 +375,7 @@
 			icon: "modularrouters:modular_router"
 			x: 3.0d
 			y: -5.5d
-			subtitle: "This lets a block take on many different behaviors, from a vaccum hopper to breaking blocks!"
+			subtitle: "这个模组让一个方块可以进行不一样的行动，从真空漏斗到破坏方块！"
 			dependencies: ["1075139C5E6C498C"]
 			id: "530B33AD4A33F8F8"
 			tasks: [{
@@ -386,11 +386,11 @@
 			}]
 		}
 		{
-			title: "Advanced Generators"
+			title: "高级发电机"
 			icon: "advgenerators:turbine_tier5"
 			x: 4.5d
 			y: -1.5d
-			subtitle: "Have customaizable generators to your needs!"
+			subtitle: "根据你的需求，选择不同的自定义发电机！"
 			dependencies: ["62F45B0CCBA63661"]
 			id: "003D91A2C8A7B89C"
 			tasks: [{
@@ -401,11 +401,11 @@
 			}]
 		}
 		{
-			title: "Project E"
+			title: "等价交换"
 			icon: "projecte:transmutation_table"
 			x: 3.0d
 			y: 6.0d
-			subtitle: "Transmute any item to another item!"
+			subtitle: "将任何物品转换为另一个物品！"
 			dependencies: ["45D950B4EB3B5620"]
 			id: "06C59ACF3FE5EDA7"
 			tasks: [{
@@ -417,7 +417,7 @@
 			}]
 		}
 		{
-			title: "Brass/Steel Age"
+			title: "黄铜/钢时代"
 			icon: "create:brass_ingot"
 			x: 3.5d
 			y: -4.0d
@@ -432,7 +432,7 @@
 			}]
 		}
 		{
-			title: "Enderium Age"
+			title: "末影时代"
 			icon: "thermal:enderium_ingot"
 			x: 3.5d
 			y: 0.0d
@@ -444,7 +444,7 @@
 			}]
 		}
 		{
-			title: "Ultimate Circuit Age"
+			title: "终极电路时代"
 			icon: "mekanism:ultimate_control_circuit"
 			x: 3.5d
 			y: 4.5d
@@ -456,7 +456,7 @@
 			}]
 		}
 		{
-			title: "Stone Age"
+			title: "石头时代"
 			icon: "minecraft:cobblestone"
 			x: 3.5d
 			y: -7.5d
@@ -488,7 +488,7 @@
 			}
 			x: 5.5d
 			y: -1.5d
-			subtitle: "Fabricate power by purifying crystals and generating radiation!"
+			subtitle: "通过净化晶体和产生辐射来制造电力！"
 			dependencies: ["62F45B0CCBA63661"]
 			id: "24E1A130B23DFA3F"
 			tasks: [{
@@ -499,11 +499,11 @@
 			}]
 		}
 		{
-			title: "Solar Panels"
+			title: "太阳能板"
 			icon: "solarflux:sp_8"
 			x: 7.0d
 			y: 2.0d
-			subtitle: "Free Renewable Power!"
+			subtitle: "免费的可再生能源！"
 			dependencies: ["510ACACF1AC8F618"]
 			id: "1E800202F7DB0792"
 			tasks: [{
@@ -514,11 +514,11 @@
 			}]
 		}
 		{
-			title: "Compressing Blocks!"
+			title: "压缩方块！"
 			icon: "compressium:cobblestone_9"
 			x: 4.0d
 			y: 6.0d
-			subtitle: "Compress blocks for very good rewards!"
+			subtitle: "压缩一些方块以让你获得丰厚的奖励！"
 			dependencies: ["45D950B4EB3B5620"]
 			id: "1FD033E62DDAB4B5"
 			tasks: [{
@@ -529,7 +529,7 @@
 			}]
 		}
 		{
-			title: "Jetpacks!"
+			title: "喷气背包！"
 			icon: {
 				id: "ironjetpacks:jetpack"
 				Count: 1b
@@ -550,12 +550,12 @@
 			}]
 		}
 		{
-			title: "Refined Storage"
+			title: "精致存储"
 			icon: "refinedstorage:creative_controller"
 			x: 0.0d
 			y: 3.0d
-			subtitle: "A simpler and less difficult version of AE2"
-			description: ["The main differences being that you no longer need to deal with channels, and the item disks store a volume of items, rather then types of items! Think of a chest VS a storage drawer!"]
+			subtitle: "一个AE2的简化版本，相比它更简单"
+			description: ["主要区别在于，您不再需要频道，并且物品磁盘存储大量物品，而不是物品类型！想想一个箱子VS一个储物抽屉！"]
 			dependencies: ["4A4A0873114B8141"]
 			id: "7132874AEB96DB9D"
 			tasks: [{
