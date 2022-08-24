@@ -11,7 +11,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			description: ["This is a very powerful piece of technology! It allows for the transfer of items and fluids among several different channels! Be sure to keep in mind that channels need to be enabled, they must be of the apropriate type, and energy could potentially be wasted if ins dont match the outputs! [ie 1000 out but only 50 in you would be wasting 950 power! So be careful]"]
+			description: ["这是一项非常强大的技术！它允许使用几个不同的频道传输物品和流体！请务必记住，如果需要启用频道，它们必须是专有类型，如果输入与输出不匹配，则可能会浪费能量！[即有1000输出，但只有50输入，你会浪费950功率！所以要小心]"]
 			dependencies: ["72E183E8D14F258C"]
 			hide: true
 			id: "0630077B1D7666C7"
@@ -35,7 +35,7 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			description: ["Allows you to disguise your blocks to make things look pretty!"]
+			description: ["允许你伪装你的方块，使其看起来更好！"]
 			dependencies: ["0630077B1D7666C7"]
 			id: "536171E45BD3D49B"
 			tasks: [{
@@ -58,7 +58,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["This allows one resource to be accessable by more then one network. This is were naming comes in really important!"]
+			description: ["这允许一个资源可由多个网络访问。但是命名真的很重要！"]
 			dependencies: ["0630077B1D7666C7"]
 			id: "2D01444033646707"
 			tasks: [{
@@ -81,7 +81,7 @@
 		{
 			x: -3.0d
 			y: 2.5d
-			description: ["Like a router except it is wireless!"]
+			description: ["就像路由器一样，除了它是无线的！"]
 			dependencies: ["2D01444033646707"]
 			id: "798D761BEBAD360B"
 			tasks: [
@@ -121,7 +121,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["Allows for transmitting redsone from a distance."]
+			description: ["允许从远处传输红石信号。"]
 			dependencies: ["0630077B1D7666C7"]
 			id: "4DC4878F1E774520"
 			tasks: [{
@@ -144,7 +144,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Allows for transmitting redsone from a distance."]
+			description: ["允许从远处传输红石信号。"]
 			dependencies: ["0630077B1D7666C7"]
 			id: "17429B6BFBBB2882"
 			tasks: [{
@@ -167,7 +167,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["This is your basic network cable. Use for in between connectors!"]
+			description: ["这是您的基本路由网络电缆。用于路由连接器之间！"]
 			dependencies: ["0630077B1D7666C7"]
 			id: "2CC5992541DD5967"
 			tasks: [{
@@ -190,7 +190,7 @@
 		{
 			x: 2.0d
 			y: 2.5d
-			description: ["Connects your network to a specific block! Be sure to name it so you know what it is!"]
+			description: ["将您的网络连接到特定的方块！一定要给它命名，这样你就知道它是什么了！"]
 			dependencies: ["2CC5992541DD5967"]
 			id: "3DCFC7893E8AB481"
 			tasks: [{
@@ -213,7 +213,7 @@
 		{
 			x: 1.5d
 			y: 3.5d
-			description: ["This allows you to move items faster n whatnot!"]
+			description: ["这使您可以更快地移动物品！"]
 			dependencies: ["3DCFC7893E8AB481"]
 			id: "0F11539F2E0F4FCF"
 			tasks: [{
@@ -236,7 +236,7 @@
 		{
 			x: 2.5d
 			y: 3.5d
-			description: ["upgrades an existing connector"]
+			description: ["升级现有连接器！"]
 			dependencies: ["3DCFC7893E8AB481"]
 			id: "64A846B52E438082"
 			tasks: [{
