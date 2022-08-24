@@ -3,7 +3,7 @@
 	group: "6427FC4035BCAD8A"
 	order_index: 3
 	filename: "simple_storage"
-	title: "Simple Storage"
+	title: "简单存储"
 	icon: "storagenetwork:request"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["A basic network requires a storage root and an access table [the crafting access table is the only real table, the other one isn't worth it], from there you can attach cables and different interfaces that actually allow you to build your network."]
+			description: ["一个基本的网络需要一个存储网络控制器和一个合成存储总端（合成存储总端是唯一真正的端，另一个不值得），从那里你可以连接电缆和不同的接口，允许你建立你的网络。"]
 			dependencies: ["308513DA669FB7BF"]
 			hide: true
 			id: "427CC64DE1B74B60"
@@ -48,7 +48,7 @@
 		{
 			x: -3.5d
 			y: 1.0d
-			description: ["Allows the network to see the attached storage."]
+			description: ["允许网络查看连接的存储。"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "528E869A08D5BE84"
 			tasks: [{
@@ -71,7 +71,7 @@
 		{
 			x: -2.5d
 			y: 1.0d
-			description: ["Takes anything from inside the conencted inventory and puts it in your network."]
+			description: ["从连接的库存中获取任何内容，并将其放入您的网络中。"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "453FFA7551E1A9A8"
 			tasks: [{
@@ -94,7 +94,7 @@
 		{
 			x: -1.5d
 			y: 1.0d
-			subtitle: "Takes anything from inside the conencted inventory and puts it in your network, but with a filter!"
+			subtitle: "从连接的库存中获取任何内容并将其放入您的网络中，但附带过滤器！"
 			dependencies: ["427CC64DE1B74B60"]
 			id: "4182EA8E3B39DEDE"
 			tasks: [{
@@ -117,7 +117,7 @@
 		{
 			x: -0.5d
 			y: 1.0d
-			description: ["Allows the network to see the attached storage, but with a filter!"]
+			description: ["允许网络查看附加的存储，但附带过滤器！"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "1CD6CFCAF17B9292"
 			tasks: [{
@@ -140,7 +140,7 @@
 		{
 			x: 0.5d
 			y: 1.0d
-			description: ["Takes items from your storage and puts them into the connected inventory!"]
+			description: ["从您的仓库中取出物品，并将它们放入连接的库存中！"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "5B83CAFE75C039CF"
 			tasks: [{
@@ -163,7 +163,7 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			description: ["Transfer larger volumes of items at a time."]
+			description: ["一次传输大量项目。"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "04CF319122BC37E2"
 			tasks: [{
@@ -186,7 +186,7 @@
 		{
 			x: 2.5d
 			y: 1.0d
-			description: ["Transfer items quicker!"]
+			description: ["更快地转移物品！"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "50B096E2006E7838"
 			tasks: [{
@@ -209,7 +209,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
-			description: ["Transfer items slower."]
+			description: ["更慢的转移物品！"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "4C339F3240C3EFA8"
 			tasks: [{
@@ -232,7 +232,7 @@
 		{
 			x: 4.5d
 			y: 1.0d
-			description: ["Keep a specific amount of items in an inventory."]
+			description: ["在库存中保留特定数量的物品。"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "7B00C471D58F8F30"
 			tasks: [{
@@ -257,7 +257,7 @@
 			y: 1.0d
 			description: [
 				""
-				"Processes the specific amount of items in the filter."
+				"处理筛选器中的特定数量的项目。"
 			]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "2635C5632AD1C661"
@@ -281,7 +281,7 @@
 		{
 			x: 6.5d
 			y: 1.0d
-			description: ["Set the stack size to one!"]
+			description: ["将堆栈大小设置为 1！"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "5AF515190D7A58DA"
 			tasks: [{
@@ -305,7 +305,7 @@
 			x: 7.5d
 			y: 1.0d
 			shape: "gear"
-			description: ["Remote storage access anybody?"]
+			description: ["在任何位置远程存储访问！"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "6CAA6D8C894C8195"
 			tasks: [{
