@@ -3,7 +3,7 @@
 	group: "47CF1A3B0D7BE39F"
 	order_index: 0
 	filename: "player_transport"
-	title: "Base Transport"
+	title: "基础移动方式"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -15,7 +15,7 @@
 			tasks: [{
 				id: "4A35A16DD7D3C689"
 				type: "item"
-				title: "Any #elevatorid:elevators"
+				title: "任何 #elevatorid:elevators"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -184,7 +184,7 @@
 			tasks: [{
 				id: "5A4C1DBA1DE7BAB8"
 				type: "item"
-				title: "Any #waystones:dyed_sharestone"
+				title: "任何 #waystones:dyed_sharestone"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -300,7 +300,7 @@
 			}]
 		}
 		{
-			title: "Player Transport"
+			title: "玩家移动"
 			icon: "waystones:white_sharestone"
 			x: 1.0d
 			y: -1.5d
