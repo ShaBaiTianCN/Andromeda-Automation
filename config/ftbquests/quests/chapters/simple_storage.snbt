@@ -281,7 +281,7 @@
 		{
 			x: 6.5d
 			y: 1.0d
-			description: ["将堆栈大小设置为 1！"]
+			description: ["将堆叠大小设置为1。"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "5AF515190D7A58DA"
 			tasks: [{
