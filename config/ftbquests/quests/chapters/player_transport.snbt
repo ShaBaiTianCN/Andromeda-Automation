@@ -15,7 +15,7 @@
 			tasks: [{
 				id: "4A35A16DD7D3C689"
 				type: "item"
-				title: "任何 #elevatorid:elevators"
+				title: "任意 #elevatorid:elevators"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -184,7 +184,7 @@
 			tasks: [{
 				id: "5A4C1DBA1DE7BAB8"
 				type: "item"
-				title: "任何 #waystones:dyed_sharestone"
+				title: "任意 #waystones:dyed_sharestone"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
