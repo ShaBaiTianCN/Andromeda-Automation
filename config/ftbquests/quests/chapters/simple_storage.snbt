@@ -163,7 +163,7 @@
 		{
 			x: 1.5d
 			y: 1.0d
-			description: ["一次传输大量项目。"]
+			description: ["一次传输大量物品。"]
 			dependencies: ["427CC64DE1B74B60"]
 			id: "04CF319122BC37E2"
 			tasks: [{
