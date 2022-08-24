@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 0
 	filename: "create"
-	title: "Create"
+	title: "机械动力"
 	icon: "create:wrench"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -225,7 +225,7 @@
 		{
 			x: -5.0d
 			y: 7.0d
-			description: ["Right click a blaze with this magical device to trap it!"]
+			description: ["用这个神奇的装置右键烈焰人来捕捉它。"]
 			dependencies: ["605888DEBF1AD86F"]
 			id: "7CF279DCFA21F67F"
 			tasks: [{
@@ -270,7 +270,7 @@
 		{
 			x: -5.0d
 			y: 2.0d
-			description: ["Produce mycelium blocks by clicking spores on dirt!"]
+			description: ["右键泥土获取菌丝。"]
 			dependencies: ["1CC6632792C1E487"]
 			id: "5868B0E04581232B"
 			tasks: [{
@@ -293,13 +293,13 @@
 		{
 			x: -5.0d
 			y: 3.0d
-			description: ["Put a barrel of water nearby mycelium and over time it will produce witch water!"]
+			description: ["在菌丝周围放置一个一木桶水，一段时间后水会变成巫水。"]
 			dependencies: ["5868B0E04581232B"]
 			id: "1F627A0AB92450D0"
 			tasks: [{
 				id: "2E51244670E84FA7"
 				type: "item"
-				title: "Any #exnihilosequentia:barrels"
+				title: "任意#exnihilosequentia:barrels"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -323,7 +323,7 @@
 		{
 			x: -5.0d
 			y: 5.0d
-			description: ["Procure soul sand from putting sand into witch water! Then seive the soulsand for netherwart!"]
+			description: ["将沙子放入巫水中来获取灵魂沙。然后用筛子筛灵魂沙获取下界疣。"]
 			dependencies: ["0C5B84848277FBC5"]
 			id: "74A8DD1C50BAF14D"
 			tasks: [{
@@ -346,7 +346,7 @@
 		{
 			x: -5.0d
 			y: 6.0d
-			description: ["Craft a blazing doll and toss it into witch water to spawn a blaze!"]
+			description: ["制作一个烈焰人偶并扔进巫水中来生成一只烈焰人。"]
 			dependencies: ["74A8DD1C50BAF14D"]
 			id: "605888DEBF1AD86F"
 			tasks: [{
@@ -367,10 +367,10 @@
 			}]
 		}
 		{
-			title: "Boiler"
+			title: "热水器"
 			x: -6.0d
 			y: 2.0d
-			description: ["Assemble in a 2x2x2, pump in water and ensure a heat source is below the tank! Once created attach a steam engine to begine generating power!"]
+			description: ["用流体储罐搭建一个2x2x2的结构，抽入水并确保储罐底部有热源。搭建完成后在侧面放置一个蒸汽引擎来产生能量。"]
 			dependencies: ["1CC6632792C1E487"]
 			id: "2C3902805699DBD7"
 			tasks: [
@@ -678,14 +678,14 @@
 			icon: "create:wrench"
 			x: 1.5d
 			y: -2.5d
-			description: ["Create has a brief tutorial upon 'pondering' every object! Since they have built in tutorials that are easily accessible by hovering over and holding 'w'"]
+			description: ["机械动力有一个关于每个物品的简单指南“思索”。只要制作了指南的物品都可以简单地通过长按“w”键查看。"]
 			dependencies: ["6F18145F076820FC"]
 			hide: true
 			id: "37C6BBA9BE034132"
 			tasks: [{
 				id: "1F1407F809DF5E62"
 				type: "checkmark"
-				title: "Introduction to Create"
+				title: "机械动力简介"
 			}]
 			rewards: [{
 				id: "5D691DB6B0578519"
