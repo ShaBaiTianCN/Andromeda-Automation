@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 1
 	filename: "immersive_engineering"
-	title: "Immersive Engineering"
+	title: "沉浸工程"
 	icon: {
 		id: "immersiveengineering:hammer"
 		Count: 1b
@@ -17,7 +17,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			description: ["The start of any good engineer! With this mod expect multiblock buildings that you can find in the engineers manual, as well as numerous gorgeous structures!"]
+			description: ["任何优秀工程师的开始!有了这个mod，有了这个模组，你可以在工程师手册中找到多方块的建筑，以及无数的华丽的结构！"]
 			dependencies: ["6F18145F076820FC"]
 			hide: true
 			id: "1A732D8A69369212"
@@ -47,7 +47,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
-			description: ["This allows you to create coal coke and creosote oil for use in crafting other things"]
+			description: ["这可以让你制造出用于制造其他东西的焦煤和杂酚油"]
 			dependencies: ["1A732D8A69369212"]
 			id: "3868B86EFE31C71D"
 			tasks: [{
@@ -71,7 +71,7 @@
 		{
 			x: -7.0d
 			y: 2.5d
-			description: ["A valuable resource used in steel processing!"]
+			description: ["钢铁加工中的宝贵资源！"]
 			dependencies: ["3868B86EFE31C71D"]
 			id: "7487FBFB1AC49F86"
 			tasks: [{
@@ -139,7 +139,7 @@
 		{
 			x: 3.0d
 			y: 4.5d
-			description: ["Bonemeal some"]
+			description: ["骨粉少许"]
 			dependencies: ["02CEE8ADAC18B7D6"]
 			id: "0253066C580419FD"
 			tasks: [{
@@ -163,7 +163,7 @@
 		{
 			x: 3.0d
 			y: 5.5d
-			description: ["Bonemeal some grass to get some industrial hemp seeds!"]
+			description: ["除些草来弄些工业大麻种子！"]
 			dependencies: ["0253066C580419FD"]
 			id: "02E13551590C47FA"
 			tasks: [{
@@ -187,7 +187,7 @@
 		{
 			x: 1.0d
 			y: 11.0d
-			description: ["Make sure it has no obstructions!"]
+			description: ["确保它连接过程没有障碍物！"]
 			dependencies: ["0742EFF2C10561E1"]
 			id: "0A75B426F4D8D38D"
 			tasks: [{
@@ -210,7 +210,7 @@
 		{
 			x: 4.5d
 			y: 6.5d
-			description: ["Your wires will no longer murderize you!"]
+			description: ["你的电线不会再谋杀你了！"]
 			dependencies: ["02E13551590C47FA"]
 			id: "3F10CE9CA7EFE371"
 			tasks: [{
@@ -233,7 +233,7 @@
 		{
 			x: 3.5d
 			y: 6.5d
-			description: ["Your wires will no longer murderize you!"]
+			description: ["你的电线不会再谋杀你了！"]
 			dependencies: ["02E13551590C47FA"]
 			id: "5DC18D409C343DB4"
 			tasks: [{
@@ -256,7 +256,7 @@
 		{
 			x: 6.5d
 			y: 6.5d
-			description: ["The skyhook allows the user to basically zip line from area to area using a steel connector! Be sure to be holding it in your hand and right click"]
+			description: ["天钩允许使用者使用钢接头从一个区域滑到另一个区域！一定要把它拿在手里，然后点击右键"]
 			dependencies: ["02E13551590C47FA"]
 			id: "3FBA97E24BC1ADDC"
 			tasks: [
@@ -390,7 +390,7 @@
 		{
 			x: -7.0d
 			y: 3.5d
-			description: ["This machine allows the user to process coal coke and iron into steel and steel slag."]
+			description: ["这个机器允许使用者将焦煤和铁加工成钢和矿渣。"]
 			dependencies: ["7487FBFB1AC49F86"]
 			id: "3EB3ABF9B8CF8264"
 			tasks: [{
@@ -414,7 +414,7 @@
 		{
 			x: -2.0d
 			y: 2.5d
-			description: ["A tool for cutting wires. Enough Said"]
+			description: ["一种用于切割电线的工具我已经说得够多了"]
 			dependencies: ["3868B86EFE31C71D"]
 			id: "3A9095BEF75EA26D"
 			tasks: [{
@@ -443,7 +443,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["Transmits a low amount of power"]
+			description: ["传输少量的电力"]
 			dependencies: ["3A9095BEF75EA26D"]
 			id: "63B6ED4CAD801A48"
 			tasks: [{
@@ -466,7 +466,7 @@
 		{
 			x: -3.0d
 			y: 4.5d
-			description: ["Transmits a medium amount of power"]
+			description: ["传输中等功率的电力"]
 			dependencies: ["25DEE1722A538265"]
 			id: "28BC9FAFAC341073"
 			tasks: [{
@@ -489,7 +489,7 @@
 		{
 			x: -5.0d
 			y: 3.5d
-			description: ["Allows for transfer of larges amounts of power"]
+			description: ["允许传输大量电力"]
 			dependencies: ["3A9095BEF75EA26D"]
 			id: "257BDD0AA953F12E"
 			tasks: [{
@@ -512,7 +512,7 @@
 		{
 			x: 1.0d
 			y: 3.5d
-			description: ["Transmits redstone signals"]
+			description: ["传输红石信号"]
 			dependencies: ["3A9095BEF75EA26D"]
 			id: "14972CE84BE99B25"
 			tasks: [{
@@ -535,7 +535,7 @@
 		{
 			x: -1.5d
 			y: 4.5d
-			description: ["Used mostly in crafting."]
+			description: ["主要作用用于合成。"]
 			dependencies: ["63B6ED4CAD801A48"]
 			id: "529ECC2D95E76740"
 			tasks: [{
@@ -558,7 +558,7 @@
 		{
 			x: -3.5d
 			y: 5.5d
-			description: ["Used mostly in crafting."]
+			description: ["主要作用用于合成。"]
 			dependencies: ["28BC9FAFAC341073"]
 			id: "502A06D7632FC783"
 			tasks: [{
@@ -581,7 +581,7 @@
 		{
 			x: -5.5d
 			y: 4.5d
-			description: ["Used mostly in crafting."]
+			description: ["主要作用用于合成。"]
 			dependencies: ["257BDD0AA953F12E"]
 			id: "574BF0625D79C5B9"
 			tasks: [{
@@ -604,7 +604,7 @@
 		{
 			x: -1.5d
 			y: 7.5d
-			description: ["Allows you to harvest power from the windmill and the watermill"]
+			description: ["这将从风车和水车中获取能量"]
 			dependencies: ["529ECC2D95E76740"]
 			id: "514AE9590CB030E7"
 			tasks: [{
@@ -627,7 +627,7 @@
 		{
 			x: -0.5d
 			y: 4.5d
-			description: ["The connector connects to actual buildings! Not To relay!"]
+			description: ["接线器连接到建筑物上！不能转接！"]
 			dependencies: ["63B6ED4CAD801A48"]
 			id: "5B8E832E472A1B03"
 			tasks: [{
@@ -650,7 +650,7 @@
 		{
 			x: -2.5d
 			y: 5.5d
-			description: ["The connector connects to actual buildings! Not To relay!"]
+			description: ["接线器连接到建筑物上！不能转接！"]
 			dependencies: ["28BC9FAFAC341073"]
 			id: "7997C5E276ACBABE"
 			tasks: [{
@@ -673,7 +673,7 @@
 		{
 			x: -4.5d
 			y: 4.5d
-			description: ["The connector connects to actual buildings! Not To relay!"]
+			description: ["接线器连接到建筑物上！不能转接！"]
 			dependencies: ["257BDD0AA953F12E"]
 			id: "4588CEB2C97C6E76"
 			tasks: [{
@@ -696,7 +696,7 @@
 		{
 			x: -0.5d
 			y: 5.5d
-			description: ["This is used for long distance connections between conectors!"]
+			description: ["这用于接线器之间的长距离连接！"]
 			dependencies: ["5B8E832E472A1B03"]
 			id: "6893AB3A833EE9DD"
 			tasks: [{
@@ -719,7 +719,7 @@
 		{
 			x: -2.5d
 			y: 6.5d
-			description: ["This is used for long distance connections between conectors!"]
+			description: ["这用于接线器之间的长距离连接！"]
 			dependencies: ["7997C5E276ACBABE"]
 			id: "4930ACE0EE27FBA9"
 			tasks: [{
@@ -742,7 +742,7 @@
 		{
 			x: -4.5d
 			y: 5.5d
-			description: ["This is used for long distance connections between conectors!"]
+			description: ["这用于接线器之间的长距离连接！"]
 			dependencies: ["4588CEB2C97C6E76"]
 			id: "52A90844502C2F47"
 			tasks: [{
@@ -831,7 +831,7 @@
 		{
 			x: -3.0d
 			y: 3.5d
-			description: ["Used to make alloys!"]
+			description: ["用来制造合金！"]
 			dependencies: ["3A9095BEF75EA26D"]
 			id: "25DEE1722A538265"
 			tasks: [{
@@ -855,7 +855,7 @@
 		{
 			x: -2.5d
 			y: 13.0d
-			description: ["Allows you to generate power based off of the temperature difference between two nearby blocks."]
+			description: ["您根据相邻两个方块之间的温差发电。"]
 			dependencies: ["514AE9590CB030E7"]
 			id: "16DD853CED9D3599"
 			tasks: [{
@@ -898,7 +898,7 @@
 			}]
 		}
 		{
-			title: "Biodiesel Generator"
+			title: "柴油发电机"
 			x: -4.5d
 			y: 15.0d
 			shape: "gear"
@@ -961,7 +961,7 @@
 			]
 		}
 		{
-			title: "Lightning Powered"
+			title: "闪电供能"
 			x: -0.5d
 			y: 11.0d
 			dependencies: ["514AE9590CB030E7"]
@@ -987,7 +987,7 @@
 		{
 			x: -10.0d
 			y: 2.5d
-			description: ["Allows for seamless transfer of items! Careful because they are in entity form!"]
+			description: ["允许物品无缝传输！ 小心，因为它们是实体形式！"]
 			dependencies: ["3868B86EFE31C71D"]
 			id: "4D4A1CEA0D0C9327"
 			tasks: [{
@@ -1010,7 +1010,7 @@
 		{
 			x: -11.0d
 			y: 3.5d
-			description: ["extract items from chests and other inventories using this!"]
+			description: ["使用此物品从容器和其他储存方块中提取物品！"]
 			dependencies: ["4D4A1CEA0D0C9327"]
 			id: "17E53212BF89DBE5"
 			tasks: [{
@@ -1033,7 +1033,7 @@
 		{
 			x: -10.0d
 			y: 3.5d
-			description: ["Drops items in the chest below it!"]
+			description: ["掉落物品到下方的箱子！"]
 			dependencies: ["4D4A1CEA0D0C9327"]
 			id: "651AA4ADBC154C86"
 			tasks: [{
@@ -1056,7 +1056,7 @@
 		{
 			x: -9.0d
 			y: 3.5d
-			description: ["Allows for seperation of items depending on the color using the internal interface of the router"]
+			description: ["根据路由器内部接口的颜色来分离物品！"]
 			dependencies: ["4D4A1CEA0D0C9327"]
 			id: "418E7B93C7AF2B58"
 			tasks: [{
@@ -1212,7 +1212,7 @@
 		{
 			x: 7.5d
 			y: 6.5d
-			description: ["This allows you to grow various plants with electricity"]
+			description: ["这使你可以使用电力来种植各种植物"]
 			dependencies: ["5E8D4D1F71B4BB14"]
 			id: "40D73C6EDA9528D3"
 			tasks: [{
@@ -1235,7 +1235,7 @@
 		{
 			x: 8.5d
 			y: 6.5d
-			description: ["BANG BANG BABAY"]
+			description: ["嘣，嘣，嘣"]
 			dependencies: ["1CE0321BAD47D6A8"]
 			id: "366A5E7B4AEA4F1E"
 			tasks: [{
@@ -1287,7 +1287,7 @@
 			}]
 		}
 		{
-			title: "Steel Production"
+			title: "钢铁生产"
 			x: -7.0d
 			y: 4.5d
 			shape: "diamond"
@@ -1355,7 +1355,7 @@
 		{
 			x: -8.0d
 			y: 5.5d
-			description: ["Damages entities that move through it! Can also be electrified for increased damage"]
+			description: ["伤害穿过它的实体！也可以通电来增加伤害"]
 			dependencies: ["15B0C1324F7D1C6C"]
 			id: "4A68F9B338544D86"
 			tasks: [{
@@ -1409,10 +1409,10 @@
 			}]
 		}
 		{
-			title: "Metal Press"
+			title: "金属冲压机"
 			x: -1.5d
 			y: 12.0d
-			description: ["Allows you to make iron sheets significantly easier."]
+			description: ["使您可以更轻松地制作铁板。"]
 			dependencies: ["514AE9590CB030E7"]
 			id: "3E12F97AFB4973BE"
 			tasks: [
@@ -1459,7 +1459,7 @@
 		{
 			x: 10.5d
 			y: 6.5d
-			description: ["Allows you to shock your enemies."]
+			description: ["让你震惊你的敌人。"]
 			dependencies: ["17FE175BC731892B"]
 			id: "2C802A6E54267AAC"
 			tasks: [{
@@ -1482,7 +1482,7 @@
 		{
 			x: 9.5d
 			y: 6.5d
-			description: ["Allows you to blind your enemies."]
+			description: ["可以让你蒙蔽敌人。"]
 			dependencies: ["17FE175BC731892B"]
 			id: "3833781897197459"
 			tasks: [{
@@ -1503,7 +1503,7 @@
 			}]
 		}
 		{
-			title: "Crusher"
+			title: "粉碎机"
 			x: -1.5d
 			y: 11.0d
 			shape: "diamond"
@@ -1553,10 +1553,10 @@
 			}]
 		}
 		{
-			title: "Assembler"
+			title: "装配机"
 			x: -0.5d
 			y: 13.0d
-			description: ["Allows you to automatically craft things."]
+			description: ["帮助你自动合成物品。"]
 			dependencies: ["514AE9590CB030E7"]
 			id: "22DF7D9BD07EAFB3"
 			tasks: [
@@ -1610,10 +1610,10 @@
 			}]
 		}
 		{
-			title: "Fermenter"
+			title: "发酵机"
 			x: -5.0d
 			y: 10.0d
-			description: ["Allows you to ferment crops and create ethanol."]
+			description: ["让你发酵作物并制作乙醇。"]
 			dependencies: ["514AE9590CB030E7"]
 			id: "4563ECECFB576FF8"
 			tasks: [
@@ -1666,10 +1666,10 @@
 			}]
 		}
 		{
-			title: "Squeezer"
+			title: "工业挤压机"
 			x: -4.0d
 			y: 10.0d
-			description: ["Allows you to create seed oil"]
+			description: ["让你制作出种子油"]
 			dependencies: ["514AE9590CB030E7"]
 			id: "42D042B480F9AFDF"
 			tasks: [
@@ -1727,10 +1727,10 @@
 			}]
 		}
 		{
-			title: "Refinery"
+			title: "炼油厂"
 			x: -4.5d
 			y: 11.0d
-			description: ["Generates biodiesel!"]
+			description: ["制作生物柴油！"]
 			dependencies: [
 				"4563ECECFB576FF8"
 				"42D042B480F9AFDF"
@@ -1788,7 +1788,7 @@
 		{
 			x: -3.5d
 			y: 6.5d
-			description: ["The MV transformer allows you to change MV and LV"]
+			description: ["变压器可以改变中压和低压"]
 			dependencies: ["502A06D7632FC783"]
 			id: "6257DE38F07F40D0"
 			tasks: [{
@@ -1811,7 +1811,7 @@
 		{
 			x: -5.5d
 			y: 5.5d
-			description: ["The HV transformer allows you to exchange HV and MV."]
+			description: ["高压变压器允许你交换高压和中压。"]
 			dependencies: ["574BF0625D79C5B9"]
 			id: "2CB699A258B146D7"
 			tasks: [{
@@ -1834,7 +1834,7 @@
 		{
 			x: -9.0d
 			y: 5.5d
-			description: ["For use in the garden cloche to increase the speed of growth!"]
+			description: ["用园艺玻璃罩以增加生长速度！"]
 			dependencies: ["15B0C1324F7D1C6C"]
 			id: "6066EFAEB3512574"
 			tasks: [{
@@ -1858,7 +1858,7 @@
 		{
 			x: 5.5d
 			y: 6.5d
-			description: ["Your wires will no longer murderize you!"]
+			description: ["你的电线将不再谋杀你！"]
 			dependencies: ["02E13551590C47FA"]
 			id: "748653B1297E3EF9"
 			tasks: [{
