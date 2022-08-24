@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 5
 	filename: "botania"
-	title: "Botania"
+	title: "植物魔法"
 	icon: {
 		id: "botania:lexicon"
 		Count: 1b
@@ -178,7 +178,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["The petal apothecary is used to craft functional and generating flowers. You fill it with water, add all the required ingredients for a recipe, and add seeds at the end to finish the flower."]
+			description: ["花药台是用来制作功能花的。装满水，加入配方所需的东西，最后加入种子，完成花的制作。"]
 			dependencies: ["1A17A843F286CCF9"]
 			id: "0337E41E7686383B"
 			tasks: [{
@@ -201,7 +201,7 @@
 		{
 			x: -1.0d
 			y: 2.0d
-			description: ["The pure daisy is used to convert wood and stone into living wood and living rock. Simply place the blocks on any of the 8 sides around the flower, and after a set time they'll transform."]
+			description: ["白雏菊可以把木头和石头变成活木和活石。只需将方块放在花周围8个面中的任何一个面上，在设定的时间后，它们就会转变。"]
 			dependencies: ["0337E41E7686383B"]
 			id: "0F701C0840BA1E0C"
 			tasks: [{
@@ -284,7 +284,7 @@
 		{
 			x: -5.0d
 			y: 8.5d
-			description: ["The battery of botania! Mana pools are used to store and fill objects with mana. Not only that many items can be transformed in a mana pool. Be warned, you can't pick up a mana pool with mana in it. If you destroy a mana pool to pick it up, all mana will be deleted that was in it."]
+			description: ["植物魔法的能量源! 魔力池是用来储存魔力和填充物体魔力的东西。不仅如此，许多物品都可以在魔力池中进行转化。请注意，你不能拿起一个有魔力的魔力池。如果魔力池被破坏，其中的魔力不会被保留。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "367E6A5D48C34305"
 			tasks: [{
@@ -308,7 +308,7 @@
 			x: 3.0d
 			y: 8.5d
 			shape: "square"
-			description: ["The runic alter is used to craft runes in Botania. You place all the items you need for a craft on the alter. After which the recipe will need to be charged with the adequate amount of mana with a spreader or spark. Once it's charged you simply place a block of living stone on the alter and right click it with your wand of the forest and the runes will be crafted. When a rune is used to craft another rune on this alter you'll keep the rune used in the craft, but not in other crafting recipes elsewhere."]
+			description: ["在植物魔法中，符文祭坛是用来制作符文的。你要把制作所需的所有物品放在符文祭坛上。之后，需要用发射器或火花给祭坛注入足够的魔力。一旦补充好，你只需将一块活石放在祭坛上，用你的森林法杖右键点击它，符文就会被制作出来。当一个符文被用来制作另一个符文时，你会保留在制作过程中使用的符文，但不会在其他地方的制作配方中使用。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "12F9FCB680BBE46D"
 			tasks: [{
@@ -331,7 +331,7 @@
 		{
 			x: -1.0d
 			y: 6.5d
-			description: ["The pulse mana spreader is your method of transporting mana early on. Simply right click it with the wand of the forest, and the shift right click where you want the mana go to like a runic alter or mana pool. It only really gets mana from generating flowers or other mana spreaders. You can silence it's noisy whoosh sound by right clicking it with any color of wool."]
+			description: ["魔力发射器（红石）是你早期运输魔力的方法。只需用森林法杖右键点击它，然后在你想让魔力到达的地方（如符文祭坛或魔力池）进行右键移动。它只从生成花或其他法力发送那里获得魔力。你可以用任何颜色的羊毛右键点击它，可以让其声音消失。"]
 			dependencies: ["0102A58A587B9C1C"]
 			id: "7C01FD23A7777D5C"
 			tasks: [{
@@ -354,7 +354,7 @@
 		{
 			x: -1.0d
 			y: 5.5d
-			description: ["The endoflame is a useful early flower for generating mana. Simply place any burnable fuel near it and it will consume it to produce mana."]
+			description: ["火红莲是一种有用的早期产生魔力的花。只需将任何可燃烧的燃料放在它附近，它就会消耗它来产生魔力。"]
 			dependencies: ["6B9304C2462688A5"]
 			id: "0102A58A587B9C1C"
 			tasks: [{
@@ -377,7 +377,7 @@
 		{
 			x: 2.5d
 			y: 9.5d
-			description: ["Place 5 livingrock and 5 lapis blocks in a square grid pattern. Place the agglomeration plate on top in the center. With a spark over it for mana, place a manasteel ingot, a manadiamond, and a manapearl on the plate and you'll end up with a terrasteel ingot!"]
+			description: ["将5块活石和5块青金石摆成正方形格子图案。将泰拉凝聚板放在上面的中心位置。在它上面放上火花以获得魔力，在板上放上一个魔力钢锭、一个魔力钻石和一个魔力珍珠，最后你会得到一个泰拉钢锭!"]
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "0000A1622CCCA962"
 			tasks: [
@@ -524,7 +524,7 @@
 		{
 			x: -2.0d
 			y: 8.5d
-			description: ["A useful device that will split mana bursts shot into it into any adjacent mana pools evenly."]
+			description: ["魔力分配器是一个有用的装置，可以将射入它的魔力均匀地分给任何相邻的魔力池。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "3BF35AA19C4F39F1"
 			tasks: [{
@@ -547,7 +547,7 @@
 		{
 			x: -1.0d
 			y: 8.5d
-			description: ["Sparks are very useful advanced mana transfer items. They can be used to move mana from pools unlike mana spreaders. They have multiple craftable augments to enable different modes."]
+			description: ["火花是非常有用的高级魔力传输物品。它们可以用来从魔力池中转移魔力，这与魔力发射器不同。它们有多种可制作的增强器，以实现不同的模式。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "148565CA1966E0B8"
 			tasks: [{
@@ -570,7 +570,7 @@
 		{
 			x: 0.0d
 			y: 8.5d
-			description: ["You can't pick up a mana pool without destroying the mana in it. You can put it in a minecart though to transport large amounts of mana in one go. Simply pump to and from stationary mana pools using the pump, and cart your mana around for all you're needs!"]
+			description: ["如果想拿起魔力池而不丢失魔力池中的魔力，你可以把它放在魔力矿车里，一次性运输大量的魔力。只需使用魔力泵从固定的魔力池中抽出魔力，就可以将你的魔力运送到你所需要的地方!"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "0AAAC614976D0C30"
 			tasks: [
@@ -598,10 +598,10 @@
 			}]
 		}
 		{
-			title: "Advanced Mana spreaders"
+			title: "高级魔力发射器"
 			x: 1.0d
 			y: 8.5d
-			description: ["When you want a mana spreader with more umph. The elven mana spreaders bursts carry allot more mana, and the gaia mana spreader pulses contain allot of mana. Typically sparks are more useful for spreading allot of mana quickly, but when you need powerful bursts for automation, these are you're go to!"]
+			description: ["当你想要一个更强大的魔力发射器时。精灵魔力发射器可发射大量的魔力，而盖亚魔力发射器比之更强大。通常情况下，火花对快速传播大量魔力更有用，但当你需要强大的爆发力来实现自动化时，这些是你的首选!"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "6A7CBC671172E851"
 			tasks: [
@@ -631,7 +631,7 @@
 		{
 			x: -3.0d
 			y: 8.5d
-			description: ["Lenses are very useful. You can use them to alter a pulse in many different ways. With a slimeball you can also combine any two lenses together in a crafting grid."]
+			description: ["透镜是非常有用的。你可以用它们以许多不同的方式改变一个脉冲。有了史莱姆球，你还可以在工作台中把任何两个透镜组合在一起。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "237601C2C96EA4C3"
 			tasks: [{
@@ -654,7 +654,7 @@
 		{
 			x: -8.5d
 			y: 8.5d
-			description: ["Botanical Brewery. Botania alchemy centerpiece. Potions made on this have multiple uses. Each brew or craft requires a certain amount of mana."]
+			description: ["植物酿造台。植物炼药的核心部件。在此制作的药水有多种用途。每次酿造或制作都需要一定量的魔力。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "514A7D264DF9E13F"
 			tasks: [{
@@ -677,7 +677,7 @@
 		{
 			x: -10.0d
 			y: 10.0d
-			description: ["The most basic potion vail. Still rather effective early game as one potion has 4 uses."]
+			description: ["最基本的药水瓶。在游戏初期仍然相当有效，因为一个药水有4种用途。"]
 			dependencies: ["514A7D264DF9E13F"]
 			id: "1F4AFF00753E829E"
 			tasks: [{
@@ -700,7 +700,7 @@
 		{
 			x: -9.0d
 			y: 10.0d
-			description: ["Made using alfglass. Potions made using this container have 6 uses!"]
+			description: ["使用精灵玻璃制成。使用此容器制作的药水有6种用途!"]
 			dependencies: ["514A7D264DF9E13F"]
 			id: "5F6EED44974BC731"
 			tasks: [{
@@ -723,7 +723,7 @@
 		{
 			x: -8.0d
 			y: 10.0d
-			description: ["An incense stick is very handy when you want an ambient long lasting potion effect. Once imbued, you'll have to place them on an incense plate and then light them to gain their effect."]
+			description: ["当你想要一个持久的药水效果时，熏香是非常方便的。一旦制作成功，你就必须把它们放在一个香盘上，然后点燃它们以获得效果。"]
 			dependencies: ["514A7D264DF9E13F"]
 			dependency_requirement: "all_started"
 			id: "7E19461805935F06"
@@ -754,7 +754,7 @@
 		{
 			x: -7.0d
 			y: 10.0d
-			description: ["Why drink a potion when you could wear one! These take allot more mana to craft, but can give you a nice but more limited selection of potion effects. They will come at the cost of mana though, but unlike all the other items made with the botanical brewery they are continuously usable so long as you have mana."]
+			description: ["如果你能穿上它，为什么还要喝药水呢？这需要更多的魔力来制作，但可以给你一个很好但更有限的药水效果选择。虽然它们会以魔力为代价，但与所有其他用植物酿造台制造的物品不同，只要你有魔力，就能持续使用它们。"]
 			dependencies: ["514A7D264DF9E13F"]
 			id: "1D874D8927FEDC81"
 			tasks: [{
@@ -779,7 +779,7 @@
 			y: 9.5d
 			description: [
 				""
-				"This block when placed under a mana pool will change the mana pools properties. Certain items can be transformed into other items using the mana in the pool."
+				"这个方块放在魔力池下时，将改变魔力池的属性。某些物品可以利用魔力池中的魔力转化为其他物品。"
 			]
 			dependencies: ["367E6A5D48C34305"]
 			id: "2592D92B6F77D785"
@@ -803,7 +803,7 @@
 		{
 			x: -5.0d
 			y: 9.5d
-			description: ["With this block under a mana pool, you can duplicate some items and blocks at the cost of mana."]
+			description: ["把这个方块放在魔力池下方，你能以魔力为代价复制一些物品和方块。"]
 			dependencies: ["367E6A5D48C34305"]
 			id: "5E6431524C619357"
 			tasks: [{
@@ -826,7 +826,7 @@
 		{
 			x: -4.0d
 			y: 9.5d
-			description: ["This block can be placed under a mana pool. It allows a mana pool to accept mana even when it's full, it'll just void it. Useful for automation situations where you don't want to have to worry about setting up overflow buffers."]
+			description: ["这块板可以放在魔力池下面。它允许魔力力池接受魔力，即使它已经满了，它也只是将其作废。在自动化情况下很有用，你不需要担心设置溢出缓冲区的问题。"]
 			dependencies: ["367E6A5D48C34305"]
 			id: "4A603028295427EA"
 			tasks: [{
@@ -847,7 +847,7 @@
 			}]
 		}
 		{
-			title: "Basic Element Runes"
+			title: "基础元素符文"
 			x: 1.5d
 			y: 9.5d
 			dependencies: ["12F9FCB680BBE46D"]
@@ -892,7 +892,7 @@
 			}]
 		}
 		{
-			title: "Seasonal Runes"
+			title: "四季符文"
 			x: 3.5d
 			y: 9.5d
 			dependencies: ["12F9FCB680BBE46D"]
@@ -932,7 +932,7 @@
 			}]
 		}
 		{
-			title: "Seven Sins Runes"
+			title: "七宗罪符文"
 			x: 4.5d
 			y: 9.5d
 			dependencies: ["12F9FCB680BBE46D"]
@@ -990,7 +990,7 @@
 			x: 2.5d
 			y: 11.5d
 			shape: "square"
-			description: ["The Elven portal. It's made similar to a nether portal except in a 3x3 pattern. You have the elven gateway core at the center base, the three glimmerwood will be at the focal center of each wall, and the rest is made of living wood. It'll need two mana pools with pylons over them. To activate the portal, make sure the pools have a good amount of mana in them and right click the portal gateway with a wand of the forest. The portal can be used to obtain advanced items in exchange for others. It does require mana to maintain, so make sure the mana in the pools near it with the pylons over them don't completely deplete."]
+			description: ["精灵传送门的制作类似于下届传送门，只是采用了3x3的模式。你把精灵门核心放在中间的底座上，三个微光活木将在每面墙的焦点中心，其余的是由活木制成。它需要两个魔力池，上面有自然水晶。要激活传送门，确保池子里有足够的魔力，然后用森林法杖右击传送门。这个传送门可以用来获得高级物品以换取其他物品。它确实需要魔力来维持，所以要确保有自然水晶和它附近的魔力池中的魔力不会被完全耗尽。"]
 			dependencies: ["4C77B3818795DFD9"]
 			id: "709BB553FDC5CD64"
 			tasks: [
@@ -1031,10 +1031,10 @@
 			}]
 		}
 		{
-			title: "Gaia Guardian Boss"
+			title: "盖亚守护者"
 			x: 2.5d
 			y: 12.5d
-			description: ["Make sure you don't place this near your base! When you summon the gaia boss it will clear the surface level of any tile entities. The first boss is summoned by right clicking the beacon with a terrasteel ingot, and the second boss is summoned using a gaia ingot."]
+			description: ["请确保你不要把它放在你的基地附近! 当你召唤盖亚时，它将清除表面的任何实体和方块。第一个boss是通过使用泰拉钢锭右键点击信标来召唤的，第二个boss是用盖亚锭召唤的。"]
 			dependencies: ["709BB553FDC5CD64"]
 			id: "456EB7B80C9639F5"
 			tasks: [
@@ -1135,7 +1135,7 @@
 		{
 			x: -7.0d
 			y: 2.0d
-			description: ["Will detect a mana burst going through it and emit a redstone signal."]
+			description: ["会检测到通过它的魔力脉冲，并发出一个红石信号。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "1CD0E95B1A1D80FD"
@@ -1159,7 +1159,7 @@
 		{
 			x: -5.0d
 			y: 2.0d
-			description: ["Teleports a mana burst to a specified location. Configured using a wand of the forest."]
+			description: ["传送一个魔力脉冲到指定地点。使用森林法杖进行配置。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "4B76069E97FD45C7"
@@ -1183,7 +1183,7 @@
 		{
 			x: -8.0d
 			y: 2.0d
-			description: ["Rotates a mana spreader on top of it. Can be configured using a wand of the forest."]
+			description: ["在它上面放一个魔力发射器，会不断旋转发射器。可以用森林法杖进行配置。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "570DB3C1DFF14960"
@@ -1207,7 +1207,7 @@
 		{
 			x: -7.0d
 			y: 4.0d
-			description: ["Has a gravitational pull on mana bursts. Can even cause them to enter orbits around it."]
+			description: ["对魔力脉冲有引力。甚至可以使它们进入围绕它的轨道。."]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "1DC65FAD8F0BFE4A"
@@ -1231,7 +1231,7 @@
 		{
 			x: -9.0d
 			y: 2.0d
-			description: ["When combined with a comparator, it emits a redstone signal based on the amount of animals in a 6 block radius"]
+			description: ["当与一个比较器结合时，它根据6格范围内的动物数量发出红石信号。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "5B89D66D2731C9CD"
@@ -1255,7 +1255,7 @@
 		{
 			x: -10.0d
 			y: 2.0d
-			description: ["Increases the speed mana drains from a pool into an item. Can also be used to increase the speed of a furnace. Right click to use."]
+			description: ["增加魔力从池中排入物品的速度。也可用于提高熔炉的速度。右击使用。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "46DA55B2A7494B92"
@@ -1279,7 +1279,7 @@
 		{
 			x: -11.0d
 			y: 2.0d
-			description: ["Useful item in botania. Drops any items directly below it that are inserted. When a redstone signal is applied to it, anything it drops now has a delay on it before any flowers can interact with it."]
+			description: ["植物魔法中的有用物品。掉落任何放在它正下方的物品。当把红石信号给它时，它掉落的任何东西在任何花能与它互动之前都有一个延迟。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "3284517CC433E6EC"
@@ -1303,7 +1303,7 @@
 		{
 			x: -6.0d
 			y: 4.0d
-			description: ["used to autocraft items. using placeholders for empty spaces the craft works in rows from left to right from top to bottom."]
+			description: ["用于自动制作物品。使用占位符的空位，制作工作从左到右从上到下排成一排。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "6597C9C86BDC2DED"
@@ -1327,7 +1327,7 @@
 		{
 			x: -11.0d
 			y: 3.0d
-			description: ["Like scaffolding, but you can add facades to it, and can only pass through it when sneaking."]
+			description: ["就像脚手架一样，但你可以在上面添加伪装板，而且只有在潜行时才能通过。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "167EC32602C8964D"
@@ -1351,7 +1351,7 @@
 		{
 			x: -10.0d
 			y: 3.0d
-			description: ["Good for secret passages. You can facade it with any block by right clicking. Any entity will pass right through it."]
+			description: ["你可以通过点击右键将其与任何方块相连接，任何实体都会直接穿过它。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "588453AE33A72F79"
@@ -1375,7 +1375,7 @@
 		{
 			x: -9.0d
 			y: 3.0d
-			description: ["A small potato prop that can hold items."]
+			description: ["一个可以容纳物品的小土豆装饰物。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "6247770B4968D9A3"
@@ -1399,7 +1399,7 @@
 		{
 			x: -8.0d
 			y: 3.0d
-			description: ["It's like an Enderman, except instead of attacking you it just emits a redstone signal when you look at it."]
+			description: ["它就像一个末影人，只不过它不攻击你，而是在你看它的时候发出一个红石信号。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "4CB9145131ABE735"
@@ -1423,7 +1423,7 @@
 		{
 			x: 5.5d
 			y: 13.5d
-			description: ["Advanced form of magical redstone crafting component."]
+			description: ["高级形式的魔法红石工艺组件。"]
 			dependencies: ["709BB553FDC5CD64"]
 			id: "7A82158AEA95A177"
 			tasks: [{
@@ -1446,7 +1446,7 @@
 		{
 			x: 3.0d
 			y: 15.0d
-			description: ["Magically binds to a container it's facing. Can be hoppered into and any item will be magically teleported to the block it's bound to. Sides matter, so can be used to automate a furnace from a remote nearby location."]
+			description: ["能神奇地与它所面对的容器结合在一起，可以跳进去，任何物品都会被神奇地传送到它所绑定的方块上。侧面很重要，所以可以用来从附近的一个地方实现熔炉的自动化。"]
 			dependencies: ["7A82158AEA95A177"]
 			id: "5188A3488D58273C"
 			tasks: [{
@@ -1469,7 +1469,7 @@
 		{
 			x: 4.0d
 			y: 15.0d
-			description: ["Binds to a dispenser or dropper. Acts like the red string container, but can be activated with redstone to activate a dropper or dispenser remotely. Can also be chain linked with red string containers for advanced automation."]
+			description: ["与发射器或投掷器结合。作用类似于红线容器，但可以用红石激活，远程激活投掷器或发射器。还可以与红线容器连锁，实现高级自动化。"]
 			dependencies: ["7A82158AEA95A177"]
 			id: "5444C2FFD0E67097"
 			tasks: [{
@@ -1492,7 +1492,7 @@
 		{
 			x: 5.0d
 			y: 15.0d
-			description: ["When bone mealed this block will apply that bonemeal effect to the first bone mealable block in it's line of sight."]
+			description: ["可以和任何能够被骨粉催熟的方块绑定。当你对此方块使用骨粉的时候，被绑定方块就会受到相同效果"]
 			dependencies: ["7A82158AEA95A177"]
 			id: "727707F13A407019"
 			tasks: [{
@@ -1515,7 +1515,7 @@
 		{
 			x: 6.0d
 			y: 15.0d
-			description: ["remote comparator, but you still need a comparator facing it to get the redstone signal from it."]
+			description: ["远程比较器，但你仍然需要一个面向它的比较器，以便从它那里获得红石信号。"]
 			dependencies: ["7A82158AEA95A177"]
 			id: "68F7C364CA6D5B07"
 			tasks: [{
@@ -1538,7 +1538,7 @@
 		{
 			x: 7.0d
 			y: 15.0d
-			description: ["Can add functional or generating effects of a flower to any flower or mushroom. Useful if you don't like the look of a flower and want to use something else. Simply place the flower you want emulated on top of the spoofer, and it will be applied to the first valid plant in it's line of sight."]
+			description: ["可以在任何花或蘑菇上添加花的功能或产生的效果。如果你不喜欢花的外观而想使用其他东西，那就很有用。只需把你想模仿的花放在继电器上面，它就会被应用到它视线中的第一个有效植物上。"]
 			dependencies: ["7A82158AEA95A177"]
 			id: "2AD9921739EC34B3"
 			tasks: [{
@@ -1561,7 +1561,7 @@
 		{
 			x: 8.0d
 			y: 15.0d
-			description: ["Emits a redstone signal when a player interacts with a block that it's bound to. This can be any sufficiently complex block."]
+			description: ["当玩家与它所绑定的方块进行互动时，发射一个红石信号。这可以是任何足够复杂的方块。"]
 			dependencies: ["7A82158AEA95A177"]
 			id: "336CA44A2D8883DB"
 			tasks: [{
@@ -1585,7 +1585,7 @@
 			x: -1.0d
 			y: 13.0d
 			shape: "gear"
-			description: ["This spark is needed for any corporia network. It can be placed over a corporia block or an inventory. It won't register the inventory though like a regular corporia spark. One of these is needed for any corporia network, but only one."]
+			description: ["每个多媒体网络至少存在一个主媒体火花，可放置在多媒体相关方块或可存储物品的方块上（潜行+右键）。"]
 			dependencies: ["148565CA1966E0B8"]
 			id: "2F75E9926E4075CD"
 			tasks: [{
@@ -1615,7 +1615,7 @@
 		{
 			x: -4.0d
 			y: 15.0d
-			description: ["Placing this over any inventory will then register that inventory into the corporia network. You can dye these different colers and have multiple adjacent corporia networks. They can interface with an occultism storage allowing for nice automation with that."]
+			description: ["把这个放在任何存储相关方块上，就会把该存储方块连接到多媒体网络中。你可以给这些不同的颜色染色，并拥有多个相邻的多媒体网络。它们可以与一个主媒体火花连接，从而实现良好的自动化。"]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "1DA73DC613246889"
 			tasks: [{
@@ -1638,7 +1638,7 @@
 		{
 			x: -3.0d
 			y: 15.0d
-			description: ["The interface of the corporia network. It doesn't have a gui, and instead works using the chat bar in Minecraft. Simply tell it what you want and it'll spit it out. You can use this for what's in your hand, you can use wildcard selectors like \"and\" \"*\" to get multiple things. It's rather unorthadox, but fun once you get the hang of it."]
+			description: ["多媒体网络的接口。它没有gui，而是使用Minecraft中的聊天栏工作。只要告诉它你想要什么，它就会吐出来。你可以把它用于你手中的东西，你可以使用通配符选择器，如\"and\"\"*\"来获得多个东西。这很不正规，但一旦你掌握了它的窍门就会很有趣。"]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "04044C9554935A81"
 			tasks: [{
@@ -1661,7 +1661,7 @@
 		{
 			x: -2.0d
 			y: 15.0d
-			description: ["Works like a hopper from the corporia network. Using an item frame you can specify what item is to come out of it. Rotate the item in the frame to specify the amount. It's binary so 2, 4, 8, 16, 32, 64. The items will either pop out above it, or in an inventory if there is one under it."]
+			description: ["其工作方式类似于多媒体网络中的漏斗。使用一个物品框架，你可以指定什么物品要从里面出来。转动框架中的物品来指定数量。它是二进制的，所以2、4、8、16、32、64。物品会在它上面跳出来，如果它下面有一个库存方块，则会存储在库存方块中。"]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "3F3653C3A3BCD6FA"
 			tasks: [{
@@ -1684,7 +1684,7 @@
 		{
 			x: -1.0d
 			y: 15.0d
-			description: ["With an item frame you can put an item frame with an item for this block to focus on. When a request for that item is processed and there is none of that item in the network it will emit a redstone. Great for auto crafting setups that are interdependent."]
+			description: ["有了物品框架，你可以把一个物品框架与一个物品放在一起。当对该物品的请求被处理，而网络中没有该物品时，它将发出一个红石。很适合相互依赖的自动制作装置。"]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "1876F5A476A3A33A"
 			tasks: [{
@@ -1707,7 +1707,7 @@
 		{
 			x: 1.0d
 			y: 15.0d
-			description: ["This is a nifty block. Right click it with any item or block and it'll tell you how many of that item are in the network. Then like with storage drawers you can punch it to get one out, and even shift punch to get a stack of said item. You can lock this item in it's memory with a wand of the forest."]
+			description: ["这是一个有用的方块。在任何物品或方块上点击右键，它就会告诉你该物品在网络中的数量。然后就像抽屉一样，左击取出一个，潜行左击取出一组。你可以用森林法杖把这个物品锁定。"]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "278D88AE4139BFFE"
 			tasks: [{
@@ -1730,7 +1730,7 @@
 		{
 			x: 0.0d
 			y: 15.0d
-			description: ["An addon to the interceptor. This block can hold a request of an item that's empty so that once it's fulfilled it'll still go to where it's being requested at."]
+			description: ["（多媒体）拦截器的一个附加功能。这个方块可以容纳一个空的物品请求，这样一旦它被满足，它仍然会被送到它被请求的地方。"]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "2DB52C9828E172ED"
 			tasks: [{
@@ -1753,7 +1753,7 @@
 		{
 			x: 2.0d
 			y: 15.0d
-			description: ["Not just for decoration. You can use these to laglessly pipe corporia sparks to different locations as their range is only 8 blocks. "]
+			description: ["不仅仅是为了装饰。你可以用这些东西把多媒体火花无时无刻地管到不同的地方，因为它们的范围只有8格。 "]
 			dependencies: ["2F75E9926E4075CD"]
 			id: "760001FA8D1C15B2"
 			tasks: [{
@@ -1776,7 +1776,7 @@
 		{
 			x: -7.0d
 			y: 3.0d
-			description: ["The hourglass is a neat configurable redstone clock or a mana pulse counter. The hourglass can only hold one type of sand, and the sand can only be inserted by however much you have in your hand when you right click it. Regular sand is one second per unit of sand. Red sand is 10 seconds. Soul sand is a minute per. Mana dust will drop one unit per mana pulse that passes through it. So it can easily count an ammount of pulses repeatedly."]
+			description: ["沙漏是一个可配置的红石钟或魔力脉冲计数器。沙漏只能容纳一种沙子，当你右击它时，你手中的所有沙子都会放进去。普通沙子每单位沙子是1秒。红沙是10秒。灵魂沙是1分钟。魔力粉每通过一个魔力脉冲就会掉落一个单位。所以它可以很容易地重复计算一定数量的脉冲。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "3F71A84706D56F46"
@@ -1800,7 +1800,7 @@
 		{
 			x: -6.0d
 			y: 3.0d
-			description: ["The spectral rail allows a minecart to pass through walls. For a moment after the cart goes over this it'll become ethereal and continue in it's current trajectory. Once it hits another rail it'll rematerialize."]
+			description: ["幻影轨道允许矿车穿墙而过。当小车通过这个轨道后，它将无视当前方块，并继续沿着当前的轨道前进。一旦它撞上另一条轨道，它就会重新变成物品。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "309DD84E7EE3FD5B"
@@ -1824,7 +1824,7 @@
 		{
 			x: 7.0d
 			y: 8.5d
-			description: ["It's like an omnidirectional telepad. Right click it to teleport to another luminizer bound to it with 20 blocks. If it's bound to multiple luminizers, it'll randomly select one."]
+			description: ["它就像一个全向的传送板。右键点击它可以传送到另一个20格与它绑定的微光上。如果它被绑定在多个微光上，它会随机选择一个。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "6E8A2087338F9E1B"
 			tasks: [{
@@ -1849,7 +1849,7 @@
 			y: 10.0d
 			description: [
 				""
-				"Like a normal luminizer, but will emit a redstone signal evertime something passes through it."
+				"就像一个普通的微光，但每次有东西经过时都会发出一个红石信号。"
 			]
 			dependencies: ["6E8A2087338F9E1B"]
 			id: "24481B9098D263C7"
@@ -1873,7 +1873,7 @@
 		{
 			x: 6.5d
 			y: 10.0d
-			description: ["Sends whatever is being teleported to a luminizer in the direction the animated torch is pointing."]
+			description: ["将被传送的东西送到活化红石火把所指向的微光上。"]
 			dependencies: ["6E8A2087338F9E1B"]
 			id: "074DEB526BB7D49D"
 			tasks: [
@@ -1903,7 +1903,7 @@
 		{
 			x: 7.5d
 			y: 10.0d
-			description: ["If in a chain of luminizers, this one will drop whatever is being transported if a redstone signal is passed into it."]
+			description: ["如果在一连串的微光中，如果有红石信号传入，这个微光就会放弃正在传送的东西。"]
 			dependencies: ["6E8A2087338F9E1B"]
 			id: "744C6822838F0219"
 			tasks: [{
@@ -1926,7 +1926,7 @@
 		{
 			x: 8.5d
 			y: 10.0d
-			description: ["When you want to send items or even other entities through the luminizers you need one of these. Simply place what you want to teleport on the plate, activate a redstone signal into it and whoosh."]
+			description: ["当你想通过微光发送物品甚至其他实体时，你需要一个这样的微光。只要把你想传送的东西放在板子上，激活一个红石信号到里面，然后嗖的一声。"]
 			dependencies: ["6E8A2087338F9E1B"]
 			id: "096EAB02F4647400"
 			tasks: [{
@@ -1949,7 +1949,7 @@
 		{
 			x: -5.0d
 			y: 3.0d
-			description: ["Place it and feed it a sunflower and it'll make stormy weather turn to clear weather."]
+			description: ["把它放下并喂食一朵向日葵，它能把暴风雨变成晴朗。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "34A264F09D346D5D"
@@ -1973,7 +1973,7 @@
 		{
 			x: -9.0d
 			y: 4.0d
-			description: ["Place it supply it with mana and hand it one of a few specific rods and it'll cast the magic of the rod on it's own. Apply a redstone signal to disable it."]
+			description: ["可以给他特定的植魔法杖，从而使其有特定的功能。当然这需要给他一定的魔力（通过魔力发射器），要取回法杖，只需空手右击有法杖的它。应用红石信号使其失效。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "10D08D2B435B85D9"
@@ -1997,7 +1997,7 @@
 		{
 			x: -8.0d
 			y: 4.0d
-			description: ["Used to craft some things, but also if you place it on two iron rods it'll spawn a blaze that's hostile!"]
+			description: ["用来制作一些东西，但如果你把它放在两个铁栅栏上，就会产生烈焰人!"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "4978D93D7B124510"
@@ -2021,7 +2021,7 @@
 		{
 			x: -11.0d
 			y: 4.0d
-			description: ["This little cocoon when placed will spawn a random animal over time. If you feed it 20 emeralds it'll spawn a villager. If you feed it 20 chorus fruit it'll spawn a shulker. You can feed it less and still get the same result. Each item increases the chance of the specific mob by 5%"]
+			description: ["这个茧放置后会随着时间的推移产生一个随机的动物。如果你喂它20颗绿宝石，它就会产生一个村民。如果你喂它20个紫颂果，它会产生一个潜影贝。你可以少喂它，但仍然得到同样的结果。每件物品都会增加5%的特定怪物的机会。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "58219E305F650FF7"
@@ -2043,10 +2043,10 @@
 			}]
 		}
 		{
-			title: "Grass seeds"
+			title: "草种子"
 			x: -10.0d
 			y: 4.0d
-			subtitle: "These little seeds will transform the grass in a specific area. Great to change up the landscape with!"
+			subtitle: "这些小种子可以改变特定区域的草皮。改变风景的。很高兴与您一起改变风景！"
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "7DC7E4EF76E555DF"
@@ -2112,7 +2112,7 @@
 		{
 			x: 13.0d
 			y: 13.5d
-			description: ["Conjures a dirt block using mana"]
+			description: ["用魔力召唤出一个土方块。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "1FF4D06C2FDB078B"
@@ -2136,7 +2136,7 @@
 		{
 			x: 14.0d
 			y: 13.5d
-			description: ["Same as the rod of lands, but it allows you to place dirt in mid air."]
+			description: ["与大地法杖相同，但它允许你在半空中放置泥土。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "0CDAF8507CE2C9AA"
@@ -2160,7 +2160,7 @@
 		{
 			x: 15.0d
 			y: 13.5d
-			description: ["WARNING! This block can break up huge areas of terrain. It flattens the earth for easy teraforming for building."]
+			description: ["警告! 这方块可以破坏大片的地形。它能使土地变平，便于建筑的地形塑造。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "4DC7B321AF7F075B"
@@ -2184,7 +2184,7 @@
 		{
 			x: 16.0d
 			y: 13.5d
-			description: ["Spawns a block of cobblestone at the cost of mana"]
+			description: ["消耗魔力生成一个圆石。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "7EDE40F3528CB568"
@@ -2208,7 +2208,7 @@
 		{
 			x: 17.0d
 			y: 13.5d
-			description: ["Places a block of water wherever you right click at the cost of mana."]
+			description: ["消耗魔力在右键点击的地方生成一格水。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "556F98D8A64C70AB"
@@ -2232,7 +2232,7 @@
 		{
 			x: 17.0d
 			y: 14.5d
-			description: ["This rod will shoot you high up into the air at the cost of mana. You won't take any fall damage in the event you fall all the way back down after using it."]
+			description: ["消耗魔力将你使你飞向高空。如果你在使用它之后一路摔落，你不会受到摔落伤害。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "107D027DCFB24F41"
@@ -2260,7 +2260,7 @@
 		{
 			x: 16.0d
 			y: 14.5d
-			description: ["Burns everything including you in a 5 block radius at the cost of mana."]
+			description: ["消耗魔力炸毁5格内的所有东西包括你。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "44F48E1A400A330C"
@@ -2284,7 +2284,7 @@
 		{
 			x: 13.0d
 			y: 14.5d
-			description: ["This rod will temporarily highlight nearby ores at the cost of mana. Each ore has a different colored light bead that changes each time you use the rod."]
+			description: ["消耗魔力暂时显示附近的矿石，每种矿石不同颜色，每次使用后都会发生变化。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "4FCEE35D85B9B8C9"
@@ -2308,7 +2308,7 @@
 		{
 			x: 14.0d
 			y: 14.5d
-			description: ["Can autosmelt any cookable block by simply right clicking."]
+			description: ["可以通过简单的右击自动融化任何可烹饪的方块。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "7AFF656D7BB67BA0"
@@ -2332,7 +2332,7 @@
 		{
 			x: 15.0d
 			y: 14.5d
-			description: ["Can swap a large amount of blocks in your environment with another. Provided you have the other block in your inventory, and sufficient mana."]
+			description: ["可以将你环境中的大量方块与另一种方块交换。前提是你的背包中有另一种方块，并且有足够的魔力。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "143A7BFD35398182"
@@ -2356,7 +2356,7 @@
 		{
 			x: 10.0d
 			y: 19.0d
-			description: ["Creates a temporary rainbow bridge using mana. Can also be used to create cosmetic blocks in a crafting grid."]
+			description: ["使用魔力创建一个临时的彩虹桥。也可用于在工作台中创建彩虹方块。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "704E8196C780D760"
@@ -2380,7 +2380,7 @@
 		{
 			x: 9.0d
 			y: 20.0d
-			description: ["Using this rod you can pick up mobs and throw them using mana."]
+			description: ["可以使用魔力抓住怪物并扔出去。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "5840D6C12237E2F2"
@@ -2404,7 +2404,7 @@
 		{
 			x: 10.0d
 			y: 20.0d
-			description: ["This rod will shoot a barrage of magic missiles. It consumes a good ammount of mana, but is an effective offensive artifact."]
+			description: ["消耗大量的魔力发射一连串的魔法飞弹，显然它会是一个有用的武器。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "0AFFED63E0E0DDE8"
@@ -2428,7 +2428,7 @@
 		{
 			x: -5.0d
 			y: 4.0d
-			subtitle: "grants temporary flight to the wearer using mana. Requires a recharge between flights."
+			subtitle: "消耗魔力为使用者提供临时飞行能力，多次飞行之间需要一定时间充能。"
 			description: [""]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
@@ -2460,7 +2460,7 @@
 			x: 13.0d
 			y: 2.5d
 			shape: "gear"
-			description: ["Welcome to functional flowers! each flower here can be shrank to decrease their range, placed on podzol to delay their interaction with items, and made into a floating flower by combining them with a regular floating flower. All flowers require mana to function."]
+			description: ["欢迎来到功能花！这里的每一朵花都可以缩小以减少它们的范围，放在灰化土上以延迟它们与物品的互动，并通过将它们与普通的浮空花结合起来而成为浮空花。所有的花都需要魔力。"]
 			dependencies: ["7FEE7D31F7DFA6C2"]
 			hide: true
 			id: "59739D3619091623"
@@ -2479,7 +2479,7 @@
 		{
 			x: 9.5d
 			y: 6.0d
-			description: ["This flower can be used to speed up the growth of any crops, trees, or any other growable thing nearby."]
+			description: ["这种花可以用来加快附近任何农作物、树木或其他可生长的东西的生长速度。"]
 			dependencies: ["59739D3619091623"]
 			id: "09A921153FF56578"
 			tasks: [{
@@ -2502,7 +2502,7 @@
 		{
 			x: 11.5d
 			y: 7.5d
-			description: ["Harms any nearby entities except for players."]
+			description: ["伤害附近除了玩家以外的任何实体。"]
 			dependencies: ["59739D3619091623"]
 			id: "03163836CD636CF6"
 			tasks: [{
@@ -2525,7 +2525,7 @@
 		{
 			x: 12.5d
 			y: 8.0d
-			description: ["Silences any nearby mobs. Also nullifies horns and drums in it's radius."]
+			description: ["使附近的怪物声音消失，也能使半径范围内的号角和鼓声失效。"]
 			dependencies: ["59739D3619091623"]
 			id: "27941E4094AB7374"
 			tasks: [{
@@ -2548,7 +2548,7 @@
 		{
 			x: 13.5d
 			y: 8.0d
-			description: ["Creates a bubble of air around the flower when placed in water."]
+			description: ["放在水中时，在花的周围产生一个空气泡。"]
 			dependencies: ["59739D3619091623"]
 			id: "759105C6D75EC1E1"
 			tasks: [{
@@ -2571,7 +2571,7 @@
 		{
 			x: 14.5d
 			y: 7.5d
-			description: ["Converts sand blocks into clay."]
+			description: ["将沙子转化为粘土。"]
 			dependencies: ["59739D3619091623"]
 			id: "0D910A6CBE94988B"
 			tasks: [{
@@ -2594,7 +2594,7 @@
 		{
 			x: 15.5d
 			y: 7.0d
-			description: ["Pushes any items in front of it away. Can be configured with the wand of the forest."]
+			description: ["将面前的任何物品推开，可以用森林法杖来配置。"]
 			dependencies: ["59739D3619091623"]
 			id: "5DDA2A932349CA0A"
 			tasks: [{
@@ -2617,7 +2617,7 @@
 		{
 			x: 16.5d
 			y: 6.0d
-			description: ["Harms any nearby adult animals."]
+			description: ["伤害附近的任何成年动物。"]
 			dependencies: ["59739D3619091623"]
 			id: "0618E7CE968C73BF"
 			tasks: [{
@@ -2640,7 +2640,7 @@
 		{
 			x: 17.0d
 			y: 5.0d
-			description: ["Migically fuels any furnaces adjacent to it and speeds up the smelts as well."]
+			description: ["冶炼火为邻近的任何熔炉提供燃料，同时也加快了冶炼的速度。"]
 			dependencies: ["59739D3619091623"]
 			id: "2B21E6C21042A909"
 			tasks: [{
@@ -2663,7 +2663,7 @@
 		{
 			x: 17.5d
 			y: 4.0d
-			description: ["Adds a regeneration effect to any nearby player and their pets."]
+			description: ["为附近的任何玩家和他们的宠物增加一个再生效果。"]
 			dependencies: ["59739D3619091623"]
 			id: "07F316F6D1F1EAD0"
 			tasks: [{
@@ -2686,7 +2686,7 @@
 		{
 			x: 10.5d
 			y: 7.0d
-			description: ["Causes nearby hostile mobs to fight each other."]
+			description: ["导致附近的敌对怪物互相厮杀。"]
 			dependencies: ["59739D3619091623"]
 			id: "7381F0A67C676886"
 			tasks: [{
@@ -2709,7 +2709,7 @@
 		{
 			x: 18.0d
 			y: 3.0d
-			description: ["This flower will pick up any items in a fairly large radius and place them into an adjacent inventory. You can filter what items get placed in the inventory with item frames containing the item you want to filter placed on it."]
+			description: ["这朵花会在相当大的范围内拾取任何物品，并将它们放入邻近的库存方块。你可以用包含你想过滤的物品的物品框架来过滤哪些物品被放入库存方块。"]
 			dependencies: ["59739D3619091623"]
 			id: "6095FA2A4D2FA87A"
 			tasks: [{
@@ -2732,7 +2732,7 @@
 		{
 			x: 9.0d
 			y: 5.0d
-			description: ["Poisons nearby entities"]
+			description: ["毒害附近的实体。"]
 			dependencies: ["59739D3619091623"]
 			id: "13CACFA75AAE60F9"
 			tasks: [{
@@ -2755,7 +2755,7 @@
 		{
 			x: 16.5d
 			y: -1.0d
-			description: ["This flower spawns mystical flowers of all colors around it."]
+			description: ["这种花在它周围催生出各种颜色的神秘花。"]
 			dependencies: ["59739D3619091623"]
 			id: "032D58F36DEE4DCE"
 			tasks: [{
@@ -2778,7 +2778,7 @@
 		{
 			x: 15.5d
 			y: -2.0d
-			description: ["Pushes any entities other then a player away from it. Pushes them away if they try to get too close."]
+			description: ["将除玩家以外的任何实体推离它。如果他们试图靠得太近，就把他们推开。"]
 			dependencies: ["59739D3619091623"]
 			id: "186A713D9AA68C00"
 			tasks: [{
@@ -2801,7 +2801,7 @@
 		{
 			x: 14.5d
 			y: -2.5d
-			description: ["Will automatically apply labels nearby on the ground to any mobs in a 5 block radius."]
+			description: ["将自动在地面上给5格范围内的任何怪物贴上附近的标签。"]
 			dependencies: ["59739D3619091623"]
 			id: "08530D140EEA09B2"
 			tasks: [{
@@ -2824,7 +2824,7 @@
 		{
 			x: 13.5d
 			y: -3.0d
-			description: ["Spawns dungeon loot! in the form of buffed mobs that each drop one item on death."]
+			description: ["生成地牢战利品！其形式是：受保护的怪物，死亡时各掉落一件物品。"]
 			dependencies: ["59739D3619091623"]
 			id: "56DCAE13B1308CE4"
 			tasks: [{
@@ -2847,7 +2847,7 @@
 		{
 			x: 12.5d
 			y: -3.0d
-			description: ["This flower will convert any stone nearby into colorful varients at a rapid rate. The types that generate most depends on the biome you're in, but it will always generate some of each."]
+			description: ["这种花会以极快的速度将附近的任何石头转化为五颜六色的变体。产生最多的类型取决于你所处的生物群落，但它总是会产生一些不同的类型。"]
 			dependencies: ["59739D3619091623"]
 			id: "33322B939DF3F3A2"
 			tasks: [{
@@ -2870,7 +2870,7 @@
 		{
 			x: 11.5d
 			y: -2.5d
-			description: ["Halts non player entities in their tracks. Making it so they can't move."]
+			description: ["让非玩家实体停在他们的轨道上。使他们无法移动。"]
 			dependencies: ["59739D3619091623"]
 			id: "40F09F3C67905654"
 			tasks: [{
@@ -2893,7 +2893,7 @@
 		{
 			x: 9.5d
 			y: -1.0d
-			description: ["Will turn stone into any ore that generates in regular stone. It also works with deepslate."]
+			description: ["将把石头变成任何在普通石头中生成的矿石。它也适用于深板岩。"]
 			dependencies: ["59739D3619091623"]
 			id: "141C1498816F8412"
 			tasks: [{
@@ -2916,7 +2916,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["Will turn regular netherack into any ore that spawns in netherrack."]
+			description: ["将普通的下届岩变成任何在下届岩产生的矿石。"]
 			dependencies: ["59739D3619091623"]
 			id: "174B7424F68E4BEC"
 			tasks: [{
@@ -2939,7 +2939,7 @@
 		{
 			x: 8.5d
 			y: 1.0d
-			description: ["Will automatically feed any food items on the ground to animals for easy automated breeding."]
+			description: ["会自动将地面上的任何食物喂给动物，便于自动繁殖。"]
 			dependencies: ["59739D3619091623"]
 			id: "5CE85385D91C8293"
 			tasks: [{
@@ -2962,7 +2962,7 @@
 		{
 			x: 8.0d
 			y: 2.0d
-			description: ["This flower acts as a block placer. It'll pickup blocks as item entities and place them on other blocks identical to the one under it. Directly under it if it's floating, or under the block it's planted on otherwize."]
+			description: ["这朵花充当了方块放置者的角色。它可以把方块当作物品实体，并把它们放在与它下面的方块相同的其他方块上。如果它是浮空的，就在它所种植的方块的正下方。"]
 			dependencies: ["59739D3619091623"]
 			id: "5607C01084264638"
 			tasks: [{
@@ -2985,7 +2985,7 @@
 		{
 			x: 8.0d
 			y: 3.0d
-			description: ["Prevents magnitization from the player from working while they're in it's range. Helpful if it would otherwize disrupt an automation setup."]
+			description: ["当他们在它的范围内时，防止来自玩家的放大作用。如果这将破坏自动化设置，则很有帮助。"]
 			dependencies: ["59739D3619091623"]
 			id: "4758BEC029062FBB"
 			tasks: [{
@@ -3008,7 +3008,7 @@
 		{
 			x: 8.5d
 			y: 4.0d
-			description: ["Teleports items to a specified location within 12 blocks. Configure the point of interest with the wand of the forest."]
+			description: ["将物品传送到12个格内的指定地点。用森林法杖配置。"]
 			dependencies: ["59739D3619091623"]
 			id: "47600EBE62A97C7B"
 			tasks: [{
@@ -3031,7 +3031,7 @@
 		{
 			x: 17.0d
 			y: 0.0d
-			description: ["This flower holds mobs close to it that get in it's radius preventing them from walking away."]
+			description: ["这朵花可以将进入它半径内的怪物紧紧抓住，防止他们走掉。"]
 			dependencies: ["59739D3619091623"]
 			id: "04FB86761FFC920B"
 			tasks: [{
@@ -3054,7 +3054,7 @@
 		{
 			x: 17.5d
 			y: 1.0d
-			description: ["This flower prevents nearby creepers from exploding. It also makes them flee players like a cat would."]
+			description: ["这种花可以防止附近的苦力怕爆炸。它还能让它们像猫一样逃离玩家。"]
 			dependencies: ["59739D3619091623"]
 			id: "5221E96CD1CAD12F"
 			tasks: [{
@@ -3077,7 +3077,7 @@
 		{
 			x: 18.0d
 			y: 2.0d
-			description: ["If an Enderman attempts to teleport when near this flower, they'll be forced to teleport to the flower instead."]
+			description: ["如果末影人试图在这朵花附近进行传送，他们将被迫传送到这朵花上。"]
 			dependencies: ["59739D3619091623"]
 			id: "0FFE258075A1BA65"
 			tasks: [{
@@ -3100,7 +3100,7 @@
 		{
 			x: 10.5d
 			y: -2.0d
-			description: ["You can make these with any of the regular mystical flowers. Combining one of these with a functional or generating flower in a crafting grid will make a floating variant of that flower."]
+			description: ["你可以用任何常规的神秘花来制作这些花。将这些花中的一朵与工作台中的功能花或生成花结合起来，就可以制作出该花的浮空版本。"]
 			dependencies: ["59739D3619091623"]
 			id: "105CFEAE981A6454"
 			tasks: [{
@@ -3262,7 +3262,7 @@
 		{
 			x: 9.0d
 			y: 19.0d
-			description: ["Elementium armor has a chance to spawn a defensive pixie every time you're attacked. The chance increases with each piece of armor worn."]
+			description: ["源质钢盔甲有机会在你被攻击时产生一个防御性小精灵。概率会随着每件盔甲的穿戴而增加。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "10DD8D358726C026"
@@ -3327,7 +3327,7 @@
 		{
 			x: 9.0d
 			y: 18.0d
-			description: ["The elementium pickaxe will void regular stone blocks when you mine them, but not ores. This can be combined with the Terrasteel pickaxe giving it that trait, but it's irreversable."]
+			description: ["当你开采普通石头时，源质钢镐会使它们失效，但不会使矿石失效。这可以与泰拉钢镐结合起来，使其具有这种特性，但这是不可逆转的。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "401831C6F344BD41"
@@ -3357,7 +3357,7 @@
 		{
 			x: 10.0d
 			y: 18.0d
-			description: ["Destroys all gravity effected blocks when digging one. Prevents falling gravel and sand in pillars."]
+			description: ["挖掘时破坏所有受重力影响的方块。防止砂砾和沙子掉落。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "32FFFF310D02835B"
@@ -3387,7 +3387,7 @@
 		{
 			x: 11.0d
 			y: 20.0d
-			description: ["Automatically makes soil you're tilling moist regardless of whether or not water is nearby."]
+			description: ["无论附近是否有水，都能自动使你耕种的土壤湿润。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "45057A7ED3F48C28"
@@ -3417,7 +3417,7 @@
 		{
 			x: 11.0d
 			y: 19.0d
-			description: ["Has a chance to decapitate some mobs and players. Chance increases with looting."]
+			description: ["概率性斩杀一些怪物和玩家。概率随着掠夺的增加而增加。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "626C5E8E214F4100"
@@ -3447,7 +3447,7 @@
 		{
 			x: 11.0d
 			y: 18.0d
-			description: ["Increases the chance of pixies spawning with armor, and gives them a buff."]
+			description: ["增加小精灵带着盔甲出生的机会，并给他们一个BUFF。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "6530D11AC9D6F4E5"
@@ -3477,7 +3477,7 @@
 		{
 			x: 2.5d
 			y: 20.5d
-			description: ["Manaweave clothing will greatly increase your efficiency when using any mana consuming item."]
+			description: ["魔源服将大大增加你使用任何魔力消耗物品时的效率。"]
 			hide_dependency_lines: true
 			dependencies: ["08ECFAE41385958A"]
 			id: "2E9F4683C5569386"
@@ -3542,7 +3542,7 @@
 		{
 			x: 3.5d
 			y: 20.5d
-			description: ["This nullifies an attack from an enemy when worn, then has a 10 second cool down."]
+			description: ["佩戴后可使敌人的一次攻击无效，然后有10秒的冷却时间。"]
 			hide_dependency_lines: true
 			dependencies: ["08ECFAE41385958A"]
 			id: "5989418302AA79C2"
@@ -3568,7 +3568,7 @@
 			y: 20.5d
 			description: [
 				""
-				"Damages mobs around wearer for the same ammount of damage the wearer took."
+				"伤害佩戴者周围的怪物，伤害量与佩戴者所受的伤害量相同。"
 			]
 			hide_dependency_lines: true
 			dependencies: ["08ECFAE41385958A"]
@@ -3593,7 +3593,7 @@
 		{
 			x: 5.5d
 			y: 20.5d
-			description: ["Equally distributes damage preventing death if that's what would've happened."]
+			description: ["平等地分配伤害，防止死亡。"]
 			hide_dependency_lines: true
 			dependencies: ["08ECFAE41385958A"]
 			id: "76218711C6563B0C"
@@ -3617,7 +3617,7 @@
 		{
 			x: 6.5d
 			y: 20.5d
-			description: ["It makes you invisible when you wear it."]
+			description: ["当你穿上它时，它能让你隐身。"]
 			hide_dependency_lines: true
 			dependencies: ["08ECFAE41385958A"]
 			id: "31A0644CCFE1B2BC"
