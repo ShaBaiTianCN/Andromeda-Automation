@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 7
 	filename: "cyclic"
-	title: "Cyclic"
+	title: "循环"
 	icon: {
 		id: "cyclic:charm_stone"
 		Count: 1b
@@ -18,7 +18,7 @@
 			x: -7.5d
 			y: 0.5d
 			shape: "diamond"
-			description: ["A *very* powerful piece of technology that can right click with any item! [Try with a exnihilo sieve ;)]"]
+			description: ["一项*非常*强大的技术，可以右键单击任何物品！ [尝试对着筛子使用(*^_^*)]"]
 			dependencies: ["78A18708E1695263"]
 			id: "0BAA325429A20A4F"
 			tasks: [{
@@ -41,7 +41,7 @@
 		{
 			x: -6.5d
 			y: 0.5d
-			description: ["A slow, cheap, hopper!"]
+			description: ["一个缓慢的，便宜的漏斗！"]
 			dependencies: ["78A18708E1695263"]
 			id: "57A157A4DBB85D91"
 			tasks: [{
@@ -64,7 +64,7 @@
 		{
 			x: -6.5d
 			y: 1.5d
-			description: ["An expensive, fast, hopper!"]
+			description: ["昂贵的，快速的，漏斗！"]
 			dependencies: ["57A157A4DBB85D91"]
 			id: "21790133B25B8236"
 			tasks: [{
@@ -87,7 +87,7 @@
 		{
 			x: -5.5d
 			y: 0.5d
-			description: ["Fall damage is for nerds!"]
+			description: ["跌倒伤害是为书呆子准备的！"]
 			dependencies: ["78A18708E1695263"]
 			id: "0C0254A17A33FFEA"
 			tasks: [{
@@ -116,7 +116,7 @@
 		{
 			x: 0.5d
 			y: 0.5d
-			description: ["Spikes that deal high damage and behaves like a player kill!"]
+			description: ["造成高伤害的尖刺并且表现得像玩家击杀！"]
 			dependencies: ["78A18708E1695263"]
 			id: "1F281B2EDF9760F1"
 			tasks: [{
@@ -139,7 +139,7 @@
 		{
 			x: -3.5d
 			y: 0.5d
-			description: ["When powered it pushes entities up!"]
+			description: ["通电时，它会将实体向上推！"]
 			dependencies: ["78A18708E1695263"]
 			id: "0F08106372844240"
 			tasks: [{
@@ -162,7 +162,7 @@
 		{
 			x: -2.5d
 			y: 0.5d
-			description: ["This removes enchantments off of anything when an item is put inside!"]
+			description: ["当物品放入其中时，这会消除物品上的附魔！"]
 			dependencies: ["78A18708E1695263"]
 			id: "54688293C1B17A40"
 			tasks: [{
@@ -185,7 +185,7 @@
 		{
 			x: -1.5d
 			y: 0.5d
-			description: ["This speeds up nearby crop growth when water is provided!"]
+			description: ["当提供水时，这会加速附近的作物生长！"]
 			dependencies: ["78A18708E1695263"]
 			id: "73F17A5456D6AF52"
 			tasks: [{
@@ -208,7 +208,7 @@
 		{
 			x: -0.5d
 			y: 0.5d
-			description: ["Shears touched entities."]
+			description: ["接触时会像剪刀一样剪收物品"]
 			dependencies: ["78A18708E1695263"]
 			id: "136BDA94F5030B7A"
 			tasks: [{
@@ -305,7 +305,7 @@
 		{
 			x: -4.5d
 			y: 0.5d
-			description: ["Gives ya slow falling if you fall a certain distance!"]
+			description: ["当你跌落一定距离后，你会缓慢的下落！"]
 			dependencies: ["78A18708E1695263"]
 			id: "6E3DFD1F04C6471D"
 			tasks: [{
@@ -334,7 +334,7 @@
 		{
 			x: 1.5d
 			y: 0.5d
-			description: ["Players don't fall through this block, but other entities do!"]
+			description: ["玩家不会被这个方块阻挡，但其他实体会!"]
 			dependencies: ["78A18708E1695263"]
 			id: "6DFA9959F7C59732"
 			tasks: [{
@@ -358,7 +358,7 @@
 			x: 2.5d
 			y: 3.5d
 			shape: "gear"
-			description: ["This is used to create more powerful cyclic items!"]
+			description: ["这用于制作更强大的循环物品！"]
 			dependencies: ["39F7ED04AB10AD12"]
 			id: "33FF0458AAD12414"
 			tasks: [{
@@ -375,7 +375,7 @@
 		{
 			x: 2.5d
 			y: 2.5d
-			description: ["This is used to create more powerful cyclic items!"]
+			description: ["这用于制作更强大的循环物品！"]
 			dependencies: ["3E6641CA049A806F"]
 			id: "39F7ED04AB10AD12"
 			tasks: [{
@@ -398,7 +398,7 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			description: ["This can use items and a fluid together to crystalize it into something new!"]
+			description: ["这可以将物品和流体一起将其结晶成新的东西！"]
 			dependencies: ["1B8B8C0F5D1FA1D4"]
 			id: "3E6641CA049A806F"
 			tasks: [{
@@ -421,7 +421,7 @@
 		{
 			x: 3.5d
 			y: 0.5d
-			description: ["+1 Constitution"]
+			description: ["+1 心"]
 			dependencies: ["78A18708E1695263"]
 			id: "4A1A9EC461B970C6"
 			tasks: [{
@@ -444,7 +444,7 @@
 		{
 			x: 4.5d
 			y: 0.5d
-			description: ["Harvests a large area upon using right click!"]
+			description: ["右键使用大面积收获！"]
 			dependencies: ["78A18708E1695263"]
 			id: "0560D510F4AAD9B9"
 			tasks: [{
@@ -473,7 +473,7 @@
 		{
 			x: 5.5d
 			y: 0.5d
-			description: ["Automatically lights up nearby areas!"]
+			description: ["自动点亮附近区域！"]
 			dependencies: ["78A18708E1695263"]
 			id: "6B9755E0B14D4CF0"
 			tasks: [{
@@ -504,7 +504,7 @@
 			y: 0.5d
 			description: [
 				""
-				"A very powerful tool that allows you to teleport on top of this block if you shift and look at it!"
+				"一个非常强大的工具，如果你注视它并按shift，它可以使你传送到这个方块的顶部！"
 			]
 			dependencies: ["78A18708E1695263"]
 			id: "61F5EB28E4BABB37"
@@ -528,7 +528,7 @@
 		{
 			x: 2.5d
 			y: 0.5d
-			description: ["This can melt down various items into fluid form!"]
+			description: ["这可以将物品熔化成流体形式！"]
 			dependencies: ["78A18708E1695263"]
 			id: "1B8B8C0F5D1FA1D4"
 			tasks: [{
@@ -551,7 +551,7 @@
 		{
 			x: -8.5d
 			y: 0.5d
-			description: ["Places the block in its inventory!"]
+			description: ["将方块放入其中！"]
 			dependencies: ["78A18708E1695263"]
 			id: "1D4DB443A3EA7A6D"
 			tasks: [{
@@ -574,7 +574,7 @@
 		{
 			x: -9.5d
 			y: 0.5d
-			description: ["Breaks the block in front of it!"]
+			description: ["破坏它面前的方块！"]
 			dependencies: ["78A18708E1695263"]
 			id: "7E124CDB0130D79C"
 			tasks: [{
@@ -597,7 +597,7 @@
 		{
 			x: -10.5d
 			y: 0.5d
-			description: ["Increases nearby mob spawns when lit!"]
+			description: ["点亮时增加附近的怪物的生成！"]
 			dependencies: ["78A18708E1695263"]
 			id: "61B44D61B38F2CEF"
 			tasks: [{
@@ -620,7 +620,7 @@
 		{
 			x: -11.5d
 			y: 0.5d
-			description: ["Gently harvests nearby crops [means the crops don't need replanting!]"]
+			description: ["轻轻地收割附近的作物[意味着作物不需要补种！]"]
 			dependencies: ["78A18708E1695263"]
 			id: "2C107A3CE8BC9B99"
 			tasks: [{
@@ -643,7 +643,7 @@
 		{
 			x: -12.5d
 			y: 0.5d
-			description: ["A vacuum hoper!"]
+			description: ["真空漏斗！"]
 			dependencies: ["78A18708E1695263"]
 			id: "3EAF92B7DA534698"
 			tasks: [{
@@ -666,7 +666,7 @@
 		{
 			x: 7.5d
 			y: 0.5d
-			description: ["Transmits a wireless redstone frequency!"]
+			description: ["发射无线红石信号！"]
 			dependencies: ["78A18708E1695263"]
 			id: "023CB6ED4E6C4603"
 			tasks: [{
@@ -689,7 +689,7 @@
 		{
 			x: 8.5d
 			y: 0.5d
-			description: ["Recieves a wireless redstone frequency!"]
+			description: ["接收无线红石信号！"]
 			dependencies: ["78A18708E1695263"]
 			id: "4E31149376B63626"
 			tasks: [{
@@ -712,7 +712,7 @@
 		{
 			x: 9.5d
 			y: 0.5d
-			description: ["An easy to use clock!"]
+			description: ["一个使用简单的钟！"]
 			dependencies: ["78A18708E1695263"]
 			id: "1299EA7C7F51A28A"
 			tasks: [{
@@ -735,7 +735,7 @@
 		{
 			x: 10.5d
 			y: 0.5d
-			description: ["A very powerful tool for mob farms! It allows you to push entities a long distance!"]
+			description: ["一个非常强大的怪物农场工具！ 它会将实体推到很远的地方！"]
 			dependencies: ["78A18708E1695263"]
 			id: "0B494A80FA7076B8"
 			tasks: [{
@@ -758,7 +758,7 @@
 		{
 			x: 11.5d
 			y: 0.5d
-			description: ["Prevents nearby sounds... good bye horrible loud noises!"]
+			description: ["隔绝附近的声音......再见了可怕的巨响！"]
 			dependencies: ["78A18708E1695263"]
 			id: "36E187EFF2ACFA20"
 			tasks: [{
@@ -781,7 +781,7 @@
 		{
 			x: 12.5d
 			y: 0.5d
-			description: ["This allows you to collect experience for later use!"]
+			description: ["这可以收集经验以备后用！"]
 			dependencies: ["78A18708E1695263"]
 			id: "434EB843CE6BCF38"
 			tasks: [{
@@ -846,7 +846,7 @@
 			}]
 		}
 		{
-			title: "Cyclic"
+			title: "循环"
 			icon: {
 				id: "cyclic:soulstone"
 				Count: 1b
@@ -856,7 +856,7 @@
 			}
 			x: 1.0d
 			y: -1.0d
-			description: ["Cyclic is a great mod with lots of random bips and bops!"]
+			description: ["循环是一个很棒的mod，有多种多样的东西Cyclic is a great mod with lots of random bips and bops!"]
 			dependencies: ["4D6256C8BE38046F"]
 			hide: true
 			id: "78A18708E1695263"
