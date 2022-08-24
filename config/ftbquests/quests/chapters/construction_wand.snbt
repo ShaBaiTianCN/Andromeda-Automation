@@ -129,7 +129,7 @@
 		{
 			x: 1.0d
 			y: 0.5d
-			description: ["在合成栏中与建筑手杖结合，并且Shift + 左键点击以切换模式！"]
+			description: ["在合成栏中与建筑手杖结合，并且Shift+左键点击以切换模式！"]
 			dependencies: ["4F515F01476CFEF3"]
 			id: "602495A912C0B06B"
 			tasks: [{
@@ -152,7 +152,7 @@
 		{
 			x: -1.0d
 			y: 0.5d
-			description: ["这个东西破坏性极大！小心！Shift + 左键点击以切换模式！"]
+			description: ["小心！这个工具破坏性极大！Shift+左键点击以切换模式！"]
 			dependencies: ["4F515F01476CFEF3"]
 			id: "30BB2A1C2021DF24"
 			tasks: [{
@@ -219,7 +219,7 @@
 		{
 			x: 5.0d
 			y: 0.0d
-			description: ["这个小工具允许你复制粘贴世界中现有的结构。右键以储存第一个点，Shif右键以储存第二个点。有一个热键来改变模式！"]
+			description: ["这个小工具允许你复制粘贴世界中现有的结构。右键以储存第一个点，Shif+右键以储存第二个点。有一个热键来改变模式！"]
 			dependencies: ["47C3871D5F7C50D1"]
 			hide: true
 			id: "32641FF9E6445705"
