@@ -18,7 +18,7 @@
 			x: -7.5d
 			y: 0.5d
 			shape: "diamond"
-			description: ["一项*非常*强大的技术，可以右键单击任何物品！ [尝试对着筛子使用(*^_^*)]"]
+			description: ["一项*非常*强大的技术，可以右键单击任何物品！(尝试对着筛子使用)"]
 			dependencies: ["78A18708E1695263"]
 			id: "0BAA325429A20A4F"
 			tasks: [{
