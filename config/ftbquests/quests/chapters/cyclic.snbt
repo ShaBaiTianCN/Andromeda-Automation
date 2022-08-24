@@ -758,7 +758,7 @@
 		{
 			x: 11.5d
 			y: 0.5d
-			description: ["隔绝附近的声音......再见了可怕的巨响！"]
+			description: ["隔绝附近的声音……再见了可怕的巨响！"]
 			dependencies: ["78A18708E1695263"]
 			id: "36E187EFF2ACFA20"
 			tasks: [{
