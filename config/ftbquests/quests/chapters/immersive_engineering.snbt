@@ -17,7 +17,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			description: ["任何优秀工程师的开始!有了这个mod，有了这个模组，你可以在工程师手册中找到多方块的建筑，以及无数的华丽的结构！"]
+			description: ["任何优秀工程师的开始!有了这个模组，你可以在工程师手册中找到多方块的建筑，以及无数的华丽的结构！"]
 			dependencies: ["6F18145F076820FC"]
 			hide: true
 			id: "1A732D8A69369212"
@@ -443,7 +443,7 @@
 		{
 			x: -1.0d
 			y: 3.5d
-			description: ["传输少量的电力"]
+			description: ["传输低压电力"]
 			dependencies: ["3A9095BEF75EA26D"]
 			id: "63B6ED4CAD801A48"
 			tasks: [{
@@ -466,7 +466,7 @@
 		{
 			x: -3.0d
 			y: 4.5d
-			description: ["传输中等功率的电力"]
+			description: ["传输中压电力"]
 			dependencies: ["25DEE1722A538265"]
 			id: "28BC9FAFAC341073"
 			tasks: [{
@@ -489,7 +489,7 @@
 		{
 			x: -5.0d
 			y: 3.5d
-			description: ["允许传输大量电力"]
+			description: ["允许传输高压电力"]
 			dependencies: ["3A9095BEF75EA26D"]
 			id: "257BDD0AA953F12E"
 			tasks: [{
@@ -535,7 +535,7 @@
 		{
 			x: -1.5d
 			y: 4.5d
-			description: ["主要作用用于合成。"]
+			description: ["主要用于合成。"]
 			dependencies: ["63B6ED4CAD801A48"]
 			id: "529ECC2D95E76740"
 			tasks: [{
@@ -558,7 +558,7 @@
 		{
 			x: -3.5d
 			y: 5.5d
-			description: ["主要作用用于合成。"]
+			description: ["主要用于合成。"]
 			dependencies: ["28BC9FAFAC341073"]
 			id: "502A06D7632FC783"
 			tasks: [{
@@ -581,7 +581,7 @@
 		{
 			x: -5.5d
 			y: 4.5d
-			description: ["主要作用用于合成。"]
+			description: ["主要用于合成。"]
 			dependencies: ["257BDD0AA953F12E"]
 			id: "574BF0625D79C5B9"
 			tasks: [{
@@ -696,7 +696,7 @@
 		{
 			x: -0.5d
 			y: 5.5d
-			description: ["这用于接线器之间的长距离连接！"]
+			description: ["用于接线器之间的长距离连接！"]
 			dependencies: ["5B8E832E472A1B03"]
 			id: "6893AB3A833EE9DD"
 			tasks: [{
@@ -719,7 +719,7 @@
 		{
 			x: -2.5d
 			y: 6.5d
-			description: ["这用于接线器之间的长距离连接！"]
+			description: ["用于接线器之间的长距离连接！"]
 			dependencies: ["7997C5E276ACBABE"]
 			id: "4930ACE0EE27FBA9"
 			tasks: [{
@@ -742,7 +742,7 @@
 		{
 			x: -4.5d
 			y: 5.5d
-			description: ["这用于接线器之间的长距离连接！"]
+			description: ["用于接线器之间的长距离连接！"]
 			dependencies: ["4588CEB2C97C6E76"]
 			id: "52A90844502C2F47"
 			tasks: [{
@@ -855,7 +855,7 @@
 		{
 			x: -2.5d
 			y: 13.0d
-			description: ["您根据相邻两个方块之间的温差发电。"]
+			description: ["利用相邻两个方块之间的温差发电。"]
 			dependencies: ["514AE9590CB030E7"]
 			id: "16DD853CED9D3599"
 			tasks: [{
@@ -987,7 +987,7 @@
 		{
 			x: -10.0d
 			y: 2.5d
-			description: ["允许物品无缝传输！ 小心，因为它们是实体形式！"]
+			description: ["允许物品无缝传输！小心，因为它们是实体形式！"]
 			dependencies: ["3868B86EFE31C71D"]
 			id: "4D4A1CEA0D0C9327"
 			tasks: [{
@@ -1788,7 +1788,7 @@
 		{
 			x: -3.5d
 			y: 6.5d
-			description: ["变压器可以改变中压和低压"]
+			description: ["变压器可以转换中压和低压"]
 			dependencies: ["502A06D7632FC783"]
 			id: "6257DE38F07F40D0"
 			tasks: [{
@@ -1811,7 +1811,7 @@
 		{
 			x: -5.5d
 			y: 5.5d
-			description: ["高压变压器允许你交换高压和中压。"]
+			description: ["高压变压器允许你转换高压和中压。"]
 			dependencies: ["574BF0625D79C5B9"]
 			id: "2CB699A258B146D7"
 			tasks: [{
