@@ -1,7 +1,7 @@
 {
 	id: "0ECD72E5944F018B"
 	order_index: 101
-	title: "LittleLogistics指导手册"
+	title: "小型物流指导手册"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{
