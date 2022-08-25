@@ -3,7 +3,7 @@
 	group: ""
 	order_index: 0
 	filename: "starting_out"
-	title: "Starting Out"
+	title: "起步"
 	icon: {
 		id: "adhooks:spear_launcher"
 		Count: 1b
@@ -15,10 +15,10 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Tinkers Construct Basic Tools"
+			title: "匠魂的基础工具"
 			x: -0.5d
 			y: 0.0d
-			description: ["This is going to allow you to make some nice early game tools to help get you started out!"]
+			description: ["这将允许您制作一些不错的游戏前期的工具，以帮助你入门！"]
 			id: "2F1A00BCB81B5704"
 			tasks: [
 				{
@@ -29,7 +29,7 @@
 				{
 					id: "08E0B9CAA7AF2436"
 					type: "item"
-					title: "Tinkers Construct Crafting Station"
+					title: "匠魂工作站"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -41,7 +41,7 @@
 				{
 					id: "4E827375C8CDEA89"
 					type: "item"
-					title: "Part Builder"
+					title: "部件制造台"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -53,7 +53,7 @@
 				{
 					id: "4903E29A7FEF201B"
 					type: "item"
-					title: "Tinkers Station"
+					title: "工匠站"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -72,7 +72,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			description: ["Assemble with the reflectors one block away and pointing at the chest! This allows you to cook anything, albeit a little slower then normal, with solar power!"]
+			description: ["与一个方块外的反光板组装，并指向太阳灶！这使您可以用太阳能烹饪任何东西，尽管比正常速度慢一点！"]
 			id: "2952C98DE45F0278"
 			tasks: [
 				{
@@ -91,7 +91,7 @@
 		{
 			x: -2.0d
 			y: 1.0d
-			description: ["Who needs the sun... this lets you use the solar cooker underground!"]
+			description: ["谁需要太阳……这让你可以在地下使用太阳灶烹饪！"]
 			dependencies: ["2952C98DE45F0278"]
 			id: "014D9543C0EADB46"
 			tasks: [{
@@ -103,20 +103,20 @@
 		{
 			x: 5.5d
 			y: 0.0d
-			description: ["This is your default day to day quest shape!"]
+			description: ["这是默认的日常任务形状！"]
 			id: "050A3840AB88E8FB"
 			tasks: [{
 				id: "666AA8F51D451B39"
 				type: "checkmark"
-				title: "Quest Shapes"
+				title: "任务形状"
 			}]
 		}
 		{
-			title: "Diamond"
+			title: "钻石"
 			x: 5.5d
 			y: 4.5d
 			shape: "diamond"
-			description: ["A diamond is a very important quest that heavily augments gameplay! Think of these as your goals! They also typically have an unlock for a new tree!"]
+			description: ["钻石形的任务是在游戏中十分重要的任务，大大增强游戏玩法！把这想象为你的目标！它一般同时伴随着一个新的任务章节的开启！"]
 			hide_dependency_lines: true
 			dependencies: ["43F96D8F2B97D1F1"]
 			id: "080260492CCF9579"
@@ -130,7 +130,7 @@
 			x: 5.5d
 			y: 1.5d
 			shape: "square"
-			description: ["A square indicates that it unlocks a quest somewere else on the board! [does not physically draw a line to it like other quests!"]
+			description: ["正方形的任务会解锁同一章的一些其他任务！[但是并不像其他任务一样在物理上乱连线！]"]
 			dependencies: ["050A3840AB88E8FB"]
 			id: "43F96D8F2B97D1F1"
 			tasks: [{
@@ -140,7 +140,7 @@
 			}]
 		}
 		{
-			title: "Your new best friend"
+			title: "你的新朋友"
 			icon: {
 				id: "tiab:time_in_a_bottle"
 				Count: 1b
@@ -148,12 +148,12 @@
 			}
 			x: 2.5d
 			y: 0.0d
-			description: ["The time in the bottle allows you to speed up the block tick rate of a block using shift right click."]
+			description: ["时间之瓶允许你Shift+右键加速方块的时间流逝速度。"]
 			id: "18E8BDDBBFE7FA39"
 			tasks: [{
 				id: "56082331EF8063AC"
 				type: "checkmark"
-				title: "The first hit is free..."
+				title: "第一击是免费的……"
 			}]
 			rewards: [{
 				id: "45E9A5E80D971001"
@@ -169,13 +169,13 @@
 			x: 5.5d
 			y: 5.5d
 			shape: "pentagon"
-			description: ["This is the quest shape that unlocks items within the shop, where you can buy integral items multiple times!"]
+			description: ["这是解锁商店内物品的任务形状，您可以在其中多次购买必须品！"]
 			dependencies: ["080260492CCF9579"]
 			id: "2E387D31F5AC2C82"
 			tasks: [{
 				id: "24ADCF924D55E5DF"
 				type: "checkmark"
-				title: "Shopping"
+				title: "商店"
 			}]
 		}
 		{
@@ -187,11 +187,11 @@
 			tasks: [{
 				id: "6F2A5E63CE36F3DB"
 				type: "checkmark"
-				title: "I am ready to start some quests!"
+				title: "我已经准备好开始一些任务了！"
 			}]
 		}
 		{
-			title: "Man's best friend"
+			title: "猛男的好朋友！"
 			icon: {
 				id: "luggage:luggage"
 				Count: 1b
@@ -199,12 +199,12 @@
 			}
 			x: 1.0d
 			y: 0.0d
-			description: ["or your worst nightmare..."]
+			description: ["或者是你最糟糕的噩梦……"]
 			id: "39AD040204EBD5AA"
 			tasks: [{
 				id: "74BD26F337E8B7EE"
 				type: "checkmark"
-				title: "Man's Best Friend"
+				title: "猛男的好朋友！"
 			}]
 			rewards: [{
 				id: "792DF5A525A3430C"
@@ -226,12 +226,12 @@
 			}
 			x: 4.0d
 			y: 0.0d
-			description: ["Hover over and press control for more information on how to control the darn thing!"]
+			description: ["将鼠标悬停在上方并按Ctrl键以获取有关如何操控的更多信息！"]
 			id: "19A8879981A063E0"
 			tasks: [{
 				id: "5499EC0AF7794621"
 				type: "checkmark"
-				title: "This is your key to travel!"
+				title: "这是你旅行的关键"
 			}]
 			rewards: [{
 				id: "5B760265D14BBA4E"
@@ -249,13 +249,13 @@
 			x: 5.5d
 			y: 6.5d
 			shape: "gear"
-			description: ["These quests usually give you science juice to unlock new trees! Though not technically required for progression, it is really important because it allows you to recieve all of the fun rewards!"]
+			description: ["这类任务通常会给你科学果汁以解锁新的任务章节！尽管在科技发展上他们并不必要，但是对于你来说依旧是十分重要的，因为它允许你领取到所有有趣的奖励！"]
 			dependencies: ["2E387D31F5AC2C82"]
 			id: "74CDAD1FFE66295B"
 			tasks: [{
 				id: "4789BE2BDF0AFCCA"
 				type: "checkmark"
-				title: "Science Juice"
+				title: "科学果汁"
 			}]
 			rewards: [{
 				id: "6664C9485DC8FD40"
@@ -267,31 +267,31 @@
 			icon: "alexsmobs:void_worm_eye"
 			x: -3.5d
 			y: 0.0d
-			description: ["The void doesn't kill you and take your items! In this pack, you loop to the top of the world, and when you land you will take 9.5 hearts of damage!"]
+			description: ["虚空并不会无情的杀害你并夺取你的所有物品！在这个整合包中，如果你掉入虚空，你将会从世界最高层掉落下来，同时会造成9.5颗心的伤害！"]
 			id: "309BCF88E9897C4E"
 			tasks: [{
 				id: "040F8E1288039E55"
 				type: "checkmark"
-				title: "The Void"
+				title: "虚空"
 			}]
 		}
 		{
 			icon: "minecolonies:blockminecoloniesgrave"
 			x: -5.0d
 			y: 0.0d
-			description: ["When you die, you leave a grave where you have perished! Mine it and it will automatically try and put items where they were in your inventory [except for curios, those will be left in your inventory]"]
+			description: ["当你死亡之后，将会在你死亡的地方留下一块墓碑！挖掉它之后将所有物品将会自动回到你原来放置的地方[除了饰品，饰品会留在你的物品栏中]"]
 			id: "155B2E4B072DD8D4"
 			tasks: [{
 				id: "2EB1AF65A7D9A31B"
 				type: "checkmark"
-				title: "Death"
+				title: "死亡"
 			}]
 		}
 		{
-			title: "Slabbed"
+			title: "台阶"
 			x: -6.5d
 			y: 0.0d
-			description: ["Your basic minecraft machines can be slabbed to improve space!"]
+			description: ["Minecraft原版的基础机械都可以制作成他们的台阶形态以节省空间！"]
 			id: "27681B4AFB69859B"
 			tasks: [
 				{
