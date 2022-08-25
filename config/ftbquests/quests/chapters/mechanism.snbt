@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 8
 	filename: "mechanism"
-	title: "Mekanism"
+	title: "通用机械"
 	icon: "mekanism:metallurgic_infuser"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: 1.0d
 			y: -0.5d
 			shape: "pentagon"
-			description: ["This is your main factory block! On the left you have what you are infusing into the second from the left item! Then you have the output and were the power goes!"]
+			description: ["这是你最重要的工厂方块！将左边格子中的物品注入第二格的物品中。接着会消耗电量输出物品。"]
 			dependencies: ["41F6E5AE5D8F7971"]
 			id: "425C628D28B78967"
 			tasks: [{
@@ -35,7 +35,7 @@
 		{
 			x: 0.0d
 			y: 0.5d
-			description: ["This allows you to enrich the things that go into the metalurgic infuser, allowing for a lot more bang for your buck!"]
+			description: ["这可以让你富集加入冶金灌注机的物品，使你获取更多的回报。"]
 			dependencies: ["425C628D28B78967"]
 			id: "33BA18A9823F6045"
 			tasks: [{
@@ -83,7 +83,7 @@
 			y: 3.0d
 			description: [
 				""
-				"Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"
+				"每种工厂安装器都可用于升级放置下来的机器。四种工厂安装器分别为：基础、高级、精英、终极。"
 			]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "31685A0CE25FE1C1"
@@ -107,7 +107,7 @@
 		{
 			x: -12.0d
 			y: 4.0d
-			description: ["Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"]
+			description: ["每种工厂安装器都可用于升级放置下来的机器。四种工厂安装器分别为：基础、高级、精英、终极。"]
 			dependencies: ["31685A0CE25FE1C1"]
 			id: "5EE53AECA01F2094"
 			tasks: [{
@@ -130,7 +130,7 @@
 		{
 			x: -12.0d
 			y: 5.0d
-			description: ["Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"]
+			description: ["每种工厂安装器都可用于升级放置下来的机器。四种工厂安装器分别为：基础、高级、精英、终极。"]
 			dependencies: ["5EE53AECA01F2094"]
 			id: "76B8EF056EE956D7"
 			tasks: [{
@@ -154,7 +154,7 @@
 			x: -12.0d
 			y: 6.0d
 			shape: "gear"
-			description: ["Each type of installer can upgrade an existing machine in the world! There are 4 teirs of machines basic, advanced elite and ultimate!"]
+			description: ["每种工厂安装器都可用于升级放置下来的机器。四种工厂安装器分别为：基础、高级、精英、终极。"]
 			dependencies: ["76B8EF056EE956D7"]
 			id: "6CF93B7D45F607BD"
 			tasks: [{
@@ -184,7 +184,7 @@
 		{
 			x: -8.0d
 			y: 3.0d
-			description: ["Mainly produces saw dust!"]
+			description: ["主要用于产锯末！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "086CBAEB82067F03"
 			tasks: [{
@@ -207,7 +207,7 @@
 		{
 			x: -8.0d
 			y: 4.0d
-			description: ["This allows you to move tile entities like chests by placing it on the tile entitiy and breaking it!"]
+			description: ["这能让你移动任何例如箱子的存储方块。使用方法：放置在存储方块上并破坏该方块！"]
 			dependencies: ["086CBAEB82067F03"]
 			id: "5AB6DE010621FE69"
 			tasks: [{
@@ -230,7 +230,7 @@
 		{
 			x: -7.0d
 			y: 3.0d
-			description: ["This can transform into the smelting factory, that can smelt SO many items at a time"]
+			description: ["可以升级为熔炼工厂，即可一次熔炼非！常！多！物品"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "377951FA9F9756D7"
 			tasks: [{
@@ -253,7 +253,7 @@
 		{
 			x: -6.0d
 			y: 3.0d
-			description: ["A basic crusher for all of your crushing needs! Can be upgraded!"]
+			description: ["一台可以满足你所有粉碎需求的基础粉碎机。可以升级！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "75D4BCA67305ADFB"
 			tasks: [{
@@ -276,7 +276,7 @@
 		{
 			x: -5.0d
 			y: 3.0d
-			description: ["Injects items with fluids!"]
+			description: ["给物品灌注流体！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "6BDAA0B29363115F"
 			tasks: [{
@@ -299,7 +299,7 @@
 		{
 			x: -4.0d
 			y: 3.0d
-			description: ["Turns various liquids into gasses!"]
+			description: ["将各种液体变成气体！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "1AC8B2A2EC215363"
 			tasks: [{
@@ -344,7 +344,7 @@
 		{
 			x: 4.0d
 			y: 3.0d
-			description: ["This allows you to seperate fluids into their components. So water into hydrogen and oxygen."]
+			description: ["这可用于电解流体。例如：水电解为氢气和氧气。"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "32CE2FAB835B2F7C"
 			tasks: [{
@@ -367,7 +367,7 @@
 		{
 			x: 3.5d
 			y: 4.0d
-			description: ["You can fill your jetpack with hydrogen in the electrolytic seperator"]
+			description: ["你可以用电解分离器产出的氢气为喷气背包充气"]
 			dependencies: ["32CE2FAB835B2F7C"]
 			id: "1307ED0FE79F04B9"
 			tasks: [{
@@ -390,7 +390,7 @@
 		{
 			x: -2.0d
 			y: 3.0d
-			description: ["This charges things in your inventory when you stand on it!"]
+			description: ["当你站在上面时，它可以为你背包里的物品充电！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "5556F090B3B03E5A"
 			tasks: [{
@@ -413,7 +413,7 @@
 		{
 			x: -3.0d
 			y: 5.0d
-			description: ["Stop fall damage!"]
+			description: ["防止摔落伤害！"]
 			dependencies: ["34BDEF4F4FE46B82"]
 			id: "55BE55A78E581840"
 			tasks: [{
@@ -436,7 +436,7 @@
 		{
 			x: -2.0d
 			y: 4.0d
-			description: ["This is the ultimate pickaxe! Has speed modes, vein mining modes, and everything in a pickaxe you can dream of!"]
+			description: ["这是最强的镐子！拥有快速模式、连锁挖掘模式和你对一把镐子的一切幻想！"]
 			dependencies: ["5556F090B3B03E5A"]
 			id: "39EA3339B94DB8E6"
 			tasks: [{
@@ -459,7 +459,7 @@
 		{
 			x: -3.0d
 			y: 6.5d
-			description: ["Transports power!"]
+			description: ["传输能量！"]
 			dependencies: ["307440FA153AE659"]
 			id: "040563A3B4380895"
 			tasks: [{
@@ -482,7 +482,7 @@
 		{
 			x: -2.0d
 			y: 6.5d
-			description: ["Transports fluids!"]
+			description: ["传输液体！"]
 			dependencies: ["307440FA153AE659"]
 			id: "3FB140925948A74F"
 			tasks: [{
@@ -505,7 +505,7 @@
 		{
 			x: -1.0d
 			y: 6.5d
-			description: ["Transports gasses!"]
+			description: ["传输气体！"]
 			dependencies: ["307440FA153AE659"]
 			id: "0BDCB716AE3C72A7"
 			tasks: [{
@@ -528,7 +528,7 @@
 		{
 			x: 0.0d
 			y: 6.5d
-			description: ["Transports items!"]
+			description: ["传输物品！"]
 			dependencies: ["307440FA153AE659"]
 			id: "05E3EF03EE6DB854"
 			tasks: [{
@@ -551,7 +551,7 @@
 		{
 			x: 1.0d
 			y: 6.5d
-			description: ["Transmits heat!"]
+			description: ["传输热量！"]
 			dependencies: ["307440FA153AE659"]
 			id: "438867A0E6BD855C"
 			tasks: [{
@@ -614,7 +614,7 @@
 			x: 5.5d
 			y: 17.0d
 			shape: "diamond"
-			description: ["Take a second to celebrate! [and ensure your reactor isn't going to explode ^_^']"]
+			description: ["花点时间清楚一下！（当然要确保你的反应堆不会爆炸^_^）"]
 			dependencies: ["7C23764FC4BE68FB"]
 			id: "2196443C5B92CC9D"
 			tasks: [{
@@ -637,7 +637,7 @@
 		{
 			x: 5.5d
 			y: 15.0d
-			description: ["Place in the sun to turn your nuclear waste into something useful!"]
+			description: ["放置在太阳底下来将核废料转变成有用的东西！"]
 			dependencies: ["7987F46F3B6BBDC5"]
 			id: "42CCF44114C6E333"
 			tasks: [{
@@ -726,7 +726,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["Generate energy from heat sources within one block of this!"]
+			description: ["仅凭一个方块通过热源发电！"]
 			dependencies: ["41F6E5AE5D8F7971"]
 			id: "10A0B7B4F7DB35AA"
 			tasks: [{
@@ -770,10 +770,10 @@
 			}]
 		}
 		{
-			title: "A Dangerous Game"
+			title: "一场危险的游戏"
 			x: 4.5d
 			y: 14.0d
-			description: ["To assemble this multiblock you need a bottom made of reactor casings, as well as the corners! The sides however can be casings, or reactor glass! Fission reactor ports allow you to manage the fluids, and there are 4 main types of fluid going in and out: Cold Coolant [in], Hot Coolant [out], Fuel, and nuclear waste! For the inside of the reactor you need several checkerboarded fission fuel assemblies with a control rod assembly at the top of each pillar. Once completed properly you should get a red particle effect! [Note, the fission reactor logic adapter can allow you to control the reactor with redstone!]"]
+			description: ["反应堆多方块结构搭建须知：底部和四角需搭建反应堆外壳。侧面可以是反应堆外壳或强化玻璃。反应堆端口用于输入输出四种主要的流体：冷却液【输入】、热冷却液【输出】、燃料和核废料。在反应堆的内部需要一些裂变燃料组件并在其顶部放置控制棒组件。一旦搭建完成会出现红色粒子效果。（注意：逻辑适配器可以让你通过红石信号控制反应堆。）"]
 			dependencies: ["15CEE96379D79F9E"]
 			id: "1FAF3BD02218A974"
 			tasks: [
@@ -826,7 +826,7 @@
 		{
 			x: -1.0d
 			y: 4.0d
-			description: ["The configurator is basically a mega wrench that allows you to configure different types of pipes to push or pull upon shift right clicking! Make sure that you are in the correct mode by using shift + scroll wheel!"]
+			description: ["配置器基本就是一个可以设置管道输入输出的扳手（shift右键）。注意使用shift+滚轮调整到正确的模式！"]
 			dependencies: ["5556F090B3B03E5A"]
 			id: "307440FA153AE659"
 			tasks: [{
@@ -847,16 +847,16 @@
 			}]
 		}
 		{
-			title: "Coolant"
+			title: "冷却液"
 			x: 4.5d
 			y: 15.0d
-			description: ["Coolant could either be water or sodium for you!"]
+			description: ["冷却液可以是水或钠蒸汽！"]
 			dependencies: ["1FAF3BD02218A974"]
 			id: "7987F46F3B6BBDC5"
 			tasks: [{
 				id: "70DD2A65BD1E1AE9"
 				type: "checkmark"
-				title: "water"
+				title: "水"
 			}]
 			rewards: [{
 				id: "4423911AFEC197CC"
@@ -873,7 +873,7 @@
 		{
 			x: 4.5d
 			y: 13.0d
-			description: ["Insert uranium hexafluoride to generate fissel fuel!"]
+			description: ["输入六氟化铀生产裂变燃料！"]
 			dependencies: ["24CC2B7010C1E4BC"]
 			id: "15CEE96379D79F9E"
 			tasks: [{
@@ -896,7 +896,7 @@
 		{
 			x: 4.5d
 			y: 12.0d
-			description: ["Combine uranium oxide with hydrofluoric acid to generate uranium hexafluoride."]
+			description: ["结合氢氟酸和氧化铀来生产六氟化铀。"]
 			dependencies: [
 				"2959144F56F24CB5"
 				"41744A891FA52B38"
@@ -922,7 +922,7 @@
 		{
 			x: 5.0d
 			y: 11.0d
-			description: ["Oxidize the uranium to produce uranium oxide!"]
+			description: ["氧化铀黄饼生产氧化铀！"]
 			dependencies: ["3E36122000C89033"]
 			id: "2959144F56F24CB5"
 			tasks: [{
@@ -945,7 +945,7 @@
 		{
 			x: 4.0d
 			y: 11.0d
-			description: ["Mix the sulfuric acid with fluorite to generate hydrofluoric acid."]
+			description: ["混合硫酸和氟石来生产氢氟酸。"]
 			dependencies: ["3E36122000C89033"]
 			id: "41744A891FA52B38"
 			tasks: [{
@@ -968,7 +968,7 @@
 		{
 			x: 4.5d
 			y: 9.0d
-			description: ["Combine sulfer trioxide and water vapor together to generate sulfuric acid!"]
+			description: ["混合三氧化硫和水蒸气来生产硫酸！"]
 			dependencies: [
 				"712134EB89691321"
 				"15796AA7C99C5ED0"
@@ -994,7 +994,7 @@
 		{
 			x: 4.0d
 			y: 8.0d
-			description: ["Further mix sulfer dioxide with oxygen gas to produce sulfer trioxide."]
+			description: ["进一步混合二氧化硫和氧气来生产三氧化硫。"]
 			dependencies: ["4B634780FC9CBFBF"]
 			id: "712134EB89691321"
 			tasks: [{
@@ -1017,7 +1017,7 @@
 		{
 			x: 4.5d
 			y: 7.0d
-			description: ["Take sulfer and add it to this machine to produce sulfer dioxide!"]
+			description: ["将硫粉加入这台机器来生产二氧化硫！"]
 			dependencies: ["5A240C2C372A50D2"]
 			id: "4B634780FC9CBFBF"
 			tasks: [{
@@ -1040,7 +1040,7 @@
 		{
 			x: 4.5d
 			y: 5.0d
-			description: ["Firsty you use water, some oxygen from the electrolitic separator and some coal to produce sulfer"]
+			description: ["首先用水和来自电解分离器的氧气与一些煤炭混合产生硫粉"]
 			dependencies: ["7353DC627376DEDF"]
 			id: "5B7F728C47F4E4E5"
 			tasks: [{
@@ -1064,13 +1064,13 @@
 			icon: "minecraft:barrier"
 			x: 4.5d
 			y: 4.0d
-			description: ["This section of the quest tree is directed twords fusion reaction, which generates radiation as well as has the potential to destroy your entire base if a reactor meltdown occurs. Beware!"]
+			description: ["这一部分的任务树指向裂变反应堆，会产生辐射并有摧毁你整个基地的潜力（如果发生了熔毁）。小心！"]
 			dependencies: ["32CE2FAB835B2F7C"]
 			id: "7353DC627376DEDF"
 			tasks: [{
 				id: "4704793C2C13F07B"
 				type: "checkmark"
-				title: "A Troublesome Road"
+				title: "一条麻烦的道路"
 			}]
 			rewards: [{
 				id: "39F52C3258D40C64"
@@ -1085,7 +1085,7 @@
 			}]
 		}
 		{
-			title: "Sulfur"
+			title: "硫"
 			x: 4.5d
 			y: 6.0d
 			dependencies: ["5B7F728C47F4E4E5"]
@@ -1093,7 +1093,7 @@
 			tasks: [{
 				id: "1B6B068840F3052D"
 				type: "item"
-				title: "Any #forge:dusts/sulfur"
+				title: "任意#forge:dusts/sulfur"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1117,7 +1117,7 @@
 		{
 			x: 5.0d
 			y: 8.0d
-			description: ["Use this to produce water vapor!"]
+			description: ["用它来生产水蒸气！"]
 			dependencies: ["4B634780FC9CBFBF"]
 			id: "15796AA7C99C5ED0"
 			tasks: [{
@@ -1140,7 +1140,7 @@
 		{
 			x: 4.5d
 			y: 10.0d
-			description: ["Use the enrichment chamber on a uranium ingot to produce yellow cake uranium!"]
+			description: ["在富集仓中加入铀锭来生产铀黄饼！"]
 			dependencies: ["362B56E0B4EDB52D"]
 			id: "3E36122000C89033"
 			tasks: [{
@@ -1163,7 +1163,7 @@
 		{
 			x: 5.5d
 			y: 16.0d
-			description: ["Mix water, polonium, and fluorite to produce a polonium pellet!"]
+			description: ["混合水、钋和氟石粉来生产钋靶丸！"]
 			dependencies: ["42CCF44114C6E333"]
 			id: "7C23764FC4BE68FB"
 			tasks: [{
@@ -1184,10 +1184,10 @@
 			}]
 		}
 		{
-			title: "Harnessing your reactors steam!"
+			title: "利用你反应堆的蒸汽！"
 			x: 1.5d
 			y: 15.0d
-			description: ["This is a complex multiblock structure so I have broken it down in steps! The first rule/step is that the bottom, top, and all corners of the structure must be made of turbine casings! [The structure can get rather large so keep that in mind!]"]
+			description: ["这是一台复杂的多方块结构，所以我将它拆成了多个步骤。第一步是底部顶部和所有转角必须是涡轮外壳。（记住这个结构可以非常大！）"]
 			dependencies: ["1FAF3BD02218A974"]
 			id: "24CABD18C59065F9"
 			tasks: [{
@@ -1211,7 +1211,7 @@
 		{
 			x: 1.5d
 			y: 17.0d
-			description: ["Structural glass can take up any portion of the main turbine compartment"]
+			description: ["结构玻璃可以替换任何主体结构的外壳"]
 			dependencies: ["3959861BDA727A75"]
 			id: "4C3B16B31CFFA518"
 			tasks: [{
@@ -1235,7 +1235,7 @@
 		{
 			x: 1.5d
 			y: 16.0d
-			description: ["The main section of the building is the turbine compartment, ensure that the turbine is centered and NOT touching any of the walls! If it touches the walls the blades are too large and will cause the multistructure to not function!"]
+			description: ["涡轮机最主要的部分，确保涡轮转子没有碰壁！如果碰到墙壁会导致叶片太大无法构成多方块结构！"]
 			dependencies: ["24CABD18C59065F9"]
 			id: "3959861BDA727A75"
 			tasks: [
@@ -1267,7 +1267,7 @@
 		{
 			x: 1.5d
 			y: 18.0d
-			description: ["Next, for the roof of the first compartment you will fill one layer with the pressure dispersers, except the block above where the rotor is, that sould be a rotational complex"]
+			description: ["下一步，在顶部隔层中铺满一层分压元件，涡轮转子顶部除外，该格需放置复杂旋钮装置"]
 			dependencies: ["4C3B16B31CFFA518"]
 			id: "7D284A8A9677C355"
 			tasks: [
@@ -1298,7 +1298,7 @@
 		{
 			x: 1.5d
 			y: 19.0d
-			description: ["Above the rotational complex you should include electromagnetic coils, as many as you really want [keep in mind that they only connect to blocks adjacent [not diagnal] to them."]
+			description: ["在复杂旋钮装置上方一层放置电磁线圈，你想要放多少就放多少（记住它只能与相邻的方块连接，斜角放置并不行）。"]
 			dependencies: ["7D284A8A9677C355"]
 			id: "3307F52F49034BF3"
 			tasks: [{
@@ -1322,7 +1322,7 @@
 		{
 			x: 1.5d
 			y: 21.0d
-			description: ["Next be sure to include a lot of vents on the level of the disperser/electro to ensure that water has a way to escape, speaking of which this is where you can pump out the condensed water! [keep in mind you still need this many vents to maintain efficiency"]
+			description: ["接着，在分压元件和电磁线圈两层外侧放置大量涡轮排气口让大量冷凝水得以排出。（注意：你仍需要大量排气口来维持效率）"]
 			dependencies: ["1D5E9783EF0ABC60"]
 			id: "7AC9506555C890A0"
 			tasks: [{
@@ -1368,7 +1368,7 @@
 		{
 			x: -10.5d
 			y: 3.0d
-			description: ["Teleporters allow you to seemlessly transport short distances [and long distances]! To assemble put the teleporter block in the center, and structure the rest like a nether portal [you can do many sizes!], be sure to select the correct channels n whatnot!"]
+			description: ["传送机可以让你无缝进行短途传送（长距离也行）。搭建方法：在中间放置传送机方块，在保证传送机上方只有1×2的空间的情况下，按照下界传送门的搭法搭建剩余的传送框架，同时请确保你选择了正确的频道！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "1018C39EF010067E"
 			tasks: [
@@ -1400,7 +1400,7 @@
 		{
 			x: 11.0d
 			y: 4.0d
-			description: ["This is where you store drives to allow your network to access them!"]
+			description: ["用于存储QIO驱动器！"]
 			dependencies: ["42249B0379D92126"]
 			id: "13D44996898A8114"
 			tasks: [{
@@ -1425,7 +1425,7 @@
 			y: 5.0d
 			description: [
 				""
-				"This is the basic unit that allows you to store items! The further up the more items!"
+				"这是存储物品的基础单元。等级越高存储物品越多。"
 			]
 			dependencies: ["13D44996898A8114"]
 			id: "01FF9AAD4B09AF3B"
@@ -1488,7 +1488,7 @@
 		{
 			x: 12.5d
 			y: 3.0d
-			description: ["This is basically mini applied energistics that is wireless! Everything can be set to a specific frequency, items can be stored and monitored on drives, as well as wirelessly transported!"]
+			description: ["这是可以无线供电的迷你设备。所有物品均可设置至特定的频率，在仪表板上可以远程监看或存取驱动器里的物品！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "42249B0379D92126"
 			tasks: [{
@@ -1599,7 +1599,7 @@
 		{
 			x: 1.5d
 			y: 20.0d
-			description: ["This allows you to extract large volumes of water when placed on the same level as the electromagnetic coil!"]
+			description: ["当放置在电磁线圈那层时可以让涡轮机输出巨量水！"]
 			dependencies: ["3307F52F49034BF3"]
 			id: "1D5E9783EF0ABC60"
 			tasks: [{
@@ -1620,10 +1620,10 @@
 			}]
 		}
 		{
-			title: "Thermal Evaporation"
+			title: "热力蒸馏塔"
 			x: 9.0d
 			y: 10.5d
-			description: ["Now that you understand how to build these machines, you need another one to turn brine into lithium to further be used to make tritium!"]
+			description: ["既然你知道了如何搭建此机器，你可以再搭建一台来将盐水转变为锂，以便进一步制作成氚。"]
 			dependencies: ["77EED457A40D74F6"]
 			id: "221C027FBDCC7D11"
 			tasks: [
@@ -1666,7 +1666,7 @@
 		{
 			x: 8.5d
 			y: 15.0d
-			description: ["Both fluids need to be changed back into their fluid forms to be used in the reactor!"]
+			description: ["两种液体都需要转变成其气体形态才能输入反应堆。"]
 			dependencies: [
 				"38F3D9AF5E56F2F1"
 				"4B78D38002D83084"
@@ -1692,7 +1692,7 @@
 		{
 			x: 8.0d
 			y: 13.5d
-			description: ["We can seperate heavy water into is components deuterium and oxygen! We are after the deuterium!"]
+			description: ["可以将重水电解成氘和氧气。我们要的正式氘！"]
 			dependencies: ["28F0A63661714C83"]
 			id: "38F3D9AF5E56F2F1"
 			tasks: [{
@@ -1715,7 +1715,7 @@
 		{
 			x: 8.0d
 			y: 3.0d
-			description: ["Applying this filter to a pump allows it to extract heavy water!"]
+			description: ["将过滤升级加入电动泵使其可用于分离重水！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "28F0A63661714C83"
 			tasks: [
@@ -1745,7 +1745,7 @@
 		{
 			x: 9.0d
 			y: 13.5d
-			description: ["Once your lithium is in a gaseous state, it can be added to the solar nuetron activator to produce tritium in a gaseous state!"]
+			description: ["若你的锂是气体状态，即可将其加入太阳能中子活化器来生产气态氚！"]
 			dependencies: ["29BB597B8AA9A172"]
 			id: "4B78D38002D83084"
 			tasks: [{
@@ -1768,7 +1768,7 @@
 		{
 			x: 9.0d
 			y: 12.5d
-			description: ["From here you turn your liquid lithium into a gas using this machine!"]
+			description: ["在这里将液态锂变成气态锂！"]
 			dependencies: ["3781495B6786132C"]
 			id: "29BB597B8AA9A172"
 			tasks: [{
@@ -1791,7 +1791,7 @@
 		{
 			x: 9.0d
 			y: 3.0d
-			description: ["This machine must contain 1 controller, 2 evaporation valves, must contain a 2x2 air space and be 18 blocks tall! On the top layer there are 4x solar pannels, one in each corner, but if this sounds too complicated to figure out the pack includes a schematic for it for the schematic cannon! Note! In order to get the brine for the next quest you need to provide this machine with a large amount of water!"]
+			description: ["这台机器必须含有1个控制，2个热力蒸馏阀门，中间有2x2的空气，18格高（不满18格也可以，上限18格）。在最顶层放置4个太阳能面板，每个角一台。如果这听着过于复杂，你可以使用蓝图及蓝图加农炮。注意！为了获取下个任务需要的盐水，你需要给蒸馏塔提供大量的水！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			id: "40BCC229C3AF9DDA"
 			tasks: [
@@ -1834,7 +1834,7 @@
 		{
 			x: 9.0d
 			y: 11.5d
-			description: ["You can obtain this by simply placing a bucket in the upper right slot of the thermal evaporator!"]
+			description: ["只需简单地在热力蒸馏塔的右上角放置桶即可获取！"]
 			dependencies: ["221C027FBDCC7D11"]
 			id: "3781495B6786132C"
 			tasks: [{
@@ -1857,7 +1857,7 @@
 		{
 			x: 9.0d
 			y: 9.5d
-			description: ["You can obtain this by simply placing a bucket in the upper right slot of the thermal evaporator!"]
+			description: ["只需简单地在热力蒸馏塔的右上角放置桶即可获取！"]
 			dependencies: ["40BCC229C3AF9DDA"]
 			id: "77EED457A40D74F6"
 			tasks: [{
@@ -1880,7 +1880,7 @@
 		{
 			x: 9.5d
 			y: 4.0d
-			description: ["Lucky you! I have already built this machine and saved it! This allows you to use a schematic cannon, as well as the schematic table to build it for you if you so desire!"]
+			description: ["你太幸运了！我已经把机器搭建并保存了。你只需要使用蓝图加农炮以及蓝图桌即可快速搭建！"]
 			dependencies: ["40BCC229C3AF9DDA"]
 			id: "553D632FBD3BB73A"
 			tasks: [{
@@ -1903,7 +1903,7 @@
 		{
 			x: 8.5d
 			y: 16.0d
-			description: ["Next we use the tritium and deuterium together to fabricate D-T fuel in the chemical infuser!"]
+			description: ["接着将氚和氘在化学灌注机中合成为氘氚燃料！"]
 			dependencies: ["5346C0E630152117"]
 			id: "5C18768696D65042"
 			tasks: [{
@@ -1948,7 +1948,7 @@
 		{
 			x: 8.5d
 			y: 20.0d
-			description: ["To fill up a hohlraum with a bit of the gas to kickstart the reaction you need to use a tank to fill it!"]
+			description: ["灌满黑体辐射腔只需一小点气体，但要驱动反应堆则需巨量气体。"]
 			dependencies: ["1143BCE5276588EB"]
 			id: "03CE4D4A3B09731F"
 			tasks: [{
@@ -1969,16 +1969,16 @@
 			}]
 		}
 		{
-			title: "Tank"
+			title: "储罐"
 			x: 8.5d
 			y: 19.0d
-			description: ["To fill up a hohlraum with a bit of the gas to kickstart the reaction you need to use a tank to fill it!"]
+			description: ["灌满黑体辐射腔只需一小点气体，但要驱动反应堆则需巨量气体。"]
 			dependencies: ["77BAACC784701AD9"]
 			id: "1143BCE5276588EB"
 			tasks: [{
 				id: "4C85E5D362E7B70B"
 				type: "item"
-				title: "Any #appmek:mekanism_tanks"
+				title: "任意#appmek:mekanism_tanks"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -2002,7 +2002,7 @@
 		{
 			x: 8.5d
 			y: 18.0d
-			description: ["This reactor is quite difficult to assemble, but the premise is, you make a 5x5x5 cube of reactor casing, remove the outermost 4 blocks of each corner, add a controller in the top center, a lense focus on the center of one of the 4 sides, and multiple reactor ports on the side, one for D-T fuel in, one for water in, one for steam out! To fullly harness the power of this generator you need to water cool it, and use the steam generated to power several turbines!"]
+			description: ["这个反应堆的搭建非常困难，一开始，你搭建一个5x5x5的方块，去除4个角的方块，在顶部中心放置一个控制器，四个侧面中心的任意一个放置激光聚焦矩阵，侧面放置一些反应堆端口，一个用于输入氘氚燃料，一个用于输入水，一个用于输出蒸汽。想要最大化利用反应堆的能量，你需要用水冷却反应堆，并使用蒸汽驱动涡轮机发电！"]
 			dependencies: [
 				"2379418EA71135DF"
 				"2196443C5B92CC9D"
@@ -2047,7 +2047,7 @@
 		{
 			x: 9.5d
 			y: 19.0d
-			description: ["Lucky you! I have already built this machine and saved it! This allows you to use a schematic cannon, as well as the schematic table to build it for you if you so desire!"]
+			description: ["你太幸运了！我已经把机器搭建并保存了。你只需要使用蓝图加农炮以及蓝图桌即可快速搭建！"]
 			dependencies: ["77BAACC784701AD9"]
 			id: "22867767D82F51C3"
 			tasks: [{
@@ -2068,10 +2068,10 @@
 			}]
 		}
 		{
-			title: "Starting the Reactor"
+			title: "启动反应堆"
 			x: 8.5d
 			y: 21.0d
-			description: ["The laser focuses are placed like pistons [the target facing twords you] and they can be focused into other laser amplifiers. The goal here is to have a huge daisy chain of laser ampliphiers accumulating laser energy to shoot into the center of the reactor to kick start it! To kick start it you need to make sure the hohlraum flask is filled with a tad of D-T fuel and placed into the controller. Then ensure the last laser pointing twords the reactor is set to be only active with redstone power. After 1.5 GJ or so is stored in the front laser, redstone activate it and it will fire into the center of the reactor! You know it worked if you see crazy red and blue cubes freaking out inside!"]
+			description: ["激光放置方式类似于活塞（输出口朝向你）且激光可以被激光增幅器吸收。目标是放置大量激光增幅器聚集大量激光能量射向反应堆的中心来启动聚变反应。在启动反应堆之前，请确保黑体辐射腔已充满氘氚燃料并放置在反应堆控制器中。接着确保直接朝向反应堆的激光增幅器被设置为红石信号激活。在积攒满1.5GJ激光能量后，使用红石信号激活激光增幅器，激光就会点燃反应堆。当看到反应堆中间有红蓝立方在疯狂转动就证明反应堆在正常工作了！"]
 			dependencies: ["03CE4D4A3B09731F"]
 			id: "20CECE4C65F420A8"
 			tasks: [
@@ -2123,13 +2123,13 @@
 			x: 8.5d
 			y: 22.0d
 			shape: "diamond"
-			description: ["At this point your reactor should not explode and will self perpetuate provided it has enough D-T fuel at hand and the reactor does not cool down too much [from water cooling or otherwise]. If either of these fail you will need to jump start the reactor again!"]
+			description: ["这时候你的反应堆并不会爆炸，只要有足够的氘氚燃料和足够的冷却液它就会一直持续工作。如果两者任一无法满足要求，你就只能重新启动反应堆了。"]
 			dependencies: ["20CECE4C65F420A8"]
 			id: "4B55E3BE6619A3E8"
 			tasks: [{
 				id: "5FD19E7CDFB92BB3"
 				type: "checkmark"
-				title: "The reactor going forward"
+				title: "反应堆！前进！"
 			}]
 			rewards: [{
 				id: "3C51B4140450F99B"
@@ -2146,7 +2146,7 @@
 		{
 			x: 3.5d
 			y: 15.0d
-			description: ["This will produce plutonium fluid when provided with nuclear waste!"]
+			description: ["提供核废料生产钚！"]
 			dependencies: ["7987F46F3B6BBDC5"]
 			id: "335676BE5F5F03EF"
 			tasks: [{
@@ -2169,7 +2169,7 @@
 		{
 			x: 3.5d
 			y: 16.0d
-			description: ["Use plutonium fluid, fluorite dust, and some sort of coolant to fabricate plutonium pellets!"]
+			description: ["使用流体钚、氟石粉和一些冷却液来制作钚靶丸！"]
 			dependencies: ["335676BE5F5F03EF"]
 			id: "0B99D70509C44BD5"
 			tasks: [{
@@ -2212,10 +2212,10 @@
 			}]
 		}
 		{
-			title: "SuperCritical Phase Shifter"
+			title: "超临界移相器"
 			x: 3.5d
 			y: 18.0d
-			description: ["This complicated machine allows you to turn POLONIUM into antimater! Assemble by making a 7x7x7 cube with the 4 blocks closest to each corner removed. All blocks touching the edge of the shape must be SPS blocks, and to maximize resources the center of each face should be reactor glass! From there add a port on the center of each face, and on the inside add a supercharged coil to each interface. Once assembled you will need 2 additional ports, one for polonium in and one for antimater out! Be aware this process is extremely slow! [keep in mind EACH port connected to a super charged coil needs to be powered!]"]
+			description: ["这台复杂的机器可以将钋转变成反物质！搭建一个角落各确实4个方块的7x7x7立方体。边缘的所有方块必须是超临界移相器外壳，为了最大化节省材料，侧面中间应放置强化玻璃。在每个面的中心放置一个超临界移相器端口，并在机器内部每个端口上放置一个增压线圈。搭建完成时你需要两个额外的端口，一个用于输入钋，一个用于输出反物质。注意，这个过程非常非常缓慢。（注意，每个连接了增压线圈的端口都需要供电！）"]
 			dependencies: ["18484CAC3A5ACB06"]
 			id: "3D2DAECE26645902"
 			tasks: [
@@ -2259,7 +2259,7 @@
 		{
 			x: 2.5d
 			y: 19.0d
-			description: ["Lucky you! I have already built this machine and saved it! This allows you to use a schematic cannon, as well as the schematic table to build it for you if you so desire!"]
+			description: ["你太幸运了！我已经把机器搭建并保存了。你只需要使用蓝图加农炮以及蓝图桌即可快速搭建！"]
 			dependencies: ["3D2DAECE26645902"]
 			id: "5DEF2336FEC6D82E"
 			tasks: [{
@@ -2305,7 +2305,7 @@
 			x: 3.5d
 			y: 20.0d
 			shape: "diamond"
-			description: ["Probably the hardest material to get in the game. Well done!"]
+			description: ["可能是这个游戏里最难获得的材料！干得漂亮！"]
 			dependencies: ["437A1E23ECD9B407"]
 			id: "3F9538CB9BB45AD7"
 			tasks: [{
