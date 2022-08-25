@@ -737,7 +737,7 @@
 		{
 			x: 10.0d
 			y: 9.5d
-			description: ["这个权限管理器允许你管理存储系统的使用者并且告诉存储系统它们能做什么！"]
+			description: ["这个权限管理器允许你管理存储系统的使用者并且告诉存储系统他们能做什么！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "0021920FAF3A8D9E"
 			tasks: [
