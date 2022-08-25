@@ -356,7 +356,7 @@
 			}]
 		}
 		{
-			title: "Super Circuit Maker"
+			title: "Super Circuit Maker（等待模组翻译）"
 			icon: "supercircuitmaker:tiny_redstone"
 			x: 0.0d
 			y: -5.5d
@@ -371,7 +371,7 @@
 			}]
 		}
 		{
-			title: "Modular Routers"
+			title: "Modular Routers（等待模组翻译）"
 			icon: "modularrouters:modular_router"
 			x: 3.0d
 			y: -5.5d
@@ -468,7 +468,7 @@
 			}]
 		}
 		{
-			title: "Deep Resonance"
+			title: "Deep Resonance（等待模组翻译）"
 			icon: {
 				id: "deepresonance:resonating_crystal_natural"
 				Count: 1b
