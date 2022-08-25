@@ -1482,7 +1482,7 @@
 		{
 			x: 9.5d
 			y: 6.5d
-			description: ["可以让你蒙蔽敌人。"]
+			description: ["可以让你闪瞎敌人。"]
 			dependencies: ["17FE175BC731892B"]
 			id: "3833781897197459"
 			tasks: [{
