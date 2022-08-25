@@ -1,7 +1,7 @@
 {
 	id: "211A248E409BDFB1"
 	order_index: 99
-	title: "Chronicle_of_Shadows"
+	title: "阴影编年史"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

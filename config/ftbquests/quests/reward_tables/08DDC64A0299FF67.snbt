@@ -1,7 +1,7 @@
 {
 	id: "08DDC64A0299FF67"
 	order_index: 2
-	title: "Pretty_Plants"
+	title: "装饰植物"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

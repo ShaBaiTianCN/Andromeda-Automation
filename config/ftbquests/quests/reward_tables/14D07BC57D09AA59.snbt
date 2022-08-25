@@ -1,7 +1,7 @@
 {
 	id: "14D07BC57D09AA59"
 	order_index: 11
-	title: "Vanilla_Redstone"
+	title: "原版红石物品"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

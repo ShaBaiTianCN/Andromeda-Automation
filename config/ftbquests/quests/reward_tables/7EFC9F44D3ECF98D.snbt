@@ -1,7 +1,7 @@
 {
 	id: "7EFC9F44D3ECF98D"
 	order_index: 116
-	title: "Unlucky_Blocks"
+	title: "幸运方块（幸运：-80）"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

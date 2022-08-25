@@ -1,7 +1,7 @@
 {
 	id: "40E631CA39251C15"
 	order_index: 50
-	title: "Sand"
+	title: "沙子"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:sand", count: 64 }]

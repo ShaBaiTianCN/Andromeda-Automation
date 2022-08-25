@@ -1,7 +1,7 @@
 {
 	id: "4058F9EE7CDC28CC"
 	order_index: 28
-	title: "Portable_Inventories"
+	title: "便携存储"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

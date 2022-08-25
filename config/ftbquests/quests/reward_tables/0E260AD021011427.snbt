@@ -1,7 +1,7 @@
 {
 	id: "0E260AD021011427"
 	order_index: 18
-	title: "Mid_Game"
+	title: "游戏中期"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

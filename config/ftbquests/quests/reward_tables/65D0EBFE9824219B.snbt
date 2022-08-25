@@ -1,7 +1,7 @@
 {
 	id: "65D0EBFE9824219B"
 	order_index: 12
-	title: "Enchanted_Books"
+	title: "附魔书"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

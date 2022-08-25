@@ -1,7 +1,7 @@
 {
 	id: "6806FC6A88B74C4B"
 	order_index: 61
-	title: "Dragonhead"
+	title: "龙首"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:dragon_head" }]

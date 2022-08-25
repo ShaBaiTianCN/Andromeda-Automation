@@ -1,7 +1,7 @@
 {
 	id: "0F3EC54E9529F9B5"
 	order_index: 115
-	title: "Very_Lucky_Blocks"
+	title: "幸运方块（幸运：+80）"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

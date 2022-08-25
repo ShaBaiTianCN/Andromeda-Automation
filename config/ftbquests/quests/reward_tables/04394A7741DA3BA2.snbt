@@ -1,7 +1,7 @@
 {
 	id: "04394A7741DA3BA2"
 	order_index: 30
-	title: "Late_Game_Pipes"
+	title: "游戏末期管道"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

@@ -1,7 +1,7 @@
 {
 	id: "5BDAC7E83272DD5A"
 	order_index: 81
-	title: "dlerain"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_otherside" }]

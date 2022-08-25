@@ -1,7 +1,7 @@
 {
 	id: "20D41C08CDECADC2"
 	order_index: 56
-	title: "Pancake"
+	title: "煎饼"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "supplementaries:pancake", count: 32 }]

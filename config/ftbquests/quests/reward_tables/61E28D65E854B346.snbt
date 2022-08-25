@@ -1,7 +1,7 @@
 {
 	id: "61E28D65E854B346"
 	order_index: 3
-	title: "Gems"
+	title: "宝石"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

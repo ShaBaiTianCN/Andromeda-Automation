@@ -1,7 +1,7 @@
 {
 	id: "1D8CE6F2DE064083"
 	order_index: 47
-	title: "Dirt"
+	title: "泥土"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:dirt", count: 64 }]

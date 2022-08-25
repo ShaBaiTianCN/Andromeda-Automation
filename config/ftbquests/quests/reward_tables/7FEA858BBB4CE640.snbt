@@ -1,7 +1,7 @@
 {
 	id: "7FEA858BBB4CE640"
 	order_index: 109
-	title: "ExtendedCrafting"
+	title: "合成拓展"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

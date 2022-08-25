@@ -1,7 +1,7 @@
 {
 	id: "6FFA8B9CBD11D7DE"
 	order_index: 31
-	title: "Mid_Game_Pipes"
+	title: "游戏中期管道"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

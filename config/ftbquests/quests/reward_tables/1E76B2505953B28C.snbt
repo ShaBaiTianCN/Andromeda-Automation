@@ -1,7 +1,7 @@
 {
 	id: "1E76B2505953B28C"
 	order_index: 27
-	title: "Passive_Mobs"
+	title: "动物掉落物"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

@@ -1,7 +1,7 @@
 {
 	id: "3BFE483FFFC050C3"
 	order_index: 29
-	title: "Storage"
+	title: "存储"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

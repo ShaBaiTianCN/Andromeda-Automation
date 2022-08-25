@@ -1,7 +1,7 @@
 {
 	id: "2D1D377914E403E0"
 	order_index: 94
-	title: "Dripstone"
+	title: "滴水石块"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:dripstone_block", count: 64 }]

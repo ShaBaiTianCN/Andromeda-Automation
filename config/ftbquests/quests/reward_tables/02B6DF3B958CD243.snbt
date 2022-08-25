@@ -1,7 +1,7 @@
 {
 	id: "02B6DF3B958CD243"
 	order_index: 5
-	title: "Artifacts"
+	title: "饰品"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

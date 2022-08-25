@@ -1,7 +1,7 @@
 {
 	id: "08AFA36C65B842E0"
 	order_index: 97
-	title: "Statues"
+	title: "雕像"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

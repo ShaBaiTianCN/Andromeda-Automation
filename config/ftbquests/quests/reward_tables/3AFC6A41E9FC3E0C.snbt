@@ -1,7 +1,7 @@
 {
 	id: "3AFC6A41E9FC3E0C"
 	order_index: 8
-	title: "Mob_Drops"
+	title: "怪物掉落物"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

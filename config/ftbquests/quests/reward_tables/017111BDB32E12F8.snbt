@@ -1,7 +1,7 @@
 {
 	id: "017111BDB32E12F8"
 	order_index: 75
-	title: "dmellohi"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_mellohi" }]

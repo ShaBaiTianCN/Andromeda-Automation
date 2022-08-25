@@ -1,7 +1,7 @@
 {
 	id: "2A5F9710FADD7661"
 	order_index: 14
-	title: "Kitchen"
+	title: "厨房"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

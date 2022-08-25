@@ -1,7 +1,7 @@
 {
 	id: "7487B989A295E6E5"
 	order_index: 89
-	title: "CreativeDefense"
+	title: "创造防御槽"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

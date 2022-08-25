@@ -1,7 +1,7 @@
 {
 	id: "36A11B0F42EAF735"
 	order_index: 79
-	title: "d11"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_11" }]

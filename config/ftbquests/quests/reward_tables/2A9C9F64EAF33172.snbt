@@ -1,7 +1,7 @@
 {
 	id: "2A9C9F64EAF33172"
 	order_index: 15
-	title: "Dye"
+	title: "染料"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

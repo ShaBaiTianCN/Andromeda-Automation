@@ -1,7 +1,7 @@
 {
 	id: "2AAC5DBA40E68D0E"
 	order_index: 25
-	title: "Botania_Flowers"
+	title: "神秘花"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

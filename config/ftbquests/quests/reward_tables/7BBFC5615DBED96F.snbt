@@ -1,7 +1,7 @@
 {
 	id: "7BBFC5615DBED96F"
 	order_index: 0
-	title: "Lights"
+	title: "灯"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

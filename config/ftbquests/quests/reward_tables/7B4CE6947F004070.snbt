@@ -1,7 +1,7 @@
 {
 	id: "7B4CE6947F004070"
 	order_index: 19
-	title: "Average_Food"
+	title: "普通食物"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

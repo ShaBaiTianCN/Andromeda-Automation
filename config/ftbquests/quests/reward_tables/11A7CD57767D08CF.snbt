@@ -1,7 +1,7 @@
 {
 	id: "11A7CD57767D08CF"
 	order_index: 36
-	title: "Gold"
+	title: "金锭"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:gold_ingot", count: 16 }]

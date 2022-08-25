@@ -1,7 +1,7 @@
 {
 	id: "59D13E7CD4BBF4F7"
 	order_index: 74
-	title: "dmall"
+	title: "音乐唱片"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "minecraft:music_disc_mall" }]

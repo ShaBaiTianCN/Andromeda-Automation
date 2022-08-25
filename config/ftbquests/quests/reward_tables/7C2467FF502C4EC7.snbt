@@ -1,7 +1,7 @@
 {
 	id: "7C2467FF502C4EC7"
 	order_index: 58
-	title: "ddyLotus"
+	title: "暗黑莲花"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "botania:blacker_lotus", count: 16 }]

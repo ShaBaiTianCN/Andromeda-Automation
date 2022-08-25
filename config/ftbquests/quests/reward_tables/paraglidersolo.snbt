@@ -1,7 +1,7 @@
 {
 	id: "62461472D8374E1A"
 	order_index: 128
-	title: "paraglidersolo"
+	title: "滑翔伞"
 	loot_size: 1
 	rewards: [
 		{ item: "paraglider:paraglider" }

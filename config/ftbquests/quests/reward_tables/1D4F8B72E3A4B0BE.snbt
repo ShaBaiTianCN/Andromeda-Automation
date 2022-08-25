@@ -1,7 +1,7 @@
 {
 	id: "1D4F8B72E3A4B0BE"
 	order_index: 51
-	title: "Dust"
+	title: "尘土"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "exnihilosequentia:dust", count: 64 }]

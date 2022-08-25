@@ -1,7 +1,7 @@
 {
 	id: "04398F40E0C22C39"
 	order_index: 10
-	title: "Early_Game_Machines"
+	title: "游戏早期机械"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

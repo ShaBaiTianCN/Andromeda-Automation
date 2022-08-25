@@ -1,7 +1,7 @@
 {
 	id: "300BA8A06466071F"
 	order_index: 117
-	title: "menril"
+	title: "门瑞欧树苗"
 	loot_size: 1
 	rewards: [{ item: "integrateddynamics:menril_sapling", count: 8 }]
 }

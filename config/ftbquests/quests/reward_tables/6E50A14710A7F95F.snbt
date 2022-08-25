@@ -1,7 +1,7 @@
 {
 	id: "6E50A14710A7F95F"
 	order_index: 66
-	title: "EpicShaders"
+	title: "史诗 皮肤奖励袋"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "immersiveengineering:shader_bag_epic" }]

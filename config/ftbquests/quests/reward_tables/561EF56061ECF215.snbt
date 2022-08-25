@@ -1,7 +1,7 @@
 {
 	id: "561EF56061ECF215"
 	order_index: 108
-	title: "Thermalpedia"
+	title: "热力百科"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

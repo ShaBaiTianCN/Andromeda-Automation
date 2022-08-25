@@ -1,7 +1,7 @@
 {
 	id: "5AB6532EB0C6EB1B"
 	order_index: 13
-	title: "Pretty_Blocks"
+	title: "装饰方块"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

@@ -1,7 +1,7 @@
 {
 	id: "162BC14B5B5CF36D"
 	order_index: 21
-	title: "Raw_Materials"
+	title: "粗金属"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [

@@ -1,7 +1,7 @@
 {
 	id: "06972854B0BA5B39"
 	order_index: 59
-	title: "Elytra"
+	title: "鞘翅"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{

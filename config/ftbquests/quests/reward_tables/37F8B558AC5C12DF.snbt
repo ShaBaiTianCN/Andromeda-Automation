@@ -1,7 +1,7 @@
 {
 	id: "37F8B558AC5C12DF"
 	order_index: 62
-	title: "Fireball"
+	title: "火焰球"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [{ item: "cyclic:fireball", count: 8 }]

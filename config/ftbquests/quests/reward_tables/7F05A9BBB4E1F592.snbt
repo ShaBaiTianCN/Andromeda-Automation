@@ -1,7 +1,7 @@
 {
 	id: "7F05A9BBB4E1F592"
 	order_index: 23
-	title: "Bee_Eggs"
+	title: "蜜蜂刷怪蛋"
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [
