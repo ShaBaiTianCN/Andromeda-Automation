@@ -33,7 +33,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["这个机器允许你给一些物品充能！同时包括充能赛特斯石英！"]
+			description: ["这个机器允许你给一些物品充能！包括充能赛特斯石英水晶！"]
 			dependencies: ["024E65D7185048F6"]
 			id: "4E8BC7BEE3514370"
 			tasks: [{
@@ -123,7 +123,7 @@
 		{
 			x: 2.0d
 			y: 6.0d
-			description: ["基础处理器允许你制作Mod中的大多数东西！"]
+			description: ["基础处理器允许你制作模组中的大多数东西！"]
 			dependencies: ["79E9586512941D83"]
 			id: "0B90160280393C6D"
 			tasks: [
@@ -495,7 +495,7 @@
 		{
 			x: 1.0d
 			y: 11.0d
-			description: ["这允许你访问其他容器！就像抽屉系统或巨大的箱子一样！"]
+			description: ["这允许你访问其它容器！就像抽屉系统或巨大的箱子一样！"]
 			dependencies: ["1BAD93DF766559AB"]
 			id: "53D58CDF50DAFC2D"
 			tasks: [{
@@ -610,7 +610,7 @@
 		{
 			x: 7.0d
 			y: 9.5d
-			description: ["他允许你对要处理的样板进行编码！确保选中处理框以允许你使用接口和机器。"]
+			description: ["它允许你对要处理的样板进行编码！确保选中处理框以允许你使用接口和机器。"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "46F34652A6D2358B"
 			tasks: [{
@@ -737,7 +737,7 @@
 		{
 			x: 10.0d
 			y: 9.5d
-			description: ["这个权限管理器允许你管理存储系统的使用者并且告诉存储系统他们能做什么！"]
+			description: ["这个权限管理器允许你管理存储系统的使用者并且告诉存储系统它们能做什么！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "0021920FAF3A8D9E"
 			tasks: [
