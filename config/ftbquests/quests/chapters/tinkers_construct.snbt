@@ -1,9 +1,9 @@
-{
+	{
 	id: "0BF6B4A68FCEF2CF"
 	group: "1D115F3DF1092C06"
 	order_index: 2
 	filename: "tinkers_construct"
-	title: "Tinker's Construct"
+	title: "匠魂"
 	icon: {
 		id: "tconstruct:sledge_hammer"
 		Count: 1b
@@ -49,7 +49,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Tinkering Progression!"
+			title: "前进吧！工匠！"
 			icon: {
 				id: "tconstruct:sledge_hammer"
 				Count: 1b
@@ -93,7 +93,7 @@
 			}
 			x: 0.0d
 			y: 2.5d
-			description: ["For this mod, reading is incredibly important because it let's you chose the best materials to build your tools out of! This is a highly customizable mod and this quest series is designed to gently guide your progression, but tool making is up to you!"]
+			description: ["对于这个模组，阅读至关重要，因为你可以通过阅读选择制作工具时效果最佳的材料！这是一个高度可定制的模组，而这个温柔的任务线会在发展方向上指导你，而工具制作，都取决于你！"]
 			dependencies: ["41C54E45615E2BCA"]
 			hide: true
 			id: "57AFD234B2EC10BA"
@@ -114,17 +114,17 @@
 			}]
 		}
 		{
-			title: "Slingshot Transport!"
+			title: "弹弓移动"
 			x: 3.0d
 			y: 7.0d
-			description: ["Can launch you long distances! Beware of the fall damage without the boots though!"]
+			description: ["可以发射出超远距离！但是要保证你的黏液靴子耐久足够！"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "5A6908CBDBB4E4BF"
 			tasks: [
 				{
 					id: "44F2F9EE014FD537"
 					type: "item"
-					title: "Any #tconstruct:slimeslings"
+					title: "任意 #tconstruct:slimeslings"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -181,7 +181,7 @@
 		{
 			x: 0.0d
 			y: 5.5d
-			description: ["Place the melter on the heater for the tiniest smeltery on the face of the planet! Use a redstone signal on the faucet to automate the extraction of liquids!"]
+			description: ["将焦黑熔化炉放置在焦黑加热器上，这就成为了世界上最小的冶炼厂！在浇注口上方使用红石信号来自动浇注液体！"]
 			dependencies: ["39765A4278EE2D0E"]
 			id: "7FCE90711D0201B0"
 			tasks: [
@@ -247,7 +247,7 @@
 			}]
 		}
 		{
-			title: "Temporary casts!"
+			title: "一次性铸模"
 			x: -4.0d
 			y: 7.0d
 			dependencies: ["7FCE90711D0201B0"]
@@ -272,7 +272,7 @@
 			}]
 		}
 		{
-			title: "Permanent Casts!"
+			title: "永久铸模"
 			x: -3.0d
 			y: 7.0d
 			dependencies: ["7FCE90711D0201B0"]
@@ -280,7 +280,7 @@
 			tasks: [{
 				id: "79686960EE6F7B57"
 				type: "item"
-				title: "Any #tconstruct:casts/gold"
+				title: "任意 #tconstruct:casts/gold"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -302,7 +302,7 @@
 			}]
 		}
 		{
-			title: "Tinker's Anvil!"
+			title: "工匠砧！"
 			icon: {
 				id: "tconstruct:tinkers_anvil"
 				Count: 1b
@@ -312,13 +312,13 @@
 			}
 			x: -2.0d
 			y: 7.0d
-			description: ["The Tinker's Anvil is an upgraded version of the tinker's station!"]
+			description: ["工匠砧是工匠站的升级版！"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "522373E5FE6AEF36"
 			tasks: [{
 				id: "05F153F372AB58DC"
 				type: "checkmark"
-				title: "Anvil!"
+				title: "工匠砧！"
 			}]
 			rewards: [{
 				id: "2518D89BA293EF59"
@@ -333,11 +333,11 @@
 			}]
 		}
 		{
-			title: "The Basic Smeltery!"
+			title: "基础的冶炼炉！"
 			x: 0.0d
 			y: 7.0d
 			shape: "pentagon"
-			description: ["Controller lets you insert items for melting, and the tank requires fuel for the smeltery! [in most cases just lava is great! The smeltery controller when placed can help you figure out what is wrong by hilighting bad blocks in red!]"]
+			description: ["冶炼炉控制器可以把你需要熔炼的矿物放入冶炼炉中！[大多数情况，熔岩是十分不错的染料！在冶炼炉控制器放置时会用红色边框的透明方块标注出问题所在！]"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "2BF76A6DF8AB98A1"
 			tasks: [
@@ -349,7 +349,7 @@
 				{
 					id: "5413437B36C48F91"
 					type: "item"
-					title: "Any #tconstruct:seared_blocks"
+					title: "任意 #tconstruct:seared_blocks"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -380,7 +380,7 @@
 		{
 			x: -1.0d
 			y: 7.0d
-			description: ["Takes out any fluid with the piping of your choice!"]
+			description: ["用您选择的管道取出任何流体！"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "1E7BB1DD8EE0A375"
 			tasks: [{
@@ -403,7 +403,7 @@
 		{
 			x: 1.0d
 			y: 7.0d
-			description: ["Filtered interface with the smeltery! Chose the fluid by inserting a copper bucket filled with the required fluid!"]
+			description: ["焦黑疏导孔是限定某种液体排出的设备。将装有特定流体的铜罐放入其过滤槽以限定流体！"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "68B34D7AA3781514"
 			tasks: [{
@@ -449,7 +449,7 @@
 		{
 			x: 2.0d
 			y: 7.0d
-			description: ["Another interface that behaves like the controller! Lets you manage items within the smeltery!"]
+			description: ["另一个管理冶炼炉输入输出的设备，和冶炼炉控制器相似！让你管理冶炼炉内物品！"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "4EDB09D1DB506F74"
 			tasks: [{
@@ -478,13 +478,13 @@
 		{
 			x: 1.0d
 			y: 4.0d
-			description: ["When building a tool the ingredients you chose effect the final tools statistics including modifiers! Modifiers allow you to change an element of the tool such as allowing it to have silk touch or mine faster for an example!"]
+			description: ["当你制作一把工具时，你选择的材料影响最终工具的各项具体数值，包括强化！强化允许你改变现有工具的一些效果，例如可以使他拥有精准采集或是挖的更快！"]
 			dependencies: ["57AFD234B2EC10BA"]
 			id: "35729A5666AD8DCE"
 			tasks: [{
 				id: "02B3883709CFC92A"
 				type: "checkmark"
-				title: "Modifiers!"
+				title: "强化！"
 			}]
 			rewards: [{
 				id: "092CB7482DDC9090"
@@ -499,16 +499,16 @@
 			}]
 		}
 		{
-			title: "Tool Components!"
+			title: "工具部件"
 			x: -1.0d
 			y: 4.0d
-			description: ["Different tool components effect the final tool! Like what it takes to repair, it's statistics, or what mining level it has!"]
+			description: ["不同的工具部件影响着最终工具的各项具体数值！像是修复材料，效果或是挖掘等级！"]
 			dependencies: ["57AFD234B2EC10BA"]
 			id: "694F22DC6B838F44"
 			tasks: [{
 				id: "3F70248EBF69BB2E"
 				type: "checkmark"
-				title: "Tool Componants!"
+				title: "工具部件"
 			}]
 			rewards: [{
 				id: "41577EA342A31856"
@@ -537,7 +537,7 @@
 				{
 					id: "45239462F83B904C"
 					type: "item"
-					title: "Any #tconstruct:scorched_blocks"
+					title: "任意 #tconstruct:scorched_blocks"
 					item: {
 						id: "itemfilters:tag"
 						Count: 1b
@@ -575,7 +575,7 @@
 		{
 			x: -0.5d
 			y: 10.5d
-			description: ["Takes out any fluid with the piping of your choice!"]
+			description: ["用您选择的管道取出任何流体！"]
 			dependencies: ["26F8FEFAA025DA27"]
 			id: "3467787AA816E149"
 			tasks: [{
@@ -598,7 +598,7 @@
 		{
 			x: 0.5d
 			y: 10.5d
-			subtitle: "Filtered interface with the smeltery! Chose the fluid by inserting a copper bucket filled with the required fluid!"
+			subtitle: "焦褐疏导孔是限定某种液体排出的设备。将装有特定流体的铜罐放入其过滤槽以限定流体！"
 			dependencies: ["26F8FEFAA025DA27"]
 			id: "0AE9DDBED1D1F421"
 			tasks: [{
@@ -643,7 +643,7 @@
 		{
 			x: 4.0d
 			y: 7.0d
-			description: ["This fancy gizmo allows you to take one input and distribute it over multiple outputs! Or vice versa!"]
+			description: ["这个精致的浇注道允许您获取一个输入点并将其分布在多个输出点上！反之亦然！"]
 			dependencies: ["7FCE90711D0201B0"]
 			id: "7CD0378FA0E62D83"
 			tasks: [{
