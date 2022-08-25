@@ -547,7 +547,7 @@
 		{
 			x: -1.0d
 			y: 8.5d
-			description: ["火花是非常有用的高级魔力传输物品。它们可以用来从魔力池中转移魔力，这与魔力发射器不同。它们有多种可制作的增强器，以实现不同的模式。"]
+			description: ["火花是非常有用的高级魔力传输物品。它们可以用来从魔力池中转移魔力，这与魔力发射器不同。它们有多种可制作的升级，以实现不同的模式。"]
 			dependencies: ["7C01FD23A7777D5C"]
 			id: "148565CA1966E0B8"
 			tasks: [{
@@ -1207,7 +1207,7 @@
 		{
 			x: -7.0d
 			y: 4.0d
-			description: ["对魔力脉冲有引力。甚至可以使它们进入围绕它的轨道。."]
+			description: ["对魔力脉冲有引力。甚至可以使它们进入围绕它的轨道。"]
 			hide_dependency_lines: true
 			dependencies: ["1C8CDF79FDB49101"]
 			id: "1DC65FAD8F0BFE4A"
@@ -2308,7 +2308,7 @@
 		{
 			x: 14.0d
 			y: 14.5d
-			description: ["可以通过简单的右击自动融化任何可烹饪的方块。"]
+			description: ["可以通过简单的右击自动熔炼任何可熔炼的方块。"]
 			hide_dependency_lines: true
 			dependencies: ["12F9FCB680BBE46D"]
 			id: "7AFF656D7BB67BA0"
@@ -2356,7 +2356,7 @@
 		{
 			x: 10.0d
 			y: 19.0d
-			description: ["使用魔力创建一个临时的彩虹桥。也可用于在工作台中创建彩虹方块。"]
+			description: ["使用魔力创建一个临时的彩虹桥。也可用于在工作台中制作彩虹桥方块。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "704E8196C780D760"
@@ -2824,7 +2824,7 @@
 		{
 			x: 13.5d
 			y: -3.0d
-			description: ["生成地牢战利品！其形式是：受保护的怪物，死亡时各掉落一件物品。"]
+			description: ["生成地牢战利品！其形式是：保护它的怪物，死亡时各掉落一件物品。"]
 			dependencies: ["59739D3619091623"]
 			id: "56DCAE13B1308CE4"
 			tasks: [{
@@ -2916,7 +2916,7 @@
 		{
 			x: 9.0d
 			y: 0.0d
-			description: ["将普通的下界岩变成任何在下界岩产生的矿石。"]
+			description: ["将普通的下界岩变成任何以下界岩为基底生成的矿石。"]
 			dependencies: ["59739D3619091623"]
 			id: "174B7424F68E4BEC"
 			tasks: [{
@@ -2985,7 +2985,7 @@
 		{
 			x: 8.0d
 			y: 3.0d
-			description: ["当他们在它的范围内时，防止来自玩家的放大作用。如果这将破坏自动化设置，则很有帮助。"]
+			description: ["在它的范围内，阻止来自玩家的吸引效果。如果这将破坏自动化设置，则很有帮助。"]
 			dependencies: ["59739D3619091623"]
 			id: "4758BEC029062FBB"
 			tasks: [{
@@ -3100,7 +3100,7 @@
 		{
 			x: 10.5d
 			y: -2.0d
-			description: ["你可以用任何常规的神秘花来制作这些花。将这些花中的一朵与工作台中的功能花或生成花结合起来，就可以制作出该花的浮空版本。"]
+			description: ["你可以用任何常规的神秘花来制作这些花。将这些花中的一朵与工作台中的功能花或产能花结合起来，就可以制作出该花的浮空版本。"]
 			dependencies: ["59739D3619091623"]
 			id: "105CFEAE981A6454"
 			tasks: [{
@@ -3417,7 +3417,7 @@
 		{
 			x: 11.0d
 			y: 19.0d
-			description: ["概率性斩杀一些怪物和玩家。概率随着掠夺的增加而增加。"]
+			description: ["概率性斩首一些怪物和玩家。概率随着时运等级的增加而增加。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "626C5E8E214F4100"
@@ -3447,7 +3447,7 @@
 		{
 			x: 11.0d
 			y: 18.0d
-			description: ["增加小精灵带着盔甲出生的机会，并给他们一个BUFF。"]
+			description: ["增加盔甲召唤小精灵的概率，并给予目标一个BUFF。"]
 			hide_dependency_lines: true
 			dependencies: ["709BB553FDC5CD64"]
 			id: "6530D11AC9D6F4E5"
