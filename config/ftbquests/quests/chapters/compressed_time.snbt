@@ -3,7 +3,7 @@
 	group: "060FC1801833F14E"
 	order_index: 2
 	filename: "compressed_time"
-	title: "Compressed Time!"
+	title: "压缩时间！"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -934,14 +934,14 @@
 		{
 			x: 4.5d
 			y: -2.0d
-			description: ["Compressed items are really annoying to get! Have determination and time to get these!"]
+			description: ["压缩物品真的很烦人！希望你有决心和时间得到这些！"]
 			dependencies: ["1FD033E62DDAB4B5"]
 			hide: true
 			id: "19EC849C57CD4026"
 			tasks: [{
 				id: "02DE83D7757014E3"
 				type: "checkmark"
-				title: "A Long Process"
+				title: "漫长的过程"
 			}]
 		}
 	]
