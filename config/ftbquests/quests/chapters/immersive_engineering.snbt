@@ -1459,7 +1459,7 @@
 		{
 			x: 10.5d
 			y: 6.5d
-			description: ["让你震惊你的敌人。"]
+			description: ["可以让你震击敌人。"]
 			dependencies: ["17FE175BC731892B"]
 			id: "2C802A6E54267AAC"
 			tasks: [{
