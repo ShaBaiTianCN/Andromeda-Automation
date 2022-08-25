@@ -856,7 +856,7 @@
 			}
 			x: 1.0d
 			y: -1.0d
-			description: ["循环是一个很棒的mod，有多种多样的东西Cyclic is a great mod with lots of random bips and bops!"]
+			description: ["循环是一个很棒的模组，有林林总总的东西！"]
 			dependencies: ["4D6256C8BE38046F"]
 			hide: true
 			id: "78A18708E1695263"
