@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 7
 	filename: "refined_storage"
-	title: "Refined Storage"
+	title: "精致存储"
 	icon: "refinedstorage:creative_controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -33,7 +33,7 @@
 		{
 			x: 2.0d
 			y: 0.0d
-			description: ["This allows you to charge many items! Including making charged certus quartz!"]
+			description: ["这个机器允许你给一些物品充能！同时包括充能赛特斯石英！"]
 			dependencies: ["024E65D7185048F6"]
 			id: "4E8BC7BEE3514370"
 			tasks: [{
@@ -78,7 +78,7 @@
 		{
 			x: 2.0d
 			y: 2.0d
-			description: ["Fabricate Fluix dust by allowing charged certus quartz, nether quartz, and redstone sit in water for a few seconds! Then same deal! Allow to grow in water for 20 or so miniutes!"]
+			description: ["将充能赛特斯石英水晶、下界石英与红石丢入水中静置几秒以合成福鲁伊克斯粉！接着和之前一样！等待它在水中生长20分钟！"]
 			dependencies: ["0AE80D1589576C82"]
 			id: "6154010C17A01900"
 			tasks: [{
@@ -123,7 +123,7 @@
 		{
 			x: 2.0d
 			y: 6.0d
-			description: ["Basic processors allow you to craft the majority of things in the mod!"]
+			description: ["基础处理器允许你制作Mod中的大多数东西！"]
 			dependencies: ["79E9586512941D83"]
 			id: "0B90160280393C6D"
 			tasks: [
@@ -161,7 +161,7 @@
 		{
 			x: 2.0d
 			y: 7.0d
-			description: ["This is the heart of your storage network! It also allows for energy storage!"]
+			description: ["这是你的存储网络的心脏！同时还允许消耗能量以存储物品！"]
 			dependencies: ["0B90160280393C6D"]
 			id: "7C9D9EEBD4FF83D7"
 			tasks: [{
@@ -273,7 +273,7 @@
 			x: -2.5d
 			y: 10.5d
 			shape: "square"
-			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			description: ["一个存储磁盘允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！每个磁盘都需要放在存储驱动器内！"]
 			dependencies: ["3FCDC29B11CA698B"]
 			id: "71FD6ECE73904F36"
 			tasks: [{
@@ -296,7 +296,7 @@
 		{
 			x: -1.5d
 			y: 10.5d
-			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			description: ["一个存储方块允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！这样做的缺点是它占用了世界内的空间！虽然它可能更便宜。"]
 			dependencies: ["3FCDC29B11CA698B"]
 			id: "2635376DACE79298"
 			tasks: [{
@@ -320,7 +320,7 @@
 			x: -4.5d
 			y: 10.5d
 			shape: "square"
-			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			description: ["一个存储磁盘允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！每个磁盘都需要放在存储驱动器内！"]
 			dependencies: ["59F850A0A74905EA"]
 			id: "7BF351C712B90841"
 			tasks: [{
@@ -343,7 +343,7 @@
 		{
 			x: -3.5d
 			y: 10.5d
-			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			description: ["一个存储方块允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！这样做的缺点是它占用了世界内的空间！虽然它可能更便宜。"]
 			dependencies: ["59F850A0A74905EA"]
 			id: "737D362B901458DB"
 			tasks: [{
@@ -367,7 +367,7 @@
 			x: -6.5d
 			y: 10.5d
 			shape: "square"
-			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			description: ["一个存储磁盘允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！每个磁盘都需要放在存储驱动器内！"]
 			dependencies: ["452058848CBEA0D7"]
 			id: "5CE135159B9C6989"
 			tasks: [{
@@ -390,7 +390,7 @@
 		{
 			x: -5.5d
 			y: 10.5d
-			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			description: ["一个存储方块允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！这样做的缺点是它占用了世界内的空间！虽然它可能更便宜。"]
 			dependencies: ["452058848CBEA0D7"]
 			id: "48CEF208B93B86E9"
 			tasks: [{
@@ -414,7 +414,7 @@
 			x: -8.5d
 			y: 10.5d
 			shape: "square"
-			description: ["A storage disk allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! Each disk needs to be put inside of a storage drive!"]
+			description: ["一个存储磁盘允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！每个磁盘都需要放在存储驱动器内！"]
 			dependencies: ["58E38BC2B300489F"]
 			id: "6333C124A85F3132"
 			tasks: [{
@@ -437,7 +437,7 @@
 		{
 			x: -7.5d
 			y: 10.5d
-			description: ["A storage block allows for the storage of items depending on the size! This is significant because it is the equivalent to a large chest! The disadvantage of this is it takes up space within the world! Though it may be cheaper."]
+			description: ["一个存储方块允许你基于它的容量存储定量的物品！这很重要，因为它相当于一个大箱子！这样做的缺点是它占用了世界内的空间！虽然它可能更便宜。"]
 			dependencies: ["58E38BC2B300489F"]
 			id: "2F37A0A046C76992"
 			tasks: [{
@@ -449,7 +449,7 @@
 		{
 			x: 0.0d
 			y: 9.5d
-			description: ["This allows you to access all stored items!"]
+			description: ["这让你可以访问你存储的物品！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "00AE4E99C5A994F0"
 			tasks: [{
@@ -472,7 +472,7 @@
 		{
 			x: 3.0d
 			y: 9.5d
-			description: ["These allow you to connect your network together!"]
+			description: ["这些线缆允许你连接你的存储网络！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "1BAD93DF766559AB"
 			tasks: [{
@@ -495,7 +495,7 @@
 		{
 			x: 1.0d
 			y: 11.0d
-			description: ["This allows for storage of other inventories! Like a system of drawers or a colossal chest!"]
+			description: ["这允许你访问其他容器！就像抽屉系统或巨大的箱子一样！"]
 			dependencies: ["1BAD93DF766559AB"]
 			id: "53D58CDF50DAFC2D"
 			tasks: [{
@@ -518,7 +518,7 @@
 		{
 			x: 2.0d
 			y: 11.0d
-			description: ["This takes items from the attached inventory and puts them within the system."]
+			description: ["这会从与存储网络连接的容器中获取物品，并将它们存入系统中。"]
 			dependencies: ["1BAD93DF766559AB"]
 			id: "1AF14DDA5CEFA13D"
 			tasks: [{
@@ -541,7 +541,7 @@
 		{
 			x: 5.0d
 			y: 11.0d
-			description: ["Will take items from within the network and place them within the world."]
+			description: ["这会从与存储网络连接的容器中获取物品，并将它们存入系统中。"]
 			dependencies: ["1BAD93DF766559AB"]
 			id: "2AF0693D042229DF"
 			tasks: [{
@@ -564,7 +564,7 @@
 		{
 			x: 4.0d
 			y: 11.0d
-			description: ["Will break items within the world and import them into the network."]
+			description: ["这会破坏世界中的方块并存入网络中。"]
 			dependencies: ["1BAD93DF766559AB"]
 			id: "5B66EBB5FF44F7C1"
 			tasks: [{
@@ -587,7 +587,7 @@
 		{
 			x: 3.0d
 			y: 11.0d
-			description: ["This takes item from within the system and outputs them to the attached inventory."]
+			description: ["这将会从存储系统中输出对应的物品到容器中。"]
 			dependencies: ["1BAD93DF766559AB"]
 			id: "4BC623BFE0BE653C"
 			tasks: [{
@@ -610,7 +610,7 @@
 		{
 			x: 7.0d
 			y: 9.5d
-			description: ["This allows you to encode patterns to be processed! Make sure to check the processing box to allow you to interface and use machines."]
+			description: ["他允许你对要处理的样板进行编码！确保选中处理框以允许你使用接口和机器。"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "46F34652A6D2358B"
 			tasks: [{
@@ -633,7 +633,7 @@
 		{
 			x: 7.0d
 			y: 12.5d
-			description: ["This machine allows you to manage crafters!"]
+			description: ["这个机器允许你管理合成仓！"]
 			dependencies: ["5D7163B82224051A"]
 			id: "3D74BC75E8163836"
 			tasks: [{
@@ -656,7 +656,7 @@
 		{
 			x: 7.0d
 			y: 10.5d
-			description: ["This is your basic crafting storage device."]
+			description: ["这是你基本的合成表存储物品。"]
 			dependencies: ["46F34652A6D2358B"]
 			id: "572DD0BDABA37B76"
 			tasks: [{
@@ -679,7 +679,7 @@
 		{
 			x: 7.0d
 			y: 11.5d
-			description: ["This allows you to do it all! It can craft, and interface with machines depending on the direction it is facing."]
+			description: ["这可以让你做到这一切！它可以根据它所面向的方向进行制作并与机器连接。"]
 			dependencies: ["572DD0BDABA37B76"]
 			id: "5D7163B82224051A"
 			tasks: [{
@@ -702,7 +702,7 @@
 		{
 			x: 8.5d
 			y: 9.5d
-			description: ["These allow you to wirelessly connect your network! Connect them with a wireless card!"]
+			description: ["这些允许您无线连接您的网络！用无线网卡连接它们！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "2892D2FAE490ECB6"
 			tasks: [
@@ -737,7 +737,7 @@
 		{
 			x: 10.0d
 			y: 9.5d
-			description: ["The security manager allows you to manage your users and tell the system what exactly they are allowed to do!"]
+			description: ["这个权限管理器允许你管理存储系统的使用者并且告诉存储系统他们能做什么！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "0021920FAF3A8D9E"
 			tasks: [
@@ -767,7 +767,7 @@
 		{
 			x: 11.5d
 			y: 9.5d
-			description: ["These two items combined allow you to wirelessly access your system!"]
+			description: ["将这两个物品结合在一起后，你便可以无限访问你的存储系统！"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "60F77565E4A25B2D"
 			tasks: [
@@ -797,7 +797,7 @@
 		{
 			x: 2.5d
 			y: 12.0d
-			description: ["This behaves as both an importer and an exporter! "]
+			description: ["这既是入口又是出口！"]
 			dependencies: [
 				"1AF14DDA5CEFA13D"
 				"4BC623BFE0BE653C"
@@ -823,7 +823,7 @@
 		{
 			x: 13.0d
 			y: 9.5d
-			description: ["This can tell you the volume of items held within the system."]
+			description: ["这可以告诉您系统中持有的物品数量。"]
 			dependencies: ["7C9D9EEBD4FF83D7"]
 			id: "10EBD82A8B566DAE"
 			tasks: [{
@@ -844,10 +844,10 @@
 			}]
 		}
 		{
-			title: "Pressure Chamber"
+			title: "压力室"
 			x: 2.0d
 			y: 5.0d
-			description: ["In order to form a pressure chamber you have to first form a cube frame with the wall blocks. This can be 3x3 up to 5x5. Then it needs 2 interfaces, one facing input side, and one facing output side, and a pressure valve. Keep the inside blocks air, and everything else can be any of the pressure chamber blocks on top of what's required."]
+			description: ["为了成功搭建压力室多方块结构，你必须先用压力室搭建一个框架。大小可以是3×3×3到5×5×5的任意正方体。接着需要两个压力室接口以输入输出原料和成品。再接着需要一个压力阀，保持内部的空气压力，而压力室顶部所需的方块则可以用任意压力室材料搭建。"]
 			dependencies: ["22DCA89476339248"]
 			id: "79E9586512941D83"
 			tasks: [
@@ -935,7 +935,7 @@
 		{
 			x: 2.0d
 			y: -2.0d
-			description: ["Allow to grow in water for 20 or so miniutes!"]
+			description: ["等待它在水中生长20分钟！"]
 			dependencies: ["7132874AEB96DB9D"]
 			id: "49C75975E41474FD"
 			tasks: [{
