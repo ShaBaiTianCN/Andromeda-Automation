@@ -3,7 +3,7 @@
 	group: "3B8B12427843DE95"
 	order_index: 0
 	filename: "farmers_delight"
-	title: "Farmer's Delight"
+	title: "农夫乐事"
 	icon: "farmersdelight:rice_panicle"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -18,7 +18,7 @@
 			tasks: [{
 				id: "6EFC1D8BC00E22F7"
 				type: "checkmark"
-				title: "Farmer's Delight Goodies!"
+				title: "农夫乐事大大的好！"
 			}]
 			rewards: [{
 				id: "6F5B8F2C0224D2BF"
@@ -74,7 +74,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
-			description: ["It may be time to grow some rice and shove it into a cutting board! [quests located in kitchen building]"]
+			description: ["也许是时候种植一些水稻并将其推向砧板了！[在厨房建筑中的任务]"]
 			dependencies: ["3DCA2297425D745B"]
 			id: "5FDF79F55A845A88"
 			tasks: [{
@@ -126,7 +126,7 @@
 			x: 7.0d
 			y: 2.5d
 			shape: "gear"
-			description: ["Shoot an arrow and climb up. Floating islands here we go!"]
+			description: ["把箭射上去，爬上去。浮岛，我们走吧！"]
 			dependencies: ["6C57B424A2746F1E"]
 			id: "27A64DFD9EDAF89F"
 			tasks: [{
@@ -294,7 +294,7 @@
 		{
 			x: 0.0d
 			y: -3.5d
-			description: ["Silk touch anyone?"]
+			description: ["有人要精准采集吗？"]
 			dependencies: ["3DCA2297425D745B"]
 			id: "2F8FC09EF41BA47C"
 			tasks: [
