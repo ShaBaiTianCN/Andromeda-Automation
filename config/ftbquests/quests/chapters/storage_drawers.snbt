@@ -176,7 +176,7 @@
 		{
 			x: 6.0d
 			y: -2.5d
-			description: ["锁定抽屉，这样即使该物品用完，也只能进入该物品"]
+			description: ["给抽屉上锁，这样即使该物品用完，其他物品也不会进入此抽屉"]
 			dependencies: ["3257E887A20759EE"]
 			id: "06A977AF6295EB22"
 			tasks: [{
