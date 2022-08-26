@@ -3,7 +3,7 @@
 	group: "3169F62C14ECDF17"
 	order_index: 2
 	filename: "mystical_agriculture"
-	title: "Mystical Agriculture"
+	title: "神秘农业"
 	icon: "mysticalagriculture:nature_seeds"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,13 +12,13 @@
 			x: -6.0d
 			y: -0.5d
 			shape: "diamond"
-			description: ["This is the entire focus of the mod! These allow you to craft a variety of fancy seeds that you can plant to grow crops that give you various resources in the game!"]
+			description: ["这就是本模组的焦点！这些可以让你制作各种精致的种子，你可以种植这些种子来生长作物，在游戏中为你提供各种资源！"]
 			dependencies: ["539B5BC99777FCCB"]
 			id: "72F518F7CA626DA5"
 			tasks: [{
 				id: "71EF4B1C3C87F019"
 				type: "item"
-				title: "Any #mysticalagriculture:seeds"
+				title: "任意 #mysticalagriculture:seeds"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -32,7 +32,7 @@
 		{
 			x: -6.0d
 			y: -1.5d
-			description: ["The altar will tell you where to put the pedestals when placed! Begin crafting by applying a redstone signal!"]
+			description: ["祭坛会告诉你放置基座的位置！应用红石信号以开始制作！"]
 			dependencies: ["2A694E7DCB9849D2"]
 			id: "539B5BC99777FCCB"
 			tasks: [
@@ -108,7 +108,7 @@
 		{
 			x: -0.5d
 			y: -1.5d
-			description: ["Infusion crystals allow you to craft higher levels of essence!"]
+			description: ["注魔水晶允许你制作更高级的精华"]
 			dependencies: ["2A694E7DCB9849D2"]
 			id: "6D576A072ECA46FF"
 			tasks: [{
@@ -126,7 +126,7 @@
 		{
 			x: -0.5d
 			y: 3.5d
-			description: ["This is an infusion crystal that never breaks and doesn't cause issues with auto crafting!"]
+			description: ["这是一个注魔水晶，永远不会破裂，也不会在自动合成时造成问题！"]
 			dependencies: ["31DB07BB99F4334A"]
 			id: "7F0DFC23DBC90EF0"
 			tasks: [{
@@ -138,7 +138,7 @@
 		{
 			x: -7.0d
 			y: 1.0d
-			description: ["This is a way to obtain souls from mob drops to craft essence crops!"]
+			description: ["这是从生物掉落物中获得灵魂以制作精华作物的一种方式！"]
 			dependencies: ["72F518F7CA626DA5"]
 			id: "093BF2A3DA529CD5"
 			tasks: [{
@@ -150,7 +150,7 @@
 		{
 			x: -4.0d
 			y: 2.0d
-			description: ["This will allow you to turn any additional seeds into essence [It destroys the seed!] Useful if you have extra seeds clogging your system!"]
+			description: ["如果你有额外的种子堵塞你的系统时，它允许你把任何额外的种子变成精华 [它会破坏种子！] ，很有用！"]
 			dependencies: [
 				"2D0EC1AD1BA16010"
 				"69F50E83E2444453"
@@ -165,7 +165,7 @@
 		{
 			x: -3.0d
 			y: 1.0d
-			description: ["This increases the chance to drop seeds!"]
+			description: ["这增加了掉落种子的机会！"]
 			dependencies: ["72F518F7CA626DA5"]
 			id: "69F50E83E2444453"
 			tasks: [{
@@ -177,7 +177,7 @@
 		{
 			x: -5.0d
 			y: 1.0d
-			description: ["This applies a random growth tick every so often to a plant within range! More of these the better!"]
+			description: ["这会对一定范围内的植物施加随机的生长时间！这些方块放置的越多越好！"]
 			dependencies: ["72F518F7CA626DA5"]
 			id: "2D0EC1AD1BA16010"
 			tasks: [{
@@ -277,7 +277,7 @@
 		{
 			x: 2.5d
 			y: -1.5d
-			description: ["Like a normal furnace except it is more efficient and powerful!"]
+			description: ["像普通的熔炉一样，但它更有效和强大！"]
 			dependencies: ["2A694E7DCB9849D2"]
 			id: "5B9E31FBFC25A58F"
 			tasks: [{
@@ -444,7 +444,7 @@
 			x: -0.5d
 			y: 5.5d
 			shape: "gear"
-			description: ["The tinkers table allows you to modify armor/weapon types in this mod to unlock their true potential!"]
+			description: ["这个工具装配台允许你强化本模组中的盔甲/工具以释放其真正的潜力！"]
 			dependencies: [
 				"5C49C14903E452C0"
 				"07B8AE1272278D09"
