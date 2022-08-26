@@ -3,18 +3,18 @@
 	group: "6427FC4035BCAD8A"
 	order_index: 2
 	filename: "storage_drawers"
-	title: "Storage Drawers"
+	title: "储物抽屉"
 	icon: "storagedrawers:emerald_storage_upgrade"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Storage Drawers"
+			title: "储物抽屉"
 			x: 3.0d
 			y: -4.0d
 			description: [
 				""
-				"Storage drawers adds an interface to a chest that can store a large amount of the same item that is displayed. However, the more displays per drawer the fewer items it can store! Right click to put in an item, punch to take out 1 item, shift punch to take out a stack of items!"
+				"存储抽屉向箱子添加了一个界面，该容器可以存储大量显示的相同物品。但是，每个抽屉的显示器越多，可以存储的物品就越少！右击放入物品，左击取出1件物品，shift+左击取出一组物品！"
 			]
 			hide_dependency_lines: true
 			dependencies: ["0B37AE47F308E035"]
@@ -23,7 +23,7 @@
 			tasks: [{
 				id: "3CA3311C3B7F8FD1"
 				type: "checkmark"
-				title: "Let's Get Some Beautiful Early Game Storage"
+				title: "让我们做一些漂亮的早期游戏存储"
 			}]
 			rewards: [{
 				id: "32886554E9F75831"
@@ -40,7 +40,7 @@
 		{
 			x: 2.0d
 			y: -1.5d
-			description: ["stores double the amount of items"]
+			description: ["存储2倍的物品"]
 			dependencies: ["2080D98AFE037F4C"]
 			id: "48D3A3F7084688CD"
 			tasks: [{
@@ -63,7 +63,7 @@
 		{
 			x: 2.0d
 			y: -0.5d
-			description: ["Stores 4x the amount of items"]
+			description: ["存储4倍的物品"]
 			dependencies: ["48D3A3F7084688CD"]
 			id: "70845DDFBA9B87CD"
 			tasks: [{
@@ -86,7 +86,7 @@
 		{
 			x: 2.0d
 			y: 0.5d
-			description: ["Stores 8x the amount of items"]
+			description: ["存储8倍的物品"]
 			dependencies: ["70845DDFBA9B87CD"]
 			id: "394C60BAB6D35203"
 			tasks: [{
@@ -109,7 +109,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["Stores 16x the amount of items"]
+			description: ["存储16倍的物品"]
 			dependencies: ["394C60BAB6D35203"]
 			id: "3B182EA1D665E910"
 			tasks: [{
@@ -133,7 +133,7 @@
 			x: 2.0d
 			y: 2.5d
 			shape: "gear"
-			description: ["Stores 32x the amount of items"]
+			description: ["存储32倍的物品"]
 			dependencies: ["3B182EA1D665E910"]
 			id: "18F01F17127B1E6B"
 			tasks: [{
@@ -151,7 +151,7 @@
 			x: 2.0d
 			y: -2.5d
 			description: [
-				"Right click with an item to use it on the drawer! Alternatively you can shift right click the interface [where you can pull out items] to acces a gui that can allow you to add or remove upgrades! Upgrades do NOT have to be in sequential order. Stores 1 item"
+				"使用物品右键单击以在抽屉上使用它！或者，你可以shift+右键单击界面[您可以在其中拉出物品]以访问GUI，这可以让你添加或删除升级的！升级不必按顺序进行。存储 1 个物品"
 				""
 			]
 			dependencies: ["3257E887A20759EE"]
@@ -176,7 +176,7 @@
 		{
 			x: 6.0d
 			y: -2.5d
-			description: ["Locks a drawer, so that even if that item runs out the only thing that can go in there is that item"]
+			description: ["锁定抽屉，这样即使该物品用完，也只能进入该物品"]
 			dependencies: ["3257E887A20759EE"]
 			id: "06A977AF6295EB22"
 			tasks: [{
@@ -199,7 +199,7 @@
 		{
 			x: 7.0d
 			y: -2.5d
-			description: ["Lets you see easily the exact amount of an item within a drawer"]
+			description: ["让您轻松查看抽屉内物品的准确数量"]
 			dependencies: ["3257E887A20759EE"]
 			id: "17ADE04C8F59DF02"
 			tasks: [{
@@ -222,7 +222,7 @@
 		{
 			x: 5.0d
 			y: -2.5d
-			description: ["Allows you to show or hide item labels"]
+			description: ["允许你隐藏或显示抽屉上的物品图标"]
 			dependencies: ["3257E887A20759EE"]
 			id: "6CB372CDCAA2B923"
 			tasks: [{
@@ -245,7 +245,7 @@
 		{
 			x: 0.5d
 			y: -2.5d
-			description: ["Compacting drawers are amazing because they allow for the compacted and uncompacted versions of specific items. A great example would be putting an iron bar in there because it would allow you to auto craft iron blocks, as well as iron nuggets from it!"]
+			description: ["压实抽屉令人惊叹，因为它们允许压缩和解压物品。一个很好的例子是在那里放一个铁锭，因为它可以让你自动制作铁块，以及铁粒！"]
 			dependencies: ["3257E887A20759EE"]
 			id: "7D464D989398EC23"
 			tasks: [{
@@ -270,7 +270,7 @@
 			y: -2.5d
 			description: [
 				""
-				"This acts as an interface to interact with all drawers at once [Ie putting a hopper next to it and items will automatically sort out into the drawers]. By right clicking this block you auto sort your inventory into the drawers!"
+				"这充当了一个接口，可以立即与所有抽屉进行交互[即在其旁边放置一个漏斗，物品将自动整理到抽屉中]。通过右键单击此块，您可以自动将物品分类到抽屉中！"
 			]
 			dependencies: ["3257E887A20759EE"]
 			id: "7D931671C163E294"
@@ -294,7 +294,7 @@
 		{
 			x: 3.5d
 			y: -1.5d
-			description: ["A controller slave acts as a repeating interface for the drawer controller, however you can't access a wall of drawers with a slave alone. This also can help link drawers that you want to be around a corner!"]
+			description: ["管理器传动方块充当抽屉控制器的重复接口，但是您无法仅通过管理器传动方块访问抽屉墙。这也可以帮助在拐角处连接抽屉！"]
 			dependencies: ["7D931671C163E294"]
 			id: "4565810AA3E37B2A"
 			tasks: [{
@@ -322,7 +322,7 @@
 			tasks: [{
 				id: "7654214D63C5863E"
 				type: "item"
-				title: "Any #storagedrawers:drawers"
+				title: "任意 #storagedrawers:drawers"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
