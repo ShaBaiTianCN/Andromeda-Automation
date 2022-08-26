@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 0
 	filename: "computer_craft"
-	title: "Computer Craft"
+	title: "电脑"
 	icon: "computercraft:computer_advanced"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -595,11 +595,11 @@
 			}]
 		}
 		{
-			title: "DO NOT ENTER"
+			title: "不要进去啊！！！"
 			icon: "minecraft:barrier"
 			x: 7.5d
 			y: -2.0d
-			description: ["This mod relies heavily on your ability to code in the coding language lua! Aproach with caution if you don't feel like sadness! For the most part these do what they say on the tin!"]
+			description: ["这个模组在很大程度上依赖于你使用lua语言编程的能力！如果你不觉得悲伤，请谨慎行事！在大多数情况下，这些都按照他们在tin上所说的去做！"]
 			hide_dependency_lines: true
 			dependencies: ["0FDE3C4E93BC0D56"]
 			hide: true
@@ -607,7 +607,7 @@
 			tasks: [{
 				id: "72ABC1636ADF5E8E"
 				type: "checkmark"
-				title: "I Understand The Risks To My Sanity"
+				title: "我已了解其中的风险"
 			}]
 		}
 		{
