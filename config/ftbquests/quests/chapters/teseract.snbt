@@ -77,7 +77,7 @@
 		{
 			x: 3.0d
 			y: 4.5d
-			description: ["Adds energy to your network. Be sure to add it to your network! It does not function without being connected to a network!"]
+			description: ["为您的网络提供能量。请务必将其添加到您的网络中！如果不连接到网络，它就无法正常工作！"]
 			dependencies: ["18C8EC5F2DB2B407"]
 			id: "759906E93B3D3C31"
 			tasks: [{
@@ -124,7 +124,7 @@
 		{
 			x: 5.0d
 			y: 5.5d
-			description: ["Allows you to store energy for your network, without need for importers or exporters on all of your batteries!"]
+			description: ["允许您为网络存储能量，而无需在所有电池上安装输入点或接入点！"]
 			dependencies: ["5E3E6EFE06EA7105"]
 			id: "025A68D0549541BC"
 			tasks: [{
