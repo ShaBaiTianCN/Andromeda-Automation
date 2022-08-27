@@ -3,7 +3,7 @@
 	group: "47CF1A3B0D7BE39F"
 	order_index: 2
 	filename: "jetpacks"
-	title: "Player Movement"
+	title: "玩家移动"
 	icon: {
 		id: "ironjetpacks:jetpack"
 		Count: 1b
@@ -372,7 +372,7 @@
 			}]
 		}
 		{
-			title: "Nerd"
+			title: "落伍的箱子"
 			x: 8.0d
 			y: 0.0d
 			dependencies: ["5DFAB073CDFBDC28"]
@@ -388,7 +388,7 @@
 		{
 			x: 6.5d
 			y: 0.0d
-			description: ["Gives you creative flight for 5 mins!"]
+			description: ["给予你5分钟的创造飞行时间！"]
 			dependencies: ["5DFAB073CDFBDC28"]
 			hide: true
 			id: "115D6D16A64C5155"
