@@ -3,7 +3,7 @@
 	group: "3169F62C14ECDF17"
 	order_index: 0
 	filename: "ex"
-	title: "Ex Nihilo"
+	title: "无中生有"
 	icon: "exnihilosequentia:oak_sieve"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -6.5d
 			y: -1.0d
-			description: ["sieves are added to meshes to allow you to extract materials from common resources! Higher teirs allow for more items to be sifted! Additionally they can be enchanted!"]
+			description: ["放上筛子的筛网允许你从普通的资源中筛出一些材料！更高级的筛网允许你筛取更多资源！此外，他们可以被附魔！"]
 			dependencies: ["765C7B03AD8169A4"]
 			id: "7E3C07D33EBD8CE2"
 			tasks: [{
@@ -23,7 +23,7 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			description: ["sieves are added to meshes to allow you to extract materials from common resources! Higher teirs allow for more items to be sifted! Additionally they can be enchanted!"]
+			description: ["放上筛子的筛网允许你从普通的资源中筛出一些材料！更高级的筛网允许你筛取更多资源！此外，他们可以被附魔！"]
 			dependencies: ["7E3C07D33EBD8CE2"]
 			id: "0EF0F0034A9E8FC6"
 			tasks: [{
@@ -47,7 +47,7 @@
 			x: -6.5d
 			y: 1.0d
 			shape: "diamond"
-			description: ["sieves are added to meshes to allow you to extract materials from common resources! Higher teirs allow for more items to be sifted! Additionally they can be enchanted!"]
+			description: ["放上筛子的筛网允许你从普通的资源中筛出一些材料！更高级的筛网允许你筛取更多资源！此外，他们可以被附魔！"]
 			dependencies: ["0EF0F0034A9E8FC6"]
 			id: "6F18145F076820FC"
 			tasks: [{
@@ -64,7 +64,7 @@
 		{
 			x: -6.5d
 			y: 2.0d
-			description: ["sieves are added to meshes to allow you to extract materials from common resources! Higher teirs allow for more items to be sifted! Additionally they can be enchanted!"]
+			description: ["放上筛子的筛网允许你从普通的资源中筛出一些材料！更高级的筛网允许你筛取更多资源！此外，他们可以被附魔！"]
 			dependencies: ["6F18145F076820FC"]
 			id: "56504D466EFE74AC"
 			tasks: [{
@@ -76,7 +76,7 @@
 		{
 			x: -6.5d
 			y: 3.0d
-			description: ["sieves are added to meshes to allow you to extract materials from common resources! Higher teirs allow for more items to be sifted! Additionally they can be enchanted!"]
+			description: ["放上筛子的筛网允许你从普通的资源中筛出一些材料！更高级的筛网允许你筛取更多资源！此外，他们可以被附魔！"]
 			dependencies: ["56504D466EFE74AC"]
 			id: "62C6228909AB22D6"
 			tasks: [{
@@ -89,7 +89,7 @@
 			x: -6.5d
 			y: 4.0d
 			shape: "gear"
-			description: ["sieves are added to meshes to allow you to extract materials from common resources! Higher teirs allow for more items to be sifted! Additionally they can be enchanted!"]
+			description: ["放上筛子的筛网允许你从普通的资源中筛出一些材料！更高级的筛网允许你筛取更多资源！此外，他们可以被附魔！"]
 			dependencies: ["62C6228909AB22D6"]
 			id: "2864336240FBE791"
 			tasks: [{
@@ -145,7 +145,7 @@
 			tasks: [{
 				id: "416B0F47041C2D02"
 				type: "item"
-				title: "Any #exnihilosequentia:crook"
+				title: "任意 #exnihilosequentia:crook"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -189,7 +189,7 @@
 			}]
 		}
 		{
-			title: "Get Wood"
+			title: "获得木头"
 			x: -3.5d
 			y: -5.0d
 			hide_dependency_lines: true
@@ -199,7 +199,7 @@
 			tasks: [{
 				id: "0D85DDFA7A30AA13"
 				type: "item"
-				title: "Any #minecraft:logs"
+				title: "任意 #minecraft:logs"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -246,7 +246,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
-			description: ["Use a crook on leaves to obtain silk worms!"]
+			description: ["对树叶使用钩子以获得蚕！"]
 			dependencies: ["6FC1744BF1829709"]
 			id: "07D83A39CD38BC78"
 			tasks: [{
@@ -269,7 +269,7 @@
 		{
 			x: -3.5d
 			y: 1.0d
-			description: ["right click a silk worm onto a leaf block and give it some time! eventually they will spread and you can crook them for silk!"]
+			description: ["对着树叶右键使用蚕并等待一段时间！他们会蔓延开来，接着用你的钩子破坏它即可获得线！"]
 			dependencies: ["07D83A39CD38BC78"]
 			id: "2D0B891DFE370C1C"
 			tasks: [{
@@ -337,7 +337,7 @@
 			title: "Crucibles"
 			x: -0.5d
 			y: -2.0d
-			description: ["A crucible is a useful tool that can help make water, and eventually lava!"]
+			description: ["坩埚是一个用于制作水的方块、甚至是制作熔岩！"]
 			dependencies: ["079964B764B8EFF1"]
 			id: "01654B1ED5ED68C4"
 			tasks: [{
@@ -367,7 +367,7 @@
 		{
 			x: -0.5d
 			y: 0.0d
-			description: ["Obtain clay by putting dust into a water-filled barrel."]
+			description: ["将尘土放入装满水的桶中获得黏土。"]
 			dependencies: ["4A90FF12BD119E95"]
 			id: "1D5279F6EA7AB4AF"
 			tasks: [{
@@ -390,7 +390,7 @@
 		{
 			x: 0.5d
 			y: -1.0d
-			description: ["Obtain water by puting plant life into a crucible!"]
+			description: ["将树叶放入坩埚中获得水！"]
 			dependencies: ["01654B1ED5ED68C4"]
 			id: "249D12814BF1BF6A"
 			tasks: [{
@@ -413,7 +413,7 @@
 		{
 			x: -0.5d
 			y: 4.0d
-			description: ["Lava is obtained by filling a crucible with stone, and providing a heat source underneath!"]
+			description: ["将圆石放入坩埚并且在下方提供热源以获得熔岩！"]
 			dependencies: ["33590C81055C9848"]
 			id: "59C1AE8E3CA666F8"
 			tasks: [{
@@ -456,7 +456,7 @@
 			}]
 		}
 		{
-			title: "Hammers"
+			title: "锤子"
 			x: -7.5d
 			y: 0.0d
 			dependencies: ["7E3C07D33EBD8CE2"]
@@ -510,7 +510,7 @@
 		{
 			x: -7.5d
 			y: 3.0d
-			description: ["Hammer gravel to get sand!"]
+			description: ["锤沙砾，得石子！"]
 			dependencies: ["55CC4C1DFE44D975"]
 			id: "6133476901084317"
 			tasks: [{
@@ -533,7 +533,7 @@
 		{
 			x: -7.5d
 			y: 2.0d
-			description: ["Hammer cobblestone to get gravel!"]
+			description: ["锤圆石，得沙砾！"]
 			dependencies: ["3C1E6BD7388A023D"]
 			id: "55CC4C1DFE44D975"
 			tasks: [{
@@ -556,7 +556,7 @@
 		{
 			x: -7.5d
 			y: 4.0d
-			description: ["and finally hammer sand to get dust."]
+			description: ["最后，锤沙子，得尘土。"]
 			dependencies: ["6133476901084317"]
 			id: "786998B2D3503C48"
 			tasks: [{
