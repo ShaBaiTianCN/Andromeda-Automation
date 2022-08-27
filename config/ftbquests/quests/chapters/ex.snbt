@@ -510,7 +510,7 @@
 		{
 			x: -7.5d
 			y: 3.0d
-			description: ["锤沙砾，得石子！"]
+			description: ["锤沙砾，得沙子！"]
 			dependencies: ["55CC4C1DFE44D975"]
 			id: "6133476901084317"
 			tasks: [{
