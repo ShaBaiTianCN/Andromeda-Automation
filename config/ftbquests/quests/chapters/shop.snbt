@@ -3,12 +3,12 @@
 	group: ""
 	order_index: 2
 	filename: "shop"
-	title: "Shop"
+	title: "商店"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Enchanted Book Lootbox"
+			title: "附魔书战利品箱"
 			icon: {
 				id: "minecraft:enchanted_book"
 				Count: 1b
@@ -21,7 +21,7 @@
 			}
 			x: 15.5d
 			y: -5.5d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			id: "758BABA4C1F43F0F"
 			tasks: [{
 				id: "5138DBC11310A429"
@@ -36,11 +36,11 @@
 			}]
 		}
 		{
-			title: "Raw Materials Lootbox"
+			title: "原材料战利品箱"
 			icon: "minecraft:raw_copper"
 			x: 10.5d
 			y: -5.5d
-			subtitle: "2 Iron"
+			subtitle: "2铁币"
 			id: "3EFB047B66FBDF14"
 			tasks: [{
 				id: "2534325A947B10DB"
@@ -56,7 +56,7 @@
 			}]
 		}
 		{
-			title: "Bees Items Lootbox"
+			title: "蜜蜂物品战利品箱"
 			icon: {
 				id: "thermal:beekeeper_helmet"
 				Count: 1b
@@ -66,7 +66,7 @@
 			}
 			x: 3.5d
 			y: -2.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "767DED7E51825A83"
 			tasks: [{
 				id: "40868A09020C02C2"
@@ -82,11 +82,11 @@
 			}]
 		}
 		{
-			title: "Paraglider Lootbox"
+			title: "滑翔伞战利品箱"
 			icon: "paraglider:paraglider"
 			x: 18.5d
 			y: -5.5d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			id: "3440821F1F692DF3"
 			tasks: [{
 				id: "36C434BE0F29331A"
@@ -101,11 +101,11 @@
 			}]
 		}
 		{
-			title: "Early Game Lootbox"
+			title: "游戏早期战利品箱"
 			icon: "minecraft:coarse_dirt"
 			x: 9.5d
 			y: -5.5d
-			subtitle: "5 Copper"
+			subtitle: "5铜币"
 			id: "79CB1B45023B7398"
 			tasks: [{
 				id: "32FAD6B184C952C2"
@@ -121,11 +121,11 @@
 			}]
 		}
 		{
-			title: "Netherite Ingot"
+			title: "下界合金锭"
 			icon: "minecraft:netherite_ingot"
 			x: 7.5d
 			y: -7.0d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			id: "39429CFF06E4A7E5"
 			tasks: [{
 				id: "6107E2BC99D33577"
@@ -140,11 +140,11 @@
 			}]
 		}
 		{
-			title: "Statues Lootbox"
+			title: "雕像战利品箱"
 			icon: "statues:tropibee"
 			x: 20.5d
 			y: -5.5d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "0C8E7A7CFEEFF4C5"
 			tasks: [{
 				id: "5E56579F6935A0C8"
@@ -159,7 +159,7 @@
 			}]
 		}
 		{
-			title: "Dimensional Carver"
+			title: "维度撕裂者"
 			icon: {
 				id: "alexsmobs:dimensional_carver"
 				Count: 1b
@@ -169,8 +169,8 @@
 			}
 			x: 3.5d
 			y: 5.0d
-			subtitle: "Diamond 3"
-			description: ["Used to fast travel to your spawn! Mine the air for what feels like ages :)"]
+			subtitle: "3钻石币"
+			description: ["用于快速前往您的重生点！ 我在空气中挖掘岁月的痕迹 :)"]
 			id: "67AB20AA93113B25"
 			tasks: [{
 				id: "382D2CC72711AC01"
@@ -186,11 +186,11 @@
 			}]
 		}
 		{
-			title: "Dungeon Chest Lootbox"
+			title: "地牢箱子战利品箱"
 			icon: "lootr:trophy"
 			x: 19.5d
 			y: -5.5d
-			subtitle: "5 Gold"
+			subtitle: "5金币"
 			id: "3752C767CFB95B70"
 			tasks: [{
 				id: "117211371EF200EF"
@@ -206,11 +206,11 @@
 			}]
 		}
 		{
-			title: "Bee Spawnegg Lootbox"
+			title: "蜜蜂刷怪蛋战利品箱"
 			icon: "minecraft:bee_spawn_egg"
 			x: 4.5d
 			y: -2.5d
-			subtitle: "3 Gold"
+			subtitle: "3金币"
 			id: "340D9B2EB1F6B7F9"
 			tasks: [{
 				id: "42E8FE41F3D80CA6"
@@ -226,11 +226,11 @@
 			}]
 		}
 		{
-			title: "Lucky Block Lootbox"
+			title: "幸运方块战利品箱"
 			icon: "chancecubes:chance_cube"
 			x: 8.5d
 			y: -5.5d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "041B21CE38CB305F"
 			tasks: [{
 				id: "35BC96B35AAD7C1D"
@@ -245,11 +245,11 @@
 			}]
 		}
 		{
-			title: "Useful Plants"
+			title: "有用的植物"
 			icon: "minecraft:sugar_cane"
 			x: 6.5d
 			y: -5.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "2AE7A29DDE7F0403"
 			tasks: [{
 				id: "628C810A69D4FFEC"
@@ -265,7 +265,7 @@
 			}]
 		}
 		{
-			title: "Full Dark Chocolate Bar"
+			title: "黑巧克力板"
 			icon: {
 				id: "create_confectionery:full_black_chocolate_bar"
 				Count: 1b
@@ -275,7 +275,7 @@
 			}
 			x: 5.5d
 			y: 0.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "32258398C583EBF0"
 			tasks: [{
 				id: "6E6A12FFFB5D14E1"
@@ -291,11 +291,11 @@
 			}]
 		}
 		{
-			title: "Black Lotus x16"
+			title: "黑莲花x16"
 			icon: "botania:black_lotus"
 			x: -4.0d
 			y: -11.5d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			dependencies: ["6B9304C2462688A5"]
 			id: "2280A54441FCFE01"
 			tasks: [{
@@ -311,11 +311,11 @@
 			}]
 		}
 		{
-			title: "Blacker Lotus x8"
+			title: "暗黑莲花x8"
 			icon: "botania:blacker_lotus"
 			x: -3.0d
 			y: -11.5d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			dependencies: ["6B9304C2462688A5"]
 			id: "21D448D7761D691D"
 			tasks: [{
@@ -331,11 +331,11 @@
 			}]
 		}
 		{
-			title: "Superfoods Lootbox"
+			title: "超级食物战利品箱"
 			icon: "farmersdelight:roast_chicken_block"
 			x: 17.5d
 			y: -5.5d
-			subtitle: "3 Gold"
+			subtitle: "3金币"
 			id: "7AA9D4163E5B9CB8"
 			tasks: [{
 				id: "67C37CEC04F75458"
@@ -351,11 +351,11 @@
 			}]
 		}
 		{
-			title: "Cobbled Deepslate"
+			title: "深板岩圆石"
 			icon: "minecraft:cobbled_deepslate"
 			x: 4.5d
 			y: -13.0d
-			subtitle: "5 Copper"
+			subtitle: "5铜币"
 			id: "46860C38BEDB35D9"
 			tasks: [{
 				id: "7DA598E8E3B628ED"
@@ -371,11 +371,11 @@
 			}]
 		}
 		{
-			title: "Mob Drops Lootbox"
+			title: "生物资源战利品盒"
 			icon: "minecraft:rotten_flesh"
 			x: 14.5d
 			y: -5.5d
-			subtitle: "1 Iron"
+			subtitle: "1 铁币"
 			id: "5C9A725A473752BB"
 			tasks: [{
 				id: "4357CF45F1BD65CC"
@@ -390,11 +390,11 @@
 			}]
 		}
 		{
-			title: "Artifacts"
+			title: "遗物"
 			icon: "artifacts:crystal_heart"
 			x: 7.5d
 			y: -5.5d
-			subtitle: "2 Netherite"
+			subtitle: "2 下界合金币"
 			id: "1633DEF7296C2495"
 			tasks: [{
 				id: "7620291FDD9AFC39"
@@ -410,11 +410,11 @@
 			}]
 		}
 		{
-			title: "Calcite"
+			title: "方解石"
 			icon: "minecraft:calcite"
 			x: 6.5d
 			y: -13.0d
-			subtitle: "1 Iron"
+			subtitle: "1铁币"
 			id: "5EE1FC6BD774AA31"
 			tasks: [{
 				id: "2715F07D7D6E4C81"
@@ -429,11 +429,11 @@
 			}]
 		}
 		{
-			title: "Oak logs"
+			title: "橡木原木"
 			icon: "minecraft:oak_log"
 			x: 3.5d
 			y: -13.0d
-			subtitle: "5 Copper"
+			subtitle: "5 铜币"
 			id: "17F7862D8ECF3332"
 			tasks: [{
 				id: "327189EA8E711123"
@@ -449,11 +449,11 @@
 			}]
 		}
 		{
-			title: "Dirt"
+			title: "泥土"
 			icon: "minecraft:dirt"
 			x: 3.5d
 			y: -11.5d
-			subtitle: "1 Gold"
+			subtitle: "1 金币"
 			id: "525FF09F988D6E6C"
 			tasks: [{
 				id: "1ED4B275DDD459CC"
@@ -468,7 +468,7 @@
 			}]
 		}
 		{
-			title: "Potion of Slow Falling"
+			title: "缓降药水"
 			icon: {
 				id: "minecraft:potion"
 				Count: 1b
@@ -478,7 +478,7 @@
 			}
 			x: 3.5d
 			y: -1.0d
-			subtitle: "5 Copper"
+			subtitle: "5 铜币"
 			id: "6AC39CA6649CFD69"
 			tasks: [{
 				id: "1AC89E0E88BBD0ED"
@@ -494,11 +494,11 @@
 			}]
 		}
 		{
-			title: "Steak x64"
+			title: "牛排 x64"
 			icon: "minecraft:cooked_beef"
 			x: 4.5d
 			y: -8.5d
-			subtitle: "2 Gold"
+			subtitle: "2金币"
 			id: "27171D47B57E95F5"
 			tasks: [{
 				id: "0912E3501138905E"
@@ -514,11 +514,11 @@
 			}]
 		}
 		{
-			title: "Steak x8"
+			title: "牛排 x8"
 			icon: "minecraft:cooked_beef"
 			x: 3.5d
 			y: -8.5d
-			subtitle: "3 Iron"
+			subtitle: "3铁币"
 			id: "2DD68D4BA7299430"
 			tasks: [{
 				id: "55E459E8EC67E6E5"
@@ -534,11 +534,11 @@
 			}]
 		}
 		{
-			title: "Block of Copper"
+			title: "铜块"
 			icon: "minecraft:copper_block"
 			x: 3.5d
 			y: -7.0d
-			subtitle: "5 Copper"
+			subtitle: "5铜币"
 			id: "59C2A31107A542AA"
 			tasks: [{
 				id: "1D50AC5B27B570EC"
@@ -554,11 +554,11 @@
 			}]
 		}
 		{
-			title: "Dye Lootbox"
+			title: "染料战利品盒"
 			icon: "minecraft:red_dye"
 			x: 16.5d
 			y: -5.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "1C85188BD3944621"
 			tasks: [{
 				id: "097C6DDB36733A8E"
@@ -574,11 +574,11 @@
 			}]
 		}
 		{
-			title: "Swords Lootbox"
+			title: "武器战利品盒"
 			icon: "andromedacrafts:pink_sword"
 			x: 13.5d
 			y: -5.5d
-			subtitle: "5 Diamond"
+			subtitle: "5钻石币"
 			id: "40BD1B116DE69C9C"
 			tasks: [{
 				id: "76BC60EE0BB411E0"
@@ -594,11 +594,11 @@
 			}]
 		}
 		{
-			title: "Furniture Lootbox"
+			title: "家具战利品盒"
 			icon: "cfm:oak_chair"
 			x: 4.5d
 			y: -5.5d
-			subtitle: "2 Iron"
+			subtitle: "2铁币"
 			id: "799AD535BB01245D"
 			tasks: [{
 				id: "2C351FDBBAA88B76"
@@ -614,7 +614,7 @@
 			}]
 		}
 		{
-			title: "Spear Hook Launcher"
+			title: "普通钩爪"
 			icon: {
 				id: "adhooks:spear_launcher"
 				Count: 1b
@@ -624,7 +624,7 @@
 			}
 			x: 3.5d
 			y: -10.0d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "4B7C28FFDA1A4CAD"
 			tasks: [{
 				id: "093040DF1F14CC6D"
@@ -639,11 +639,11 @@
 			}]
 		}
 		{
-			title: "Scathed Disc 1"
+			title: "破损的唱片 1"
 			icon: "botania:record_gaia_2"
 			x: 3.5d
 			y: 15.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "112C36A64E5CF6FF"
 			tasks: [{
 				id: "3289BFDC04C07271"
@@ -658,7 +658,7 @@
 			}]
 		}
 		{
-			title: "Full Chocolate Bar x1"
+			title: "巧克力板 x1"
 			icon: {
 				id: "create_confectionery:full_chocolate_bar"
 				Count: 1b
@@ -668,7 +668,7 @@
 			}
 			x: 3.5d
 			y: 0.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "1C45AC7217C7FB40"
 			tasks: [{
 				id: "7DEA5F86992AD478"
@@ -684,11 +684,11 @@
 			}]
 		}
 		{
-			title: "Redstone Block x16"
+			title: "红石块 x16"
 			icon: "minecraft:redstone_block"
 			x: 8.5d
 			y: -7.0d
-			subtitle: "3 Gold"
+			subtitle: "3金币"
 			id: "60318E57DC88D58C"
 			tasks: [{
 				id: "1ED3B4B0DABA1B11"
@@ -704,11 +704,11 @@
 			}]
 		}
 		{
-			title: "Pancake x32"
+			title: "煎饼 x32"
 			icon: "supplementaries:pancake"
 			x: 7.5d
 			y: 0.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "3E74E03FB74ADC1B"
 			tasks: [{
 				id: "2B79AA1290C4EA5B"
@@ -724,7 +724,7 @@
 			}]
 		}
 		{
-			title: "Elytra"
+			title: "鞘翅"
 			icon: {
 				id: "minecraft:elytra"
 				Count: 1b
@@ -734,7 +734,7 @@
 			}
 			x: -3.0d
 			y: -10.0d
-			subtitle: "5 Diamond"
+			subtitle: "5钻石币"
 			dependencies: ["6CFBF112E25E2EF9"]
 			id: "1FA6598D69CB7CBD"
 			tasks: [{
@@ -751,7 +751,7 @@
 			}]
 		}
 		{
-			title: "Full Ruby Chocolate bar"
+			title: "红宝石巧克力板"
 			icon: {
 				id: "create_confectionery:full_ruby_chocolate_bar"
 				Count: 1b
@@ -761,7 +761,7 @@
 			}
 			x: 6.5d
 			y: 0.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "2AD4C4ECB9600668"
 			tasks: [{
 				id: "2CA6D08B84A4B6E8"
@@ -777,7 +777,7 @@
 			}]
 		}
 		{
-			title: "Creative Soul Slot"
+			title: "创造灵魂升级"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -787,7 +787,7 @@
 			}
 			x: -2.0d
 			y: -8.5d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			dependencies: ["2BF76A6DF8AB98A1"]
 			id: "486B38E74D0B21F6"
 			tasks: [{
@@ -803,7 +803,7 @@
 			}]
 		}
 		{
-			title: "Full White Chocolate Bar"
+			title: "白巧克力板"
 			icon: {
 				id: "create_confectionery:full_white_chocolate_bar"
 				Count: 1b
@@ -813,7 +813,7 @@
 			}
 			x: 4.5d
 			y: 0.5d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "1E534C8B4CEE10F4"
 			tasks: [{
 				id: "1E365C5BA27A06C1"
@@ -829,7 +829,7 @@
 			}]
 		}
 		{
-			title: "Creative Ability"
+			title: "创造能力升级"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -839,7 +839,7 @@
 			}
 			x: -4.0d
 			y: -8.5d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			dependencies: ["2BF76A6DF8AB98A1"]
 			id: "7964F21C19F69282"
 			tasks: [{
@@ -855,11 +855,11 @@
 			}]
 		}
 		{
-			title: "Diamond x16"
+			title: "钻石 x16"
 			icon: "minecraft:diamond"
 			x: 6.5d
 			y: -7.0d
-			subtitle: "5 Diamond"
+			subtitle: "5钻石币"
 			id: "0137739F131C73EB"
 			tasks: [{
 				id: "16A2B19BFA08A5E7"
@@ -875,11 +875,11 @@
 			}]
 		}
 		{
-			title: "Iron Ingot x16"
+			title: "铁锭 x16"
 			icon: "minecraft:iron_ingot"
 			x: 4.5d
 			y: -7.0d
-			subtitle: "5 Iron"
+			subtitle: "5铁币"
 			id: "45F39A8C1B6CD145"
 			tasks: [{
 				id: "4BA5BF034C8BCB82"
@@ -895,11 +895,11 @@
 			}]
 		}
 		{
-			title: "Lighting Lootbox"
+			title: "灯光战利品箱"
 			icon: "minecraft:lantern"
 			x: 3.5d
 			y: -5.5d
-			subtitle: "1 Iron"
+			subtitle: "1铁币"
 			id: "3EC7D86582A75D4C"
 			tasks: [{
 				id: "330DA470900F98F5"
@@ -914,11 +914,11 @@
 			}]
 		}
 		{
-			title: "Pretty Plants Lootbox"
+			title: "美丽植物战利品箱"
 			icon: "minecraft:flowering_azalea"
 			x: 5.5d
 			y: -5.5d
-			subtitle: "3 Iron"
+			subtitle: "3铁币"
 			id: "1BFFA1E6B7EA96CC"
 			tasks: [{
 				id: "0D3926BF70807FEA"
@@ -934,11 +934,11 @@
 			}]
 		}
 		{
-			title: "Cobblestone"
+			title: "圆石"
 			icon: "minecraft:cobblestone"
 			x: 4.5d
 			y: -11.5d
-			subtitle: "5 Copper"
+			subtitle: "5铜币"
 			id: "5B0F4597D71044FB"
 			tasks: [{
 				id: "5542CE16A7BF4C75"
@@ -954,11 +954,11 @@
 			}]
 		}
 		{
-			title: "Sand"
+			title: "沙子"
 			icon: "minecraft:sand"
 			x: 6.5d
 			y: -11.5d
-			subtitle: "7 Copper"
+			subtitle: "7铜币"
 			id: "6474CB552A4F4B3E"
 			tasks: [{
 				id: "61D208F9ABC6533B"
@@ -974,11 +974,11 @@
 			}]
 		}
 		{
-			title: "Gems Lootbox"
+			title: "Gems战利品箱"
 			icon: "gemsnjewels:pale_diamond"
 			x: 11.5d
 			y: -5.5d
-			subtitle: "5 Gold"
+			subtitle: "5金币"
 			id: "427FBAFF7D8E2E9B"
 			tasks: [{
 				id: "7F47E5CB1F442F89"
@@ -998,7 +998,7 @@
 			icon: "exnihilosequentia:dust"
 			x: 7.5d
 			y: -11.5d
-			subtitle: "8 Copper"
+			subtitle: "8铜币"
 			id: "360BA95BED2BA757"
 			tasks: [{
 				id: "63833E2CED35F3D6"
@@ -1018,7 +1018,7 @@
 			icon: "minecraft:gravel"
 			x: 5.5d
 			y: -11.5d
-			subtitle: "6 Copper"
+			subtitle: "6铜币"
 			id: "4B399FD001796127"
 			tasks: [{
 				id: "38300958EA250B21"
@@ -1038,7 +1038,7 @@
 			icon: "minecraft:bone_block"
 			x: 5.5d
 			y: -13.0d
-			subtitle: "1 Iron"
+			subtitle: "1铁币"
 			id: "2C44E49778E36658"
 			tasks: [{
 				id: "359BBF2D37780287"
@@ -1057,7 +1057,7 @@
 			icon: "minecraft:gold_ingot"
 			x: 5.5d
 			y: -7.0d
-			subtitle: "5 Gold"
+			subtitle: "5金币"
 			id: "7EA7A16FAF912826"
 			tasks: [{
 				id: "3518E498C1B630AB"
@@ -1083,7 +1083,7 @@
 			}
 			x: -3.0d
 			y: -8.5d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			dependencies: ["2BF76A6DF8AB98A1"]
 			id: "01E8B3E806779E56"
 			tasks: [{
@@ -1103,7 +1103,7 @@
 			icon: "immersiveengineering:shader_bag_epic"
 			x: -1.0d
 			y: -13.0d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			dependencies: ["22CF3C314198778D"]
 			id: "75B2EAAFAE1A67A8"
 			tasks: [{
@@ -1123,7 +1123,7 @@
 			icon: "immersiveengineering:shader_bag_uncommon"
 			x: -3.0d
 			y: -13.0d
-			subtitle: "5 Gold"
+			subtitle: "5金币"
 			dependencies: ["22CF3C314198778D"]
 			id: "4C7725BF7343F3F8"
 			tasks: [{
@@ -1144,7 +1144,7 @@
 			icon: "immersiveengineering:shader_bag_common"
 			x: -4.0d
 			y: -13.0d
-			subtitle: "5 Copper"
+			subtitle: "5铜币"
 			dependencies: ["22CF3C314198778D"]
 			id: "6188229D6311D537"
 			tasks: [{
@@ -1165,7 +1165,7 @@
 			icon: "statues:display_stand"
 			x: 3.5d
 			y: 3.5d
-			subtitle: "3 Copper"
+			subtitle: "3铜币"
 			id: "5D8263037C8556B5"
 			tasks: [{
 				id: "37B776CC3DA89DA0"
@@ -1185,7 +1185,7 @@
 			icon: "minecraft:dragon_head"
 			x: -4.0d
 			y: -10.0d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			dependencies: ["6CFBF112E25E2EF9"]
 			id: "68BB8AC03927E418"
 			tasks: [{
@@ -1205,7 +1205,7 @@
 			icon: "cyclic:fireball"
 			x: 4.5d
 			y: 2.0d
-			subtitle: "4 Copper"
+			subtitle: "4铜币"
 			id: "4B85A41D340ABE0F"
 			tasks: [{
 				id: "59CAFFF0856E4C95"
@@ -1225,7 +1225,7 @@
 			icon: "cyclic:fireball_dark"
 			x: 3.5d
 			y: 2.0d
-			subtitle: "4 Copper"
+			subtitle: "4铜币"
 			id: "633DE13F10F12B3E"
 			tasks: [{
 				id: "6B81738424A7429B"
@@ -1245,7 +1245,7 @@
 			icon: "immersiveengineering:shader_bag_rare"
 			x: -2.0d
 			y: -13.0d
-			subtitle: "5 Diamond"
+			subtitle: "5钻石币"
 			dependencies: ["22CF3C314198778D"]
 			id: "0981E685A782ACC3"
 			tasks: [{
@@ -1266,7 +1266,7 @@
 			icon: "projecte:tome"
 			x: -4.0d
 			y: -5.5d
-			subtitle: "30 Netherite"
+			subtitle: "30下界合金币"
 			dependencies: ["6681ED02FDF32F02"]
 			id: "0D6712A75EE70D76"
 			tasks: [{
@@ -1287,7 +1287,7 @@
 			icon: "immersiveengineering:shader_bag_ie_masterwork"
 			x: 0.0d
 			y: -13.0d
-			subtitle: "3 Netherite"
+			subtitle: "3下界合金币"
 			dependencies: ["22CF3C314198778D"]
 			id: "684539DBFDAF7010"
 			tasks: [{
@@ -1308,7 +1308,7 @@
 			icon: "minecraft:dripstone_block"
 			x: 8.5d
 			y: -11.5d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "46B571E8CB602FB9"
 			tasks: [{
 				id: "72A6820F400E071C"
@@ -1333,7 +1333,7 @@
 			}
 			x: -1.0d
 			y: -8.5d
-			subtitle: "1 Netherite"
+			subtitle: "1下界合金币"
 			dependencies: ["2BF76A6DF8AB98A1"]
 			id: "2DE6595F1CDD3DDE"
 			tasks: [{
@@ -1354,7 +1354,7 @@
 			icon: "botania:record_gaia_1"
 			x: 6.5d
 			y: 16.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "7044C6724D2E0BA3"
 			tasks: [{
 				id: "17649B88FFE185F4"
@@ -1373,7 +1373,7 @@
 			icon: "biomesoplenty:music_disc_wanderer"
 			x: 4.5d
 			y: 15.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "7B154904C4F10D5E"
 			tasks: [{
 				id: "035EE059D11A2076"
@@ -1392,7 +1392,7 @@
 			icon: "minecraft:music_disc_wait"
 			x: 5.5d
 			y: 16.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "7A475BBB369B96B1"
 			tasks: [{
 				id: "110A6A16AEC478AF"
@@ -1411,7 +1411,7 @@
 			icon: "minecraft:music_disc_11"
 			x: 4.5d
 			y: 16.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "6695B28A925B2554"
 			tasks: [{
 				id: "4FC890D0E0C225CA"
@@ -1430,7 +1430,7 @@
 			icon: "minecraft:music_disc_ward"
 			x: 3.5d
 			y: 16.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "4DF52C9B1C603386"
 			tasks: [{
 				id: "6A203CF7A11C2C3E"
@@ -1449,7 +1449,7 @@
 			icon: "minecraft:music_disc_stal"
 			x: 6.5d
 			y: 15.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "0598D807BB249C4F"
 			tasks: [{
 				id: "436033F4C52C0A1D"
@@ -1468,7 +1468,7 @@
 			icon: "minecraft:music_disc_mellohi"
 			x: 6.5d
 			y: 12.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "6C9A5AB42C29F90F"
 			tasks: [{
 				id: "698ED2594FA1A2D2"
@@ -1487,7 +1487,7 @@
 			icon: "minecraft:music_disc_mall"
 			x: 5.5d
 			y: 13.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "6642B268DFECD5E1"
 			tasks: [{
 				id: "3C811A6CFDE65FA2"
@@ -1506,7 +1506,7 @@
 			icon: "minecraft:music_disc_far"
 			x: 4.5d
 			y: 13.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "72DB4DCA0783EAD0"
 			tasks: [{
 				id: "01D0F2A7B02AD8FA"
@@ -1525,7 +1525,7 @@
 			icon: "minecraft:music_disc_chirp"
 			x: 5.5d
 			y: 12.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "6BCE627FF170BA92"
 			tasks: [{
 				id: "7D0537E1476D8DEC"
@@ -1544,7 +1544,7 @@
 			icon: "minecraft:music_disc_cat"
 			x: 3.5d
 			y: 13.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "05B529DA56E9DAB3"
 			tasks: [{
 				id: "48F2BEB7BBD5A331"
@@ -1563,7 +1563,7 @@
 			icon: "minecraft:music_disc_otherside"
 			x: 3.5d
 			y: 14.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "00D2DB77222FEFE5"
 			tasks: [{
 				id: "464528327EEBD8C7"
@@ -1582,7 +1582,7 @@
 			icon: "minecraft:music_disc_strad"
 			x: 6.5d
 			y: 13.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "5CFCF9ED31CD8063"
 			tasks: [{
 				id: "6B5F74CAA8A50553"
@@ -1601,7 +1601,7 @@
 			icon: "minecraft:music_disc_13"
 			x: 3.5d
 			y: 12.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "4ED43BFB1E39F36B"
 			tasks: [{
 				id: "6C1837F6FFC76BB5"
@@ -1620,7 +1620,7 @@
 			icon: "create_confectionery:the_bright_side"
 			x: 6.5d
 			y: 14.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "5B64BAD219571D92"
 			tasks: [{
 				id: "52C888F196E6BBED"
@@ -1639,7 +1639,7 @@
 			icon: "alexsmobs:music_disc_daze"
 			x: 5.5d
 			y: 15.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "0E7EF503B3DD37E7"
 			tasks: [{
 				id: "56E1F0D396C4BED5"
@@ -1658,7 +1658,7 @@
 			icon: "alexsmobs:music_disc_thime"
 			x: 4.5d
 			y: 14.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "7588D37D43CEB696"
 			tasks: [{
 				id: "4388B781C9A5628D"
@@ -1677,7 +1677,7 @@
 			icon: "minecraft:music_disc_pigstep"
 			x: 5.5d
 			y: 14.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "5F0414DC62A52D9F"
 			tasks: [{
 				id: "177ADADD46E9065B"
@@ -1696,7 +1696,7 @@
 			icon: "minecraft:music_disc_blocks"
 			x: 4.5d
 			y: 12.0d
-			subtitle: "1 Gold"
+			subtitle: "1金币"
 			id: "161ED7534EAADE03"
 			tasks: [{
 				id: "420850CE4F5C34BE"
@@ -1721,7 +1721,7 @@
 			}
 			x: 6.5d
 			y: 9.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "306E6A4560599418"
 			tasks: [{
 				id: "3C620EEFE003360E"
@@ -1746,7 +1746,7 @@
 			}
 			x: 5.5d
 			y: 9.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "7D7A04CCD99ABF19"
 			tasks: [{
 				id: "5E8B2C1F45CED706"
@@ -1771,7 +1771,7 @@
 			}
 			x: 6.5d
 			y: 10.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "20A756CA9AA2EB12"
 			tasks: [{
 				id: "43953173BCFF60E3"
@@ -1796,7 +1796,7 @@
 			}
 			x: 3.5d
 			y: 10.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "59D5967A031C6BBF"
 			tasks: [{
 				id: "6A0D52DA2CBCA964"
@@ -1821,7 +1821,7 @@
 			}
 			x: 7.5d
 			y: 9.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "4E24A55B8BD1D178"
 			tasks: [{
 				id: "7C6839482828C3C2"
@@ -1846,7 +1846,7 @@
 			}
 			x: 5.5d
 			y: 10.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "5D8CCEE8F9312D25"
 			tasks: [{
 				id: "7B1F310F9A6F6F54"
@@ -1871,7 +1871,7 @@
 			}
 			x: 8.5d
 			y: 9.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "5F9E5E95E2E6CA96"
 			tasks: [{
 				id: "45097EA335DDBB03"
@@ -1896,7 +1896,7 @@
 			}
 			x: 4.5d
 			y: 10.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "52848E17E58DA4E4"
 			tasks: [{
 				id: "5E1D6F7309CBDF49"
@@ -1921,7 +1921,7 @@
 			}
 			x: 8.5d
 			y: 10.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "017550C8243BF2DA"
 			tasks: [{
 				id: "7DA0A77D4A387255"
@@ -1946,7 +1946,7 @@
 			}
 			x: 7.5d
 			y: 10.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "02707C35B27BC9DF"
 			tasks: [{
 				id: "5F6165D64664DD8D"
@@ -1971,7 +1971,7 @@
 			}
 			x: 4.5d
 			y: 9.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "290922663F05A9D4"
 			tasks: [{
 				id: "101A74BC4B3CFCB0"
@@ -1996,7 +1996,7 @@
 			}
 			x: 3.5d
 			y: 9.5d
-			subtitle: "1 Copper"
+			subtitle: "1铜币"
 			id: "12C00A5749FC39A3"
 			tasks: [{
 				id: "4C53AD0A3B5E710D"
@@ -2011,7 +2011,7 @@
 			}]
 		}
 		{
-			title: "Armor/Tools Lootbox"
+			title: "盔甲/工具战利品箱"
 			icon: {
 				id: "minecraft:diamond_pickaxe"
 				Count: 1b
@@ -2021,7 +2021,7 @@
 			}
 			x: 12.5d
 			y: -5.5d
-			subtitle: "3 Diamond"
+			subtitle: "3钻石币"
 			id: "50E4689BBE14D585"
 			tasks: [{
 				id: "43DFE96278BF9DF7"
@@ -2037,11 +2037,11 @@
 			}]
 		}
 		{
-			title: "Very Lucky Block x16"
+			title: "幸运方块x16"
 			icon: "lucky:lucky_block"
 			x: 3.5d
 			y: 8.0d
-			subtitle: "3 Diamond"
+			subtitle: "3钻石币"
 			id: "0DDD9612EEC3F88D"
 			tasks: [{
 				id: "0BC70768B4C3B7E5"
@@ -2061,7 +2061,7 @@
 			icon: "lucky:lucky_potion"
 			x: 3.5d
 			y: 6.5d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			id: "1F36C7D6CC3E1C68"
 			tasks: [{
 				id: "3ECE7EAA396848FC"
@@ -2076,11 +2076,11 @@
 			}]
 		}
 		{
-			title: "Unlucky_Blocks x16"
+			title: "幸运方块 x16"
 			icon: "lucky:lucky_block"
 			x: 4.5d
 			y: 8.0d
-			subtitle: "3 Diamond"
+			subtitle: "3钻石币"
 			id: "0C4C9DB3D17F8505"
 			tasks: [{
 				id: "5134B846485F3834"
@@ -2096,11 +2096,11 @@
 			}]
 		}
 		{
-			title: "Lucky Potion x16"
+			title: "幸运药水x16"
 			icon: "lucky:lucky_potion"
 			x: 4.5d
 			y: 6.5d
-			subtitle: "3 Gold"
+			subtitle: "3金币"
 			id: "22CFFC56D827C3B2"
 			tasks: [{
 				id: "7ACB122A1689A588"
@@ -2116,11 +2116,11 @@
 			}]
 		}
 		{
-			title: "Unlucky_Potion x16"
+			title: "幸运药水x16"
 			icon: "lucky:lucky_potion"
 			x: 5.5d
 			y: 6.5d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			id: "328D5CAB1CF0EEA0"
 			tasks: [{
 				id: "4FF6223FC551240A"
@@ -2139,7 +2139,7 @@
 			icon: "integrateddynamics:menril_sapling"
 			x: -4.0d
 			y: -7.0d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			dependencies: ["1AC5A3480770B4AE"]
 			id: "4DD18888DAEF98D9"
 			tasks: [{
@@ -2160,7 +2160,7 @@
 			icon: "minecraft:spawner"
 			x: -4.0d
 			y: -4.0d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			dependencies: ["14BBD80AC3CAC3F3"]
 			id: "52127D7B2DFD15C1"
 			tasks: [{
@@ -2198,11 +2198,11 @@
 			}]
 		}
 		{
-			title: "Enderium x8"
+			title: "末影锭x8"
 			icon: "thermal:enderium_ingot"
 			x: -4.0d
 			y: -2.5d
-			subtitle: "1 Diamond"
+			subtitle: "1钻石币"
 			dependencies: ["1A31542892DA3F27"]
 			id: "1148278FC1A6B71F"
 			tasks: [{
@@ -2219,11 +2219,11 @@
 			}]
 		}
 		{
-			title: "Basic Circuit x16"
+			title: "基础控制电路x16"
 			icon: "mekanism:basic_control_circuit"
 			x: -4.0d
 			y: -1.0d
-			subtitle: "9 Diamond"
+			subtitle: "9钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "695A77A54B3893F2"
 			tasks: [{
@@ -2245,7 +2245,7 @@
 			icon: "mekanism:advanced_control_circuit"
 			x: -3.0d
 			y: -1.0d
-			subtitle: "1 Netherite 2 Diamond"
+			subtitle: "1下界合金币 2钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "12FCFC759C44D1EB"
 			tasks: [
@@ -2275,7 +2275,7 @@
 			icon: "mekanism:elite_control_circuit"
 			x: -2.0d
 			y: -1.0d
-			subtitle: "1 Netherite 6 Diamond"
+			subtitle: "1下界合金币 6钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "3A2D0681F4F31D9C"
 			tasks: [
@@ -2305,7 +2305,7 @@
 			icon: "mekanism:ultimate_control_circuit"
 			x: -1.0d
 			y: -1.0d
-			subtitle: "2 Netherite 3 Diamond"
+			subtitle: "2下界合金币 3钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "54C62BC191AFB7CD"
 			tasks: [
@@ -2336,7 +2336,7 @@
 			icon: "ae2:engineering_processor"
 			x: -4.0d
 			y: 0.5d
-			subtitle: "3 Netherite"
+			subtitle: "3下界合金币"
 			dependencies: ["5A21337A0A7857C7"]
 			id: "13EE68F0786FF048"
 			tasks: [{
@@ -2358,7 +2358,7 @@
 			icon: "ae2:calculation_processor"
 			x: -3.0d
 			y: 0.5d
-			subtitle: "3 Netherite"
+			subtitle: "3下界合金币"
 			dependencies: ["5A21337A0A7857C7"]
 			id: "2159B304BD9B8307"
 			tasks: [{
@@ -2380,7 +2380,7 @@
 			icon: "ae2:logic_processor"
 			x: -2.0d
 			y: 0.5d
-			subtitle: "3 Netherite"
+			subtitle: "3下界合金币"
 			dependencies: ["5A21337A0A7857C7"]
 			id: "1E502488AB87F313"
 			tasks: [{
@@ -2402,7 +2402,7 @@
 			icon: "paraglider:deku_leaf"
 			x: 3.5d
 			y: -4.0d
-			subtitle: "3 Diamond"
+			subtitle: "3钻石币"
 			id: "67349389930A2308"
 			tasks: [{
 				id: "0C88972A4116E97C"
