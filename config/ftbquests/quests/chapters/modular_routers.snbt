@@ -352,7 +352,7 @@
 		{
 			x: -0.5d
 			y: 2.5d
-			description: ["从相邻库存中提取物品。"]
+			description: ["从相邻容器中提取物品。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "131F35375EAA60C1"
 			tasks: [{
@@ -384,7 +384,7 @@
 		{
 			x: 0.5d
 			y: 2.5d
-			description: ["将物品发送到相邻的库存。"]
+			description: ["将物品发送到相邻的容器。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "3C9D936E24CEE348"
 			tasks: [{
@@ -1101,7 +1101,7 @@
 		{
 			x: -20.0d
 			y: 2.5d
-			description: ["准确指定可以放入库存的物品数量。"]
+			description: ["准确指定可以放入容器的物品数量。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "674E9C2C96DC5A36"
 			tasks: [{
