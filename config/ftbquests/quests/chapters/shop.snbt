@@ -36,7 +36,7 @@
 			}]
 		}
 		{
-			title: "原材料战利品箱"
+			title: "粗金属战利品箱"
 			icon: "minecraft:raw_copper"
 			x: 10.5d
 			y: -5.5d
@@ -170,7 +170,7 @@
 			x: 3.5d
 			y: 5.0d
 			subtitle: "3钻石币"
-			description: ["用于快速前往您的重生点！ 我在空气中挖掘岁月的痕迹 :)"]
+			description: ["用于快速回到您的重生点！我在空气中挖掘岁月的痕迹 :)"]
 			id: "67AB20AA93113B25"
 			tasks: [{
 				id: "382D2CC72711AC01"
@@ -371,7 +371,7 @@
 			}]
 		}
 		{
-			title: "生物资源战利品盒"
+			title: "生物资源战利品箱"
 			icon: "minecraft:rotten_flesh"
 			x: 14.5d
 			y: -5.5d
@@ -390,7 +390,7 @@
 			}]
 		}
 		{
-			title: "遗物"
+			title: "饰品"
 			icon: "artifacts:crystal_heart"
 			x: 7.5d
 			y: -5.5d
@@ -494,7 +494,7 @@
 			}]
 		}
 		{
-			title: "牛排 x64"
+			title: "牛排x64"
 			icon: "minecraft:cooked_beef"
 			x: 4.5d
 			y: -8.5d
@@ -514,7 +514,7 @@
 			}]
 		}
 		{
-			title: "牛排 x8"
+			title: "牛排x8"
 			icon: "minecraft:cooked_beef"
 			x: 3.5d
 			y: -8.5d
@@ -554,7 +554,7 @@
 			}]
 		}
 		{
-			title: "染料战利品盒"
+			title: "染料战利品箱"
 			icon: "minecraft:red_dye"
 			x: 16.5d
 			y: -5.5d
@@ -574,7 +574,7 @@
 			}]
 		}
 		{
-			title: "武器战利品盒"
+			title: "武器战利品箱"
 			icon: "andromedacrafts:pink_sword"
 			x: 13.5d
 			y: -5.5d
@@ -594,7 +594,7 @@
 			}]
 		}
 		{
-			title: "家具战利品盒"
+			title: "家具战利品箱"
 			icon: "cfm:oak_chair"
 			x: 4.5d
 			y: -5.5d
@@ -639,7 +639,7 @@
 			}]
 		}
 		{
-			title: "破损的唱片 1"
+			title: "破损的唱片x1"
 			icon: "botania:record_gaia_2"
 			x: 3.5d
 			y: 15.0d
@@ -658,7 +658,7 @@
 			}]
 		}
 		{
-			title: "巧克力板 x1"
+			title: "巧克力板x1"
 			icon: {
 				id: "create_confectionery:full_chocolate_bar"
 				Count: 1b
@@ -684,7 +684,7 @@
 			}]
 		}
 		{
-			title: "红石块 x16"
+			title: "红石块x16"
 			icon: "minecraft:redstone_block"
 			x: 8.5d
 			y: -7.0d
@@ -704,7 +704,7 @@
 			}]
 		}
 		{
-			title: "煎饼 x32"
+			title: "煎饼x32"
 			icon: "supplementaries:pancake"
 			x: 7.5d
 			y: 0.5d
@@ -855,7 +855,7 @@
 			}]
 		}
 		{
-			title: "钻石 x16"
+			title: "钻石x16"
 			icon: "minecraft:diamond"
 			x: 6.5d
 			y: -7.0d
@@ -875,7 +875,7 @@
 			}]
 		}
 		{
-			title: "铁锭 x16"
+			title: "铁锭x16"
 			icon: "minecraft:iron_ingot"
 			x: 4.5d
 			y: -7.0d
@@ -974,7 +974,7 @@
 			}]
 		}
 		{
-			title: "Gems战利品箱"
+			title: "宝石战利品箱"
 			icon: "gemsnjewels:pale_diamond"
 			x: 11.5d
 			y: -5.5d
@@ -2076,7 +2076,7 @@
 			}]
 		}
 		{
-			title: "幸运方块 x16"
+			title: "幸运方块x16"
 			icon: "lucky:lucky_block"
 			x: 4.5d
 			y: 8.0d
