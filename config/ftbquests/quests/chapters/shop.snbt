@@ -56,7 +56,7 @@
 			}]
 		}
 		{
-			title: "蜜蜂物品战利品箱"
+			title: "养蜂战利品箱"
 			icon: {
 				id: "thermal:beekeeper_helmet"
 				Count: 1b
