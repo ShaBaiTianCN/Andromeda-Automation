@@ -375,7 +375,7 @@
 			icon: "minecraft:rotten_flesh"
 			x: 14.5d
 			y: -5.5d
-			subtitle: "1 铁币"
+			subtitle: "1铁币"
 			id: "5C9A725A473752BB"
 			tasks: [{
 				id: "4357CF45F1BD65CC"
