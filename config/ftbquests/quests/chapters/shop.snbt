@@ -394,7 +394,7 @@
 			icon: "artifacts:crystal_heart"
 			x: 7.5d
 			y: -5.5d
-			subtitle: "2 下界合金币"
+			subtitle: "2下界合金币"
 			id: "1633DEF7296C2495"
 			tasks: [{
 				id: "7620291FDD9AFC39"
