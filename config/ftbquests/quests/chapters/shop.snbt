@@ -433,7 +433,7 @@
 			icon: "minecraft:oak_log"
 			x: 3.5d
 			y: -13.0d
-			subtitle: "5 铜币"
+			subtitle: "5铜币"
 			id: "17F7862D8ECF3332"
 			tasks: [{
 				id: "327189EA8E711123"
@@ -453,7 +453,7 @@
 			icon: "minecraft:dirt"
 			x: 3.5d
 			y: -11.5d
-			subtitle: "1 金币"
+			subtitle: "1金币"
 			id: "525FF09F988D6E6C"
 			tasks: [{
 				id: "1ED4B275DDD459CC"
@@ -478,7 +478,7 @@
 			}
 			x: 3.5d
 			y: -1.0d
-			subtitle: "5 铜币"
+			subtitle: "5铜币"
 			id: "6AC39CA6649CFD69"
 			tasks: [{
 				id: "1AC89E0E88BBD0ED"
@@ -914,7 +914,7 @@
 			}]
 		}
 		{
-			title: "美丽植物战利品箱"
+			title: "漂亮的植物战利品箱"
 			icon: "minecraft:flowering_azalea"
 			x: 5.5d
 			y: -5.5d
