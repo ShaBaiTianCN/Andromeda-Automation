@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 9
 	filename: "pneumaticcraft"
-	title: "Pneumaticcraft"
+	title: "气动工艺"
 	icon: "pneumaticcraft:reinforced_pressure_tube"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,14 +12,14 @@
 			x: -1.0d
 			y: -2.0d
 			shape: "square"
-			subtitle: "Get some TNT"
+			subtitle: "整点TNT"
 			description: [
-				"To make compressed iron you'll need some TNT."
+				"制作压缩铁锭前需要准备一些TNT。"
 				""
 				""
-				"In order to protect your island, you'll want to only use the TNT in an obsidian bowl structure, or submerged in water."
+				"为了保护你的空岛，最好在黑曜石内或者水下使用TNT。"
 				""
-				"Now simply explode some iron ingots or blocks! There will be a 20% loss in it's conversion to compressed iron."
+				"现在只需炸一些铁锭或铁块即可获取压缩铁，这其中会有20%的损耗。"
 			]
 			dependencies: ["4A4A0873114B8141"]
 			id: "077A9D020BDCBB26"
@@ -51,13 +51,13 @@
 		{
 			x: -0.5d
 			y: -0.5d
-			subtitle: "The Wrench!"
+			subtitle: "扳手！"
 			description: [
-				"This wrench is very handy and difficult to go without."
+				"这款扳手用着十分方便，你会爱不释手的。"
 				""
-				"You can use it to close off open pressure pipes, quickly dismantle components, and generally configure many of the things in Pneumaticcraft."
+				"你可以用它关闭开放着的压力管道，快速拆卸部件以及快速配置气动工艺的很多东西。"
 				""
-				"You will however need to add some pressure to this wrench. More on that later!"
+				"然而你需要给扳手加入一些压缩空气。后面会有详细介绍。"
 			]
 			dependencies: ["077A9D020BDCBB26"]
 			id: "19067E5880C8845A"
@@ -87,11 +87,11 @@
 		{
 			x: 0.5d
 			y: -0.5d
-			subtitle: "Strong Stone"
+			subtitle: "强大的石头"
 			description: [
-				"This stone has a strong blast resistance!"
+				"这种石头有很强的爆炸抗性。"
 				""
-				"It's also used in allot of Pneumaticcraft crafting recipes, so it's always good to have some handy!"
+				"这也被广泛运用于各种气动工艺的合成配方，因此常备一些是个不错的选择。"
 			]
 			dependencies: ["077A9D020BDCBB26"]
 			id: "6E0DA219A564AF78"
@@ -123,13 +123,13 @@
 		{
 			x: 1.5d
 			y: -0.5d
-			subtitle: "Under Pressure!"
+			subtitle: "在压力下"
 			description: [
-				"These pipes are the lifeblood of Pneumaticcraft... Or more like life pressure heh."
+				"这些管道是气动工艺的命脉……或者说更像生活压力，呵呵。"
 				""
-				"These pipes are used to transport pressurized air from one location to another."
+				"这些管道用于传输压缩空气。"
 				""
-				"Pressurized air can be used for everything from powering drones, to pressurizing large chambers for crafting special components."
+				"压缩空气可以用于包括驱动无人机、在压缩室中制作特殊物品在内的各种事。"
 			]
 			dependencies: ["077A9D020BDCBB26"]
 			id: "58360B2636C72F23"
@@ -159,11 +159,11 @@
 		{
 			x: 2.5d
 			y: 2.0d
-			subtitle: "Hnnnngg The Early Game Pressure Maker!"
+			subtitle: "Hnnnngg前期的气压制造器"
 			description: [
-				"It's like a furnace, but it creates pressure rather then cooks things."
+				"它就像一台熔炉，但它能产生压力而不是烧东西。"
 				""
-				"You'll want to be careful. Pressure can be dangerous if it gets higher then the recommended limit. Things might just start exploding!"
+				"你需要小心，压力超过推荐的限制会非常危险，会爆炸！"
 			]
 			dependencies: ["58360B2636C72F23"]
 			id: "093622097B9C8852"
@@ -193,8 +193,8 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			subtitle: "An air motor!"
-			description: ["This is a air compressor that uses liquid fuels to generate pressure."]
+			subtitle: "一台气动马达"
+			description: ["这是一台使用流体燃料产生压力的空气压缩机。"]
 			dependencies: ["093622097B9C8852"]
 			id: "623DC1B523A61F17"
 			tasks: [{
@@ -217,8 +217,8 @@
 		{
 			x: 3.5d
 			y: 4.0d
-			subtitle: "Convert Rotational Energy into Pressure!"
-			description: ["A nice compatibility item that allows you to convert Create rotational power into Pneumaticcraft pressure power!"]
+			subtitle: "将旋转能转换为压力"
+			description: ["一个不错的兼容性物品，可以将机械动力的旋转能转换为气动工艺的压力。"]
 			dependencies: ["093622097B9C8852"]
 			id: "57F7C0C18AE6A472"
 			tasks: [{
@@ -241,8 +241,8 @@
 		{
 			x: 4.5d
 			y: 4.0d
-			subtitle: "Geothermal Pressure!"
-			description: ["This generator uses hot and cold difference to generate power. You can use heat pipes, or just straight up fluids and blocks that have temperature values. For example, placing lava on one side, and packed ice on the other. The two temperature emitters have to be on opposite sides of eachother. You can have two sets going into one Generator though!"]
+			subtitle: "地热压"
+			description: ["这台压缩机依靠冷热差异产生能量。你可以使用热管或者直接放置有温度值的流体或方块。例如：在一侧放置熔岩，另一侧放置冰块。两种温度的物品需放置在对面。当然你可以在一台热力压缩机的四个方向放置两套不同的方块。"]
 			dependencies: ["093622097B9C8852"]
 			id: "14556EDEF6FE1E59"
 			tasks: [{
@@ -263,16 +263,16 @@
 			}]
 		}
 		{
-			title: "Pressure Chamber"
+			title: "压力室"
 			x: 2.5d
 			y: 4.0d
-			subtitle: "Compress Everything!"
+			subtitle: "压缩一切！"
 			description: [
-				"The Pressure Chamber allows you to pressurize different things. You can craft TNT crafts with 100% turnout and then some."
+				"压力室能压缩不同的东西。你可以制作原本使用TNT制作的东西且产出率为100%。"
 				""
-				"In order to form a pressure chamber you have to first form a cube frame with the wall blocks. This can be 3x3 up to 5x5. Then it needs 2 interfaces, one facing input side, and one facing output side, and a pressure valve. Keep the inside blocks air, and everything else can be any of the pressure chamber blocks on top of what's required."
+				"搭建一台压力室首先需要搭建一个全是压力室墙壁的立方体，可以是3x3或5x5的大小。接着需要2个压力室接口，一个输入一个输出以及一个压力室气阀。中心的方块为空气，其余任何地方都可以是任意需要的压力室方块。"
 				""
-				"Once it's a valid multiblock structure the textures will change and you will have a nice multiblock chamber now for pressure crafting!"
+				"一旦多方块结构搭建成功压力室的材质会发生变化，你就拥有了一台用于压力合成的多方块结构。"
 			]
 			dependencies: ["093622097B9C8852"]
 			id: "1A18F0DC2EB47549"
@@ -316,8 +316,8 @@
 		{
 			x: -1.5d
 			y: -0.5d
-			subtitle: "Useful tool"
-			description: ["A little handheld tool to tell you what the pressure level is anywhere in a pressure network."]
+			subtitle: "实用工具"
+			description: ["一个可以看压力网络任意位置压力值的手持小工具。"]
 			dependencies: ["077A9D020BDCBB26"]
 			id: "5F3F335AEA1AC5FB"
 			tasks: [{
@@ -539,8 +539,8 @@
 		{
 			x: 2.5d
 			y: 8.5d
-			subtitle: "Crude Refining!"
-			description: ["This is a multiblock. You want to stack the outputs on top of the refiner. Everything in this setup requires heat. Heat does rise up, but will disperse out the sides. So either import heat all around, or just at the bottom and insulate the upper outputs."]
+			subtitle: "粗略精炼"
+			description: ["这是一个多方块结构。你需要在精炼厂控制器上方堆叠放置精炼厂输出端。搭建的每个方块都需要热量。热量上升后，会从侧边消散，因此要不每个面都输入热量，要不给只给底部输入热量并在上方进行隔热。"]
 			dependencies: ["19E3CC7FA57AE518"]
 			id: "400F1BE25D8BDE05"
 			tasks: [
@@ -666,8 +666,8 @@
 		{
 			x: 2.5d
 			y: 13.0d
-			subtitle: "Bucket of plastic"
-			description: ["You can get solid plastic from this by simply placing it in the world. Or you could use it to make some etching acid in the pressurized chamber! D:"]
+			subtitle: "桶装塑料"
+			description: ["你可以通过将其放置在世界中获取固体塑料。或者你也可以用它在压力室中做一些蚀刻酸。D:"]
 			dependencies: ["669CEBF5A6EB3BB0"]
 			id: "4155D8300FA3A780"
 			tasks: [{
@@ -712,10 +712,10 @@
 		{
 			x: 2.5d
 			y: 15.0d
-			subtitle: "Buy Stuff!"
+			subtitle: "购物！"
 			description: [
 				""
-				"Simply Right click an inventory block and start buying and selling stuff. Just place stuff in the inventory and make deals."
+				"简单地在库存物品里点一下右键就可以购买或出售物品了。只需在箱子里放置物品就可以交易了。"
 			]
 			dependencies: ["321E33FD7AEEE8F0"]
 			id: "273550B5596CD871"
@@ -739,7 +739,7 @@
 		{
 			x: 2.5d
 			y: 16.0d
-			description: ["A crafting component. You're not able to craft this though. You'll have to buy it from a villager, or from your nifty Amadron tablet."]
+			description: ["一个合成部件，但你并不能合成它，只能在村民或亚马龙平板那里购买。"]
 			dependencies: ["273550B5596CD871"]
 			id: "3FC895E43EBF9721"
 			tasks: [{
@@ -806,7 +806,7 @@
 		{
 			x: 2.5d
 			y: 19.0d
-			description: ["Alright a chip! You can use this to craft all the fun stuff!"]
+			description: ["没错，一颗芯片！你可以用它做很多有趣的东西！"]
 			dependencies: ["44E96E8A9C53E104"]
 			id: "24178DA3A98058AF"
 			tasks: [{
@@ -829,8 +829,8 @@
 		{
 			x: 1.5d
 			y: 4.0d
-			subtitle: "Like an RF charger, but with air!"
-			description: ["This block can withstand up to 20 pressure, and is used to charge any portable pressure powered items."]
+			subtitle: "就和RF充电器一样，不过充的是压缩空气。"
+			description: ["这个方块可以承受最高20的气压，用于为任何便携式压缩气体驱动的物品充能。"]
 			dependencies: ["093622097B9C8852"]
 			id: "42DFA19271A782E3"
 			tasks: [{
@@ -853,7 +853,7 @@
 		{
 			x: 8.0d
 			y: 21.5d
-			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			description: ["要升级这套装备需将其放置于充气站并打开对应界面。有许多升级可供选择，这套装备的每个方面都可以定制。你可以设置相应按键来激活放入的升级。"]
 			dependencies: ["5702C1DE525CD9DD"]
 			id: "4300628C125E0BC4"
 			tasks: [{
@@ -882,7 +882,7 @@
 		{
 			x: 7.0d
 			y: 21.5d
-			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			description: ["要升级这套装备需将其放置于充气站并打开对应界面。有许多升级可供选择，这套装备的每个方面都可以定制。你可以设置相应按键来激活放入的升级。"]
 			dependencies: ["5702C1DE525CD9DD"]
 			id: "631C587D260A4484"
 			tasks: [{
@@ -911,7 +911,7 @@
 		{
 			x: 6.0d
 			y: 21.5d
-			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			description: ["要升级这套装备需将其放置于充气站并打开对应界面。有许多升级可供选择，这套装备的每个方面都可以定制。你可以设置相应按键来激活放入的升级。"]
 			dependencies: ["5702C1DE525CD9DD"]
 			id: "2CE56861A2F650D5"
 			tasks: [{
@@ -940,7 +940,7 @@
 		{
 			x: 5.0d
 			y: 21.5d
-			description: ["To upgrade this armor. Place it in the charging block and open the gui. There's many modules you can use to customize every aspect of this set of armor. You can use a hotkey to activate the augments you put in your armor!"]
+			description: ["要升级这套装备需将其放置于充气站并打开对应界面。有许多升级可供选择，这套装备的每个方面都可以定制。你可以设置相应按键来激活放入的升级。"]
 			dependencies: ["5702C1DE525CD9DD"]
 			id: "116AC34BDC951097"
 			tasks: [{
@@ -967,10 +967,10 @@
 			}]
 		}
 		{
-			title: "Compressed Iron Armor"
+			title: "压缩铁套装"
 			x: 6.5d
 			y: 20.5d
-			description: ["Basic compressed iron armor. Used to make the more advance upgradable pressure armor."]
+			description: ["基础压缩铁套装。用于制作加入升级的高级压力套装。"]
 			dependencies: ["24178DA3A98058AF"]
 			id: "5702C1DE525CD9DD"
 			tasks: [
@@ -1035,7 +1035,7 @@
 			x: -2.0d
 			y: 20.5d
 			shape: "gear"
-			description: ["You don't directly craft with this. You add the components into an inventory nearby. You'll also need the programming specific to the recipe."]
+			description: ["你并不能直接用它合成，而是在附近的容器中放入材料。你还需要放入特定的装配程序。"]
 			dependencies: ["24178DA3A98058AF"]
 			id: "476CB22C4CCFFE36"
 			tasks: [{
@@ -1065,7 +1065,7 @@
 		{
 			x: -4.0d
 			y: 21.5d
-			description: ["make sure that each crafting arm is on an adjacent side to this block. All blocks in the assembly need to be connected."]
+			description: ["确保每个装配设备都紧挨着此方块。处于同一装配线的所有装配设备都需要相互连接。"]
 			dependencies: ["476CB22C4CCFFE36"]
 			id: "07B63071F9C91E30"
 			tasks: [{
@@ -1088,7 +1088,7 @@
 		{
 			x: -3.0d
 			y: 21.5d
-			description: ["Input to the assembly line. This component will grab ingredients to a valid recipe and automatically place them on the crafting platform. Make sure it's adjacent to the platform."]
+			description: ["装配线的输入口。这个部件会抓取有效配方的材料并自动将其放置到装配平台。确保它紧挨着装配平台。"]
 			dependencies: ["476CB22C4CCFFE36"]
 			id: "45182603C1F06E37"
 			tasks: [{
@@ -1111,7 +1111,7 @@
 		{
 			x: -2.0d
 			y: 21.5d
-			description: ["This arm will take finished recipes and put them back in the inventory the input arm accuired them from."]
+			description: ["这个机械臂会将制作完成的物品输出至输入物品的容器。"]
 			dependencies: ["476CB22C4CCFFE36"]
 			id: "7BFF2944B3CD094B"
 			tasks: [{
@@ -1134,7 +1134,7 @@
 		{
 			x: -1.0d
 			y: 21.5d
-			description: ["Make sure this component is adjacent to the platform component."]
+			description: ["确保它紧挨着装配平台。"]
 			dependencies: ["476CB22C4CCFFE36"]
 			id: "63609D6E99FCDE0F"
 			tasks: [{
@@ -1157,7 +1157,7 @@
 		{
 			x: 0.0d
 			y: 21.5d
-			description: ["Make sure this component is adjacent to the platform component."]
+			description: ["确保它紧挨着装配平台。"]
 			dependencies: ["476CB22C4CCFFE36"]
 			id: "7B807F092474F300"
 			tasks: [{
@@ -1180,8 +1180,8 @@
 		{
 			x: 1.5d
 			y: 20.5d
-			subtitle: "The Most Advanced Drone"
-			description: ["This drone can be programmed to do really complex tasks. You'll need puzzle pieces and a programming table for that."]
+			subtitle: "最先进的无人机"
+			description: ["这款无人机可以经过编程后完成十分复杂的任务。你需要编程拼图和编程器来使用它。"]
 			dependencies: ["24178DA3A98058AF"]
 			id: "4191EEBA254F9797"
 			tasks: [{
@@ -1866,7 +1866,7 @@
 		{
 			x: -7.0d
 			y: 13.0d
-			description: ["Pressure powered minigun! Fires very rapidly."]
+			description: ["压缩空气驱动的加特林！射速非常快！"]
 			hide_dependency_lines: true
 			dependencies: ["077A9D020BDCBB26"]
 			id: "1ED2893E537E1350"
@@ -2058,8 +2058,8 @@
 		{
 			x: -3.5d
 			y: -0.5d
-			subtitle: "Another Wrench!!?"
-			description: ["This wrench is useful for removing frames on items like heat frames, and is used to configure logistical modules."]
+			subtitle: "另一个扳手！！？"
+			description: ["此扳手可以用于配置物流框架例如导热框架，以及配置传输装置。"]
 			dependencies: ["077A9D020BDCBB26"]
 			id: "5620E3DC4917381A"
 			tasks: [{
@@ -2082,8 +2082,8 @@
 		{
 			x: -2.5d
 			y: -0.5d
-			subtitle: "Wait a Third Wrench???"
-			description: ["This wrench allows you to apply cosmetic covers to all your pipes so you can hide all that pressure building up in the walls."]
+			subtitle: "等会儿，第三个扳手？？？"
+			description: ["用于添加或移除可伪装方块的伪装。"]
 			dependencies: ["077A9D020BDCBB26"]
 			id: "6E2BF1A25549845D"
 			tasks: [{
@@ -2106,7 +2106,7 @@
 		{
 			x: -10.0d
 			y: 18.0d
-			description: ["Use this to craft your own spawner cores!"]
+			description: ["用它制作你自己的刷怪笼核心。"]
 			hide_dependency_lines: true
 			dependencies: ["077A9D020BDCBB26"]
 			id: "28CCF12092E33A29"
@@ -2152,7 +2152,7 @@
 		{
 			x: -11.5d
 			y: 19.5d
-			description: ["Put this on a vanilla spawner, and you can make it ignore the spawn proximity. Also the mobs spawned don't despawn when you're out and about."]
+			description: ["将它放在原版刷怪笼上，刷怪笼激活器会阻止玩家离开后刷出的生物消失。"]
 			dependencies: ["28CCF12092E33A29"]
 			id: "15A017E2B56125CF"
 			tasks: [{
@@ -2175,7 +2175,7 @@
 		{
 			x: -10.5d
 			y: 19.5d
-			description: ["Use this to extract the spawner core from a live spawner. Warning it will cause allot of mobs to spawn from the spawner, be prepared to defend yourself."]
+			description: ["用于从原版刷怪笼中抽取刷怪笼核心。注意这会导致大量刷怪笼内的生物生成，准备好一场恶战。"]
 			dependencies: ["28CCF12092E33A29"]
 			id: "1AF1B6C752C62C37"
 			tasks: [{
@@ -2223,7 +2223,7 @@
 		{
 			x: -7.5d
 			y: 19.5d
-			description: ["A custom spawner that runs off of pressure!"]
+			description: ["使用气压运作的普通刷怪笼。"]
 			dependencies: [
 				"03943569994B0037"
 				"28CCF12092E33A29"
@@ -2249,7 +2249,7 @@
 		{
 			x: 3.0d
 			y: 20.5d
-			description: ["Launch this totally safe cluster of rockets from your hands. You can configure them by shift right clicking."]
+			description: ["完全安全地发射手中的火箭群。潜行右键进行配置。"]
 			dependencies: ["24178DA3A98058AF"]
 			id: "487849CF52B01583"
 			tasks: [{
@@ -2281,8 +2281,8 @@
 		{
 			x: 3.5d
 			y: 14.0d
-			subtitle: "Stronger pressure tubes!"
-			description: ["Pressure pipes capable of holding 10 pressure units rather then just 5. Can connect to the other pipes, but be careful not to overload other networks."]
+			subtitle: "更强的压力管道"
+			description: ["足以承受10气压而不是5气压的压力管道。可以与别的压力管道相连，但注意不要让别的网络过载。"]
 			hide_dependency_lines: false
 			dependencies: ["4155D8300FA3A780"]
 			id: "2B94DEF570E41B59"
@@ -2306,8 +2306,8 @@
 		{
 			x: 4.0d
 			y: 20.5d
-			subtitle: "Strongest pressure pipes"
-			description: ["These tubes can hold up to 20 pressure!"]
+			subtitle: "最强的压力管道"
+			description: ["这种管道可以承受最高20的气压！"]
 			dependencies: ["24178DA3A98058AF"]
 			id: "2B43F04E6E406126"
 			tasks: [{
@@ -2331,8 +2331,8 @@
 			x: 2.5d
 			y: 11.0d
 			shape: "square"
-			subtitle: "Time to get hot!"
-			description: ["With this nifty block you can craft different fluids and items using other fluids and items and heat. This is necessary to craft molten plastic which is essential in the pneumaticcraft progression."]
+			subtitle: "是时候变热了"
+			description: ["通过这台实用的机器你可以将流体和物品处理成另一种流体，并时常伴有物品产出。它十分重要，在气动工艺进程中必不可少的熔融塑料就需要用它制作。"]
 			dependencies: ["400F1BE25D8BDE05"]
 			id: "669CEBF5A6EB3BB0"
 			tasks: [{
@@ -2355,8 +2355,8 @@
 		{
 			x: 2.5d
 			y: 6.0d
-			subtitle: "Heat transport!"
-			description: ["An expensive piping used to transport heat. You can even put like a campfire under it if you wanted to generate some small amount of ambient heat. There's other more pneumatic ways of generating heat and cold though."]
+			subtitle: "传输热量"
+			description: ["一种用于传输热量的昂贵的管道。你甚至可以在它下方放置一个营火来产生少量的环境热量。当然有更气动工艺的方法来产生热量或者冷却。"]
 			dependencies: ["1A18F0DC2EB47549"]
 			id: "19E3CC7FA57AE518"
 			tasks: [{
@@ -2379,7 +2379,7 @@
 		{
 			x: 1.0d
 			y: 21.5d
-			description: ["Use this to program your drones. It's a very drag and drop form of programming. You'll need a start and an end to your logic sequence."]
+			description: ["用来给你的无人机编程。这是一种非常简单的编程方式，在你的逻辑序列中需要有一个开始和一个结束。"]
 			dependencies: ["4191EEBA254F9797"]
 			id: "4B968AA71DEA212A"
 			tasks: [{
@@ -2425,7 +2425,7 @@
 		{
 			x: -8.5d
 			y: 19.5d
-			description: ["Use this to absorb mobs into a mob spawner core."]
+			description: ["用于将怪物吸入刷怪笼核心。"]
 			dependencies: ["28CCF12092E33A29"]
 			id: "3C0BA4F44B8973C6"
 			tasks: [{
