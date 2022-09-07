@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 5
 	filename: "pretty_pipez"
-	title: "Pretty Pipez"
+	title: "更好的管道"
 	icon: "prettypipes:pipe"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -4.5d
 			y: -1.5d
-			description: ["This allows you to dictate what is attached to your pipes!"]
+			description: ["这使您可以指定连接到管道的内容！"]
 			dependencies: ["1549B3BBF2C591E7"]
 			hide: true
 			id: "5EF5C063E86220B5"
@@ -57,7 +57,7 @@
 		{
 			x: -4.5d
 			y: -0.5d
-			description: ["For items!"]
+			description: ["传输物品"]
 			dependencies: ["5EF5C063E86220B5"]
 			id: "12C8B3A508DBC2F1"
 			tasks: [{
@@ -80,7 +80,7 @@
 		{
 			x: 1.5d
 			y: 2.0d
-			description: ["This lets you view items of the connected network."]
+			description: ["这使您可以查看已连接网络的物品。"]
 			dependencies: ["12C8B3A508DBC2F1"]
 			id: "6F3A8A12F2FAB88D"
 			tasks: [{
@@ -103,7 +103,7 @@
 		{
 			x: 1.5d
 			y: 3.0d
-			description: ["This allows you to view items as well as craft anything in the connected network! Keep in mind this is really heavily reliant on the speed of the network! So keep your items close and running at high speeds!"]
+			description: ["这使您可以查看物品以及制作连接网络中的任何内容！请记住，这确实严重依赖于网络的速度！因此，请保持您的存储靠近并高速运行！"]
 			dependencies: ["6F3A8A12F2FAB88D"]
 			id: "3075C45C93A9EC1F"
 			tasks: [{
@@ -170,7 +170,7 @@
 		{
 			x: -12.5d
 			y: 3.0d
-			description: ["These allow you to extract whatever is inside of the chest"]
+			description: ["这可以让你提取箱子内的任何东西"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "63DA21ACBB1EE9FD"
 			tasks: [{
@@ -256,7 +256,7 @@
 		{
 			x: -13.5d
 			y: 3.0d
-			description: ["This allows you to set up a basic item filter!"]
+			description: ["这使您可以设置基本物品过滤器！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "3F458024BDF8B873"
 			tasks: [{
@@ -336,7 +336,7 @@
 		{
 			x: -11.5d
 			y: 3.0d
-			description: ["Increases the speed of the pipe it was used on!"]
+			description: ["使用它来提高管道的速度！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "4EE3968A2C8C393B"
 			tasks: [{
@@ -416,7 +416,7 @@
 		{
 			x: -10.5d
 			y: 3.0d
-			description: ["Allows you to differentiate between pipes! For instance if you have two spots that can recieve cobblestone, the one with the higher priority will get cobblestone first!"]
+			description: ["允许您区分管道！例如，如果你有两个可以存储原石的端点，那么优先级较高的端点将首先获得原石！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "731711AF4B6BE320"
 			tasks: [{
@@ -496,7 +496,7 @@
 		{
 			x: -9.5d
 			y: 3.0d
-			description: ["Allows you to differentiate between pipes! For instance if you have two spots that can recieve cobblestone, the one with the higher priority will get cobblestone first!"]
+			description: ["允许您区分管道！例如，如果你有两个可以存储原石的端点，那么优先级较高的端点将首先获得原石！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "29ED85F6A6E1C576"
 			tasks: [{
@@ -576,7 +576,7 @@
 		{
 			x: -8.5d
 			y: 3.0d
-			description: ["Searches nearby chest for items inside!"]
+			description: ["在附近的箱子中搜索里面的物品！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "2434D01699AE1604"
 			tasks: [{
@@ -656,7 +656,7 @@
 		{
 			x: -7.5d
 			y: 3.0d
-			description: ["Allows you to limit the number of items within!"]
+			description: ["允许您限制其中的物品数量！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "637369AD9C3FFF0A"
 			tasks: [{
@@ -679,7 +679,7 @@
 		{
 			x: -6.5d
 			y: 3.0d
-			description: ["This allows you to read the durability on a tool."]
+			description: ["这允许您读取工具上的耐久度。"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "0D17C7B553AAFB95"
 			tasks: [{
@@ -702,7 +702,7 @@
 		{
 			x: -5.5d
 			y: 3.0d
-			description: ["Allows you to filter nbt data! Like enchantments."]
+			description: ["允许您过滤 nbt 数据！比如附魔！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "2FE15056D9C5A6C0"
 			tasks: [{
@@ -725,7 +725,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			description: ["Lets you filter by mod!"]
+			description: ["让你按模组过滤！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "37C0F86A57602E35"
 			tasks: [{
@@ -748,7 +748,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
-			description: ["Lets you filter by tag, like ores, or wood."]
+			description: ["允许您按标签（如矿石或木材）进行过滤。"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "78D8D30CD4CBEFC7"
 			tasks: [{
@@ -771,7 +771,7 @@
 		{
 			x: -2.5d
 			y: 3.0d
-			description: ["Makes the pipes sensative to redstone."]
+			description: ["使管道受红石控制。"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "0CEE32EF9DDEED5E"
 			tasks: [{
@@ -794,7 +794,7 @@
 		{
 			x: -14.5d
 			y: 4.0d
-			description: ["Add an extra slot for a filter!"]
+			description: ["为管道添加额外的过滤槽位！"]
 			dependencies: ["3F458024BDF8B873"]
 			id: "2727B66A3AE2A539"
 			tasks: [{
@@ -817,7 +817,7 @@
 		{
 			x: 1.5d
 			y: 4.0d
-			description: ["These crafting modules allow you to set up automatic crafting recipes, it will insert the required items in the attached inventory and try to pull out the requested item."]
+			description: ["这个模块允许您设置自动制作配方，它将在附加的物品栏中插入所需的物品并尝试提取请求的物品。"]
 			dependencies: ["3075C45C93A9EC1F"]
 			id: "152AFB586AE99CE6"
 			tasks: [{
@@ -892,7 +892,7 @@
 		{
 			x: -1.5d
 			y: 3.0d
-			description: ["One for you, and one for you, and one for you!"]
+			description: ["你一个！我一个！他一个！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "78EBBFB4A1173DCC"
 			tasks: [{
@@ -915,7 +915,7 @@
 		{
 			x: -0.5d
 			y: 3.0d
-			description: ["Gives out items randomly"]
+			description: ["随机分发物品。"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "33D5391EFB6AD777"
 			tasks: [{
