@@ -3,7 +3,7 @@
 	group: "1BDE5602F1BE5CBF"
 	order_index: 0
 	filename: "deep_mob_learning"
-	title: "Deep Mob Learning"
+	title: "深度怪物学习"
 	icon: {
 		id: "dmlreforged:deep_learner"
 		Count: 1b
@@ -20,7 +20,7 @@
 		{
 			x: -1.0d
 			y: 1.0d
-			description: ["This allows you to craft data models, these allow you to store data that you can collect later."]
+			description: ["这能让你制作数据模型，用于存储之后收集的数据。"]
 			dependencies: ["77A72FFDCF8098CA"]
 			id: "0BB79D2E592348BF"
 			tasks: [{
@@ -43,7 +43,7 @@
 		{
 			x: -1.0d
 			y: 4.0d
-			description: ["Provided this block has power and polymer clay! It can generate types of matter as well as a perfect pearl! The matter types can be changed into different loot via crafting, whereas the perfect pearls can be changed into loot using the loot fabricator!"]
+			description: ["给它提供能量和聚合黏土它就能产生各种物质以及原始物质。物质可以合成为各种战利品，原始物质可以在战利品制造器里制作成战利品。"]
 			dependencies: ["208697AC741C3B43"]
 			id: "1D03DE07881FBEA3"
 			tasks: [{
@@ -67,7 +67,7 @@
 			x: -1.0d
 			y: 5.0d
 			shape: "gear"
-			description: ["The loot fabricator allows you to turn the perfect pearls into a large quanity of loot from whatever mob gave it to you! Keep in mind you can choose the outcome!"]
+			description: ["战利品制造器能让你将原始物质转换出大量任意怪物的掉落物。记得你可以自己选择产出物！"]
 			dependencies: ["1D03DE07881FBEA3"]
 			id: "063A47964317E23F"
 			tasks: [{
@@ -97,7 +97,7 @@
 		{
 			x: -1.0d
 			y: 0.0d
-			description: ["Right click a block of coal with a hunk of redstone!"]
+			description: ["手持红石粉右键煤炭块。"]
 			dependencies: ["5CB252E22922F108"]
 			hide: true
 			id: "77A72FFDCF8098CA"
@@ -121,7 +121,7 @@
 		{
 			x: -1.0d
 			y: 2.0d
-			description: ["The deep learner allows you to store data modules, when the mob on the face of the data module is killed it will increase the quality of the data module put inside, and therefore the loot obtained! Keep in mind you need data modules inside, and this in your inventory for this to do anything!"]
+			description: ["深度学习器能让你存储数据模型，当击杀数据模型对应的怪物时其中的数据模型会升级，因此获取战利品。切记数据模型要放入深度学习器中，放在物品栏里没有任何意义！"]
 			dependencies: ["0BB79D2E592348BF"]
 			id: "6387FA50D619BBC8"
 			tasks: [{
@@ -153,7 +153,7 @@
 		{
 			x: -1.0d
 			y: 3.0d
-			description: ["This is your basic item that allows the simulation chamber in the following quest to work!"]
+			description: ["这是让下个任务中的模拟室工作的基础物品。"]
 			dependencies: ["6387FA50D619BBC8"]
 			id: "208697AC741C3B43"
 			tasks: [{
