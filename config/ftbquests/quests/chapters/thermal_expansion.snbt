@@ -553,7 +553,7 @@
 		{
 			x: -12.5d
 			y: 4.0d
-			description: ["使用超热的流体。You go gurl!"]
+			description: ["使用超热的流体！"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "2CEA27FB87A7CA3F"
 			tasks: [{
