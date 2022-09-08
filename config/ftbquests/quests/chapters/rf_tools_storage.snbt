@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 3
 	filename: "rf_tools_storage"
-	title: "RF Tools"
+	title: "RF工具"
 	icon: "rftoolsstorage:storage_scanner"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -13,7 +13,7 @@
 			y: 1.0d
 			description: [
 				""
-				"Storage modules stored inside allow you to store a variety of items with an interface!"
+				"储存模块让你在一个接口中储存种类繁多的物品！"
 			]
 			dependencies: ["7A45D84B40E0CFA0"]
 			id: "2E0656E58D396AEA"
@@ -176,7 +176,7 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			description: ["This allows for the scanning of any inventory block in a large radius! [Make sure to turn the radius up ;) ]"]
+			description: ["其可以在很大范围内搜索容器！[一定要把半径调大哦：）]"]
 			dependencies: ["02B6D605B34C9FDA"]
 			hide: true
 			id: "7A45D84B40E0CFA0"
@@ -200,7 +200,7 @@
 		{
 			x: -3.5d
 			y: 1.5d
-			description: ["Allows for the use of wireless access cards to access the machiens below! Keep in mind this is a requirement for many machines!"]
+			description: ["考虑到接入以下机器需要使用无线访问卡，请记得，许多机器都有这样的要求！"]
 			dependencies: ["3F19823094ADBB02"]
 			id: "27BE3D3C3A859E45"
 			tasks: [{
@@ -510,7 +510,7 @@
 		{
 			x: 10.5d
 			y: 1.0d
-			description: ["Right click with a simple wrench to activate it once you have set up the configuration to activate it for the first time."]
+			description: ["用智能扳手右键以激活，首次激活需要进行配置。"]
 			dependencies: ["6932E55C91B8F9E4"]
 			id: "37CC5A22452CF35A"
 			tasks: [{
@@ -688,7 +688,7 @@
 		{
 			x: 16.0d
 			y: 2.0d
-			description: ["Replaces dug blocks with dirt!"]
+			description: ["用泥土替换被挖出来的方块！"]
 			hide_dependency_lines: true
 			dependencies: ["6316F49A9E285220"]
 			id: "1D21AF9859659921"
@@ -758,7 +758,7 @@
 		{
 			x: 16.0d
 			y: 3.0d
-			description: ["Replaces dug blocks with dirt!"]
+			description: ["用泥土替换被挖出来的方块！"]
 			hide_dependency_lines: true
 			dependencies: ["6316F49A9E285220"]
 			id: "366155055AE4C71B"
@@ -851,7 +851,7 @@
 		{
 			x: 16.0d
 			y: 4.0d
-			description: ["Replaces dug blocks with dirt!"]
+			description: ["用泥土替换被挖出来的方块！"]
 			hide_dependency_lines: true
 			dependencies: ["6316F49A9E285220"]
 			id: "791C3F16506F0A07"
@@ -920,7 +920,7 @@
 		{
 			x: 20.5d
 			y: 0.0d
-			description: ["Transforms blaze rods into blazing rods!"]
+			description: ["将烈焰棒变成充能烈焰棒！"]
 			dependencies: ["02B6D605B34C9FDA"]
 			hide_text_until_complete: true
 			id: "79B6FE01E919BD28"
@@ -1011,7 +1011,7 @@
 		{
 			x: 23.5d
 			y: 0.0d
-			description: ["Generates power with coal!"]
+			description: ["用煤发电！"]
 			dependencies: ["02B6D605B34C9FDA"]
 			hide: true
 			id: "394F8F15A7E7623D"
@@ -1266,7 +1266,7 @@
 		{
 			x: -13.5d
 			y: 2.0d
-			description: ["Stores knowledge for all of your knowledge needs."]
+			description: ["储存你所需要的所有知识！"]
 			dependencies: ["6DBCD8962FA5E53B"]
 			id: "77A162578F90E5F8"
 			tasks: [{
@@ -1290,7 +1290,7 @@
 			x: -17.5d
 			y: 5.0d
 			shape: "gear"
-			description: ["This is used to create dimlets you have researched! Each requires a memory module, and energy module, as well as an EMPTY dimlet you can craft. Additionally this will require one of the absorbers to specify what exactly it is that you want!"]
+			description: ["这用于创建您已经研究过的信息卡！信息卡制作需要内存单元、能源模块和空的信息卡。此外还需要一个吸收器来指定你想要的确切内容。"]
 			dependencies: [
 				"314DCFA4C4938A1C"
 				"45334E55504FAF48"
@@ -1310,7 +1310,7 @@
 		{
 			x: -20.5d
 			y: 0.0d
-			description: ["Enscribes a dimension tab with dimlets that modify the dimention! Be sure to name it in the very bottom left with LOWERCASE letters otherwise it will not work!"]
+			description: ["利用信息卡刻录维度的标签来修改维度！请务必在左下角用小写字母命名，否则它将失效！"]
 			dependencies: ["02B6D605B34C9FDA"]
 			hide: true
 			id: "17803DF013B744F7"
@@ -1334,7 +1334,7 @@
 		{
 			x: -20.5d
 			y: 1.0d
-			description: ["This is were you can store dimensions and power them!"]
+			description: ["这就是你可以存储维度并为它们供电的地方！"]
 			dependencies: ["17803DF013B744F7"]
 			id: "65C18B2602E57BBB"
 			tasks: [{
@@ -1358,7 +1358,7 @@
 			x: -20.5d
 			y: 2.0d
 			shape: "gear"
-			description: ["You can use this to select the dimension that you generated and teleport there! BE SURE TO HAVE A WAY BACK!"]
+			description: ["你可以用其选择生成的维度并传送到那里！请确保你有办法回来！！"]
 			dependencies: ["65C18B2602E57BBB"]
 			id: "5213FEAD93991471"
 			tasks: [
@@ -1395,7 +1395,7 @@
 		{
 			x: -14.5d
 			y: 0.0d
-			description: ["You can research dimlets in this table to unlock them in the dimlet workbench!"]
+			description: ["你可以在研究台中研究信息卡，以在信息卡工作台中解锁它们！"]
 			dependencies: ["02B6D605B34C9FDA"]
 			hide: true
 			id: "16D1E0AE29BCE1CD"
