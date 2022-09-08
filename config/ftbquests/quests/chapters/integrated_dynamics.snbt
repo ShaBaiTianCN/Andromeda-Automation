@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 3
 	filename: "integrated_dynamics"
-	title: "Integrated Dynamics"
+	title: "集成动力/动态联合"
 	icon: "integrateddynamics:variable"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -56,7 +56,7 @@
 		{
 			x: -7.0d
 			y: 3.5d
-			description: ["Auto tries to deposit fluid where the channels are pointing! Jump on it to squeeze objects and redstone power to reset it!"]
+			description: ["自动尝试将流体流向通道指向的位置！跳上它来挤压物体和红石信号来重置它！"]
 			dependencies: ["1BAC19FCF8462B8A"]
 			id: "33A7071C3C9007D3"
 			tasks: [{
@@ -79,7 +79,7 @@
 		{
 			x: -7.0d
 			y: 4.5d
-			description: ["No more jumping needed!"]
+			description: ["不再需要跳跃!"]
 			dependencies: ["33A7071C3C9007D3"]
 			id: "371AA394EA8ECE6A"
 			tasks: [{
@@ -102,7 +102,7 @@
 		{
 			x: -6.0d
 			y: 3.5d
-			description: ["Slowly crystalizes menril!"]
+			description: ["缓慢形成门瑞欧结晶！"]
 			dependencies: ["1BAC19FCF8462B8A"]
 			id: "3950C0B62B85DCF1"
 			tasks: [{
@@ -125,7 +125,7 @@
 		{
 			x: -6.0d
 			y: 4.5d
-			description: ["Dries stuff.. but faster!"]
+			description: ["烘干东西。。但是更快！"]
 			dependencies: ["3950C0B62B85DCF1"]
 			id: "0FDBBC385B0304C8"
 			tasks: [{
@@ -176,7 +176,7 @@
 		{
 			x: 7.5d
 			y: 3.5d
-			description: ["This allows you to program logic into variable cards!"]
+			description: ["这使您可以将逻辑编程到变量卡中！"]
 			dependencies: ["1BAC19FCF8462B8A"]
 			id: "17B79600F58D67A4"
 			tasks: [{
@@ -199,7 +199,7 @@
 		{
 			x: 5.5d
 			y: 3.5d
-			description: ["This allows you to store variables to reference and use in logic programming!"]
+			description: ["这允许您存储变量卡以在逻辑编程中引用和使用！"]
 			dependencies: ["1BAC19FCF8462B8A"]
 			id: "7B26D5B8143E24F3"
 			tasks: [{
@@ -222,7 +222,7 @@
 		{
 			x: 0.0d
 			y: 3.5d
-			description: ["These allow you to interact and connect to your network!"]
+			description: ["这些允许您与网络进行交互并连接到您的网络！"]
 			dependencies: ["1BAC19FCF8462B8A"]
 			id: "757C0D498C3DED51"
 			tasks: [{
@@ -268,7 +268,7 @@
 			x: 0.0d
 			y: 4.5d
 			shape: "gear"
-			description: ["With all the interfaces and importers, you can use this to basically select what you want it to do! For instance in the world item importer, you could put this in the slot next to 'pick up all items' and it will do that within its radius!"]
+			description: ["使用所有接口和输入口，您基本上可以使用它选择您想要它执行的操作！ 例如，在物品拾取口中，你可以把它放在“拾取所有物品”旁边的插槽中，它会在其半径内做到这一点！"]
 			dependencies: ["757C0D498C3DED51"]
 			id: "5285DBA034872CCB"
 			tasks: [{
@@ -343,7 +343,7 @@
 		{
 			x: -2.0d
 			y: 6.0d
-			description: ["This allows your network to see and interact with connected blocks of this category!"]
+			description: ["这允许您的网络查看此类型的连接方块并与之交互！"]
 			dependencies: ["5285DBA034872CCB"]
 			id: "3DBF0CC1D1765DE2"
 			tasks: [{
@@ -366,7 +366,7 @@
 		{
 			x: 0.0d
 			y: 6.0d
-			description: ["This allows your network to see and interact with connected blocks of this category!"]
+			description: ["这允许您的网络查看此类型的连接方块并与之交互！"]
 			dependencies: ["5285DBA034872CCB"]
 			id: "14BBBC4E27156918"
 			tasks: [{
@@ -389,7 +389,7 @@
 		{
 			x: -1.5d
 			y: 7.0d
-			description: ["Allows you to filter stuff!"]
+			description: ["允许您过滤内容！"]
 			dependencies: ["3DBF0CC1D1765DE2"]
 			id: "353B18C9FE51A6DD"
 			tasks: [{
@@ -412,7 +412,7 @@
 		{
 			x: 2.0d
 			y: 6.0d
-			description: ["This allows your network to see and interact with connected blocks of this category!"]
+			description: ["这允许您的网络查看此类型的连接方块并与之交互！"]
 			dependencies: ["5285DBA034872CCB"]
 			id: "5C9609E5057BB650"
 			tasks: [{
@@ -435,7 +435,7 @@
 		{
 			x: 0.5d
 			y: 7.0d
-			description: ["Allows you to filter stuff!"]
+			description: ["允许您过滤内容！"]
 			dependencies: ["14BBBC4E27156918"]
 			id: "547B614B20460541"
 			tasks: [{
@@ -458,7 +458,7 @@
 		{
 			x: 2.5d
 			y: 7.0d
-			description: ["Allows you to filter stuff!"]
+			description: ["允许您过滤内容！"]
 			dependencies: ["5C9609E5057BB650"]
 			id: "17A7E69DF936527E"
 			tasks: [{
