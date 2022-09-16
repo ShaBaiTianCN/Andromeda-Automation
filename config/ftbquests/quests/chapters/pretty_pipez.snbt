@@ -679,7 +679,7 @@
 		{
 			x: -6.5d
 			y: 3.0d
-			description: ["这允许您读取工具上的耐久度。"]
+			description: ["这允许您读取工具上的耐久值。"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "0D17C7B553AAFB95"
 			tasks: [{
