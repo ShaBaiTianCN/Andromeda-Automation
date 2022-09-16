@@ -702,7 +702,7 @@
 		{
 			x: -5.5d
 			y: 3.0d
-			description: ["允许您过滤nbt数据！比如附魔！"]
+			description: ["允许您过滤NBT数据！比如附魔！"]
 			dependencies: ["2B3A66CAD6751875"]
 			id: "2FE15056D9C5A6C0"
 			tasks: [{
