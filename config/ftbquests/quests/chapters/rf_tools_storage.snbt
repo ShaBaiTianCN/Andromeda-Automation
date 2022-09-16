@@ -176,7 +176,7 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			description: ["其可以在很大范围内搜索容器！[一定要把半径调大哦：）]"]
+			description: ["其可以在很大范围内搜索容器！（一定要把半径调大哦）]"]
 			dependencies: ["02B6D605B34C9FDA"]
 			hide: true
 			id: "7A45D84B40E0CFA0"
