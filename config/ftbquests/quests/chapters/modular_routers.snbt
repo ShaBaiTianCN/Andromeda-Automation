@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 4
 	filename: "modular_routers"
-	title: "Modular Routers"
+	title: "模块化路由器"
 	icon: "modularrouters:modular_router"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -5.5d
 			y: -1.0d
-			description: ["This is the base crafting ingredient for almost everything in this mod! For any gravestone shaped cards you can right click and access a gui that lets you install augments and show further changes you can make to the functionality of the module!"]
+			description: ["这是这个模组中几乎所有东西的基础制作材料！对于任何墓碑形状的卡片，您可以右键单击并访问一个GUI，该GUI允许您安装增强功能并显示您可以对模块功能进行的进一步更改！"]
 			dependencies: ["530B33AD4A33F8F8"]
 			hide: true
 			id: "1F0D26B09C0CC2AB"
@@ -35,7 +35,7 @@
 		{
 			x: -5.5d
 			y: 0.0d
-			description: ["This is the block you install upgrades and modules on!"]
+			description: ["这是您安装升级和模块的机器！"]
 			dependencies: ["1F0D26B09C0CC2AB"]
 			id: "49612A0B7B895154"
 			tasks: [{
@@ -58,7 +58,7 @@
 		{
 			x: -7.5d
 			y: 2.5d
-			description: ["Breaks blocks in the selected direction!"]
+			description: ["在选定方向上挖掘方块！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "7AADE9D994480D98"
 			tasks: [{
@@ -90,7 +90,7 @@
 		{
 			x: -6.5d
 			y: 2.5d
-			description: ["Places Blocks in the selected direction!"]
+			description: ["将方块放置在选定的方向！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "067462FA0239C969"
 			tasks: [{
@@ -153,7 +153,7 @@
 			x: -4.5d
 			y: 0.0d
 			shape: "circle"
-			description: ["Augments can change the functionality of existing blocks! "]
+			description: ["拓展核心可以改变现有块的功能！"]
 			dependencies: ["1F0D26B09C0CC2AB"]
 			id: "612DDB7FC2F01300"
 			tasks: [{
@@ -209,7 +209,7 @@
 		{
 			x: -4.5d
 			y: 2.5d
-			description: ["Dropper functionality!"]
+			description: ["投掷器功能"]
 			dependencies: ["49612A0B7B895154"]
 			id: "408762E39318D8C4"
 			tasks: [{
@@ -241,7 +241,7 @@
 		{
 			x: -14.0d
 			y: 2.5d
-			description: ["Basically acts like a drawbridge, it can place up to five blocks away and destroy up to five blocks away, however it only seems to be able to destroy blocks it places by default!"]
+			description: ["它基本上就像吊桥一样，它可以放置最多五个方块，或者摧毁最多五个方块，但是它似乎只能默认摧毁它放置的方块！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "79B415FEFB1FD8F5"
 			tasks: [{
@@ -286,7 +286,7 @@
 		{
 			x: -5.5d
 			y: 2.5d
-			description: ["For all of your personal item cannon needs!"]
+			description: ["对您所有的个人物品进行发射！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "49AC3ADAB2BA31B0"
 			tasks: [{
@@ -321,7 +321,7 @@
 		{
 			x: -1.5d
 			y: 2.5d
-			description: ["This allows you to interact with a player's inventory."]
+			description: ["这允许你与玩家的物品栏进行交互。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "227E694E874D1991"
 			tasks: [{
@@ -352,7 +352,7 @@
 		{
 			x: -0.5d
 			y: 2.5d
-			description: ["Extracts items from an adjacent inventory."]
+			description: ["从相邻容器中提取物品。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "131F35375EAA60C1"
 			tasks: [{
@@ -384,7 +384,7 @@
 		{
 			x: 0.5d
 			y: 2.5d
-			description: ["Sends items to an adjacent inventory"]
+			description: ["将物品发送到相邻的容器。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "3C9D936E24CEE348"
 			tasks: [{
@@ -417,7 +417,7 @@
 			x: -11.5d
 			y: 2.5d
 			shape: "gear"
-			description: ["God I love vacuum hoppers..."]
+			description: ["上帝，我爱虚空漏斗..."]
 			dependencies: ["49612A0B7B895154"]
 			id: "68F02392967AC66A"
 			tasks: [{
@@ -673,7 +673,7 @@
 		{
 			x: -3.5d
 			y: 2.5d
-			description: ["Outputs energy into adjacent blocks!"]
+			description: ["将能量输出到相邻的方块中！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "28AA85901609D630"
 			tasks: [{
@@ -705,7 +705,7 @@
 		{
 			x: 2.5d
 			y: 4.5d
-			description: ["Make your modular routers not ugly!"]
+			description: ["让你的模块化路由器不那么难看！"]
 			dependencies: ["31A0C01275679FCF"]
 			id: "7299FFCD8F9C5C1D"
 			tasks: [{
@@ -772,7 +772,7 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["Thank god for quiet time!"]
+			description: ["感谢上帝的安静时间！"]
 			dependencies: ["31A0C01275679FCF"]
 			id: "38C4E5506405BBA6"
 			tasks: [{
@@ -839,7 +839,7 @@
 		{
 			x: 8.5d
 			y: 4.5d
-			description: ["Set a specific code, everything on that specific code will try to fire at the same time!"]
+			description: ["设置一个特定的代码，该特定代码上的所有内容都将尝试同时触发！"]
 			dependencies: ["31A0C01275679FCF"]
 			id: "1EDBE5289015360A"
 			tasks: [{
@@ -884,7 +884,7 @@
 		{
 			x: -14.0d
 			y: 3.5d
-			description: ["Pushes entities!"]
+			description: ["推送实体！"]
 			dependencies: ["79B415FEFB1FD8F5"]
 			id: "19EAD3890C2A679D"
 			tasks: [{
@@ -907,7 +907,7 @@
 		{
 			x: -12.0d
 			y: 3.5d
-			description: ["Decreased pickup time on existing blocks!"]
+			description: ["减少了现有模块的拾取时间！"]
 			dependencies: ["68F02392967AC66A"]
 			id: "542557D3B98B9772"
 			tasks: [{
@@ -952,7 +952,7 @@
 		{
 			x: -11.0d
 			y: 3.5d
-			description: ["Vroom vroom for that experience baby! Make sure you have some way of dealing with the fluid!"]
+			description: ["为了经验宝宝！确保你有办法处理液体经验！"]
 			dependencies: ["68F02392967AC66A"]
 			id: "690B06EFD6AE9858"
 			tasks: [{
@@ -975,7 +975,7 @@
 		{
 			x: -15.0d
 			y: 3.5d
-			description: ["The fake blocks used by this router will actually mimic real blocks with this upgrade!"]
+			description: ["使造桥模块MK2产生的虚拟方块同时模拟原方块的亮度、红石充能、硬度和爆炸抗性。"]
 			dependencies: ["79B415FEFB1FD8F5"]
 			id: "6581C9000DC31172"
 			tasks: [{
@@ -1011,7 +1011,7 @@
 		{
 			x: -18.0d
 			y: 2.5d
-			description: ["Allows the router to process more items a tick!"]
+			description: ["允许路由器每次处理更多项目！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "4AD686BA3BA0FEFE"
 			tasks: [{
@@ -1078,7 +1078,7 @@
 		{
 			x: -19.0d
 			y: 2.5d
-			description: ["Allows the router to give out items in a round robin style!"]
+			description: ["允许路由器以循环方式分发项目！"]
 			dependencies: ["49612A0B7B895154"]
 			id: "4AF422C62A0B0A7F"
 			tasks: [{
@@ -1101,7 +1101,7 @@
 		{
 			x: -20.0d
 			y: 2.5d
-			description: ["specify exactly how many items can be put into an inventory."]
+			description: ["准确指定可以放入容器的物品数量。"]
 			dependencies: ["49612A0B7B895154"]
 			id: "674E9C2C96DC5A36"
 			tasks: [{
