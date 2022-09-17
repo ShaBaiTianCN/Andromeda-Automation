@@ -300,7 +300,7 @@
 		{
 			x: -2.5d
 			y: 4.0d
-			description: ["Does what it says on the tin.1"]
+			description: ["作用正如它在“信息”上所说的那样"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "573A0A3090467872"
 			tasks: [{
