@@ -952,7 +952,7 @@
 		{
 			x: -11.0d
 			y: 3.5d
-			description: ["Vroom vroom 为了经验宝宝！ 确保你有办法处理液体经验！"]
+			description: ["为了经验宝宝！确保你有办法处理液体经验！"]
 			dependencies: ["68F02392967AC66A"]
 			id: "690B06EFD6AE9858"
 			tasks: [{
