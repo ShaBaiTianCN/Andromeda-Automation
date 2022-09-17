@@ -3,7 +3,7 @@
 	group: "1D115F3DF1092C06"
 	order_index: 4
 	filename: "thermal_expansion"
-	title: "Thermal Expansion"
+	title: "热力膨胀"
 	icon: "thermal:dynamo_disenchantment"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: -8.5d
 			y: 0.0d
-			description: ["Cooks stuff! Nuff Said."]
+			description: ["熔炼物品！Nuff说的。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "4A3168D70269BB76"
 			tasks: [{
@@ -34,7 +34,7 @@
 		{
 			x: -6.5d
 			y: 0.0d
-			description: ["Efficiently makes planks and produces sawdust!"]
+			description: ["高效获取木板以及生产锯末。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "563737C4F45C0C0B"
 			tasks: [{
@@ -57,7 +57,7 @@
 		{
 			x: -7.5d
 			y: 0.0d
-			description: ["Pulverises whatever is put inside!"]
+			description: ["粉碎一切！"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "539AC04DF113229F"
 			tasks: [{
@@ -81,7 +81,7 @@
 			x: -7.0d
 			y: 1.5d
 			shape: "pentagon"
-			description: ["Alloy smelter compact all into one baby block!"]
+			description: ["在一个小方块内进行合金熔炼。"]
 			dependencies: ["539AC04DF113229F"]
 			id: "1A31542892DA3F27"
 			tasks: [{
@@ -104,7 +104,7 @@
 		{
 			x: -6.5d
 			y: 4.0d
-			description: ["Lets you grow stuff from seeds! Easy Peasy!"]
+			description: ["从种子到产物，简单极了！"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "4E07672D9888CCC2"
 			tasks: [{
@@ -127,7 +127,7 @@
 		{
 			x: -9.5d
 			y: 4.0d
-			description: ["Seperate your random stuff!"]
+			description: ["分离混乱的物品"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "7B6DC6E113B0E63C"
 			tasks: [{
@@ -150,7 +150,7 @@
 		{
 			x: -5.5d
 			y: 4.0d
-			description: ["Press different items into different shapes! Used to make coins for the numastic dynamo!"]
+			description: ["将不同的物品压成不同的形状，用来给通货能源炉提供硬币。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "509372AEE2CCA5A4"
 			tasks: [{
@@ -162,7 +162,7 @@
 		{
 			x: -7.5d
 			y: 4.0d
-			description: ["Used for processing various smeltable resources."]
+			description: ["在高温要分解固态物质。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "647499965E109F8C"
 			tasks: [{
@@ -185,7 +185,7 @@
 		{
 			x: -8.5d
 			y: 4.0d
-			description: ["Melt blocks into fluids!"]
+			description: ["将方块融化成流体。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "200881529B7CD074"
 			tasks: [{
@@ -208,7 +208,7 @@
 		{
 			x: -4.5d
 			y: 4.0d
-			description: ["The auto crafter of your dreams!"]
+			description: ["你梦想的自动合成台。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "1CF20417C85471D9"
 			tasks: [{
@@ -231,7 +231,7 @@
 		{
 			x: -3.5d
 			y: 4.0d
-			description: ["Used for automating potions."]
+			description: ["用于自动酿造药水。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "63A89431960E60DB"
 			tasks: [{
@@ -254,7 +254,7 @@
 		{
 			x: -10.5d
 			y: 4.0d
-			description: ["Put fluid into stuff!"]
+			description: ["往物品里灌流体。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "05EEB452B122D5D1"
 			tasks: [{
@@ -277,7 +277,7 @@
 		{
 			x: -11.5d
 			y: 4.0d
-			description: ["Used to refine fluids."]
+			description: ["用于精炼流体。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "0E4862A6AE44277C"
 			tasks: [{
@@ -300,7 +300,7 @@
 		{
 			x: -2.5d
 			y: 4.0d
-			description: ["Does what it says on the tin."]
+			description: ["作用正如它在“信息”上所说的那样"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "573A0A3090467872"
 			tasks: [{
@@ -323,7 +323,7 @@
 		{
 			x: -1.5d
 			y: 4.0d
-			description: ["Your cobblestone generator."]
+			description: ["你的圆石制造机。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "5B9725CBE7CBB52F"
 			tasks: [{
@@ -346,7 +346,7 @@
 		{
 			x: -1.5d
 			y: 0.0d
-			description: ["Extracts items from trees!"]
+			description: ["从树种分离物品。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "4316B6D0D3ADF7E9"
 			tasks: [{
@@ -369,7 +369,7 @@
 		{
 			x: -5.5d
 			y: 0.0d
-			description: ["For your fish catching needs!"]
+			description: ["满足你的捕鱼需求。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "5C9AD5DB1A4A39E6"
 			tasks: [{
@@ -392,7 +392,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			description: ["Infuses phytosoil with power, allowing plants to grow faster!"]
+			description: ["用电给植物注入植育一号使其加速生长。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "3950944B96FB3121"
 			tasks: [{
@@ -415,7 +415,7 @@
 		{
 			x: -3.5d
 			y: 0.0d
-			description: ["Accumulates water like a boss."]
+			description: ["像老板一样蓄水。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "08F61AF83EC1D4F2"
 			tasks: [{
@@ -438,7 +438,7 @@
 		{
 			x: -2.5d
 			y: 0.0d
-			description: ["I missed you vacuum hopper... How I have missed you..."]
+			description: ["我想念你，真空箱子……我多么想念你……"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "56D1C8C5F35BE6DB"
 			tasks: [{
@@ -461,7 +461,7 @@
 		{
 			x: -0.5d
 			y: 4.0d
-			description: ["A difuser for your essential oils... I mean minecraft potions."]
+			description: ["你的精油的扩散器……我说的是Minecraft的药水。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "304B37DB46984EB0"
 			tasks: [{
@@ -484,7 +484,7 @@
 		{
 			x: 0.5d
 			y: 4.0d
-			description: ["Puts energy into your energy items!"]
+			description: ["给你的设备注入能量。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "71A782BDD0A9CD09"
 			tasks: [{
@@ -507,7 +507,7 @@
 		{
 			x: -9.5d
 			y: 0.0d
-			description: ["Works like a furnace except it generates power!"]
+			description: ["如同熔炉一样工作，只是产生的是电。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "1F06B658148426D1"
 			tasks: [{
@@ -530,7 +530,7 @@
 		{
 			x: -13.5d
 			y: 4.0d
-			description: ["Make fuel with combustable fluids!"]
+			description: ["使用可燃液体作为燃料。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "4CE37C7802EFBDE0"
 			tasks: [{
@@ -553,7 +553,7 @@
 		{
 			x: -12.5d
 			y: 4.0d
-			description: ["Use hot fluids. You go gurl!"]
+			description: ["使用超热的流体！"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "2CEA27FB87A7CA3F"
 			tasks: [{
@@ -576,7 +576,7 @@
 		{
 			x: -6.0d
 			y: 5.5d
-			description: ["Generates coins based off of money! This is capitalism right?"]
+			description: ["用值钱的硬币发电！这就是资本主义对吗？"]
 			dependencies: ["509372AEE2CCA5A4"]
 			id: "71E9C128C128BE69"
 			tasks: [{
@@ -599,7 +599,7 @@
 		{
 			x: -10.5d
 			y: 0.0d
-			description: ["Consumes gems to generate power"]
+			description: ["消耗珠宝发电。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "0EC97480C2491675"
 			tasks: [{
@@ -622,7 +622,7 @@
 		{
 			x: -11.5d
 			y: 0.0d
-			description: ["consumes ANY enchanted item to generate power!"]
+			description: ["消耗任何附魔物品发电。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "2A040A6B2075012A"
 			tasks: [{
@@ -658,7 +658,7 @@
 		{
 			x: -12.5d
 			y: 0.0d
-			description: ["Consumes food to generate power!"]
+			description: ["消耗食物发电。"]
 			dependencies: ["6A4C40EB2CE1E9F4"]
 			id: "4FCCE83A95254C91"
 			tasks: [{
@@ -694,7 +694,7 @@
 		{
 			x: -14.5d
 			y: 4.0d
-			description: ["This is the bread and butter of this thermal expansion! This allows you to upgrade machines into more efficient/better machines!"]
+			description: ["这是热力膨胀的生计，它能升级你的机器使其变得更强。"]
 			dependencies: ["1A31542892DA3F27"]
 			id: "00D560BA250C27BC"
 			tasks: [{
@@ -817,7 +817,7 @@
 		{
 			x: -5.0d
 			y: 5.5d
-			description: ["Press some plants!"]
+			description: ["压榨一些植物"]
 			dependencies: ["509372AEE2CCA5A4"]
 			id: "16C6DBB7E383AE8A"
 			tasks: [{
@@ -841,7 +841,7 @@
 			x: -5.0d
 			y: 7.5d
 			shape: "gear"
-			description: ["Yellow means null, red is output, and blue is input!"]
+			description: ["黄色表示空白，红色表示输出，蓝色表示输入。"]
 			dependencies: ["63295227A4A5109E"]
 			id: "594B1A2963BF347C"
 			tasks: [{
@@ -880,10 +880,10 @@
 			]
 		}
 		{
-			title: "Thermal Expansion"
+			title: "热力膨胀"
 			x: -7.0d
 			y: -3.0d
-			description: ["This is a mod that adds a bunch of complex and easy to use machinery! It is compact and generally pretty easy to use :)"]
+			description: ["这是一个添加了许多复杂但易用的机器，紧凑但通常很好用。:)"]
 			dependencies: [
 				"22002F72797E1678"
 				"15B0C1324F7D1C6C"
