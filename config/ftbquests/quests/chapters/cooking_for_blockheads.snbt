@@ -3,23 +3,23 @@
 	group: "3B8B12427843DE95"
 	order_index: 1
 	filename: "cooking_for_blockheads"
-	title: "Kitchen Building"
+	title: "厨房"
 	icon: "cookingforblockheads:cooking_table"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			title: "Cooking With Ergo"
+			title: "用Ergo烹饪"
 			icon: "thermal:pbj_sandwich"
 			x: 0.0d
 			y: 0.0d
-			description: ["Life isn't complete until you can stab someone with a spatula! Cooking for blockheads is neat because the blocks for the kitchen connect and form a multi-block, in other words when accessing the crafting table it meets the requirements to craft something depending on what is connected!"]
+			description: ["没有被锅铲捅到的人生是不完整的！懒人厨房是简洁的！因为厨具连接起来会变成一个多方块结构。换句话说，打开烹饪桌可以直接使用与之相连的厨具！"]
 			dependencies: ["53F0CBAA8F78A0D2"]
 			id: "4671412C883C059E"
 			tasks: [{
 				id: "585A8FA39337FB5E"
 				type: "checkmark"
-				title: "Let's Cook!"
+				title: "开煮！"
 			}]
 			rewards: [{
 				id: "2AEB854154DEC94B"
@@ -32,7 +32,7 @@
 			x: -6.5d
 			y: 0.0d
 			shape: "gear"
-			description: ["Uses all connecting kitchen items!"]
+			description: ["使用所有连起来的厨具"]
 			dependencies: ["3197A82BAB357327"]
 			id: "64353FC2FD72803A"
 			tasks: [{
@@ -62,7 +62,7 @@
 		{
 			x: -3.5d
 			y: -3.0d
-			description: ["Just one would be illegal"]
+			description: ["只有一个不合理"]
 			dependencies: ["4671412C883C059E"]
 			id: "32E77CD0DE4315A3"
 			tasks: [{
@@ -86,7 +86,7 @@
 		{
 			x: -3.5d
 			y: -1.0d
-			description: ["Provides water to the cooking table!"]
+			description: ["为烹饪桌提供水"]
 			dependencies: ["4671412C883C059E"]
 			id: "4F1748EEB388A64B"
 			tasks: [{
@@ -131,7 +131,7 @@
 		{
 			x: -3.5d
 			y: 1.0d
-			description: ["Stores goods for use at the cooking table."]
+			description: ["储存你需要的东西"]
 			dependencies: ["4671412C883C059E"]
 			id: "316574F1BD1A01AF"
 			tasks: [{
@@ -176,7 +176,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
-			description: ["Can mass produce cooked foods!"]
+			description: ["同时烹饪更多食品"]
 			dependencies: ["4671412C883C059E"]
 			id: "52D1D8F4E7C0F766"
 			tasks: [{
@@ -222,7 +222,7 @@
 		{
 			x: 3.5d
 			y: -2.0d
-			description: ["Wanna hang up something and make it look pretty? This is the block for you!"]
+			description: ["想挂些什么让它更漂亮吗？试试看这个！"]
 			dependencies: ["4671412C883C059E"]
 			id: "7A1709433D9E6A0A"
 			tasks: [{
@@ -245,7 +245,7 @@
 		{
 			x: 3.5d
 			y: 1.0d
-			description: ["A somewhat meh toaster... At least it is pretty!"]
+			description: ["一个有点嗯…的土司机。不过没关系！至少它很漂亮"]
 			dependencies: ["4671412C883C059E"]
 			id: "42F2D854EAE3F33E"
 			tasks: [{
@@ -268,7 +268,7 @@
 		{
 			x: 3.5d
 			y: 0.0d
-			description: ["Stores milk by default! Trap a cow on top and drop an anvil on its head [with at least one block of air between it and the anvil] to get automated milk production!"]
+			description: ["自动生产牛奶！让一头牛站到上面，用铁砧把它砸进去！（牛和铁砧至少留一格空气）"]
 			dependencies: ["4671412C883C059E"]
 			dependency_requirement: "one_completed"
 			id: "542B3B5B010D4232"
@@ -314,7 +314,7 @@
 		{
 			x: 3.5d
 			y: -1.0d
-			description: ["The cutest little shelves! Don't forget they can be used for decoration too!"]
+			description: ["最可爱的小架子！别忘了它也可以用来装饰！"]
 			dependencies: ["4671412C883C059E"]
 			id: "0A5A541AB13E063A"
 			tasks: [{
@@ -337,7 +337,7 @@
 		{
 			x: 3.5d
 			y: 2.0d
-			description: ["Another adorable display item! Don't forget to use it in your house :D"]
+			description: ["另一个可爱的展示架！别忘了用它装饰家：D"]
 			dependencies: ["4671412C883C059E"]
 			id: "4D4311CF26F6606D"
 			tasks: [{
@@ -360,7 +360,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			description: ["Great if you have figured out how to generate power with create!"]
+			description: ["如果你知道怎么用create（机械动力）发电，那就太棒了！"]
 			dependencies: ["52D1D8F4E7C0F766"]
 			id: "7A4766B4F4491CDE"
 			tasks: [{
@@ -383,7 +383,7 @@
 		{
 			x: -5.0d
 			y: -3.5d
-			description: ["Free ice anyone?"]
+			description: ["有人要免费的冰块吗？"]
 			dependencies: ["32E77CD0DE4315A3"]
 			id: "0EBA35E5CE87B16A"
 			tasks: [{
@@ -406,7 +406,7 @@
 		{
 			x: -5.0d
 			y: -2.5d
-			description: ["Have one particularly annoying ingredient? Use this!"]
+			description: ["有你不想用的食材？试试这个！"]
 			dependencies: ["32E77CD0DE4315A3"]
 			id: "2B01C7C35BE4BC67"
 			tasks: [{
@@ -495,7 +495,7 @@
 		{
 			x: -0.5d
 			y: 5.0d
-			description: ["Easy Peasy! Just put in a recipe using 'U' on the pot and then add a bowl to the bowl slot! Delicous food in just a few steps! No need for fuel or anything!"]
+			description: ["小菜一碟！只需在锅上用“U”输入一个食谱，然后在碗槽中添加一个碗！美味的食物只需几步！不需要燃料或任何东西！"]
 			dependencies: ["4671412C883C059E"]
 			id: "0FAE43E66811B2BA"
 			tasks: [{
@@ -568,7 +568,7 @@
 		{
 			x: 2.0d
 			y: 6.0d
-			description: ["The best way to use this is to hold the item you are chopping in one hand, and the knife in the other and hold down right click! For recipes use 'U' on the cutting board!"]
+			description: ["最好就是一只手拿着你要切碎的东西，另一只手握着刀，然后按住鼠标右键！至于食谱，对砧板按“U”！"]
 			dependencies: ["00EC025664B11A1B"]
 			id: "54E8787EDFA44115"
 			tasks: [{
@@ -591,7 +591,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
-			description: ["For use with the cutting board!"]
+			description: ["和切菜板一起用！"]
 			dependencies: ["4671412C883C059E"]
 			id: "00EC025664B11A1B"
 			tasks: [{
@@ -620,7 +620,7 @@
 		{
 			x: 1.0d
 			y: 6.0d
-			description: ["Iron Chef"]
+			description: ["铁厨师"]
 			dependencies: ["00EC025664B11A1B"]
 			id: "583AEE4ECAE3F04D"
 			tasks: [{
@@ -649,7 +649,7 @@
 		{
 			x: 1.0d
 			y: 7.0d
-			description: ["That doesn't seem like a good idea..."]
+			description: ["这似乎不是个好主意…"]
 			dependencies: ["583AEE4ECAE3F04D"]
 			id: "1D7DA71340D3554F"
 			tasks: [{
@@ -676,7 +676,7 @@
 			}]
 		}
 		{
-			title: "Serious Dedication"
+			title: "终极奉献"
 			x: 1.0d
 			y: 8.0d
 			dependencies: ["1D7DA71340D3554F"]
@@ -705,11 +705,11 @@
 			}]
 		}
 		{
-			title: "You Did WHAT Now?"
+			title: "你做了什么？！"
 			x: 1.0d
 			y: 9.0d
 			shape: "gear"
-			description: ["It isn't even that great for stabbing... what a shame"]
+			description: ["伤害并没有那么好…真遗憾"]
 			dependencies: ["484A8472E181AC90"]
 			id: "086D866F318C84E0"
 			tasks: [{
