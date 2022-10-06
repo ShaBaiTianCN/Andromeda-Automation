@@ -360,7 +360,7 @@
 		{
 			x: -4.5d
 			y: 3.0d
-			description: ["如果你知道怎么用create（机械动力）发电，那就太棒了！"]
+			description: ["如果你知道怎么用机械动力发电，那就太棒了！"]
 			dependencies: ["52D1D8F4E7C0F766"]
 			id: "7A4766B4F4491CDE"
 			tasks: [{
