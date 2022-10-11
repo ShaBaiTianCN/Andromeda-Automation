@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 1
 	filename: "super_circuit_maker"
-	title: "Super Circuit Maker"
+	title: "超级电路"
 	icon: "supercircuitmaker:tiny_redstone"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -34,7 +34,7 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["This fancy tool allows you to dictate exactly were signals can go! It also can be used on the edge of a board [that has redstone on it] to allow it to interact with the world!"]
+			description: ["这个精致的工具考研控制信号发送到哪里！它也可以用在红石电路板（上面有红石）的边缘，让它与世界互动！"]
 			dependencies: ["3E2CB805A3B44CF4"]
 			id: "1346105BE21B3725"
 			tasks: [{
@@ -57,7 +57,7 @@
 		{
 			x: -6.0d
 			y: 1.5d
-			description: ["This allows you to dye circuits to stay on one channel! they will not automatically connect to those of a different color!"]
+			description: ["给电路染色使其保持在一个通路上！它们不会自动连接到不同颜色的通路！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "6DAE12EE9AEC64D3"
 			tasks: [{
@@ -80,7 +80,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["Your basic redstone!"]
+			description: ["基本的红石！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "631FCC537EEBC302"
 			tasks: [{
@@ -103,7 +103,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["This takes your redstone up a level... Literally!"]
+			description: ["这让你的红石更上一层楼…真的！"]
 			dependencies: ["631FCC537EEBC302"]
 			id: "1C264BB6D49ABF8B"
 			tasks: [{
@@ -126,7 +126,7 @@
 		{
 			x: 1.0d
 			y: 1.5d
-			description: ["These allow you to transmit on multiple signals!"]
+			description: ["可以传输多个信号！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "21B09F112544E42A"
 			tasks: [{
@@ -149,7 +149,7 @@
 		{
 			x: 1.0d
 			y: 2.5d
-			subtitle: "This takes your redstone up a level... Literally!"
+			subtitle: "这让你的红石更上一层楼…真的！"
 			dependencies: ["21B09F112544E42A"]
 			id: "62370C4ACE133E9A"
 			tasks: [{
@@ -172,7 +172,7 @@
 		{
 			x: -3.0d
 			y: 1.5d
-			description: ["A toggled glow! Use for some cool signs or something!"]
+			description: ["闪烁的光芒！来做些很酷的标志或其他东西！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "461C6985E8560878"
 			tasks: [{
@@ -195,7 +195,7 @@
 		{
 			x: -2.0d
 			y: 1.5d
-			description: ["Basically a repeater for the board, right click to configure!"]
+			description: ["可以说是原版的中继器，右键点击进行设置！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "6A406673B5AE3471"
 			tasks: [{
@@ -218,7 +218,7 @@
 		{
 			x: -1.0d
 			y: 1.5d
-			description: ["A timer that can be right clicked to configure!"]
+			description: ["可以右键设置的计时器！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "5DC5945829BE42CB"
 			tasks: [{
@@ -243,7 +243,7 @@
 			y: 1.5d
 			description: [
 				""
-				"This makes the cutest little sounds!"
+				"最可爱的声音！"
 			]
 			dependencies: ["1346105BE21B3725"]
 			id: "660A2D155D5D3D46"
@@ -267,7 +267,7 @@
 		{
 			x: -5.0d
 			y: 1.5d
-			description: ["Glows!"]
+			description: ["亮了！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "3C45692A7BB66B10"
 			tasks: [{
@@ -290,7 +290,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["A tiny little button!"]
+			description: ["一个小小的按钮！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "183E814FF34CF59B"
 			tasks: [{
@@ -434,7 +434,7 @@
 		{
 			x: 8.0d
 			y: 1.5d
-			description: ["These behave a bit different! on the shorter side it transmits power on whatever side the stick is on, and it can be toggled on the longer sides!"]
+			description: ["它有点不一样！在较短的一侧，无论拉杆开关与否，它都能传输能量，而在较长一侧，它可以受其切换！"]
 			dependencies: ["1346105BE21B3725"]
 			id: "7A5C3CFE83106B35"
 			tasks: [{
@@ -458,7 +458,7 @@
 			x: 0.5d
 			y: 3.5d
 			shape: "gear"
-			description: ["This allows you to place redstone on higher levels"]
+			description: ["将红石放在更高的位置"]
 			dependencies: [
 				"1C264BB6D49ABF8B"
 				"62370C4ACE133E9A"
