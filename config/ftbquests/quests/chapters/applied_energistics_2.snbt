@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 6
 	filename: "applied_energistics_2"
-	title: "应用能源 2"
+	title: "应用能源2"
 	icon: "ae2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
