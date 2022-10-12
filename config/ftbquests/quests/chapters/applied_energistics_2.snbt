@@ -3,7 +3,7 @@
 	group: "75940C6E9EF33EDC"
 	order_index: 6
 	filename: "applied_energistics_2"
-	title: "Applied Energistics 2"
+	title: "应用能源 2"
 	icon: "ae2:controller"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: -0.5d
-			description: ["The inscriber is a machine that allows you to craft many types of processors."]
+			description: ["您可以使用该设备生产各类处理器。"]
 			dependencies: ["121C20E783B63AE7"]
 			id: "5735881C781EB67D"
 			tasks: [{
@@ -34,7 +34,7 @@
 		{
 			x: 1.5d
 			y: 5.5d
-			description: ["This allows you to have an access point for your portable terminals to reach and begin crafting!"]
+			description: ["为无线终端提供访问点，以进行合成！"]
 			dependencies: ["52473D1586A70B85"]
 			id: "670683AC5389603F"
 			tasks: [{
@@ -57,7 +57,7 @@
 		{
 			x: 0.0d
 			y: -4.5d
-			description: ["This allows you to charge many items! Including making charged certus quartz!"]
+			description: ["您可以充能各类物品！包括制作充能赛特斯石英！"]
 			dependencies: ["52E8F87A96FCBAC3"]
 			id: "6309E3122036C255"
 			tasks: [{
@@ -80,7 +80,7 @@
 		{
 			x: 1.5d
 			y: 4.5d
-			description: ["This allows you to dictate who can use your network as well as wirelessly access your network!"]
+			description: ["允许您决定谁可以通过无线访问您的网络！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "52473D1586A70B85"
 			tasks: [{
@@ -104,7 +104,7 @@
 			x: 6.5d
 			y: 7.5d
 			shape: "gear"
-			description: ["Assemble in a 3x3 with the outer ring being quantum rings, and the center being a quantum link chamber!"]
+			description: ["以3x3的形状组装，外圈为量子圈，中心为量子链接仓！"]
 			dependencies: ["5FF8E32D269A2853"]
 			id: "0068595DDAC2AB23"
 			tasks: [
@@ -130,6 +130,7 @@
 						tag: {
 							type: "paraglider"
 						}
+
 					}
 				}
 				{
@@ -142,7 +143,7 @@
 		{
 			x: 0.0d
 			y: 1.5d
-			description: ["This is the heart of your network! Everything needs to be connected to this in one way or another! You can have multiple per network for more connections!"]
+			description: ["这是你网络的核心！所有东西都需要以某种方式连到这个设备上！每个网络可以有多个核心来获得更多连接！"]
 			dependencies: ["5A21337A0A7857C7"]
 			id: "1FD20C9837BB4251"
 			tasks: [{
@@ -165,7 +166,7 @@
 		{
 			x: 3.0d
 			y: 4.5d
-			description: ["This allows you to have up to 8 connections! Tracable back to the storage heart!"]
+			description: ["这允许您获得最多8个链接！链接到存储核心！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "4631844F748756C3"
 			tasks: [{
@@ -196,7 +197,7 @@
 		{
 			x: 2.5d
 			y: 5.5d
-			description: ["Glass cable but prettier!"]
+			description: ["更漂亮的玻璃线缆！"]
 			dependencies: ["4631844F748756C3"]
 			id: "1EEC8AB72B0A9807"
 			tasks: [{
@@ -227,7 +228,7 @@
 		{
 			x: 2.5d
 			y: 6.5d
-			description: ["The smart cable displays how many channels are being used!"]
+			description: ["智能线缆可显示多少频道正在使用！"]
 			dependencies: ["1EEC8AB72B0A9807"]
 			id: "69E52D8F7C52FB21"
 			tasks: [{
@@ -258,7 +259,7 @@
 		{
 			x: 3.5d
 			y: 5.5d
-			description: ["Though incredibly expensive dense cables are amazing because they allow for up to 32 seperate connections!"]
+			description: ["极其昂贵的、令人惊叹的致密包层线缆允许最多32个不同的连接！"]
 			dependencies: ["4631844F748756C3"]
 			id: "2442E17B0F85F924"
 			tasks: [{
@@ -289,7 +290,7 @@
 		{
 			x: 3.5d
 			y: 6.5d
-			description: ["These are dense cables but allow you to see how many channels are being used!"]
+			description: ["这些致密线缆允许您查看有多少正在使用的频道！"]
 			dependencies: ["2442E17B0F85F924"]
 			id: "684BD72FC4440CF9"
 			tasks: [{
@@ -320,7 +321,7 @@
 		{
 			x: -7.5d
 			y: 11.5d
-			description: ["This is how you do crafting with applied energistics! Lay out molecular assemblers with pattern providers in a checkerboard pattern. Access the inerfaces with an ME access terminal!"]
+			description: ["这是应用能源合成的方式！网格状放置分子装配式和样板供应器！使用ME样板管理终端访问界面！"]
 			dependencies: ["50C3A4F10EEC9077"]
 			id: "63BBC36D195007E1"
 			tasks: [
@@ -354,7 +355,7 @@
 			y: 4.5d
 			description: [
 				""
-				"Can store 200k Energy!"
+				"可以储存200k能量！"
 			]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "0EDC33FC071D8586"
@@ -382,7 +383,7 @@
 		{
 			x: 4.5d
 			y: 5.5d
-			description: ["Can store 1.6 million energy!"]
+			description: ["可以储存1.6M能量！"]
 			dependencies: ["0EDC33FC071D8586"]
 			id: "1E996AB3521432D1"
 			tasks: [{
@@ -410,7 +411,7 @@
 			x: -2.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft!"]
+			description: ["这是所有自动合成的核心！更大的容量可以合成更复杂的配方！"]
 			dependencies: ["05CB794F4ADE6695"]
 			id: "1965E149BAAEC856"
 			tasks: [{
@@ -433,7 +434,7 @@
 		{
 			x: -8.0d
 			y: 8.5d
-			description: ["This lets you monitor what your crafting computer is doing at any giving second! Lets you know if it gets stuck!"]
+			description: ["这可以让你监控你的合成处理器在干什么！这样如果卡了你就知道了！"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1965E149BAAEC856"
@@ -464,7 +465,7 @@
 			x: -1.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			description: ["当该设备放入ME驱动器时，可以存储物品！最多64种物品可以被储存，存储元件的大小决定了可以存储物品的数量（所以小容量硬盘也很有用！所以不可堆叠的物品例如附魔剑可能会堵塞你的系统！）"]
 			dependencies: ["05CB794F4ADE6695"]
 			id: "34AB2A52B8FBD866"
 			tasks: [{
@@ -514,7 +515,7 @@
 			x: -0.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			description: ["当该设备放入ME驱动器时，可以存储流体！最多5种流体可以被储存，存储元件的大小决定了可以存储物品的数量（在最高等级，它可以获得大量可以存储的其他类型的流体！）"]
 			dependencies: ["05CB794F4ADE6695"]
 			id: "2557B38949EC826A"
 			tasks: [{
@@ -542,7 +543,7 @@
 			x: 0.5d
 			y: 5.5d
 			shape: "square"
-			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			description: ["可以存储五种不同的化学品，大小决定了可以存储的量！"]
 			dependencies: ["05CB794F4ADE6695"]
 			id: "21674C66198FBE4B"
 			tasks: [{
@@ -570,7 +571,7 @@
 			x: -6.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft!"]
+			description: ["这是所有自动合成的核心！更大的容量可以合成更复杂的配方！"]
 			dependencies: ["00FB3D86F86232DC"]
 			id: "543645951B54C960"
 			tasks: [{
@@ -616,7 +617,7 @@
 			x: -5.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			description: ["当该设备放入ME驱动器时，可以存储物品！最多64种物品可以被储存，存储元件的大小决定了可以存储物品的数量（所以小容量硬盘也很有用！所以不可堆叠的物品例如附魔剑可能会堵塞你的系统！）"]
 			dependencies: ["00FB3D86F86232DC"]
 			id: "0210928199853BB0"
 			tasks: [{
@@ -644,7 +645,7 @@
 			x: -4.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			description: ["当该设备放入ME驱动器时，可以存储流体！最多5种流体可以被储存，存储元件的大小决定了可以存储物品的数量（在最高等级，它可以获得大量可以存储的其他类型的流体！）"]
 			dependencies: ["00FB3D86F86232DC"]
 			id: "739AD2B0D6D226C9"
 			tasks: [{
@@ -672,7 +673,7 @@
 			x: -3.5d
 			y: 5.5d
 			shape: "square"
-			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			description: ["可以存储五种不同的化学品，大小决定了可以存储的量！"]
 			dependencies: ["00FB3D86F86232DC"]
 			id: "0CB5FAC19FD4F651"
 			tasks: [{
@@ -700,7 +701,7 @@
 			x: -10.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft!"]
+			description: ["这是所有自动合成的核心！更大的容量可以合成更复杂的配方！"]
 			dependencies: ["5B82DF81787B9F36"]
 			id: "7DF577E44D94E7F5"
 			tasks: [{
@@ -724,7 +725,7 @@
 			x: -9.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			description: ["当该设备放入ME驱动器时，可以存储物品！最多64种物品可以被储存，存储元件的大小决定了可以存储物品的数量（所以小容量硬盘也很有用！所以不可堆叠的物品例如附魔剑可能会堵塞你的系统！）"]
 			dependencies: ["5B82DF81787B9F36"]
 			id: "7E36EECA4AB2BDC2"
 			tasks: [{
@@ -774,7 +775,7 @@
 			x: -8.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			description: ["当该设备放入ME驱动器时，可以存储流体！最多5种流体可以被储存，存储元件的大小决定了可以存储物品的数量（在最高等级，它可以获得大量可以存储的其他类型的流体！）"]
 			dependencies: ["5B82DF81787B9F36"]
 			id: "59A8EC56A392DBA2"
 			tasks: [{
@@ -802,7 +803,7 @@
 			x: -7.5d
 			y: 5.5d
 			shape: "square"
-			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			description: ["可以存储五种不同的化学品，大小决定了可以存储的量！"]
 			dependencies: ["5B82DF81787B9F36"]
 			id: "4117A59E5CD2DD1D"
 			tasks: [{
@@ -830,7 +831,7 @@
 			x: -14.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This is basically your heart to any crafting automation! The larger size the more complex recipes it can craft! The multiblock has to be a rectangle of some sort!"]
+			description: ["这是所有自动合成的核心！更大的容量可以合成更复杂的配方！多方块结构必须是矩形！"]
 			dependencies: ["4440F4A2500E86E7"]
 			id: "5CD57742B12A4523"
 			tasks: [{
@@ -876,7 +877,7 @@
 			x: -13.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store items when paired with an ME drive! 64 types of items can be stored, the size of the drive determines the volume of those items that can be stored [So smaller sizes are still useful!, and unique items like enchanted swords may clog up your system!]"]
+			description: ["当该设备放入ME驱动器时，可以存储物品！最多64种物品可以被储存，存储元件的大小决定了可以存储物品的数量（所以小容量硬盘也很有用！所以不可堆叠的物品例如附魔剑可能会堵塞你的系统！）"]
 			dependencies: ["4440F4A2500E86E7"]
 			id: "0EE32D7A87FC8B7D"
 			tasks: [{
@@ -904,7 +905,7 @@
 			x: -12.5d
 			y: 5.5d
 			shape: "square"
-			description: ["This allows you to store fluids when paired with an ME drive! 5 types of items can be stored, the size of the drive determines the volume of those fluid that can be stored. [At max level it gains a ton of additional types of fluids that can be stored!]"]
+			description: ["当该设备放入ME驱动器时，可以存储流体！最多5种流体可以被储存，存储元件的大小决定了可以存储物品的数量（在最高等级，它可以获得大量可以存储的其他类型的流体！）"]
 			dependencies: ["4440F4A2500E86E7"]
 			id: "4241C6E446888215"
 			tasks: [{
@@ -933,7 +934,7 @@
 			x: -11.5d
 			y: 5.5d
 			shape: "square"
-			description: ["Can store high quantities of 5 seperate chemicals, the size determines the volume of chemical it can store! "]
+			description: ["可以存储五种不同的化学品，大小决定了可以存储的量！"]
 			dependencies: ["4440F4A2500E86E7"]
 			id: "5FEA9A6C2FB0C710"
 			tasks: [{
@@ -960,7 +961,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["This allows you to interface with other mods forms of power! "]
+			description: ["这允许您接入其它模组的能源！"]
 			dependencies: ["1FD20C9837BB4251"]
 			id: "4AD3368D7D145DE8"
 			tasks: [{
@@ -983,7 +984,7 @@
 		{
 			x: 5.5d
 			y: 4.5d
-			description: ["The ME Interface allows you to basically export a specified amount of items to the interface, allowing machines to acess items!"]
+			description: ["ME接口可以输出特定数量的物品，让机器访问物品！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "4E0E7F585807D26A"
 			tasks: [{
@@ -1006,7 +1007,7 @@
 		{
 			x: -6.0d
 			y: 9.5d
-			description: ["This allows you to partision cells, allowing for you to dictate what can go into different drives!"]
+			description: ["这可以让您将不同的物品存入不同的硬盘！"]
 			dependencies: ["1F684A651F66EA95"]
 			id: "52B1321F810571C3"
 			tasks: [{
@@ -1029,7 +1030,7 @@
 		{
 			x: 6.5d
 			y: 4.5d
-			description: ["The matter condenser allows you to fabricate matter balls for the matter gun, as well as singluarities that allow you to wirelessly connect networks across dimensions or over long distances!"]
+			description: ["物质聚合器可以用于生产物质炮所需的物质球，还有奇点用于跨维度或长距离无线访问网络！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "6B4815058098C3CA"
 			tasks: [{
@@ -1052,7 +1053,7 @@
 		{
 			x: 6.5d
 			y: 5.5d
-			description: ["Combine with 1 enderdust and blow it up to create an entangled singularity! Used to link networks!"]
+			description: ["将一个奇点和一个末影珍珠粉扔在地上并引爆来获得量子缠绕奇点！用于连接网络！"]
 			dependencies: ["6B4815058098C3CA"]
 			id: "33EB4A7B28AE50C2"
 			tasks: [{
@@ -1097,7 +1098,7 @@
 		{
 			x: 7.5d
 			y: 4.5d
-			description: ["When adjacent to a water block that a crystal seed is in, it will drastically accelerate growth at the cost of power!"]
+			description: ["当放置在有晶体种子的水边时，消耗能量并极大的加速种子生长！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "39990EA3CC9E984C"
 			tasks: [{
@@ -1120,7 +1121,7 @@
 		{
 			x: 11.5d
 			y: 4.5d
-			description: ["This allows you to segment your network. This tool will toggle weather or not a section of cable is accessible to the network or not!"]
+			description: ["这让您可以分隔您的网络！控制一段线缆是否连接到网络！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "4B921CAEC38BC6F1"
 			tasks: [{
@@ -1165,7 +1166,7 @@
 		{
 			x: 12.5d
 			y: 4.5d
-			description: ["Make a plus shape with the block you want to make a facade in the center, and cable anchors surrounding it! Facades are nice because they allow you to hide cables and make everything look so **Pretty**"]
+			description: ["看起来像伪装板的，是不是作者写错了？Make a plus shape with the block you want to make a facade in the center, and cable anchors surrounding it! Facades are nice because they allow you to hide cables and make everything look so **Pretty**"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "673AF6BE5CCC1CEE"
 			tasks: [{
@@ -1189,7 +1190,7 @@
 		{
 			x: -7.0d
 			y: 9.5d
-			description: ["The encoding terminal allows you to encode blank patterns with two types of recipes! A standard crafting recipe for use with molecular assemblers, and a processing pattern [accessed by clicking the crafting table on the right and changing it to a furnace] which allows you to dictate an in and several outputs. It basically allows you to process things with machines!"]
+			description: ["样板终端可以将两种合成表编写到空白样板中！标准合成配方使用分子装配式，处理配方（点击右侧的工作台图标将其转为熔炉）可以设置输入和输出。它让您可以使用机器来处理物品！"]
 			dependencies: ["43A8AB63A63C3BE3"]
 			id: "4062C411801EC565"
 			tasks: [{
@@ -1268,7 +1269,7 @@
 		{
 			x: -7.0d
 			y: 8.5d
-			description: ["Co processing units work with crafting storage, allowing it to distribute your crafting power over multiple computers [think like cores for your cpu] allowing it to do multiple tasks at once!"]
+			description: ["并行处理单元和合成存储器一同工作，用于同时分配您的合成表（就像多核CPU那样），同时完成多个任务！"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1965E149BAAEC856"
@@ -1299,7 +1300,7 @@
 		{
 			x: -7.0d
 			y: 10.5d
-			description: ["The encoding terminal allows you to encode blank patterns with two types of recipes! A standard crafting recipe for use with molecular assemblers, and a processing pattern [accessed by clicking the crafting table on the right and changing it to a furnace] which allows you to dictate an in and several outputs. It basically allows you to process things with machines!"]
+			description: ["样板终端可以将两种合成表编写到空白样板中！标准合成配方使用分子装配式，处理配方（点击右侧的工作台图标将其转为熔炉）可以设置输入和输出。它让您可以使用机器来处理物品！"]
 			dependencies: ["4062C411801EC565"]
 			id: "50C3A4F10EEC9077"
 			tasks: [{
@@ -1345,7 +1346,7 @@
 		{
 			x: 0.0d
 			y: -6.5d
-			description: ["This is your key to starting with applied energistics! seeds need to be left in water for 20 or so mins till they change into crystals!"]
+			description: ["这是开启应用能源的钥匙！将种子丢入水中并等待20分钟，它会变成水晶！"]
 			dependencies: ["5DDFEC0187943DE1"]
 			hide: false
 			id: "654D487F8B9E54C7"
@@ -1369,7 +1370,7 @@
 		{
 			x: 0.0d
 			y: -2.5d
-			description: ["Fabricate Fluix dust by allowing charged certus quartz, nether quartz, and redstone sit in water for a few seconds! Then same deal! Allow to grow in water for 20 or so miniutes!"]
+			description: ["将充能赛特斯石英水晶、下界石英和红石粉丢入水中并等待几秒获得福鲁伊克斯粉！然后再来！福鲁伊克斯种子在水中生长20分钟！"]
 			dependencies: ["4A0A7286E92F455A"]
 			id: "7083829D1A08C1C0"
 			tasks: [{
@@ -1459,7 +1460,7 @@
 			x: 0.0d
 			y: 0.5d
 			shape: "pentagon"
-			description: ["A basic crafting component for all of your applied energistics needs"]
+			description: ["应用能源所有需求的基本元件！"]
 			dependencies: ["5735881C781EB67D"]
 			id: "5A21337A0A7857C7"
 			tasks: [
@@ -1497,7 +1498,7 @@
 		{
 			x: 1.5d
 			y: 6.5d
-			description: ["When charged it will allow you to wirelessly access your network, provided it is linked to a security terminal and an access point is within range."]
+			description: ["充好电后可以访问您的网络，只需为其提供安全终端绑定和在范围内的无线访问点。"]
 			dependencies: ["670683AC5389603F"]
 			id: "3CC4DE5CCCDA430B"
 			tasks: [{
@@ -1520,7 +1521,7 @@
 		{
 			x: -6.0d
 			y: 8.5d
-			description: ["This functions as your storage for different types of drives!"]
+			description: ["提供不同类型的驱动器来获得存储空间！"]
 			hide_dependency_lines: true
 			dependencies: [
 				"1965E149BAAEC856"
@@ -1550,7 +1551,7 @@
 		{
 			x: 8.5d
 			y: 4.5d
-			description: ["The storage bus is an incredibly powerful piece of technology that allows your network to access other forms of storage! All of your colossal chests and storage drawers are still safe to use!"]
+			description: ["存储总线是一个令人惊叹的、强大的科技，让您的网络可以访问其它类型的存储！所有的大型箱子和储物抽屉都可以安全地兼容！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "3BDF87C9E19E6ED7"
 			tasks: [{
@@ -1573,7 +1574,7 @@
 		{
 			x: 9.5d
 			y: 4.5d
-			description: ["Imports matter from the attached inventory!"]
+			description: ["从依附的容器中导入物品！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "00001888761EFDDA"
 			tasks: [{
@@ -1596,7 +1597,7 @@
 		{
 			x: 10.5d
 			y: 4.5d
-			description: ["Exports matter to the select inventory!"]
+			description: ["导出物品到指定的容器中！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "777E1FBC28A0D909"
 			tasks: [{
