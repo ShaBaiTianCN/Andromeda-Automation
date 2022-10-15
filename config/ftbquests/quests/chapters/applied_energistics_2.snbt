@@ -1165,7 +1165,7 @@
 		{
 			x: 12.5d
 			y: 4.5d
-			description: ["看起来像伪装板的，是不是作者写错了？Make a plus shape with the block you want to make a facade in the center, and cable anchors surrounding it! Facades are nice because they allow you to hide cables and make everything look so **Pretty**"]
+			description: ["想要制作伪装板，用线缆锚以十字形状包围方块来合成！伪装板很不错，因为他们可以帮您隐藏线缆，让一切看起来很整洁！"]
 			dependencies: ["4AD3368D7D145DE8"]
 			id: "673AF6BE5CCC1CEE"
 			tasks: [{
