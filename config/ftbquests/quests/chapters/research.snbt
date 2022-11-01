@@ -371,7 +371,7 @@
 			}]
 		}
 		{
-			title: "Modular Routers（等待模组翻译）"
+			title: "模块化路由器"
 			icon: "modularrouters:modular_router"
 			x: 3.0d
 			y: -5.5d
