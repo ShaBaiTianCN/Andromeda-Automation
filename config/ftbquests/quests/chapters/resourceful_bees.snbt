@@ -3,7 +3,7 @@
 	group: "3169F62C14ECDF17"
 	order_index: 1
 	filename: "resourceful_bees"
-	title: "Resourceful Bees"
+	title: "资源蜜蜂"
 	icon: "minecraft:honeycomb"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -253,7 +253,7 @@
 		{
 			x: -4.5d
 			y: 0.0d
-			description: ["Try uh... smashing... a live bee with a piston..."]
+			description: ["呃……尝试着用活塞砸一只活着的蜜蜂……"]
 			dependencies: ["71F0597850A1BF8F"]
 			id: "75BA6BD624E5E64E"
 			tasks: [
@@ -283,7 +283,7 @@
 		{
 			x: -4.5d
 			y: 2.0d
-			description: ["Seperate your squashed bee juice into its parts!"]
+			description: ["将压扁的蜜蜂的汁液分成几部分！"]
 			dependencies: ["3D6B343BBEC7965D"]
 			id: "13E36F0D680E3F7B"
 			tasks: [{
@@ -358,7 +358,7 @@
 		{
 			x: -2.0d
 			y: 0.0d
-			description: ["Input cages and it will catch any existing bees that fly over it! Bribe the bees with a flower on top!"]
+			description: ["笼子的进入端，它将捕获任何飞越它的蜜蜂！贿赂蜜蜂，上面有一朵花！"]
 			dependencies: ["71F0597850A1BF8F"]
 			id: "7B8EA3D8824AFF1C"
 			tasks: [{
@@ -381,7 +381,7 @@
 		{
 			x: -3.5d
 			y: 3.0d
-			description: ["Combine a full 'type' gene with an egg to get a spawnegg of that bee type!"]
+			description: ["将完整的“type”基因注入鸡蛋中以获得相应蜜蜂的刷怪蛋！"]
 			dependencies: ["13E36F0D680E3F7B"]
 			id: "45BB3DC81102F400"
 			tasks: [{
@@ -404,7 +404,7 @@
 		{
 			x: -5.5d
 			y: 1.0d
-			description: ["Works as a flower basically and allows you to feed bees honey treats to alter their DNA"]
+			description: ["基本上可以作为一种花，并允许您喂养蜜蜂蜂蜜来改变它们的DNA"]
 			dependencies: ["75BA6BD624E5E64E"]
 			id: "425EF45E9C95987A"
 			tasks: [{
@@ -427,7 +427,7 @@
 		{
 			x: -5.5d
 			y: 3.0d
-			description: ["Stores existing genes, auto combines if it has a redstone signal!"]
+			description: ["存储现有的基因，如果你给予他一个红石信号，它将会将现有的基因自动组合！"]
 			dependencies: ["13E36F0D680E3F7B"]
 			id: "75149895856DA990"
 			tasks: [{
@@ -455,7 +455,7 @@
 			tasks: [{
 				id: "607381EA3219A044"
 				type: "item"
-				title: "Any #productivebees:advanced_beehives"
+				title: "任意 #productivebees:advanced_beehives"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -484,7 +484,7 @@
 			tasks: [{
 				id: "06D02F865E398F06"
 				type: "item"
-				title: "Any #productivebees:expansion_boxes"
+				title: "任意 #productivebees:expansion_boxes"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -552,10 +552,10 @@
 			}]
 		}
 		{
-			title: "You are a  HORRIBLE person"
+			title: "你真是一个可怕的人！！！"
 			x: -4.5d
 			y: 1.0d
-			description: ["Im sorry bee friend..."]
+			description: ["我非常抱歉，我的蜜蜂朋友们……"]
 			dependencies: ["75BA6BD624E5E64E"]
 			id: "3D6B343BBEC7965D"
 			tasks: [{
