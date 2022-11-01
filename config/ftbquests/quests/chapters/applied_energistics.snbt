@@ -3,7 +3,7 @@
 	group: "060FC1801833F14E"
 	order_index: 1
 	filename: "applied_energistics"
-	title: "Project E"
+	title: "等价交换重置版"
 	icon: "projecte:transmutation_tablet"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -11,7 +11,7 @@
 		{
 			x: 0.0d
 			y: 2.5d
-			description: ["This is a very complicated tool that allows you to transmute things in the world! For instance it can change grass to sand, or melt cobblestone into stone! You can change the area by toggling the size. Additionally it can transmute mobs, press 'R' by default to fire a projectile that changes mobs into similar beings [Ie passive to passive or hostile to hostile!]! But beware it does consume fuel, like coal or redstone!"]
+			description: ["这是个有多种功用的工具，它允许你转换世界上的东西！比如，它能把草方块转化为沙子，或者把圆石熔炼成石头！你可以通过转换应用范围来对一片区域进行转化。另外，它可以转化生物，按下R键（默认情况下）可发射一个可将生物转化为相似的存在（比如中立转为中立，或敌对转为敌对）的弹射物！但请注意，它需要消耗煤炭、红石之类的燃料！"]
 			dependencies: ["06C59ACF3FE5EDA7"]
 			hide: true
 			id: "0FB7E95067B8425F"
@@ -43,7 +43,7 @@
 			x: 0.0d
 			y: 3.5d
 			shape: "pentagon"
-			description: ["This is possibly the most powerful piece of tech in the entire mod. This allows you to change anything with an EMC value to anything else with an EMC value. The premise is however, that you need at least one of those items to learn how to craft it [for instance you need to put a stick inside to learn how to craft sticks]. There is also a filter located in the center of the gui on the right side that allows you to filter by specific item."]
+			description: ["这大概是整个模组最强大的部分了。这可以让您将任何有EMC值的物品转换为任何其它有EMC值的物品。前提是无论如何，您都需要至少一个物品来让转化桌学习（例如您需要将木棍放入转化桌来让它学习，然后才可以取出）。界面的中间右侧有一个过滤器，您可以用它来过滤物品。"]
 			dependencies: ["0FB7E95067B8425F"]
 			id: "6681ED02FDF32F02"
 			tasks: [{
@@ -66,7 +66,7 @@
 		{
 			x: 0.0d
 			y: 7.5d
-			description: ["Input the desired item in the top left, and any item that is not that item will be consumed to produce the item in the top left!"]
+			description: ["在左上角放入目标物品，然后任何输入的物品将会被转换为目标物品！"]
 			dependencies: ["3604A9C51070BA91"]
 			id: "748B17F912DF097B"
 			tasks: [{
@@ -90,7 +90,7 @@
 			x: 0.0d
 			y: 8.5d
 			shape: "diamond"
-			description: ["This is like the mark 1 except it has an input/output designated areas, and it also produces instantly!"]
+			description: ["这和1型并没有什么区别，它有个额外的输入输出区，并且处理很快！"]
 			dependencies: ["748B17F912DF097B"]
 			id: "5759BB7BE8B99476"
 			tasks: [{
@@ -142,7 +142,7 @@
 		{
 			x: -2.5d
 			y: 6.5d
-			description: ["Put glowstone on top to make sure this is functioning 24/7 as it relies on solar power. These machines take items and imbue them with EMC to eventually get to a higher level. Additionally this can input EMC into an adjacent energy condenser"]
+			description: ["在顶部放荧石来让它24/7像太阳直射那样工作。这些机器可以接受物品并转换为EMC。并且，这可以将EMC输入到相邻的能量凝聚器中。"]
 			dependencies: ["6681ED02FDF32F02"]
 			id: "1957AB7069E24EDE"
 			tasks: [{
@@ -209,7 +209,7 @@
 		{
 			x: -3.0d
 			y: 7.5d
-			description: ["These are basically cables for this mod. These transfer emc from one block away. In other words it allows you to have an additional block away of energy collectors!"]
+			description: ["这些本质上是该模组的线缆。这将EMC在方块间转移。换句话说，您可以有更多的能量收集器！"]
 			dependencies: ["1957AB7069E24EDE"]
 			id: "286E61F815481D44"
 			tasks: [{
@@ -278,7 +278,7 @@
 			y: 6.5d
 			description: [
 				""
-				"For all intents and purposes this is an EMC battery that can be used to transfer emc, power philosophers stones, and any tools that you may have. You can put it in the left of a transmutation table to absorb all EMC and allow you to remove it!"
+				"这是种可以转移EMC的电池。您可以将其放在转换桌左侧，来让转换桌吸收其EMC！"
 			]
 			dependencies: ["6681ED02FDF32F02"]
 			id: "6DB934D9B4F97CE8"
@@ -543,7 +543,7 @@
 		{
 			x: 6.0d
 			y: 6.5d
-			description: ["The dark matter tools have the ability to veinmine large areas of blocks!"]
+			description: ["暗物质工具可以挖掘很大一片方块！"]
 			dependencies: ["6681ED02FDF32F02"]
 			id: "403425E9FFFA8EB6"
 			tasks: [{
@@ -628,7 +628,7 @@
 			x: 6.0d
 			y: 7.5d
 			shape: "diamond"
-			description: ["This allows you to transmute on the go!"]
+			description: ["这允许您随身转换物品！"]
 			dependencies: ["403425E9FFFA8EB6"]
 			id: "5469FD855817AD4F"
 			tasks: [{
@@ -651,7 +651,7 @@
 		{
 			x: 9.0d
 			y: 7.5d
-			description: ["This is your basic multitool for mining!"]
+			description: ["这是您基本的多功能挖掘工具！"]
 			dependencies: ["1B7B0835AA91CAE1"]
 			id: "1023310FF0088A36"
 			tasks: [{
@@ -681,7 +681,7 @@
 		{
 			x: 10.0d
 			y: 7.5d
-			description: ["This does all your damage, mining trees, shears, and tilling soil!"]
+			description: ["这可以用于所有的伤害、砍树、剪刀、耕种！"]
 			dependencies: ["1B7B0835AA91CAE1"]
 			id: "7D4FAAE28CCBD3E7"
 			tasks: [{
@@ -789,7 +789,7 @@
 		{
 			x: -5.5d
 			y: 6.5d
-			description: ["This allows you to use some various accessories from this mod in the world! Allowing for them to have effects, like the blackhole band is basically like a vacuum hopper!"]
+			description: ["这允许您在世界中使用该模组的一些配件！让他们可以产生效果，例如黑洞指环如真空漏斗一样！"]
 			dependencies: ["6681ED02FDF32F02"]
 			id: "3C58C5E714388277"
 			tasks: [{
@@ -812,7 +812,7 @@
 		{
 			x: -8.0d
 			y: 6.5d
-			description: ["*Very* aggressively pushes away anything hostile!"]
+			description: ["强烈地推开敌对的东西！"]
 			dependencies: ["6681ED02FDF32F02"]
 			id: "304CE90574C5E519"
 			tasks: [{
