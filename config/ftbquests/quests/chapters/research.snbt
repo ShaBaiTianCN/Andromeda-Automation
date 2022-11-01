@@ -356,7 +356,7 @@
 			}]
 		}
 		{
-			title: "Super Circuit Maker（等待模组翻译）"
+			title: "超级电路"
 			icon: "supercircuitmaker:tiny_redstone"
 			x: 0.0d
 			y: -5.5d
