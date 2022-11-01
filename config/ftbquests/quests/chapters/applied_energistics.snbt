@@ -543,7 +543,7 @@
 		{
 			x: 6.0d
 			y: 6.5d
-			description: ["The dark matter tools have the ability to veinmine？ large areas of blocks!"]
+			description: ["暗物质工具可以挖掘很大一片方块！"]
 			dependencies: ["6681ED02FDF32F02"]
 			id: "403425E9FFFA8EB6"
 			tasks: [{
