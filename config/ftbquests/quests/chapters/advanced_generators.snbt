@@ -3,7 +3,7 @@
 	group: "31EE4422B6F1456C"
 	order_index: 0
 	filename: "advanced_generators"
-	title: "Advanced Generators"
+	title: "高级发电机"
 	icon: "advgenerators:turbine_tier5"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
@@ -12,7 +12,7 @@
 			x: 0.5d
 			y: 3.5d
 			shape: "diamond"
-			description: ["This takes syngas, or numerous other fuels to produce energy!"]
+			description: ["这需要消耗合成气或数不清的其他燃料来产生能量！"]
 			dependencies: ["7E7E9269F79BA576"]
 			id: "401E9DAF329998B5"
 			tasks: [{
@@ -35,7 +35,7 @@
 		{
 			x: 9.5d
 			y: 3.5d
-			description: ["This takes steam to produce energy!"]
+			description: ["这需要消耗蒸汽来产生能量！"]
 			dependencies: ["5DB9BAACB3299107"]
 			id: "43D202B4682AB09A"
 			tasks: [{
@@ -58,7 +58,7 @@
 		{
 			x: 0.5d
 			y: 0.0d
-			description: ["Provide some form of carbon and water and this will generate syngas overtime!"]
+			description: ["消耗某种形式的碳和水，这将会持续一定时间的产生合成气！"]
 			dependencies: ["03DDB532B4216AAA"]
 			id: "7E7E9269F79BA576"
 			tasks: [
@@ -88,7 +88,7 @@
 		{
 			x: 9.5d
 			y: 0.0d
-			description: ["This allows you to produce steam and obsidian with water and lava!"]
+			description: ["这允许你用水和熔岩产生蒸汽和黑曜石！"]
 			dependencies: ["03DDB532B4216AAA"]
 			id: "5DB9BAACB3299107"
 			tasks: [
@@ -174,7 +174,7 @@
 		{
 			x: 3.0d
 			y: 1.5d
-			description: ["This allows you to recieve redstone controlls for the machine"]
+			description: ["这允许您的机器接收红石信号以此来控制它"]
 			dependencies: [
 				"7E7E9269F79BA576"
 				"5DB9BAACB3299107"
@@ -201,7 +201,7 @@
 		{
 			x: 2.0d
 			y: 1.5d
-			description: ["Provides additional space for heat, and therefore more rate of production!"]
+			description: ["提供额外的加热空间，从而提高生产效率！"]
 			dependencies: [
 				"7E7E9269F79BA576"
 				"5DB9BAACB3299107"
@@ -228,7 +228,7 @@
 		{
 			x: 7.0d
 			y: 1.5d
-			description: ["Allows you to import items!"]
+			description: ["允许您导入物品！"]
 			dependencies: [
 				"7E7E9269F79BA576"
 				"5DB9BAACB3299107"
@@ -255,7 +255,7 @@
 		{
 			x: 6.0d
 			y: 1.5d
-			description: ["This allows you to detect specific criteria to power on or off your generator!"]
+			description: ["这允许您监测特定的标准，以启动或关闭您的发电机！"]
 			dependencies: [
 				"7E7E9269F79BA576"
 				"5DB9BAACB3299107"
@@ -400,7 +400,7 @@
 		{
 			x: 3.5d
 			y: 5.0d
-			description: ["These allow you to store extra power!"]
+			description: ["这可以让你存储多余的电力！"]
 			dependencies: [
 				"401E9DAF329998B5"
 				"43D202B4682AB09A"
@@ -471,7 +471,7 @@
 		{
 			x: 6.5d
 			y: 5.0d
-			description: ["This allows you to store extra fuel!"]
+			description: ["这可以让你存储额外的燃料！"]
 			dependencies: [
 				"401E9DAF329998B5"
 				"43D202B4682AB09A"
@@ -498,7 +498,7 @@
 		{
 			x: 0.0d
 			y: 5.0d
-			description: ["This increases the efficiency of the generator!"]
+			description: ["这增加了发电机的效率！"]
 			dependencies: ["401E9DAF329998B5"]
 			id: "07F5A385143DAF86"
 			tasks: [{
@@ -521,7 +521,7 @@
 		{
 			x: 1.0d
 			y: 5.0d
-			description: ["Increases the efficiency of the generator!"]
+			description: ["增加发电机的效率！"]
 			dependencies: ["401E9DAF329998B5"]
 			id: "6EA02356B3AEE43B"
 			tasks: [{
@@ -544,7 +544,7 @@
 		{
 			x: 5.0d
 			y: 5.0d
-			description: ["This allows you to extract power from your multiblock! Use a crecent hammer if it isn't outputting power properly!"]
+			description: ["这允许你从你的多方块结构中提取电力！如果不能正常输出功率，请使用新月锤！"]
 			dependencies: [
 				"401E9DAF329998B5"
 				"43D202B4682AB09A"
@@ -571,7 +571,7 @@
 		{
 			x: 5.0d
 			y: 1.5d
-			description: ["You can right click a fluid extractor to turn it on and let all of your fluid pipes and whatnot interact with it!"]
+			description: ["您可以右键单击流体提取器（fluid_extractor）将其打开，并让所有流体管道与它进行交互！"]
 			dependencies: [
 				"7E7E9269F79BA576"
 				"5DB9BAACB3299107"
@@ -597,7 +597,7 @@
 		{
 			x: 5.0d
 			y: -1.5d
-			description: ["This mod allows you to build multiblock structures that generate power! They can get as complex as you want them to be! Each controller has a list of blocks that it can be connected to to increase productivity or change its attributes! It is NOT that scary once you break it down!"]
+			description: ["这个模组允许你搭建多方块结构，产生电力！它们可以变得像你想要的那样复杂！每个控制器都有一个方块列表，它可以连接这些方块来提高生产效率或更改其属性！一旦你打破它，它就没有那么可怕了！"]
 			hide_dependency_lines: true
 			dependencies: ["003D91A2C8A7B89C"]
 			hide: true
@@ -605,7 +605,7 @@
 			tasks: [{
 				id: "06A86E4ADBBF4901"
 				type: "checkmark"
-				title: "Advanced Generators"
+				title: "高级发电机"
 			}]
 			rewards: [{
 				id: "0B7194F1F0BB9209"
