@@ -520,7 +520,7 @@
 		{
 			x: -6.0d
 			y: 2.0d
-			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			description: ["制作一个2x2x2（最大7x7x7）的空心结构，且由相同的方块组成！其中一侧的中央需要1个巨型箱子核心，此外，您将需要机器访问存储的接口！"]
 			dependencies: [
 				"084071280BE36274"
 				"501DD4917380447B"
@@ -547,7 +547,7 @@
 		{
 			x: -6.0d
 			y: 3.0d
-			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			description: ["制作一个2x2x2（最大7x7x7）的空心结构，且由相同的方块组成！其中一侧的中央需要1个巨型箱子核心，此外，您将需要机器访问存储的接口！"]
 			dependencies: ["0133120B11EA07E8"]
 			id: "6A479D5E644B054D"
 			tasks: [{
@@ -570,7 +570,7 @@
 		{
 			x: -6.0d
 			y: 4.0d
-			description: ["Make a 2x2x2 [up to 7x7x7] structure that is hollow and consisting of all the same blocks! 1 chest core is required in the center of one of the sides, additionally you will need interfaces for machines to access the storage!"]
+			description: ["制作一个2x2x2（最大7x7x7）的空心结构，且由相同的方块组成！其中一侧的中央需要1个巨型箱子核心，此外，您将需要机器访问存储的接口！"]
 			dependencies: ["6A479D5E644B054D"]
 			id: "259068BFDEB00478"
 			tasks: [{
