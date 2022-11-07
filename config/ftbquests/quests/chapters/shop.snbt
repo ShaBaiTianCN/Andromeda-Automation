@@ -226,7 +226,7 @@
 			}]
 		}
 		{
-			title: "幸运方块战利品箱"
+			title: "机遇方块战利品箱"
 			icon: "chancecubes:chance_cube"
 			x: 8.5d
 			y: -5.5d
