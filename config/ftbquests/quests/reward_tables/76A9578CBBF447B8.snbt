@@ -5,15 +5,22 @@
 	icon: "minecraft:chest"
 	loot_size: 1
 	rewards: [
-		{ item: "chancecubes:chance_cube", count: 16 }
-		{ item: "chancecubes:chance_cube", count: 8 }
-		{ item: "chancecubes:chance_cube", count: 4 }
-		{ item: "chancecubes:chance_cube" }
-		{ item: "lucky:lucky_block", count: 16 }
-		{ item: "lucky:lucky_block", count: 8 }
-		{ item: "lucky:lucky_block", count: 4 }
-		{ item: "lucky:lucky_block" }
-		{ item: "lucky:lucky_potion", count: 5 }
+		{ item: "chancecubes:chance_cube", count: 16, weight: 2 }
+		{ item: "chancecubes:chance_cube", count: 8, weight: 2 }
+		{ item: "chancecubes:chance_cube", count: 4, weight: 2 }
+		{ item: "chancecubes:chance_cube", weight: 2 }
+		{ item: "chancecubes:compact_giant_chance_cube", weight: 2 }
+		{ item: "chancecubes:scanner" }
+		{ item: "chancecubes:silk_touch_pendant" }
+		{
+			item: {
+				id: "chancecubes:chance_pendant_tier3"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
 	]
 	loot_crate: {
 		drops: {
