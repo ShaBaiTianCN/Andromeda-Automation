@@ -417,7 +417,7 @@
 			x: -11.5d
 			y: 2.5d
 			shape: "gear"
-			description: ["上帝，我爱虚空漏斗..."]
+			description: ["上帝，我爱虚空漏斗……"]
 			dependencies: ["49612A0B7B895154"]
 			id: "68F02392967AC66A"
 			tasks: [{
