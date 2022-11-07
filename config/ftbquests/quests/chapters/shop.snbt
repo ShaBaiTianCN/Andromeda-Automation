@@ -2086,7 +2086,7 @@
 			icon: "minecraft:chorus_flower"
 			x: -2.0d
 			y: -10.0d
-			subtitle: "5 Copper"
+			subtitle: "5铜币"
 			dependencies: ["6CFBF112E25E2EF9"]
 			hide: true
 			id: "3C5DF3EAA5D7A7F1"
