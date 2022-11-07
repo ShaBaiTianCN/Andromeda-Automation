@@ -1296,7 +1296,7 @@
 			tasks: [{
 				id: "2DB7CE35C0A1C5E4"
 				type: "item"
-				title: "Any #forge:ingots/steel"
+				title: "任意 #forge:ingots/steel"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

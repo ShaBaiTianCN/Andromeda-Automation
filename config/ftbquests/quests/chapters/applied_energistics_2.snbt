@@ -171,7 +171,7 @@
 			tasks: [{
 				id: "53CEA1CD7C6AE6BF"
 				type: "item"
-				title: "Any #ae2:glass_cable"
+				title: "任意 #ae2:glass_cable"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -202,7 +202,7 @@
 			tasks: [{
 				id: "0A609ABF564A639F"
 				type: "item"
-				title: "Any #ae2:covered_cable"
+				title: "任意 #ae2:covered_cable"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -233,7 +233,7 @@
 			tasks: [{
 				id: "00B2A1CEBEBA5F83"
 				type: "item"
-				title: "Any #ae2:smart_cable"
+				title: "任意 #ae2:smart_cable"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -264,7 +264,7 @@
 			tasks: [{
 				id: "77D1AB0E48E32A5E"
 				type: "item"
-				title: "Any #ae2:covered_dense_cable"
+				title: "任意 #ae2:covered_dense_cable"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -295,7 +295,7 @@
 			tasks: [{
 				id: "5D17B29F37F7F053"
 				type: "item"
-				title: "Any #ae2:smart_dense_cable"
+				title: "任意 #ae2:smart_dense_cable"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

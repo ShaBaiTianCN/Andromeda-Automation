@@ -299,7 +299,7 @@
 			tasks: [{
 				id: "2E51244670E84FA7"
 				type: "item"
-				title: "任意#exnihilosequentia:barrels"
+				title: "任意 #exnihilosequentia:barrels"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

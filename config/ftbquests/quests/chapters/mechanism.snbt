@@ -1093,7 +1093,7 @@
 			tasks: [{
 				id: "1B6B068840F3052D"
 				type: "item"
-				title: "任意#forge:dusts/sulfur"
+				title: "任意 #forge:dusts/sulfur"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -1978,7 +1978,7 @@
 			tasks: [{
 				id: "4C85E5D362E7B70B"
 				type: "item"
-				title: "任意#appmek:mekanism_tanks"
+				title: "任意 #appmek:mekanism_tanks"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b

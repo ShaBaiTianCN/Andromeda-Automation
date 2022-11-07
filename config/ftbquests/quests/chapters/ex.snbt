@@ -111,7 +111,7 @@
 			tasks: [{
 				id: "3ED9F382C4181EB0"
 				type: "item"
-				title: "Any #exnihilosequentia:sieves"
+				title: "任意 #exnihilosequentia:sieves"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -343,7 +343,7 @@
 			tasks: [{
 				id: "3AE4D69DECE33F8A"
 				type: "item"
-				title: "Any #exnihilosequentia:crucibles"
+				title: "任意 #exnihilosequentia:crucibles"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -464,7 +464,7 @@
 			tasks: [{
 				id: "4C96B6A973EE1AC8"
 				type: "item"
-				title: "Any #exnihilosequentia:hammer"
+				title: "任意 #exnihilosequentia:hammer"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
@@ -596,7 +596,7 @@
 			tasks: [{
 				id: "04A417C262BF63C2"
 				type: "item"
-				title: "Any #exnihilosequentia:barrels"
+				title: "任意 #exnihilosequentia:barrels"
 				item: {
 					id: "itemfilters:tag"
 					Count: 1b
