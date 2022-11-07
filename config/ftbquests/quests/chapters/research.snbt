@@ -468,7 +468,7 @@
 			}]
 		}
 		{
-			title: "Deep Resonance（等待模组翻译）"
+			title: "深度共振"
 			icon: {
 				id: "deepresonance:resonating_crystal_natural"
 				Count: 1b
