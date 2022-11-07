@@ -64,8 +64,8 @@
 					Damage: 0
 				}
 			}
-			x: 3.5d
-			y: -2.5d
+			x: 21.5d
+			y: -5.5d
 			subtitle: "5铁币"
 			id: "767DED7E51825A83"
 			tasks: [{
@@ -168,7 +168,7 @@
 				}
 			}
 			x: 3.5d
-			y: 5.0d
+			y: 2.0d
 			subtitle: "3钻石币"
 			description: ["用于快速回到您的重生点！我在空气中挖掘岁月的痕迹 :)"]
 			id: "67AB20AA93113B25"
@@ -208,8 +208,8 @@
 		{
 			title: "蜜蜂刷怪蛋战利品箱"
 			icon: "minecraft:bee_spawn_egg"
-			x: 4.5d
-			y: -2.5d
+			x: 22.5d
+			y: -5.5d
 			subtitle: "3金币"
 			id: "340D9B2EB1F6B7F9"
 			tasks: [{
@@ -273,8 +273,8 @@
 					Damage: 0
 				}
 			}
-			x: 5.5d
-			y: 0.5d
+			x: 7.5d
+			y: -8.5d
 			subtitle: "5铁币"
 			id: "32258398C583EBF0"
 			tasks: [{
@@ -477,7 +477,7 @@
 				}
 			}
 			x: 3.5d
-			y: -1.0d
+			y: -2.5d
 			subtitle: "5铜币"
 			id: "6AC39CA6649CFD69"
 			tasks: [{
@@ -642,7 +642,7 @@
 			title: "破损的唱片x1"
 			icon: "botania:record_gaia_2"
 			x: 3.5d
-			y: 15.0d
+			y: 9.0d
 			subtitle: "1金币"
 			id: "112C36A64E5CF6FF"
 			tasks: [{
@@ -666,8 +666,8 @@
 					Damage: 0
 				}
 			}
-			x: 3.5d
-			y: 0.5d
+			x: 5.5d
+			y: -8.5d
 			subtitle: "5铁币"
 			id: "1C45AC7217C7FB40"
 			tasks: [{
@@ -706,8 +706,8 @@
 		{
 			title: "煎饼x32"
 			icon: "supplementaries:pancake"
-			x: 7.5d
-			y: 0.5d
+			x: 9.5d
+			y: -8.5d
 			subtitle: "5铁币"
 			id: "3E74E03FB74ADC1B"
 			tasks: [{
@@ -736,6 +736,7 @@
 			y: -10.0d
 			subtitle: "5钻石币"
 			dependencies: ["6CFBF112E25E2EF9"]
+			hide: true
 			id: "1FA6598D69CB7CBD"
 			tasks: [{
 				id: "662A7A3FD8EE083C"
@@ -759,8 +760,8 @@
 					Damage: 0
 				}
 			}
-			x: 6.5d
-			y: 0.5d
+			x: 8.5d
+			y: -8.5d
 			subtitle: "5铁币"
 			id: "2AD4C4ECB9600668"
 			tasks: [{
@@ -811,8 +812,8 @@
 					Damage: 0
 				}
 			}
-			x: 4.5d
-			y: 0.5d
+			x: 6.5d
+			y: -8.5d
 			subtitle: "5铁币"
 			id: "1E534C8B4CEE10F4"
 			tasks: [{
@@ -1164,7 +1165,7 @@
 			title: "Display Stand"
 			icon: "statues:display_stand"
 			x: 3.5d
-			y: 3.5d
+			y: 0.5d
 			subtitle: "3铜币"
 			id: "5D8263037C8556B5"
 			tasks: [{
@@ -1187,6 +1188,7 @@
 			y: -10.0d
 			subtitle: "1钻石币"
 			dependencies: ["6CFBF112E25E2EF9"]
+			hide: true
 			id: "68BB8AC03927E418"
 			tasks: [{
 				id: "65F1152F9ABA88F3"
@@ -1204,7 +1206,7 @@
 			title: "Fireball x8"
 			icon: "cyclic:fireball"
 			x: 4.5d
-			y: 2.0d
+			y: -1.0d
 			subtitle: "4铜币"
 			id: "4B85A41D340ABE0F"
 			tasks: [{
@@ -1224,7 +1226,7 @@
 			title: "Dark Fireball x8"
 			icon: "cyclic:fireball_dark"
 			x: 3.5d
-			y: 2.0d
+			y: -1.0d
 			subtitle: "4铜币"
 			id: "633DE13F10F12B3E"
 			tasks: [{
@@ -1353,7 +1355,7 @@
 			title: "Scathed Disc 2"
 			icon: "botania:record_gaia_1"
 			x: 6.5d
-			y: 16.0d
+			y: 10.0d
 			subtitle: "1金币"
 			id: "7044C6724D2E0BA3"
 			tasks: [{
@@ -1372,7 +1374,7 @@
 			title: "Wanderer Disc"
 			icon: "biomesoplenty:music_disc_wanderer"
 			x: 4.5d
-			y: 15.0d
+			y: 9.0d
 			subtitle: "1金币"
 			id: "7B154904C4F10D5E"
 			tasks: [{
@@ -1391,7 +1393,7 @@
 			title: "Wait Disc"
 			icon: "minecraft:music_disc_wait"
 			x: 5.5d
-			y: 16.0d
+			y: 10.0d
 			subtitle: "1金币"
 			id: "7A475BBB369B96B1"
 			tasks: [{
@@ -1410,7 +1412,7 @@
 			title: "11 Disc"
 			icon: "minecraft:music_disc_11"
 			x: 4.5d
-			y: 16.0d
+			y: 10.0d
 			subtitle: "1金币"
 			id: "6695B28A925B2554"
 			tasks: [{
@@ -1429,7 +1431,7 @@
 			title: "Ward Disc"
 			icon: "minecraft:music_disc_ward"
 			x: 3.5d
-			y: 16.0d
+			y: 10.0d
 			subtitle: "1金币"
 			id: "4DF52C9B1C603386"
 			tasks: [{
@@ -1448,7 +1450,7 @@
 			title: "Stal Disc"
 			icon: "minecraft:music_disc_stal"
 			x: 6.5d
-			y: 15.0d
+			y: 9.0d
 			subtitle: "1金币"
 			id: "0598D807BB249C4F"
 			tasks: [{
@@ -1467,7 +1469,7 @@
 			title: "Mellohi Disc"
 			icon: "minecraft:music_disc_mellohi"
 			x: 6.5d
-			y: 12.0d
+			y: 6.0d
 			subtitle: "1金币"
 			id: "6C9A5AB42C29F90F"
 			tasks: [{
@@ -1486,7 +1488,7 @@
 			title: "Mall Disc"
 			icon: "minecraft:music_disc_mall"
 			x: 5.5d
-			y: 13.0d
+			y: 7.0d
 			subtitle: "1金币"
 			id: "6642B268DFECD5E1"
 			tasks: [{
@@ -1505,7 +1507,7 @@
 			title: "Far Disc"
 			icon: "minecraft:music_disc_far"
 			x: 4.5d
-			y: 13.0d
+			y: 7.0d
 			subtitle: "1金币"
 			id: "72DB4DCA0783EAD0"
 			tasks: [{
@@ -1524,7 +1526,7 @@
 			title: "Chirp Disc"
 			icon: "minecraft:music_disc_chirp"
 			x: 5.5d
-			y: 12.0d
+			y: 6.0d
 			subtitle: "1金币"
 			id: "6BCE627FF170BA92"
 			tasks: [{
@@ -1543,7 +1545,7 @@
 			title: "Cat Disc"
 			icon: "minecraft:music_disc_cat"
 			x: 3.5d
-			y: 13.0d
+			y: 7.0d
 			subtitle: "1金币"
 			id: "05B529DA56E9DAB3"
 			tasks: [{
@@ -1562,7 +1564,7 @@
 			title: "Otherside Disc"
 			icon: "minecraft:music_disc_otherside"
 			x: 3.5d
-			y: 14.0d
+			y: 8.0d
 			subtitle: "1金币"
 			id: "00D2DB77222FEFE5"
 			tasks: [{
@@ -1581,7 +1583,7 @@
 			title: "Strad Disc"
 			icon: "minecraft:music_disc_strad"
 			x: 6.5d
-			y: 13.0d
+			y: 7.0d
 			subtitle: "1金币"
 			id: "5CFCF9ED31CD8063"
 			tasks: [{
@@ -1600,7 +1602,7 @@
 			title: "13 Disc"
 			icon: "minecraft:music_disc_13"
 			x: 3.5d
-			y: 12.0d
+			y: 6.0d
 			subtitle: "1金币"
 			id: "4ED43BFB1E39F36B"
 			tasks: [{
@@ -1619,7 +1621,7 @@
 			title: "TheBrightSide Disc"
 			icon: "create_confectionery:the_bright_side"
 			x: 6.5d
-			y: 14.0d
+			y: 8.0d
 			subtitle: "1金币"
 			id: "5B64BAD219571D92"
 			tasks: [{
@@ -1638,7 +1640,7 @@
 			title: "Daze Disc"
 			icon: "alexsmobs:music_disc_daze"
 			x: 5.5d
-			y: 15.0d
+			y: 9.0d
 			subtitle: "1金币"
 			id: "0E7EF503B3DD37E7"
 			tasks: [{
@@ -1657,7 +1659,7 @@
 			title: "Thine Disc"
 			icon: "alexsmobs:music_disc_thime"
 			x: 4.5d
-			y: 14.0d
+			y: 8.0d
 			subtitle: "1金币"
 			id: "7588D37D43CEB696"
 			tasks: [{
@@ -1676,7 +1678,7 @@
 			title: "Pigstep Disc"
 			icon: "minecraft:music_disc_pigstep"
 			x: 5.5d
-			y: 14.0d
+			y: 8.0d
 			subtitle: "1金币"
 			id: "5F0414DC62A52D9F"
 			tasks: [{
@@ -1695,7 +1697,7 @@
 			title: "Blocks Disc"
 			icon: "minecraft:music_disc_blocks"
 			x: 4.5d
-			y: 12.0d
+			y: 6.0d
 			subtitle: "1金币"
 			id: "161ED7534EAADE03"
 			tasks: [{
@@ -1720,7 +1722,7 @@
 				}
 			}
 			x: 6.5d
-			y: 9.5d
+			y: 3.5d
 			subtitle: "1铜币"
 			id: "306E6A4560599418"
 			tasks: [{
@@ -1745,7 +1747,7 @@
 				}
 			}
 			x: 5.5d
-			y: 9.5d
+			y: 3.5d
 			subtitle: "1铜币"
 			id: "7D7A04CCD99ABF19"
 			tasks: [{
@@ -1770,7 +1772,7 @@
 				}
 			}
 			x: 6.5d
-			y: 10.5d
+			y: 4.5d
 			subtitle: "1铜币"
 			id: "20A756CA9AA2EB12"
 			tasks: [{
@@ -1795,7 +1797,7 @@
 				}
 			}
 			x: 3.5d
-			y: 10.5d
+			y: 4.5d
 			subtitle: "1铜币"
 			id: "59D5967A031C6BBF"
 			tasks: [{
@@ -1820,7 +1822,7 @@
 				}
 			}
 			x: 7.5d
-			y: 9.5d
+			y: 3.5d
 			subtitle: "1铜币"
 			id: "4E24A55B8BD1D178"
 			tasks: [{
@@ -1845,7 +1847,7 @@
 				}
 			}
 			x: 5.5d
-			y: 10.5d
+			y: 4.5d
 			subtitle: "1铜币"
 			id: "5D8CCEE8F9312D25"
 			tasks: [{
@@ -1870,7 +1872,7 @@
 				}
 			}
 			x: 8.5d
-			y: 9.5d
+			y: 3.5d
 			subtitle: "1铜币"
 			id: "5F9E5E95E2E6CA96"
 			tasks: [{
@@ -1895,7 +1897,7 @@
 				}
 			}
 			x: 4.5d
-			y: 10.5d
+			y: 4.5d
 			subtitle: "1铜币"
 			id: "52848E17E58DA4E4"
 			tasks: [{
@@ -1920,7 +1922,7 @@
 				}
 			}
 			x: 8.5d
-			y: 10.5d
+			y: 4.5d
 			subtitle: "1铜币"
 			id: "017550C8243BF2DA"
 			tasks: [{
@@ -1945,7 +1947,7 @@
 				}
 			}
 			x: 7.5d
-			y: 10.5d
+			y: 4.5d
 			subtitle: "1铜币"
 			id: "02707C35B27BC9DF"
 			tasks: [{
@@ -1970,7 +1972,7 @@
 				}
 			}
 			x: 4.5d
-			y: 9.5d
+			y: 3.5d
 			subtitle: "1铜币"
 			id: "290922663F05A9D4"
 			tasks: [{
@@ -1995,7 +1997,7 @@
 				}
 			}
 			x: 3.5d
-			y: 9.5d
+			y: 3.5d
 			subtitle: "1铜币"
 			id: "12C00A5749FC39A3"
 			tasks: [{
@@ -2037,104 +2039,6 @@
 			}]
 		}
 		{
-			title: "幸运方块x16"
-			icon: "lucky:lucky_block"
-			x: 3.5d
-			y: 8.0d
-			subtitle: "3钻石币"
-			id: "0DDD9612EEC3F88D"
-			tasks: [{
-				id: "0BC70768B4C3B7E5"
-				type: "item"
-				item: "andromedacrafts:diamond_coin"
-				count: 3L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "1E427326056BD513"
-				type: "questsadditions:repeat_random"
-				table_id: 1098532300425656757L
-			}]
-		}
-		{
-			title: "Very lucky Potion x16"
-			icon: "lucky:lucky_potion"
-			x: 3.5d
-			y: 6.5d
-			subtitle: "1钻石币"
-			id: "1F36C7D6CC3E1C68"
-			tasks: [{
-				id: "3ECE7EAA396848FC"
-				type: "item"
-				item: "andromedacrafts:diamond_coin"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "2AF685A61E94BBF4"
-				type: "questsadditions:repeat_random"
-				table_id: 2884499280313827386L
-			}]
-		}
-		{
-			title: "幸运方块x16"
-			icon: "lucky:lucky_block"
-			x: 4.5d
-			y: 8.0d
-			subtitle: "3钻石币"
-			id: "0C4C9DB3D17F8505"
-			tasks: [{
-				id: "5134B846485F3834"
-				type: "item"
-				item: "andromedacrafts:diamond_coin"
-				count: 3L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "4BDEF00A6BC87930"
-				type: "questsadditions:repeat_random"
-				table_id: 9150363660872120717L
-			}]
-		}
-		{
-			title: "幸运药水x16"
-			icon: "lucky:lucky_potion"
-			x: 4.5d
-			y: 6.5d
-			subtitle: "3金币"
-			id: "22CFFC56D827C3B2"
-			tasks: [{
-				id: "7ACB122A1689A588"
-				type: "item"
-				item: "andromedacrafts:gold_coin"
-				count: 3L
-				consume_items: true
-			}]
-			rewards: [{
-				id: "3600E3126A75FFE5"
-				type: "questsadditions:repeat_random"
-				table_id: 2884499280313827386L
-			}]
-		}
-		{
-			title: "幸运药水x16"
-			icon: "lucky:lucky_potion"
-			x: 5.5d
-			y: 6.5d
-			subtitle: "1钻石币"
-			id: "328D5CAB1CF0EEA0"
-			tasks: [{
-				id: "4FF6223FC551240A"
-				type: "item"
-				item: "andromedacrafts:diamond_coin"
-				consume_items: true
-			}]
-			rewards: [{
-				id: "400E481E361B6A7D"
-				type: "questsadditions:repeat_random"
-				table_id: 2025944770357691824L
-			}]
-		}
-		{
 			title: "Menril Sapling"
 			icon: "integrateddynamics:menril_sapling"
 			x: -4.0d
@@ -2162,6 +2066,7 @@
 			y: -4.0d
 			subtitle: "1钻石币"
 			dependencies: ["14BBD80AC3CAC3F3"]
+			hide: true
 			id: "52127D7B2DFD15C1"
 			tasks: [{
 				id: "0D135F32866EBD05"
@@ -2181,7 +2086,9 @@
 			icon: "minecraft:chorus_flower"
 			x: -2.0d
 			y: -10.0d
+			subtitle: "5 Copper"
 			dependencies: ["6CFBF112E25E2EF9"]
+			hide: true
 			id: "3C5DF3EAA5D7A7F1"
 			tasks: [{
 				id: "50B213A8849191AC"
@@ -2338,6 +2245,7 @@
 			y: 0.5d
 			subtitle: "3下界合金币"
 			dependencies: ["5A21337A0A7857C7"]
+			hide: true
 			id: "13EE68F0786FF048"
 			tasks: [{
 				id: "5B174DFE0CA81862"
@@ -2360,6 +2268,7 @@
 			y: 0.5d
 			subtitle: "3下界合金币"
 			dependencies: ["5A21337A0A7857C7"]
+			hide: true
 			id: "2159B304BD9B8307"
 			tasks: [{
 				id: "5F2F97DA1FFFBE54"
@@ -2382,6 +2291,7 @@
 			y: 0.5d
 			subtitle: "3下界合金币"
 			dependencies: ["5A21337A0A7857C7"]
+			hide: true
 			id: "1E502488AB87F313"
 			tasks: [{
 				id: "63C883ECE10630C6"
@@ -2409,6 +2319,7 @@
 				type: "item"
 				item: "andromedacrafts:diamond_coin"
 				count: 3L
+				consume_items: true
 			}]
 			rewards: [{
 				id: "6EFC7E6C4AA3780B"

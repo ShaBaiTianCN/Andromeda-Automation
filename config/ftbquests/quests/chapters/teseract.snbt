@@ -44,6 +44,9 @@
 			x: 3.5d
 			y: 0.0d
 			description: ["为了制作它，你需要基岩/能量块，上面是一格空气，和掉落的红石粉，再上面是是一块黑曜石。然后左键点击黑曜石。你应该听到爆炸声，并得到通量粉尘！"]
+			dependencies: ["75886C0C52F36EB3"]
+			hide: true
+			dependency_requirement: "all_started"
 			id: "4993550F01FB2511"
 			tasks: [{
 				id: "7BD78F361008D942"
