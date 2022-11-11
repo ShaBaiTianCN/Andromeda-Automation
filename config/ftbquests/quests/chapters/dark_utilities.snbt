@@ -11,7 +11,7 @@
 		{
 			x: 1.5d
 			y: 1.5d
-			description: ["Shift+Right click to refresh your enchanting table!"]
+			description: ["Shift+右键来刷新你的附魔台！"]
 			dependencies: ["32C4812EDE224DB1"]
 			id: "3727637C2EF66BBB"
 			tasks: [{
@@ -34,7 +34,7 @@
 		{
 			x: 2.5d
 			y: 1.5d
-			description: ["Grants permanent invisibility to some mobs!"]
+			description: ["让一些生物永久隐形！"]
 			dependencies: ["32C4812EDE224DB1"]
 			id: "39D6C0E23D1FFFBE"
 			tasks: [{
@@ -57,7 +57,7 @@
 		{
 			x: 6.5d
 			y: 1.5d
-			description: ["Travel quickly through portals."]
+			description: ["使用传送门魔符来快速穿过地狱门"]
 			dependencies: ["32C4812EDE224DB1"]
 			id: "2B31C5FEC5AEBB47"
 			tasks: [{
@@ -80,7 +80,7 @@
 		{
 			x: 7.5d
 			y: 1.5d
-			subtitle: "Sleep fast!"
+			subtitle: "快速入睡！"
 			dependencies: ["32C4812EDE224DB1"]
 			id: "33433CD038EAE99B"
 			tasks: [{
@@ -103,7 +103,7 @@
 		{
 			x: 8.5d
 			y: 1.5d
-			description: ["Immunity to negative status effects!"]
+			description: ["免疫负面效果！"]
 			dependencies: ["32C4812EDE224DB1"]
 			id: "219A805FCF0A251D"
 			tasks: [{
