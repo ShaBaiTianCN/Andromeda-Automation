@@ -170,7 +170,7 @@
 			x: 3.5d
 			y: 2.0d
 			subtitle: "3钻石币"
-			description: ["用于快速回到您的重生点！我在空气中挖掘岁月的痕迹 :)"]
+			description: ["用于快速回到您的重生点！我在空气中挖掘岁月的痕迹:)"]
 			id: "67AB20AA93113B25"
 			tasks: [{
 				id: "382D2CC72711AC01"
@@ -995,7 +995,7 @@
 			}]
 		}
 		{
-			title: "Dust"
+			title: "尘土"
 			icon: "exnihilosequentia:dust"
 			x: 7.5d
 			y: -11.5d
@@ -1015,7 +1015,7 @@
 			}]
 		}
 		{
-			title: "Gravel"
+			title: "砂砾"
 			icon: "minecraft:gravel"
 			x: 5.5d
 			y: -11.5d
@@ -1035,7 +1035,7 @@
 			}]
 		}
 		{
-			title: "Boneblock"
+			title: "骨块"
 			icon: "minecraft:bone_block"
 			x: 5.5d
 			y: -13.0d
@@ -1054,7 +1054,7 @@
 			}]
 		}
 		{
-			title: "Gold Ingot x16"
+			title: "金锭x16"
 			icon: "minecraft:gold_ingot"
 			x: 5.5d
 			y: -7.0d
@@ -1074,7 +1074,7 @@
 			}]
 		}
 		{
-			title: "Creative Upgrade"
+			title: "创造升级"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -1100,7 +1100,7 @@
 			}]
 		}
 		{
-			title: "Epic Shader Grab-bag"
+			title: "史诗皮肤奖励袋"
 			icon: "immersiveengineering:shader_bag_epic"
 			x: -1.0d
 			y: -13.0d
@@ -1120,7 +1120,7 @@
 			}]
 		}
 		{
-			title: "Uncommon Shader Grab-bag"
+			title: "良好皮肤奖励袋"
 			icon: "immersiveengineering:shader_bag_uncommon"
 			x: -3.0d
 			y: -13.0d
@@ -1141,7 +1141,7 @@
 			}]
 		}
 		{
-			title: "Common Shaders Grab-bag"
+			title: "普通皮肤奖励袋"
 			icon: "immersiveengineering:shader_bag_common"
 			x: -4.0d
 			y: -13.0d
@@ -1162,7 +1162,7 @@
 			}]
 		}
 		{
-			title: "Display Stand"
+			title: "展示架"
 			icon: "statues:display_stand"
 			x: 3.5d
 			y: 0.5d
@@ -1182,7 +1182,7 @@
 			}]
 		}
 		{
-			title: "Ender Dragon Head"
+			title: "末影龙头颅"
 			icon: "minecraft:dragon_head"
 			x: -4.0d
 			y: -10.0d
@@ -1203,7 +1203,7 @@
 			}]
 		}
 		{
-			title: "Fireball x8"
+			title: "火球x8"
 			icon: "cyclic:fireball"
 			x: 4.5d
 			y: -1.0d
@@ -1223,7 +1223,7 @@
 			}]
 		}
 		{
-			title: "Dark Fireball x8"
+			title: "暗火球x8"
 			icon: "cyclic:fireball_dark"
 			x: 3.5d
 			y: -1.0d
@@ -1243,7 +1243,7 @@
 			}]
 		}
 		{
-			title: "Rare Shader Grab-bag"
+			title: "稀有皮肤奖励袋"
 			icon: "immersiveengineering:shader_bag_rare"
 			x: -2.0d
 			y: -13.0d
@@ -1264,7 +1264,7 @@
 			}]
 		}
 		{
-			title: "Tome of knowledge"
+			title: "炼金术秘卷"
 			icon: "projecte:tome"
 			x: -4.0d
 			y: -5.5d
@@ -1285,7 +1285,7 @@
 			}]
 		}
 		{
-			title: "Masterwork Shader Grab-bag"
+			title: "杰作皮肤奖励袋"
 			icon: "immersiveengineering:shader_bag_ie_masterwork"
 			x: 0.0d
 			y: -13.0d
@@ -1306,7 +1306,7 @@
 			}]
 		}
 		{
-			title: "Dripstone x64"
+			title: "滴水石块x64"
 			icon: "minecraft:dripstone_block"
 			x: 8.5d
 			y: -11.5d
@@ -1325,7 +1325,7 @@
 			}]
 		}
 		{
-			title: "Creative Defense Slot"
+			title: "创造防御槽"
 			icon: {
 				id: "tconstruct:creative_slot"
 				Count: 1b
@@ -1352,7 +1352,7 @@
 			}]
 		}
 		{
-			title: "Scathed Disc 2"
+			title: "破损的唱片2"
 			icon: "botania:record_gaia_1"
 			x: 6.5d
 			y: 10.0d
@@ -1371,7 +1371,7 @@
 			}]
 		}
 		{
-			title: "Wanderer Disc"
+			title: "漂泊者音乐唱片"
 			icon: "biomesoplenty:music_disc_wanderer"
 			x: 4.5d
 			y: 9.0d
@@ -1390,7 +1390,7 @@
 			}]
 		}
 		{
-			title: "Wait Disc"
+			title: "唱片-Wait"
 			icon: "minecraft:music_disc_wait"
 			x: 5.5d
 			y: 10.0d
@@ -1409,7 +1409,7 @@
 			}]
 		}
 		{
-			title: "11 Disc"
+			title: "唱片-11"
 			icon: "minecraft:music_disc_11"
 			x: 4.5d
 			y: 10.0d
@@ -1428,7 +1428,7 @@
 			}]
 		}
 		{
-			title: "Ward Disc"
+			title: "唱片-Ward"
 			icon: "minecraft:music_disc_ward"
 			x: 3.5d
 			y: 10.0d
@@ -1447,7 +1447,7 @@
 			}]
 		}
 		{
-			title: "Stal Disc"
+			title: "唱片-Stal"
 			icon: "minecraft:music_disc_stal"
 			x: 6.5d
 			y: 9.0d
@@ -1466,7 +1466,7 @@
 			}]
 		}
 		{
-			title: "Mellohi Disc"
+			title: "唱片-Mellohi"
 			icon: "minecraft:music_disc_mellohi"
 			x: 6.5d
 			y: 6.0d
@@ -1485,7 +1485,7 @@
 			}]
 		}
 		{
-			title: "Mall Disc"
+			title: "唱片-Mall"
 			icon: "minecraft:music_disc_mall"
 			x: 5.5d
 			y: 7.0d
@@ -1504,7 +1504,7 @@
 			}]
 		}
 		{
-			title: "Far Disc"
+			title: "唱片-Far"
 			icon: "minecraft:music_disc_far"
 			x: 4.5d
 			y: 7.0d
@@ -1523,7 +1523,7 @@
 			}]
 		}
 		{
-			title: "Chirp Disc"
+			title: "唱片-Chirp"
 			icon: "minecraft:music_disc_chirp"
 			x: 5.5d
 			y: 6.0d
@@ -1542,7 +1542,7 @@
 			}]
 		}
 		{
-			title: "Cat Disc"
+			title: "唱片-Cat"
 			icon: "minecraft:music_disc_cat"
 			x: 3.5d
 			y: 7.0d
@@ -1561,7 +1561,7 @@
 			}]
 		}
 		{
-			title: "Otherside Disc"
+			title: "唱片-Otherside"
 			icon: "minecraft:music_disc_otherside"
 			x: 3.5d
 			y: 8.0d
@@ -1580,7 +1580,7 @@
 			}]
 		}
 		{
-			title: "Strad Disc"
+			title: "唱片-Strad"
 			icon: "minecraft:music_disc_strad"
 			x: 6.5d
 			y: 7.0d
@@ -1599,7 +1599,7 @@
 			}]
 		}
 		{
-			title: "13 Disc"
+			title: "唱片-13"
 			icon: "minecraft:music_disc_13"
 			x: 3.5d
 			y: 6.0d
@@ -1618,7 +1618,7 @@
 			}]
 		}
 		{
-			title: "TheBrightSide Disc"
+			title: "唱片-TheBrightSide"
 			icon: "create_confectionery:the_bright_side"
 			x: 6.5d
 			y: 8.0d
@@ -1637,7 +1637,7 @@
 			}]
 		}
 		{
-			title: "Daze Disc"
+			title: "唱片-Daze"
 			icon: "alexsmobs:music_disc_daze"
 			x: 5.5d
 			y: 9.0d
@@ -1656,7 +1656,7 @@
 			}]
 		}
 		{
-			title: "Thine Disc"
+			title: "唱片-Thine"
 			icon: "alexsmobs:music_disc_thime"
 			x: 4.5d
 			y: 8.0d
@@ -1675,7 +1675,7 @@
 			}]
 		}
 		{
-			title: "Pigstep Disc"
+			title: "唱片-Pigstep"
 			icon: "minecraft:music_disc_pigstep"
 			x: 5.5d
 			y: 8.0d
@@ -1694,7 +1694,7 @@
 			}]
 		}
 		{
-			title: "Blocks Disc"
+			title: "唱片-Blocks"
 			icon: "minecraft:music_disc_blocks"
 			x: 4.5d
 			y: 6.0d
@@ -1713,7 +1713,7 @@
 			}]
 		}
 		{
-			title: "Big Book of Bees"
+			title: "蜜蜂巨作"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1738,7 +1738,7 @@
 			}]
 		}
 		{
-			title: "Pnumaticraft Guidebook"
+			title: "PNC:R手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1763,7 +1763,7 @@
 			}]
 		}
 		{
-			title: "Network Guide Book"
+			title: "存储网络指导手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1788,7 +1788,7 @@
 			}]
 		}
 		{
-			title: "Modular Routers"
+			title: "模块化路由器"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1813,7 +1813,7 @@
 			}]
 		}
 		{
-			title: "Deep Mob Learning Guidebook"
+			title: "深度怪物学习手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1838,7 +1838,7 @@
 			}]
 		}
 		{
-			title: "Engineer's Decor Guidebook"
+			title: "工程师的装饰手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1863,7 +1863,7 @@
 			}]
 		}
 		{
-			title: "Mystical Agriculture Guidebook"
+			title: "神秘农业手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1913,7 +1913,7 @@
 			}]
 		}
 		{
-			title: "Cyclic Guidebook"
+			title: "循环指南"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1938,7 +1938,7 @@
 			}]
 		}
 		{
-			title: "Extended Crafting Guidebook"
+			title: "合成拓展手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1963,7 +1963,7 @@
 			}]
 		}
 		{
-			title: "Little Logistics Guidebook"
+			title: "迷你物流手册"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -1988,7 +1988,7 @@
 			}]
 		}
 		{
-			title: "Chronicle of Shadows"
+			title: "阴影编年史"
 			icon: {
 				id: "patchouli:guide_book"
 				Count: 1b
@@ -2039,7 +2039,7 @@
 			}]
 		}
 		{
-			title: "Menril Sapling"
+			title: "门瑞欧树苗"
 			icon: "integrateddynamics:menril_sapling"
 			x: -4.0d
 			y: -7.0d
@@ -2060,7 +2060,7 @@
 			}]
 		}
 		{
-			title: "Spawner"
+			title: "刷怪笼"
 			icon: "minecraft:spawner"
 			x: -4.0d
 			y: -4.0d
@@ -2082,7 +2082,7 @@
 			}]
 		}
 		{
-			title: "Chorus Flower"
+			title: "紫颂花"
 			icon: "minecraft:chorus_flower"
 			x: -2.0d
 			y: -10.0d
@@ -2148,11 +2148,11 @@
 			}]
 		}
 		{
-			title: "Advanced Circuit x16"
+			title: "高级控制电路x16"
 			icon: "mekanism:advanced_control_circuit"
 			x: -3.0d
 			y: -1.0d
-			subtitle: "1下界合金币 2钻石币"
+			subtitle: "1下界合金币+2钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "12FCFC759C44D1EB"
 			tasks: [
@@ -2178,11 +2178,11 @@
 			}]
 		}
 		{
-			title: "Elite Circuit x16"
+			title: "精英控制电路x16"
 			icon: "mekanism:elite_control_circuit"
 			x: -2.0d
 			y: -1.0d
-			subtitle: "1下界合金币 6钻石币"
+			subtitle: "1下界合金币+6钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "3A2D0681F4F31D9C"
 			tasks: [
@@ -2208,11 +2208,11 @@
 			}]
 		}
 		{
-			title: "Ultimate Circuit x16"
+			title: "终极控制电路x16"
 			icon: "mekanism:ultimate_control_circuit"
 			x: -1.0d
 			y: -1.0d
-			subtitle: "2下界合金币 3钻石币"
+			subtitle: "2下界合金币+3钻石币"
 			dependencies: ["425C628D28B78967"]
 			id: "54C62BC191AFB7CD"
 			tasks: [
@@ -2239,7 +2239,7 @@
 			}]
 		}
 		{
-			title: "Engineering Processor x8"
+			title: "工程处理器x8"
 			icon: "ae2:engineering_processor"
 			x: -4.0d
 			y: 0.5d
@@ -2262,7 +2262,7 @@
 			}]
 		}
 		{
-			title: "Calculation Processor x8"
+			title: "运算处理器x8"
 			icon: "ae2:calculation_processor"
 			x: -3.0d
 			y: 0.5d
@@ -2285,7 +2285,7 @@
 			}]
 		}
 		{
-			title: "Logic Processor x8"
+			title: "逻辑处理器x8"
 			icon: "ae2:logic_processor"
 			x: -2.0d
 			y: 0.5d
@@ -2308,7 +2308,7 @@
 			}]
 		}
 		{
-			title: "Paraglider"
+			title: "滑翔伞"
 			icon: "paraglider:deku_leaf"
 			x: 3.5d
 			y: -4.0d
