@@ -2402,7 +2402,7 @@
 		{
 			x: 2.0d
 			y: 21.5d
-			description: ["A crafting component. Used to add pieces of logic to in a programmer for drones."]
+			description: ["一种可合成的物品。在编程器内编程后可以给无人机增加一些功能。"]
 			dependencies: ["4191EEBA254F9797"]
 			id: "5AB216038CBA0888"
 			tasks: [{
